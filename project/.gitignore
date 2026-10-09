@@ -1,8 +1,0 @@
-r2.env
-*.env
-!.env.example
-!r2.env.example
-__pycache__/
-*.pyc
-dewey-anthropic-output/r2-staging/
-dewey-anthropic-output/r2-staging-exact-day/

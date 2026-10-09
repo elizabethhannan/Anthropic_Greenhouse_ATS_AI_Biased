@@ -1,7 +1,36 @@
+# --- Secrets (never commit) ---
 r2.env
 *.env
-*.parquet
+!.env.example
+!r2.env.example
+
+# --- Environments, IDE, caches, OS ---
+.venv/
 .venv*/
+venv/
 .idea/
 __pycache__/
+*.pyc
 .DS_Store
+
+# --- Person-level and raw source data (kept in Cloudflare R2, not GitHub) ---
+*.parquet
+dewey-anthropic-output/
+dewey-downloads/
+hiring_outcomes/
+job_postings/historical_outputs/
+job_postings/missing_archive_outputs/
+job_postings/snapshots/
+person_scan_checkpoint.json
+
+# --- Locks, logs, local junk ---
+*.lock
+*.log
+.person_halfway_watch.lock/
+AnthropicBiasData...
+python3 test_r2.py
+_github_push_*.tar.gz
+AnthropicBiasData_*.tar.gz
+
+# Retired nested clone (history is on GitHub)
+.git_pre_*/
