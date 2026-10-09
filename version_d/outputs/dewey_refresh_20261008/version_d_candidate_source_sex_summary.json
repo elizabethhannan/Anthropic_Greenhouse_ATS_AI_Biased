@@ -1,0 +1,66 @@
+{
+  "status": "VERSION_D_CANDIDATE_SOURCE_SEX_UPDATE",
+  "completed_at_utc": "2026-10-09T09:03:53.355829+00:00",
+  "target_ids": 143,
+  "excluded_version_c_overlaps": 2,
+  "person_catalog_version": "1.2",
+  "person_version_timestamp": "2026-09-21T19:44:59.910000+00:00",
+  "person_refresh_at": "2026-09-28T07:55:12.239582Z",
+  "files_scanned": 384,
+  "source_rows_parsed": 815476877,
+  "matched_ids": 143,
+  "matching_person_rows": 143,
+  "extra_matching_rows_over_matched_ids": 0,
+  "raw_sex_counts_by_row": {
+    "male": 83,
+    "female": 37,
+    "": 23
+  },
+  "source_dataset_version_values": [
+    "35.2"
+  ],
+  "counts_by_distinct_person_id": {
+    "MALE": 83,
+    "FEMALE": 37,
+    "UNKNOWN_SOURCE_BLANK": 23,
+    "UNMATCHED": 0,
+    "CONFLICTING_SOURCE_VALUES": 0,
+    "UNRECOGNIZED_SOURCE_VALUE": 0
+  },
+  "monthly_counts_by_distinct_person_id": {
+    "2026-08": {
+      "MALE": 81,
+      "FEMALE": 37,
+      "UNKNOWN_SOURCE_BLANK": 21,
+      "UNMATCHED": 0,
+      "CONFLICTING_SOURCE_VALUES": 0,
+      "UNRECOGNIZED_SOURCE_VALUE": 0
+    },
+    "2026-09": {
+      "MALE": 2,
+      "FEMALE": 0,
+      "UNKNOWN_SOURCE_BLANK": 2,
+      "UNMATCHED": 0,
+      "CONFLICTING_SOURCE_VALUES": 0,
+      "UNRECOGNIZED_SOURCE_VALUE": 0
+    }
+  },
+  "male_minus_female": 46,
+  "male_female_ratio": 2.2432432432432434,
+  "frozen_integrity": "PASS",
+  "frozen_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "inference_performed": false,
+  "limitations": [
+    "SEX is a provider source field; no independently verified sex or documented field-method confidence is established.",
+    "Provider ID changes can affect distinct-person comparisons.",
+    "Missing source SEX is separate from unmatched IDs and conflicts.",
+    "Date precision is month-only; September coverage is incomplete.",
+    "All counts refer only to the 143 additional candidate IDs and do not change frozen Version C."
+  ],
+  "public_release": "HOLD / REVIEW REQUIRED",
+  "source_compressed_bytes_scanned_nominal": 92733163831,
+  "transfer_measurement_note": "Nominal completed source-file bytes, not total physical network transfer; parser sampling, retries and interrupted attempts may add transfer.",
+  "version_c_record_dataset_version_values": [
+    "35.1"
+  ]
+}

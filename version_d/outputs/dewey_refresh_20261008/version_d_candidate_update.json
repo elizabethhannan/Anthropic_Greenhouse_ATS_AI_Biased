@@ -1,0 +1,130 @@
+{
+  "status": "VERSION_D_CANDIDATE_UPDATE",
+  "checked_at_utc": "2026-10-09T06:52:23.702928+00:00",
+  "project_id": 34978,
+  "project_external_id": "prj_37ga6vtz",
+  "versions": {
+    "person": {
+      "frozen": {
+        "doiVersionString": "1.1",
+        "doi": "10.82551/wzkb-ts67",
+        "versionTimestamp": "2026-08-20T16:27:42.145000+00:00",
+        "lastRefreshAt": "2026-08-28T07:57:35.419230Z",
+        "rowsCount": 814867031,
+        "sizeBytes": 92923583333
+      },
+      "current": {
+        "doiVersionString": "1.2",
+        "doi": "10.82551/wzkb-ts67",
+        "versionTimestamp": "2026-09-21T19:44:59.910000+00:00",
+        "lastRefreshAt": "2026-09-28T07:55:12.239582Z",
+        "rowsCount": 815476877,
+        "sizeBytes": 92733163831
+      }
+    },
+    "experience": {
+      "frozen": {
+        "doiVersionString": "",
+        "doi": "",
+        "versionTimestamp": "2026-08-20T16:57:50.707000+00:00",
+        "lastRefreshAt": "2026-08-28T08:00:33.136202Z",
+        "rowsCount": 1654638456,
+        "sizeBytes": 195957558296
+      },
+      "current": {
+        "doiVersionString": "",
+        "doi": "",
+        "versionTimestamp": "2026-09-21T20:04:29.821000+00:00",
+        "lastRefreshAt": "2026-09-28T08:01:01.665564Z",
+        "rowsCount": 1664446321,
+        "sizeBytes": 191714141596
+      }
+    }
+  },
+  "experience_files_queried": 774,
+  "employment_rows": 145,
+  "distinct_people": 145,
+  "new_distinct_ids_vs_version_c": 143,
+  "already_in_version_c": 2,
+  "exact_duplicate_rows": 0,
+  "extra_rows_over_distinct_people": 0,
+  "people_with_multiple_rows": 0,
+  "missing_person_id_rows": 0,
+  "monthly": {
+    "2026-08": {
+      "employment_rows": 141,
+      "distinct_people": 141,
+      "not_in_version_c": 139,
+      "already_in_version_c": 2
+    },
+    "2026-09": {
+      "employment_rows": 4,
+      "distinct_people": 4,
+      "not_in_version_c": 4,
+      "already_in_version_c": 0
+    }
+  },
+  "date_precision": {
+    "month": 145
+  },
+  "frozen_integrity": {
+    "file_set_match": true,
+    "content_hash_mismatches": 0,
+    "fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+    "status": "PASS"
+  },
+  "limitations": [
+    "Observed employment-start records are not a census of hires; profile collection and update lag remain unknown.",
+    "September 21 source version and September 28 export do not establish complete coverage through September 30.",
+    "Company filter is exact Anthropic after lowercase and trim; aliases and subsidiaries may be missed.",
+    "Month and day precision are retained; day precision is not assumed for month-only dates.",
+    "Identity is based on provider PERSON_ID. Changed or duplicate provider IDs can overcount people; no name-based identity inference was performed.",
+    "People already in Version C with a later recorded start are reported separately, not automatically added to frozen totals.",
+    "Monthly distinct counts can overlap and are not additive.",
+    "No Person payload was downloaded. Person current-job records and employment histories were not joined; no SEX field was fetched, inferred, or analyzed.",
+    "Existing project Experience folder remains on the August snapshot; refreshed dataset-level path was queried instead.",
+    "Version D candidate only; no causal, applicant-denominator, demographic, or finalized analytical claims."
+  ],
+  "public_release": "HOLD / REVIEW REQUIRED",
+  "source_manifest_unchanged_after_scan": true,
+  "version_c_overlap_start_date_changes": [
+    {
+      "person_id": "FPdrX6pIAMChx9m1qjmxlA_0000",
+      "frozen_start_dates": [
+        "2026-04"
+      ],
+      "current_start_dates": [
+        "2026-08"
+      ]
+    },
+    {
+      "person_id": "GBAyrQvBg9rXtBwoiaGJDA_0000",
+      "frozen_start_dates": [
+        "2026-04"
+      ],
+      "current_start_dates": [
+        "2026-08"
+      ]
+    }
+  ],
+  "frozen_source_counts": {
+    "employment_rows": 1097,
+    "distinct_people": 1095,
+    "extra_rows_over_distinct_people": 2,
+    "august_september_starts": 0
+  },
+  "source_exports": {
+    "person": {
+      "file_count": 384,
+      "earliest_modified_at": "2026-09-28T07:49:31.493000+00:00",
+      "latest_modified_at": "2026-09-28T07:54:40.981000+00:00",
+      "size_bytes": 92733163831
+    },
+    "experience": {
+      "file_count": 774,
+      "earliest_modified_at": "2026-09-28T07:51:00.282000+00:00",
+      "latest_modified_at": "2026-09-28T07:58:16.712000+00:00",
+      "size_bytes": 191714141596
+    }
+  }
+}

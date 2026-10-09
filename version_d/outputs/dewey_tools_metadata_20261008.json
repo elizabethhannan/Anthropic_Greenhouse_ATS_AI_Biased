@@ -1,0 +1,3511 @@
+{
+  "tools": [
+    {
+      "name": "search_datasets",
+      "title": "Search Datasets",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "Search Dewey datasets the user can access by keyword and filters. Returns matching dataset summaries with permissions, categories, data partners, and pagination.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Search query string (required).",
+            "minLength": 1
+          },
+          "userIntent": {
+            "type": "string",
+            "description": "Brief, task-specific user intent explaining what the user hopes to find. Do not include private notes, hidden chain-of-thought, or sensitive data.",
+            "maxLength": 1000
+          },
+          "fields": {
+            "description": "Optional top-level fields to include per dataset result. Defaults to a trimmed result shape when omitted. Use `\"all\"` for the full payload. Nested paths are not supported.",
+            "oneOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "all"
+                ]
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            ]
+          },
+          "filters": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Optional search filters. Each field is independently optional and filters can be combined.",
+            "properties": {
+              "canDownload": {
+                "type": "boolean",
+                "description": "Alias for `can_download`."
+              },
+              "canSample": {
+                "type": "boolean",
+                "description": "Alias for `can_sample`."
+              },
+              "category": {
+                "type": "string",
+                "description": "Category slug filter.",
+                "minLength": 1
+              },
+              "dataPartner": {
+                "type": "string",
+                "description": "Alias for `data_partner`.",
+                "minLength": 1
+              },
+              "dataProduct": {
+                "type": "string",
+                "description": "Alias for `data_product`.",
+                "minLength": 1
+              },
+              "container": {
+                "type": "string",
+                "description": "Deprecated alias for `data_product`.",
+                "minLength": 1
+              },
+              "containerSlug": {
+                "type": "string",
+                "description": "Deprecated alias for `data_product`.",
+                "minLength": 1
+              },
+              "region": {
+                "type": "string",
+                "description": "Region filter (case-insensitive exact match against dataset region).",
+                "minLength": 1
+              }
+            }
+          },
+          "sortBy": {
+            "type": "string",
+            "description": "Alias for `sort_by`.",
+            "enum": [
+              "relevant",
+              "featured",
+              "name",
+              "slug",
+              "created",
+              "id",
+              "dataProviderName",
+              "dataProviderSlug"
+            ]
+          },
+          "sortOrder": {
+            "type": "string",
+            "description": "Alias for `sort_order`.",
+            "enum": [
+              "asc",
+              "desc"
+            ]
+          },
+          "pageNumber": {
+            "type": "integer",
+            "description": "Alias for `page_number`.",
+            "minimum": 1
+          },
+          "pageSize": {
+            "type": "integer",
+            "description": "Alias for `page_size`.",
+            "minimum": 1,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "query"
+        ]
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "datasets": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "pagination": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "pageNumber": {
+                    "type": "integer"
+                  },
+                  "lastPageNumber": {
+                    "type": "integer"
+                  },
+                  "pageSize": {
+                    "type": "integer"
+                  },
+                  "hasPrevious": {
+                    "type": "boolean"
+                  },
+                  "hasNext": {
+                    "type": "boolean"
+                  },
+                  "nearbyPageNumbers": {
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "string",
+                          "enum": [
+                            "...",
+                            "\u2026"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "totalNumRecords": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "pageNumber",
+                  "lastPageNumber",
+                  "pageSize",
+                  "hasPrevious",
+                  "hasNext",
+                  "nearbyPageNumbers",
+                  "totalNumRecords"
+                ]
+              },
+              "results": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "externalId": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "slug": {
+                      "type": "string"
+                    },
+                    "dataPartner": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "externalId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "slug": {
+                          "type": "string"
+                        },
+                        "tagline": {
+                          "type": "string"
+                        },
+                        "summary": {
+                          "type": "string"
+                        },
+                        "isExternalProvider": {
+                          "type": "boolean"
+                        },
+                        "logoUrl": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "logoWidth": {
+                          "anyOf": [
+                            {
+                              "type": "integer"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "logoHeight": {
+                          "anyOf": [
+                            {
+                              "type": "integer"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "documentationPage": {
+                          "anyOf": [
+                            {
+                              "type": "object",
+                              "additionalProperties": false,
+                              "properties": {
+                                "externalId": {
+                                  "type": "string"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "slug": {
+                                  "type": "string"
+                                },
+                                "section": {
+                                  "type": "string"
+                                },
+                                "publicPath": {
+                                  "type": "string"
+                                },
+                                "publicUrl": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "externalId",
+                                "title",
+                                "slug",
+                                "section",
+                                "publicPath",
+                                "publicUrl"
+                              ]
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "citationsUrl": {
+                          "type": "string"
+                        },
+                        "changelogUrl": {
+                          "type": "string"
+                        },
+                        "datasetCount": {
+                          "type": "integer"
+                        },
+                        "dataProductCount": {
+                          "type": "integer"
+                        },
+                        "dataProducts": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "id": {
+                                "type": "integer"
+                              },
+                              "externalId": {
+                                "type": "string"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "slug": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "externalId",
+                              "name",
+                              "slug"
+                            ]
+                          }
+                        },
+                        "containers": {
+                          "type": "array",
+                          "description": "Deprecated alias for data_products.",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "id": {
+                                "type": "integer"
+                              },
+                              "externalId": {
+                                "type": "string"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "slug": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "externalId",
+                              "name",
+                              "slug"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "externalId",
+                        "name",
+                        "slug",
+                        "tagline",
+                        "summary",
+                        "isExternalProvider",
+                        "logoUrl",
+                        "logoWidth",
+                        "logoHeight",
+                        "documentationPage",
+                        "citationsUrl",
+                        "changelogUrl",
+                        "datasetCount",
+                        "dataProductCount",
+                        "dataProducts",
+                        "containers"
+                      ]
+                    },
+                    "isPrimary": {
+                      "type": "boolean"
+                    },
+                    "isSupplementary": {
+                      "type": "boolean"
+                    },
+                    "canCustomize": {
+                      "type": "boolean"
+                    },
+                    "mustCustomize": {
+                      "type": "boolean"
+                    },
+                    "customizationRequiredPercentage": {
+                      "anyOf": [
+                        {
+                          "type": "number"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "supplementaryStatus": {
+                      "type": "string"
+                    },
+                    "datasetAccessType": {
+                      "type": "string",
+                      "enum": [
+                        "subscription",
+                        "institutional",
+                        "external"
+                      ]
+                    },
+                    "region": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "refreshDescription": {
+                      "type": "string"
+                    },
+                    "collectionMethodology": {
+                      "type": "string"
+                    },
+                    "observationLevel": {
+                      "type": "string"
+                    },
+                    "documentationPage": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "externalId": {
+                              "type": "string"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "section": {
+                              "type": "string"
+                            },
+                            "publicPath": {
+                              "type": "string"
+                            },
+                            "publicUrl": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "externalId",
+                            "title",
+                            "slug",
+                            "section",
+                            "publicPath",
+                            "publicUrl"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "citationsUrl": {
+                      "type": "string"
+                    },
+                    "unloadingDefaultFileType": {
+                      "type": "string"
+                    },
+                    "fileTypeDisplay": {
+                      "type": "string"
+                    },
+                    "defaultSortOrder": {
+                      "type": "integer"
+                    },
+                    "versionTimestamp": {
+                      "type": "string"
+                    },
+                    "rowsCount": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "sizeBytes": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "sizeBytesDisplay": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "partitionInfo": {
+                      "anyOf": [
+                        {
+                          "type": "object"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "accessInfo": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "highestRanked": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "accessLevelNumber": {
+                              "type": "integer"
+                            },
+                            "canView": {
+                              "type": "boolean"
+                            },
+                            "canSample": {
+                              "type": "boolean"
+                            },
+                            "canDownload": {
+                              "type": "boolean"
+                            },
+                            "canCustomize": {
+                              "type": "boolean"
+                            }
+                          },
+                          "required": [
+                            "accessLevelNumber",
+                            "canView",
+                            "canSample",
+                            "canDownload",
+                            "canCustomize"
+                          ]
+                        },
+                        "effective": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "canView": {
+                              "type": "boolean"
+                            },
+                            "canDownload": {
+                              "type": "boolean"
+                            },
+                            "canCustomize": {
+                              "type": "boolean"
+                            },
+                            "canGetData": {
+                              "type": "boolean"
+                            },
+                            "hasSubscriptionGradeAccess": {
+                              "type": "boolean"
+                            }
+                          },
+                          "required": [
+                            "canView",
+                            "canDownload",
+                            "canCustomize",
+                            "canGetData",
+                            "hasSubscriptionGradeAccess"
+                          ]
+                        },
+                        "teamAccessInfo": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "accountId": {
+                                "type": "integer"
+                              },
+                              "accountKind": {
+                                "type": "string"
+                              },
+                              "accountName": {
+                                "type": "string"
+                              },
+                              "accessLevelNumber": {
+                                "anyOf": [
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "canView": {
+                                "anyOf": [
+                                  {
+                                    "type": "boolean"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "accountId",
+                              "accountKind",
+                              "accountName",
+                              "accessLevelNumber",
+                              "canView"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "highestRanked",
+                        "effective"
+                      ]
+                    },
+                    "userAccessMessage": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "userAccessReasonCode": {
+                      "type": "string"
+                    },
+                    "isFree": {
+                      "type": "boolean"
+                    },
+                    "isFileOnly": {
+                      "type": "boolean"
+                    },
+                    "dataProduct": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "description": "The Data Product that owns this Dataset.",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "externalId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "slug": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "externalId",
+                        "name",
+                        "slug"
+                      ]
+                    },
+                    "dataProductSlug": {
+                      "type": "string"
+                    },
+                    "containerSlug": {
+                      "type": "string",
+                      "description": "Deprecated alias for data_product_slug."
+                    },
+                    "categories": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "id": {
+                            "type": "integer"
+                          },
+                          "externalId": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "slug": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "externalId",
+                          "name",
+                          "slug",
+                          "description"
+                        ]
+                      }
+                    },
+                    "unavailableAfter": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "isUnavailable": {
+                      "type": "boolean"
+                    },
+                    "lastRefreshAt": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "lastRefreshThroughWindow": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "lastRefreshScheduleDescription": {
+                      "type": "string"
+                    },
+                    "attributesInfo": {
+                      "anyOf": [
+                        {
+                          "type": "array"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "externalId"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "pagination",
+              "results"
+            ]
+          }
+        },
+        "required": [
+          "query",
+          "datasets"
+        ]
+      }
+    },
+    {
+      "name": "semantically_search_datasets",
+      "title": "Semantic Dataset Search",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "Search Dewey datasets the user can access by semantic meaning instead of exact keywords. Returns dataset summaries ranked by semantic relevance, with permissions, categories, data partners, and pagination.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Semantic query string (required).",
+            "minLength": 1
+          },
+          "userIntent": {
+            "type": "string",
+            "description": "Brief, task-specific user intent explaining what the user hopes to find. Do not include private notes, hidden chain-of-thought, or sensitive data.",
+            "maxLength": 1000
+          },
+          "fields": {
+            "description": "Optional top-level fields to include per dataset result. Defaults to a trimmed result shape when omitted. Use `\"all\"` for the full payload. Nested paths are not supported.",
+            "oneOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "all"
+                ]
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            ]
+          },
+          "sortBy": {
+            "type": "string",
+            "description": "Alias for `sort_by`.",
+            "enum": [
+              "relevant",
+              "featured",
+              "name",
+              "slug",
+              "created",
+              "id",
+              "dataProviderName",
+              "dataProviderSlug"
+            ]
+          },
+          "sortOrder": {
+            "type": "string",
+            "description": "Alias for `sort_order`.",
+            "enum": [
+              "asc",
+              "desc"
+            ]
+          },
+          "threshold": {
+            "type": "number",
+            "description": "Optional semantic distance threshold. Lower is stricter. Must be between 0.0 and 1.0.",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.63
+          },
+          "pageNumber": {
+            "type": "integer",
+            "description": "Alias for `page_number`.",
+            "minimum": 1
+          },
+          "pageSize": {
+            "type": "integer",
+            "description": "Alias for `page_size`.",
+            "minimum": 1,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "query"
+        ]
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "datasets": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "pagination": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "pageNumber": {
+                    "type": "integer"
+                  },
+                  "lastPageNumber": {
+                    "type": "integer"
+                  },
+                  "pageSize": {
+                    "type": "integer"
+                  },
+                  "hasPrevious": {
+                    "type": "boolean"
+                  },
+                  "hasNext": {
+                    "type": "boolean"
+                  },
+                  "nearbyPageNumbers": {
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "string",
+                          "enum": [
+                            "...",
+                            "\u2026"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "totalNumRecords": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "pageNumber",
+                  "lastPageNumber",
+                  "pageSize",
+                  "hasPrevious",
+                  "hasNext",
+                  "nearbyPageNumbers",
+                  "totalNumRecords"
+                ]
+              },
+              "results": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "externalId": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "slug": {
+                      "type": "string"
+                    },
+                    "dataPartner": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "externalId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "slug": {
+                          "type": "string"
+                        },
+                        "tagline": {
+                          "type": "string"
+                        },
+                        "summary": {
+                          "type": "string"
+                        },
+                        "isExternalProvider": {
+                          "type": "boolean"
+                        },
+                        "logoUrl": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "logoWidth": {
+                          "anyOf": [
+                            {
+                              "type": "integer"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "logoHeight": {
+                          "anyOf": [
+                            {
+                              "type": "integer"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "documentationPage": {
+                          "anyOf": [
+                            {
+                              "type": "object",
+                              "additionalProperties": false,
+                              "properties": {
+                                "externalId": {
+                                  "type": "string"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "slug": {
+                                  "type": "string"
+                                },
+                                "section": {
+                                  "type": "string"
+                                },
+                                "publicPath": {
+                                  "type": "string"
+                                },
+                                "publicUrl": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "externalId",
+                                "title",
+                                "slug",
+                                "section",
+                                "publicPath",
+                                "publicUrl"
+                              ]
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "citationsUrl": {
+                          "type": "string"
+                        },
+                        "changelogUrl": {
+                          "type": "string"
+                        },
+                        "datasetCount": {
+                          "type": "integer"
+                        },
+                        "dataProductCount": {
+                          "type": "integer"
+                        },
+                        "dataProducts": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "id": {
+                                "type": "integer"
+                              },
+                              "externalId": {
+                                "type": "string"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "slug": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "externalId",
+                              "name",
+                              "slug"
+                            ]
+                          }
+                        },
+                        "containers": {
+                          "type": "array",
+                          "description": "Deprecated alias for data_products.",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "id": {
+                                "type": "integer"
+                              },
+                              "externalId": {
+                                "type": "string"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "slug": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "externalId",
+                              "name",
+                              "slug"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "externalId",
+                        "name",
+                        "slug",
+                        "tagline",
+                        "summary",
+                        "isExternalProvider",
+                        "logoUrl",
+                        "logoWidth",
+                        "logoHeight",
+                        "documentationPage",
+                        "citationsUrl",
+                        "changelogUrl",
+                        "datasetCount",
+                        "dataProductCount",
+                        "dataProducts",
+                        "containers"
+                      ]
+                    },
+                    "isPrimary": {
+                      "type": "boolean"
+                    },
+                    "isSupplementary": {
+                      "type": "boolean"
+                    },
+                    "canCustomize": {
+                      "type": "boolean"
+                    },
+                    "mustCustomize": {
+                      "type": "boolean"
+                    },
+                    "customizationRequiredPercentage": {
+                      "anyOf": [
+                        {
+                          "type": "number"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "supplementaryStatus": {
+                      "type": "string"
+                    },
+                    "datasetAccessType": {
+                      "type": "string",
+                      "enum": [
+                        "subscription",
+                        "institutional",
+                        "external"
+                      ]
+                    },
+                    "region": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "refreshDescription": {
+                      "type": "string"
+                    },
+                    "collectionMethodology": {
+                      "type": "string"
+                    },
+                    "observationLevel": {
+                      "type": "string"
+                    },
+                    "documentationPage": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "externalId": {
+                              "type": "string"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "section": {
+                              "type": "string"
+                            },
+                            "publicPath": {
+                              "type": "string"
+                            },
+                            "publicUrl": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "externalId",
+                            "title",
+                            "slug",
+                            "section",
+                            "publicPath",
+                            "publicUrl"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "citationsUrl": {
+                      "type": "string"
+                    },
+                    "unloadingDefaultFileType": {
+                      "type": "string"
+                    },
+                    "fileTypeDisplay": {
+                      "type": "string"
+                    },
+                    "defaultSortOrder": {
+                      "type": "integer"
+                    },
+                    "versionTimestamp": {
+                      "type": "string"
+                    },
+                    "rowsCount": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "sizeBytes": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "sizeBytesDisplay": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "partitionInfo": {
+                      "anyOf": [
+                        {
+                          "type": "object"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "accessInfo": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "highestRanked": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "accessLevelNumber": {
+                              "type": "integer"
+                            },
+                            "canView": {
+                              "type": "boolean"
+                            },
+                            "canSample": {
+                              "type": "boolean"
+                            },
+                            "canDownload": {
+                              "type": "boolean"
+                            },
+                            "canCustomize": {
+                              "type": "boolean"
+                            }
+                          },
+                          "required": [
+                            "accessLevelNumber",
+                            "canView",
+                            "canSample",
+                            "canDownload",
+                            "canCustomize"
+                          ]
+                        },
+                        "effective": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "canView": {
+                              "type": "boolean"
+                            },
+                            "canDownload": {
+                              "type": "boolean"
+                            },
+                            "canCustomize": {
+                              "type": "boolean"
+                            },
+                            "canGetData": {
+                              "type": "boolean"
+                            },
+                            "hasSubscriptionGradeAccess": {
+                              "type": "boolean"
+                            }
+                          },
+                          "required": [
+                            "canView",
+                            "canDownload",
+                            "canCustomize",
+                            "canGetData",
+                            "hasSubscriptionGradeAccess"
+                          ]
+                        },
+                        "teamAccessInfo": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "accountId": {
+                                "type": "integer"
+                              },
+                              "accountKind": {
+                                "type": "string"
+                              },
+                              "accountName": {
+                                "type": "string"
+                              },
+                              "accessLevelNumber": {
+                                "anyOf": [
+                                  {
+                                    "type": "integer"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "canView": {
+                                "anyOf": [
+                                  {
+                                    "type": "boolean"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "accountId",
+                              "accountKind",
+                              "accountName",
+                              "accessLevelNumber",
+                              "canView"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "highestRanked",
+                        "effective"
+                      ]
+                    },
+                    "userAccessMessage": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "userAccessReasonCode": {
+                      "type": "string"
+                    },
+                    "isFree": {
+                      "type": "boolean"
+                    },
+                    "isFileOnly": {
+                      "type": "boolean"
+                    },
+                    "dataProduct": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "description": "The Data Product that owns this Dataset.",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "externalId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "slug": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "externalId",
+                        "name",
+                        "slug"
+                      ]
+                    },
+                    "dataProductSlug": {
+                      "type": "string"
+                    },
+                    "containerSlug": {
+                      "type": "string",
+                      "description": "Deprecated alias for data_product_slug."
+                    },
+                    "categories": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "id": {
+                            "type": "integer"
+                          },
+                          "externalId": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "slug": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "externalId",
+                          "name",
+                          "slug",
+                          "description"
+                        ]
+                      }
+                    },
+                    "unavailableAfter": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "isUnavailable": {
+                      "type": "boolean"
+                    },
+                    "lastRefreshAt": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "lastRefreshThroughWindow": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "lastRefreshScheduleDescription": {
+                      "type": "string"
+                    },
+                    "attributesInfo": {
+                      "anyOf": [
+                        {
+                          "type": "array"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "externalId"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "pagination",
+              "results"
+            ]
+          },
+          "semantic": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "threshold": {
+                "type": "number"
+              },
+              "embeddingAvailable": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "threshold",
+              "embeddingAvailable"
+            ]
+          }
+        },
+        "required": [
+          "query",
+          "datasets",
+          "semantic"
+        ]
+      }
+    },
+    {
+      "name": "get_dataset_details",
+      "title": "Get Dataset Details",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "Get detailed metadata for one Dewey dataset by slug. Defaults to a slim dataset profile and can optionally include team access, supplementary datasets, and fuller column metadata.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string",
+            "description": "Dataset slug.",
+            "minLength": 1
+          },
+          "projectId": {
+            "type": "integer",
+            "description": "Optional project id to scope access messaging.",
+            "minimum": 1
+          },
+          "includeTeamAccess": {
+            "type": "boolean",
+            "description": "Alias for `include_team_access`."
+          },
+          "includeSupplementary": {
+            "type": "boolean",
+            "description": "Alias for `include_supplementary`."
+          },
+          "columnsDisplay": {
+            "type": "string",
+            "description": "Alias for `columns_display`.",
+            "enum": [
+              "none",
+              "minimal",
+              "full"
+            ]
+          }
+        },
+        "required": [
+          "slug"
+        ]
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "dataset": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "externalId": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "string"
+              },
+              "needsAdminDownloadRequest": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "id",
+              "externalId",
+              "name",
+              "slug"
+            ]
+          }
+        },
+        "required": [
+          "slug",
+          "dataset"
+        ]
+      }
+    },
+    {
+      "name": "get_dataset_schema",
+      "title": "Get Dataset Schema",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "Get compact schema metadata for one Dewey dataset by slug. Returns column names, types, descriptions, partition info, and total column count.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string",
+            "description": "Dataset slug.",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "slug"
+        ]
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "externalId": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "schema": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "totalColumns": {
+                "type": "integer"
+              },
+              "columns": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "externalId": {
+                      "type": "string"
+                    },
+                    "dataType": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "pythonType": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "jsType": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "description": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "isNullable": {
+                      "anyOf": [
+                        {
+                          "type": "boolean"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "isCategorical": {
+                      "anyOf": [
+                        {
+                          "type": "boolean"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "externalId"
+                  ]
+                }
+              },
+              "partitionInfo": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "externalId": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "dataType": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "pythonType": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "jsType": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "formatType": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "description": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "isNullable": {
+                        "anyOf": [
+                          {
+                            "type": "boolean"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "hasMinMaxRange": {
+                        "type": "boolean"
+                      },
+                      "minValue": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "maxValue": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "externalId",
+                      "name",
+                      "dataType",
+                      "pythonType",
+                      "jsType",
+                      "formatType",
+                      "description",
+                      "isNullable",
+                      "hasMinMaxRange",
+                      "minValue",
+                      "maxValue"
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "totalColumns",
+              "columns",
+              "partitionInfo"
+            ]
+          }
+        },
+        "required": [
+          "slug",
+          "externalId",
+          "name",
+          "schema"
+        ]
+      }
+    },
+    {
+      "name": "get_related_datasets",
+      "title": "Get Related Datasets",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "Get datasets related to one Dewey dataset by slug, including supplementary datasets, sibling datasets in the same data_product, and joinable datasets with labeled join keys.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string",
+            "description": "Dataset slug.",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "slug"
+        ]
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "externalId": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "supplementaryDatasets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "externalId": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "canSample": {
+                  "type": "boolean"
+                },
+                "canDownload": {
+                  "type": "boolean"
+                },
+                "joinKeys": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "sourceField": {
+                        "type": "string"
+                      },
+                      "targetField": {
+                        "type": "string"
+                      },
+                      "notes": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "sourceField",
+                      "targetField",
+                      "notes"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "externalId",
+                "name",
+                "slug",
+                "canSample",
+                "canDownload",
+                "joinKeys"
+              ]
+            }
+          },
+          "siblingDatasets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "externalId": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "canSample": {
+                  "type": "boolean"
+                },
+                "canDownload": {
+                  "type": "boolean"
+                },
+                "joinKeys": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "sourceField": {
+                        "type": "string"
+                      },
+                      "targetField": {
+                        "type": "string"
+                      },
+                      "notes": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "sourceField",
+                      "targetField",
+                      "notes"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "externalId",
+                "name",
+                "slug",
+                "canSample",
+                "canDownload",
+                "joinKeys"
+              ]
+            }
+          },
+          "joinableDatasets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "externalId": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "canSample": {
+                  "type": "boolean"
+                },
+                "canDownload": {
+                  "type": "boolean"
+                },
+                "joinKeys": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "sourceField": {
+                        "type": "string"
+                      },
+                      "targetField": {
+                        "type": "string"
+                      },
+                      "notes": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "sourceField",
+                      "targetField",
+                      "notes"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "externalId",
+                "name",
+                "slug",
+                "canSample",
+                "canDownload",
+                "joinKeys"
+              ]
+            }
+          }
+        },
+        "required": [
+          "slug",
+          "externalId",
+          "name",
+          "supplementaryDatasets",
+          "siblingDatasets",
+          "joinableDatasets"
+        ]
+      }
+    },
+    {
+      "name": "get_download_info",
+      "title": "Get Download Info",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "Get download-focused metadata for one Dewey dataset by slug, including permissions, file type, row and size estimates, partition range details, customization requirements, and download documentation links.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string",
+            "description": "Dataset slug.",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "slug"
+        ]
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "externalId": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "isFileOnly": {
+            "type": "boolean"
+          },
+          "permissions": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "canDownload": {
+                "type": "boolean"
+              },
+              "canCustomize": {
+                "type": "boolean"
+              },
+              "userAccessMessage": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "userAccessReasonCode": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "canDownload",
+              "canCustomize",
+              "userAccessMessage",
+              "userAccessReasonCode"
+            ]
+          },
+          "download": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "fileType": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "fileTypeDisplay": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "rowCount": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "totalSizeBytes": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "totalSizeDisplay": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "partition": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "externalId": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "hasPartitionColumn": {
+                    "type": "boolean"
+                  },
+                  "columnName": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "columnType": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "pythonType": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "jsType": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "formatType": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "description": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "hasMinMaxRange": {
+                    "type": "boolean"
+                  },
+                  "minValue": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "maxValue": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "isTimePartitioned": {
+                    "type": "boolean"
+                  },
+                  "availableDateRange": {
+                    "anyOf": [
+                      {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "start": {
+                            "type": "string"
+                          },
+                          "end": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "start",
+                          "end"
+                        ]
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "externalId",
+                  "hasPartitionColumn",
+                  "columnName",
+                  "columnType",
+                  "pythonType",
+                  "jsType",
+                  "formatType",
+                  "description",
+                  "hasMinMaxRange",
+                  "minValue",
+                  "maxValue",
+                  "isTimePartitioned",
+                  "availableDateRange"
+                ]
+              }
+            },
+            "required": [
+              "fileType",
+              "fileTypeDisplay",
+              "rowCount",
+              "totalSizeBytes",
+              "totalSizeDisplay",
+              "partition"
+            ]
+          },
+          "customization": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "mustCustomize": {
+                "type": "boolean"
+              },
+              "datasetCanCustomize": {
+                "type": "boolean"
+              },
+              "minimumCustomizationPercentage": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "mustCustomize",
+              "datasetCanCustomize",
+              "minimumCustomizationPercentage"
+            ]
+          },
+          "docs": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "downloadInstructionsUrl": {
+                "type": "string"
+              },
+              "projectsUrl": {
+                "type": "string"
+              },
+              "doisUrl": {
+                "type": "string"
+              },
+              "deweypyUrl": {
+                "type": "string"
+              },
+              "datasetDocsUrl": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "downloadInstructionsUrl",
+              "projectsUrl",
+              "doisUrl",
+              "deweypyUrl",
+              "datasetDocsUrl"
+            ]
+          },
+          "partnerSpecificTerms": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "slug",
+          "externalId",
+          "name",
+          "isFileOnly",
+          "permissions",
+          "download",
+          "customization",
+          "docs",
+          "partnerSpecificTerms"
+        ]
+      }
+    },
+    {
+      "name": "get_dataset_docs",
+      "title": "Get Dataset Docs",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "Get documentation for one Dewey dataset by slug. Returns partner-level docs first, then dataset-specific docs, with explicit availability statuses when configured docs are missing.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string",
+            "description": "Dataset slug.",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "slug"
+        ]
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "dataPartner": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "slug": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "slug",
+              "name"
+            ]
+          },
+          "docsAvailable": {
+            "type": "boolean"
+          },
+          "partnerDocsStatus": {
+            "type": "string",
+            "enum": [
+              "available",
+              "not_configured",
+              "not_found"
+            ]
+          },
+          "datasetDocsStatus": {
+            "type": "string",
+            "enum": [
+              "available",
+              "not_configured",
+              "not_found"
+            ]
+          },
+          "configuredUrls": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "partnerDocsUrl": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "datasetDocsUrl": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "partnerDocsUrl",
+              "datasetDocsUrl"
+            ]
+          },
+          "partnerDocs": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "externalId": {
+                    "type": "string"
+                  },
+                  "readmeUri": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  },
+                  "section": {
+                    "type": "string",
+                    "enum": [
+                      "guides",
+                      "docs",
+                      "reference",
+                      "changelog"
+                    ]
+                  },
+                  "publicUrl": {
+                    "type": "string"
+                  },
+                  "categoryTitle": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "excerpt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "body": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "remoteUpdatedAt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "lastSyncedAt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "modifiedAt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "type": "integer"
+                  },
+                  "editorDisplayName": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "externalId",
+                  "readmeUri",
+                  "title",
+                  "slug",
+                  "section",
+                  "publicUrl",
+                  "categoryTitle",
+                  "excerpt",
+                  "body",
+                  "remoteUpdatedAt",
+                  "lastSyncedAt",
+                  "modifiedAt",
+                  "revision",
+                  "editorDisplayName"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "datasetDocs": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "externalId": {
+                    "type": "string"
+                  },
+                  "readmeUri": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  },
+                  "section": {
+                    "type": "string",
+                    "enum": [
+                      "guides",
+                      "docs",
+                      "reference",
+                      "changelog"
+                    ]
+                  },
+                  "publicUrl": {
+                    "type": "string"
+                  },
+                  "categoryTitle": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "excerpt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "body": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "remoteUpdatedAt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "lastSyncedAt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "modifiedAt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "type": "integer"
+                  },
+                  "editorDisplayName": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "externalId",
+                  "readmeUri",
+                  "title",
+                  "slug",
+                  "section",
+                  "publicUrl",
+                  "categoryTitle",
+                  "excerpt",
+                  "body",
+                  "remoteUpdatedAt",
+                  "lastSyncedAt",
+                  "modifiedAt",
+                  "revision",
+                  "editorDisplayName"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "orderedDocs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "source": {
+                  "type": "string",
+                  "enum": [
+                    "partner",
+                    "dataset"
+                  ]
+                },
+                "doc": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "externalId": {
+                      "type": "string"
+                    },
+                    "readmeUri": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "slug": {
+                      "type": "string"
+                    },
+                    "section": {
+                      "type": "string",
+                      "enum": [
+                        "guides",
+                        "docs",
+                        "reference",
+                        "changelog"
+                      ]
+                    },
+                    "publicUrl": {
+                      "type": "string"
+                    },
+                    "categoryTitle": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "excerpt": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "remoteUpdatedAt": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "lastSyncedAt": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "modifiedAt": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "revision": {
+                      "type": "integer"
+                    },
+                    "editorDisplayName": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "externalId",
+                    "readmeUri",
+                    "title",
+                    "slug",
+                    "section",
+                    "publicUrl",
+                    "categoryTitle",
+                    "excerpt",
+                    "body",
+                    "remoteUpdatedAt",
+                    "lastSyncedAt",
+                    "modifiedAt",
+                    "revision",
+                    "editorDisplayName"
+                  ]
+                }
+              },
+              "required": [
+                "source",
+                "doc"
+              ]
+            }
+          }
+        },
+        "required": [
+          "slug",
+          "name",
+          "dataPartner",
+          "docsAvailable",
+          "partnerDocsStatus",
+          "datasetDocsStatus",
+          "configuredUrls",
+          "partnerDocs",
+          "datasetDocs",
+          "orderedDocs"
+        ]
+      }
+    },
+    {
+      "name": "get_data_partner_docs",
+      "title": "Get Data Partner Docs",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "Get documentation for one accessible Dewey data partner by slug, with availability status when documentation is not configured.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string",
+            "description": "Data partner slug.",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "slug"
+        ]
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "docsAvailable": {
+            "type": "boolean"
+          },
+          "docsStatus": {
+            "type": "string",
+            "enum": [
+              "available",
+              "not_configured",
+              "not_found"
+            ]
+          },
+          "configuredUrl": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "docs": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "externalId": {
+                    "type": "string"
+                  },
+                  "readmeUri": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  },
+                  "section": {
+                    "type": "string",
+                    "enum": [
+                      "guides",
+                      "docs",
+                      "reference",
+                      "changelog"
+                    ]
+                  },
+                  "publicUrl": {
+                    "type": "string"
+                  },
+                  "categoryTitle": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "excerpt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "body": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "remoteUpdatedAt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "lastSyncedAt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "modifiedAt": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "revision": {
+                    "type": "integer"
+                  },
+                  "editorDisplayName": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "externalId",
+                  "readmeUri",
+                  "title",
+                  "slug",
+                  "section",
+                  "publicUrl",
+                  "categoryTitle",
+                  "excerpt",
+                  "body",
+                  "remoteUpdatedAt",
+                  "lastSyncedAt",
+                  "modifiedAt",
+                  "revision",
+                  "editorDisplayName"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "slug",
+          "name",
+          "docsAvailable",
+          "docsStatus",
+          "configuredUrl",
+          "docs"
+        ]
+      }
+    },
+    {
+      "name": "sample_dataset",
+      "title": "Sample Dataset",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "Preview sample rows from one Dewey dataset the user can access. Returns structured rows or a CSV string, based on requested format, with optional row-count and column filters.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string",
+            "description": "Dataset slug.",
+            "minLength": 1
+          },
+          "n": {
+            "type": "integer",
+            "description": "Optional max number of sample rows to return. Must be >= 1. Effective max returned rows is min(n, 2000, available sample rows).",
+            "minimum": 1
+          },
+          "format": {
+            "type": "string",
+            "description": "Sample payload format. `json` returns `rows`; `csv` returns `csv`. Defaults to `json`.",
+            "enum": [
+              "json",
+              "csv"
+            ],
+            "default": "json"
+          },
+          "columns": {
+            "type": "array",
+            "description": "Optional column names to include in the sample payload. When omitted, all columns are returned.",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "slug"
+        ]
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "externalId": {
+            "type": "string"
+          },
+          "sample": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "externalId": {
+                "type": "string"
+              },
+              "columns": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "rowCount": {
+                "type": "integer"
+              },
+              "rows": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              },
+              "csv": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "columns",
+              "rowCount"
+            ],
+            "oneOf": [
+              {
+                "required": [
+                  "rows"
+                ]
+              },
+              {
+                "required": [
+                  "csv"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "slug",
+          "externalId",
+          "sample"
+        ]
+      }
+    },
+    {
+      "name": "list_categories",
+      "title": "List Categories",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "List active dataset categories with dataset counts scoped to the requesting user's accessible datasets.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {}
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "externalId": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "datasetCount": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "externalId",
+                "name",
+                "slug",
+                "description",
+                "datasetCount"
+              ]
+            }
+          }
+        },
+        "required": [
+          "categories"
+        ]
+      }
+    },
+    {
+      "name": "list_data_partners",
+      "title": "List Data Partners",
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "description": "List active data partners and their Data Products with per-product dataset counts scoped to the requesting user's accessible datasets.",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "hasDownloadAccess": {
+            "type": "boolean",
+            "description": "Alias for `has_download_access`."
+          }
+        }
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "dataPartners": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "externalId": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "logoUrl": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "documentationPage": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "externalId": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "slug": {
+                          "type": "string"
+                        },
+                        "section": {
+                          "type": "string"
+                        },
+                        "publicPath": {
+                          "type": "string"
+                        },
+                        "publicUrl": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "externalId",
+                        "title",
+                        "slug",
+                        "section",
+                        "publicPath",
+                        "publicUrl"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "dataProducts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "externalId": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "slug": {
+                        "type": "string"
+                      },
+                      "datasetCount": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "externalId",
+                      "name",
+                      "slug",
+                      "datasetCount"
+                    ]
+                  }
+                },
+                "containers": {
+                  "type": "array",
+                  "description": "Deprecated alias for data_products.",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "externalId": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "slug": {
+                        "type": "string"
+                      },
+                      "datasetCount": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "externalId",
+                      "name",
+                      "slug",
+                      "datasetCount"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "externalId",
+                "name",
+                "slug",
+                "logoUrl",
+                "documentationPage",
+                "dataProducts",
+                "containers"
+              ]
+            }
+          }
+        },
+        "required": [
+          "dataPartners"
+        ]
+      }
+    }
+  ]
+}

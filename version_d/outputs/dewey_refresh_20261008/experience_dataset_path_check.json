@@ -1,0 +1,4658 @@
+{
+  "metadata": {
+    "total_files": 774,
+    "total_size": 191714141596,
+    "total_partitions": 0,
+    "partition_type": null,
+    "partition_column": null,
+    "partition_aggregation": null,
+    "min_partition_key": null,
+    "max_partition_key": null
+  },
+  "files": [
+    {
+      "file_name": "experience_0_0_0.snappy.parquet",
+      "file_size_bytes": 261400892,
+      "modified_at": "2026-09-28T07:51:01.177000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_1.snappy.parquet",
+      "file_size_bytes": 259740126,
+      "modified_at": "2026-09-28T07:51:33.584000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_10.snappy.parquet",
+      "file_size_bytes": 261165549,
+      "modified_at": "2026-09-28T07:57:32.597000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_11.snappy.parquet",
+      "file_size_bytes": 134118617,
+      "modified_at": "2026-09-28T07:57:32.800000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_2.snappy.parquet",
+      "file_size_bytes": 261377698,
+      "modified_at": "2026-09-28T07:52:36.644000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_3.snappy.parquet",
+      "file_size_bytes": 263844134,
+      "modified_at": "2026-09-28T07:52:35.564000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_4.snappy.parquet",
+      "file_size_bytes": 260946284,
+      "modified_at": "2026-09-28T07:53:48.760000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_5.snappy.parquet",
+      "file_size_bytes": 259033857,
+      "modified_at": "2026-09-28T07:54:40.632000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_6.snappy.parquet",
+      "file_size_bytes": 261195555,
+      "modified_at": "2026-09-28T07:54:39.653000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_7.snappy.parquet",
+      "file_size_bytes": 261249964,
+      "modified_at": "2026-09-28T07:55:48.454000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_8.snappy.parquet",
+      "file_size_bytes": 268610774,
+      "modified_at": "2026-09-28T07:56:38.167000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_0_9.snappy.parquet",
+      "file_size_bytes": 260495926,
+      "modified_at": "2026-09-28T07:56:37.767000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_0.snappy.parquet",
+      "file_size_bytes": 261669525,
+      "modified_at": "2026-09-28T07:51:00.550000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_1.snappy.parquet",
+      "file_size_bytes": 257814201,
+      "modified_at": "2026-09-28T07:52:36.606000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_10.snappy.parquet",
+      "file_size_bytes": 92267414,
+      "modified_at": "2026-09-28T07:58:13.782000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_2.snappy.parquet",
+      "file_size_bytes": 261287945,
+      "modified_at": "2026-09-28T07:52:00.927000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_3.snappy.parquet",
+      "file_size_bytes": 261089719,
+      "modified_at": "2026-09-28T07:53:48.479000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_4.snappy.parquet",
+      "file_size_bytes": 262625692,
+      "modified_at": "2026-09-28T07:54:40.258000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_5.snappy.parquet",
+      "file_size_bytes": 261027907,
+      "modified_at": "2026-09-28T07:54:40.463000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_6.snappy.parquet",
+      "file_size_bytes": 262499015,
+      "modified_at": "2026-09-28T07:56:00.627000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_7.snappy.parquet",
+      "file_size_bytes": 267121259,
+      "modified_at": "2026-09-28T07:56:00.487000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_8.snappy.parquet",
+      "file_size_bytes": 261126614,
+      "modified_at": "2026-09-28T07:57:00.913000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_1_9.snappy.parquet",
+      "file_size_bytes": 262687084,
+      "modified_at": "2026-09-28T07:57:00.086000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_0.snappy.parquet",
+      "file_size_bytes": 261092169,
+      "modified_at": "2026-09-28T07:51:01.222000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_1.snappy.parquet",
+      "file_size_bytes": 257418958,
+      "modified_at": "2026-09-28T07:52:36.578000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_10.snappy.parquet",
+      "file_size_bytes": 115624486,
+      "modified_at": "2026-09-28T07:58:00.911000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_2.snappy.parquet",
+      "file_size_bytes": 261478632,
+      "modified_at": "2026-09-28T07:52:00.383000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_3.snappy.parquet",
+      "file_size_bytes": 260961064,
+      "modified_at": "2026-09-28T07:53:00.585000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_4.snappy.parquet",
+      "file_size_bytes": 260060987,
+      "modified_at": "2026-09-28T07:53:47.730000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_5.snappy.parquet",
+      "file_size_bytes": 257488465,
+      "modified_at": "2026-09-28T07:54:40.942000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_6.snappy.parquet",
+      "file_size_bytes": 260527265,
+      "modified_at": "2026-09-28T07:55:48.346000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_7.snappy.parquet",
+      "file_size_bytes": 261336166,
+      "modified_at": "2026-09-28T07:56:00.655000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_8.snappy.parquet",
+      "file_size_bytes": 261062451,
+      "modified_at": "2026-09-28T07:56:59.380000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_2_9.snappy.parquet",
+      "file_size_bytes": 262453222,
+      "modified_at": "2026-09-28T07:56:59.432000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_0.snappy.parquet",
+      "file_size_bytes": 260892565,
+      "modified_at": "2026-09-28T07:51:00.952000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_1.snappy.parquet",
+      "file_size_bytes": 258415684,
+      "modified_at": "2026-09-28T07:51:34.853000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_10.snappy.parquet",
+      "file_size_bytes": 261134039,
+      "modified_at": "2026-09-28T07:56:38.754000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_11.snappy.parquet",
+      "file_size_bytes": 261190545,
+      "modified_at": "2026-09-28T07:57:32.890000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_12.snappy.parquet",
+      "file_size_bytes": 147157040,
+      "modified_at": "2026-09-28T07:57:33.476000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_2.snappy.parquet",
+      "file_size_bytes": 261271365,
+      "modified_at": "2026-09-28T07:52:00.601000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_3.snappy.parquet",
+      "file_size_bytes": 260932638,
+      "modified_at": "2026-09-28T07:52:36.755000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_4.snappy.parquet",
+      "file_size_bytes": 261311057,
+      "modified_at": "2026-09-28T07:53:00.771000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_5.snappy.parquet",
+      "file_size_bytes": 260107019,
+      "modified_at": "2026-09-28T07:53:48.982000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_6.snappy.parquet",
+      "file_size_bytes": 265474624,
+      "modified_at": "2026-09-28T07:54:00.734000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_7.snappy.parquet",
+      "file_size_bytes": 261133129,
+      "modified_at": "2026-09-28T07:55:01.324000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_8.snappy.parquet",
+      "file_size_bytes": 263477118,
+      "modified_at": "2026-09-28T07:55:48.072000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_3_9.snappy.parquet",
+      "file_size_bytes": 262639901,
+      "modified_at": "2026-09-28T07:56:37.383000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_0.snappy.parquet",
+      "file_size_bytes": 261210087,
+      "modified_at": "2026-09-28T07:51:01.143000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_1.snappy.parquet",
+      "file_size_bytes": 257776990,
+      "modified_at": "2026-09-28T07:51:34.123000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_10.snappy.parquet",
+      "file_size_bytes": 264182276,
+      "modified_at": "2026-09-28T07:57:00.470000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_11.snappy.parquet",
+      "file_size_bytes": 68484348,
+      "modified_at": "2026-09-28T07:58:00.910000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_2.snappy.parquet",
+      "file_size_bytes": 261207322,
+      "modified_at": "2026-09-28T07:52:00.339000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_3.snappy.parquet",
+      "file_size_bytes": 263467794,
+      "modified_at": "2026-09-28T07:53:00.379000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_4.snappy.parquet",
+      "file_size_bytes": 260812211,
+      "modified_at": "2026-09-28T07:53:47.886000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_5.snappy.parquet",
+      "file_size_bytes": 262875719,
+      "modified_at": "2026-09-28T07:54:00.555000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_6.snappy.parquet",
+      "file_size_bytes": 260963093,
+      "modified_at": "2026-09-28T07:54:39.354000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_7.snappy.parquet",
+      "file_size_bytes": 267163769,
+      "modified_at": "2026-09-28T07:55:48.218000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_8.snappy.parquet",
+      "file_size_bytes": 261133109,
+      "modified_at": "2026-09-28T07:55:47.901000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_4_9.snappy.parquet",
+      "file_size_bytes": 261240349,
+      "modified_at": "2026-09-28T07:56:59.727000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_0.snappy.parquet",
+      "file_size_bytes": 261349715,
+      "modified_at": "2026-09-28T07:51:33.671000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_1.snappy.parquet",
+      "file_size_bytes": 259129386,
+      "modified_at": "2026-09-28T07:51:34.014000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_10.snappy.parquet",
+      "file_size_bytes": 261188836,
+      "modified_at": "2026-09-28T07:57:33.106000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_11.snappy.parquet",
+      "file_size_bytes": 141582070,
+      "modified_at": "2026-09-28T07:57:32.971000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_2.snappy.parquet",
+      "file_size_bytes": 260657790,
+      "modified_at": "2026-09-28T07:52:37.347000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_3.snappy.parquet",
+      "file_size_bytes": 261173367,
+      "modified_at": "2026-09-28T07:53:48.406000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_4.snappy.parquet",
+      "file_size_bytes": 261082456,
+      "modified_at": "2026-09-28T07:53:48.066000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_5.snappy.parquet",
+      "file_size_bytes": 261150293,
+      "modified_at": "2026-09-28T07:54:40.437000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_6.snappy.parquet",
+      "file_size_bytes": 264271913,
+      "modified_at": "2026-09-28T07:55:01.028000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_7.snappy.parquet",
+      "file_size_bytes": 261252556,
+      "modified_at": "2026-09-28T07:55:47.739000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_8.snappy.parquet",
+      "file_size_bytes": 263011309,
+      "modified_at": "2026-09-28T07:56:39.036000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_5_9.snappy.parquet",
+      "file_size_bytes": 261175122,
+      "modified_at": "2026-09-28T07:56:37.846000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_0.snappy.parquet",
+      "file_size_bytes": 261681192,
+      "modified_at": "2026-09-28T07:51:34.362000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_1.snappy.parquet",
+      "file_size_bytes": 257569767,
+      "modified_at": "2026-09-28T07:52:36.090000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_10.snappy.parquet",
+      "file_size_bytes": 261276061,
+      "modified_at": "2026-09-28T07:57:33.886000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_11.snappy.parquet",
+      "file_size_bytes": 108759172,
+      "modified_at": "2026-09-28T07:58:13.502000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_2.snappy.parquet",
+      "file_size_bytes": 265425603,
+      "modified_at": "2026-09-28T07:52:35.558000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_3.snappy.parquet",
+      "file_size_bytes": 261142962,
+      "modified_at": "2026-09-28T07:53:00.627000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_4.snappy.parquet",
+      "file_size_bytes": 260710555,
+      "modified_at": "2026-09-28T07:53:48.816000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_5.snappy.parquet",
+      "file_size_bytes": 260063191,
+      "modified_at": "2026-09-28T07:54:01.028000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_6.snappy.parquet",
+      "file_size_bytes": 260742892,
+      "modified_at": "2026-09-28T07:55:47.471000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_7.snappy.parquet",
+      "file_size_bytes": 263060314,
+      "modified_at": "2026-09-28T07:55:01.327000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_8.snappy.parquet",
+      "file_size_bytes": 261370714,
+      "modified_at": "2026-09-28T07:56:37.688000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_6_9.snappy.parquet",
+      "file_size_bytes": 261156840,
+      "modified_at": "2026-09-28T07:57:00.463000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_0.snappy.parquet",
+      "file_size_bytes": 261000265,
+      "modified_at": "2026-09-28T07:51:34.131000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_1.snappy.parquet",
+      "file_size_bytes": 259038581,
+      "modified_at": "2026-09-28T07:51:34.667000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_10.snappy.parquet",
+      "file_size_bytes": 261133100,
+      "modified_at": "2026-09-28T07:57:32.760000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_11.snappy.parquet",
+      "file_size_bytes": 103034559,
+      "modified_at": "2026-09-28T07:58:00.982000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_2.snappy.parquet",
+      "file_size_bytes": 257998624,
+      "modified_at": "2026-09-28T07:53:00.684000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_3.snappy.parquet",
+      "file_size_bytes": 261204472,
+      "modified_at": "2026-09-28T07:53:00.582000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_4.snappy.parquet",
+      "file_size_bytes": 261156836,
+      "modified_at": "2026-09-28T07:54:40.131000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_5.snappy.parquet",
+      "file_size_bytes": 261219629,
+      "modified_at": "2026-09-28T07:54:00.588000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_6.snappy.parquet",
+      "file_size_bytes": 261141539,
+      "modified_at": "2026-09-28T07:55:47.861000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_7.snappy.parquet",
+      "file_size_bytes": 262905994,
+      "modified_at": "2026-09-28T07:56:00.664000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_8.snappy.parquet",
+      "file_size_bytes": 260452531,
+      "modified_at": "2026-09-28T07:56:37.970000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_0_7_9.snappy.parquet",
+      "file_size_bytes": 263090218,
+      "modified_at": "2026-09-28T07:57:00.370000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_0.snappy.parquet",
+      "file_size_bytes": 261387403,
+      "modified_at": "2026-09-28T07:51:34.120000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_1.snappy.parquet",
+      "file_size_bytes": 264298680,
+      "modified_at": "2026-09-28T07:51:33.840000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_10.snappy.parquet",
+      "file_size_bytes": 84949994,
+      "modified_at": "2026-09-28T07:58:01.285000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_2.snappy.parquet",
+      "file_size_bytes": 260811388,
+      "modified_at": "2026-09-28T07:52:36.155000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_3.snappy.parquet",
+      "file_size_bytes": 261441506,
+      "modified_at": "2026-09-28T07:53:47.977000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_4.snappy.parquet",
+      "file_size_bytes": 263850410,
+      "modified_at": "2026-09-28T07:54:00.577000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_5.snappy.parquet",
+      "file_size_bytes": 261251684,
+      "modified_at": "2026-09-28T07:55:47.675000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_6.snappy.parquet",
+      "file_size_bytes": 266393130,
+      "modified_at": "2026-09-28T07:55:48.431000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_7.snappy.parquet",
+      "file_size_bytes": 261247741,
+      "modified_at": "2026-09-28T07:56:38.278000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_8.snappy.parquet",
+      "file_size_bytes": 259422333,
+      "modified_at": "2026-09-28T07:57:00.777000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_0_9.snappy.parquet",
+      "file_size_bytes": 260661437,
+      "modified_at": "2026-09-28T07:57:32.516000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_0.snappy.parquet",
+      "file_size_bytes": 261199243,
+      "modified_at": "2026-09-28T07:51:34.549000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_1.snappy.parquet",
+      "file_size_bytes": 258820860,
+      "modified_at": "2026-09-28T07:51:34.535000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_10.snappy.parquet",
+      "file_size_bytes": 133262295,
+      "modified_at": "2026-09-28T07:57:33.029000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_2.snappy.parquet",
+      "file_size_bytes": 261034378,
+      "modified_at": "2026-09-28T07:52:37.296000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_3.snappy.parquet",
+      "file_size_bytes": 260942858,
+      "modified_at": "2026-09-28T07:53:48.442000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_4.snappy.parquet",
+      "file_size_bytes": 265856905,
+      "modified_at": "2026-09-28T07:54:40.446000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_5.snappy.parquet",
+      "file_size_bytes": 260981572,
+      "modified_at": "2026-09-28T07:54:40.525000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_6.snappy.parquet",
+      "file_size_bytes": 261167258,
+      "modified_at": "2026-09-28T07:55:47.494000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_7.snappy.parquet",
+      "file_size_bytes": 264808647,
+      "modified_at": "2026-09-28T07:56:38.080000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_8.snappy.parquet",
+      "file_size_bytes": 260926519,
+      "modified_at": "2026-09-28T07:56:37.400000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_1_9.snappy.parquet",
+      "file_size_bytes": 261119324,
+      "modified_at": "2026-09-28T07:57:33.025000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_0.snappy.parquet",
+      "file_size_bytes": 260992883,
+      "modified_at": "2026-09-28T07:51:33.812000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_1.snappy.parquet",
+      "file_size_bytes": 259123764,
+      "modified_at": "2026-09-28T07:51:33.734000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_10.snappy.parquet",
+      "file_size_bytes": 261296790,
+      "modified_at": "2026-09-28T07:57:32.898000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_11.snappy.parquet",
+      "file_size_bytes": 132064217,
+      "modified_at": "2026-09-28T07:57:33.592000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_2.snappy.parquet",
+      "file_size_bytes": 261053006,
+      "modified_at": "2026-09-28T07:52:36.380000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_3.snappy.parquet",
+      "file_size_bytes": 261289173,
+      "modified_at": "2026-09-28T07:53:48.346000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_4.snappy.parquet",
+      "file_size_bytes": 265444739,
+      "modified_at": "2026-09-28T07:53:47.612000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_5.snappy.parquet",
+      "file_size_bytes": 261085874,
+      "modified_at": "2026-09-28T07:54:40.242000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_6.snappy.parquet",
+      "file_size_bytes": 263874846,
+      "modified_at": "2026-09-28T07:55:01.106000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_7.snappy.parquet",
+      "file_size_bytes": 261048689,
+      "modified_at": "2026-09-28T07:55:01.278000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_8.snappy.parquet",
+      "file_size_bytes": 261311989,
+      "modified_at": "2026-09-28T07:56:37.712000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_2_9.snappy.parquet",
+      "file_size_bytes": 265328775,
+      "modified_at": "2026-09-28T07:56:38.397000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_0.snappy.parquet",
+      "file_size_bytes": 261383404,
+      "modified_at": "2026-09-28T07:51:00.384000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_1.snappy.parquet",
+      "file_size_bytes": 262024277,
+      "modified_at": "2026-09-28T07:52:36.724000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_10.snappy.parquet",
+      "file_size_bytes": 86767326,
+      "modified_at": "2026-09-28T07:58:00.442000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_2.snappy.parquet",
+      "file_size_bytes": 264659530,
+      "modified_at": "2026-09-28T07:52:00.885000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_3.snappy.parquet",
+      "file_size_bytes": 264236846,
+      "modified_at": "2026-09-28T07:54:01.203000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_4.snappy.parquet",
+      "file_size_bytes": 261271994,
+      "modified_at": "2026-09-28T07:54:40.719000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_5.snappy.parquet",
+      "file_size_bytes": 260178103,
+      "modified_at": "2026-09-28T07:55:47.549000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_6.snappy.parquet",
+      "file_size_bytes": 261049312,
+      "modified_at": "2026-09-28T07:55:47.755000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_7.snappy.parquet",
+      "file_size_bytes": 261150011,
+      "modified_at": "2026-09-28T07:56:39.337000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_8.snappy.parquet",
+      "file_size_bytes": 260945858,
+      "modified_at": "2026-09-28T07:56:59.974000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_3_9.snappy.parquet",
+      "file_size_bytes": 261162852,
+      "modified_at": "2026-09-28T07:57:32.991000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_0.snappy.parquet",
+      "file_size_bytes": 261211584,
+      "modified_at": "2026-09-28T07:51:00.287000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_1.snappy.parquet",
+      "file_size_bytes": 261915320,
+      "modified_at": "2026-09-28T07:52:01.119000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_10.snappy.parquet",
+      "file_size_bytes": 86910895,
+      "modified_at": "2026-09-28T07:58:00.445000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_2.snappy.parquet",
+      "file_size_bytes": 261104888,
+      "modified_at": "2026-09-28T07:52:37.086000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_3.snappy.parquet",
+      "file_size_bytes": 269685603,
+      "modified_at": "2026-09-28T07:53:00.532000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_4.snappy.parquet",
+      "file_size_bytes": 261501847,
+      "modified_at": "2026-09-28T07:54:40.237000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_5.snappy.parquet",
+      "file_size_bytes": 261103569,
+      "modified_at": "2026-09-28T07:54:00.364000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_6.snappy.parquet",
+      "file_size_bytes": 261273599,
+      "modified_at": "2026-09-28T07:56:00.418000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_7.snappy.parquet",
+      "file_size_bytes": 267233336,
+      "modified_at": "2026-09-28T07:56:01.212000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_8.snappy.parquet",
+      "file_size_bytes": 265782121,
+      "modified_at": "2026-09-28T07:57:00.461000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_4_9.snappy.parquet",
+      "file_size_bytes": 262976638,
+      "modified_at": "2026-09-28T07:56:59.741000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_0.snappy.parquet",
+      "file_size_bytes": 260491207,
+      "modified_at": "2026-09-28T07:51:00.518000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_1.snappy.parquet",
+      "file_size_bytes": 259854392,
+      "modified_at": "2026-09-28T07:52:00.913000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_10.snappy.parquet",
+      "file_size_bytes": 96754103,
+      "modified_at": "2026-09-28T07:58:01.047000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_2.snappy.parquet",
+      "file_size_bytes": 261837682,
+      "modified_at": "2026-09-28T07:52:35.884000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_3.snappy.parquet",
+      "file_size_bytes": 263179295,
+      "modified_at": "2026-09-28T07:53:48.652000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_4.snappy.parquet",
+      "file_size_bytes": 264967498,
+      "modified_at": "2026-09-28T07:54:40.611000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_5.snappy.parquet",
+      "file_size_bytes": 261121128,
+      "modified_at": "2026-09-28T07:54:40.016000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_6.snappy.parquet",
+      "file_size_bytes": 261187422,
+      "modified_at": "2026-09-28T07:56:01.317000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_7.snappy.parquet",
+      "file_size_bytes": 268861298,
+      "modified_at": "2026-09-28T07:56:01.121000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_8.snappy.parquet",
+      "file_size_bytes": 261067125,
+      "modified_at": "2026-09-28T07:57:00.161000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_5_9.snappy.parquet",
+      "file_size_bytes": 259767312,
+      "modified_at": "2026-09-28T07:56:59.415000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_0.snappy.parquet",
+      "file_size_bytes": 261295318,
+      "modified_at": "2026-09-28T07:51:00.726000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_1.snappy.parquet",
+      "file_size_bytes": 261385366,
+      "modified_at": "2026-09-28T07:51:34.172000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_10.snappy.parquet",
+      "file_size_bytes": 261222587,
+      "modified_at": "2026-09-28T07:56:38.750000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_11.snappy.parquet",
+      "file_size_bytes": 265652582,
+      "modified_at": "2026-09-28T07:57:00.018000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_12.snappy.parquet",
+      "file_size_bytes": 261140133,
+      "modified_at": "2026-09-28T07:57:33.864000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_13.snappy.parquet",
+      "file_size_bytes": 78558620,
+      "modified_at": "2026-09-28T07:58:00.719000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_2.snappy.parquet",
+      "file_size_bytes": 261235543,
+      "modified_at": "2026-09-28T07:52:01.225000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_3.snappy.parquet",
+      "file_size_bytes": 260517061,
+      "modified_at": "2026-09-28T07:52:35.322000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_4.snappy.parquet",
+      "file_size_bytes": 264047265,
+      "modified_at": "2026-09-28T07:53:00.337000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_5.snappy.parquet",
+      "file_size_bytes": 261949034,
+      "modified_at": "2026-09-28T07:53:47.808000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_6.snappy.parquet",
+      "file_size_bytes": 261191263,
+      "modified_at": "2026-09-28T07:54:00.785000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_7.snappy.parquet",
+      "file_size_bytes": 261016684,
+      "modified_at": "2026-09-28T07:54:40.196000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_8.snappy.parquet",
+      "file_size_bytes": 264116808,
+      "modified_at": "2026-09-28T07:55:48.925000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_6_9.snappy.parquet",
+      "file_size_bytes": 260901023,
+      "modified_at": "2026-09-28T07:55:48.194000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_0.snappy.parquet",
+      "file_size_bytes": 261098616,
+      "modified_at": "2026-09-28T07:51:34.933000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_1.snappy.parquet",
+      "file_size_bytes": 259069102,
+      "modified_at": "2026-09-28T07:52:00.652000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_10.snappy.parquet",
+      "file_size_bytes": 260720399,
+      "modified_at": "2026-09-28T07:57:32.437000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_11.snappy.parquet",
+      "file_size_bytes": 83486658,
+      "modified_at": "2026-09-28T07:58:00.706000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_2.snappy.parquet",
+      "file_size_bytes": 260154353,
+      "modified_at": "2026-09-28T07:52:36.827000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_3.snappy.parquet",
+      "file_size_bytes": 263353780,
+      "modified_at": "2026-09-28T07:53:48.885000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_4.snappy.parquet",
+      "file_size_bytes": 260187973,
+      "modified_at": "2026-09-28T07:53:48.577000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_5.snappy.parquet",
+      "file_size_bytes": 261053589,
+      "modified_at": "2026-09-28T07:55:00.646000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_6.snappy.parquet",
+      "file_size_bytes": 262853839,
+      "modified_at": "2026-09-28T07:55:47.413000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_7.snappy.parquet",
+      "file_size_bytes": 261243022,
+      "modified_at": "2026-09-28T07:56:00.876000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_8.snappy.parquet",
+      "file_size_bytes": 261148594,
+      "modified_at": "2026-09-28T07:56:38.154000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_1_7_9.snappy.parquet",
+      "file_size_bytes": 260422774,
+      "modified_at": "2026-09-28T07:57:00.632000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_0.snappy.parquet",
+      "file_size_bytes": 260897436,
+      "modified_at": "2026-09-28T07:51:33.736000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_1.snappy.parquet",
+      "file_size_bytes": 258718455,
+      "modified_at": "2026-09-28T07:52:37.060000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_10.snappy.parquet",
+      "file_size_bytes": 261910016,
+      "modified_at": "2026-09-28T07:57:33.429000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_11.snappy.parquet",
+      "file_size_bytes": 261478148,
+      "modified_at": "2026-09-28T07:57:33.103000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_12.snappy.parquet",
+      "file_size_bytes": 13465422,
+      "modified_at": "2026-09-28T07:58:14.210000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_2.snappy.parquet",
+      "file_size_bytes": 261383603,
+      "modified_at": "2026-09-28T07:52:36.771000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_3.snappy.parquet",
+      "file_size_bytes": 261253041,
+      "modified_at": "2026-09-28T07:53:48.688000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_4.snappy.parquet",
+      "file_size_bytes": 267879026,
+      "modified_at": "2026-09-28T07:53:48.376000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_5.snappy.parquet",
+      "file_size_bytes": 261740134,
+      "modified_at": "2026-09-28T07:54:39.832000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_6.snappy.parquet",
+      "file_size_bytes": 264347373,
+      "modified_at": "2026-09-28T07:55:00.862000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_7.snappy.parquet",
+      "file_size_bytes": 263845253,
+      "modified_at": "2026-09-28T07:56:00.793000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_8.snappy.parquet",
+      "file_size_bytes": 266239551,
+      "modified_at": "2026-09-28T07:56:00.743000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_0_9.snappy.parquet",
+      "file_size_bytes": 263149048,
+      "modified_at": "2026-09-28T07:56:37.650000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_0.snappy.parquet",
+      "file_size_bytes": 261170612,
+      "modified_at": "2026-09-28T07:51:00.526000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_1.snappy.parquet",
+      "file_size_bytes": 257702771,
+      "modified_at": "2026-09-28T07:52:01.035000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_10.snappy.parquet",
+      "file_size_bytes": 261160960,
+      "modified_at": "2026-09-28T07:57:32.897000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_11.snappy.parquet",
+      "file_size_bytes": 37729434,
+      "modified_at": "2026-09-28T07:58:01.238000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_2.snappy.parquet",
+      "file_size_bytes": 265569810,
+      "modified_at": "2026-09-28T07:52:35.934000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_3.snappy.parquet",
+      "file_size_bytes": 260978368,
+      "modified_at": "2026-09-28T07:53:01.294000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_4.snappy.parquet",
+      "file_size_bytes": 261316526,
+      "modified_at": "2026-09-28T07:53:48.572000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_5.snappy.parquet",
+      "file_size_bytes": 261236455,
+      "modified_at": "2026-09-28T07:54:39.749000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_6.snappy.parquet",
+      "file_size_bytes": 261116173,
+      "modified_at": "2026-09-28T07:55:48.365000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_7.snappy.parquet",
+      "file_size_bytes": 260974251,
+      "modified_at": "2026-09-28T07:55:00.600000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_8.snappy.parquet",
+      "file_size_bytes": 261454588,
+      "modified_at": "2026-09-28T07:56:37.494000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_1_9.snappy.parquet",
+      "file_size_bytes": 257785684,
+      "modified_at": "2026-09-28T07:56:59.773000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_0.snappy.parquet",
+      "file_size_bytes": 261284331,
+      "modified_at": "2026-09-28T07:51:00.698000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_1.snappy.parquet",
+      "file_size_bytes": 258170648,
+      "modified_at": "2026-09-28T07:52:36.122000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_10.snappy.parquet",
+      "file_size_bytes": 96107280,
+      "modified_at": "2026-09-28T07:58:00.840000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_2.snappy.parquet",
+      "file_size_bytes": 261113366,
+      "modified_at": "2026-09-28T07:52:01.194000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_3.snappy.parquet",
+      "file_size_bytes": 261716751,
+      "modified_at": "2026-09-28T07:53:47.342000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_4.snappy.parquet",
+      "file_size_bytes": 263225719,
+      "modified_at": "2026-09-28T07:54:40.723000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_5.snappy.parquet",
+      "file_size_bytes": 261351663,
+      "modified_at": "2026-09-28T07:55:48.023000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_6.snappy.parquet",
+      "file_size_bytes": 261106073,
+      "modified_at": "2026-09-28T07:56:00.528000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_7.snappy.parquet",
+      "file_size_bytes": 260665556,
+      "modified_at": "2026-09-28T07:56:38.002000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_8.snappy.parquet",
+      "file_size_bytes": 259843464,
+      "modified_at": "2026-09-28T07:57:00.186000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_2_9.snappy.parquet",
+      "file_size_bytes": 261342179,
+      "modified_at": "2026-09-28T07:57:32.723000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_0.snappy.parquet",
+      "file_size_bytes": 261182525,
+      "modified_at": "2026-09-28T07:51:34.303000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_1.snappy.parquet",
+      "file_size_bytes": 258196029,
+      "modified_at": "2026-09-28T07:52:36.688000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_10.snappy.parquet",
+      "file_size_bytes": 259159835,
+      "modified_at": "2026-09-28T07:57:00.656000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_11.snappy.parquet",
+      "file_size_bytes": 261385286,
+      "modified_at": "2026-09-28T07:57:33.873000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_12.snappy.parquet",
+      "file_size_bytes": 83557887,
+      "modified_at": "2026-09-28T07:58:01.337000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_2.snappy.parquet",
+      "file_size_bytes": 260985285,
+      "modified_at": "2026-09-28T07:52:35.547000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_3.snappy.parquet",
+      "file_size_bytes": 261061366,
+      "modified_at": "2026-09-28T07:53:01.070000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_4.snappy.parquet",
+      "file_size_bytes": 268757403,
+      "modified_at": "2026-09-28T07:53:47.784000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_5.snappy.parquet",
+      "file_size_bytes": 261237558,
+      "modified_at": "2026-09-28T07:54:39.808000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_6.snappy.parquet",
+      "file_size_bytes": 261131588,
+      "modified_at": "2026-09-28T07:54:40.640000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_7.snappy.parquet",
+      "file_size_bytes": 261284258,
+      "modified_at": "2026-09-28T07:55:48.227000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_8.snappy.parquet",
+      "file_size_bytes": 265335050,
+      "modified_at": "2026-09-28T07:56:01.246000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_3_9.snappy.parquet",
+      "file_size_bytes": 261250352,
+      "modified_at": "2026-09-28T07:56:37.894000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_0.snappy.parquet",
+      "file_size_bytes": 261069771,
+      "modified_at": "2026-09-28T07:51:33.968000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_1.snappy.parquet",
+      "file_size_bytes": 258201060,
+      "modified_at": "2026-09-28T07:52:00.876000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_10.snappy.parquet",
+      "file_size_bytes": 261389224,
+      "modified_at": "2026-09-28T07:56:37.851000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_11.snappy.parquet",
+      "file_size_bytes": 260494000,
+      "modified_at": "2026-09-28T07:56:59.821000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_12.snappy.parquet",
+      "file_size_bytes": 261104357,
+      "modified_at": "2026-09-28T07:57:32.925000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_13.snappy.parquet",
+      "file_size_bytes": 90347089,
+      "modified_at": "2026-09-28T07:58:01.311000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_2.snappy.parquet",
+      "file_size_bytes": 261366670,
+      "modified_at": "2026-09-28T07:52:36.828000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_3.snappy.parquet",
+      "file_size_bytes": 259717388,
+      "modified_at": "2026-09-28T07:53:00.783000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_4.snappy.parquet",
+      "file_size_bytes": 261312520,
+      "modified_at": "2026-09-28T07:53:48.456000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_5.snappy.parquet",
+      "file_size_bytes": 263056648,
+      "modified_at": "2026-09-28T07:54:01.028000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_6.snappy.parquet",
+      "file_size_bytes": 261195598,
+      "modified_at": "2026-09-28T07:54:40.085000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_7.snappy.parquet",
+      "file_size_bytes": 268472574,
+      "modified_at": "2026-09-28T07:55:01.016000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_8.snappy.parquet",
+      "file_size_bytes": 261484934,
+      "modified_at": "2026-09-28T07:55:48.423000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_4_9.snappy.parquet",
+      "file_size_bytes": 261292163,
+      "modified_at": "2026-09-28T07:56:00.733000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_0.snappy.parquet",
+      "file_size_bytes": 260443057,
+      "modified_at": "2026-09-28T07:51:33.928000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_1.snappy.parquet",
+      "file_size_bytes": 256948794,
+      "modified_at": "2026-09-28T07:51:33.800000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_10.snappy.parquet",
+      "file_size_bytes": 17018436,
+      "modified_at": "2026-09-28T07:58:13.851000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_2.snappy.parquet",
+      "file_size_bytes": 260390899,
+      "modified_at": "2026-09-28T07:53:01.179000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_3.snappy.parquet",
+      "file_size_bytes": 261114173,
+      "modified_at": "2026-09-28T07:53:00.757000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_4.snappy.parquet",
+      "file_size_bytes": 261211029,
+      "modified_at": "2026-09-28T07:54:39.865000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_5.snappy.parquet",
+      "file_size_bytes": 266188600,
+      "modified_at": "2026-09-28T07:54:01.064000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_6.snappy.parquet",
+      "file_size_bytes": 267652698,
+      "modified_at": "2026-09-28T07:56:00.453000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_7.snappy.parquet",
+      "file_size_bytes": 268339344,
+      "modified_at": "2026-09-28T07:56:38.641000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_8.snappy.parquet",
+      "file_size_bytes": 260187131,
+      "modified_at": "2026-09-28T07:57:00.247000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_5_9.snappy.parquet",
+      "file_size_bytes": 261428703,
+      "modified_at": "2026-09-28T07:57:32.394000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_0.snappy.parquet",
+      "file_size_bytes": 261304871,
+      "modified_at": "2026-09-28T07:51:00.439000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_1.snappy.parquet",
+      "file_size_bytes": 258637333,
+      "modified_at": "2026-09-28T07:51:34.066000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_10.snappy.parquet",
+      "file_size_bytes": 262558281,
+      "modified_at": "2026-09-28T07:57:00.200000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_11.snappy.parquet",
+      "file_size_bytes": 92799849,
+      "modified_at": "2026-09-28T07:58:00.857000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_2.snappy.parquet",
+      "file_size_bytes": 265391777,
+      "modified_at": "2026-09-28T07:52:00.433000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_3.snappy.parquet",
+      "file_size_bytes": 260981465,
+      "modified_at": "2026-09-28T07:53:00.931000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_4.snappy.parquet",
+      "file_size_bytes": 259547699,
+      "modified_at": "2026-09-28T07:53:00.723000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_5.snappy.parquet",
+      "file_size_bytes": 261405738,
+      "modified_at": "2026-09-28T07:54:00.394000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_6.snappy.parquet",
+      "file_size_bytes": 268841661,
+      "modified_at": "2026-09-28T07:54:40.719000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_7.snappy.parquet",
+      "file_size_bytes": 261239639,
+      "modified_at": "2026-09-28T07:55:47.778000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_8.snappy.parquet",
+      "file_size_bytes": 261084075,
+      "modified_at": "2026-09-28T07:55:47.642000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_6_9.snappy.parquet",
+      "file_size_bytes": 261239720,
+      "modified_at": "2026-09-28T07:56:37.784000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_0.snappy.parquet",
+      "file_size_bytes": 261288817,
+      "modified_at": "2026-09-28T07:51:35.089000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_1.snappy.parquet",
+      "file_size_bytes": 260736850,
+      "modified_at": "2026-09-28T07:51:34.088000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_10.snappy.parquet",
+      "file_size_bytes": 79551667,
+      "modified_at": "2026-09-28T07:58:01.291000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_2.snappy.parquet",
+      "file_size_bytes": 260863235,
+      "modified_at": "2026-09-28T07:52:36.924000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_3.snappy.parquet",
+      "file_size_bytes": 261085644,
+      "modified_at": "2026-09-28T07:53:48.596000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_4.snappy.parquet",
+      "file_size_bytes": 260375991,
+      "modified_at": "2026-09-28T07:53:47.769000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_5.snappy.parquet",
+      "file_size_bytes": 261067167,
+      "modified_at": "2026-09-28T07:55:49.420000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_6.snappy.parquet",
+      "file_size_bytes": 262095707,
+      "modified_at": "2026-09-28T07:55:47.731000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_7.snappy.parquet",
+      "file_size_bytes": 261325420,
+      "modified_at": "2026-09-28T07:56:37.394000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_8.snappy.parquet",
+      "file_size_bytes": 258864513,
+      "modified_at": "2026-09-28T07:57:01.211000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_2_7_9.snappy.parquet",
+      "file_size_bytes": 260966460,
+      "modified_at": "2026-09-28T07:57:33.184000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_0.snappy.parquet",
+      "file_size_bytes": 261194265,
+      "modified_at": "2026-09-28T07:51:00.299000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_1.snappy.parquet",
+      "file_size_bytes": 259299671,
+      "modified_at": "2026-09-28T07:51:33.332000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_10.snappy.parquet",
+      "file_size_bytes": 260885464,
+      "modified_at": "2026-09-28T07:56:40.237000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_11.snappy.parquet",
+      "file_size_bytes": 259533128,
+      "modified_at": "2026-09-28T07:57:00.848000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_12.snappy.parquet",
+      "file_size_bytes": 261248564,
+      "modified_at": "2026-09-28T07:57:33.688000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_13.snappy.parquet",
+      "file_size_bytes": 70925063,
+      "modified_at": "2026-09-28T07:58:00.823000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_2.snappy.parquet",
+      "file_size_bytes": 261218828,
+      "modified_at": "2026-09-28T07:52:00.872000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_3.snappy.parquet",
+      "file_size_bytes": 265168941,
+      "modified_at": "2026-09-28T07:52:35.778000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_4.snappy.parquet",
+      "file_size_bytes": 261167550,
+      "modified_at": "2026-09-28T07:53:00.876000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_5.snappy.parquet",
+      "file_size_bytes": 261587606,
+      "modified_at": "2026-09-28T07:54:00.733000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_6.snappy.parquet",
+      "file_size_bytes": 261155978,
+      "modified_at": "2026-09-28T07:54:39.526000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_7.snappy.parquet",
+      "file_size_bytes": 263867093,
+      "modified_at": "2026-09-28T07:55:01.058000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_8.snappy.parquet",
+      "file_size_bytes": 260834074,
+      "modified_at": "2026-09-28T07:55:47.658000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_0_9.snappy.parquet",
+      "file_size_bytes": 266078657,
+      "modified_at": "2026-09-28T07:56:01.270000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_1_0.snappy.parquet",
+      "file_size_bytes": 261236240,
+      "modified_at": "2026-09-28T07:51:33.807000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_1_1.snappy.parquet",
+      "file_size_bytes": 260996278,
+      "modified_at": "2026-09-28T07:51:33.300000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_1_2.snappy.parquet",
+      "file_size_bytes": 263325320,
+      "modified_at": "2026-09-28T07:52:36.126000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_1_3.snappy.parquet",
+      "file_size_bytes": 266077466,
+      "modified_at": "2026-09-28T07:53:48.326000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_1_4.snappy.parquet",
+      "file_size_bytes": 259075640,
+      "modified_at": "2026-09-28T07:54:40.515000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_1_5.snappy.parquet",
+      "file_size_bytes": 261135199,
+      "modified_at": "2026-09-28T07:54:40.107000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_1_6.snappy.parquet",
+      "file_size_bytes": 261322172,
+      "modified_at": "2026-09-28T07:56:37.389000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_1_7.snappy.parquet",
+      "file_size_bytes": 261161538,
+      "modified_at": "2026-09-28T07:56:00.869000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_1_8.snappy.parquet",
+      "file_size_bytes": 261191767,
+      "modified_at": "2026-09-28T07:57:33.294000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_1_9.snappy.parquet",
+      "file_size_bytes": 104341327,
+      "modified_at": "2026-09-28T07:58:14.179000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_0.snappy.parquet",
+      "file_size_bytes": 261154672,
+      "modified_at": "2026-09-28T07:51:33.717000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_1.snappy.parquet",
+      "file_size_bytes": 260838383,
+      "modified_at": "2026-09-28T07:51:33.403000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_10.snappy.parquet",
+      "file_size_bytes": 260449683,
+      "modified_at": "2026-09-28T07:57:32.965000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_11.snappy.parquet",
+      "file_size_bytes": 47342841,
+      "modified_at": "2026-09-28T07:57:32.726000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_2.snappy.parquet",
+      "file_size_bytes": 262731720,
+      "modified_at": "2026-09-28T07:52:36.734000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_3.snappy.parquet",
+      "file_size_bytes": 265885200,
+      "modified_at": "2026-09-28T07:53:47.491000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_4.snappy.parquet",
+      "file_size_bytes": 262482063,
+      "modified_at": "2026-09-28T07:54:00.962000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_5.snappy.parquet",
+      "file_size_bytes": 261452716,
+      "modified_at": "2026-09-28T07:54:39.679000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_6.snappy.parquet",
+      "file_size_bytes": 266787179,
+      "modified_at": "2026-09-28T07:55:00.869000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_7.snappy.parquet",
+      "file_size_bytes": 261218966,
+      "modified_at": "2026-09-28T07:55:48.101000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_8.snappy.parquet",
+      "file_size_bytes": 267714923,
+      "modified_at": "2026-09-28T07:56:39.041000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_2_9.snappy.parquet",
+      "file_size_bytes": 261370929,
+      "modified_at": "2026-09-28T07:56:38.021000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_0.snappy.parquet",
+      "file_size_bytes": 261222049,
+      "modified_at": "2026-09-28T07:51:00.494000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_1.snappy.parquet",
+      "file_size_bytes": 261523045,
+      "modified_at": "2026-09-28T07:52:00.489000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_10.snappy.parquet",
+      "file_size_bytes": 263170135,
+      "modified_at": "2026-09-28T07:57:00.645000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_11.snappy.parquet",
+      "file_size_bytes": 261156081,
+      "modified_at": "2026-09-28T07:57:33.512000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_12.snappy.parquet",
+      "file_size_bytes": 76655800,
+      "modified_at": "2026-09-28T07:58:00.778000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_2.snappy.parquet",
+      "file_size_bytes": 261190538,
+      "modified_at": "2026-09-28T07:52:36.069000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_3.snappy.parquet",
+      "file_size_bytes": 261326878,
+      "modified_at": "2026-09-28T07:53:47.975000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_4.snappy.parquet",
+      "file_size_bytes": 259851847,
+      "modified_at": "2026-09-28T07:53:48.752000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_5.snappy.parquet",
+      "file_size_bytes": 261059402,
+      "modified_at": "2026-09-28T07:54:39.802000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_6.snappy.parquet",
+      "file_size_bytes": 264528600,
+      "modified_at": "2026-09-28T07:55:00.888000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_7.snappy.parquet",
+      "file_size_bytes": 261294898,
+      "modified_at": "2026-09-28T07:55:47.432000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_8.snappy.parquet",
+      "file_size_bytes": 267841281,
+      "modified_at": "2026-09-28T07:56:00.790000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_3_9.snappy.parquet",
+      "file_size_bytes": 260239705,
+      "modified_at": "2026-09-28T07:56:38.043000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_0.snappy.parquet",
+      "file_size_bytes": 261174135,
+      "modified_at": "2026-09-28T07:51:00.620000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_1.snappy.parquet",
+      "file_size_bytes": 258086819,
+      "modified_at": "2026-09-28T07:51:33.735000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_10.snappy.parquet",
+      "file_size_bytes": 261105599,
+      "modified_at": "2026-09-28T07:57:34.122000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_11.snappy.parquet",
+      "file_size_bytes": 73846327,
+      "modified_at": "2026-09-28T07:58:14.087000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_2.snappy.parquet",
+      "file_size_bytes": 261148910,
+      "modified_at": "2026-09-28T07:52:01.182000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_3.snappy.parquet",
+      "file_size_bytes": 260812106,
+      "modified_at": "2026-09-28T07:52:36.026000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_4.snappy.parquet",
+      "file_size_bytes": 261129237,
+      "modified_at": "2026-09-28T07:53:47.679000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_5.snappy.parquet",
+      "file_size_bytes": 261676748,
+      "modified_at": "2026-09-28T07:53:48.482000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_6.snappy.parquet",
+      "file_size_bytes": 261422498,
+      "modified_at": "2026-09-28T07:55:49.195000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_7.snappy.parquet",
+      "file_size_bytes": 261504639,
+      "modified_at": "2026-09-28T07:55:01.305000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_8.snappy.parquet",
+      "file_size_bytes": 261055467,
+      "modified_at": "2026-09-28T07:56:37.371000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_4_9.snappy.parquet",
+      "file_size_bytes": 260282516,
+      "modified_at": "2026-09-28T07:57:00.306000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_0.snappy.parquet",
+      "file_size_bytes": 261065918,
+      "modified_at": "2026-09-28T07:51:00.737000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_1.snappy.parquet",
+      "file_size_bytes": 261153748,
+      "modified_at": "2026-09-28T07:52:00.466000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_10.snappy.parquet",
+      "file_size_bytes": 261305425,
+      "modified_at": "2026-09-28T07:57:33.236000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_11.snappy.parquet",
+      "file_size_bytes": 92330352,
+      "modified_at": "2026-09-28T07:58:01.092000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_2.snappy.parquet",
+      "file_size_bytes": 261215795,
+      "modified_at": "2026-09-28T07:52:36.282000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_3.snappy.parquet",
+      "file_size_bytes": 261203853,
+      "modified_at": "2026-09-28T07:53:49.071000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_4.snappy.parquet",
+      "file_size_bytes": 258522244,
+      "modified_at": "2026-09-28T07:54:01.100000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_5.snappy.parquet",
+      "file_size_bytes": 261008887,
+      "modified_at": "2026-09-28T07:54:40.205000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_6.snappy.parquet",
+      "file_size_bytes": 260784635,
+      "modified_at": "2026-09-28T07:55:47.366000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_7.snappy.parquet",
+      "file_size_bytes": 259820621,
+      "modified_at": "2026-09-28T07:55:47.903000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_8.snappy.parquet",
+      "file_size_bytes": 261158672,
+      "modified_at": "2026-09-28T07:56:38.841000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_5_9.snappy.parquet",
+      "file_size_bytes": 261159177,
+      "modified_at": "2026-09-28T07:57:00.016000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_0.snappy.parquet",
+      "file_size_bytes": 261077710,
+      "modified_at": "2026-09-28T07:51:00.966000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_1.snappy.parquet",
+      "file_size_bytes": 262659888,
+      "modified_at": "2026-09-28T07:51:33.959000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_10.snappy.parquet",
+      "file_size_bytes": 260090166,
+      "modified_at": "2026-09-28T07:57:00.163000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_11.snappy.parquet",
+      "file_size_bytes": 79133144,
+      "modified_at": "2026-09-28T07:58:00.821000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_2.snappy.parquet",
+      "file_size_bytes": 260966185,
+      "modified_at": "2026-09-28T07:52:01.175000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_3.snappy.parquet",
+      "file_size_bytes": 262004692,
+      "modified_at": "2026-09-28T07:52:37.181000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_4.snappy.parquet",
+      "file_size_bytes": 261179525,
+      "modified_at": "2026-09-28T07:53:48.139000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_5.snappy.parquet",
+      "file_size_bytes": 261220234,
+      "modified_at": "2026-09-28T07:54:40.802000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_6.snappy.parquet",
+      "file_size_bytes": 261248869,
+      "modified_at": "2026-09-28T07:54:40.719000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_7.snappy.parquet",
+      "file_size_bytes": 261295506,
+      "modified_at": "2026-09-28T07:56:00.988000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_8.snappy.parquet",
+      "file_size_bytes": 261043747,
+      "modified_at": "2026-09-28T07:56:01.032000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_6_9.snappy.parquet",
+      "file_size_bytes": 262356206,
+      "modified_at": "2026-09-28T07:57:00.856000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_0.snappy.parquet",
+      "file_size_bytes": 259811897,
+      "modified_at": "2026-09-28T07:51:00.674000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_1.snappy.parquet",
+      "file_size_bytes": 261458858,
+      "modified_at": "2026-09-28T07:51:34.101000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_10.snappy.parquet",
+      "file_size_bytes": 258749356,
+      "modified_at": "2026-09-28T07:57:00.403000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_11.snappy.parquet",
+      "file_size_bytes": 261089431,
+      "modified_at": "2026-09-28T07:57:32.990000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_12.snappy.parquet",
+      "file_size_bytes": 65010874,
+      "modified_at": "2026-09-28T07:58:00.600000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_2.snappy.parquet",
+      "file_size_bytes": 261250342,
+      "modified_at": "2026-09-28T07:52:01.204000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_3.snappy.parquet",
+      "file_size_bytes": 261965507,
+      "modified_at": "2026-09-28T07:52:36.567000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_4.snappy.parquet",
+      "file_size_bytes": 261158741,
+      "modified_at": "2026-09-28T07:53:00.582000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_5.snappy.parquet",
+      "file_size_bytes": 261657983,
+      "modified_at": "2026-09-28T07:54:00.858000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_6.snappy.parquet",
+      "file_size_bytes": 261172402,
+      "modified_at": "2026-09-28T07:54:00.521000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_7.snappy.parquet",
+      "file_size_bytes": 262876566,
+      "modified_at": "2026-09-28T07:55:48.840000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_8.snappy.parquet",
+      "file_size_bytes": 266187866,
+      "modified_at": "2026-09-28T07:55:48.585000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_3_7_9.snappy.parquet",
+      "file_size_bytes": 261145099,
+      "modified_at": "2026-09-28T07:56:38.129000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_0.snappy.parquet",
+      "file_size_bytes": 260439461,
+      "modified_at": "2026-09-28T07:51:01.074000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_1.snappy.parquet",
+      "file_size_bytes": 257160806,
+      "modified_at": "2026-09-28T07:52:00.922000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_10.snappy.parquet",
+      "file_size_bytes": 261051774,
+      "modified_at": "2026-09-28T07:57:33.324000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_11.snappy.parquet",
+      "file_size_bytes": 40434195,
+      "modified_at": "2026-09-28T07:57:32.488000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_2.snappy.parquet",
+      "file_size_bytes": 260473157,
+      "modified_at": "2026-09-28T07:52:01.243000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_3.snappy.parquet",
+      "file_size_bytes": 261057681,
+      "modified_at": "2026-09-28T07:53:47.765000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_4.snappy.parquet",
+      "file_size_bytes": 261201053,
+      "modified_at": "2026-09-28T07:53:47.706000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_5.snappy.parquet",
+      "file_size_bytes": 260911412,
+      "modified_at": "2026-09-28T07:54:39.756000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_6.snappy.parquet",
+      "file_size_bytes": 261842343,
+      "modified_at": "2026-09-28T07:55:00.748000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_7.snappy.parquet",
+      "file_size_bytes": 261246497,
+      "modified_at": "2026-09-28T07:55:48.069000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_8.snappy.parquet",
+      "file_size_bytes": 263400148,
+      "modified_at": "2026-09-28T07:56:38.884000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_0_9.snappy.parquet",
+      "file_size_bytes": 261179695,
+      "modified_at": "2026-09-28T07:56:38.625000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_0.snappy.parquet",
+      "file_size_bytes": 261261034,
+      "modified_at": "2026-09-28T07:51:33.735000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_1.snappy.parquet",
+      "file_size_bytes": 260012269,
+      "modified_at": "2026-09-28T07:51:33.502000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_10.snappy.parquet",
+      "file_size_bytes": 261285014,
+      "modified_at": "2026-09-28T07:57:33.142000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_11.snappy.parquet",
+      "file_size_bytes": 98149737,
+      "modified_at": "2026-09-28T07:58:00.924000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_2.snappy.parquet",
+      "file_size_bytes": 264181038,
+      "modified_at": "2026-09-28T07:52:36.198000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_3.snappy.parquet",
+      "file_size_bytes": 263942279,
+      "modified_at": "2026-09-28T07:52:35.940000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_4.snappy.parquet",
+      "file_size_bytes": 262731344,
+      "modified_at": "2026-09-28T07:53:48.919000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_5.snappy.parquet",
+      "file_size_bytes": 262498763,
+      "modified_at": "2026-09-28T07:54:40.027000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_6.snappy.parquet",
+      "file_size_bytes": 261264446,
+      "modified_at": "2026-09-28T07:54:41.104000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_7.snappy.parquet",
+      "file_size_bytes": 260528613,
+      "modified_at": "2026-09-28T07:55:48.324000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_8.snappy.parquet",
+      "file_size_bytes": 265088978,
+      "modified_at": "2026-09-28T07:56:38.822000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_1_9.snappy.parquet",
+      "file_size_bytes": 261188448,
+      "modified_at": "2026-09-28T07:56:59.662000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_0.snappy.parquet",
+      "file_size_bytes": 261289380,
+      "modified_at": "2026-09-28T07:51:00.929000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_1.snappy.parquet",
+      "file_size_bytes": 257798286,
+      "modified_at": "2026-09-28T07:52:00.382000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_10.snappy.parquet",
+      "file_size_bytes": 264833979,
+      "modified_at": "2026-09-28T07:56:59.434000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_11.snappy.parquet",
+      "file_size_bytes": 261153568,
+      "modified_at": "2026-09-28T07:57:32.439000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_12.snappy.parquet",
+      "file_size_bytes": 74220571,
+      "modified_at": "2026-09-28T07:58:00.649000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_2.snappy.parquet",
+      "file_size_bytes": 261147874,
+      "modified_at": "2026-09-28T07:52:36.657000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_3.snappy.parquet",
+      "file_size_bytes": 261259580,
+      "modified_at": "2026-09-28T07:53:01.059000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_4.snappy.parquet",
+      "file_size_bytes": 259442657,
+      "modified_at": "2026-09-28T07:54:01.232000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_5.snappy.parquet",
+      "file_size_bytes": 263646735,
+      "modified_at": "2026-09-28T07:54:01.318000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_6.snappy.parquet",
+      "file_size_bytes": 262440082,
+      "modified_at": "2026-09-28T07:55:00.343000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_7.snappy.parquet",
+      "file_size_bytes": 267737327,
+      "modified_at": "2026-09-28T07:55:47.950000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_8.snappy.parquet",
+      "file_size_bytes": 261884000,
+      "modified_at": "2026-09-28T07:56:00.355000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_2_9.snappy.parquet",
+      "file_size_bytes": 260368809,
+      "modified_at": "2026-09-28T07:56:37.821000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_0.snappy.parquet",
+      "file_size_bytes": 261160514,
+      "modified_at": "2026-09-28T07:51:00.884000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_1.snappy.parquet",
+      "file_size_bytes": 258115591,
+      "modified_at": "2026-09-28T07:51:33.562000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_10.snappy.parquet",
+      "file_size_bytes": 264959482,
+      "modified_at": "2026-09-28T07:57:00.554000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_11.snappy.parquet",
+      "file_size_bytes": 261268535,
+      "modified_at": "2026-09-28T07:57:33.614000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_12.snappy.parquet",
+      "file_size_bytes": 91426908,
+      "modified_at": "2026-09-28T07:58:00.467000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_2.snappy.parquet",
+      "file_size_bytes": 261355603,
+      "modified_at": "2026-09-28T07:52:00.691000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_3.snappy.parquet",
+      "file_size_bytes": 261180409,
+      "modified_at": "2026-09-28T07:52:35.827000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_4.snappy.parquet",
+      "file_size_bytes": 261129920,
+      "modified_at": "2026-09-28T07:53:48.263000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_5.snappy.parquet",
+      "file_size_bytes": 263879849,
+      "modified_at": "2026-09-28T07:53:48.803000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_6.snappy.parquet",
+      "file_size_bytes": 261269005,
+      "modified_at": "2026-09-28T07:54:39.939000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_7.snappy.parquet",
+      "file_size_bytes": 263603509,
+      "modified_at": "2026-09-28T07:55:49.132000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_8.snappy.parquet",
+      "file_size_bytes": 261066819,
+      "modified_at": "2026-09-28T07:55:48.639000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_3_9.snappy.parquet",
+      "file_size_bytes": 261216447,
+      "modified_at": "2026-09-28T07:56:37.821000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_0.snappy.parquet",
+      "file_size_bytes": 261447053,
+      "modified_at": "2026-09-28T07:51:00.882000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_1.snappy.parquet",
+      "file_size_bytes": 258351453,
+      "modified_at": "2026-09-28T07:52:00.957000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_10.snappy.parquet",
+      "file_size_bytes": 262184486,
+      "modified_at": "2026-09-28T07:57:00.387000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_11.snappy.parquet",
+      "file_size_bytes": 260755916,
+      "modified_at": "2026-09-28T07:57:32.990000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_12.snappy.parquet",
+      "file_size_bytes": 72364118,
+      "modified_at": "2026-09-28T07:58:00.471000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_2.snappy.parquet",
+      "file_size_bytes": 261196929,
+      "modified_at": "2026-09-28T07:52:36.455000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_3.snappy.parquet",
+      "file_size_bytes": 260500818,
+      "modified_at": "2026-09-28T07:53:47.769000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_4.snappy.parquet",
+      "file_size_bytes": 262581986,
+      "modified_at": "2026-09-28T07:53:48.643000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_5.snappy.parquet",
+      "file_size_bytes": 261288652,
+      "modified_at": "2026-09-28T07:54:40.637000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_6.snappy.parquet",
+      "file_size_bytes": 261193856,
+      "modified_at": "2026-09-28T07:55:01.070000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_7.snappy.parquet",
+      "file_size_bytes": 261077936,
+      "modified_at": "2026-09-28T07:55:48.412000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_8.snappy.parquet",
+      "file_size_bytes": 264994773,
+      "modified_at": "2026-09-28T07:56:00.963000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_4_9.snappy.parquet",
+      "file_size_bytes": 261275704,
+      "modified_at": "2026-09-28T07:56:37.901000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_0.snappy.parquet",
+      "file_size_bytes": 261257668,
+      "modified_at": "2026-09-28T07:51:33.283000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_1.snappy.parquet",
+      "file_size_bytes": 256570459,
+      "modified_at": "2026-09-28T07:51:35.030000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_10.snappy.parquet",
+      "file_size_bytes": 262394515,
+      "modified_at": "2026-09-28T07:56:59.713000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_11.snappy.parquet",
+      "file_size_bytes": 177290696,
+      "modified_at": "2026-09-28T07:57:33.664000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_2.snappy.parquet",
+      "file_size_bytes": 262838457,
+      "modified_at": "2026-09-28T07:52:36.652000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_3.snappy.parquet",
+      "file_size_bytes": 266783588,
+      "modified_at": "2026-09-28T07:53:00.537000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_4.snappy.parquet",
+      "file_size_bytes": 264526548,
+      "modified_at": "2026-09-28T07:54:01.262000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_5.snappy.parquet",
+      "file_size_bytes": 264845756,
+      "modified_at": "2026-09-28T07:54:40.075000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_6.snappy.parquet",
+      "file_size_bytes": 262885130,
+      "modified_at": "2026-09-28T07:55:00.740000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_7.snappy.parquet",
+      "file_size_bytes": 260995721,
+      "modified_at": "2026-09-28T07:55:48.411000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_8.snappy.parquet",
+      "file_size_bytes": 261440291,
+      "modified_at": "2026-09-28T07:56:00.369000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_5_9.snappy.parquet",
+      "file_size_bytes": 261163913,
+      "modified_at": "2026-09-28T07:56:38.683000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_0.snappy.parquet",
+      "file_size_bytes": 261149953,
+      "modified_at": "2026-09-28T07:51:00.862000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_1.snappy.parquet",
+      "file_size_bytes": 260493667,
+      "modified_at": "2026-09-28T07:51:33.964000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_10.snappy.parquet",
+      "file_size_bytes": 260510132,
+      "modified_at": "2026-09-28T07:57:00.377000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_11.snappy.parquet",
+      "file_size_bytes": 263894380,
+      "modified_at": "2026-09-28T07:56:59.748000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_12.snappy.parquet",
+      "file_size_bytes": 78113695,
+      "modified_at": "2026-09-28T07:57:33.539000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_2.snappy.parquet",
+      "file_size_bytes": 261050567,
+      "modified_at": "2026-09-28T07:52:00.941000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_3.snappy.parquet",
+      "file_size_bytes": 261231240,
+      "modified_at": "2026-09-28T07:52:37.279000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_4.snappy.parquet",
+      "file_size_bytes": 261118657,
+      "modified_at": "2026-09-28T07:53:00.844000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_5.snappy.parquet",
+      "file_size_bytes": 264301565,
+      "modified_at": "2026-09-28T07:54:39.971000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_6.snappy.parquet",
+      "file_size_bytes": 261730193,
+      "modified_at": "2026-09-28T07:54:00.978000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_7.snappy.parquet",
+      "file_size_bytes": 261223114,
+      "modified_at": "2026-09-28T07:55:01.015000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_8.snappy.parquet",
+      "file_size_bytes": 261902768,
+      "modified_at": "2026-09-28T07:56:00.634000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_6_9.snappy.parquet",
+      "file_size_bytes": 263922982,
+      "modified_at": "2026-09-28T07:56:01.054000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_0.snappy.parquet",
+      "file_size_bytes": 260341553,
+      "modified_at": "2026-09-28T07:51:34.599000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_1.snappy.parquet",
+      "file_size_bytes": 259366303,
+      "modified_at": "2026-09-28T07:51:34.366000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_10.snappy.parquet",
+      "file_size_bytes": 261302047,
+      "modified_at": "2026-09-28T07:57:32.753000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_11.snappy.parquet",
+      "file_size_bytes": 59683834,
+      "modified_at": "2026-09-28T07:58:01.063000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_2.snappy.parquet",
+      "file_size_bytes": 264288139,
+      "modified_at": "2026-09-28T07:52:36.236000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_3.snappy.parquet",
+      "file_size_bytes": 263125901,
+      "modified_at": "2026-09-28T07:53:48.918000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_4.snappy.parquet",
+      "file_size_bytes": 263218253,
+      "modified_at": "2026-09-28T07:54:00.727000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_5.snappy.parquet",
+      "file_size_bytes": 261213137,
+      "modified_at": "2026-09-28T07:54:40.719000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_6.snappy.parquet",
+      "file_size_bytes": 262669721,
+      "modified_at": "2026-09-28T07:55:48.143000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_7.snappy.parquet",
+      "file_size_bytes": 261095564,
+      "modified_at": "2026-09-28T07:56:01.062000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_8.snappy.parquet",
+      "file_size_bytes": 261015768,
+      "modified_at": "2026-09-28T07:56:37.487000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_4_7_9.snappy.parquet",
+      "file_size_bytes": 268063373,
+      "modified_at": "2026-09-28T07:57:00.558000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_0.snappy.parquet",
+      "file_size_bytes": 261146030,
+      "modified_at": "2026-09-28T07:51:33.843000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_1.snappy.parquet",
+      "file_size_bytes": 259448287,
+      "modified_at": "2026-09-28T07:52:36.526000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_10.snappy.parquet",
+      "file_size_bytes": 92579273,
+      "modified_at": "2026-09-28T07:58:00.408000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_2.snappy.parquet",
+      "file_size_bytes": 260933987,
+      "modified_at": "2026-09-28T07:52:37.100000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_3.snappy.parquet",
+      "file_size_bytes": 264192385,
+      "modified_at": "2026-09-28T07:54:40.841000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_4.snappy.parquet",
+      "file_size_bytes": 262509624,
+      "modified_at": "2026-09-28T07:54:01.241000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_5.snappy.parquet",
+      "file_size_bytes": 260839827,
+      "modified_at": "2026-09-28T07:55:47.642000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_6.snappy.parquet",
+      "file_size_bytes": 261835709,
+      "modified_at": "2026-09-28T07:55:49.049000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_7.snappy.parquet",
+      "file_size_bytes": 261066979,
+      "modified_at": "2026-09-28T07:56:38.279000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_8.snappy.parquet",
+      "file_size_bytes": 260041909,
+      "modified_at": "2026-09-28T07:57:00.535000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_0_9.snappy.parquet",
+      "file_size_bytes": 261093744,
+      "modified_at": "2026-09-28T07:57:33.298000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_0.snappy.parquet",
+      "file_size_bytes": 260665073,
+      "modified_at": "2026-09-28T07:51:33.713000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_1.snappy.parquet",
+      "file_size_bytes": 260279952,
+      "modified_at": "2026-09-28T07:52:00.331000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_10.snappy.parquet",
+      "file_size_bytes": 261159816,
+      "modified_at": "2026-09-28T07:57:00.475000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_11.snappy.parquet",
+      "file_size_bytes": 129145642,
+      "modified_at": "2026-09-28T07:58:13.444000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_2.snappy.parquet",
+      "file_size_bytes": 261131173,
+      "modified_at": "2026-09-28T07:52:36.713000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_3.snappy.parquet",
+      "file_size_bytes": 267655812,
+      "modified_at": "2026-09-28T07:53:47.519000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_4.snappy.parquet",
+      "file_size_bytes": 265524094,
+      "modified_at": "2026-09-28T07:53:47.395000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_5.snappy.parquet",
+      "file_size_bytes": 261081362,
+      "modified_at": "2026-09-28T07:55:00.708000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_6.snappy.parquet",
+      "file_size_bytes": 262383280,
+      "modified_at": "2026-09-28T07:55:01.324000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_7.snappy.parquet",
+      "file_size_bytes": 261052954,
+      "modified_at": "2026-09-28T07:56:01.247000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_8.snappy.parquet",
+      "file_size_bytes": 271173011,
+      "modified_at": "2026-09-28T07:56:01.144000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_1_9.snappy.parquet",
+      "file_size_bytes": 263523036,
+      "modified_at": "2026-09-28T07:56:59.633000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_0.snappy.parquet",
+      "file_size_bytes": 260911660,
+      "modified_at": "2026-09-28T07:51:35.061000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_1.snappy.parquet",
+      "file_size_bytes": 261056534,
+      "modified_at": "2026-09-28T07:52:00.944000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_10.snappy.parquet",
+      "file_size_bytes": 261581190,
+      "modified_at": "2026-09-28T07:57:33.208000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_11.snappy.parquet",
+      "file_size_bytes": 79083599,
+      "modified_at": "2026-09-28T07:58:00.646000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_2.snappy.parquet",
+      "file_size_bytes": 261282471,
+      "modified_at": "2026-09-28T07:53:47.869000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_3.snappy.parquet",
+      "file_size_bytes": 261167401,
+      "modified_at": "2026-09-28T07:53:00.955000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_4.snappy.parquet",
+      "file_size_bytes": 260907987,
+      "modified_at": "2026-09-28T07:54:40.832000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_5.snappy.parquet",
+      "file_size_bytes": 261284333,
+      "modified_at": "2026-09-28T07:55:01.150000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_6.snappy.parquet",
+      "file_size_bytes": 260955129,
+      "modified_at": "2026-09-28T07:55:48.254000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_7.snappy.parquet",
+      "file_size_bytes": 263185691,
+      "modified_at": "2026-09-28T07:56:01.336000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_8.snappy.parquet",
+      "file_size_bytes": 260973889,
+      "modified_at": "2026-09-28T07:56:38.693000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_2_9.snappy.parquet",
+      "file_size_bytes": 258891396,
+      "modified_at": "2026-09-28T07:57:00.221000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_0.snappy.parquet",
+      "file_size_bytes": 261193970,
+      "modified_at": "2026-09-28T07:51:00.282000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_1.snappy.parquet",
+      "file_size_bytes": 258409900,
+      "modified_at": "2026-09-28T07:52:36.118000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_10.snappy.parquet",
+      "file_size_bytes": 256055225,
+      "modified_at": "2026-09-28T07:57:01.279000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_11.snappy.parquet",
+      "file_size_bytes": 261308281,
+      "modified_at": "2026-09-28T07:57:32.863000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_12.snappy.parquet",
+      "file_size_bytes": 67503032,
+      "modified_at": "2026-09-28T07:58:00.629000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_2.snappy.parquet",
+      "file_size_bytes": 264777326,
+      "modified_at": "2026-09-28T07:52:01.084000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_3.snappy.parquet",
+      "file_size_bytes": 264979447,
+      "modified_at": "2026-09-28T07:53:47.912000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_4.snappy.parquet",
+      "file_size_bytes": 266299903,
+      "modified_at": "2026-09-28T07:54:00.403000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_5.snappy.parquet",
+      "file_size_bytes": 261219932,
+      "modified_at": "2026-09-28T07:54:40.069000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_6.snappy.parquet",
+      "file_size_bytes": 264392515,
+      "modified_at": "2026-09-28T07:55:01.233000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_7.snappy.parquet",
+      "file_size_bytes": 260797036,
+      "modified_at": "2026-09-28T07:55:48.941000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_8.snappy.parquet",
+      "file_size_bytes": 261852468,
+      "modified_at": "2026-09-28T07:56:00.449000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_3_9.snappy.parquet",
+      "file_size_bytes": 261300943,
+      "modified_at": "2026-09-28T07:56:38.623000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_0.snappy.parquet",
+      "file_size_bytes": 261164137,
+      "modified_at": "2026-09-28T07:51:33.634000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_1.snappy.parquet",
+      "file_size_bytes": 258546258,
+      "modified_at": "2026-09-28T07:52:00.348000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_10.snappy.parquet",
+      "file_size_bytes": 261571661,
+      "modified_at": "2026-09-28T07:56:37.864000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_11.snappy.parquet",
+      "file_size_bytes": 260880215,
+      "modified_at": "2026-09-28T07:57:00.502000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_12.snappy.parquet",
+      "file_size_bytes": 261018260,
+      "modified_at": "2026-09-28T07:57:33.908000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_13.snappy.parquet",
+      "file_size_bytes": 58721349,
+      "modified_at": "2026-09-28T07:58:00.408000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_2.snappy.parquet",
+      "file_size_bytes": 261024187,
+      "modified_at": "2026-09-28T07:52:36.202000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_3.snappy.parquet",
+      "file_size_bytes": 262515107,
+      "modified_at": "2026-09-28T07:53:01.202000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_4.snappy.parquet",
+      "file_size_bytes": 261193397,
+      "modified_at": "2026-09-28T07:53:48.423000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_5.snappy.parquet",
+      "file_size_bytes": 261285120,
+      "modified_at": "2026-09-28T07:54:00.887000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_6.snappy.parquet",
+      "file_size_bytes": 261209902,
+      "modified_at": "2026-09-28T07:54:39.905000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_7.snappy.parquet",
+      "file_size_bytes": 261105044,
+      "modified_at": "2026-09-28T07:55:01.040000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_8.snappy.parquet",
+      "file_size_bytes": 263982740,
+      "modified_at": "2026-09-28T07:55:47.875000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_4_9.snappy.parquet",
+      "file_size_bytes": 261249466,
+      "modified_at": "2026-09-28T07:56:00.755000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_0.snappy.parquet",
+      "file_size_bytes": 261214369,
+      "modified_at": "2026-09-28T07:51:34.901000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_1.snappy.parquet",
+      "file_size_bytes": 259704206,
+      "modified_at": "2026-09-28T07:51:35.092000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_10.snappy.parquet",
+      "file_size_bytes": 261182092,
+      "modified_at": "2026-09-28T07:57:33.587000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_11.snappy.parquet",
+      "file_size_bytes": 59764678,
+      "modified_at": "2026-09-28T07:58:00.789000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_2.snappy.parquet",
+      "file_size_bytes": 261312055,
+      "modified_at": "2026-09-28T07:53:48.952000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_3.snappy.parquet",
+      "file_size_bytes": 261323067,
+      "modified_at": "2026-09-28T07:53:01.117000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_4.snappy.parquet",
+      "file_size_bytes": 261154332,
+      "modified_at": "2026-09-28T07:54:40.410000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_5.snappy.parquet",
+      "file_size_bytes": 261903734,
+      "modified_at": "2026-09-28T07:55:00.428000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_6.snappy.parquet",
+      "file_size_bytes": 265254956,
+      "modified_at": "2026-09-28T07:55:48.695000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_7.snappy.parquet",
+      "file_size_bytes": 259704369,
+      "modified_at": "2026-09-28T07:56:00.570000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_8.snappy.parquet",
+      "file_size_bytes": 260184787,
+      "modified_at": "2026-09-28T07:56:38.065000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_5_9.snappy.parquet",
+      "file_size_bytes": 258581603,
+      "modified_at": "2026-09-28T07:57:00.992000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_0.snappy.parquet",
+      "file_size_bytes": 261269412,
+      "modified_at": "2026-09-28T07:51:34.198000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_1.snappy.parquet",
+      "file_size_bytes": 259127511,
+      "modified_at": "2026-09-28T07:52:36.475000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_10.snappy.parquet",
+      "file_size_bytes": 261159828,
+      "modified_at": "2026-09-28T07:57:32.961000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_11.snappy.parquet",
+      "file_size_bytes": 46946688,
+      "modified_at": "2026-09-28T07:58:13.560000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_2.snappy.parquet",
+      "file_size_bytes": 261225429,
+      "modified_at": "2026-09-28T07:53:47.973000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_3.snappy.parquet",
+      "file_size_bytes": 259816629,
+      "modified_at": "2026-09-28T07:53:48.077000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_4.snappy.parquet",
+      "file_size_bytes": 261355395,
+      "modified_at": "2026-09-28T07:54:40.765000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_5.snappy.parquet",
+      "file_size_bytes": 259593673,
+      "modified_at": "2026-09-28T07:55:00.662000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_6.snappy.parquet",
+      "file_size_bytes": 261343362,
+      "modified_at": "2026-09-28T07:55:47.966000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_7.snappy.parquet",
+      "file_size_bytes": 258772329,
+      "modified_at": "2026-09-28T07:56:00.926000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_8.snappy.parquet",
+      "file_size_bytes": 261251899,
+      "modified_at": "2026-09-28T07:56:38.882000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_6_9.snappy.parquet",
+      "file_size_bytes": 258592823,
+      "modified_at": "2026-09-28T07:57:00.332000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_0.snappy.parquet",
+      "file_size_bytes": 261882141,
+      "modified_at": "2026-09-28T07:51:00.744000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_1.snappy.parquet",
+      "file_size_bytes": 258005127,
+      "modified_at": "2026-09-28T07:51:33.790000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_10.snappy.parquet",
+      "file_size_bytes": 261107168,
+      "modified_at": "2026-09-28T07:57:33.497000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_11.snappy.parquet",
+      "file_size_bytes": 107813875,
+      "modified_at": "2026-09-28T07:58:14.710000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_2.snappy.parquet",
+      "file_size_bytes": 263941382,
+      "modified_at": "2026-09-28T07:52:35.908000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_3.snappy.parquet",
+      "file_size_bytes": 261069188,
+      "modified_at": "2026-09-28T07:52:36.706000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_4.snappy.parquet",
+      "file_size_bytes": 265312186,
+      "modified_at": "2026-09-28T07:54:40.621000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_5.snappy.parquet",
+      "file_size_bytes": 263503406,
+      "modified_at": "2026-09-28T07:54:39.495000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_6.snappy.parquet",
+      "file_size_bytes": 260525410,
+      "modified_at": "2026-09-28T07:55:48.859000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_7.snappy.parquet",
+      "file_size_bytes": 263151138,
+      "modified_at": "2026-09-28T07:56:01.087000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_8.snappy.parquet",
+      "file_size_bytes": 261197496,
+      "modified_at": "2026-09-28T07:56:38.516000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_5_7_9.snappy.parquet",
+      "file_size_bytes": 260839371,
+      "modified_at": "2026-09-28T07:56:37.479000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_0.snappy.parquet",
+      "file_size_bytes": 261111332,
+      "modified_at": "2026-09-28T07:51:34.349000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_1.snappy.parquet",
+      "file_size_bytes": 258119609,
+      "modified_at": "2026-09-28T07:51:33.849000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_10.snappy.parquet",
+      "file_size_bytes": 267567552,
+      "modified_at": "2026-09-28T07:56:59.495000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_11.snappy.parquet",
+      "file_size_bytes": 126080378,
+      "modified_at": "2026-09-28T07:57:34.123000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_2.snappy.parquet",
+      "file_size_bytes": 261220278,
+      "modified_at": "2026-09-28T07:52:36.946000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_3.snappy.parquet",
+      "file_size_bytes": 264316922,
+      "modified_at": "2026-09-28T07:53:00.736000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_4.snappy.parquet",
+      "file_size_bytes": 259022216,
+      "modified_at": "2026-09-28T07:53:47.970000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_5.snappy.parquet",
+      "file_size_bytes": 261261117,
+      "modified_at": "2026-09-28T07:54:40.813000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_6.snappy.parquet",
+      "file_size_bytes": 262505025,
+      "modified_at": "2026-09-28T07:54:40.891000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_7.snappy.parquet",
+      "file_size_bytes": 262090697,
+      "modified_at": "2026-09-28T07:56:00.758000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_8.snappy.parquet",
+      "file_size_bytes": 261207854,
+      "modified_at": "2026-09-28T07:56:01.094000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_0_9.snappy.parquet",
+      "file_size_bytes": 260915224,
+      "modified_at": "2026-09-28T07:56:59.615000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_0.snappy.parquet",
+      "file_size_bytes": 261310043,
+      "modified_at": "2026-09-28T07:51:00.491000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_1.snappy.parquet",
+      "file_size_bytes": 256781178,
+      "modified_at": "2026-09-28T07:51:33.695000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_10.snappy.parquet",
+      "file_size_bytes": 260638852,
+      "modified_at": "2026-09-28T07:57:33.854000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_11.snappy.parquet",
+      "file_size_bytes": 115999575,
+      "modified_at": "2026-09-28T07:58:13.914000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_2.snappy.parquet",
+      "file_size_bytes": 261041295,
+      "modified_at": "2026-09-28T07:52:00.693000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_3.snappy.parquet",
+      "file_size_bytes": 261290248,
+      "modified_at": "2026-09-28T07:53:00.871000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_4.snappy.parquet",
+      "file_size_bytes": 261257321,
+      "modified_at": "2026-09-28T07:53:01.063000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_5.snappy.parquet",
+      "file_size_bytes": 260896674,
+      "modified_at": "2026-09-28T07:54:39.910000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_6.snappy.parquet",
+      "file_size_bytes": 261164426,
+      "modified_at": "2026-09-28T07:54:00.486000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_7.snappy.parquet",
+      "file_size_bytes": 260783677,
+      "modified_at": "2026-09-28T07:55:47.778000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_8.snappy.parquet",
+      "file_size_bytes": 263065818,
+      "modified_at": "2026-09-28T07:56:39.421000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_1_9.snappy.parquet",
+      "file_size_bytes": 261396409,
+      "modified_at": "2026-09-28T07:56:39.184000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_2_0.snappy.parquet",
+      "file_size_bytes": 261097655,
+      "modified_at": "2026-09-28T07:51:33.578000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_2_1.snappy.parquet",
+      "file_size_bytes": 258641827,
+      "modified_at": "2026-09-28T07:52:00.714000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_2_2.snappy.parquet",
+      "file_size_bytes": 259994507,
+      "modified_at": "2026-09-28T07:53:48.631000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_2_3.snappy.parquet",
+      "file_size_bytes": 260952221,
+      "modified_at": "2026-09-28T07:53:00.789000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_2_4.snappy.parquet",
+      "file_size_bytes": 259103160,
+      "modified_at": "2026-09-28T07:55:48.473000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_2_5.snappy.parquet",
+      "file_size_bytes": 263034284,
+      "modified_at": "2026-09-28T07:55:01.238000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_2_6.snappy.parquet",
+      "file_size_bytes": 261252731,
+      "modified_at": "2026-09-28T07:56:59.377000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_2_7.snappy.parquet",
+      "file_size_bytes": 263830448,
+      "modified_at": "2026-09-28T07:57:01.398000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_2_8.snappy.parquet",
+      "file_size_bytes": 93198151,
+      "modified_at": "2026-09-28T07:58:01.261000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_0.snappy.parquet",
+      "file_size_bytes": 261148067,
+      "modified_at": "2026-09-28T07:51:01.045000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_1.snappy.parquet",
+      "file_size_bytes": 259392778,
+      "modified_at": "2026-09-28T07:52:35.800000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_10.snappy.parquet",
+      "file_size_bytes": 260447144,
+      "modified_at": "2026-09-28T07:57:33.118000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_11.snappy.parquet",
+      "file_size_bytes": 81944828,
+      "modified_at": "2026-09-28T07:58:16.712000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_2.snappy.parquet",
+      "file_size_bytes": 261234792,
+      "modified_at": "2026-09-28T07:52:00.650000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_3.snappy.parquet",
+      "file_size_bytes": 262821302,
+      "modified_at": "2026-09-28T07:53:48.169000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_4.snappy.parquet",
+      "file_size_bytes": 264762937,
+      "modified_at": "2026-09-28T07:54:00.360000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_5.snappy.parquet",
+      "file_size_bytes": 261105936,
+      "modified_at": "2026-09-28T07:54:39.432000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_6.snappy.parquet",
+      "file_size_bytes": 261102531,
+      "modified_at": "2026-09-28T07:55:48.046000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_7.snappy.parquet",
+      "file_size_bytes": 265509632,
+      "modified_at": "2026-09-28T07:55:00.915000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_8.snappy.parquet",
+      "file_size_bytes": 261217759,
+      "modified_at": "2026-09-28T07:56:38.809000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_3_9.snappy.parquet",
+      "file_size_bytes": 260205148,
+      "modified_at": "2026-09-28T07:56:59.711000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_0.snappy.parquet",
+      "file_size_bytes": 261229945,
+      "modified_at": "2026-09-28T07:51:34.699000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_1.snappy.parquet",
+      "file_size_bytes": 258171713,
+      "modified_at": "2026-09-28T07:52:35.618000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_10.snappy.parquet",
+      "file_size_bytes": 132930225,
+      "modified_at": "2026-09-28T07:57:34.195000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_2.snappy.parquet",
+      "file_size_bytes": 261454110,
+      "modified_at": "2026-09-28T07:52:36.117000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_3.snappy.parquet",
+      "file_size_bytes": 260648084,
+      "modified_at": "2026-09-28T07:53:47.617000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_4.snappy.parquet",
+      "file_size_bytes": 261810108,
+      "modified_at": "2026-09-28T07:53:47.702000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_5.snappy.parquet",
+      "file_size_bytes": 260007964,
+      "modified_at": "2026-09-28T07:54:40.625000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_6.snappy.parquet",
+      "file_size_bytes": 261285329,
+      "modified_at": "2026-09-28T07:55:48.576000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_7.snappy.parquet",
+      "file_size_bytes": 260809665,
+      "modified_at": "2026-09-28T07:56:37.997000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_8.snappy.parquet",
+      "file_size_bytes": 261189324,
+      "modified_at": "2026-09-28T07:56:38.378000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_4_9.snappy.parquet",
+      "file_size_bytes": 261295889,
+      "modified_at": "2026-09-28T07:57:32.876000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_0.snappy.parquet",
+      "file_size_bytes": 260964271,
+      "modified_at": "2026-09-28T07:51:01.009000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_1.snappy.parquet",
+      "file_size_bytes": 258143209,
+      "modified_at": "2026-09-28T07:52:00.755000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_10.snappy.parquet",
+      "file_size_bytes": 258783537,
+      "modified_at": "2026-09-28T07:57:00.623000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_11.snappy.parquet",
+      "file_size_bytes": 260682764,
+      "modified_at": "2026-09-28T07:57:33.866000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_12.snappy.parquet",
+      "file_size_bytes": 119964174,
+      "modified_at": "2026-09-28T07:58:14.517000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_2.snappy.parquet",
+      "file_size_bytes": 261217328,
+      "modified_at": "2026-09-28T07:52:36.917000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_3.snappy.parquet",
+      "file_size_bytes": 261048542,
+      "modified_at": "2026-09-28T07:53:00.536000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_4.snappy.parquet",
+      "file_size_bytes": 259663264,
+      "modified_at": "2026-09-28T07:53:47.572000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_5.snappy.parquet",
+      "file_size_bytes": 261266236,
+      "modified_at": "2026-09-28T07:54:00.688000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_6.snappy.parquet",
+      "file_size_bytes": 265439353,
+      "modified_at": "2026-09-28T07:54:39.349000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_7.snappy.parquet",
+      "file_size_bytes": 261228637,
+      "modified_at": "2026-09-28T07:55:48.103000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_8.snappy.parquet",
+      "file_size_bytes": 264012935,
+      "modified_at": "2026-09-28T07:55:48.045000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_5_9.snappy.parquet",
+      "file_size_bytes": 261215090,
+      "modified_at": "2026-09-28T07:56:38.421000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_0.snappy.parquet",
+      "file_size_bytes": 261274524,
+      "modified_at": "2026-09-28T07:51:33.469000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_1.snappy.parquet",
+      "file_size_bytes": 258757785,
+      "modified_at": "2026-09-28T07:51:34.011000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_10.snappy.parquet",
+      "file_size_bytes": 260710032,
+      "modified_at": "2026-09-28T07:57:34.482000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_11.snappy.parquet",
+      "file_size_bytes": 145819850,
+      "modified_at": "2026-09-28T07:57:33.977000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_2.snappy.parquet",
+      "file_size_bytes": 260888556,
+      "modified_at": "2026-09-28T07:52:36.604000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_3.snappy.parquet",
+      "file_size_bytes": 265647904,
+      "modified_at": "2026-09-28T07:53:01.307000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_4.snappy.parquet",
+      "file_size_bytes": 265411643,
+      "modified_at": "2026-09-28T07:53:47.925000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_5.snappy.parquet",
+      "file_size_bytes": 261150284,
+      "modified_at": "2026-09-28T07:54:01.129000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_6.snappy.parquet",
+      "file_size_bytes": 263772810,
+      "modified_at": "2026-09-28T07:54:41.224000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_7.snappy.parquet",
+      "file_size_bytes": 260331106,
+      "modified_at": "2026-09-28T07:55:01.072000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_8.snappy.parquet",
+      "file_size_bytes": 262817450,
+      "modified_at": "2026-09-28T07:56:38.208000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_6_9.snappy.parquet",
+      "file_size_bytes": 260539109,
+      "modified_at": "2026-09-28T07:56:38.818000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_0.snappy.parquet",
+      "file_size_bytes": 261240317,
+      "modified_at": "2026-09-28T07:51:00.850000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_1.snappy.parquet",
+      "file_size_bytes": 258284619,
+      "modified_at": "2026-09-28T07:52:36.299000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_10.snappy.parquet",
+      "file_size_bytes": 264730787,
+      "modified_at": "2026-09-28T07:57:00.144000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_11.snappy.parquet",
+      "file_size_bytes": 102486236,
+      "modified_at": "2026-09-28T07:58:00.789000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_2.snappy.parquet",
+      "file_size_bytes": 265539877,
+      "modified_at": "2026-09-28T07:52:36.192000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_3.snappy.parquet",
+      "file_size_bytes": 262295067,
+      "modified_at": "2026-09-28T07:53:01.230000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_4.snappy.parquet",
+      "file_size_bytes": 258524383,
+      "modified_at": "2026-09-28T07:53:48.483000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_5.snappy.parquet",
+      "file_size_bytes": 261103593,
+      "modified_at": "2026-09-28T07:54:01.191000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_6.snappy.parquet",
+      "file_size_bytes": 260118451,
+      "modified_at": "2026-09-28T07:54:39.491000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_7.snappy.parquet",
+      "file_size_bytes": 261153348,
+      "modified_at": "2026-09-28T07:55:48.840000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_8.snappy.parquet",
+      "file_size_bytes": 263409454,
+      "modified_at": "2026-09-28T07:55:48.358000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_6_7_9.snappy.parquet",
+      "file_size_bytes": 261175616,
+      "modified_at": "2026-09-28T07:57:00.302000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_0.snappy.parquet",
+      "file_size_bytes": 261157940,
+      "modified_at": "2026-09-28T07:51:00.538000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_1.snappy.parquet",
+      "file_size_bytes": 263170184,
+      "modified_at": "2026-09-28T07:51:33.422000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_10.snappy.parquet",
+      "file_size_bytes": 263013574,
+      "modified_at": "2026-09-28T07:57:00.192000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_11.snappy.parquet",
+      "file_size_bytes": 261370029,
+      "modified_at": "2026-09-28T07:57:33.509000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_12.snappy.parquet",
+      "file_size_bytes": 86966278,
+      "modified_at": "2026-09-28T07:58:13.894000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_2.snappy.parquet",
+      "file_size_bytes": 260530803,
+      "modified_at": "2026-09-28T07:52:00.585000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_3.snappy.parquet",
+      "file_size_bytes": 262247243,
+      "modified_at": "2026-09-28T07:53:00.821000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_4.snappy.parquet",
+      "file_size_bytes": 261266474,
+      "modified_at": "2026-09-28T07:53:01.170000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_5.snappy.parquet",
+      "file_size_bytes": 261125203,
+      "modified_at": "2026-09-28T07:54:40.623000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_6.snappy.parquet",
+      "file_size_bytes": 261208715,
+      "modified_at": "2026-09-28T07:54:40.844000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_7.snappy.parquet",
+      "file_size_bytes": 261216617,
+      "modified_at": "2026-09-28T07:55:48.564000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_8.snappy.parquet",
+      "file_size_bytes": 265280244,
+      "modified_at": "2026-09-28T07:56:01.141000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_0_9.snappy.parquet",
+      "file_size_bytes": 261400331,
+      "modified_at": "2026-09-28T07:56:37.663000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_0.snappy.parquet",
+      "file_size_bytes": 261043161,
+      "modified_at": "2026-09-28T07:51:00.327000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_1.snappy.parquet",
+      "file_size_bytes": 262769708,
+      "modified_at": "2026-09-28T07:52:00.611000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_10.snappy.parquet",
+      "file_size_bytes": 260920478,
+      "modified_at": "2026-09-28T07:56:59.549000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_11.snappy.parquet",
+      "file_size_bytes": 260699637,
+      "modified_at": "2026-09-28T07:57:32.563000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_12.snappy.parquet",
+      "file_size_bytes": 108353141,
+      "modified_at": "2026-09-28T07:58:00.671000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_2.snappy.parquet",
+      "file_size_bytes": 260218939,
+      "modified_at": "2026-09-28T07:52:01.219000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_3.snappy.parquet",
+      "file_size_bytes": 261314811,
+      "modified_at": "2026-09-28T07:53:00.450000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_4.snappy.parquet",
+      "file_size_bytes": 261164399,
+      "modified_at": "2026-09-28T07:53:00.691000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_5.snappy.parquet",
+      "file_size_bytes": 261183971,
+      "modified_at": "2026-09-28T07:54:40.591000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_6.snappy.parquet",
+      "file_size_bytes": 261371055,
+      "modified_at": "2026-09-28T07:54:01.142000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_7.snappy.parquet",
+      "file_size_bytes": 261131068,
+      "modified_at": "2026-09-28T07:55:47.413000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_8.snappy.parquet",
+      "file_size_bytes": 263519641,
+      "modified_at": "2026-09-28T07:56:00.988000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_1_9.snappy.parquet",
+      "file_size_bytes": 260976528,
+      "modified_at": "2026-09-28T07:56:38.278000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_0.snappy.parquet",
+      "file_size_bytes": 261182678,
+      "modified_at": "2026-09-28T07:51:33.505000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_1.snappy.parquet",
+      "file_size_bytes": 264485628,
+      "modified_at": "2026-09-28T07:51:33.779000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_10.snappy.parquet",
+      "file_size_bytes": 261239109,
+      "modified_at": "2026-09-28T07:57:33.387000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_11.snappy.parquet",
+      "file_size_bytes": 108360644,
+      "modified_at": "2026-09-28T07:58:00.900000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_2.snappy.parquet",
+      "file_size_bytes": 263464724,
+      "modified_at": "2026-09-28T07:52:37.264000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_3.snappy.parquet",
+      "file_size_bytes": 261312829,
+      "modified_at": "2026-09-28T07:53:00.322000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_4.snappy.parquet",
+      "file_size_bytes": 261187896,
+      "modified_at": "2026-09-28T07:53:47.340000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_5.snappy.parquet",
+      "file_size_bytes": 261138317,
+      "modified_at": "2026-09-28T07:54:00.542000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_6.snappy.parquet",
+      "file_size_bytes": 262408676,
+      "modified_at": "2026-09-28T07:55:47.977000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_7.snappy.parquet",
+      "file_size_bytes": 263205799,
+      "modified_at": "2026-09-28T07:55:47.509000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_8.snappy.parquet",
+      "file_size_bytes": 260961966,
+      "modified_at": "2026-09-28T07:56:38.134000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_2_9.snappy.parquet",
+      "file_size_bytes": 263113539,
+      "modified_at": "2026-09-28T07:57:00.481000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_0.snappy.parquet",
+      "file_size_bytes": 261194704,
+      "modified_at": "2026-09-28T07:51:00.387000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_1.snappy.parquet",
+      "file_size_bytes": 265332600,
+      "modified_at": "2026-09-28T07:51:33.430000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_10.snappy.parquet",
+      "file_size_bytes": 261169786,
+      "modified_at": "2026-09-28T07:57:00.372000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_11.snappy.parquet",
+      "file_size_bytes": 91129072,
+      "modified_at": "2026-09-28T07:58:14.024000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_2.snappy.parquet",
+      "file_size_bytes": 261032449,
+      "modified_at": "2026-09-28T07:52:36.694000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_3.snappy.parquet",
+      "file_size_bytes": 258941934,
+      "modified_at": "2026-09-28T07:52:36.431000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_4.snappy.parquet",
+      "file_size_bytes": 261283451,
+      "modified_at": "2026-09-28T07:53:48.342000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_5.snappy.parquet",
+      "file_size_bytes": 261005601,
+      "modified_at": "2026-09-28T07:54:00.868000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_6.snappy.parquet",
+      "file_size_bytes": 260702111,
+      "modified_at": "2026-09-28T07:55:00.718000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_7.snappy.parquet",
+      "file_size_bytes": 261397037,
+      "modified_at": "2026-09-28T07:55:48.811000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_8.snappy.parquet",
+      "file_size_bytes": 264121886,
+      "modified_at": "2026-09-28T07:56:00.840000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_3_9.snappy.parquet",
+      "file_size_bytes": 261189186,
+      "modified_at": "2026-09-28T07:57:00.978000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_0.snappy.parquet",
+      "file_size_bytes": 261202218,
+      "modified_at": "2026-09-28T07:51:00.371000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_1.snappy.parquet",
+      "file_size_bytes": 261492802,
+      "modified_at": "2026-09-28T07:51:34.130000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_10.snappy.parquet",
+      "file_size_bytes": 261159062,
+      "modified_at": "2026-09-28T07:57:33.578000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_11.snappy.parquet",
+      "file_size_bytes": 140259570,
+      "modified_at": "2026-09-28T07:57:33.980000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_2.snappy.parquet",
+      "file_size_bytes": 261085695,
+      "modified_at": "2026-09-28T07:52:35.387000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_3.snappy.parquet",
+      "file_size_bytes": 262703372,
+      "modified_at": "2026-09-28T07:52:36.218000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_4.snappy.parquet",
+      "file_size_bytes": 259238939,
+      "modified_at": "2026-09-28T07:53:48.614000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_5.snappy.parquet",
+      "file_size_bytes": 261086971,
+      "modified_at": "2026-09-28T07:54:40.364000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_6.snappy.parquet",
+      "file_size_bytes": 258113186,
+      "modified_at": "2026-09-28T07:54:40.200000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_7.snappy.parquet",
+      "file_size_bytes": 261172461,
+      "modified_at": "2026-09-28T07:55:48.023000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_8.snappy.parquet",
+      "file_size_bytes": 264985499,
+      "modified_at": "2026-09-28T07:56:37.924000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_4_9.snappy.parquet",
+      "file_size_bytes": 261170050,
+      "modified_at": "2026-09-28T07:56:38.806000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_0.snappy.parquet",
+      "file_size_bytes": 261139100,
+      "modified_at": "2026-09-28T07:51:00.288000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_1.snappy.parquet",
+      "file_size_bytes": 260653660,
+      "modified_at": "2026-09-28T07:51:35.224000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_10.snappy.parquet",
+      "file_size_bytes": 268063900,
+      "modified_at": "2026-09-28T07:56:00.413000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_11.snappy.parquet",
+      "file_size_bytes": 262783005,
+      "modified_at": "2026-09-28T07:57:01.084000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_12.snappy.parquet",
+      "file_size_bytes": 261098034,
+      "modified_at": "2026-09-28T07:57:00.559000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_13.snappy.parquet",
+      "file_size_bytes": 92357202,
+      "modified_at": "2026-09-28T07:58:00.528000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_2.snappy.parquet",
+      "file_size_bytes": 261218010,
+      "modified_at": "2026-09-28T07:52:35.633000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_3.snappy.parquet",
+      "file_size_bytes": 264320039,
+      "modified_at": "2026-09-28T07:53:01.168000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_4.snappy.parquet",
+      "file_size_bytes": 261197231,
+      "modified_at": "2026-09-28T07:53:48.364000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_5.snappy.parquet",
+      "file_size_bytes": 260581022,
+      "modified_at": "2026-09-28T07:54:01.234000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_6.snappy.parquet",
+      "file_size_bytes": 264339983,
+      "modified_at": "2026-09-28T07:54:39.487000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_7.snappy.parquet",
+      "file_size_bytes": 261901579,
+      "modified_at": "2026-09-28T07:55:00.509000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_8.snappy.parquet",
+      "file_size_bytes": 261024263,
+      "modified_at": "2026-09-28T07:55:00.904000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_5_9.snappy.parquet",
+      "file_size_bytes": 260400464,
+      "modified_at": "2026-09-28T07:56:00.855000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_0.snappy.parquet",
+      "file_size_bytes": 261569019,
+      "modified_at": "2026-09-28T07:51:34.830000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_1.snappy.parquet",
+      "file_size_bytes": 259544910,
+      "modified_at": "2026-09-28T07:52:35.956000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_10.snappy.parquet",
+      "file_size_bytes": 261208816,
+      "modified_at": "2026-09-28T07:57:32.390000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_11.snappy.parquet",
+      "file_size_bytes": 113201006,
+      "modified_at": "2026-09-28T07:58:01.332000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_2.snappy.parquet",
+      "file_size_bytes": 261071541,
+      "modified_at": "2026-09-28T07:53:48.020000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_3.snappy.parquet",
+      "file_size_bytes": 265404189,
+      "modified_at": "2026-09-28T07:53:47.924000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_4.snappy.parquet",
+      "file_size_bytes": 257969770,
+      "modified_at": "2026-09-28T07:54:40.005000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_5.snappy.parquet",
+      "file_size_bytes": 261292883,
+      "modified_at": "2026-09-28T07:55:00.984000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_6.snappy.parquet",
+      "file_size_bytes": 261162779,
+      "modified_at": "2026-09-28T07:55:48.449000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_7.snappy.parquet",
+      "file_size_bytes": 259916423,
+      "modified_at": "2026-09-28T07:56:00.987000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_8.snappy.parquet",
+      "file_size_bytes": 260848005,
+      "modified_at": "2026-09-28T07:56:37.835000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_6_9.snappy.parquet",
+      "file_size_bytes": 260551385,
+      "modified_at": "2026-09-28T07:57:00.313000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_0.snappy.parquet",
+      "file_size_bytes": 261042012,
+      "modified_at": "2026-09-28T07:51:00.869000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_1.snappy.parquet",
+      "file_size_bytes": 260535915,
+      "modified_at": "2026-09-28T07:51:35.288000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_10.snappy.parquet",
+      "file_size_bytes": 260677191,
+      "modified_at": "2026-09-28T07:57:33.662000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_11.snappy.parquet",
+      "file_size_bytes": 141077886,
+      "modified_at": "2026-09-28T07:57:33.043000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_2.snappy.parquet",
+      "file_size_bytes": 261270407,
+      "modified_at": "2026-09-28T07:52:36.316000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_3.snappy.parquet",
+      "file_size_bytes": 260512514,
+      "modified_at": "2026-09-28T07:53:48.190000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_4.snappy.parquet",
+      "file_size_bytes": 264561727,
+      "modified_at": "2026-09-28T07:53:48.630000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_5.snappy.parquet",
+      "file_size_bytes": 264074950,
+      "modified_at": "2026-09-28T07:54:39.541000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_6.snappy.parquet",
+      "file_size_bytes": 264750638,
+      "modified_at": "2026-09-28T07:55:00.966000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_7.snappy.parquet",
+      "file_size_bytes": 261288430,
+      "modified_at": "2026-09-28T07:55:47.417000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_8.snappy.parquet",
+      "file_size_bytes": 265765525,
+      "modified_at": "2026-09-28T07:56:37.502000+00:00",
+      "partition_key": null
+    },
+    {
+      "file_name": "experience_7_7_9.snappy.parquet",
+      "file_size_bytes": 260981767,
+      "modified_at": "2026-09-28T07:56:38.083000+00:00",
+      "partition_key": null
+    }
+  ]
+}

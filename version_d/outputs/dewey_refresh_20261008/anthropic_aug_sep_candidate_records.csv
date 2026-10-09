@@ -1,0 +1,146 @@
+PERSON_ID,COMPANY_NAME,COMPANY_ID,TITLE_NAME,START_DATE,END_DATE,IS_PRIMARY,source_file,source_modified_at,already_in_version_c
+kYAfJzqhdq1VZGWvZIGc2A_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_0_0_0.snappy.parquet,2026-09-28T07:51:01.177000+00:00,False
+pHxfLYsuKGzsRyFxB5GP1Q_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,False,experience_0_0_5.snappy.parquet,2026-09-28T07:54:40.632000+00:00,False
+wh1hKzrB0rf1jYjqACOhQQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_0_1_4.snappy.parquet,2026-09-28T07:54:40.258000+00:00,False
+7kHgPLE5PyoKF-qJ6GTvSg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_0_1_3.snappy.parquet,2026-09-28T07:53:48.479000+00:00,False
+H0v48aOuAPs7cWXAiT6crQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,senior legal counsel,2026-08,,True,experience_0_2_0.snappy.parquet,2026-09-28T07:51:01.222000+00:00,False
+8ck1mKv45DgQuIU4t8n0ew_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,finance systems engineer,2026-08,,True,experience_0_2_3.snappy.parquet,2026-09-28T07:53:00.585000+00:00,False
+-SVk9JMmmr6vnJcVCe2y6Q_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,commercial marketing,2026-08,,True,experience_0_2_7.snappy.parquet,2026-09-28T07:56:00.655000+00:00,False
+EUTYWXDhXmmfvuez1Az4aA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_0_5_3.snappy.parquet,2026-09-28T07:53:48.406000+00:00,False
+H8DB9jg54bdPAe91Mje-Og_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,head of regulated industries- midmarket,2026-08,,True,experience_0_4_7.snappy.parquet,2026-09-28T07:55:48.218000+00:00,False
+bF90dMEjqd7wweYurPzVWA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,finance & strategy,2026-08,,True,experience_0_5_11.snappy.parquet,2026-09-28T07:57:32.971000+00:00,False
+5r92W4ObqSxX0JY0X1mVHw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,reseach fellow,2026-08,,True,experience_0_2_9.snappy.parquet,2026-09-28T07:56:59.432000+00:00,False
+fHNj6SDGf6mu6pvkBzpbXQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,cybernetics security architect,2026-08,,True,experience_0_6_11.snappy.parquet,2026-09-28T07:58:13.502000+00:00,False
+7dmlW8Ts9fZotk9MyKvpyg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm partnerships,2026-08,,True,experience_0_5_4.snappy.parquet,2026-09-28T07:53:48.066000+00:00,False
+YUhdGt9sl-eabQapPAPEPg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,administrative assistant,2026-08,,True,experience_1_1_3.snappy.parquet,2026-09-28T07:53:48.442000+00:00,False
+alDquFzpeyI-sAS6wI4RaA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_1_1_3.snappy.parquet,2026-09-28T07:53:48.442000+00:00,False
+o1vgDuGUg4IWA-IDGI0P4w_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,product support specialist,2026-08,,True,experience_0_7_4.snappy.parquet,2026-09-28T07:54:40.131000+00:00,False
+INjDBx4yWRd1leHK3z8ugw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_0_6_7.snappy.parquet,2026-09-28T07:55:01.327000+00:00,False
+gGzZN5sxTjlOqZrS3YzbGQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,consolidations & intercompany,2026-09,,True,experience_1_3_10.snappy.parquet,2026-09-28T07:58:00.442000+00:00,False
+irxXrPhVguBYLewBEUxHdg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,applied ai leader - partners (emea and apac),2026-08,,True,experience_2_1_0.snappy.parquet,2026-09-28T07:51:00.526000+00:00,False
+tNcm5oVN93ryBnB8KOWwHQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff - compute,2026-08,,False,experience_1_2_11.snappy.parquet,2026-09-28T07:57:33.592000+00:00,False
+RCS274QakfzSulSDYYynQg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,human data operations,2026-08,,True,experience_1_0_0.snappy.parquet,2026-09-28T07:51:34.120000+00:00,False
+iAwxsnd0BdSFqmnZhmM1dQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,product support specialist,2026-08,,True,experience_1_0_8.snappy.parquet,2026-09-28T07:57:00.777000+00:00,False
+GRb1OM2Kanpay09vMwFpsg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_1_3_3.snappy.parquet,2026-09-28T07:54:01.203000+00:00,False
+cRKPMyoUt-8qdTjTGXaBlQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_1_0_2.snappy.parquet,2026-09-28T07:52:36.155000+00:00,False
+kj1947t5aezrEP-PiBRIIg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,"head of public policy, canada",2026-08,,True,experience_0_7_8.snappy.parquet,2026-09-28T07:56:37.970000+00:00,False
+6d-a8vYfSd3BXsA7HSbrHA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-09,,True,experience_1_2_7.snappy.parquet,2026-09-28T07:55:01.278000+00:00,False
+knT35BV81bkpOs9gQ241zg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_1_3_6.snappy.parquet,2026-09-28T07:55:47.755000+00:00,False
+FU6l7LKpQOXlu8YVTQMJ8g_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,aug 2026 research fellow,2026-08,,True,experience_2_4_13.snappy.parquet,2026-09-28T07:58:01.311000+00:00,False
+vfZjCufrnL2Y2x7DNEYuqg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,technical program manager,2026-08,,True,experience_2_0_10.snappy.parquet,2026-09-28T07:57:33.429000+00:00,False
+FPdrX6pIAMChx9m1qjmxlA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm strategy leader,2026-08,,True,experience_1_4_0.snappy.parquet,2026-09-28T07:51:00.287000+00:00,True
+DjEWEOm6jxuCjIA3KmPLBw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,product policy,2026-08,,True,experience_1_1_1.snappy.parquet,2026-09-28T07:51:34.535000+00:00,False
+enJWLmdF82HoNXVE1l3kIw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_1_4_2.snappy.parquet,2026-09-28T07:52:37.086000+00:00,False
+Un5edlHMaekN8GTGFgCRew_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_2_5_5.snappy.parquet,2026-09-28T07:54:01.064000+00:00,False
+Aeiw3rbCU2az75dSbT3MQw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_1_6_6.snappy.parquet,2026-09-28T07:54:00.785000+00:00,False
+Wo6vRxIB6CcTrFzy2xwmFQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,it support engineer,2026-08,,True,experience_2_6_2.snappy.parquet,2026-09-28T07:52:00.433000+00:00,False
+OKC8DqylprNqTjfP41B0SQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_2_1_3.snappy.parquet,2026-09-28T07:53:01.294000+00:00,False
+ZvAcfs5mijlJuRxE2vPgaA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,emea procurement,2026-08,,True,experience_2_3_0.snappy.parquet,2026-09-28T07:51:34.303000+00:00,False
+c22GHIHO7mha8AMAOOMbXQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_2_3_0.snappy.parquet,2026-09-28T07:51:34.303000+00:00,False
+ecWHdpB-VP8bj74xYfxD-g_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,"gtm, public sector",2026-08,,True,experience_2_1_8.snappy.parquet,2026-09-28T07:56:37.494000+00:00,False
+fp2tL7UKXtU5XqG8G8y2Eg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_2_4_12.snappy.parquet,2026-09-28T07:57:32.925000+00:00,False
+rQ3ect5lz3QD35eGrC0vmA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,emea communications,2026-08,,True,experience_2_3_5.snappy.parquet,2026-09-28T07:54:39.808000+00:00,False
+3Xc6EEbzje3-ZYxtG8haKw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,abp,2026-08,,True,experience_2_1_6.snappy.parquet,2026-09-28T07:55:48.365000+00:00,False
+8eo1uIGj3iy5081fr8kSdw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,healthcare gtm,2026-08,,True,experience_3_2_8.snappy.parquet,2026-09-28T07:56:39.041000+00:00,False
+zcKbRP4mQ4mFagh34XGwBw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,solutions architect,2026-08,,True,experience_3_0_5.snappy.parquet,2026-09-28T07:54:00.733000+00:00,False
+n2u8y8IsoFmfMp6rCiVfMQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,communications,2026-08,,True,experience_2_3_11.snappy.parquet,2026-09-28T07:57:33.873000+00:00,False
+2KyFztdjPCMLMJvBsSdJog_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,ai agent developer,2026-08,,True,experience_2_7_1.snappy.parquet,2026-09-28T07:51:34.088000+00:00,False
+J26hry-N6jrlByqrGu1hSg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,forum & academy member,2026-08,,True,experience_2_7_4.snappy.parquet,2026-09-28T07:53:47.769000+00:00,False
+w3FGKsBWm-ZRXTnMLUVLpQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm,2026-08,,True,experience_3_0_9.snappy.parquet,2026-09-28T07:56:01.270000+00:00,False
+44T2hGzAqBwR5WTROOaOdw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,False,experience_2_4_6.snappy.parquet,2026-09-28T07:54:40.085000+00:00,False
+lDljY2LI0JTrWSNISQTb-A_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_3_0_2.snappy.parquet,2026-09-28T07:52:00.872000+00:00,False
+GBAyrQvBg9rXtBwoiaGJDA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,False,experience_2_7_2.snappy.parquet,2026-09-28T07:52:36.924000+00:00,True
+9rEGL1bSy0cIRcbh0R4HTQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,anthropic research fellow (contract),2026-08,,True,experience_2_5_0.snappy.parquet,2026-09-28T07:51:33.928000+00:00,False
+T7TZfnoHcyhb3rMeMDBtsg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm,2026-08,,True,experience_2_5_0.snappy.parquet,2026-09-28T07:51:33.928000+00:00,False
+LgDpiUxDCah9dWtVtyDXoA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,head of enterprise & verticals,2026-08,,True,experience_3_0_4.snappy.parquet,2026-09-28T07:53:00.876000+00:00,False
+z4d0NRW5uL4x0qV7GdvAPg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_3_3_8.snappy.parquet,2026-09-28T07:56:00.790000+00:00,False
+I3BZlqDezkVxknmHwwBKTA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,"head of gtm programs, americas",2026-08,,True,experience_3_3_9.snappy.parquet,2026-09-28T07:56:38.043000+00:00,False
+bBtOwRyZh7WP6w8pBvpcYg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,recruitment coordinator,2026-08,,True,experience_3_0_6.snappy.parquet,2026-09-28T07:54:39.526000+00:00,False
+uoeb6NBjBYNl5z7IaOyytQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,senior people research scientist,2026-08,,True,experience_3_7_1.snappy.parquet,2026-09-28T07:51:34.101000+00:00,False
+6LxercC7c3dEPl2jlNTQ0w_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,senior accounts receivable collections analyst,2026-08,,True,experience_3_5_8.snappy.parquet,2026-09-28T07:56:38.841000+00:00,False
+ueytA5fwgwc--kBzaTutBQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,safeguards,2026-08,,False,experience_4_6_12.snappy.parquet,2026-09-28T07:57:33.539000+00:00,False
+kkByYRevV4XBl7yORnOYBQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,brand creative,2026-08,,True,experience_3_4_8.snappy.parquet,2026-09-28T07:56:37.371000+00:00,False
+553ftl6xuBW-cpJxKjLyWQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,product finance & strategy,2026-08,,True,experience_4_0_6.snappy.parquet,2026-09-28T07:55:00.748000+00:00,False
+IHHlf7ZjxFt3Pe7V-FqJfA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,founding member - emea smb,2026-08,,True,experience_4_7_4.snappy.parquet,2026-09-28T07:54:00.727000+00:00,False
+MTP9fIyuPR9w1ZO0ybTbbg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,fellow - anthropic fellows program,2026-08,,True,experience_4_5_1.snappy.parquet,2026-09-28T07:51:35.030000+00:00,False
+PGr2eQyF2vtwrtCLBIAS1A_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm | latam,2026-08,,True,experience_4_2_3.snappy.parquet,2026-09-28T07:53:01.059000+00:00,False
+pSrbW8By8Opmo5C2pK22Wg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,"member of the technical staff, applied ai",2026-08,,True,experience_4_2_10.snappy.parquet,2026-09-28T07:56:59.434000+00:00,False
+xW3-XFjBAZAh-yvHz4jZzw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm,2026-08,,True,experience_4_1_9.snappy.parquet,2026-09-28T07:56:59.662000+00:00,False
+stPSBxsiVepI3EZxjBHvsw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff (manager),2026-08,,True,experience_4_0_10.snappy.parquet,2026-09-28T07:57:33.324000+00:00,False
+o0jeajrJzyzjTNUgEimVBw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,field marketing part of enterprise marketing,2026-08,,True,experience_4_5_3.snappy.parquet,2026-09-28T07:53:00.537000+00:00,False
+k--qUCI6iaza-LiJoskLrg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,lead,2026-08,,False,experience_4_5_3.snappy.parquet,2026-09-28T07:53:00.537000+00:00,False
+Qr4WbBBK4sHj6xeqshnBAQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_4_3_10.snappy.parquet,2026-09-28T07:57:00.554000+00:00,False
+pXFDMndMKV3kiFaTSBXQng_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of the technical staff,2026-08,,False,experience_5_1_6.snappy.parquet,2026-09-28T07:55:01.324000+00:00,False
+KMrVALZxHq9qsZ-oswBBYQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,recruiting coordinator,2026-08,,True,experience_4_5_0.snappy.parquet,2026-09-28T07:51:33.283000+00:00,False
+inG1i4Q0xbMgIWBamLMIrA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,integrity & compliance,2026-08,,True,experience_4_5_0.snappy.parquet,2026-09-28T07:51:33.283000+00:00,False
+VGKcle0Jq5d830-XNMvyMA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,partner & technical success,2026-08,,True,experience_4_4_7.snappy.parquet,2026-09-28T07:55:48.412000+00:00,False
+b4S5YXXetHVuqSBSSw35kA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm financial services @ anthropic,2026-08,,True,experience_4_2_1.snappy.parquet,2026-09-28T07:52:00.382000+00:00,False
+WuUNFih-L9-aqUVLphQVfg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_4_0_1.snappy.parquet,2026-09-28T07:52:00.922000+00:00,False
+B4A5HZlPnPwMvYrBAxxcFg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,employee relations,2026-08,,True,experience_4_0_1.snappy.parquet,2026-09-28T07:52:00.922000+00:00,False
+R18YnPAscLfRCasw4ZlkIg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,ai safety fellow,2026-08,,True,experience_4_5_10.snappy.parquet,2026-09-28T07:56:59.713000+00:00,False
+hfY2Kx0aHBZaTI6XiOxP1w_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,mts,2026-08,,False,experience_3_3_5.snappy.parquet,2026-09-28T07:54:39.802000+00:00,False
+ePLzynAlrB0xWQc3qj6NkQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of the technical staff,2026-08,,True,experience_3_3_5.snappy.parquet,2026-09-28T07:54:39.802000+00:00,False
+uZyoZwj67WFvYdbkfQF0UQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,legal,2026-08,,True,experience_4_4_0.snappy.parquet,2026-09-28T07:51:00.882000+00:00,False
+0Jx9zgNbl1-zKiP5ipe1Ng_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,recruitment coordinator,2026-08,,True,experience_4_4_0.snappy.parquet,2026-09-28T07:51:00.882000+00:00,False
+jKsAgJSxQW3PHmdSlpcWQQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm,2026-08,,True,experience_4_5_5.snappy.parquet,2026-09-28T07:54:40.075000+00:00,False
+xx0Kz7DdonjbNYVsnsqlYQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_4_4_8.snappy.parquet,2026-09-28T07:56:00.963000+00:00,False
+5y4HtjQkDH1HlHhm6PDxiA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,anthropic research fellow (contract),2026-08,,True,experience_4_7_7.snappy.parquet,2026-09-28T07:56:01.062000+00:00,False
+0tE9qa6OBITMoLXpjh4HdA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_4_5_7.snappy.parquet,2026-09-28T07:55:48.411000+00:00,False
+79dc7Q2pP6GJvHZAlsZAwQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,applied ai,2026-08,2026-08,False,experience_4_6_6.snappy.parquet,2026-09-28T07:54:00.978000+00:00,False
+fGAkYtskBEFZkd4940l3pw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,senior accounting manager compute,2026-08,,True,experience_4_6_6.snappy.parquet,2026-09-28T07:54:00.978000+00:00,False
+tqyPpyMmwRYNP6fF6whe-w_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,associate,2026-08,2026-08,False,experience_5_6_10.snappy.parquet,2026-09-28T07:57:32.961000+00:00,False
+VXzJm-hmFEiBVW-sgMM0kg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,False,experience_5_1_9.snappy.parquet,2026-09-28T07:56:59.633000+00:00,False
+snS1Bxw-xMKQwkBU1jdmVw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_5_1_9.snappy.parquet,2026-09-28T07:56:59.633000+00:00,False
+GoHz08SR9PZ9oHpyyYgpTw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,head of mega accounts gtm,2026-08,,True,experience_5_7_11.snappy.parquet,2026-09-28T07:58:14.710000+00:00,False
+Zg-xns-3w8K98UsCenBiGw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of the technical staff,2026-08,,True,experience_5_4_3.snappy.parquet,2026-09-28T07:53:01.202000+00:00,False
+0laUJzwrqWSaBWm5KKKbVw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_5_2_4.snappy.parquet,2026-09-28T07:54:40.832000+00:00,False
+SzCrllvSpEB4KKGO8LovDA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,partner support specialist,2026-08,,True,experience_5_3_11.snappy.parquet,2026-09-28T07:57:32.863000+00:00,False
+1Em9dWU1lV4WjI8FKF5ilA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,public sector gtm,2026-08,,True,experience_5_5_6.snappy.parquet,2026-09-28T07:55:48.695000+00:00,False
+HS51NZwXmjxmCM-Ahr9cwQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_5_4_8.snappy.parquet,2026-09-28T07:55:47.875000+00:00,False
+wRaHpgswH0TdU1wQ3xXMYw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,copyright,2026-08,,True,experience_6_4_7.snappy.parquet,2026-09-28T07:56:37.997000+00:00,False
+Ny4mfN1PEngJyKvryz8pJg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,talent development & enablement,2026-08,,True,experience_6_4_7.snappy.parquet,2026-09-28T07:56:37.997000+00:00,False
+aNdemb9UNbCfXLVWt9JNCA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_6_1_7.snappy.parquet,2026-09-28T07:55:47.778000+00:00,False
+eOD3COV2MB27upBE1Y9Tug_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_6_0_0.snappy.parquet,2026-09-28T07:51:34.349000+00:00,False
+2a3zrQAD1xSRncqQDR1sKw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,product support,2026-08,,True,experience_6_2_4.snappy.parquet,2026-09-28T07:55:48.473000+00:00,False
+Q77LVBQ6jmxxbcSutyTVHw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_6_1_11.snappy.parquet,2026-09-28T07:58:13.914000+00:00,False
+GQE4D5114XYdej-Tg99COQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,applied ai architect,2026-08,,True,experience_6_4_5.snappy.parquet,2026-09-28T07:54:40.625000+00:00,False
+BwhKZLaj0qdwpBSWTv8wYw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,immigration,2026-08,,True,experience_6_0_1.snappy.parquet,2026-09-28T07:51:33.849000+00:00,False
+97GtSqjegFRyVLc6IQzySQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm,2026-08,,True,experience_5_7_5.snappy.parquet,2026-09-28T07:54:39.495000+00:00,False
+7QNYqbpypclUEPj-9Xxshg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm,2026-08,,True,experience_6_0_9.snappy.parquet,2026-09-28T07:56:59.615000+00:00,False
+zn2ZppUkHn4iXKEH1JoO7w_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_5_1_4.snappy.parquet,2026-09-28T07:53:47.395000+00:00,False
+6CbBfYdWNSiZNa1NhgWKdQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,public sector,2026-08,,True,experience_5_1_4.snappy.parquet,2026-09-28T07:53:47.395000+00:00,False
+m3XNNPTxsmUYMEbIQOSfcA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_6_5_3.snappy.parquet,2026-09-28T07:53:00.536000+00:00,False
+q7tXl23-W39fmVa5Gy5e1w_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_6_3_2.snappy.parquet,2026-09-28T07:52:00.650000+00:00,False
+qBP99lYvRdMff1TRHZxh8Q_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,False,experience_6_5_0.snappy.parquet,2026-09-28T07:51:01.009000+00:00,False
+VYja92tLod2qFVWPAauqoa3s_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_6_5_12.snappy.parquet,2026-09-28T07:58:14.517000+00:00,False
+BC878QwOMX3he7xWCyhgkg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,regulatory counsel,2026-08,,True,experience_7_4_10.snappy.parquet,2026-09-28T07:57:33.578000+00:00,False
+6gwjBZqFH9ODo7MLf6mJgw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm - financial services,2026-09,,True,experience_6_5_8.snappy.parquet,2026-09-28T07:55:48.045000+00:00,False
+B-N1VL17DkWk46p2EkO08A_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_7_3_11.snappy.parquet,2026-09-28T07:58:14.024000+00:00,False
+906-8AWqhiIuPsqGVOal6A_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_6_5_4.snappy.parquet,2026-09-28T07:53:47.572000+00:00,False
+mXY605rl8NGlb3oX9r8tgw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm,2026-08,,True,experience_6_4_9.snappy.parquet,2026-09-28T07:57:32.876000+00:00,False
+uAYvNjtw-zT8aMz7YBD04g_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_6_3_8.snappy.parquet,2026-09-28T07:56:38.809000+00:00,False
+52CZko81KYXmIvvhfLBkXQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,"tax principal, business advisory",2026-08,,True,experience_6_5_5.snappy.parquet,2026-09-28T07:54:00.688000+00:00,False
+fQbhbMsYwizLQra3EwmQgQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,caio,2026-08,2026-08,False,experience_6_6_10.snappy.parquet,2026-09-28T07:57:34.482000+00:00,False
+CcFge8CdW4tF4SuQQn-YNw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,False,experience_6_7_0.snappy.parquet,2026-09-28T07:51:00.850000+00:00,False
+aIFfl3Yi7h41Y5B9ZqyETA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,applied ai architect,2026-08,,True,experience_6_7_5.snappy.parquet,2026-09-28T07:54:01.191000+00:00,False
+U3Sw0M-Ev8PWJJsT-OVhcw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_7_4_0.snappy.parquet,2026-09-28T07:51:00.371000+00:00,False
+Ewy2Chf-RG9nzn3QaEcvkg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm,2026-08,,False,experience_7_3_3.snappy.parquet,2026-09-28T07:52:36.431000+00:00,False
+CWBNInVxkIbLjXuPdDS1URZq_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,hubspot crm / lead generation,2026-08,2026-08,False,experience_7_0_11.snappy.parquet,2026-09-28T07:57:33.509000+00:00,False
+IRmxljkMhsYmcAthd8vHzA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,anthropic research fellow,2026-08,,True,experience_7_4_11.snappy.parquet,2026-09-28T07:57:33.980000+00:00,False
+GLqaA7-9D-TSrpcs0S3zSw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,talent,2026-08,,True,experience_7_3_2.snappy.parquet,2026-09-28T07:52:36.694000+00:00,False
+JKG6TEJAE53x5vqpFNCZsA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_7_2_10.snappy.parquet,2026-09-28T07:57:33.387000+00:00,False
+8nGpQRtHvKptw7d1Ov3kmA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_7_6_4.snappy.parquet,2026-09-28T07:54:40.005000+00:00,False
+f6E9ICiilZZhd8kY5TcHhA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_7_3_4.snappy.parquet,2026-09-28T07:53:48.342000+00:00,False
+ZMQZFVZDHWcJqWc4eABm1A_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-08,,True,experience_7_4_1.snappy.parquet,2026-09-28T07:51:34.130000+00:00,False
+3NjYkVn5KoDIgbq8MDHokA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,accounts receivable analyst,2026-08,,True,experience_7_6_1.snappy.parquet,2026-09-28T07:52:35.956000+00:00,False
+IfgdDb01q-sbofdcvG8xsg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,web producer,2026-08,,True,experience_7_3_8.snappy.parquet,2026-09-28T07:56:00.840000+00:00,False
+SCO7hrnIdrj2ZiEqtkAFIA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,head of claude for legal,2026-08,,False,experience_7_6_8.snappy.parquet,2026-09-28T07:56:37.835000+00:00,False
+zsBXR-MrVZzVt-a7w91xwA_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,customer success,2026-08,,True,experience_7_4_5.snappy.parquet,2026-09-28T07:54:40.364000+00:00,False
+MtHflgDaZobBnyZqJmV6Bw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,"technical enablement lead, claude code",2026-08,,True,experience_7_7_3.snappy.parquet,2026-09-28T07:53:48.190000+00:00,False
+djVXbsRHLQ4QwZXLS6paFg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,ai safety fellow,2026-08,,True,experience_7_7_7.snappy.parquet,2026-09-28T07:55:47.417000+00:00,False
+9SsVbP3jCymtcgwEQ56VNg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,"member of technical staff, model behavior",2026-08,,True,experience_7_4_8.snappy.parquet,2026-09-28T07:56:37.924000+00:00,False
+LrEIGRi2aZk8qU12EU4nNw_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,finance operations,2026-08,,True,experience_7_7_5.snappy.parquet,2026-09-28T07:54:39.541000+00:00,False
+OYvE-Hu7KCfwOHJmBbSeKg_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,gtm cyber,2026-08,,True,experience_7_7_6.snappy.parquet,2026-09-28T07:55:00.966000+00:00,False
+767HWoe8EFf1ofD1GcLEMQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,product manager,2026-08,,True,experience_7_3_9.snappy.parquet,2026-09-28T07:57:00.978000+00:00,False
+djqIzJgMSIA9YhI10Fxw-A_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,member of technical staff,2026-09,,True,experience_7_6_9.snappy.parquet,2026-09-28T07:57:00.313000+00:00,False
+MVFoJTP2x7eTDkOP09E3nQ_0000,anthropic,LGrXE14x4Kvzj2cbaeRUngOCTuJA,research fellow,2026-08,,True,experience_7_6_9.snappy.parquet,2026-09-28T07:57:00.313000+00:00,False

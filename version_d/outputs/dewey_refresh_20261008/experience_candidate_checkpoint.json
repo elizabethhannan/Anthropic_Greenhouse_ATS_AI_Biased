@@ -1,0 +1,4538 @@
+{
+  "completed": {
+    "experience_0_0_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.800000+00:00",
+      "rows": []
+    },
+    "experience_0_0_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.644000+00:00",
+      "rows": []
+    },
+    "experience_0_0_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.584000+00:00",
+      "rows": []
+    },
+    "experience_0_0_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.760000+00:00",
+      "rows": []
+    },
+    "experience_0_0_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:01.177000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "kYAfJzqhdq1VZGWvZIGc2A_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_0_0_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.564000+00:00",
+      "rows": []
+    },
+    "experience_0_0_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.454000+00:00",
+      "rows": []
+    },
+    "experience_0_0_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.167000+00:00",
+      "rows": []
+    },
+    "experience_0_0_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.767000+00:00",
+      "rows": []
+    },
+    "experience_0_0_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.632000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "pHxfLYsuKGzsRyFxB5GP1Q_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_0_0_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.597000+00:00",
+      "rows": []
+    },
+    "experience_0_1_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:13.782000+00:00",
+      "rows": []
+    },
+    "experience_0_1_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.606000+00:00",
+      "rows": []
+    },
+    "experience_0_1_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.550000+00:00",
+      "rows": []
+    },
+    "experience_0_0_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.653000+00:00",
+      "rows": []
+    },
+    "experience_0_1_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.463000+00:00",
+      "rows": []
+    },
+    "experience_0_1_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.927000+00:00",
+      "rows": []
+    },
+    "experience_0_1_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.258000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "wh1hKzrB0rf1jYjqACOhQQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_0_1_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.913000+00:00",
+      "rows": []
+    },
+    "experience_0_1_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.487000+00:00",
+      "rows": []
+    },
+    "experience_0_2_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.911000+00:00",
+      "rows": []
+    },
+    "experience_0_1_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.479000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "7kHgPLE5PyoKF-qJ6GTvSg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_0_1_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.086000+00:00",
+      "rows": []
+    },
+    "experience_0_2_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:01.222000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "H0v48aOuAPs7cWXAiT6crQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "senior legal counsel",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_0_1_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.627000+00:00",
+      "rows": []
+    },
+    "experience_0_2_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.578000+00:00",
+      "rows": []
+    },
+    "experience_0_2_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.942000+00:00",
+      "rows": []
+    },
+    "experience_0_2_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.346000+00:00",
+      "rows": []
+    },
+    "experience_0_2_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.585000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "8ck1mKv45DgQuIU4t8n0ew_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "finance systems engineer",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_0_2_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.383000+00:00",
+      "rows": []
+    },
+    "experience_0_2_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.380000+00:00",
+      "rows": []
+    },
+    "experience_0_2_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.655000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "-SVk9JMmmr6vnJcVCe2y6Q_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "commercial marketing",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_0_3_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.952000+00:00",
+      "rows": []
+    },
+    "experience_0_3_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.890000+00:00",
+      "rows": []
+    },
+    "experience_0_3_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.853000+00:00",
+      "rows": []
+    },
+    "experience_0_2_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.730000+00:00",
+      "rows": []
+    },
+    "experience_0_3_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.755000+00:00",
+      "rows": []
+    },
+    "experience_0_3_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.601000+00:00",
+      "rows": []
+    },
+    "experience_0_3_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.476000+00:00",
+      "rows": []
+    },
+    "experience_0_3_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.771000+00:00",
+      "rows": []
+    },
+    "experience_0_3_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.982000+00:00",
+      "rows": []
+    },
+    "experience_0_5_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.106000+00:00",
+      "rows": []
+    },
+    "experience_0_4_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.910000+00:00",
+      "rows": []
+    },
+    "experience_0_5_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:37.347000+00:00",
+      "rows": []
+    },
+    "experience_0_3_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.734000+00:00",
+      "rows": []
+    },
+    "experience_0_4_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.727000+00:00",
+      "rows": []
+    },
+    "experience_0_4_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.470000+00:00",
+      "rows": []
+    },
+    "experience_0_5_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.671000+00:00",
+      "rows": []
+    },
+    "experience_0_4_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.555000+00:00",
+      "rows": []
+    },
+    "experience_0_3_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.324000+00:00",
+      "rows": []
+    },
+    "experience_0_3_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.383000+00:00",
+      "rows": []
+    },
+    "experience_0_4_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.123000+00:00",
+      "rows": []
+    },
+    "experience_0_4_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.379000+00:00",
+      "rows": []
+    },
+    "experience_0_4_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:01.143000+00:00",
+      "rows": []
+    },
+    "experience_0_4_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.354000+00:00",
+      "rows": []
+    },
+    "experience_0_5_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.437000+00:00",
+      "rows": []
+    },
+    "experience_0_3_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.072000+00:00",
+      "rows": []
+    },
+    "experience_0_3_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.754000+00:00",
+      "rows": []
+    },
+    "experience_0_4_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.339000+00:00",
+      "rows": []
+    },
+    "experience_0_4_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.886000+00:00",
+      "rows": []
+    },
+    "experience_0_5_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:39.036000+00:00",
+      "rows": []
+    },
+    "experience_0_4_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.901000+00:00",
+      "rows": []
+    },
+    "experience_0_5_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.014000+00:00",
+      "rows": []
+    },
+    "experience_0_6_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.627000+00:00",
+      "rows": []
+    },
+    "experience_0_5_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.739000+00:00",
+      "rows": []
+    },
+    "experience_0_6_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.463000+00:00",
+      "rows": []
+    },
+    "experience_0_7_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.982000+00:00",
+      "rows": []
+    },
+    "experience_0_5_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.028000+00:00",
+      "rows": []
+    },
+    "experience_0_5_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.406000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "EUTYWXDhXmmfvuez1Az4aA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_0_6_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.471000+00:00",
+      "rows": []
+    },
+    "experience_0_7_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.582000+00:00",
+      "rows": []
+    },
+    "experience_0_6_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.886000+00:00",
+      "rows": []
+    },
+    "experience_0_6_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.028000+00:00",
+      "rows": []
+    },
+    "experience_0_7_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.131000+00:00",
+      "rows": []
+    },
+    "experience_0_5_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.846000+00:00",
+      "rows": []
+    },
+    "experience_0_4_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.218000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "H8DB9jg54bdPAe91Mje-Og_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "head of regulated industries- midmarket",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_0_6_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.090000+00:00",
+      "rows": []
+    },
+    "experience_0_5_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.971000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "bF90dMEjqd7wweYurPzVWA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "finance & strategy",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_1_0_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:01.285000+00:00",
+      "rows": []
+    },
+    "experience_1_0_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.977000+00:00",
+      "rows": []
+    },
+    "experience_0_6_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.688000+00:00",
+      "rows": []
+    },
+    "experience_0_6_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.558000+00:00",
+      "rows": []
+    },
+    "experience_0_6_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.816000+00:00",
+      "rows": []
+    },
+    "experience_0_7_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.588000+00:00",
+      "rows": []
+    },
+    "experience_0_7_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.760000+00:00",
+      "rows": []
+    },
+    "experience_0_7_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.684000+00:00",
+      "rows": []
+    },
+    "experience_0_6_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.362000+00:00",
+      "rows": []
+    },
+    "experience_0_2_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.432000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "5r92W4ObqSxX0JY0X1mVHw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "reseach fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_0_6_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:13.502000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "fHNj6SDGf6mu6pvkBzpbXQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "cybernetics security architect",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_0_7_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.667000+00:00",
+      "rows": []
+    },
+    "experience_1_0_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.577000+00:00",
+      "rows": []
+    },
+    "experience_0_7_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.664000+00:00",
+      "rows": []
+    },
+    "experience_1_1_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.029000+00:00",
+      "rows": []
+    },
+    "experience_0_7_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.861000+00:00",
+      "rows": []
+    },
+    "experience_1_0_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.278000+00:00",
+      "rows": []
+    },
+    "experience_1_0_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.431000+00:00",
+      "rows": []
+    },
+    "experience_1_1_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.446000+00:00",
+      "rows": []
+    },
+    "experience_1_1_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.549000+00:00",
+      "rows": []
+    },
+    "experience_1_1_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:37.296000+00:00",
+      "rows": []
+    },
+    "experience_1_0_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.516000+00:00",
+      "rows": []
+    },
+    "experience_0_7_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.370000+00:00",
+      "rows": []
+    },
+    "experience_1_1_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.080000+00:00",
+      "rows": []
+    },
+    "experience_0_5_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.066000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "7dmlW8Ts9fZotk9MyKvpyg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm partnerships",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_1_1_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.025000+00:00",
+      "rows": []
+    },
+    "experience_1_0_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.675000+00:00",
+      "rows": []
+    },
+    "experience_1_1_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.442000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "YUhdGt9sl-eabQapPAPEPg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "administrative assistant",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        },
+        {
+          "PERSON_ID": "alDquFzpeyI-sAS6wI4RaA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_1_0_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.840000+00:00",
+      "rows": []
+    },
+    "experience_1_2_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.106000+00:00",
+      "rows": []
+    },
+    "experience_1_3_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.384000+00:00",
+      "rows": []
+    },
+    "experience_0_7_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.131000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "o1vgDuGUg4IWA-IDGI0P4w_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "product support specialist",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_1_2_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.346000+00:00",
+      "rows": []
+    },
+    "experience_0_6_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.327000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "INjDBx4yWRd1leHK3z8ugw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_1_1_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.494000+00:00",
+      "rows": []
+    },
+    "experience_1_2_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.242000+00:00",
+      "rows": []
+    },
+    "experience_1_2_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.812000+00:00",
+      "rows": []
+    },
+    "experience_1_2_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.734000+00:00",
+      "rows": []
+    },
+    "experience_1_2_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.898000+00:00",
+      "rows": []
+    },
+    "experience_1_2_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.397000+00:00",
+      "rows": []
+    },
+    "experience_1_2_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.612000+00:00",
+      "rows": []
+    },
+    "experience_1_1_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.525000+00:00",
+      "rows": []
+    },
+    "experience_1_4_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.445000+00:00",
+      "rows": []
+    },
+    "experience_1_1_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.400000+00:00",
+      "rows": []
+    },
+    "experience_1_2_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.712000+00:00",
+      "rows": []
+    },
+    "experience_1_2_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.380000+00:00",
+      "rows": []
+    },
+    "experience_1_3_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.719000+00:00",
+      "rows": []
+    },
+    "experience_1_7_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.706000+00:00",
+      "rows": []
+    },
+    "experience_1_6_13.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.719000+00:00",
+      "rows": []
+    },
+    "experience_1_5_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:01.047000+00:00",
+      "rows": []
+    },
+    "experience_1_3_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:39.337000+00:00",
+      "rows": []
+    },
+    "experience_2_0_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:14.210000+00:00",
+      "rows": []
+    },
+    "experience_1_7_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.646000+00:00",
+      "rows": []
+    },
+    "experience_1_7_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.413000+00:00",
+      "rows": []
+    },
+    "experience_1_6_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.194000+00:00",
+      "rows": []
+    },
+    "experience_1_7_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.827000+00:00",
+      "rows": []
+    },
+    "experience_1_5_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.652000+00:00",
+      "rows": []
+    },
+    "experience_1_3_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.974000+00:00",
+      "rows": []
+    },
+    "experience_1_7_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.933000+00:00",
+      "rows": []
+    },
+    "experience_1_5_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.611000+00:00",
+      "rows": []
+    },
+    "experience_1_6_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.322000+00:00",
+      "rows": []
+    },
+    "experience_1_6_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.808000+00:00",
+      "rows": []
+    },
+    "experience_1_6_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.337000+00:00",
+      "rows": []
+    },
+    "experience_1_4_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.364000+00:00",
+      "rows": []
+    },
+    "experience_1_6_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.018000+00:00",
+      "rows": []
+    },
+    "experience_1_5_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.161000+00:00",
+      "rows": []
+    },
+    "experience_1_6_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.196000+00:00",
+      "rows": []
+    },
+    "experience_1_5_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.884000+00:00",
+      "rows": []
+    },
+    "experience_2_1_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:01.238000+00:00",
+      "rows": []
+    },
+    "experience_1_3_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.885000+00:00",
+      "rows": []
+    },
+    "experience_1_3_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.549000+00:00",
+      "rows": []
+    },
+    "experience_2_0_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.736000+00:00",
+      "rows": []
+    },
+    "experience_1_4_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.212000+00:00",
+      "rows": []
+    },
+    "experience_1_4_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.741000+00:00",
+      "rows": []
+    },
+    "experience_1_7_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.652000+00:00",
+      "rows": []
+    },
+    "experience_1_5_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.121000+00:00",
+      "rows": []
+    },
+    "experience_1_4_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.237000+00:00",
+      "rows": []
+    },
+    "experience_1_3_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.724000+00:00",
+      "rows": []
+    },
+    "experience_1_7_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.154000+00:00",
+      "rows": []
+    },
+    "experience_1_7_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.632000+00:00",
+      "rows": []
+    },
+    "experience_1_7_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.577000+00:00",
+      "rows": []
+    },
+    "experience_1_6_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.864000+00:00",
+      "rows": []
+    },
+    "experience_1_4_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:01.119000+00:00",
+      "rows": []
+    },
+    "experience_1_5_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.415000+00:00",
+      "rows": []
+    },
+    "experience_2_2_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.840000+00:00",
+      "rows": []
+    },
+    "experience_2_0_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.103000+00:00",
+      "rows": []
+    },
+    "experience_1_3_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.991000+00:00",
+      "rows": []
+    },
+    "experience_1_7_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.876000+00:00",
+      "rows": []
+    },
+    "experience_1_6_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.172000+00:00",
+      "rows": []
+    },
+    "experience_1_6_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.925000+00:00",
+      "rows": []
+    },
+    "experience_1_7_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.437000+00:00",
+      "rows": []
+    },
+    "experience_1_6_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:01.225000+00:00",
+      "rows": []
+    },
+    "experience_1_4_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.532000+00:00",
+      "rows": []
+    },
+    "experience_1_7_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.885000+00:00",
+      "rows": []
+    },
+    "experience_1_5_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.913000+00:00",
+      "rows": []
+    },
+    "experience_1_3_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.442000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "gGzZN5sxTjlOqZrS3YzbGQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "consolidations & intercompany",
+          "START_DATE": "2026-09",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_1_4_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.418000+00:00",
+      "rows": []
+    },
+    "experience_1_5_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.317000+00:00",
+      "rows": []
+    },
+    "experience_1_6_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.726000+00:00",
+      "rows": []
+    },
+    "experience_1_5_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.016000+00:00",
+      "rows": []
+    },
+    "experience_2_0_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.376000+00:00",
+      "rows": []
+    },
+    "experience_2_1_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.934000+00:00",
+      "rows": []
+    },
+    "experience_2_3_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:01.337000+00:00",
+      "rows": []
+    },
+    "experience_1_6_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.750000+00:00",
+      "rows": []
+    },
+    "experience_2_0_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.771000+00:00",
+      "rows": []
+    },
+    "experience_1_5_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.518000+00:00",
+      "rows": []
+    },
+    "experience_2_0_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.862000+00:00",
+      "rows": []
+    },
+    "experience_2_0_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.650000+00:00",
+      "rows": []
+    },
+    "experience_2_1_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.773000+00:00",
+      "rows": []
+    },
+    "experience_2_4_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.821000+00:00",
+      "rows": []
+    },
+    "experience_2_0_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.743000+00:00",
+      "rows": []
+    },
+    "experience_2_0_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.793000+00:00",
+      "rows": []
+    },
+    "experience_2_5_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:13.851000+00:00",
+      "rows": []
+    },
+    "experience_2_2_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:01.194000+00:00",
+      "rows": []
+    },
+    "experience_2_4_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.876000+00:00",
+      "rows": []
+    },
+    "experience_2_4_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.968000+00:00",
+      "rows": []
+    },
+    "experience_2_1_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.572000+00:00",
+      "rows": []
+    },
+    "experience_1_4_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.461000+00:00",
+      "rows": []
+    },
+    "experience_2_0_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:37.060000+00:00",
+      "rows": []
+    },
+    "experience_2_2_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.698000+00:00",
+      "rows": []
+    },
+    "experience_2_3_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.688000+00:00",
+      "rows": []
+    },
+    "experience_2_1_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.526000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "irxXrPhVguBYLewBEUxHdg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "applied ai leader - partners (emea and apac)",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_1_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.600000+00:00",
+      "rows": []
+    },
+    "experience_2_0_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.688000+00:00",
+      "rows": []
+    },
+    "experience_2_2_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.186000+00:00",
+      "rows": []
+    },
+    "experience_2_2_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.723000+00:00",
+      "rows": []
+    },
+    "experience_2_1_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.749000+00:00",
+      "rows": []
+    },
+    "experience_2_4_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.851000+00:00",
+      "rows": []
+    },
+    "experience_2_2_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.342000+00:00",
+      "rows": []
+    },
+    "experience_2_2_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.723000+00:00",
+      "rows": []
+    },
+    "experience_2_3_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.070000+00:00",
+      "rows": []
+    },
+    "experience_2_3_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.656000+00:00",
+      "rows": []
+    },
+    "experience_2_3_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.227000+00:00",
+      "rows": []
+    },
+    "experience_1_2_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.592000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "tNcm5oVN93ryBnB8KOWwHQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff - compute",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_2_2_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.023000+00:00",
+      "rows": []
+    },
+    "experience_2_2_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.122000+00:00",
+      "rows": []
+    },
+    "experience_2_0_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.832000+00:00",
+      "rows": []
+    },
+    "experience_2_3_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.246000+00:00",
+      "rows": []
+    },
+    "experience_2_3_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.640000+00:00",
+      "rows": []
+    },
+    "experience_2_2_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.002000+00:00",
+      "rows": []
+    },
+    "experience_2_2_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.528000+00:00",
+      "rows": []
+    },
+    "experience_2_1_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:01.035000+00:00",
+      "rows": []
+    },
+    "experience_2_1_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.897000+00:00",
+      "rows": []
+    },
+    "experience_1_0_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.120000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "RCS274QakfzSulSDYYynQg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "human data operations",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_4_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.828000+00:00",
+      "rows": []
+    },
+    "experience_1_0_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.777000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "iAwxsnd0BdSFqmnZhmM1dQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "product support specialist",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_7_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:01.291000+00:00",
+      "rows": []
+    },
+    "experience_2_6_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.857000+00:00",
+      "rows": []
+    },
+    "experience_2_3_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.894000+00:00",
+      "rows": []
+    },
+    "experience_2_5_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.865000+00:00",
+      "rows": []
+    },
+    "experience_3_0_13.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.823000+00:00",
+      "rows": []
+    },
+    "experience_2_4_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.028000+00:00",
+      "rows": []
+    },
+    "experience_2_5_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.800000+00:00",
+      "rows": []
+    },
+    "experience_1_3_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.203000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "GRb1OM2Kanpay09vMwFpsg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_1_0_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.155000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "cRKPMyoUt-8qdTjTGXaBlQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_5_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.453000+00:00",
+      "rows": []
+    },
+    "experience_2_4_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.456000+00:00",
+      "rows": []
+    },
+    "experience_2_3_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.784000+00:00",
+      "rows": []
+    },
+    "experience_2_6_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.642000+00:00",
+      "rows": []
+    },
+    "experience_2_4_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.783000+00:00",
+      "rows": []
+    },
+    "experience_2_6_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.784000+00:00",
+      "rows": []
+    },
+    "experience_0_7_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.970000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "kj1947t5aezrEP-PiBRIIg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "head of public policy, canada",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_4_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.016000+00:00",
+      "rows": []
+    },
+    "experience_2_5_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.247000+00:00",
+      "rows": []
+    },
+    "experience_2_5_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.757000+00:00",
+      "rows": []
+    },
+    "experience_2_6_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.200000+00:00",
+      "rows": []
+    },
+    "experience_1_2_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.278000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "6d-a8vYfSd3BXsA7HSbrHA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-09",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_6_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.066000+00:00",
+      "rows": []
+    },
+    "experience_2_4_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.733000+00:00",
+      "rows": []
+    },
+    "experience_3_1_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:14.179000+00:00",
+      "rows": []
+    },
+    "experience_2_7_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.394000+00:00",
+      "rows": []
+    },
+    "experience_1_3_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.755000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "knT35BV81bkpOs9gQ241zg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_4_13.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:01.311000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "FU6l7LKpQOXlu8YVTQMJ8g_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "aug 2026 research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_4_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.423000+00:00",
+      "rows": []
+    },
+    "experience_2_6_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.931000+00:00",
+      "rows": []
+    },
+    "experience_2_0_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.429000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "vfZjCufrnL2Y2x7DNEYuqg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "technical program manager",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_0_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:40.237000+00:00",
+      "rows": []
+    },
+    "experience_1_4_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.287000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "FPdrX6pIAMChx9m1qjmxlA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm strategy leader",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_3_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.547000+00:00",
+      "rows": []
+    },
+    "experience_1_1_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.535000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "DjEWEOm6jxuCjIA3KmPLBw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "product policy",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_2_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.726000+00:00",
+      "rows": []
+    },
+    "experience_2_6_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.394000+00:00",
+      "rows": []
+    },
+    "experience_2_7_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.184000+00:00",
+      "rows": []
+    },
+    "experience_3_0_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.299000+00:00",
+      "rows": []
+    },
+    "experience_2_6_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.723000+00:00",
+      "rows": []
+    },
+    "experience_2_6_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.439000+00:00",
+      "rows": []
+    },
+    "experience_3_3_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.778000+00:00",
+      "rows": []
+    },
+    "experience_3_0_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.332000+00:00",
+      "rows": []
+    },
+    "experience_2_5_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.394000+00:00",
+      "rows": []
+    },
+    "experience_3_1_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.300000+00:00",
+      "rows": []
+    },
+    "experience_2_7_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.596000+00:00",
+      "rows": []
+    },
+    "experience_1_4_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:37.086000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "enJWLmdF82HoNXVE1l3kIw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_5_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.179000+00:00",
+      "rows": []
+    },
+    "experience_3_1_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.389000+00:00",
+      "rows": []
+    },
+    "experience_3_0_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.848000+00:00",
+      "rows": []
+    },
+    "experience_3_0_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.658000+00:00",
+      "rows": []
+    },
+    "experience_2_5_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.064000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "Un5edlHMaekN8GTGFgCRew_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_6_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.719000+00:00",
+      "rows": []
+    },
+    "experience_2_6_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.778000+00:00",
+      "rows": []
+    },
+    "experience_3_1_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.807000+00:00",
+      "rows": []
+    },
+    "experience_3_4_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:14.087000+00:00",
+      "rows": []
+    },
+    "experience_2_7_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:01.211000+00:00",
+      "rows": []
+    },
+    "experience_1_6_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.785000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "Aeiw3rbCU2az75dSbT3MQw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_2_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.717000+00:00",
+      "rows": []
+    },
+    "experience_3_0_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.688000+00:00",
+      "rows": []
+    },
+    "experience_3_2_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.962000+00:00",
+      "rows": []
+    },
+    "experience_3_1_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.107000+00:00",
+      "rows": []
+    },
+    "experience_3_1_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.126000+00:00",
+      "rows": []
+    },
+    "experience_3_1_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.515000+00:00",
+      "rows": []
+    },
+    "experience_3_1_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.869000+00:00",
+      "rows": []
+    },
+    "experience_2_7_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:49.420000+00:00",
+      "rows": []
+    },
+    "experience_3_3_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.888000+00:00",
+      "rows": []
+    },
+    "experience_3_3_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.494000+00:00",
+      "rows": []
+    },
+    "experience_2_5_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.641000+00:00",
+      "rows": []
+    },
+    "experience_3_0_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.058000+00:00",
+      "rows": []
+    },
+    "experience_2_7_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.731000+00:00",
+      "rows": []
+    },
+    "experience_3_5_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:01.092000+00:00",
+      "rows": []
+    },
+    "experience_3_3_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.489000+00:00",
+      "rows": []
+    },
+    "experience_2_6_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.433000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "Wo6vRxIB6CcTrFzy2xwmFQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "it support engineer",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_1_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.326000+00:00",
+      "rows": []
+    },
+    "experience_2_1_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.294000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "OKC8DqylprNqTjfP41B0SQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_2_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.403000+00:00",
+      "rows": []
+    },
+    "experience_3_3_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.645000+00:00",
+      "rows": []
+    },
+    "experience_3_3_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.975000+00:00",
+      "rows": []
+    },
+    "experience_2_3_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.303000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "ZvAcfs5mijlJuRxE2vPgaA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "emea procurement",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        },
+        {
+          "PERSON_ID": "c22GHIHO7mha8AMAOOMbXQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_2_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.965000+00:00",
+      "rows": []
+    },
+    "experience_3_1_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.294000+00:00",
+      "rows": []
+    },
+    "experience_2_1_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.494000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "ecWHdpB-VP8bj74xYfxD-g_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm, public sector",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_7_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:35.089000+00:00",
+      "rows": []
+    },
+    "experience_3_2_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.101000+00:00",
+      "rows": []
+    },
+    "experience_2_4_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.925000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "fp2tL7UKXtU5XqG8G8y2Eg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_3_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.808000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "rQ3ect5lz3QD35eGrC0vmA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "emea communications",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_2_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.869000+00:00",
+      "rows": []
+    },
+    "experience_3_4_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.735000+00:00",
+      "rows": []
+    },
+    "experience_3_2_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.734000+00:00",
+      "rows": []
+    },
+    "experience_2_1_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.365000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "3Xc6EEbzje3-ZYxtG8haKw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "abp",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_6_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.821000+00:00",
+      "rows": []
+    },
+    "experience_3_4_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:49.195000+00:00",
+      "rows": []
+    },
+    "experience_3_3_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.432000+00:00",
+      "rows": []
+    },
+    "experience_3_7_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.600000+00:00",
+      "rows": []
+    },
+    "experience_3_4_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.305000+00:00",
+      "rows": []
+    },
+    "experience_3_2_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.491000+00:00",
+      "rows": []
+    },
+    "experience_3_4_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.026000+00:00",
+      "rows": []
+    },
+    "experience_3_3_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.752000+00:00",
+      "rows": []
+    },
+    "experience_3_2_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.679000+00:00",
+      "rows": []
+    },
+    "experience_3_4_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.482000+00:00",
+      "rows": []
+    },
+    "experience_3_2_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:39.041000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "8eo1uIGj3iy5081fr8kSdw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "healthcare gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_0_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.733000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "zcKbRP4mQ4mFagh34XGwBw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "solutions architect",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_2_3_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.873000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "n2u8y8IsoFmfMp6rCiVfMQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "communications",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_4_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.620000+00:00",
+      "rows": []
+    },
+    "experience_3_3_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.069000+00:00",
+      "rows": []
+    },
+    "experience_3_5_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.100000+00:00",
+      "rows": []
+    },
+    "experience_3_4_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.306000+00:00",
+      "rows": []
+    },
+    "experience_3_2_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.021000+00:00",
+      "rows": []
+    },
+    "experience_4_0_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.488000+00:00",
+      "rows": []
+    },
+    "experience_3_3_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.512000+00:00",
+      "rows": []
+    },
+    "experience_3_5_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.466000+00:00",
+      "rows": []
+    },
+    "experience_2_7_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.088000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "2KyFztdjPCMLMJvBsSdJog_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "ai agent developer",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_4_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:34.122000+00:00",
+      "rows": []
+    },
+    "experience_3_6_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.966000+00:00",
+      "rows": []
+    },
+    "experience_2_7_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.769000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "J26hry-N6jrlByqrGu1hSg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "forum & academy member",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_0_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.778000+00:00",
+      "rows": []
+    },
+    "experience_4_1_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.924000+00:00",
+      "rows": []
+    },
+    "experience_3_4_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.679000+00:00",
+      "rows": []
+    },
+    "experience_3_6_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.719000+00:00",
+      "rows": []
+    },
+    "experience_3_7_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.582000+00:00",
+      "rows": []
+    },
+    "experience_3_7_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.403000+00:00",
+      "rows": []
+    },
+    "experience_3_6_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.959000+00:00",
+      "rows": []
+    },
+    "experience_3_5_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.236000+00:00",
+      "rows": []
+    },
+    "experience_3_4_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:01.182000+00:00",
+      "rows": []
+    },
+    "experience_3_0_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.270000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "w3FGKsBWm-ZRXTnMLUVLpQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_5_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.282000+00:00",
+      "rows": []
+    },
+    "experience_3_6_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.163000+00:00",
+      "rows": []
+    },
+    "experience_4_2_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.649000+00:00",
+      "rows": []
+    },
+    "experience_3_6_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.139000+00:00",
+      "rows": []
+    },
+    "experience_3_5_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.366000+00:00",
+      "rows": []
+    },
+    "experience_2_4_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.085000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "44T2hGzAqBwR5WTROOaOdw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_3_5_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.016000+00:00",
+      "rows": []
+    },
+    "experience_3_6_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:01.175000+00:00",
+      "rows": []
+    },
+    "experience_3_0_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.872000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "lDljY2LI0JTrWSNISQTb-A_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_6_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:37.181000+00:00",
+      "rows": []
+    },
+    "experience_3_6_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.032000+00:00",
+      "rows": []
+    },
+    "experience_4_0_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.625000+00:00",
+      "rows": []
+    },
+    "experience_3_6_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.856000+00:00",
+      "rows": []
+    },
+    "experience_3_5_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:49.071000+00:00",
+      "rows": []
+    },
+    "experience_3_5_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.737000+00:00",
+      "rows": []
+    },
+    "experience_3_7_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.567000+00:00",
+      "rows": []
+    },
+    "experience_3_7_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.840000+00:00",
+      "rows": []
+    },
+    "experience_3_5_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.903000+00:00",
+      "rows": []
+    },
+    "experience_3_6_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.988000+00:00",
+      "rows": []
+    },
+    "experience_2_7_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.924000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "GBAyrQvBg9rXtBwoiaGJDA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_2_5_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.928000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "9rEGL1bSy0cIRcbh0R4HTQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "anthropic research fellow (contract)",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        },
+        {
+          "PERSON_ID": "T7TZfnoHcyhb3rMeMDBtsg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_0_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.756000+00:00",
+      "rows": []
+    },
+    "experience_3_7_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.990000+00:00",
+      "rows": []
+    },
+    "experience_3_7_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.674000+00:00",
+      "rows": []
+    },
+    "experience_4_0_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:01.243000+00:00",
+      "rows": []
+    },
+    "experience_3_0_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.876000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "LgDpiUxDCah9dWtVtyDXoA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "head of enterprise & verticals",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_3_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.467000+00:00",
+      "rows": []
+    },
+    "experience_4_4_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.471000+00:00",
+      "rows": []
+    },
+    "experience_3_7_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.585000+00:00",
+      "rows": []
+    },
+    "experience_4_1_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.502000+00:00",
+      "rows": []
+    },
+    "experience_3_7_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.858000+00:00",
+      "rows": []
+    },
+    "experience_3_7_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:01.204000+00:00",
+      "rows": []
+    },
+    "experience_4_0_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.884000+00:00",
+      "rows": []
+    },
+    "experience_3_6_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.802000+00:00",
+      "rows": []
+    },
+    "experience_4_1_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.198000+00:00",
+      "rows": []
+    },
+    "experience_3_3_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.790000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "z4d0NRW5uL4x0qV7GdvAPg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_3_7_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.129000+00:00",
+      "rows": []
+    },
+    "experience_4_1_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.735000+00:00",
+      "rows": []
+    },
+    "experience_4_2_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.439000+00:00",
+      "rows": []
+    },
+    "experience_4_0_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.765000+00:00",
+      "rows": []
+    },
+    "experience_4_0_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.069000+00:00",
+      "rows": []
+    },
+    "experience_4_1_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.919000+00:00",
+      "rows": []
+    },
+    "experience_3_7_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.521000+00:00",
+      "rows": []
+    },
+    "experience_4_1_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:41.104000+00:00",
+      "rows": []
+    },
+    "experience_4_1_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.142000+00:00",
+      "rows": []
+    },
+    "experience_4_3_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.614000+00:00",
+      "rows": []
+    },
+    "experience_4_3_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.639000+00:00",
+      "rows": []
+    },
+    "experience_4_1_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.027000+00:00",
+      "rows": []
+    },
+    "experience_3_3_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.043000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "I3BZlqDezkVxknmHwwBKTA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "head of gtm programs, americas",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_3_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.562000+00:00",
+      "rows": []
+    },
+    "experience_4_2_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.929000+00:00",
+      "rows": []
+    },
+    "experience_4_3_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:49.132000+00:00",
+      "rows": []
+    },
+    "experience_4_3_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.263000+00:00",
+      "rows": []
+    },
+    "experience_3_5_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.205000+00:00",
+      "rows": []
+    },
+    "experience_4_1_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.940000+00:00",
+      "rows": []
+    },
+    "experience_4_5_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.664000+00:00",
+      "rows": []
+    },
+    "experience_4_0_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.706000+00:00",
+      "rows": []
+    },
+    "experience_4_0_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:01.074000+00:00",
+      "rows": []
+    },
+    "experience_4_3_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.803000+00:00",
+      "rows": []
+    },
+    "experience_4_2_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.318000+00:00",
+      "rows": []
+    },
+    "experience_4_4_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.637000+00:00",
+      "rows": []
+    },
+    "experience_4_2_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.657000+00:00",
+      "rows": []
+    },
+    "experience_4_2_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.355000+00:00",
+      "rows": []
+    },
+    "experience_4_2_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.343000+00:00",
+      "rows": []
+    },
+    "experience_4_1_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.822000+00:00",
+      "rows": []
+    },
+    "experience_4_4_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.990000+00:00",
+      "rows": []
+    },
+    "experience_4_4_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.957000+00:00",
+      "rows": []
+    },
+    "experience_4_3_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.827000+00:00",
+      "rows": []
+    },
+    "experience_4_4_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.387000+00:00",
+      "rows": []
+    },
+    "experience_4_2_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.232000+00:00",
+      "rows": []
+    },
+    "experience_4_4_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.455000+00:00",
+      "rows": []
+    },
+    "experience_4_1_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.324000+00:00",
+      "rows": []
+    },
+    "experience_4_3_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.884000+00:00",
+      "rows": []
+    },
+    "experience_4_2_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.821000+00:00",
+      "rows": []
+    },
+    "experience_3_0_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.526000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "bBtOwRyZh7WP6w8pBvpcYg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "recruitment coordinator",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_7_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:01.063000+00:00",
+      "rows": []
+    },
+    "experience_4_3_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.939000+00:00",
+      "rows": []
+    },
+    "experience_4_3_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.691000+00:00",
+      "rows": []
+    },
+    "experience_4_2_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.950000+00:00",
+      "rows": []
+    },
+    "experience_4_4_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.643000+00:00",
+      "rows": []
+    },
+    "experience_4_6_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.377000+00:00",
+      "rows": []
+    },
+    "experience_4_4_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.769000+00:00",
+      "rows": []
+    },
+    "experience_4_6_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.941000+00:00",
+      "rows": []
+    },
+    "experience_3_7_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.101000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "uoeb6NBjBYNl5z7IaOyytQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "senior people research scientist",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_3_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.821000+00:00",
+      "rows": []
+    },
+    "experience_3_5_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.841000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "6LxercC7c3dEPl2jlNTQ0w_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "senior accounts receivable collections analyst",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_4_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.070000+00:00",
+      "rows": []
+    },
+    "experience_4_7_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.599000+00:00",
+      "rows": []
+    },
+    "experience_4_4_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.901000+00:00",
+      "rows": []
+    },
+    "experience_4_5_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.740000+00:00",
+      "rows": []
+    },
+    "experience_4_5_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.369000+00:00",
+      "rows": []
+    },
+    "experience_4_6_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:37.279000+00:00",
+      "rows": []
+    },
+    "experience_5_0_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.408000+00:00",
+      "rows": []
+    },
+    "experience_4_6_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.844000+00:00",
+      "rows": []
+    },
+    "experience_4_6_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.634000+00:00",
+      "rows": []
+    },
+    "experience_4_5_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.652000+00:00",
+      "rows": []
+    },
+    "experience_4_6_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.539000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "ueytA5fwgwc--kBzaTutBQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "safeguards",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_3_4_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.371000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "kkByYRevV4XBl7yORnOYBQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "brand creative",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_6_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.971000+00:00",
+      "rows": []
+    },
+    "experience_5_1_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:13.444000+00:00",
+      "rows": []
+    },
+    "experience_4_7_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.753000+00:00",
+      "rows": []
+    },
+    "experience_4_6_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.748000+00:00",
+      "rows": []
+    },
+    "experience_4_6_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.015000+00:00",
+      "rows": []
+    },
+    "experience_4_6_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.862000+00:00",
+      "rows": []
+    },
+    "experience_4_5_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.683000+00:00",
+      "rows": []
+    },
+    "experience_5_0_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.279000+00:00",
+      "rows": []
+    },
+    "experience_5_2_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.646000+00:00",
+      "rows": []
+    },
+    "experience_5_0_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.526000+00:00",
+      "rows": []
+    },
+    "experience_4_0_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.748000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "553ftl6xuBW-cpJxKjLyWQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "product finance & strategy",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_7_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.727000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "IHHlf7ZjxFt3Pe7V-FqJfA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "founding member - emea smb",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_6_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.964000+00:00",
+      "rows": []
+    },
+    "experience_5_0_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.241000+00:00",
+      "rows": []
+    },
+    "experience_5_1_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.713000+00:00",
+      "rows": []
+    },
+    "experience_5_0_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:37.100000+00:00",
+      "rows": []
+    },
+    "experience_5_0_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.843000+00:00",
+      "rows": []
+    },
+    "experience_4_5_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:35.030000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "MTP9fIyuPR9w1ZO0ybTbbg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "fellow - anthropic fellows program",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_3_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.629000+00:00",
+      "rows": []
+    },
+    "experience_4_7_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.143000+00:00",
+      "rows": []
+    },
+    "experience_4_7_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.366000+00:00",
+      "rows": []
+    },
+    "experience_5_0_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.298000+00:00",
+      "rows": []
+    },
+    "experience_5_0_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.642000+00:00",
+      "rows": []
+    },
+    "experience_4_2_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.059000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "PGr2eQyF2vtwrtCLBIAS1A_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm | latam",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_0_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:49.049000+00:00",
+      "rows": []
+    },
+    "experience_4_7_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.558000+00:00",
+      "rows": []
+    },
+    "experience_5_1_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.247000+00:00",
+      "rows": []
+    },
+    "experience_4_5_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.262000+00:00",
+      "rows": []
+    },
+    "experience_5_0_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.841000+00:00",
+      "rows": []
+    },
+    "experience_4_7_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.719000+00:00",
+      "rows": []
+    },
+    "experience_4_2_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.434000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "pSrbW8By8Opmo5C2pK22Wg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of the technical staff, applied ai",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_1_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.662000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "xW3-XFjBAZAh-yvHz4jZzw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_6_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.054000+00:00",
+      "rows": []
+    },
+    "experience_5_4_13.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.408000+00:00",
+      "rows": []
+    },
+    "experience_4_7_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.918000+00:00",
+      "rows": []
+    },
+    "experience_4_0_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.324000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "stPSBxsiVepI3EZxjBHvsw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff (manager)",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_2_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.869000+00:00",
+      "rows": []
+    },
+    "experience_5_1_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.331000+00:00",
+      "rows": []
+    },
+    "experience_4_7_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.236000+00:00",
+      "rows": []
+    },
+    "experience_4_5_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.537000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "o0jeajrJzyzjTNUgEimVBw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "field marketing part of enterprise marketing",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        },
+        {
+          "PERSON_ID": "k--qUCI6iaza-LiJoskLrg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "lead",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_5_5_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.789000+00:00",
+      "rows": []
+    },
+    "experience_5_1_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.475000+00:00",
+      "rows": []
+    },
+    "experience_4_7_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.487000+00:00",
+      "rows": []
+    },
+    "experience_5_0_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.535000+00:00",
+      "rows": []
+    },
+    "experience_4_3_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.554000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "Qr4WbBBK4sHj6xeqshnBAQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_1_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.708000+00:00",
+      "rows": []
+    },
+    "experience_5_2_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.208000+00:00",
+      "rows": []
+    },
+    "experience_5_1_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.324000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "pXFDMndMKV3kiFaTSBXQng_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of the technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_4_5_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.283000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "KMrVALZxHq9qsZ-oswBBYQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "recruiting coordinator",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        },
+        {
+          "PERSON_ID": "inG1i4Q0xbMgIWBamLMIrA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "integrity & compliance",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_4_4_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.412000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "VGKcle0Jq5d830-XNMvyMA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "partner & technical success",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_2_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.254000+00:00",
+      "rows": []
+    },
+    "experience_5_2_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.693000+00:00",
+      "rows": []
+    },
+    "experience_5_3_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.233000+00:00",
+      "rows": []
+    },
+    "experience_5_6_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:13.560000+00:00",
+      "rows": []
+    },
+    "experience_5_2_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.150000+00:00",
+      "rows": []
+    },
+    "experience_5_1_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.713000+00:00",
+      "rows": []
+    },
+    "experience_5_2_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:35.061000+00:00",
+      "rows": []
+    },
+    "experience_5_2_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.955000+00:00",
+      "rows": []
+    },
+    "experience_4_2_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.382000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "b4S5YXXetHVuqSBSSw35kA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm financial services @ anthropic",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_3_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:01.279000+00:00",
+      "rows": []
+    },
+    "experience_4_0_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.922000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "WuUNFih-L9-aqUVLphQVfg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        },
+        {
+          "PERSON_ID": "B4A5HZlPnPwMvYrBAxxcFg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "employee relations",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_2_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.944000+00:00",
+      "rows": []
+    },
+    "experience_5_3_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.912000+00:00",
+      "rows": []
+    },
+    "experience_5_3_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.069000+00:00",
+      "rows": []
+    },
+    "experience_5_3_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.282000+00:00",
+      "rows": []
+    },
+    "experience_5_1_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.144000+00:00",
+      "rows": []
+    },
+    "experience_4_5_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.713000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "R18YnPAscLfRCasw4ZlkIg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "ai safety fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_4_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.905000+00:00",
+      "rows": []
+    },
+    "experience_5_3_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.403000+00:00",
+      "rows": []
+    },
+    "experience_3_3_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.802000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "hfY2Kx0aHBZaTI6XiOxP1w_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "mts",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        },
+        {
+          "PERSON_ID": "ePLzynAlrB0xWQc3qj6NkQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of the technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_4_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.423000+00:00",
+      "rows": []
+    },
+    "experience_5_4_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.634000+00:00",
+      "rows": []
+    },
+    "experience_5_3_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.449000+00:00",
+      "rows": []
+    },
+    "experience_5_4_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.348000+00:00",
+      "rows": []
+    },
+    "experience_5_4_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.040000+00:00",
+      "rows": []
+    },
+    "experience_5_1_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.519000+00:00",
+      "rows": []
+    },
+    "experience_5_3_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.118000+00:00",
+      "rows": []
+    },
+    "experience_5_3_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.941000+00:00",
+      "rows": []
+    },
+    "experience_5_3_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:01.084000+00:00",
+      "rows": []
+    },
+    "experience_4_4_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.882000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "uZyoZwj67WFvYdbkfQF0UQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "legal",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        },
+        {
+          "PERSON_ID": "0Jx9zgNbl1-zKiP5ipe1Ng_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "recruitment coordinator",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_5_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.570000+00:00",
+      "rows": []
+    },
+    "experience_5_5_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.117000+00:00",
+      "rows": []
+    },
+    "experience_4_5_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.075000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "jKsAgJSxQW3PHmdSlpcWQQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_4_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.202000+00:00",
+      "rows": []
+    },
+    "experience_5_2_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.336000+00:00",
+      "rows": []
+    },
+    "experience_4_4_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.963000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "xx0Kz7DdonjbNYVsnsqlYQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_4_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.755000+00:00",
+      "rows": []
+    },
+    "experience_5_5_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.410000+00:00",
+      "rows": []
+    },
+    "experience_6_0_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:34.123000+00:00",
+      "rows": []
+    },
+    "experience_5_5_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.065000+00:00",
+      "rows": []
+    },
+    "experience_5_4_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.908000+00:00",
+      "rows": []
+    },
+    "experience_5_5_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:35.092000+00:00",
+      "rows": []
+    },
+    "experience_5_4_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.864000+00:00",
+      "rows": []
+    },
+    "experience_5_7_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.706000+00:00",
+      "rows": []
+    },
+    "experience_5_4_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.887000+00:00",
+      "rows": []
+    },
+    "experience_5_5_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.901000+00:00",
+      "rows": []
+    },
+    "experience_5_6_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.475000+00:00",
+      "rows": []
+    },
+    "experience_4_7_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.062000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "5y4HtjQkDH1HlHhm6PDxiA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "anthropic research fellow (contract)",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_5_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.992000+00:00",
+      "rows": []
+    },
+    "experience_4_5_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.411000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "0tE9qa6OBITMoLXpjh4HdA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_2_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.221000+00:00",
+      "rows": []
+    },
+    "experience_5_6_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.198000+00:00",
+      "rows": []
+    },
+    "experience_5_3_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.623000+00:00",
+      "rows": []
+    },
+    "experience_5_6_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.966000+00:00",
+      "rows": []
+    },
+    "experience_5_5_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.952000+00:00",
+      "rows": []
+    },
+    "experience_5_5_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.428000+00:00",
+      "rows": []
+    },
+    "experience_5_6_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.077000+00:00",
+      "rows": []
+    },
+    "experience_6_2_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:01.261000+00:00",
+      "rows": []
+    },
+    "experience_5_5_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.587000+00:00",
+      "rows": []
+    },
+    "experience_5_4_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.502000+00:00",
+      "rows": []
+    },
+    "experience_5_7_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.790000+00:00",
+      "rows": []
+    },
+    "experience_5_7_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.087000+00:00",
+      "rows": []
+    },
+    "experience_5_7_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.744000+00:00",
+      "rows": []
+    },
+    "experience_6_3_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:16.712000+00:00",
+      "rows": []
+    },
+    "experience_5_6_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.882000+00:00",
+      "rows": []
+    },
+    "experience_5_7_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.479000+00:00",
+      "rows": []
+    },
+    "experience_6_1_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.491000+00:00",
+      "rows": []
+    },
+    "experience_6_0_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.970000+00:00",
+      "rows": []
+    },
+    "experience_4_6_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.978000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "79dc7Q2pP6GJvHZAlsZAwQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "applied ai",
+          "START_DATE": "2026-08",
+          "END_DATE": "2026-08",
+          "IS_PRIMARY": false
+        },
+        {
+          "PERSON_ID": "fGAkYtskBEFZkd4940l3pw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "senior accounting manager compute",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_0_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.758000+00:00",
+      "rows": []
+    },
+    "experience_5_6_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.765000+00:00",
+      "rows": []
+    },
+    "experience_5_7_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.859000+00:00",
+      "rows": []
+    },
+    "experience_6_3_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:01.045000+00:00",
+      "rows": []
+    },
+    "experience_5_6_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.662000+00:00",
+      "rows": []
+    },
+    "experience_5_7_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.908000+00:00",
+      "rows": []
+    },
+    "experience_5_7_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.497000+00:00",
+      "rows": []
+    },
+    "experience_6_2_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.631000+00:00",
+      "rows": []
+    },
+    "experience_5_6_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.973000+00:00",
+      "rows": []
+    },
+    "experience_6_0_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.736000+00:00",
+      "rows": []
+    },
+    "experience_5_7_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.516000+00:00",
+      "rows": []
+    },
+    "experience_5_6_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.926000+00:00",
+      "rows": []
+    },
+    "experience_5_6_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.961000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "tqyPpyMmwRYNP6fF6whe-w_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "associate",
+          "START_DATE": "2026-08",
+          "END_DATE": "2026-08",
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_6_1_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.910000+00:00",
+      "rows": []
+    },
+    "experience_6_4_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:34.195000+00:00",
+      "rows": []
+    },
+    "experience_6_0_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.094000+00:00",
+      "rows": []
+    },
+    "experience_6_0_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.813000+00:00",
+      "rows": []
+    },
+    "experience_6_0_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.946000+00:00",
+      "rows": []
+    },
+    "experience_5_6_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.332000+00:00",
+      "rows": []
+    },
+    "experience_6_1_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.063000+00:00",
+      "rows": []
+    },
+    "experience_5_7_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.621000+00:00",
+      "rows": []
+    },
+    "experience_6_1_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:39.184000+00:00",
+      "rows": []
+    },
+    "experience_6_1_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:39.421000+00:00",
+      "rows": []
+    },
+    "experience_6_2_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.377000+00:00",
+      "rows": []
+    },
+    "experience_6_1_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.695000+00:00",
+      "rows": []
+    },
+    "experience_6_1_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.486000+00:00",
+      "rows": []
+    },
+    "experience_6_0_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.891000+00:00",
+      "rows": []
+    },
+    "experience_6_2_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.238000+00:00",
+      "rows": []
+    },
+    "experience_5_1_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.633000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "VXzJm-hmFEiBVW-sgMM0kg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        },
+        {
+          "PERSON_ID": "snS1Bxw-xMKQwkBU1jdmVw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_1_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.693000+00:00",
+      "rows": []
+    },
+    "experience_6_4_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.576000+00:00",
+      "rows": []
+    },
+    "experience_6_3_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.046000+00:00",
+      "rows": []
+    },
+    "experience_6_6_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.977000+00:00",
+      "rows": []
+    },
+    "experience_6_2_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.714000+00:00",
+      "rows": []
+    },
+    "experience_6_2_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.578000+00:00",
+      "rows": []
+    },
+    "experience_5_7_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:14.710000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "GoHz08SR9PZ9oHpyyYgpTw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "head of mega accounts gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_1_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.871000+00:00",
+      "rows": []
+    },
+    "experience_6_0_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.495000+00:00",
+      "rows": []
+    },
+    "experience_5_4_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.202000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "Zg-xns-3w8K98UsCenBiGw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of the technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_3_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.118000+00:00",
+      "rows": []
+    },
+    "experience_5_2_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.832000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "0laUJzwrqWSaBWm5KKKbVw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_3_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.432000+00:00",
+      "rows": []
+    },
+    "experience_6_5_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.623000+00:00",
+      "rows": []
+    },
+    "experience_5_3_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.863000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "SzCrllvSpEB4KKGO8LovDA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "partner support specialist",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_6_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.925000+00:00",
+      "rows": []
+    },
+    "experience_6_5_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.755000+00:00",
+      "rows": []
+    },
+    "experience_6_4_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.117000+00:00",
+      "rows": []
+    },
+    "experience_6_3_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.915000+00:00",
+      "rows": []
+    },
+    "experience_6_2_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.789000+00:00",
+      "rows": []
+    },
+    "experience_6_7_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.789000+00:00",
+      "rows": []
+    },
+    "experience_6_1_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.854000+00:00",
+      "rows": []
+    },
+    "experience_6_4_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.699000+00:00",
+      "rows": []
+    },
+    "experience_6_5_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.866000+00:00",
+      "rows": []
+    },
+    "experience_6_3_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.800000+00:00",
+      "rows": []
+    },
+    "experience_6_4_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.702000+00:00",
+      "rows": []
+    },
+    "experience_6_3_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.711000+00:00",
+      "rows": []
+    },
+    "experience_6_3_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.169000+00:00",
+      "rows": []
+    },
+    "experience_7_0_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:13.894000+00:00",
+      "rows": []
+    },
+    "experience_6_2_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:01.398000+00:00",
+      "rows": []
+    },
+    "experience_6_6_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.604000+00:00",
+      "rows": []
+    },
+    "experience_5_5_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.695000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "1Em9dWU1lV4WjI8FKF5ilA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "public sector gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_4_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.875000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "HS51NZwXmjxmCM-Ahr9cwQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_4_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.618000+00:00",
+      "rows": []
+    },
+    "experience_6_4_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.997000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "wRaHpgswH0TdU1wQ3xXMYw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "copyright",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        },
+        {
+          "PERSON_ID": "Ny4mfN1PEngJyKvryz8pJg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "talent development & enablement",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_4_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.617000+00:00",
+      "rows": []
+    },
+    "experience_6_5_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.349000+00:00",
+      "rows": []
+    },
+    "experience_6_6_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:01.072000+00:00",
+      "rows": []
+    },
+    "experience_6_5_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.421000+00:00",
+      "rows": []
+    },
+    "experience_6_7_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.302000+00:00",
+      "rows": []
+    },
+    "experience_6_6_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.011000+00:00",
+      "rows": []
+    },
+    "experience_6_5_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.917000+00:00",
+      "rows": []
+    },
+    "experience_6_7_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.840000+00:00",
+      "rows": []
+    },
+    "experience_6_5_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.103000+00:00",
+      "rows": []
+    },
+    "experience_6_1_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.778000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "aNdemb9UNbCfXLVWt9JNCA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_7_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.144000+00:00",
+      "rows": []
+    },
+    "experience_6_6_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.129000+00:00",
+      "rows": []
+    },
+    "experience_6_6_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:41.224000+00:00",
+      "rows": []
+    },
+    "experience_6_6_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.469000+00:00",
+      "rows": []
+    },
+    "experience_6_7_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.299000+00:00",
+      "rows": []
+    },
+    "experience_7_0_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:01.141000+00:00",
+      "rows": []
+    },
+    "experience_7_0_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.821000+00:00",
+      "rows": []
+    },
+    "experience_6_7_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.230000+00:00",
+      "rows": []
+    },
+    "experience_6_4_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.378000+00:00",
+      "rows": []
+    },
+    "experience_6_7_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.358000+00:00",
+      "rows": []
+    },
+    "experience_6_6_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.307000+00:00",
+      "rows": []
+    },
+    "experience_7_2_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.900000+00:00",
+      "rows": []
+    },
+    "experience_7_0_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.564000+00:00",
+      "rows": []
+    },
+    "experience_6_0_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.349000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "eOD3COV2MB27upBE1Y9Tug_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_2_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.473000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "2a3zrQAD1xSRncqQDR1sKw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "product support",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_7_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.192000+00:00",
+      "rows": []
+    },
+    "experience_7_0_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.663000+00:00",
+      "rows": []
+    },
+    "experience_7_1_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.671000+00:00",
+      "rows": []
+    },
+    "experience_7_1_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.691000+00:00",
+      "rows": []
+    },
+    "experience_6_7_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.491000+00:00",
+      "rows": []
+    },
+    "experience_7_0_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.844000+00:00",
+      "rows": []
+    },
+    "experience_6_3_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.360000+00:00",
+      "rows": []
+    },
+    "experience_6_1_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:13.914000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "Q77LVBQ6jmxxbcSutyTVHw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_0_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.538000+00:00",
+      "rows": []
+    },
+    "experience_7_0_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.623000+00:00",
+      "rows": []
+    },
+    "experience_7_0_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.585000+00:00",
+      "rows": []
+    },
+    "experience_7_0_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.192000+00:00",
+      "rows": []
+    },
+    "experience_6_6_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.208000+00:00",
+      "rows": []
+    },
+    "experience_7_0_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.422000+00:00",
+      "rows": []
+    },
+    "experience_6_4_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.625000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "GQE4D5114XYdej-Tg99COQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "applied ai architect",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_1_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.988000+00:00",
+      "rows": []
+    },
+    "experience_6_0_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.849000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "BwhKZLaj0qdwpBSWTv8wYw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "immigration",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_1_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.591000+00:00",
+      "rows": []
+    },
+    "experience_7_0_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.170000+00:00",
+      "rows": []
+    },
+    "experience_5_7_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.495000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "97GtSqjegFRyVLc6IQzySQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_1_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.549000+00:00",
+      "rows": []
+    },
+    "experience_7_1_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:01.219000+00:00",
+      "rows": []
+    },
+    "experience_7_1_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.611000+00:00",
+      "rows": []
+    },
+    "experience_7_2_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.505000+00:00",
+      "rows": []
+    },
+    "experience_7_5_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.288000+00:00",
+      "rows": []
+    },
+    "experience_7_1_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.278000+00:00",
+      "rows": []
+    },
+    "experience_6_7_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.483000+00:00",
+      "rows": []
+    },
+    "experience_7_1_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.450000+00:00",
+      "rows": []
+    },
+    "experience_6_0_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:59.615000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "7QNYqbpypclUEPj-9Xxshg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_5_1_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.395000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "zn2ZppUkHn4iXKEH1JoO7w_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        },
+        {
+          "PERSON_ID": "6CbBfYdWNSiZNa1NhgWKdQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "public sector",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_2_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.134000+00:00",
+      "rows": []
+    },
+    "experience_7_2_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.340000+00:00",
+      "rows": []
+    },
+    "experience_7_1_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.413000+00:00",
+      "rows": []
+    },
+    "experience_7_5_13.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:00.528000+00:00",
+      "rows": []
+    },
+    "experience_6_5_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.536000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "m3XNNPTxsmUYMEbIQOSfcA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_2_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.542000+00:00",
+      "rows": []
+    },
+    "experience_6_3_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:00.650000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "q7tXl23-W39fmVa5Gy5e1w_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_5_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:01.009000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "qBP99lYvRdMff1TRHZxh8Q_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_7_2_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.779000+00:00",
+      "rows": []
+    },
+    "experience_7_2_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.509000+00:00",
+      "rows": []
+    },
+    "experience_7_2_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.481000+00:00",
+      "rows": []
+    },
+    "experience_7_6_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:01.332000+00:00",
+      "rows": []
+    },
+    "experience_7_1_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.327000+00:00",
+      "rows": []
+    },
+    "experience_6_5_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:14.517000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "VYja92tLod2qFVWPAauqoa3s_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_2_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:00.322000+00:00",
+      "rows": []
+    },
+    "experience_7_3_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.372000+00:00",
+      "rows": []
+    },
+    "experience_7_3_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.718000+00:00",
+      "rows": []
+    },
+    "experience_7_2_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:37.264000+00:00",
+      "rows": []
+    },
+    "experience_7_4_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.578000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "BC878QwOMX3he7xWCyhgkg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "regulatory counsel",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_3_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.387000+00:00",
+      "rows": []
+    },
+    "experience_6_5_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.045000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "6gwjBZqFH9ODo7MLf6mJgw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm - financial services",
+          "START_DATE": "2026-09",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_1_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.563000+00:00",
+      "rows": []
+    },
+    "experience_7_3_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:58:14.024000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "B-N1VL17DkWk46p2EkO08A_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_2_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.977000+00:00",
+      "rows": []
+    },
+    "experience_7_3_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:33.430000+00:00",
+      "rows": []
+    },
+    "experience_6_5_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.572000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "906-8AWqhiIuPsqGVOal6A_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_5_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.904000+00:00",
+      "rows": []
+    },
+    "experience_7_3_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.811000+00:00",
+      "rows": []
+    },
+    "experience_7_4_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.200000+00:00",
+      "rows": []
+    },
+    "experience_7_1_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.142000+00:00",
+      "rows": []
+    },
+    "experience_7_5_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:01.168000+00:00",
+      "rows": []
+    },
+    "experience_7_4_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.023000+00:00",
+      "rows": []
+    },
+    "experience_6_4_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.876000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "mXY605rl8NGlb3oX9r8tgw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_3_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.809000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "uAYvNjtw-zT8aMz7YBD04g_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_5_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:35.224000+00:00",
+      "rows": []
+    },
+    "experience_7_4_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.387000+00:00",
+      "rows": []
+    },
+    "experience_7_4_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.614000+00:00",
+      "rows": []
+    },
+    "experience_7_6_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:47.924000+00:00",
+      "rows": []
+    },
+    "experience_7_6_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:48.449000+00:00",
+      "rows": []
+    },
+    "experience_6_5_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.688000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "52CZko81KYXmIvvhfLBkXQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "tax principal, business advisory",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_7_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.043000+00:00",
+      "rows": []
+    },
+    "experience_7_3_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:00.868000+00:00",
+      "rows": []
+    },
+    "experience_7_5_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.234000+00:00",
+      "rows": []
+    },
+    "experience_6_6_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:34.482000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "fQbhbMsYwizLQra3EwmQgQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "caio",
+          "START_DATE": "2026-08",
+          "END_DATE": "2026-08",
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_7_6_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:32.390000+00:00",
+      "rows": []
+    },
+    "experience_7_5_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:01.084000+00:00",
+      "rows": []
+    },
+    "experience_7_4_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.806000+00:00",
+      "rows": []
+    },
+    "experience_6_7_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.850000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "CcFge8CdW4tF4SuQQn-YNw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_7_5_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.509000+00:00",
+      "rows": []
+    },
+    "experience_7_5_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.413000+00:00",
+      "rows": []
+    },
+    "experience_6_7_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:01.191000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "aIFfl3Yi7h41Y5B9ZqyETA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "applied ai architect",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_4_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.218000+00:00",
+      "rows": []
+    },
+    "experience_7_4_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.371000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "U3Sw0M-Ev8PWJJsT-OVhcw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_7_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.662000+00:00",
+      "rows": []
+    },
+    "experience_7_5_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.633000+00:00",
+      "rows": []
+    },
+    "experience_7_6_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.830000+00:00",
+      "rows": []
+    },
+    "experience_7_7_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:35.288000+00:00",
+      "rows": []
+    },
+    "experience_7_5_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.487000+00:00",
+      "rows": []
+    },
+    "experience_7_6_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.020000+00:00",
+      "rows": []
+    },
+    "experience_7_7_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.083000+00:00",
+      "rows": []
+    },
+    "experience_7_6_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.984000+00:00",
+      "rows": []
+    },
+    "experience_7_3_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.431000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "Ewy2Chf-RG9nzn3QaEcvkg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_7_0_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.509000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "CWBNInVxkIbLjXuPdDS1URZq_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "hubspot crm / lead generation",
+          "START_DATE": "2026-08",
+          "END_DATE": "2026-08",
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_7_7_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.316000+00:00",
+      "rows": []
+    },
+    "experience_7_4_11.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.980000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "IRmxljkMhsYmcAthd8vHzA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "anthropic research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_6_6_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:38.818000+00:00",
+      "rows": []
+    },
+    "experience_7_5_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.855000+00:00",
+      "rows": []
+    },
+    "experience_7_7_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.630000+00:00",
+      "rows": []
+    },
+    "experience_7_5_12.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.559000+00:00",
+      "rows": []
+    },
+    "experience_7_5_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.364000+00:00",
+      "rows": []
+    },
+    "experience_7_7_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.502000+00:00",
+      "rows": []
+    },
+    "experience_7_7_0.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:00.869000+00:00",
+      "rows": []
+    },
+    "experience_7_3_2.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:36.694000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "GLqaA7-9D-TSrpcs0S3zSw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "talent",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_2_10.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:33.387000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "JKG6TEJAE53x5vqpFNCZsA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_6_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.987000+00:00",
+      "rows": []
+    },
+    "experience_7_6_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.005000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "8nGpQRtHvKptw7d1Ov3kmA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_3_4.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.342000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "f6E9ICiilZZhd8kY5TcHhA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_4_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:51:34.130000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "ZMQZFVZDHWcJqWc4eABm1A_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_6_1.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:52:35.956000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "3NjYkVn5KoDIgbq8MDHokA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "accounts receivable analyst",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_3_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:00.840000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "IfgdDb01q-sbofdcvG8xsg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "web producer",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_6_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.835000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "SCO7hrnIdrj2ZiEqtkAFIA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "head of claude for legal",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": false
+        }
+      ]
+    },
+    "experience_7_4_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:40.364000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "zsBXR-MrVZzVt-a7w91xwA_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "customer success",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_7_3.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:53:48.190000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "MtHflgDaZobBnyZqJmV6Bw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "technical enablement lead, claude code",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_7_7.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:47.417000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "djVXbsRHLQ4QwZXLS6paFg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "ai safety fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_4_8.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:56:37.924000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "9SsVbP3jCymtcgwEQ56VNg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff, model behavior",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_7_5.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:54:39.541000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "LrEIGRi2aZk8qU12EU4nNw_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "finance operations",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_7_6.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:55:00.966000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "OYvE-Hu7KCfwOHJmBbSeKg_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "gtm cyber",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_3_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.978000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "767HWoe8EFf1ofD1GcLEMQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "product manager",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    },
+    "experience_7_6_9.snappy.parquet": {
+      "source_modified_at": "2026-09-28T07:57:00.313000+00:00",
+      "rows": [
+        {
+          "PERSON_ID": "djqIzJgMSIA9YhI10Fxw-A_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "member of technical staff",
+          "START_DATE": "2026-09",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        },
+        {
+          "PERSON_ID": "MVFoJTP2x7eTDkOP09E3nQ_0000",
+          "COMPANY_NAME": "anthropic",
+          "COMPANY_ID": "LGrXE14x4Kvzj2cbaeRUngOCTuJA",
+          "TITLE_NAME": "research fellow",
+          "START_DATE": "2026-08",
+          "END_DATE": null,
+          "IS_PRIMARY": true
+        }
+      ]
+    }
+  },
+  "errors": {}
+}

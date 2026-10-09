@@ -1,0 +1,475 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"slug\":\"person\",\"externalId\":\"dst_m4nxsxh8aggbim3d\",\"name\":\"Person\",\"schema\":{\"totalColumns\":57,\"columns\":[{\"name\":\"LOCATION_COUNTRY\",\"externalId\":\"sfcl_6u8aba3sn3rpq9mu\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The country of the person's current address. One of our Canonical Countries.\",\"isCategorical\":true},{\"name\":\"LOCATION_POSTAL_CODE\",\"externalId\":\"sfcl_y9kebyeud7i3zhvw\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' postal code.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_LOCATION_ADDRESS_LINE_2\",\"externalId\":\"sfcl_7p9iantonmhpt3mg\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' street address line 2.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_TWITTER_URL\",\"externalId\":\"sfcl_pxor9tbxgsziag8b\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's Twitter URL.\",\"isCategorical\":false},{\"name\":\"PERSON_ID\",\"externalId\":\"sfcl_mq8ykhic9cms6dod\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"PERSON_ID\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_LOCATION_METRO\",\"externalId\":\"sfcl_r66iiv6h3cniedbk\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' metro area.\",\"isCategorical\":true},{\"name\":\"JOB_COMPANY_LOCATION_GEO\",\"externalId\":\"sfcl_fj47xtxdqvwyxdwp\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' city-center geographic coordinates.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_LOCATION_LOCALITY\",\"externalId\":\"sfcl_xiag3uaui8aw3wwk\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' locality.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_LOCATION_NAME\",\"externalId\":\"sfcl_npjcntpscb44b6qu\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' location name.\",\"isCategorical\":false},{\"name\":\"JOB_TITLE_SUB_ROLE\",\"externalId\":\"sfcl_cdgxxra7j7o3s7dt\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The derived subrole of the person's current job title.\",\"isCategorical\":true},{\"name\":\"LOCATION_LAST_UPDATED\",\"externalId\":\"sfcl_pkfb9ew8rjogg8wh\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The timestamp that a new data source contributed to the record for the person's current address.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_LOCATION_REGION\",\"externalId\":\"sfcl_ttpc6pgtnf3b34ms\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' region.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_LOCATION_POSTAL_CODE\",\"externalId\":\"sfcl_wqsbgomuuykzk3ec\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' postal code.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_ID\",\"externalId\":\"sfcl_tkmr4vhdkcimxmis\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's PDL ID.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_LOCATION_CONTINENT\",\"externalId\":\"sfcl_esa4u7byohmamujp\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' continent.\",\"isCategorical\":true},{\"name\":\"BIRTH_YEAR\",\"externalId\":\"sfcl_pd9cppbz74yvdsef\",\"pythonType\":\"int\",\"jsType\":\"number\",\"description\":\"The year the person was born.\",\"isCategorical\":true},{\"name\":\"JOB_LAST_CHANGED\",\"externalId\":\"sfcl_jbfabaqmzgddf9te\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The timestamp that a new data source contributed to the record for the person's current job.\",\"isCategorical\":false},{\"name\":\"JOB_LAST_VERIFIED\",\"externalId\":\"sfcl_umdwq7xmwcdykuw7\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The timestamp that a new data source contributed to the record for the person's current job.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_SIZE\",\"externalId\":\"sfcl_nn97eo7wpzdw6ouy\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's size range.\",\"isCategorical\":true},{\"name\":\"LOCATION_GEO\",\"externalId\":\"sfcl_x7gmwsndi3vx3ux3\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The geo code of the city center of the person's current address.\",\"isCategorical\":false},{\"name\":\"JOB_TITLE\",\"externalId\":\"sfcl_x9s3dkeoaac7iuek\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current job title.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_FOUNDED\",\"externalId\":\"sfcl_y3q3p34xdxtxgwke\",\"pythonType\":\"int\",\"jsType\":\"number\",\"description\":\"The person's current company's founding year.\",\"isCategorical\":true},{\"name\":\"DATASET_VERSION\",\"externalId\":\"sfcl_q4zcbq6gaieet8um\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The major or minor release number.\",\"isCategorical\":true},{\"name\":\"JOB_COMPANY_WEBSITE\",\"externalId\":\"sfcl_8xpzvatwcscy73ph\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's website.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_INDUSTRY\",\"externalId\":\"sfcl_k4km3r8ujwiiyjku\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's industry.\",\"isCategorical\":true},{\"name\":\"LOCATION_CONTINENT\",\"externalId\":\"sfcl_sednt8fkpofwmroj\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The continent of the person's current address. One of our Canonical Continents.\",\"isCategorical\":true},{\"name\":\"SEX\",\"externalId\":\"sfcl_afhaftwkk76p9xhr\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's sex.\",\"isCategorical\":true},{\"name\":\"LOCATION_NAME\",\"externalId\":\"sfcl_786u6q3jnrrtzwmi\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The location of the person's current address.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_FACEBOOK_URL\",\"externalId\":\"sfcl_tyma87p7kibvpejh\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's Facebook URL.\",\"isCategorical\":false},{\"name\":\"INDUSTRY\",\"externalId\":\"sfcl_awni69nbj63htgen\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The self-identified industry of the company. Must be one of the Canonical Industries.\",\"isCategorical\":true},{\"name\":\"JOB_COMPANY_LOCATION_COUNTRY\",\"externalId\":\"sfcl_rteas4ost6v3tdem\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' country.\",\"isCategorical\":true},{\"name\":\"JOB_COMPANY_NAME\",\"externalId\":\"sfcl_xrzidfqh73o4wgm6\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's name.\",\"isCategorical\":false},{\"name\":\"LOCATION_LOCALITY\",\"externalId\":\"sfcl_ezeuwwiivstmee74\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The locality of the person's current address.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_LOCATION_STREET_ADDRESS\",\"externalId\":\"sfcl_wc6zepdxxbtggm4e\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's headquarters' street address.\",\"isCategorical\":false},{\"name\":\"JOB_TITLE_ROLE\",\"externalId\":\"sfcl_imenzfqw9n7evuqr\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The derived role of the person's current job title.\",\"isCategorical\":true},{\"name\":\"LOCATION_REGION\",\"externalId\":\"sfcl_3mkosdnh4imcxcgr\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The region of the person's current address.\",\"isCategorical\":false},{\"name\":\"JOB_START_DATE\",\"externalId\":\"sfcl_puk63gitpkharn9o\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The date the person started their current job.\",\"isCategorical\":false},{\"name\":\"JOB_COMPANY_LINKEDIN_ID\",\"externalId\":\"sfcl_d3jbgaums6tcucir\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The person's current company's LinkedIn ID.\",\"isCategorical\":false},{\"name\":\"JOB_TITLE_CLASS\",\"externalId\":\"sfcl_c4xq76gzuqxm34je\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"JOB_TITLE_CLASS\",\"isCategorical\":true},{\"name\":\"LOCATION_METRO\",\"externalId\":\"sfcl_4yyjpgonbrpum7gu\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"The metro of the person's current address. One of our Canonical Metros.\",\"isCategorical\":true},{\"name\":\"TWITTER_USERNAME\",\"externalId\":\"sfcl_cys7nwmdpawtwnpv\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"PERSONAL_EMAILS\",\"externalId\":\"sfcl_6ciuan4kvqkp9hbk\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"PHONE_NUMBERS\",\"externalId\":\"sfcl_emiotmmmkqthzza3\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"TWITTER_URL\",\"externalId\":\"sfcl_gagmethujoezt384\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"STREET_ADDRESSES\",\"externalId\":\"sfcl_y7kgmzotw8pvfch9\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"LOCATION_STREET_ADDRESS\",\"externalId\":\"sfcl_or9kpuxemg4xrj88\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"GITHUB_URL\",\"externalId\":\"sfcl_myz7qm4prqkr7xbr\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"FACEBOOK_ID\",\"externalId\":\"sfcl_yenc9at6imtbzzax\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"FACEBOOK_URL\",\"externalId\":\"sfcl_vpf38dj3ngir7xvh\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"MOBILE_PHONE\",\"externalId\":\"sfcl_49pssiwihdhv4ob9\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"FACEBOOK_USERNAME\",\"externalId\":\"sfcl_33emwasm3fsezyop\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"WORK_EMAIL\",\"externalId\":\"sfcl_jmxyhrbtqt37hu7j\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"LOCATION_ADDRESS_LINE_2\",\"externalId\":\"sfcl_9s8bnbxx7t96hh4g\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"GITHUB_USERNAME\",\"externalId\":\"sfcl_8wficess98hwterr\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"RECOMMENDED_PERSONAL_EMAIL\",\"externalId\":\"sfcl_gokkzzfjz3vrp8c6\",\"pythonType\":\"bool\",\"jsType\":\"boolean\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"ACTIVITY_SCORE\",\"externalId\":\"sfcl_veto6f9dpf9f73hu\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"\",\"isCategorical\":true},{\"name\":\"PROFILE_SCORE\",\"externalId\":\"sfcl_6aukj4xojjgfcgio\",\"pythonType\":\"str\",\"jsType\":\"string\",\"description\":\"\",\"isCategorical\":true}],\"partitionInfo\":null}}"
+    }
+  ],
+  "structuredContent": {
+    "slug": "person",
+    "externalId": "dst_m4nxsxh8aggbim3d",
+    "name": "Person",
+    "schema": {
+      "totalColumns": 57,
+      "columns": [
+        {
+          "name": "LOCATION_COUNTRY",
+          "externalId": "sfcl_6u8aba3sn3rpq9mu",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The country of the person's current address. One of our Canonical Countries.",
+          "isCategorical": true
+        },
+        {
+          "name": "LOCATION_POSTAL_CODE",
+          "externalId": "sfcl_y9kebyeud7i3zhvw",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' postal code.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_LOCATION_ADDRESS_LINE_2",
+          "externalId": "sfcl_7p9iantonmhpt3mg",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' street address line 2.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_TWITTER_URL",
+          "externalId": "sfcl_pxor9tbxgsziag8b",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's Twitter URL.",
+          "isCategorical": false
+        },
+        {
+          "name": "PERSON_ID",
+          "externalId": "sfcl_mq8ykhic9cms6dod",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "PERSON_ID",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_LOCATION_METRO",
+          "externalId": "sfcl_r66iiv6h3cniedbk",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' metro area.",
+          "isCategorical": true
+        },
+        {
+          "name": "JOB_COMPANY_LOCATION_GEO",
+          "externalId": "sfcl_fj47xtxdqvwyxdwp",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' city-center geographic coordinates.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_LOCATION_LOCALITY",
+          "externalId": "sfcl_xiag3uaui8aw3wwk",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' locality.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_LOCATION_NAME",
+          "externalId": "sfcl_npjcntpscb44b6qu",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' location name.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_TITLE_SUB_ROLE",
+          "externalId": "sfcl_cdgxxra7j7o3s7dt",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The derived subrole of the person's current job title.",
+          "isCategorical": true
+        },
+        {
+          "name": "LOCATION_LAST_UPDATED",
+          "externalId": "sfcl_pkfb9ew8rjogg8wh",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The timestamp that a new data source contributed to the record for the person's current address.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_LOCATION_REGION",
+          "externalId": "sfcl_ttpc6pgtnf3b34ms",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' region.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_LOCATION_POSTAL_CODE",
+          "externalId": "sfcl_wqsbgomuuykzk3ec",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' postal code.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_ID",
+          "externalId": "sfcl_tkmr4vhdkcimxmis",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's PDL ID.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_LOCATION_CONTINENT",
+          "externalId": "sfcl_esa4u7byohmamujp",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' continent.",
+          "isCategorical": true
+        },
+        {
+          "name": "BIRTH_YEAR",
+          "externalId": "sfcl_pd9cppbz74yvdsef",
+          "pythonType": "int",
+          "jsType": "number",
+          "description": "The year the person was born.",
+          "isCategorical": true
+        },
+        {
+          "name": "JOB_LAST_CHANGED",
+          "externalId": "sfcl_jbfabaqmzgddf9te",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The timestamp that a new data source contributed to the record for the person's current job.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_LAST_VERIFIED",
+          "externalId": "sfcl_umdwq7xmwcdykuw7",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The timestamp that a new data source contributed to the record for the person's current job.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_SIZE",
+          "externalId": "sfcl_nn97eo7wpzdw6ouy",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's size range.",
+          "isCategorical": true
+        },
+        {
+          "name": "LOCATION_GEO",
+          "externalId": "sfcl_x7gmwsndi3vx3ux3",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The geo code of the city center of the person's current address.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_TITLE",
+          "externalId": "sfcl_x9s3dkeoaac7iuek",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current job title.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_FOUNDED",
+          "externalId": "sfcl_y3q3p34xdxtxgwke",
+          "pythonType": "int",
+          "jsType": "number",
+          "description": "The person's current company's founding year.",
+          "isCategorical": true
+        },
+        {
+          "name": "DATASET_VERSION",
+          "externalId": "sfcl_q4zcbq6gaieet8um",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The major or minor release number.",
+          "isCategorical": true
+        },
+        {
+          "name": "JOB_COMPANY_WEBSITE",
+          "externalId": "sfcl_8xpzvatwcscy73ph",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's website.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_INDUSTRY",
+          "externalId": "sfcl_k4km3r8ujwiiyjku",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's industry.",
+          "isCategorical": true
+        },
+        {
+          "name": "LOCATION_CONTINENT",
+          "externalId": "sfcl_sednt8fkpofwmroj",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The continent of the person's current address. One of our Canonical Continents.",
+          "isCategorical": true
+        },
+        {
+          "name": "SEX",
+          "externalId": "sfcl_afhaftwkk76p9xhr",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's sex.",
+          "isCategorical": true
+        },
+        {
+          "name": "LOCATION_NAME",
+          "externalId": "sfcl_786u6q3jnrrtzwmi",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The location of the person's current address.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_FACEBOOK_URL",
+          "externalId": "sfcl_tyma87p7kibvpejh",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's Facebook URL.",
+          "isCategorical": false
+        },
+        {
+          "name": "INDUSTRY",
+          "externalId": "sfcl_awni69nbj63htgen",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The self-identified industry of the company. Must be one of the Canonical Industries.",
+          "isCategorical": true
+        },
+        {
+          "name": "JOB_COMPANY_LOCATION_COUNTRY",
+          "externalId": "sfcl_rteas4ost6v3tdem",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' country.",
+          "isCategorical": true
+        },
+        {
+          "name": "JOB_COMPANY_NAME",
+          "externalId": "sfcl_xrzidfqh73o4wgm6",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's name.",
+          "isCategorical": false
+        },
+        {
+          "name": "LOCATION_LOCALITY",
+          "externalId": "sfcl_ezeuwwiivstmee74",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The locality of the person's current address.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_LOCATION_STREET_ADDRESS",
+          "externalId": "sfcl_wc6zepdxxbtggm4e",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's headquarters' street address.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_TITLE_ROLE",
+          "externalId": "sfcl_imenzfqw9n7evuqr",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The derived role of the person's current job title.",
+          "isCategorical": true
+        },
+        {
+          "name": "LOCATION_REGION",
+          "externalId": "sfcl_3mkosdnh4imcxcgr",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The region of the person's current address.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_START_DATE",
+          "externalId": "sfcl_puk63gitpkharn9o",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The date the person started their current job.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_COMPANY_LINKEDIN_ID",
+          "externalId": "sfcl_d3jbgaums6tcucir",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The person's current company's LinkedIn ID.",
+          "isCategorical": false
+        },
+        {
+          "name": "JOB_TITLE_CLASS",
+          "externalId": "sfcl_c4xq76gzuqxm34je",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "JOB_TITLE_CLASS",
+          "isCategorical": true
+        },
+        {
+          "name": "LOCATION_METRO",
+          "externalId": "sfcl_4yyjpgonbrpum7gu",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "The metro of the person's current address. One of our Canonical Metros.",
+          "isCategorical": true
+        },
+        {
+          "name": "TWITTER_USERNAME",
+          "externalId": "sfcl_cys7nwmdpawtwnpv",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "PERSONAL_EMAILS",
+          "externalId": "sfcl_6ciuan4kvqkp9hbk",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "PHONE_NUMBERS",
+          "externalId": "sfcl_emiotmmmkqthzza3",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "TWITTER_URL",
+          "externalId": "sfcl_gagmethujoezt384",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "STREET_ADDRESSES",
+          "externalId": "sfcl_y7kgmzotw8pvfch9",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "LOCATION_STREET_ADDRESS",
+          "externalId": "sfcl_or9kpuxemg4xrj88",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "GITHUB_URL",
+          "externalId": "sfcl_myz7qm4prqkr7xbr",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "FACEBOOK_ID",
+          "externalId": "sfcl_yenc9at6imtbzzax",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "FACEBOOK_URL",
+          "externalId": "sfcl_vpf38dj3ngir7xvh",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "MOBILE_PHONE",
+          "externalId": "sfcl_49pssiwihdhv4ob9",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "FACEBOOK_USERNAME",
+          "externalId": "sfcl_33emwasm3fsezyop",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "WORK_EMAIL",
+          "externalId": "sfcl_jmxyhrbtqt37hu7j",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "LOCATION_ADDRESS_LINE_2",
+          "externalId": "sfcl_9s8bnbxx7t96hh4g",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "GITHUB_USERNAME",
+          "externalId": "sfcl_8wficess98hwterr",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "RECOMMENDED_PERSONAL_EMAIL",
+          "externalId": "sfcl_gokkzzfjz3vrp8c6",
+          "pythonType": "bool",
+          "jsType": "boolean",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "ACTIVITY_SCORE",
+          "externalId": "sfcl_veto6f9dpf9f73hu",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "",
+          "isCategorical": true
+        },
+        {
+          "name": "PROFILE_SCORE",
+          "externalId": "sfcl_6aukj4xojjgfcgio",
+          "pythonType": "str",
+          "jsType": "string",
+          "description": "",
+          "isCategorical": true
+        }
+      ],
+      "partitionInfo": null
+    }
+  }
+}

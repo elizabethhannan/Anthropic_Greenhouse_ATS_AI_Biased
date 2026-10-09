@@ -1,0 +1,47 @@
+{
+  "slug": "person",
+  "externalId": "dst_m4nxsxh8aggbim3d",
+  "name": "Person",
+  "isFileOnly": false,
+  "permissions": {
+    "canDownload": true,
+    "canCustomize": true,
+    "userAccessMessage": null,
+    "userAccessReasonCode": "download_access_granted"
+  },
+  "download": {
+    "fileType": "csv",
+    "fileTypeDisplay": "CSV",
+    "rowCount": 815476877,
+    "totalSizeBytes": 92733163831,
+    "totalSizeDisplay": "86.36 GB",
+    "partition": {
+      "externalId": null,
+      "hasPartitionColumn": false,
+      "columnName": null,
+      "columnType": null,
+      "pythonType": null,
+      "jsType": null,
+      "formatType": null,
+      "description": null,
+      "hasMinMaxRange": false,
+      "minValue": null,
+      "maxValue": null,
+      "isTimePartitioned": false,
+      "availableDateRange": null
+    }
+  },
+  "customization": {
+    "mustCustomize": false,
+    "datasetCanCustomize": true,
+    "minimumCustomizationPercentage": 20
+  },
+  "docs": {
+    "downloadInstructionsUrl": "https://docs.deweydata.io/docs/browse-and-sample",
+    "projectsUrl": "https://docs.deweydata.io/docs/projects",
+    "doisUrl": "https://docs.deweydata.io/docs/dois",
+    "deweypyUrl": "https://github.com/Dewey-Data/deweypy",
+    "datasetDocsUrl": "https://docs.deweydata.io/docs/people-and-resume-app"
+  },
+  "partnerSpecificTerms": "Firm and company names cannot be published in any research unless written permission is granted by the Dewey and/or People Data Labs teams."
+}

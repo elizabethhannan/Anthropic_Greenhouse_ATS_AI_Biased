@@ -1,0 +1,10 @@
+{
+  "total_files": 384,
+  "total_size": 92733163831,
+  "total_partitions": 0,
+  "partition_type": null,
+  "partition_column": null,
+  "partition_aggregation": null,
+  "min_partition_key": null,
+  "max_partition_key": null
+}

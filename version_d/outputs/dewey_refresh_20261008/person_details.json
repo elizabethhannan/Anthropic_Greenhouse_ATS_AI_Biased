@@ -1,0 +1,90 @@
+{
+  "slug": "person",
+  "dataset": {
+    "id": 24,
+    "externalId": "dst_m4nxsxh8aggbim3d",
+    "name": "Person",
+    "slug": "person",
+    "dataPartner": {
+      "id": 8,
+      "externalId": "dtp_4dcioateusvz3ket",
+      "name": "People Data Labs",
+      "slug": "people-data-labs",
+      "documentationPage": null
+    },
+    "isPrimary": true,
+    "isSupplementary": false,
+    "canCustomize": true,
+    "mustCustomize": false,
+    "customizationRequiredPercentage": 20,
+    "region": "Global",
+    "summary": "50+ years of people-based data including job history, education history, associated addresses, social media handles, contact information, and more.",
+    "observationLevel": "Individual's current employment and role detials",
+    "documentationPage": {
+      "externalId": "doc_pg4yuf9r66yk67ck",
+      "title": "People and Resume",
+      "slug": "people-and-resume-app",
+      "section": "docs",
+      "publicPath": "/docs/people-and-resume-app",
+      "publicUrl": "https://docs.deweydata.io/docs/people-and-resume-app"
+    },
+    "citationsUrl": "",
+    "unloadingDefaultFileType": "csv",
+    "fileTypeDisplay": "CSV",
+    "versionTimestamp": "2026-09-21T19:44:59.910000+00:00",
+    "rowsCount": 815476877,
+    "sizeBytes": 92733163831,
+    "sizeBytesDisplay": "86.36 GB",
+    "accessInfo": {
+      "highestRanked": {
+        "accessLevelNumber": 15,
+        "canView": true,
+        "canSample": true,
+        "canDownload": true,
+        "canCustomize": true
+      },
+      "effective": {
+        "canView": true,
+        "canDownload": true,
+        "canCustomize": true,
+        "canGetData": true,
+        "hasSubscriptionGradeAccess": true
+      },
+      "teamAccessInfo": [
+        {
+          "accountId": 608,
+          "accountKind": "university",
+          "accountName": "New York University",
+          "accessLevelNumber": 15,
+          "canView": true
+        }
+      ]
+    },
+    "userAccessMessage": null,
+    "userAccessReasonCode": "download_access_granted",
+    "isFree": false,
+    "isFileOnly": false,
+    "categories": [
+      {
+        "id": 10,
+        "externalId": "cat_wfw9detxa9n36dic",
+        "name": "Company Insights",
+        "slug": "company-insights",
+        "description": ""
+      }
+    ],
+    "sampleRowsCount": 100,
+    "partnerSpecificTerms": "Firm and company names cannot be published in any research unless written permission is granted by the Dewey and/or People Data Labs teams.",
+    "canonicalDoi": "10.82551/27h2-5e56",
+    "canonicalDoiAsOf": "2025-07-02T18:34:48.569106Z",
+    "doi": "10.82551/wzkb-ts67",
+    "doiAsOf": "2026-09-28T07:56:26.463604Z",
+    "doiVersionString": "1.2",
+    "canonicalDoiCitationApa": "People Data Labs. (2022). Person [Dataset]. Dewey Data. https://doi.org/10.82551/27H2-5E56\n",
+    "doiCitationApa": "People Data Labs. (2022). Person (Version 1.2) [Dataset]. Dewey Data. https://doi.org/10.82551/WZKB-TS67\n",
+    "citationEligible": true,
+    "lastRefreshAt": "2026-09-28T07:55:12.239582Z",
+    "lastRefreshThroughWindow": 3215,
+    "lastRefreshScheduleDescription": "Monthly on the 28th"
+  }
+}

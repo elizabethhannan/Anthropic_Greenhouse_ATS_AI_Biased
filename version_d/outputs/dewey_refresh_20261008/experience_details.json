@@ -1,0 +1,97 @@
+{
+  "slug": "experience",
+  "dataset": {
+    "id": 331,
+    "externalId": "dst_8wa3hxvb94ab7zm4",
+    "name": "Experience",
+    "slug": "experience",
+    "dataPartner": {
+      "id": 8,
+      "externalId": "dtp_4dcioateusvz3ket",
+      "name": "People Data Labs",
+      "slug": "people-data-labs",
+      "documentationPage": null
+    },
+    "isPrimary": false,
+    "isSupplementary": true,
+    "canCustomize": false,
+    "mustCustomize": false,
+    "customizationRequiredPercentage": 100,
+    "region": "Global",
+    "summary": "An individual's work experience. The `person_id` field is used as a foreign key reference to the `person_id` in the `Person` table to associate these experiences with an individual.",
+    "observationLevel": "Work Experience per Individual",
+    "documentationPage": {
+      "externalId": "doc_pg4yuf9r66yk67ck",
+      "title": "People and Resume",
+      "slug": "people-and-resume-app",
+      "section": "docs",
+      "publicPath": "/docs/people-and-resume-app",
+      "publicUrl": "https://docs.deweydata.io/docs/people-and-resume-app"
+    },
+    "citationsUrl": "",
+    "unloadingDefaultFileType": "parquet",
+    "fileTypeDisplay": "Parquet",
+    "versionTimestamp": "2026-09-21T20:04:29.821000+00:00",
+    "rowsCount": 1664446321,
+    "sizeBytes": 191714141596,
+    "sizeBytesDisplay": "178.55 GB",
+    "accessInfo": {
+      "highestRanked": {
+        "accessLevelNumber": 15,
+        "canView": true,
+        "canSample": true,
+        "canDownload": true,
+        "canCustomize": true
+      },
+      "effective": {
+        "canView": true,
+        "canDownload": true,
+        "canCustomize": false,
+        "canGetData": true,
+        "hasSubscriptionGradeAccess": true
+      },
+      "teamAccessInfo": [
+        {
+          "accountId": 608,
+          "accountKind": "university",
+          "accountName": "New York University",
+          "accessLevelNumber": 15,
+          "canView": true
+        },
+        {
+          "accountId": 34975,
+          "accountKind": "personal",
+          "accountName": "Personal Account",
+          "accessLevelNumber": 11,
+          "canView": true
+        }
+      ]
+    },
+    "userAccessMessage": null,
+    "userAccessReasonCode": "download_access_granted",
+    "isFree": false,
+    "isFileOnly": false,
+    "categories": [
+      {
+        "id": 10,
+        "externalId": "cat_wfw9detxa9n36dic",
+        "name": "Company Insights",
+        "slug": "company-insights",
+        "description": ""
+      }
+    ],
+    "sampleRowsCount": 100,
+    "partnerSpecificTerms": "Firm and company names cannot be published in any research unless written permission is granted by the Dewey and/or People Data Labs teams.",
+    "canonicalDoi": "",
+    "canonicalDoiAsOf": null,
+    "doi": "",
+    "doiAsOf": null,
+    "doiVersionString": "",
+    "canonicalDoiCitationApa": "",
+    "doiCitationApa": "",
+    "citationEligible": false,
+    "lastRefreshAt": "2026-09-28T08:01:01.665564Z",
+    "lastRefreshThroughWindow": 3254,
+    "lastRefreshScheduleDescription": "Monthly on the 28th"
+  }
+}
