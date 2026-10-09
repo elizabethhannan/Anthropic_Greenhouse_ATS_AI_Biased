@@ -1,0 +1,29 @@
+{
+  "status": "ARCHITECTURE_READY_MODEL_NOT_FIT",
+  "model": "Gradient Boosting Classifier",
+  "role": "Secondary nonlinear predictive audit",
+  "unit": "candidate/application-stage observation",
+  "target": "selected",
+  "required_future_inputs": [
+    "candidate_id",
+    "application_id",
+    "job_id",
+    "stage",
+    "stage_outcome",
+    "selected",
+    "source-provided sex for audit only"
+  ],
+  "planned_outputs": [
+    "cross-validated performance",
+    "permutation feature importance",
+    "comparison with logistic regression"
+  ],
+  "public_data_gate": "NOT_ESTIMABLE_FROM_PUBLIC_DATA",
+  "fit_performed": false,
+  "reason": "No valid candidate-stage training observations or class variation are available in public data.",
+  "sex_inference": false,
+  "synthetic_candidates": false,
+  "candidate_linkage_fabricated": false,
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false
+}

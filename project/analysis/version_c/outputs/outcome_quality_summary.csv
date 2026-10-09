@@ -1,0 +1,17 @@
+metric,value,details
+distinct_people,1095,One row per distinct PERSON_ID in the frozen Phase 2 outcome layer.
+source_employment_rows_preserved,1097,Total employment rows nested in the authoritative person-level input.
+male_count,606,Exact source_SEX male mapping.
+female_count,276,Exact source_SEX female mapping.
+unknown_count,213,Blank/null/unrecognized source_SEX; never inferred.
+blank_or_null_source_sex,213,Source field blank or null.
+unrecognized_nonblank_source_sex,0,{}
+source_outcome_label_mismatches,0,Must be zero; Phase 2 outcome_sex checked against source_SEX mapping.
+people_without_study_period_start,0,No preserved start record from April-September 2026.
+research_distinct_people,40,Distinct people with an explicit research-hire flag/classification.
+fellowship_distinct_people,32,Distinct people with Fellows Researcher role category or an explicit fellow title.
+known_sex_denominator,882,MALE + FEMALE; UNKNOWN excluded.
+male_share_known_sex,0.6870748299319728,Executive headline denominator.
+female_share_known_sex,0.3129251700680272,Executive headline denominator.
+male_female_ratio,2.1956521739130435,MALE count divided by FEMALE count.
+phase5_monthly_crosscheck_mismatches,0,"{""available"": true, ""compared_months"": 4, ""mismatches"": []}"

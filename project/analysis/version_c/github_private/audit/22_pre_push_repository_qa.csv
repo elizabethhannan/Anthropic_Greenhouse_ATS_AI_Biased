@@ -1,0 +1,15 @@
+check,status
+Step 19 security scan passed,PASS
+Step 20 frozen integrity passed,PASS
+Staged file set matches Step 19 hash baseline,PASS
+Staged content hashes match Step 19 baseline,PASS
+No secret patterns detected,PASS
+No dangerous file extensions,PASS
+Canonical Male/Female/Unknown/total present,PASS
+Known-sex ratio preserved,PASS
+Signal status preserved,PASS
+Prediction gate preserved,PASS
+Feedback status preserved,PASS
+Publication hold preserved,PASS
+Security policy included,PASS
+GitHub visibility independently verified,NOT VERIFIED

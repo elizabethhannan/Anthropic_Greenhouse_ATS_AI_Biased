@@ -1,0 +1,91 @@
+{
+  "workstream": "Version C 3.0 \u2014 Employment Selection ML",
+  "gate": "NOT_ESTIMABLE_FROM_PUBLIC_DATA",
+  "audit_status": "PASS",
+  "executive_question": "Do observable recruiting signals contain measurable predictive information about aggregate observed Male/Female hiring composition?",
+  "primary_model": "Logistic regression",
+  "secondary_model": "Gradient boosting",
+  "public_data_adverse_impact_status": "NOT_ESTIMABLE_FROM_PUBLIC_DATA; applicant/stage denominators are absent",
+  "estimability": {
+    "raw_role_month_bridge_rows": 41,
+    "eligible_dated_posting_and_known_sex_cells": 3,
+    "minimum_cells": 20,
+    "male_outcome_cells": 3,
+    "female_outcome_cells": 0,
+    "minimum_cells_per_class": 5,
+    "gate_passed": false
+  },
+  "reason": "Eligible aggregate role/month cells=3 (minimum 20); cells with Male outcomes=3 and Female outcomes=0 (minimum 5 each). The model gate does not pass.",
+  "model_fit_performed_by_this_gate": false,
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_destination_verified_or_published": false,
+  "guardrails": {
+    "sex_inference": false,
+    "sex_as_feature": false,
+    "unknown_collapsed": false,
+    "synthetic_candidates": false,
+    "applicant_denominators_manufactured": false,
+    "candidate_level_linkage": false,
+    "future_information": false,
+    "post_hire_leakage": false,
+    "greenhouse_causal_claim": false
+  },
+  "checks": [
+    {
+      "check_id": "aggregate_input_inventory",
+      "status": "PASS",
+      "detail": "Inputs recorded=['bridge', 'hiring', 'master', 'signals']; expected at least=['bridge', 'hiring', 'master', 'signals']"
+    },
+    {
+      "check_id": "phase4_reconciliation",
+      "status": "PASS",
+      "detail": "Phase 4=NOT_ESTIMABLE; matched/male/female=3/3/0; workstream=3/3/0"
+    },
+    {
+      "check_id": "frozen_phase2_phase3_inputs",
+      "status": "PASS",
+      "detail": "Recorded source hashes and frozen row counts reconcile."
+    },
+    {
+      "check_id": "step01_output_hashes",
+      "status": "PASS",
+      "detail": "Verified 8 ML workstream output hashes."
+    },
+    {
+      "check_id": "design_guards",
+      "status": "PASS",
+      "detail": "candidate_linkage=False; unknown_target=False; archive_date=False; causal_claim=False"
+    },
+    {
+      "check_id": "independent_aggregate_unit",
+      "status": "PASS",
+      "detail": "Phase 2 aggregate bridge rows=41; eligible matched role/month cells=3; no row expansion used."
+    },
+    {
+      "check_id": "role_month_cell_minimum",
+      "status": "NOT_MET",
+      "detail": "Eligible cells=3; minimum=20"
+    },
+    {
+      "check_id": "male_class_variation_minimum",
+      "status": "NOT_MET",
+      "detail": "Cells with Male outcomes=3; minimum=5"
+    },
+    {
+      "check_id": "female_class_variation_minimum",
+      "status": "NOT_MET",
+      "detail": "Cells with Female outcomes=0; minimum=5"
+    },
+    {
+      "check_id": "model_execution_follows_gate",
+      "status": "PASS",
+      "detail": "All recorded model rows are NOT_ESTIMABLE; no fitted result is present."
+    },
+    {
+      "check_id": "github_destination_preserved",
+      "status": "PASS",
+      "detail": "Destination metadata=https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased; no network/publish action performed."
+    }
+  ],
+  "generated_at_utc": "2026-10-01T08:48:16.971842+00:00"
+}

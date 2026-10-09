@@ -1,0 +1,6 @@
+stage,step01_rates_present,male_group_present,female_group_present,selection_rates_calculable,male_female_impact_ratio_calculable,readiness_status,data_requirement,interpretation_limit
+applicant_pool,False,False,False,False,False,NOT_CALCULABLE_NO_INTERNAL_STAGE_COUNTS,entered_count and selected_count by reported demographic group; retain Unknown separately,"A 4/5ths indicator is a screening signal, not a legal finding."
+screened,False,False,False,False,False,NOT_CALCULABLE_NO_INTERNAL_STAGE_COUNTS,entered_count and selected_count by reported demographic group; retain Unknown separately,"A 4/5ths indicator is a screening signal, not a legal finding."
+interviewed,False,False,False,False,False,NOT_CALCULABLE_NO_INTERNAL_STAGE_COUNTS,entered_count and selected_count by reported demographic group; retain Unknown separately,"A 4/5ths indicator is a screening signal, not a legal finding."
+offered,False,False,False,False,False,NOT_CALCULABLE_NO_INTERNAL_STAGE_COUNTS,entered_count and selected_count by reported demographic group; retain Unknown separately,"A 4/5ths indicator is a screening signal, not a legal finding."
+hired,False,False,False,False,False,NOT_CALCULABLE_NO_INTERNAL_STAGE_COUNTS,entered_count and selected_count by reported demographic group; retain Unknown separately,"A 4/5ths indicator is a screening signal, not a legal finding."

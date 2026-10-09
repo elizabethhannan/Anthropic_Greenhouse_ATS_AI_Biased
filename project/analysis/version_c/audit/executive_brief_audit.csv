@@ -1,0 +1,30 @@
+check,status,detail
+phase7_validation_pass,PASS,23 passed; 0 failed.
+phase8_visualization_pass,PASS,Visualization manifest status=PASS with six charts.
+canonical_outcome_counts,PASS,"Reconciled outcome counts: {'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}; total=1095; known=882."
+signal_prediction_feedback_outcome_separated,PASS,"Statuses: signal=AVAILABLE, prediction=NOT_ESTIMABLE, feedback=COMPLETE_WITH_COVERAGE_LIMITS, outcome=AVAILABLE."
+prediction_not_estimable_preserved,PASS,"Brief states NOT_ESTIMABLE and preserves source reason: Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable."
+unknown_not_imputed,PASS,Unknown is retained outside the known-sex denominator.
+no_linkage_or_causal_claim,PASS,Brief explicitly denies individual posting linkage and causal identification.
+august_september_limitation,PASS,"Observed months=['2026-04', '2026-05', '2026-06', '2026-07']; unavailable months=['2026-08', '2026-09']; brief labels these unavailable, not zero."
+visual_references_exist,PASS,"All six referenced PNGs verified: ['01_observed_outcomes.png', '02_known_sex_outcomes.png', '03_research_outcomes.png', '04_evidence_architecture.png', '05_data_gaps.png', '06_executive_evidence_map.png']."
+input_hash:executive_summary.json,PASS,sha256=5f0462196081804c93a2d3ebd0a73180357e75663d7730913746c240f6a3a0fe; bytes=3536.
+input_hash:dashboard_outcome_distribution.csv,PASS,sha256=2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba; bytes=407.
+input_hash:dashboard_signal_findings.csv,PASS,sha256=9f665d872dff3bd82c0ec28b554e8e6510aa018edcb9bf73eb74c3276cbfcc32; bytes=1767.
+input_hash:dashboard_predictive_findings.csv,PASS,sha256=383ed1c3da0367bf51eb87ac260c880b79229703a10793b67f42bdef5d9d9245; bytes=2269.
+input_hash:dashboard_feedback_findings.csv,PASS,sha256=f4dd75f199e912bede10bd6f16e209c3dae1139aceafebc3e366c079a65dfc02; bytes=89537.
+input_hash:dashboard_limitations.csv,PASS,sha256=bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d; bytes=1437.
+input_hash:dashboard_evidence_map.csv,PASS,sha256=f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28; bytes=2075.
+input_hash:executive_dashboard_validation.json,PASS,sha256=d838babe5c63f95668179406b8df33e4a5a8b99237a56c2470fa4953d3177a56; bytes=471.
+input_hash:executive_dashboard_validation.csv,PASS,sha256=c1c9bee6be1fe56f6b6d8a533c00b34b84688d8b6853a83edf3cc58f846ef6d8; bytes=2950.
+input_hash:executive_dashboard_run_manifest.json,PASS,sha256=99b871225f7e0d36f08c46a826865af2d433f49c8c9466a1f0b5a88f7781da25; bytes=4999.
+input_hash:visualization_manifest.json,PASS,sha256=2c35299de156cb95e44cec1bed03d194402feecf1ed2501c43841947aff6e317; bytes=4276.
+input_hash:01_observed_outcomes.png,PASS,sha256=3a8917c5f9b0d3321b516d61c6a4202bda4029d21ad986e60898b5df82d05360; bytes=65149.
+input_hash:02_known_sex_outcomes.png,PASS,sha256=d49f0db327737e36a2896f52c479198df2061539691498c218347e9e9924cce9; bytes=61605.
+input_hash:03_research_outcomes.png,PASS,sha256=fe6d6ee281c4f979db5cc4edea3796312be5a3995c25bd65af972a8b190f2c20; bytes=64873.
+input_hash:04_evidence_architecture.png,PASS,sha256=889f854d1edfa00a8b071196e29a0f9211670ed02f0d6fb93efd99705b9e1803; bytes=104466.
+input_hash:05_data_gaps.png,PASS,sha256=d14dc0ada9c130f6189db5e8b948a85e02a900911edd66e967cb772404668619; bytes=97593.
+input_hash:06_executive_evidence_map.png,PASS,sha256=fa8de38edecfdba9017bad87c91e010d6e2b39f140e2c75705dfa76ef3ecf3c3; bytes=134325.
+markdown_readback,PASS,Markdown brief reopened and matched generated content.
+html_readback,PASS,HTML brief reopened and matched generated content.
+duplicate_only_guard,PASS,"Only the new Phase 9 Markdown, HTML, manifest, and audit files are written."

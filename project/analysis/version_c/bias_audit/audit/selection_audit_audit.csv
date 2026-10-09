@@ -1,0 +1,8 @@
+check,status,detail
+public_data_adverse_impact_gate,PASS,Correctly refused to calculate adverse impact without applicant/stage denominators.
+sex_inference,PASS,No sex inference performed.
+unknown_handling,PASS,Unknown remains Unknown; no reassignment.
+candidate_linkage,PASS,No candidate-level Greenhouse-to-hire linkage created.
+synthetic_candidates,PASS,No synthetic candidate records created.
+greenhouse_causality,PASS,No causal claim about Greenhouse.
+plan_a_integrity,PASS,Plan A datasets were not modified.

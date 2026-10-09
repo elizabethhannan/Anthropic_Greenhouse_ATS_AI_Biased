@@ -1,0 +1,9 @@
+population,outcome_sex_category,people,population_denominator,known_sex_denominator,percent_of_population,percent_of_known_sex
+all_observed_people,MALE,606,1095,882,55.342466,68.707483
+all_observed_people,FEMALE,276,1095,882,25.205479,31.292517
+all_observed_people,UNKNOWN_SOURCE_BLANK,213,1095,882,19.452055,
+all_observed_people,TOTAL,1095,1095,882,,
+confirmed_research_people,MALE,19,40,27,47.5,70.37037
+confirmed_research_people,FEMALE,8,40,27,20.0,29.62963
+confirmed_research_people,UNKNOWN_SOURCE_BLANK,13,40,27,32.5,
+confirmed_research_people,TOTAL,40,40,27,,

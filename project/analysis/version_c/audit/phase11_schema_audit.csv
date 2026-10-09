@@ -1,0 +1,7 @@
+artifact,status,required_columns,missing_columns
+phase2_master,PASS,candidate_level_hire_linkage;date_evidence_class;exact_title;greenhouse_job_id,
+phase2_hiring,PASS,PERSON_ID;outcome_sex;sex_inferred;source_SEX,
+phase2_bridge,PASS,month;role_family,
+phase3_features,PASS,candidate_level_outcome_linkage;signal_research_count;signal_technical_specialization_count;version_c_posting_id,
+phase4_metrics,PASS,model;n_role_month_cells;reason;roc_auc;status,
+phase5_lags,PASS,lag_months;outcome;scope;signal;status,

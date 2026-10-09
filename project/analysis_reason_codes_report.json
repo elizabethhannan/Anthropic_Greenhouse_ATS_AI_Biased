@@ -1,0 +1,111 @@
+{
+  "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring.",
+  "new_columns": [
+    "sex_reason_code",
+    "sex_reason_evidence",
+    "sex_display_label",
+    "research_reason_code",
+    "research_reason_evidence",
+    "research_display_label"
+  ],
+  "counts": [
+    [
+      "SEX",
+      "Source Blank",
+      213,
+      213
+    ],
+    [
+      "SEX",
+      "Source Conflicting",
+      0,
+      0
+    ],
+    [
+      "SEX",
+      "Source Unavailable",
+      0,
+      0
+    ],
+    [
+      "SEX",
+      "Explicit Public Self-ID",
+      0,
+      0
+    ],
+    [
+      "SEX",
+      "Unresolved",
+      0,
+      0
+    ],
+    [
+      "Research uncertainty",
+      "Engineering - Generic MTS",
+      325,
+      325
+    ],
+    [
+      "Research uncertainty",
+      "Engineering - Manager MTS",
+      10,
+      10
+    ],
+    [
+      "Research uncertainty",
+      "Applied AI - Ambiguous",
+      39,
+      39
+    ],
+    [
+      "Research uncertainty",
+      "Technical - Research Adjacent",
+      11,
+      11
+    ],
+    [
+      "Research uncertainty",
+      "Technical - Infrastructure",
+      12,
+      12
+    ],
+    [
+      "Research uncertainty",
+      "Technical - Product/Applied",
+      5,
+      5
+    ],
+    [
+      "Research uncertainty",
+      "Nontechnical - Ambiguous",
+      31,
+      31
+    ],
+    [
+      "Research uncertainty",
+      "Insufficient Title Detail",
+      46,
+      46
+    ],
+    [
+      "Research uncertainty",
+      "Conflicting Evidence",
+      0,
+      0
+    ],
+    [
+      "Research uncertainty",
+      "Research Evidence Missing",
+      32,
+      32
+    ]
+  ],
+  "rules": [
+    "All original columns and values preserved and verified with multiset comparison.",
+    "Use sex_display_label and research_display_label instead of generic labels in detailed analysis.",
+    "Known source female/male have null sex_reason_code; this is not missing evidence.",
+    "Explicit Public Self-ID is reserved for documented self-identification. No such evidence supplied or collected; no assignments made.",
+    "Conflicting Evidence requires documented contradictory role evidence; none established here. Current Person job titles are not assumed to describe historical hires.",
+    "Reason codes explain title uncertainty and do not establish research/non-research status. Original classifications and prior demographic totals unchanged."
+  ]
+}

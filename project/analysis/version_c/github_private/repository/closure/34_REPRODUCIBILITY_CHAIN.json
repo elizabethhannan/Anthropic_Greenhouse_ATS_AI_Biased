@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "expected_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "checks_total": 18,
+  "failures": [],
+  "source_artifacts": {
+    "Step 20 frozen integrity": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/audit/20_frozen_integrity_verification.json",
+      "sha256": "a6022e70c73bf5f538b2ec58f9c1e0ffda0c36c582e6acad48d5951680fc5657"
+    },
+    "Step 22 pre-push QA": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/audit/22_pre_push_repository_qa.json",
+      "sha256": "c0dceeb9702229f6feb14b1b26d9a4edb5a6d0930bf04b05a544015b1e9ff2d6"
+    },
+    "Step 24A reconciliation": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/audit/24A_pre_deployment_reconciliation.json",
+      "sha256": "79b92c7fc9d9b3bdffad57850c87b16c10191b23a7f87e512b2738809301824b"
+    },
+    "Step 25 private destination": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/audit/25_private_github_destination_verification.json",
+      "sha256": "05f5c8efa8fa055044b556a3214a489f97461b34ab6b347461bb71188be75816"
+    },
+    "Step 26 local commit": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/audit/26_private_git_commit.json",
+      "sha256": "df02f7dd10c31b0e5e6570bbbc2c6ef4c9ea389dc3ad3291eb08b9eebce784dc"
+    },
+    "Step 27 push": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/audit/27_private_github_push.json",
+      "sha256": "8659cd6110e2597c8f9aed8eb6af979bb16940ed57ffc5d651a4944eb4532dba"
+    },
+    "Step 28 remote commit": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/audit/28_remote_commit_verification.json",
+      "sha256": "f3bc7df106e049214e616ce7681a7de874456376295447a48220ede68eaa876c"
+    },
+    "Step 29 locked tag": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/audit/29_locked_release_tag.json",
+      "sha256": "3e016f380ff7e74e558a4a4878055266e3afb78511c01acafe63414199967ce9"
+    },
+    "Step 30 final deployment audit": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/audit/30_final_private_deployment_audit.json",
+      "sha256": "9594861d21e556a58fa7e00335edd7a25212717f4e7a9c1b60a78d54803b538e"
+    },
+    "Step 31 snapshot": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/closure/31_POST_DEPLOYMENT_SNAPSHOT.json",
+      "sha256": "637743728428d2202810552254c35f4b09ede1595d158900059fefbf23a44dc9"
+    },
+    "Step 32 executive QA": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/closure/32_EXECUTIVE_REVIEW_QA.json",
+      "sha256": "72c043c59ab028a2df590747747e8f3b0c1e115002201018297517dcebf4717d"
+    },
+    "Step 33 dashboard smoke test": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/closure/33_DASHBOARD_SMOKE_TEST.json",
+      "sha256": "3d74bbc37a9e6ae34094c4bf3319b112d38b4052a5da69af0afe5996c7616e9a"
+    }
+  },
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "audited_at_utc": "2026-10-02T05:47:18.350601+00:00",
+  "checks": [
+    {
+      "check": "Step 20 frozen integrity passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 22 pre-push QA passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 24A reconciliation passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 25 private destination passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 26 local commit passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 27 push passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 28 remote commit passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 29 locked tag passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 30 final deployment audit passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 31 snapshot passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 32 executive QA passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 33 dashboard smoke test passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Frozen fingerprint consistent across deployment chain",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 22 recorded zero secret findings",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 22 recorded zero dangerous files",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 28 commit equals remote",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 28 repository private",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 30 has five true integrity checks",
+      "status": "PASS"
+    }
+  ]
+}

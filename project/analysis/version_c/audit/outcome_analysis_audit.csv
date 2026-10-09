@@ -1,0 +1,14 @@
+check,status,rows,details
+frozen_hiring_input,PASS,1095,sha256=91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249
+distinct_person_ids,PASS,1095,Expected one row per distinct person.
+source_sex_mapping,PASS,0,MALE/FEMALE mapped only from source_SEX; other values remain UNKNOWN.
+unknown_retained,PASS,213,Unknown remains separate from the known-sex denominator.
+start_month_coverage,PASS,4,"Aug/Sep marked no observed start coverage, not zero."
+greenhouse_linkage_absent,PASS,0,Outcome layer is not joined to Greenhouse postings.
+phase5_crosscheck,PASS,4,"{""available"": true, ""compared_months"": 4, ""mismatches"": []}"
+readback:outcome_distribution.csv,PASS,3,Expected 3 rows.
+readback:outcome_by_period.csv,PASS,6,Expected 6 rows.
+readback:research_outcome_distribution.csv,PASS,3,Expected 3 rows.
+readback:fellowship_outcome_distribution.csv,PASS,3,Expected 3 rows.
+readback:outcome_quality_summary.csv,PASS,16,Expected 16 rows.
+readback:executive_outcome_metrics.json,PASS,1,sha256=36172acad8923a38e1b79677f819072bfac1679a98c6feeefd9027250a768d91

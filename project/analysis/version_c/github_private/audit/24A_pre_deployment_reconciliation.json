@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-10-01T22:29:09.080063+00:00",
+  "step22_scored_assertion_count": 13,
+  "step22_assertions": [
+    {
+      "check": "Step 19 security scan passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 20 frozen integrity passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Staged file set matches Step 19 hash baseline",
+      "status": "PASS"
+    },
+    {
+      "check": "Staged content hashes match Step 19 baseline",
+      "status": "PASS"
+    },
+    {
+      "check": "No secret patterns detected",
+      "status": "PASS"
+    },
+    {
+      "check": "No dangerous file extensions",
+      "status": "PASS"
+    },
+    {
+      "check": "Canonical Male/Female/Unknown/total present",
+      "status": "PASS"
+    },
+    {
+      "check": "Known-sex ratio preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Signal status preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Prediction gate preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Feedback status preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Publication hold preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Security policy included",
+      "status": "PASS"
+    }
+  ],
+  "step22_visibility_note": [
+    {
+      "check": "GitHub visibility independently verified",
+      "status": "NOT VERIFIED"
+    }
+  ],
+  "step23_index_files": [
+    {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/REPOSITORY_INDEX.md",
+      "exists": true,
+      "inside_staged_repository": false
+    },
+    {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/REPOSITORY_INDEX.json",
+      "exists": true,
+      "inside_staged_repository": false
+    },
+    {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/REPOSITORY_INDEX.csv",
+      "exists": true,
+      "inside_staged_repository": false
+    }
+  ],
+  "staged_repository": {
+    "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/repository",
+    "file_count": 19,
+    "git_repository_initialized_here": false,
+    "git_metadata_path": null,
+    "ancestor_git_root_detected": "/Users/elizabethhannan",
+    "expected_file_count_from_step19": 19,
+    "unexpected_files": [],
+    "missing_files": [],
+    "hash_mismatches": [],
+    "file_paths": [
+      "04_statistical_significance.json",
+      "05_logistic_selection_model_status.json",
+      "06_gradient_boosting_status.json",
+      "07_executive_brief_manifest.json",
+      "07_fairlearn_model_audit_status.json",
+      "08_human_ai_workflow_audit_status.json",
+      "08_human_ai_workflow_evidence_map.csv",
+      "08_presentation_manifest.json",
+      "PACKAGE_MANIFEST.csv",
+      "PACKAGE_MANIFEST.json",
+      "README.md",
+      "SECURITY.md",
+      "VERSION_C_3_0_EXECUTIVE_BRIEF.md",
+      "VERSION_C_3_0_EXECUTIVE_PRESENTATION.html",
+      "executive_evidence_metrics.csv",
+      "executive_evidence_v3.json",
+      "final_dashboard_validation.csv",
+      "final_executive_dashboard_d3.html",
+      "final_executive_dashboard_d3_manifest.json"
+    ]
+  },
+  "frozen_package": {
+    "expected_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+    "recomputed_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+    "file_set_matches_baseline": true,
+    "file_hashes_match_baseline": true
+  },
+  "checks": {
+    "step22_scored_assertion_count_is_13": true,
+    "step22_assertions_all_pass": true,
+    "step23_index_files_exist_outside_staged_repository": true,
+    "staged_repository_has_19_files": true,
+    "no_unexpected_or_missing_staged_files": true,
+    "staged_hashes_match_step19_security_manifest": true,
+    "frozen_package_matches_expected_fingerprint": true
+  },
+  "frozen_package_modified": false,
+  "staged_repository_modified": false,
+  "github_push_performed": false
+}

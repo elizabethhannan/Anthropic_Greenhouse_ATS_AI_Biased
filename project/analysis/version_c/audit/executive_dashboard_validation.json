@@ -1,0 +1,19 @@
+{
+  "checks": 23,
+  "created_at_utc": "2026-09-30T08:11:54.924072+00:00",
+  "failed": 0,
+  "outputs": {
+    "validation_csv": {
+      "path": "audit/executive_dashboard_validation.csv",
+      "sha256": "c1c9bee6be1fe56f6b6d8a533c00b34b84688d8b6853a83edf3cc58f846ef6d8"
+    }
+  },
+  "overall_status": "PASS",
+  "passed": 23,
+  "source_outcome_counts": {
+    "FEMALE": 276,
+    "MALE": 606,
+    "UNKNOWN": 213
+  },
+  "validation": "version_c_phase_7_executive_dashboard"
+}

@@ -1,0 +1,26 @@
+{
+  "adverse_impact_test_performed": false,
+  "candidate_level_greenhouse_linkage": false,
+  "current_public_outcome": {
+    "Female": 276,
+    "Male": 606,
+    "Unknown": 213
+  },
+  "current_public_total": 1095,
+  "executive_interpretation": "Observed Male/Female hiring composition identifies representation disparity but does not establish adverse impact without demographic applicant and stage denominators.",
+  "future_tests_retained": [
+    "03_statistical_significance.py",
+    "08_human_ai_workflow_audit.py"
+  ],
+  "greenhouse_causal_claim": false,
+  "known_sex_female_share": 0.3129251700680272,
+  "known_sex_male_share": 0.6870748299319728,
+  "male_female_ratio": 2.1956521739130435,
+  "plan_a_modified": false,
+  "reason": "No internal Greenhouse selection-stage dataset was provided. Public outcomes include hires only, not demographic applicant or stage denominators.",
+  "run_timestamp_utc": "2026-10-01T06:53:18.344526+00:00",
+  "selection_rate_test_performed": false,
+  "sex_inference": false,
+  "status": "NOT_ESTIMABLE_FROM_CURRENT_PUBLIC_DATA",
+  "synthetic_candidates": false
+}

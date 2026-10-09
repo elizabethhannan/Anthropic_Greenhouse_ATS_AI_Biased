@@ -1,0 +1,56 @@
+signal_feature,signal_mean,month,role_family,posting_count,observed_male_count,observed_female_count,observed_unknown_count,male_share_known_sex,female_share_known_sex,unknown_share_all,archive_capture_only_candidates,association_unit,candidate_level_linkage
+named_person_count,0.0,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+recurring_named_person_count,0.0,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+research_exemplar_count,0.0,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+researcher_reference_count,29.5,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+publication_paper_reference_count,0.0,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+signal_research_pedigree_count,0.0,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+signal_technical_specialization_count,6.5,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+signal_leadership_count,7.0,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+signal_seniority_count,5.5,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+signal_accomplishment_framing_count,8.0,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+signal_candidate_expectations_count,4.5,2026-04,AI/ML Research - Other,2,0,0,2,,,1.0,0,role_month_ecological_cell,False
+named_person_count,0.0,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+recurring_named_person_count,0.0,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+research_exemplar_count,0.0,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+researcher_reference_count,31.0,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+publication_paper_reference_count,2.0,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_research_pedigree_count,0.0,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_technical_specialization_count,10.666666666666666,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_leadership_count,11.0,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_seniority_count,3.3333333333333335,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_accomplishment_framing_count,6.0,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_candidate_expectations_count,8.666666666666666,2026-04,Fellows Researcher,3,2,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+named_person_count,0.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+recurring_named_person_count,0.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+research_exemplar_count,0.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+researcher_reference_count,23.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+publication_paper_reference_count,1.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_research_pedigree_count,3.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_technical_specialization_count,11.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_leadership_count,3.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_seniority_count,5.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_accomplishment_framing_count,8.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_candidate_expectations_count,7.0,2026-06,Research Scientist,1,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+named_person_count,0.0,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+recurring_named_person_count,0.0,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+research_exemplar_count,0.0,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+researcher_reference_count,19.5,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+publication_paper_reference_count,0.5,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+signal_research_pedigree_count,0.0,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+signal_technical_specialization_count,9.5,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+signal_leadership_count,1.5,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+signal_seniority_count,3.5,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+signal_accomplishment_framing_count,7.0,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+signal_candidate_expectations_count,5.5,2026-07,Research Engineer,2,0,0,1,,,1.0,0,role_month_ecological_cell,False
+named_person_count,0.0,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+recurring_named_person_count,0.0,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+research_exemplar_count,0.0,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+researcher_reference_count,34.0,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+publication_paper_reference_count,1.0,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_research_pedigree_count,1.0,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_technical_specialization_count,6.0,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_leadership_count,3.3333333333333335,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_seniority_count,4.0,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_accomplishment_framing_count,9.0,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False
+signal_candidate_expectations_count,6.0,2026-07,Research Scientist,3,1,0,0,1.0,0.0,0.0,0,role_month_ecological_cell,False

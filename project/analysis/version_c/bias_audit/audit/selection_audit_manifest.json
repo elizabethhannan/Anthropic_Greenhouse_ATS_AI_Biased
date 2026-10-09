@@ -1,0 +1,32 @@
+{
+  "audit_type": "employment_selection_rate_adverse_impact",
+  "controls": {
+    "candidate_level_greenhouse_linkage": false,
+    "greenhouse_causal_claim": false,
+    "plan_a_modified": false,
+    "sex_inference": false,
+    "synthetic_candidates": false
+  },
+  "current_public_outcomes": {
+    "Female": 276,
+    "Male": 606,
+    "Unknown": 213
+  },
+  "future_tests": [
+    "03_statistical_significance.py",
+    "08_human_ai_workflow_audit.py"
+  ],
+  "input_exists": false,
+  "input_file": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/bias_audit/inputs/internal_greenhouse_selection_data.parquet",
+  "outputs": [
+    "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/bias_audit/outputs/public_data_selection_requirements.csv",
+    "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/bias_audit/outputs/future_internal_data_requirements.csv",
+    "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/bias_audit/outputs/adverse_impact_summary.csv",
+    "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/bias_audit/outputs/selection_audit_status.json",
+    "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/bias_audit/audit/selection_audit_audit.csv"
+  ],
+  "run_timestamp_utc": "2026-10-01T06:53:18.344526+00:00",
+  "script": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/bias_audit/01_selection_rate_audit.py",
+  "status": "NOT_ESTIMABLE_FROM_CURRENT_PUBLIC_DATA",
+  "workstream": "bias_audit"
+}

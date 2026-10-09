@@ -1,0 +1,134 @@
+{
+  "association_method": {
+    "archive_capture_dates_used_as_posting_dates": false,
+    "bridge_reconciliation": "derived_in_memory_from_frozen_hiring_source_rows",
+    "candidate_level_linkage": false,
+    "causal_claim": false,
+    "estimable": true,
+    "limitation": "Coverage is limited by observed start-month availability (April-July 2026) and exact role-family matching.",
+    "note": "Exact month and role-family intersections are included. If the frozen Phase 2 bridge has no hire counts, Phase 3 derives aggregate counts in memory from employment rows preserved in the frozen hiring outcome file. Cell associations remain descriptive and are not candidate-level predictions.",
+    "phase_2_files_modified": false,
+    "posting_date_basis": "established Greenhouse posting dates only",
+    "unit": "role-month ecological cell"
+  },
+  "audit_csv": "audit/signal_audit.csv",
+  "counts": {
+    "descriptions_available": 704,
+    "ecological_role_month_feature_cells": 5,
+    "named_person_reference_postings": 13,
+    "phase_2_bridge_cells_with_observed_hires": 0,
+    "phase_2_bridge_rows": 41,
+    "phase_3_bridge_cells_with_observed_hires": 17,
+    "phase_3_bridge_rows_used_for_associations": 17,
+    "postings": 1246,
+    "signal_examples": 6502
+  },
+  "created_at_utc": "2026-09-30T03:57:01.345680+00:00",
+  "feature_method": {
+    "counts_are_lexical_descriptors_not_bias_labels": true,
+    "lexicons": {
+      "accomplishment_framing": [
+        "\\b(?:demonstrated|track record|proven|achievement\\w*|achieved|impact\\w*|shipped|built|led|delivered|scaled|recognized|published|contribution)\\b"
+      ],
+      "ai_ml": [
+        "\\b(?:artificial intelligence|AI|machine learning|ML)\\b",
+        "\\bdeep learning\\b",
+        "\\bLLMs?\\b",
+        "\\bgenerative AI\\b",
+        "\\bmodel training\\b"
+      ],
+      "candidate_expectations": [
+        "\\b(?:qualifications?|requirements?|what you(?:'ll| will) do|what we(?:'re| are) looking for|ideal candidate|you will|you should|we expect|expected|minimum qualifications?|preferred qualifications?)\\b"
+      ],
+      "collaboration": [
+        "\\b(?:collaborat\\w*|cross[- ]functional|partner\\w*|work with|working with|stakeholders?|teams?|interdisciplinary)\\b"
+      ],
+      "engineering": [
+        "\\bengineer(?:s|ing)?\\b",
+        "\\bsoftware engineering\\b",
+        "\\bsystems engineering\\b",
+        "\\bproduction engineering\\b",
+        "\\binfrastructure\\b"
+      ],
+      "leadership": [
+        "\\b(?:lead(?:s|ing)?|leader(?:s|ship)?|manage(?:s|d|r|rs|ment|ing)?|manager(?:s)?|director(?:s)?|head of|mentor(?:s|ing)?|mentorship|organizational|team leadership)\\b"
+      ],
+      "named_expert_reference": [],
+      "paper_reference": [
+        "\\b(?:paper\\w*|preprint\\w*|arXiv)\\b"
+      ],
+      "publication_emphasis": [
+        "\\b(?:publication\\w*|published|paper\\w*|preprint\\w*|arXiv|author(?:s|ship)?|conference\\w*|citation\\w*)\\b"
+      ],
+      "research": [
+        "\\bresearch(?:er|ers|ing)?\\b",
+        "\\bscientist(?:s)?\\b",
+        "\\bscientific\\b",
+        "\\bempirical\\b",
+        "\\bexperiment(?:s|al)?\\b",
+        "\\binvestigat(?:e|es|ing|ion)\\b"
+      ],
+      "research_pedigree": [
+        "\\b(?:Ph\\.?D\\.?|doctorate|doctoral|academic|academia|university|faculty|postdoctoral|postdoc|first[- ]author|top[- ]tier conference|NeurIPS|ICML|ICLR|ACL|EMNLP|CVPR)\\b"
+      ],
+      "seniority": [
+        "\\b(?:senior|staff|principal|distinguished|lead|director|head|manager|executive|years of experience|extensive experience)\\b"
+      ],
+      "technical_specialization": [
+        "\\b(?:transformers?|RLHF|reinforcement learning|interpretability|scaling laws?|distributed training|pre[- ]training|pretraining|post[- ]training|fine[- ]tuning|multimodal|computer vision|natural language processing|NLP|model behavior|AI safety|alignment|evaluations?|constitutional AI|agents?|neural networks?)\\b"
+      ]
+    },
+    "named_person_gender_inference": false,
+    "raw_description_html_and_text_preserved_from_master": true
+  },
+  "manifest_type": "version_c_phase_3_signal_diagnostic",
+  "outputs": [
+    {
+      "asset": "signal_features.parquet",
+      "bytes": 1923962,
+      "local_readback_verified": true,
+      "row_count": 1246,
+      "sha256": "5d8f9fa3ddc2ab23c1718cd8f01e4f8f0f87b6dbcacbed56520c89134decb681"
+    },
+    {
+      "asset": "signal_summary.csv",
+      "bytes": 3043,
+      "local_readback_verified": true,
+      "row_count": 7,
+      "sha256": "49f378aabd81681f731c44bd62a6ed142fbf720951404911fbd1b10c264b353b"
+    },
+    {
+      "asset": "proxy_associations.csv",
+      "bytes": 6617,
+      "local_readback_verified": true,
+      "row_count": 55,
+      "sha256": "55a2fe58426c69c99c7381c5c008e0fcc7090fb2de8a877c0bbf67c7537375cb"
+    },
+    {
+      "asset": "signal_examples.csv",
+      "bytes": 2686128,
+      "local_readback_verified": true,
+      "row_count": 6502,
+      "sha256": "8adc61070b79e4cd93add2a66683cec2ee4f07121f9c911c17ace6a969a1cbdb"
+    }
+  ],
+  "phase_2_inputs": {
+    "version_c_hiring_outcomes.parquet": {
+      "path": "outputs/version_c_hiring_outcomes.parquet",
+      "rows": 1095,
+      "sha256": "91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249"
+    },
+    "version_c_master.parquet": {
+      "path": "outputs/version_c_master.parquet",
+      "rows": 1246,
+      "sha256": "5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d"
+    },
+    "version_c_role_month_bridge.parquet": {
+      "path": "outputs/version_c_role_month_bridge.parquet",
+      "rows": 41,
+      "sha256": "48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108"
+    }
+  },
+  "r2_upload_requested": false,
+  "run_id": "20260929T_VERSIONC_PHASE3"
+}

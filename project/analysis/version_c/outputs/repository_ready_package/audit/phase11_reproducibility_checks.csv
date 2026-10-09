@@ -1,0 +1,102 @@
+check_id,status,severity,detail
+readable:phase2_master,PASS,INFO,Readable; rows/slides=1246; sha256=5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d
+readable:phase2_hiring,PASS,INFO,Readable; rows/slides=1095; sha256=91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249
+readable:phase2_bridge,PASS,INFO,Readable; rows/slides=41; sha256=48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108
+readable:phase2_manifest,PASS,INFO,Readable; rows/slides=1; sha256=1f639a290bacaadf8ad1abd579995c8c185f55e8f5f3b2ef55f82f93aa339ff2
+readable:phase3_features,PASS,INFO,Readable; rows/slides=1246; sha256=5d8f9fa3ddc2ab23c1718cd8f01e4f8f0f87b6dbcacbed56520c89134decb681
+readable:phase3_summary,PASS,INFO,Readable; rows/slides=7; sha256=49f378aabd81681f731c44bd62a6ed142fbf720951404911fbd1b10c264b353b
+readable:phase3_examples,PASS,INFO,Readable; rows/slides=6502; sha256=8adc61070b79e4cd93add2a66683cec2ee4f07121f9c911c17ace6a969a1cbdb
+readable:phase3_audit,PASS,INFO,Readable; rows/slides=4; sha256=f0076defd9065b7d539b582d5bbd8cd246a540c0bea59d534222108ab273f15c
+readable:phase3_manifest,PASS,INFO,Readable; rows/slides=1; sha256=c407c0e174f4125871758166b105396976c65763e590de46d2cf2572df6786fa
+readable:phase4_metrics,PASS,INFO,Readable; rows/slides=6; sha256=195d257811fa8925b582fd0ef58d768c6b0ad223a9b2b57c0f6226a2ca0722b8
+readable:phase4_oof,PASS,INFO,Readable; rows/slides=0; sha256=c90bcf47f968d6fe49e519b278f4a6b160e1c1a2b0129c184d4af6d613d8a8e0
+readable:phase4_coefficients,PASS,INFO,Readable; rows/slides=0; sha256=013c76ef383941642ecd4b2e64687a92c4597a8966d733fff6704732c6252fa6
+readable:phase4_findings,PASS,INFO,Readable; rows/slides=5; sha256=30339ec8c1c232249eb1d1246ec1150c623db0b7d97bfbcab42c2ff879ccc898
+readable:phase4_audit,PASS,INFO,Readable; rows/slides=16; sha256=e2f9b8d8f8fba73ccb99e72521111ab0302d2f3e084d2f9bc015af77422b1988
+readable:phase4_manifest,PASS,INFO,Readable; rows/slides=1; sha256=b1ca10038e32dbf09506522bbd83410b3328fa1d8c6c26d28d1d71e5221175e3
+readable:phase5_monthly_representation,PASS,INFO,Readable; rows/slides=6; sha256=b59204904836bb4c26ee330ba4d117a5f12689c19b59129ca3cd3e6f81ad6067
+readable:phase5_monthly_outcomes,PASS,INFO,Readable; rows/slides=6; sha256=f9020f5d115fe57d9c22af39d71f67fead2122f860719e96d2894b4dd845514e
+readable:phase5_lags,PASS,INFO,Readable; rows/slides=252; sha256=048e254beb1a86b0ab49c866ac936d29e9a51c5005977068adde47b2e4f48327
+readable:phase5_roles,PASS,INFO,Readable; rows/slides=40; sha256=8c74c9095bdcff2c5115ac6e88c4db79177412711600ec2db04640444e63e056
+readable:phase5_summary,PASS,INFO,Readable; rows/slides=9; sha256=4e8aefd13bca44cb40d41e52b73128c8ef13eadfd4a0baad926b8f70098d1011
+readable:phase5_audit,PASS,INFO,Readable; rows/slides=12; sha256=3e52e75ffe290325e2d2cec373beb6f57646d480df11986dd216bd89775e5f1e
+readable:phase5_manifest,PASS,INFO,Readable; rows/slides=1; sha256=60aff7428fd9346011b852d53cb8ad4cce7b3a3c834e1895f82c2482706967f2
+readable:phase6_outcomes,PASS,INFO,Readable; rows/slides=3; sha256=86c514434496129e59d01531e5a4ed460452f9477c2401ccff4597074d54b8c2
+readable:phase6_period,PASS,INFO,Readable; rows/slides=6; sha256=bb56ce8bb217154261dce447e07a3c6c87a7eaf0339cd80073400a203d155cde
+readable:phase6_research,PASS,INFO,Readable; rows/slides=3; sha256=8c20a998ad531a6314054a15b6e0e368f11f540ca8c245ef204e7a947d9d181b
+readable:phase6_fellowship,PASS,INFO,Readable; rows/slides=3; sha256=04a501a2284968e289a6c4407ce7aae07b5bd8ac3dca69439cc63f06f657ebc8
+readable:phase6_metrics,PASS,INFO,Readable; rows/slides=1; sha256=36172acad8923a38e1b79677f819072bfac1679a98c6feeefd9027250a768d91
+readable:phase6_manifest,PASS,INFO,Readable; rows/slides=1; sha256=9c8c96f43fbd603114e2acfaec8132b7d4b39f5c3b4ba467b2f167b17cfa8452
+readable:phase7_summary,PASS,INFO,Readable; rows/slides=1; sha256=5f0462196081804c93a2d3ebd0a73180357e75663d7730913746c240f6a3a0fe
+readable:phase7_outcomes,PASS,INFO,Readable; rows/slides=3; sha256=2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba
+readable:phase7_signals,PASS,INFO,Readable; rows/slides=8; sha256=9f665d872dff3bd82c0ec28b554e8e6510aa018edcb9bf73eb74c3276cbfcc32
+readable:phase7_prediction,PASS,INFO,Readable; rows/slides=6; sha256=383ed1c3da0367bf51eb87ac260c880b79229703a10793b67f42bdef5d9d9245
+readable:phase7_feedback,PASS,INFO,Readable; rows/slides=292; sha256=f4dd75f199e912bede10bd6f16e209c3dae1139aceafebc3e366c079a65dfc02
+readable:phase7_limitations,PASS,INFO,Readable; rows/slides=8; sha256=bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d
+readable:phase7_evidence,PASS,INFO,Readable; rows/slides=8; sha256=f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28
+readable:phase7_validation,PASS,INFO,Readable; rows/slides=1; sha256=d838babe5c63f95668179406b8df33e4a5a8b99237a56c2470fa4953d3177a56
+readable:phase7_audit,PASS,INFO,Readable; rows/slides=23; sha256=5d14db1096b6ade40576f8c9d88b6809fa56165657a2d6bd3464baea01ad97b0
+readable:phase7_manifest,PASS,INFO,Readable; rows/slides=1; sha256=99b871225f7e0d36f08c46a826865af2d433f49c8c9466a1f0b5a88f7781da25
+readable:phase8_manifest,PASS,INFO,Readable; rows/slides=1; sha256=2c35299de156cb95e44cec1bed03d194402feecf1ed2501c43841947aff6e317
+readable:phase8_audit,PASS,INFO,Readable; rows/slides=24; sha256=2b4baa2f4b253246e63cf78ba0e0058f1ed90b41aebb8b17492244fe13511d32
+readable:phase8_outcome_data,PASS,INFO,Readable; rows/slides=6; sha256=5c2362b025b2846b1af98a2c80dba550b508d03aab38bab30e29671d6efe2470
+readable:phase8_evidence_data,PASS,INFO,Readable; rows/slides=8; sha256=f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28
+readable:phase8_gap_data,PASS,INFO,Readable; rows/slides=8; sha256=bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d
+readable:phase9_markdown,PASS,INFO,Readable; rows/slides=1; sha256=de3c692a6bc1f360a1a4e1fa9024b91118357307fe17a026a3c713fd518d84de
+readable:phase9_html,PASS,INFO,Readable; rows/slides=1; sha256=d38da7196e7c52245fc54883af3b2c2e5c54878e053716e1ff755ed37183816f
+readable:phase9_manifest,PASS,INFO,Readable; rows/slides=1; sha256=1b0aa0c3d4eea08d724103462eadfd568b35eb4142b6c8ffb542baafb2ebe888
+readable:phase9_audit,PASS,INFO,Readable; rows/slides=29; sha256=313e27a53933a99bd0007e151b193c51840e411c7feec019d6f1832dc6510f05
+readable:phase10_presentation,PASS,INFO,Readable; rows/slides=12; sha256=dd3a1b9740355177bfa34ea9c2760d21e053a2bda4a6bd68cda170768f8791c2
+readable:phase10_outline,PASS,INFO,Readable; rows/slides=1; sha256=8c7f290bea4bf708c1363f24ea75d8b6b6b11efc2f09ea538eb769c1ee3a015e
+readable:phase10_manifest,PASS,INFO,Readable; rows/slides=1; sha256=486b0d28a314f3a7fe8fa59bc494f4007a49da5835c8f4d27555aaba3c6e335d
+readable:phase10_audit,PASS,INFO,Readable; rows/slides=30; sha256=c1d566cb30c41ebbb2da6d22072cff1e83a472246c60a1e589e9ae6001c28e55
+readable:phase11_script,PASS,INFO,Readable; rows/slides=1; sha256=3275f6a7714113cb6819985fbab021b7e3e579041b0829fe81577d9f410c6aea
+readable:visual:01_observed_outcomes.png,PASS,INFO,PNG present and non-empty.
+readable:visual:02_known_sex_outcomes.png,PASS,INFO,PNG present and non-empty.
+readable:visual:03_research_outcomes.png,PASS,INFO,PNG present and non-empty.
+readable:visual:04_evidence_architecture.png,PASS,INFO,PNG present and non-empty.
+readable:visual:05_data_gaps.png,PASS,INFO,PNG present and non-empty.
+readable:visual:06_executive_evidence_map.png,PASS,INFO,PNG present and non-empty.
+manifest_hashes:phase2_manifest,PASS,INFO,Verified 3 locally resolvable output/audit hashes; mismatches=[].
+manifest_hashes:phase3_manifest,PASS,INFO,Verified 0 locally resolvable output/audit hashes; mismatches=[].
+manifest_hashes:phase4_manifest,PASS,INFO,Verified 9 locally resolvable output/audit hashes; mismatches=[].
+manifest_hashes:phase5_manifest,PASS,INFO,Verified 6 locally resolvable output/audit hashes; mismatches=[].
+manifest_hashes:phase6_manifest,PASS,INFO,Verified 6 locally resolvable output/audit hashes; mismatches=[].
+manifest_hashes:phase7_manifest,PASS,INFO,Verified 8 locally resolvable output/audit hashes; mismatches=[].
+manifest_hashes:phase8_manifest,PASS,INFO,Verified 1 locally resolvable output/audit hashes; mismatches=[].
+manifest_hashes:phase9_manifest,PASS,INFO,Verified 3 locally resolvable output/audit hashes; mismatches=[].
+manifest_hashes:phase10_manifest,PASS,INFO,Verified 3 locally resolvable output/audit hashes; mismatches=[].
+canonical_outcome_counts,PASS,INFO,"Source-derived={'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}; rows=1095; expected={'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}, N=1095."
+unique_person_ids,PASS,INFO,"Rows=1095, distinct PERSON_ID=1095."
+sex_mapping_no_inference,PASS,INFO,source_SEX-derived labels and sex_inferred=False mismatches=0.
+unknown_denominator,PASS,INFO,Known M/F=882; Unknown=213; Unknown excluded from M/F share.
+schema:phase2_master,PASS,INFO,Missing columns=[]; available=57.
+schema:phase2_hiring,PASS,INFO,Missing columns=[]; available=9.
+schema:phase2_bridge,PASS,INFO,Missing columns=[]; available=10.
+schema:phase3_features,PASS,INFO,Missing columns=[]; available=83.
+schema:phase4_metrics,PASS,INFO,Missing columns=[]; available=15.
+schema:phase5_lags,PASS,INFO,Missing columns=[]; available=12.
+temporal_date_class_counts,PASS,INFO,"Date classes={'ARCHIVE_CAPTURE_ONLY': 617, 'GREENHOUSE_POSTING_DATE': 514, 'POSTING_DATE_OUTSIDE_WINDOW': 115}; expected={'GREENHOUSE_POSTING_DATE': 514, 'ARCHIVE_CAPTURE_ONLY': 617, 'POSTING_DATE_OUTSIDE_WINDOW': 115}."
+archive_capture_not_posting_date,PASS,INFO,Archive-only records with posting-date fields populated=0.
+observed_start_coverage,PASS,INFO,"Observed=['2026-04', '2026-05', '2026-06', '2026-07']; unavailable=['2026-08', '2026-09']; absent months are not treated as zero."
+phase4_outputs_present_and_state_consistent,PASS,INFO,Phase 4 manifest=NOT_ESTIMABLE; metric rows=6; no fitted model is expected because matched-cell gate failed.
+phase4_estimation_limitation,WARNING,LIMITATION,"Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable."
+phase5_outputs_present,PASS,INFO,Phase 5 summary status=COMPLETE_WITH_COVERAGE_LIMITS; rows=9.
+phase5_coverage_limitation,WARNING,LIMITATION,"Observed start coverage ['2026-04', '2026-05', '2026-06', '2026-07']; +2 month comparison is deferred by small n."
+candidate_linkage_integrity,PASS,INFO,No phase claims individual Greenhouse posting-to-hire linkage.
+archive_date_integrity,PASS,INFO,Archive capture timestamps remain distinct from posting dates.
+sex_inference_integrity,PASS,INFO,Source SEX is preserved; no inference is permitted.
+predictive_output_leakage_schema,PASS,INFO,Potential forbidden person/sex input columns in OOF schema=[]; group outcome fields are permitted as outputs only.
+phase4_insufficient_sample_stop_rule,PASS,INFO,Phase 4 code contains an explicit cell/class sufficiency gate.
+executive_causal_claim_screen,PASS,INFO,Unsupported causal sentences found=[].
+claim_trace:canonical_outcomes,PASS,INFO,"Supporting artifacts present=True; sources=['outputs/executive_summary.json', 'outputs/dashboard_outcome_distribution.csv']."
+claim_trace:known_sex_shares,PASS,INFO,"Supporting artifacts present=True; sources=['outputs/executive_summary.json', 'outputs/dashboard_outcome_distribution.csv']."
+claim_trace:prediction_status,PASS,INFO,"Supporting artifacts present=True; sources=['audit/predictive_model_run_manifest.json', 'outputs/dashboard_predictive_findings.csv']."
+claim_trace:feedback_coverage,PASS,INFO,"Supporting artifacts present=True; sources=['audit/feedback_run_manifest.json', 'outputs/dashboard_limitations.csv']."
+claim_trace:no_individual_linkage,PASS,INFO,"Supporting artifacts present=True; sources=['audit/version_c_run_manifest.json', 'outputs/executive_brief.md']."
+presentation_slide_claim_inventory,PASS,INFO,Deck slide count=12; expected=12; each slide has a source map in presentation script.
+licensing_publication_boundary,WARNING,EXTERNAL_RELEASE_REVIEW,"No machine-verifiable source-data license/permission evidence was found in the package. Review Greenhouse, archive, Dewey/PDL, and third-party text terms before external release."
+privacy_external_release_review,WARNING,EXTERNAL_RELEASE_REVIEW,"Before publication, review personal names/examples, source terms, privacy, and redistribution permissions; this package audit is not legal clearance."
+brief_presentation_counts_consistent,PASS,INFO,"Phase 9 counts={'FEMALE': 276, 'MALE': 606, 'UNKNOWN': 213}; Phase 10 counts={'FEMALE': 276, 'MALE': 606, 'UNKNOWN': 213}."
+required_internal_data_gaps,PASS,INFO,Missing data-gap concepts=[].
+phase7_9_10_status_chain,PASS,INFO,Phase 7 validation=PASS; Phase 9=PASS; Phase 10=PASS.

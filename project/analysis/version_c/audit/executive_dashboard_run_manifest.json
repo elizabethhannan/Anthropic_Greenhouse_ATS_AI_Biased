@@ -1,0 +1,146 @@
+{
+  "audit": {
+    "path": "audit/executive_dashboard_audit.csv",
+    "readback_verified": true,
+    "rows": 23,
+    "sha256": "5d14db1096b6ade40576f8c9d88b6809fa56165657a2d6bd3464baea01ad97b0"
+  },
+  "created_at_utc": "2026-09-30T08:10:38.294507+00:00",
+  "design_guards": {
+    "archive_capture_as_posting_date": false,
+    "candidate_level_linkage": false,
+    "causality_claimed": false,
+    "phase4_findings_invented": false,
+    "source_layers_modified": false,
+    "unknown_kept_separate": true
+  },
+  "inputs": {
+    "feedback_lags": {
+      "available": true,
+      "bytes": 77415,
+      "path": "outputs/lagged_associations.csv",
+      "sha256": "048e254beb1a86b0ab49c866ac936d29e9a51c5005977068adde47b2e4f48327"
+    },
+    "feedback_manifest": {
+      "available": true,
+      "bytes": 3402,
+      "path": "audit/feedback_run_manifest.json",
+      "sha256": "60aff7428fd9346011b852d53cb8ad4cce7b3a3c834e1895f82c2482706967f2"
+    },
+    "feedback_roles": {
+      "available": true,
+      "bytes": 12647,
+      "path": "outputs/role_feedback_associations.csv",
+      "sha256": "8c74c9095bdcff2c5115ac6e88c4db79177412711600ec2db04640444e63e056"
+    },
+    "feedback_summary": {
+      "available": true,
+      "bytes": 943,
+      "path": "outputs/feedback_summary.csv",
+      "sha256": "4e8aefd13bca44cb40d41e52b73128c8ef13eadfd4a0baad926b8f70098d1011"
+    },
+    "hiring_source": {
+      "available": true,
+      "bytes": 151838,
+      "path": "outputs/version_c_hiring_outcomes.parquet",
+      "sha256": "91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249"
+    },
+    "outcome_distribution": {
+      "available": true,
+      "bytes": 412,
+      "path": "outputs/outcome_distribution.csv",
+      "sha256": "86c514434496129e59d01531e5a4ed460452f9477c2401ccff4597074d54b8c2"
+    },
+    "outcome_metrics": {
+      "available": true,
+      "bytes": 1852,
+      "path": "outputs/executive_outcome_metrics.json",
+      "sha256": "36172acad8923a38e1b79677f819072bfac1679a98c6feeefd9027250a768d91"
+    },
+    "outcome_quality": {
+      "available": true,
+      "bytes": 1283,
+      "path": "outputs/outcome_quality_summary.csv",
+      "sha256": "d2a1fbfddbee575377d258995cf5f65f9af3ef02936e15bafc7b9d6a6cec4c4d"
+    },
+    "predictive_manifest": {
+      "available": true,
+      "bytes": 4648,
+      "path": "audit/predictive_model_run_manifest.json",
+      "sha256": "b1ca10038e32dbf09506522bbd83410b3328fa1d8c6c26d28d1d71e5221175e3"
+    },
+    "predictive_metrics": {
+      "available": true,
+      "bytes": 1805,
+      "path": "outputs/predictive_model_metrics.csv",
+      "sha256": "195d257811fa8925b582fd0ef58d768c6b0ad223a9b2b57c0f6226a2ca0722b8"
+    },
+    "signal_manifest": {
+      "available": true,
+      "bytes": 5746,
+      "path": "audit/signal_run_manifest.json",
+      "sha256": "c407c0e174f4125871758166b105396976c65763e590de46d2cf2572df6786fa"
+    },
+    "signal_summary": {
+      "available": true,
+      "bytes": 3043,
+      "path": "outputs/signal_summary.csv",
+      "sha256": "49f378aabd81681f731c44bd62a6ed142fbf720951404911fbd1b10c264b353b"
+    }
+  },
+  "manifest_type": "version_c_phase_7_executive_dashboard_consolidation",
+  "outcome_counts": {
+    "FEMALE": 276,
+    "MALE": 606,
+    "UNKNOWN": 213,
+    "known_sex": 882
+  },
+  "outputs": {
+    "dashboard_evidence_map.csv": {
+      "path": "outputs/dashboard_evidence_map.csv",
+      "readback_verified": true,
+      "rows": 8,
+      "sha256": "f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28"
+    },
+    "dashboard_feedback_findings.csv": {
+      "path": "outputs/dashboard_feedback_findings.csv",
+      "readback_verified": true,
+      "rows": 292,
+      "sha256": "f4dd75f199e912bede10bd6f16e209c3dae1139aceafebc3e366c079a65dfc02"
+    },
+    "dashboard_limitations.csv": {
+      "path": "outputs/dashboard_limitations.csv",
+      "readback_verified": true,
+      "rows": 8,
+      "sha256": "bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d"
+    },
+    "dashboard_outcome_distribution.csv": {
+      "path": "outputs/dashboard_outcome_distribution.csv",
+      "readback_verified": true,
+      "rows": 3,
+      "sha256": "2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba"
+    },
+    "dashboard_predictive_findings.csv": {
+      "path": "outputs/dashboard_predictive_findings.csv",
+      "readback_verified": true,
+      "rows": 6,
+      "sha256": "383ed1c3da0367bf51eb87ac260c880b79229703a10793b67f42bdef5d9d9245"
+    },
+    "dashboard_signal_findings.csv": {
+      "path": "outputs/dashboard_signal_findings.csv",
+      "readback_verified": true,
+      "rows": 8,
+      "sha256": "9f665d872dff3bd82c0ec28b554e8e6510aa018edcb9bf73eb74c3276cbfcc32"
+    },
+    "executive_summary.json": {
+      "path": "outputs/executive_summary.json",
+      "readback_verified": true,
+      "rows": 1,
+      "sha256": "5f0462196081804c93a2d3ebd0a73180357e75663d7730913746c240f6a3a0fe"
+    }
+  },
+  "study_window": {
+    "end": "2026-09-30",
+    "start": "2026-04-01"
+  }
+}

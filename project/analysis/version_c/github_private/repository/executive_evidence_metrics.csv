@@ -1,0 +1,46 @@
+evidence_key,value
+version,Version C — Version 3.0
+study_window,2026-04-01 through 2026-09-30
+executive_question,WHAT IS DRIVING THE GENDER DISPARITY IN THE AI-ASSISTED EMPLOYMENT SYSTEM — AND WHO SHOULD OWN FIXING IT?
+observed_outcomes.male,606
+observed_outcomes.female,276
+observed_outcomes.unknown,213
+observed_outcomes.total,1095
+observed_outcomes.known_sex_n,882
+observed_outcomes.male_share_known,0.6870748299319728
+observed_outcomes.female_share_known,0.3129251700680272
+observed_outcomes.male_female_ratio,2.1956521739130435
+greenhouse_postings.all_postings,1246
+greenhouse_postings.established_dates_in_window,514
+greenhouse_postings.archive_capture_only,617
+greenhouse_postings.outside_window,115
+research_classified_outcomes.male,19
+research_classified_outcomes.female,8
+research_classified_outcomes.unknown,13
+research_classified_outcomes.total,40
+research_classified_outcomes.population,"Observed research-hire subset; distinct subset, not additive to overall observed outcomes."
+diagnostics.signal,OBSERVABLE
+diagnostics.prediction,NOT ESTIMABLE FROM PUBLIC DATA
+diagnostics.feedback,EXPLORATORY
+estimability.eligible_matched_role_month_cells,3
+estimability.male_outcome_cells,3
+estimability.female_outcome_cells,0
+estimability.model_fit_performed,False
+estimability.selection_rates,NOT ESTIMABLE FROM PUBLIC DATA
+estimability.adverse_impact,NOT ESTIMABLE FROM PUBLIC DATA
+feedback_coverage.status,COMPLETE_WITH_COVERAGE_LIMITS
+feedback_coverage.hiring_observed_coverage,2026-04 through 2026-07
+feedback_coverage.note,3
+executive_proposition,Human-AI Employment Intelligence & Governance
+interpretation_boundary,Observed representation disparity in available public data; does not establish that Greenhouse caused the disparity or locate its origin within the employment system.
+controls.sex_inference,False
+controls.unknown_collapsed,False
+controls.candidate_level_greenhouse_linkage,False
+controls.synthetic_candidates,False
+controls.greenhouse_causal_claim,False
+controls.plan_a_modified,False
+publication_status,HOLD / REVIEW REQUIRED
+github_repository_destination,https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased
+github_publish_performed,False
+source_artifacts_read_only,True
+generated_at_utc,2026-10-01T21:07:22.348264+00:00

@@ -1,0 +1,6 @@
+check,status,details
+Repository staging directory exists,PASS,
+No credential patterns detected,PASS,
+No dangerous file extensions,PASS,
+Private mode policy documented,PASS,
+Hash inventory covers all staged files,PASS,

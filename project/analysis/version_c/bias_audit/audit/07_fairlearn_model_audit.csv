@@ -1,0 +1,5 @@
+check,status
+No fairness metric run,PASS
+No sex inference,PASS
+Unknown retained,PASS
+No fabricated candidates,PASS

@@ -1,0 +1,61 @@
+{
+  "status": "PASS_WITH_GAPS",
+  "dashboard_sha256": "56510d49294f7e2a033febd9a0ef07ed3b6d51cd0d5474accf06a7ebd1af5f46",
+  "checks": [
+    {
+      "check": "canonical_counts_present",
+      "status": "PASS",
+      "detail": "{'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}"
+    },
+    {
+      "check": "known_sex_metrics_present",
+      "status": "PASS",
+      "detail": "Known-sex shares and ratio are stated."
+    },
+    {
+      "check": "prediction_not_estimable",
+      "status": "PASS",
+      "detail": "Public prediction boundary appears in dashboard."
+    },
+    {
+      "check": "unknown_retained",
+      "status": "PASS",
+      "detail": "Unknown category is explicitly retained."
+    },
+    {
+      "check": "causal_boundary",
+      "status": "PASS",
+      "detail": "No Greenhouse causal claim is presented."
+    },
+    {
+      "check": "workflow_gap_present",
+      "status": "PASS",
+      "detail": "Internal evidence need is represented."
+    },
+    {
+      "check": "publication_hold",
+      "status": "PASS",
+      "detail": "Publication hold is visible."
+    },
+    {
+      "check": "standalone_no_external_assets",
+      "status": "PASS",
+      "detail": "No remote JavaScript or stylesheet dependency."
+    },
+    {
+      "check": "prior_audit_gaps_disclosed",
+      "status": "PASS",
+      "detail": "missing_prior_steps=['04_statistical_significance.py', '05_logistic_selection_model.py', '06_gradient_boosting_audit.py', '07_fairlearn_model_audit.py']"
+    }
+  ],
+  "check_count": 9,
+  "failures": 0,
+  "missing_prior_audit_steps": [
+    "04_statistical_significance.py",
+    "05_logistic_selection_model.py",
+    "06_gradient_boosting_audit.py",
+    "07_fairlearn_model_audit.py"
+  ],
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "generated_at_utc": "2026-10-01T18:25:20.122202+00:00"
+}

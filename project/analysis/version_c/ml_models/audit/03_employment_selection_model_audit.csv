@@ -1,0 +1,3 @@
+check,status,detail
+public_aggregate_gate,NOT_ESTIMABLE,Public aggregate modeling remains blocked: NOT_ESTIMABLE_FROM_PUBLIC_DATA.
+internal_candidate_data,NOT_PROVIDED,Expected future input: /Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/ml_models/inputs/internal_candidate_stage_training_data.parquet

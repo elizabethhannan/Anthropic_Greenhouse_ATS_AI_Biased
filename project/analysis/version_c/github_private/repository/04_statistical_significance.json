@@ -1,0 +1,21 @@
+{
+  "status": "DESCRIPTIVE_COMPOSITION_TEST_COMPLETED",
+  "null_hypothesis": "Male/Female observed composition is 50/50 among records with known sex",
+  "male": 606,
+  "female": 276,
+  "unknown": 213,
+  "total": 1095,
+  "known_sex_n": 882,
+  "male_share_known": 0.6870748299319728,
+  "female_share_known": 0.3129251700680272,
+  "male_share_wilson_95_ci": [
+    0.6557181948782054,
+    0.7168089618878861
+  ],
+  "two_sided_exact_binomial_p_value": 3.5494097372230893e-29,
+  "scope": "Descriptive composition only; no adverse-impact, applicant selection, model bias, or causal inference.",
+  "unknown_handling": "Unknown retained separately and excluded from the Male/Female composition denominator.",
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false,
+  "generated_at_utc": "2026-10-01T21:07:02.970976+00:00"
+}

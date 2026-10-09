@@ -1,0 +1,15 @@
+item,specification
+model,Gradient Boosting Classifier
+target,selected
+unit,candidate/application-stage observation
+fit_performed,False
+required_input,candidate_id
+required_input,application_id
+required_input,job_id
+required_input,stage
+required_input,stage_outcome
+required_input,selected
+required_input,source-provided sex for audit only
+planned_output,cross-validated performance
+planned_output,permutation feature importance
+planned_output,comparison with logistic regression

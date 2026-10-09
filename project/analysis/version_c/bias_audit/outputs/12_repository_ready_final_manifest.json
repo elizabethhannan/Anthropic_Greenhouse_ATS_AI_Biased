@@ -1,0 +1,101 @@
+{
+  "artifact": "Version C \u2014 final executive evidence bundle",
+  "status": "PASS_WITH_GAPS",
+  "generated_at_utc": "2026-10-01T18:25:35.019848+00:00",
+  "repository_destination_metadata": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false,
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "licensing_cleared": false,
+  "privacy_cleared": false,
+  "final_dashboard_validation_status": "PASS_WITH_GAPS",
+  "missing_prior_audit_steps": [
+    "04_statistical_significance.py",
+    "05_logistic_selection_model.py",
+    "06_gradient_boosting_audit.py",
+    "07_fairlearn_model_audit.py"
+  ],
+  "missing_final_artifacts": [],
+  "hash_inventory": [
+    {
+      "path": "bias_audit/08_human_ai_workflow_audit.py",
+      "size_bytes": 4514,
+      "sha256": "4824fe3652e618bdfa6d7fafc746c9af213b7c9ebb241944698cfbd6f57a82af"
+    },
+    {
+      "path": "bias_audit/09_executive_evidence_consolidation.py",
+      "size_bytes": 6204,
+      "sha256": "3c6df14eecb335edb7456db86d24be38fa28103c814630a9c31e01d9ddf78d38"
+    },
+    {
+      "path": "bias_audit/10_build_final_d3_dashboard.py",
+      "size_bytes": 7310,
+      "sha256": "44373450ecf772e207cf18751485665b02d70f77ad78e38ebebe303bec918758"
+    },
+    {
+      "path": "bias_audit/11_validate_final_d3_dashboard.py",
+      "size_bytes": 3392,
+      "sha256": "6d94aa1325892229ce3147884407df7667367a498df009576930ef4a2046a00e"
+    },
+    {
+      "path": "bias_audit/12_repository_ready_final_manifest.py",
+      "size_bytes": 4229,
+      "sha256": "20a65b49b054eb54d798af32c3b9d20c6269cb38459dd488dda6c21cc1287f4a"
+    },
+    {
+      "path": "bias_audit/outputs/08_human_ai_workflow_evidence_map.csv",
+      "size_bytes": 1113,
+      "sha256": "dbcb0e655bab65c0e66a30011008a2a83798e653ac00dd2901caf354820e5d3e"
+    },
+    {
+      "path": "bias_audit/outputs/08_human_ai_workflow_audit_status.json",
+      "size_bytes": 591,
+      "sha256": "91c71b07078b8138f9d88d9d47de8bc9f4d8cd9a00bd0b92cc7142a3e186fe05"
+    },
+    {
+      "path": "bias_audit/outputs/09_executive_evidence_consolidation.json",
+      "size_bytes": 2595,
+      "sha256": "b81505202b83a09abd95b17d8482c140966737cff8d4716547e942ce36ffedd1"
+    },
+    {
+      "path": "bias_audit/outputs/09_executive_evidence_consolidation.csv",
+      "size_bytes": 883,
+      "sha256": "ceae78b4ef8012cd1e9e111f9c9147672f148c03677498947650eb9ff7fd7e6d"
+    },
+    {
+      "path": "bias_audit/outputs/10_final_d3_executive_dashboard.html",
+      "size_bytes": 6777,
+      "sha256": "56510d49294f7e2a033febd9a0ef07ed3b6d51cd0d5474accf06a7ebd1af5f46"
+    },
+    {
+      "path": "bias_audit/outputs/11_final_dashboard_validation.json",
+      "size_bytes": 1815,
+      "sha256": "ac6a2206b7275242264ef61464abd420c589e86adcd5ed4f5ba7cea9b1b4c03f"
+    },
+    {
+      "path": "bias_audit/audit/11_final_dashboard_validation.csv",
+      "size_bytes": 766,
+      "sha256": "a9868d8e29ed1013ca37724e75ffd43883b2d2548dfb915cde2342b3fda8f13a"
+    },
+    {
+      "path": "bias_audit/audit/08_human_ai_workflow_audit.csv",
+      "size_bytes": 199,
+      "sha256": "d7350a46e9e091a1d0820362961a5d7c4037eed7d9e2925e6fba01e58ffa9c16"
+    },
+    {
+      "path": "bias_audit/audit/09_executive_evidence_consolidation_audit.csv",
+      "size_bytes": 287,
+      "sha256": "3121566af6a11a7cc06b5047d70d06faa52841a82f69dd9cc3fb6d6302ae2e90"
+    },
+    {
+      "path": "bias_audit/audit/11_final_dashboard_validation.csv",
+      "size_bytes": 766,
+      "sha256": "a9868d8e29ed1013ca37724e75ffd43883b2d2548dfb915cde2342b3fda8f13a"
+    }
+  ],
+  "hash_inventory_count": 15,
+  "audit_csv": {
+    "path": "bias_audit/audit/12_repository_ready_final_manifest_audit.csv",
+    "sha256": "2dd41d0183d19d3074c7962196d54601b9d5d2f8006c0898b4cdf601ec31c49f"
+  },
+  "final_scope_note": "This is a local integrity manifest, not a GitHub publication package or legal/privacy certification."
+}

@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "checks_total": 21,
+  "failures": 0,
+  "readme": "Scheduled for Step 17; final release gate checks its presence.",
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "checks": [
+    {
+      "check": "Required artifact: final_executive_dashboard_d3.html",
+      "status": "PASS"
+    },
+    {
+      "check": "Required artifact: final_executive_dashboard_d3_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Required artifact: VERSION_C_3_0_EXECUTIVE_BRIEF.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Required artifact: VERSION_C_3_0_EXECUTIVE_PRESENTATION.html",
+      "status": "PASS"
+    },
+    {
+      "check": "Required artifact: executive_evidence_v3.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Required artifact: executive_evidence_metrics.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Required artifact: 08_human_ai_workflow_evidence_map.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Required artifact: PACKAGE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "check": "606 present",
+      "status": "PASS"
+    },
+    {
+      "check": "276 present",
+      "status": "PASS"
+    },
+    {
+      "check": "213 present",
+      "status": "PASS"
+    },
+    {
+      "check": "1095 present",
+      "status": "PASS"
+    },
+    {
+      "check": "2.20 ratio present",
+      "status": "PASS"
+    },
+    {
+      "check": "Observable present",
+      "status": "PASS"
+    },
+    {
+      "check": "Not estimable present",
+      "status": "PASS"
+    },
+    {
+      "check": "Exploratory present",
+      "status": "PASS"
+    },
+    {
+      "check": "Unknown not collapsed",
+      "status": "PASS"
+    },
+    {
+      "check": "No causal claim",
+      "status": "PASS"
+    },
+    {
+      "check": "Publication hold present",
+      "status": "PASS"
+    },
+    {
+      "check": "Package manifest hashes reconcile",
+      "status": "PASS"
+    },
+    {
+      "check": "README scheduled for following step",
+      "status": "PASS"
+    }
+  ]
+}

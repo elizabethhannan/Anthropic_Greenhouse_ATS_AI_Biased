@@ -1,0 +1,5 @@
+check,status
+No model fit,PASS
+Protected attribute excluded from predictors,PASS
+No synthetic candidates,PASS
+Gate preserved,PASS

@@ -1,0 +1,38 @@
+{
+  "artifact": "Version C gated employment-selection model runner",
+  "created_at_utc": "2026-10-01T17:31:52.008862+00:00",
+  "architecture_status": "PASS",
+  "model_fit_performed": false,
+  "public_aggregate_gate": "NOT_ESTIMABLE_FROM_PUBLIC_DATA",
+  "internal_data_present": false,
+  "internal_input_sha256": null,
+  "outputs": {
+    "status": {
+      "path": "ml_models/outputs/03_employment_selection_model_status.json",
+      "sha256": "d51d92b661b0357eefe811f1eb6774b7207c3fa4645418a75f8be1e842853130"
+    },
+    "feature_contract": {
+      "path": "ml_models/outputs/03_internal_model_feature_contract.json",
+      "sha256": "e4244b208a26102728a75e72315616d19288944a705422769b950da7f0eec49b"
+    },
+    "metrics": {
+      "path": "ml_models/outputs/03_model_cv_metrics.csv",
+      "sha256": "28b897b8341795004f4fdbd81e40a2053bcccb5fa791571558a1ae3431174edb"
+    },
+    "logistic_coefficients": {
+      "path": "ml_models/outputs/03_logistic_coefficients.csv",
+      "sha256": "2032ecc50e97cdc3ac329320dab1b944173862bdfb9d7d2cb64d0367d4a2855f"
+    },
+    "gradient_boosting_importance": {
+      "path": "ml_models/outputs/03_gradient_boosting_permutation_importance.csv",
+      "sha256": "d2bc18c3224d2274271a217f3b9e9be582522e98d0c5cf207c5aae99e0cf6e52"
+    },
+    "audit": {
+      "path": "ml_models/audit/03_employment_selection_model_audit.csv",
+      "sha256": "dd11fb8da0941acbe72c046bd40645e474efa337235255944ddd888ce987ed65"
+    }
+  },
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false,
+  "candidate_rows_or_predictions_exported": false
+}

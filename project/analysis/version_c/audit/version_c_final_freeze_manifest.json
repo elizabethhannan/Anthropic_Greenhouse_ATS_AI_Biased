@@ -1,0 +1,328 @@
+{
+  "analytical_boundaries": [
+    "Unknown remains a separate outcome class and is excluded from known-sex shares.",
+    "No sex is inferred from names, titles, pronouns, or other attributes.",
+    "No candidate-level Greenhouse posting-to-hire linkage is claimed.",
+    "Archive capture dates are not treated as posting dates.",
+    "Phase 4 is not estimable with three eligible exact role-month cells; all three contain Male outcomes and none contains Female outcomes, so grouped cross-validation cannot be supported.",
+    "Phase 5 is exploratory with four observed start months, two unavailable months, and five exact role-month overlaps.",
+    "No causal effect or internal Greenhouse workflow treatment is established."
+  ],
+  "artifact_inventory": {
+    "phase2_bridge": {
+      "bytes": 4091,
+      "exists": true,
+      "path": "outputs/version_c_role_month_bridge.parquet",
+      "row_count": 41,
+      "sha256": "48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108"
+    },
+    "phase2_hiring": {
+      "bytes": 151838,
+      "exists": true,
+      "path": "outputs/version_c_hiring_outcomes.parquet",
+      "row_count": 1095,
+      "sha256": "91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249"
+    },
+    "phase2_manifest": {
+      "bytes": 4057,
+      "exists": true,
+      "path": "audit/version_c_run_manifest.json",
+      "row_count": 1,
+      "sha256": "1f639a290bacaadf8ad1abd579995c8c185f55e8f5f3b2ef55f82f93aa339ff2"
+    },
+    "phase2_master": {
+      "bytes": 1895163,
+      "exists": true,
+      "path": "outputs/version_c_master.parquet",
+      "row_count": 1246,
+      "sha256": "5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d"
+    },
+    "phase3_examples": {
+      "bytes": 2686128,
+      "exists": true,
+      "path": "outputs/signal_examples.csv",
+      "row_count": 6502,
+      "sha256": "8adc61070b79e4cd93add2a66683cec2ee4f07121f9c911c17ace6a969a1cbdb"
+    },
+    "phase3_features": {
+      "bytes": 1923962,
+      "exists": true,
+      "path": "outputs/signal_features.parquet",
+      "row_count": 1246,
+      "sha256": "5d8f9fa3ddc2ab23c1718cd8f01e4f8f0f87b6dbcacbed56520c89134decb681"
+    },
+    "phase3_manifest": {
+      "bytes": 5746,
+      "exists": true,
+      "path": "audit/signal_run_manifest.json",
+      "row_count": 1,
+      "sha256": "c407c0e174f4125871758166b105396976c65763e590de46d2cf2572df6786fa"
+    },
+    "phase3_summary": {
+      "bytes": 3043,
+      "exists": true,
+      "path": "outputs/signal_summary.csv",
+      "row_count": 7,
+      "sha256": "49f378aabd81681f731c44bd62a6ed142fbf720951404911fbd1b10c264b353b"
+    },
+    "phase4_agreement": {
+      "bytes": 93,
+      "exists": true,
+      "path": "outputs/predictive_model_agreement.csv",
+      "row_count": 0,
+      "sha256": "956150e31bb1b509fe2a338942ad3da5c2c4e2e6b01efc1f6536d41437d162fb"
+    },
+    "phase4_audit": {
+      "bytes": 1824,
+      "exists": true,
+      "path": "audit/predictive_model_audit.csv",
+      "row_count": 16,
+      "sha256": "e2f9b8d8f8fba73ccb99e72521111ab0302d2f3e084d2f9bc015af77422b1988"
+    },
+    "phase4_coefficients": {
+      "bytes": 59,
+      "exists": true,
+      "path": "outputs/predictive_coefficients.csv",
+      "row_count": 0,
+      "sha256": "013c76ef383941642ecd4b2e64687a92c4597a8966d733fff6704732c6252fa6"
+    },
+    "phase4_findings": {
+      "bytes": 625,
+      "exists": true,
+      "path": "outputs/predictive_findings.csv",
+      "row_count": 5,
+      "sha256": "30339ec8c1c232249eb1d1246ec1150c623db0b7d97bfbcab42c2ff879ccc898"
+    },
+    "phase4_manifest": {
+      "bytes": 4648,
+      "exists": true,
+      "path": "audit/predictive_model_run_manifest.json",
+      "row_count": 1,
+      "sha256": "b1ca10038e32dbf09506522bbd83410b3328fa1d8c6c26d28d1d71e5221175e3"
+    },
+    "phase4_metrics": {
+      "bytes": 1805,
+      "exists": true,
+      "path": "outputs/predictive_model_metrics.csv",
+      "row_count": 6,
+      "sha256": "195d257811fa8925b582fd0ef58d768c6b0ad223a9b2b57c0f6226a2ca0722b8"
+    },
+    "phase4_oof": {
+      "bytes": 142,
+      "exists": true,
+      "path": "outputs/predictive_oof_predictions.csv",
+      "row_count": 0,
+      "sha256": "c90bcf47f968d6fe49e519b278f4a6b160e1c1a2b0129c184d4af6d613d8a8e0"
+    },
+    "phase4_permutation": {
+      "bytes": 70,
+      "exists": true,
+      "path": "outputs/predictive_permutation_importance.csv",
+      "row_count": 0,
+      "sha256": "f721bb161bfb370df835290904b620e3e332e164357cd824b0e19b19bec1ca36"
+    },
+    "phase4_sensitivity": {
+      "bytes": 175,
+      "exists": true,
+      "path": "outputs/predictive_sensitivity.csv",
+      "row_count": 0,
+      "sha256": "75188ddb5ee4f84c66515d30b2f3e56ff4070dadc5ebee7b53cd97d1f69c9537"
+    },
+    "phase4_stability": {
+      "bytes": 96,
+      "exists": true,
+      "path": "outputs/predictive_feature_stability.csv",
+      "row_count": 0,
+      "sha256": "200fe726cd05fae6fe87955b96efcaad07590915eba08debd0166fa48bae6ee4"
+    },
+    "phase5_lags": {
+      "bytes": 77415,
+      "exists": true,
+      "path": "outputs/lagged_associations.csv",
+      "row_count": 252,
+      "sha256": "048e254beb1a86b0ab49c866ac936d29e9a51c5005977068adde47b2e4f48327"
+    },
+    "phase5_manifest": {
+      "bytes": 3402,
+      "exists": true,
+      "path": "audit/feedback_run_manifest.json",
+      "row_count": 1,
+      "sha256": "60aff7428fd9346011b852d53cb8ad4cce7b3a3c834e1895f82c2482706967f2"
+    },
+    "phase5_outcomes": {
+      "bytes": 985,
+      "exists": true,
+      "path": "outputs/monthly_outcomes.csv",
+      "row_count": 6,
+      "sha256": "f9020f5d115fe57d9c22af39d71f67fead2122f860719e96d2894b4dd845514e"
+    },
+    "phase5_representation": {
+      "bytes": 1901,
+      "exists": true,
+      "path": "outputs/monthly_representation.csv",
+      "row_count": 6,
+      "sha256": "b59204904836bb4c26ee330ba4d117a5f12689c19b59129ca3cd3e6f81ad6067"
+    },
+    "phase5_roles": {
+      "bytes": 12647,
+      "exists": true,
+      "path": "outputs/role_feedback_associations.csv",
+      "row_count": 40,
+      "sha256": "8c74c9095bdcff2c5115ac6e88c4db79177412711600ec2db04640444e63e056"
+    },
+    "phase5_summary": {
+      "bytes": 943,
+      "exists": true,
+      "path": "outputs/feedback_summary.csv",
+      "row_count": 9,
+      "sha256": "4e8aefd13bca44cb40d41e52b73128c8ef13eadfd4a0baad926b8f70098d1011"
+    },
+    "phase6_distribution": {
+      "bytes": 412,
+      "exists": true,
+      "path": "outputs/outcome_distribution.csv",
+      "row_count": 3,
+      "sha256": "86c514434496129e59d01531e5a4ed460452f9477c2401ccff4597074d54b8c2"
+    },
+    "phase6_fellowship": {
+      "bytes": 378,
+      "exists": true,
+      "path": "outputs/fellowship_outcome_distribution.csv",
+      "row_count": 3,
+      "sha256": "04a501a2284968e289a6c4407ce7aae07b5bd8ac3dca69439cc63f06f657ebc8"
+    },
+    "phase6_manifest": {
+      "bytes": 2417,
+      "exists": true,
+      "path": "audit/outcome_analysis_manifest.json",
+      "row_count": 1,
+      "sha256": "9c8c96f43fbd603114e2acfaec8132b7d4b39f5c3b4ba467b2f167b17cfa8452"
+    },
+    "phase6_metrics": {
+      "bytes": 1852,
+      "exists": true,
+      "path": "outputs/executive_outcome_metrics.json",
+      "row_count": 1,
+      "sha256": "36172acad8923a38e1b79677f819072bfac1679a98c6feeefd9027250a768d91"
+    },
+    "phase6_period": {
+      "bytes": 862,
+      "exists": true,
+      "path": "outputs/outcome_by_period.csv",
+      "row_count": 6,
+      "sha256": "bb56ce8bb217154261dce447e07a3c6c87a7eaf0339cd80073400a203d155cde"
+    },
+    "phase6_quality": {
+      "bytes": 1283,
+      "exists": true,
+      "path": "outputs/outcome_quality_summary.csv",
+      "row_count": 16,
+      "sha256": "d2a1fbfddbee575377d258995cf5f65f9af3ef02936e15bafc7b9d6a6cec4c4d"
+    },
+    "phase6_research": {
+      "bytes": 368,
+      "exists": true,
+      "path": "outputs/research_outcome_distribution.csv",
+      "row_count": 3,
+      "sha256": "8c20a998ad531a6314054a15b6e0e368f11f540ca8c245ef204e7a947d9d181b"
+    },
+    "phase7_evidence": {
+      "bytes": 2075,
+      "exists": true,
+      "path": "outputs/dashboard_evidence_map.csv",
+      "row_count": 8,
+      "sha256": "f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28"
+    },
+    "phase7_feedback": {
+      "bytes": 89537,
+      "exists": true,
+      "path": "outputs/dashboard_feedback_findings.csv",
+      "row_count": 292,
+      "sha256": "f4dd75f199e912bede10bd6f16e209c3dae1139aceafebc3e366c079a65dfc02"
+    },
+    "phase7_limitations": {
+      "bytes": 1437,
+      "exists": true,
+      "path": "outputs/dashboard_limitations.csv",
+      "row_count": 8,
+      "sha256": "bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d"
+    },
+    "phase7_manifest": {
+      "bytes": 4999,
+      "exists": true,
+      "path": "audit/executive_dashboard_run_manifest.json",
+      "row_count": 1,
+      "sha256": "99b871225f7e0d36f08c46a826865af2d433f49c8c9466a1f0b5a88f7781da25"
+    },
+    "phase7_outcomes": {
+      "bytes": 407,
+      "exists": true,
+      "path": "outputs/dashboard_outcome_distribution.csv",
+      "row_count": 3,
+      "sha256": "2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba"
+    },
+    "phase7_prediction": {
+      "bytes": 2269,
+      "exists": true,
+      "path": "outputs/dashboard_predictive_findings.csv",
+      "row_count": 6,
+      "sha256": "383ed1c3da0367bf51eb87ac260c880b79229703a10793b67f42bdef5d9d9245"
+    },
+    "phase7_signals": {
+      "bytes": 1767,
+      "exists": true,
+      "path": "outputs/dashboard_signal_findings.csv",
+      "row_count": 8,
+      "sha256": "9f665d872dff3bd82c0ec28b554e8e6510aa018edcb9bf73eb74c3276cbfcc32"
+    },
+    "phase7_summary": {
+      "bytes": 3536,
+      "exists": true,
+      "path": "outputs/executive_summary.json",
+      "row_count": 1,
+      "sha256": "5f0462196081804c93a2d3ebd0a73180357e75663d7730913746c240f6a3a0fe"
+    },
+    "phase7_validation": {
+      "bytes": 2950,
+      "exists": true,
+      "path": "audit/executive_dashboard_validation.csv",
+      "row_count": 23,
+      "sha256": "c1c9bee6be1fe56f6b6d8a533c00b34b84688d8b6853a83edf3cc58f846ef6d8"
+    },
+    "phase7_validation_json": {
+      "bytes": 471,
+      "exists": true,
+      "path": "audit/executive_dashboard_validation.json",
+      "row_count": 1,
+      "sha256": "d838babe5c63f95668179406b8df33e4a5a8b99237a56c2470fa4953d3177a56"
+    }
+  },
+  "created_at_utc": "2026-09-30T08:12:05.688468+00:00",
+  "executive_review_readiness": "STRUCTURALLY_VALID \u2014 ANALYTICAL PIPELINE INCOMPLETE",
+  "frozen_outcome_counts": {
+    "FEMALE": 276,
+    "MALE": 606,
+    "UNKNOWN": 213,
+    "distinct_people": 1095,
+    "known_sex": 882
+  },
+  "manifest_type": "version_c_final_freeze_manifest",
+  "new_phase8_outputs": {
+    "version_c_final_audit.csv": {
+      "path": "audit/version_c_final_audit.csv",
+      "rows": 97,
+      "sha256": "d41b42ddaa4cf2ad13c94963fa265abf6c0141c6ba9e82cdc4a58b6e79f0acb1"
+    },
+    "version_c_final_audit.json": {
+      "checks": 97,
+      "path": "audit/version_c_final_audit.json",
+      "sha256": "c41ec148f4810c2671d9f656b70865f18cd0b7b5ca8ed8859b3964ddea55e113"
+    }
+  },
+  "overall_status": "PASS_WITH_LIMITATIONS",
+  "source_layers_modified": false,
+  "study_window": {
+    "end": "2026-09-30",
+    "start": "2026-04-01"
+  }
+}

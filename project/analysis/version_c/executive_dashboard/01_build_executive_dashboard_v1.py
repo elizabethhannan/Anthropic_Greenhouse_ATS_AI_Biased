@@ -1,0 +1,65 @@
+"""Build a self-contained Executive Dashboard v1.0 from frozen aggregates."""
+from __future__ import annotations
+import csv, html
+from datetime import datetime, timezone
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parents[1]
+OUT = BASE / "outputs"
+OUTPUT = OUT / "executive_dashboard_v1.html"
+
+def read_csv(name):
+    with (OUT / name).open(newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+def esc(value): return html.escape(str(value))
+
+def main():
+    outcomes = read_csv("dashboard_outcome_distribution.csv")
+    signals = read_csv("dashboard_signal_findings.csv")
+    feedback = read_csv("dashboard_feedback_findings.csv")
+    limitations = read_csv("dashboard_limitations.csv")
+    counts = {r["outcome_sex"]: int(r["person_count"]) for r in outcomes}
+    total = sum(counts.values())
+    male_pct = counts["MALE"] / (counts["MALE"] + counts["FEMALE"]) * 100
+    female_pct = counts["FEMALE"] / (counts["MALE"] + counts["FEMALE"]) * 100
+    ratio = counts["MALE"] / counts["FEMALE"]
+    signal_text = "Public candidate-facing posting signals are observable and measured; this describes posting content, not individual hiring decisions."
+    feedback_text = "Exploratory role/month associations only. Observed starts cover April–July 2026; August and September are unavailable, not zero."
+    def findings_text(rows):
+        joined = " ".join(" ".join(r.values()) for r in rows).lower()
+        return joined
+    if signals: signal_text = "Candidate-facing public recruiting signals are observable in the posting corpus; no posting-to-person link is claimed."
+    if feedback: feedback_text = "Exploratory aggregate feedback evidence only; temporal and role/month coverage is limited. August and September observed starts are unavailable, not zero."
+    cards = "".join(f'<div class="metric"><span>{label}</span><strong>{counts[key]:,}</strong></div>' for label,key in [("MALE","MALE"),("FEMALE","FEMALE"),("UNKNOWN","UNKNOWN")])
+    limitation_items = "".join(f"<li><b>{esc(r.get('limitation','Research boundary'))}</b> {esc(r.get('detail', next(iter(r.values()),'')))}</li>" for r in limitations[:6])
+    html_doc = f'''<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Version C executive review dashboard summarizing public recruiting signals, observed outcomes, and evidence limitations.">
+<title>Version C | Executive Evidence Review</title>
+<style>
+:root{{--ink:#162b3a;--muted:#536777;--paper:#f3f6f8;--card:#fff;--line:#d9e2e8;--blue:#245b7a;--teal:#168b83;--gold:#bd8121;--red:#9e3c3c}}
+*{{box-sizing:border-box}}body{{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}}main{{max-width:1180px;margin:auto;padding:38px 28px 64px}}.eyebrow{{font-size:.8rem;font-weight:750;letter-spacing:.13em;color:var(--blue);text-transform:uppercase}}h1{{font-size:clamp(2rem,4.4vw,3.6rem);line-height:1.08;max-width:1020px;margin:.7rem 0 1.2rem;letter-spacing:-.035em}}h2{{font-size:1.3rem;margin:0 0 16px}}p{{margin:.4rem 0;color:var(--muted)}}.status{{display:inline-block;background:#fff4d8;border:1px solid #e9ce91;color:#684710;border-radius:999px;padding:7px 13px;font-size:.82rem;font-weight:750}}.review{{float:right;color:var(--muted);font-size:.82rem}}.panel{{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;margin-top:22px;box-shadow:0 5px 20px #19364a0a}}.hero{{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:center}}.metrics{{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}}.metric{{background:#f5f8fa;border:1px solid var(--line);border-radius:12px;padding:16px}}.metric span{{display:block;color:var(--muted);font-size:.8rem;font-weight:700;letter-spacing:.08em}}.metric strong{{font-size:2rem}}.composition{{height:18px;border-radius:20px;overflow:hidden;background:#dfe6eb;margin:14px 0 8px;display:flex}}.male{{background:var(--blue);width:{male_pct:.2f}%}}.female{{background:#d39b49;width:{female_pct:.2f}%}}.legend{{font-size:.9rem}}.ratio{{font-size:1.6rem;font-weight:800;color:var(--blue)}}.caveat{{background:#fff7e8;border-left:4px solid var(--gold);padding:14px 16px;border-radius:4px;color:#59451f;margin-top:18px}}.pillars{{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}}.pillar{{border-top:5px solid var(--blue)}}.pillar:nth-child(2){{border-color:var(--gold)}}.pillar:nth-child(3){{border-color:var(--teal)}}.pillar .state{{font-size:1.2rem;font-weight:800;margin:3px 0 8px}}.equation{{text-align:center;font-size:clamp(1.3rem,3vw,2.3rem);font-weight:850;letter-spacing:-.025em;padding:22px 8px;color:var(--blue)}}.note{{font-size:.88rem}}ul{{padding-left:20px;color:var(--muted)}}li{{margin:8px 0}}footer{{margin-top:24px;color:var(--muted);font-size:.8rem;border-top:1px solid var(--line);padding-top:16px}}@media(max-width:760px){{main{{padding:24px 16px}}.hero,.pillars{{grid-template-columns:1fr}}.review{{float:none;display:block;margin:10px 0}}}}
+</style></head><body><main>
+<div class="eyebrow">Version C · Executive evidence review <span class="review">READY TO SHARE — EXECUTIVE REVIEW · CONTROLLED REVIEW COPY</span></div>
+<h1>Can Greenhouse AI be trusted to produce equitable recruiting outcomes — not just pass a model-level bias audit?</h1>
+<span class="status">PUBLICATION STATUS: HOLD / REVIEW REQUIRED</span>
+<section class="panel hero" aria-labelledby="outcomes"><div><h2 id="outcomes">Observed hiring environment</h2><p>{total:,} observed people in the available public-data outcome set</p><div class="metrics">{cards}</div></div>
+<div><h2>Known-sex composition</h2><div class="composition" role="img" aria-label="Among known-sex observed records, {male_pct:.1f}% male and {female_pct:.1f}% female"><div class="male"></div><div class="female"></div></div><p class="legend">{male_pct:.1f}% MALE <span style="color:#8a641f">●</span> &nbsp; {female_pct:.1f}% FEMALE</p><div class="ratio">{ratio:.2f} : 1 observed MALE/FEMALE ratio</div><p class="note">Known-sex denominator: {counts['MALE']+counts['FEMALE']:,}. UNKNOWN is retained separately.</p></div></section>
+<div class="caveat"><b>Interpretation:</b> This is an observed outcome disparity in the available public data. It does not establish that Greenhouse caused the disparity, and it is not a complete candidate funnel.</div>
+<section class="panel"><h2>Three diagnostic pillars</h2><div class="pillars"><article class="panel pillar"><div class="eyebrow">SIGNAL</div><div class="state">OBSERVABLE</div><p>What does the candidate see?</p><p>{esc(signal_text)}</p></article><article class="panel pillar"><div class="eyebrow">PREDICTION</div><div class="state">NOT ESTIMABLE FROM PUBLIC DATA</div><p>What can observable recruiting signals predict about aggregate outcome composition?</p><p>Only 3 exact role/month cells meet the current matching definition; 0 cells contain female outcomes. No defensible grouped cross-validated model is available.</p></article><article class="panel pillar"><div class="eyebrow">FEEDBACK</div><div class="state">EXPLORATORY</div><p>Does recruiting representation move with observed outcomes?</p><p>{esc(feedback_text)}</p></article></div></section>
+<section class="panel"><div class="equation">MODEL FAIRNESS ≠ WORKFLOW FAIRNESS ≠ OUTCOME FAIRNESS</div><p class="note">Public postings and aggregate outcomes cannot show internal recommendations, recruiter overrides, applicant-stage transitions, or interview evaluations. Those records are needed to audit the human-AI workflow.</p></section>
+<section class="panel"><h2>Evidence boundaries</h2><ul>{limitation_items}<li>Unknown demographic values remain UNKNOWN; no name-based or proxy-based sex inference is used.</li><li>No candidate-level Greenhouse-to-person or posting-to-hire linkage is claimed.</li><li>Publication and redistribution require licensing and privacy review.</li></ul></section>
+<footer>Version C frozen aggregate outputs · Generated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} · Standalone HTML; no external scripts, fonts, or network requests. Controlled executive review copy only; not cleared for public redistribution.</footer>
+</main></body></html>'''
+    OUT.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(html_doc, encoding="utf-8")
+    print("EXECUTIVE DASHBOARD V1.0 BUILT")
+    print(f"Output: {OUTPUT}")
+    print(f"Outcome counts: MALE {counts['MALE']}; FEMALE {counts['FEMALE']}; UNKNOWN {counts['UNKNOWN']}; N={total}")
+    print(f"Known-sex composition: {male_pct:.2f}% / {female_pct:.2f}% · ratio {ratio:.2f}:1")
+    print("Prediction: NOT ESTIMABLE FROM PUBLIC DATA")
+    print("Publication status: HOLD / REVIEW REQUIRED")
+    return 0
+
+if __name__ == "__main__": raise SystemExit(main())

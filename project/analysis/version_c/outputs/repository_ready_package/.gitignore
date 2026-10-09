@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environments and IDE
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and local files
+.env
+.env.*
+*.pem
+*.key
+*.log
+*.tmp
+*.temp
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local source data
+raw/
+source_data/
+private_data/
+local_data/

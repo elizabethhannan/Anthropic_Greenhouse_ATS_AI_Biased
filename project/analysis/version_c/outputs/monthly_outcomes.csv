@@ -1,0 +1,7 @@
+month,outcome_coverage,distinct_people_observed,observed_male_count,observed_female_count,observed_unknown_count,male_share_known_sex,female_share_known_sex,unknown_share_all,known_sex_count,research_hire_people,research_male_count,research_female_count,research_unknown_count,research_male_share_known_sex,research_female_share_known_sex,research_unknown_share_all
+2026-04,OBSERVED_STARTS,342,178,86,78,0.6742424242424242,0.32575757575757575,0.22807017543859648,264,4,2,0,2,1.0,0.0,0.5
+2026-05,OBSERVED_STARTS,339,190,82,67,0.6985294117647058,0.3014705882352941,0.1976401179941003,272,23,9,6,8,0.6,0.4,0.34782608695652173
+2026-06,OBSERVED_STARTS,318,188,79,51,0.704119850187266,0.2958801498127341,0.16037735849056603,267,10,6,2,2,0.75,0.25,0.2
+2026-07,OBSERVED_STARTS,98,50,31,17,0.6172839506172839,0.38271604938271603,0.17346938775510204,81,3,2,0,1,1.0,0.0,0.3333333333333333
+2026-08,NO_OBSERVED_START_COVERAGE,,,,,,,,,,,,,,,
+2026-09,NO_OBSERVED_START_COVERAGE,,,,,,,,,,,,,,,

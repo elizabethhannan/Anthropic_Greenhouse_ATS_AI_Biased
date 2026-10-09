@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tag": "version-c-v3.0-locked",
+  "tag_commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "head_commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "tag_created_in_this_run": false,
+  "tag_pushed": true,
+  "repository_private": true,
+  "frozen_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "generated_at_utc": "2026-10-02T01:08:12.935248+00:00"
+}

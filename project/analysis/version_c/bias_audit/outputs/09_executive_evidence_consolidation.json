@@ -1,0 +1,80 @@
+{
+  "status": "PASS_WITH_GAPS",
+  "generated_at_utc": "2026-10-01T18:25:19.834958+00:00",
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false,
+  "observed_outcomes": {
+    "MALE": 606,
+    "FEMALE": 276,
+    "UNKNOWN": 213
+  },
+  "total": 1095,
+  "known_sex_percentages": {
+    "male": 68.71,
+    "female": 31.29
+  },
+  "male_female_ratio": 2.2,
+  "evidence_layers": [
+    {
+      "layer": "OUTCOME",
+      "status": "OBSERVED",
+      "finding": "606 MALE / 276 FEMALE / 213 UNKNOWN; N=1095",
+      "limitation": "Descriptive observed outcome composition; not a complete hiring funnel."
+    },
+    {
+      "layer": "SIGNAL",
+      "status": "OBSERVABLE",
+      "finding": "1246 public posting records summarized",
+      "limitation": "Posting text is not individual treatment evidence."
+    },
+    {
+      "layer": "PREDICTION",
+      "status": "NOT_ESTIMABLE",
+      "finding": "Prediction is NOT ESTIMABLE FROM PUBLIC DATA",
+      "limitation": "Only 3 exact eligible role/month cells; 0 cells with female outcomes."
+    },
+    {
+      "layer": "FEEDBACK",
+      "status": "EXPLORATORY",
+      "finding": "Exploratory aggregate role/month associations",
+      "limitation": "Coverage-limited; August and September observed starts unavailable, not zero."
+    },
+    {
+      "layer": "WORKFLOW",
+      "status": "DATA GAP",
+      "finding": "8 internal workflow stages mapped",
+      "limitation": "Internal AI, recruiter, funnel, interview, employment, and advancement evidence is not public."
+    },
+    {
+      "layer": "ADVERSE IMPACT",
+      "status": "NOT ESTIMABLE FROM PUBLIC DATA",
+      "finding": "Selection-rate denominators are absent",
+      "limitation": "No applicant or stage-specific demographic denominators; no 4/5ths rate computed."
+    }
+  ],
+  "missing_audit_steps": [
+    "04_statistical_significance.py",
+    "05_logistic_selection_model.py",
+    "06_gradient_boosting_audit.py",
+    "07_fairlearn_model_audit.py"
+  ],
+  "limitations_rows": 8,
+  "checks": [
+    {
+      "check": "canonical_outcomes",
+      "status": "PASS",
+      "detail": "{\"FEMALE\": 276, \"MALE\": 606, \"UNKNOWN\": 213}"
+    },
+    {
+      "check": "prediction_limit_preserved",
+      "status": "PASS",
+      "detail": "Phase 4 status=NOT_ESTIMABLE"
+    },
+    {
+      "check": "no_internal_steps_misrepresented",
+      "status": "PASS",
+      "detail": "Missing implementation artifacts are explicitly enumerated; not reported as completed."
+    }
+  ],
+  "publication_status": "HOLD / REVIEW REQUIRED"
+}

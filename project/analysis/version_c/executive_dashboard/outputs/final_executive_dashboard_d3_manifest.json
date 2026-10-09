@@ -1,0 +1,13 @@
+{
+  "status": "BUILT_FROM_CONSOLIDATED_FROZEN_EVIDENCE",
+  "dashboard": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/executive_dashboard/outputs/final_executive_dashboard_d3.html",
+  "evidence_file": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/executive_dashboard/outputs/executive_evidence_v3.json",
+  "dashboard_sha256": "3d541748acb03478ac56fea472af0d212c7fb4d5c8944d49ea987370648fb8b6",
+  "evidence_sha256": "4c438c2e475c8e88079ed2a2fb4b35fed43cff642c7d6f61b9deec0ec7f1ba4e",
+  "d3_external_dependency": "https://d3js.org/d3.v7.min.js",
+  "external_network_required_for_charts": true,
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false,
+  "generated_at_utc": "2026-10-01T21:07:22.472460+00:00"
+}

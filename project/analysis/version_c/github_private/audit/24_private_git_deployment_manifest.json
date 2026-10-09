@@ -1,0 +1,45 @@
+{
+  "artifact": "Private GitHub Deployment Plan",
+  "generated_utc": "2026-10-01T22:16:53.350245+00:00",
+  "github_repository": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "git_remote": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "required_visibility": "PRIVATE",
+  "repository_visibility_independently_verified": false,
+  "frozen_source_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "results_locked": true,
+  "canonical_results": {
+    "male": 606,
+    "female": 276,
+    "unknown": 213,
+    "total": 1095,
+    "male_female_ratio": "2.20:1"
+  },
+  "analytical_status": {
+    "signal": "OBSERVABLE",
+    "prediction": "NOT ESTIMABLE FROM PUBLIC DATA",
+    "feedback": "EXPLORATORY"
+  },
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "git_commands_executed": false,
+  "github_push_performed": false,
+  "predeployment_checks": {
+    "step19_security_pass": true,
+    "step20_frozen_integrity_pass": true,
+    "step22_pre_push_qa_pass": true,
+    "zero_secret_findings": true,
+    "zero_dangerous_files": true,
+    "frozen_fingerprint_unchanged": true,
+    "repository_visibility_private": false
+  },
+  "deployment_ready": false,
+  "deployment_commands": [
+    "cd \"/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/repository\"",
+    "git init -b main",
+    "git add --all",
+    "git diff --cached --check",
+    "git status --short",
+    "git commit -m \"Add Version C controlled research package\"",
+    "git remote add origin \"https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased\"",
+    "git push -u origin main"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "expected_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "saved_baseline_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "recomputed_baseline_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "file_set_match": true,
+  "expected_file_count": 18,
+  "actual_file_count": 18,
+  "hash_mismatches": [],
+  "baseline_path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/audit/17_final_integrity_manifest.json",
+  "package_path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/final_evidence_package"
+}

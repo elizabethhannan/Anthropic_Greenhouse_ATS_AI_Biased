@@ -1,0 +1,10 @@
+item,value,interpretation
+status,COMPLETE_WITH_COVERAGE_LIMITS,Descriptive ecological diagnostic only.
+posting_records_with_established_dates,514,Only GREENHOUSE_POSTING_DATE records in April-September 2026 were included.
+hiring_observed_coverage,2026-04 through 2026-07,"August/September are unavailable in this observed-start snapshot, not zero hires."
+question_A_forward_1_sample_months,3,At most three posting-to-next-month pairs are observable; interpret correlations as exploratory.
+question_A_forward_2_sample_months,2; deferred by minimum n=3,Two-month-forward comparisons have fewer than three observed pairs.
+question_B_exact_role_month_cells,5,Exact posting-role/month and hiring-role/month overlaps; aggregate only.
+candidate_level_linkage,False,No individual applicant/hire-to-posting linkage.
+sex_inference,False,Sex labels come only from preserved source outcome labels.
+causality,False,No causal effect is estimated.

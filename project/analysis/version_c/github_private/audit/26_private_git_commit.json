@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "repository_path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/repository",
+  "branch": "main",
+  "commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "tree": "d9a288003ddfcfdea32b69471804efdec57d1c05",
+  "remote_url": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased.git",
+  "frozen_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "worktree_clean": true,
+  "git_push_performed": false,
+  "github_push_performed": false,
+  "generated_at_utc": "2026-10-02T01:07:55.165640+00:00"
+}

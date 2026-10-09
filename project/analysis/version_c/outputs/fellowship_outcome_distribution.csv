@@ -1,0 +1,4 @@
+population,outcome_sex,person_count,share_all_people,share_known_sex,denominator_all_people,denominator_known_sex,source_field,sex_inferred
+observed_fellowship_hires,MALE,14,0.4375,0.6363636363636364,32,22,source_SEX,False
+observed_fellowship_hires,FEMALE,8,0.25,0.36363636363636365,32,22,source_SEX,False
+observed_fellowship_hires,UNKNOWN,10,0.3125,,32,22,source_SEX,False

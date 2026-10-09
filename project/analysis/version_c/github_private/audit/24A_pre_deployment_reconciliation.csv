@@ -1,0 +1,22 @@
+check,status,detail
+step22_scored_assertion_count_is_13,PASS,
+step22_assertions_all_pass,PASS,
+step23_index_files_exist_outside_staged_repository,PASS,
+staged_repository_has_19_files,PASS,
+no_unexpected_or_missing_staged_files,PASS,
+staged_hashes_match_step19_security_manifest,PASS,
+frozen_package_matches_expected_fingerprint,PASS,
+Step 22: Step 19 security scan passed,PASS,Recorded assertion
+Step 22: Step 20 frozen integrity passed,PASS,Recorded assertion
+Step 22: Staged file set matches Step 19 hash baseline,PASS,Recorded assertion
+Step 22: Staged content hashes match Step 19 baseline,PASS,Recorded assertion
+Step 22: No secret patterns detected,PASS,Recorded assertion
+Step 22: No dangerous file extensions,PASS,Recorded assertion
+Step 22: Canonical Male/Female/Unknown/total present,PASS,Recorded assertion
+Step 22: Known-sex ratio preserved,PASS,Recorded assertion
+Step 22: Signal status preserved,PASS,Recorded assertion
+Step 22: Prediction gate preserved,PASS,Recorded assertion
+Step 22: Feedback status preserved,PASS,Recorded assertion
+Step 22: Publication hold preserved,PASS,Recorded assertion
+Step 22: Security policy included,PASS,Recorded assertion
+Step 22: GitHub visibility independently verified,NOT VERIFIED,Separate external gate; Step 25 must query GitHub.

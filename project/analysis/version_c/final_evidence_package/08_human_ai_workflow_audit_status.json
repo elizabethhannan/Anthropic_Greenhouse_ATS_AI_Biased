@@ -1,0 +1,14 @@
+{
+  "status": "WORKFLOW_AUDIT_ARCHITECTURE_READY",
+  "stages": 8,
+  "all_current_public_status": "DATA GAP",
+  "interpretation": "Public data do not expose the internal workflow evidence needed to locate the origin of observed disparities.",
+  "causal_claim": false,
+  "greenhouse_causal_claim": false,
+  "sex_inference": false,
+  "candidate_level_linkage": false,
+  "synthetic_candidates": false,
+  "github_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false,
+  "generated_at_utc": "2026-10-01T21:07:02.773703+00:00"
+}

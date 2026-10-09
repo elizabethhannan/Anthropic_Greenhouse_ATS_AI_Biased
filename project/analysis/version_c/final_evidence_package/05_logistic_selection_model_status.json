@@ -1,0 +1,33 @@
+{
+  "status": "ARCHITECTURE_READY_MODEL_NOT_FIT",
+  "model": "Logistic Regression",
+  "unit": "candidate/application-stage observation",
+  "target": "selected (binary stage outcome)",
+  "protected_attribute": "source-provided sex; audit-only, never a predictor",
+  "required_fields": [
+    "candidate_id",
+    "application_id",
+    "job_id",
+    "application_timestamp",
+    "stage",
+    "stage_outcome",
+    "selected",
+    "sex"
+  ],
+  "candidate_features_contract": [
+    "job_family",
+    "seniority",
+    "location",
+    "source_channel",
+    "experience_band",
+    "stage_elapsed_time"
+  ],
+  "public_data_gate": "NOT_ESTIMABLE_FROM_PUBLIC_DATA",
+  "fit_performed": false,
+  "reason": "Public aggregate role/month data contain 3 eligible cells and no Female-positive outcome cells; candidate-stage outcomes and denominators are absent.",
+  "sex_inference": false,
+  "synthetic_candidates": false,
+  "candidate_linkage_fabricated": false,
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false
+}

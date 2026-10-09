@@ -1,0 +1,104 @@
+{
+  "audit": {
+    "path": "audit/feedback_audit.csv",
+    "rows": 12,
+    "sha256": "3e52e75ffe290325e2d2cec373beb6f57646d480df11986dd216bd89775e5f1e"
+  },
+  "counts": {
+    "established_date_postings": 514,
+    "exact_role_month_overlap_cells": 5,
+    "monthly_outcome_rows": 6,
+    "monthly_representation_rows": 6,
+    "observed_start_months": [
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07"
+    ],
+    "unobserved_outcome_months": [
+      "2026-08",
+      "2026-09"
+    ]
+  },
+  "created_at_utc": "2026-09-30T05:34:28.874729+00:00",
+  "inputs": {
+    "bridge": {
+      "path": "outputs/version_c_role_month_bridge.parquet",
+      "rows": 41,
+      "sha256": "48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108"
+    },
+    "hiring": {
+      "path": "outputs/version_c_hiring_outcomes.parquet",
+      "rows": 1095,
+      "sha256": "91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249"
+    },
+    "master": {
+      "path": "outputs/version_c_master.parquet",
+      "rows": 1246,
+      "sha256": "5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d"
+    },
+    "signals": {
+      "path": "outputs/signal_features.parquet",
+      "rows": 1246,
+      "sha256": "5d8f9fa3ddc2ab23c1718cd8f01e4f8f0f87b6dbcacbed56520c89134decb681"
+    }
+  },
+  "limitations": [
+    "Observed hire start-month coverage is April-July 2026; August and September are unavailable, not zero.",
+    "Six study months yield at most three observed +1-month pairs and two +2-month pairs.",
+    "Role-month overlap is sparse and exact family matching may omit nonmatching labels.",
+    "Temporal co-movement does not identify a posting-to-hire pathway or causal effect."
+  ],
+  "manifest_type": "version_c_phase_5_feedback_diagnostic",
+  "method": {
+    "archive_capture_as_posting_date": false,
+    "candidate_level_linkage": false,
+    "causality": false,
+    "correlations": [
+      "Pearson",
+      "Spearman"
+    ],
+    "lags_months": [
+      0,
+      1,
+      2
+    ],
+    "minimum_pair_count": 3,
+    "p_values": false,
+    "phase_2_phase_3_phase_4_modified": false,
+    "role_family_matching": "exact label match",
+    "unknown_sex": "reported separately, excluded from known-sex denominators"
+  },
+  "outputs": {
+    "feedback_summary.csv": {
+      "path": "outputs/feedback_summary.csv",
+      "readback_verified": true,
+      "row_count": 9,
+      "sha256": "4e8aefd13bca44cb40d41e52b73128c8ef13eadfd4a0baad926b8f70098d1011"
+    },
+    "lagged_associations.csv": {
+      "path": "outputs/lagged_associations.csv",
+      "readback_verified": true,
+      "row_count": 252,
+      "sha256": "048e254beb1a86b0ab49c866ac936d29e9a51c5005977068adde47b2e4f48327"
+    },
+    "monthly_outcomes.csv": {
+      "path": "outputs/monthly_outcomes.csv",
+      "readback_verified": true,
+      "row_count": 6,
+      "sha256": "f9020f5d115fe57d9c22af39d71f67fead2122f860719e96d2894b4dd845514e"
+    },
+    "monthly_representation.csv": {
+      "path": "outputs/monthly_representation.csv",
+      "readback_verified": true,
+      "row_count": 6,
+      "sha256": "b59204904836bb4c26ee330ba4d117a5f12689c19b59129ca3cd3e6f81ad6067"
+    },
+    "role_feedback_associations.csv": {
+      "path": "outputs/role_feedback_associations.csv",
+      "readback_verified": true,
+      "row_count": 40,
+      "sha256": "8c74c9095bdcff2c5115ac6e88c4db79177412711600ec2db04640444e63e056"
+    }
+  }
+}

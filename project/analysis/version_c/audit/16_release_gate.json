@@ -1,0 +1,17 @@
+{
+  "package_complete": true,
+  "readme_content_valid": true,
+  "package_manifest_reconciles": true,
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "github_publish_performed": false,
+  "licensing_review": "REQUIRED",
+  "privacy_review": "REQUIRED",
+  "source_permission_review": "REQUIRED",
+  "missing_files": [],
+  "readme_missing_phrases": [],
+  "manifest_hash_failures": [],
+  "results_locked": true,
+  "github_repository": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "publication_approved": false,
+  "reason": "This script cannot grant legal, privacy, or source redistribution clearance."
+}

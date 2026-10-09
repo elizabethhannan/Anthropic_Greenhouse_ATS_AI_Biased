@@ -1,0 +1,9 @@
+finding,posting_count,descriptions_available,named_person_mentions,researcher_reference_count,publication_paper_reference_count,research_exemplar_count,evidence_strength,interpretation,source
+all_postings,1246,704,15,8461,162,5,DESCRIPTIVE_CORPUS_MEASURE,"Lexical/representation measurement only; not evidence of bias, preference, intent, or discrimination.",Phase 3 signal_summary.csv
+date_evidence:ARCHIVE_CAPTURE_ONLY,617,75,0,301,26,0,DESCRIPTIVE_CORPUS_MEASURE,"Lexical/representation measurement only; not evidence of bias, preference, intent, or discrimination.",Phase 3 signal_summary.csv
+date_evidence:GREENHOUSE_POSTING_DATE,514,514,11,6515,109,1,DESCRIPTIVE_CORPUS_MEASURE,"Lexical/representation measurement only; not evidence of bias, preference, intent, or discrimination.",Phase 3 signal_summary.csv
+date_evidence:POSTING_DATE_OUTSIDE_WINDOW,115,115,4,1645,27,4,DESCRIPTIVE_CORPUS_MEASURE,"Lexical/representation measurement only; not evidence of bias, preference, intent, or discrimination.",Phase 3 signal_summary.csv
+fellowship_postings,4,4,0,122,8,0,DESCRIPTIVE_CORPUS_MEASURE,"Lexical/representation measurement only; not evidence of bias, preference, intent, or discrimination.",Phase 3 signal_summary.csv
+research_and_fellowship,4,4,0,122,8,0,DESCRIPTIVE_CORPUS_MEASURE,"Lexical/representation measurement only; not evidence of bias, preference, intent, or discrimination.",Phase 3 signal_summary.csv
+research_postings,92,92,5,1960,52,5,DESCRIPTIVE_CORPUS_MEASURE,"Lexical/representation measurement only; not evidence of bias, preference, intent, or discrimination.",Phase 3 signal_summary.csv
+signal_run_counts,1246,704,13,,,,DESCRIPTIVE_CORPUS_MEASURE,Counts as recorded in the Phase 3 run manifest.,Phase 3 signal_run_manifest.json

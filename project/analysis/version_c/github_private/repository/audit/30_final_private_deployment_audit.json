@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "final_result": "PASS",
+  "checks": {
+    "frozen_analytical_package_fingerprint": true,
+    "local_commit_equals_remote_commit": true,
+    "locked_tag_exists_locally_and_remotely_at_verified_commit": true,
+    "github_repository_is_private": true,
+    "canonical_results_and_publication_hold": true
+  },
+  "local_commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "remote_commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "tag": "version-c-v3.0-locked",
+  "tag_commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "remote_visibility": "PRIVATE",
+  "private": true,
+  "frozen_expected_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "frozen_recomputed_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "github_push_performed": true,
+  "audited_at_utc": "2026-10-02T05:47:06.118889+00:00"
+}

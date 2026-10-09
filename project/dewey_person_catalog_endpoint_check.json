@@ -1,0 +1,8 @@
+{
+  "https://api.deweydata.io/api/v1/external/data/dst_m4nxsxh8aggbim3d/metadata": {
+    "status": 403,
+    "body": {
+      "detail": "No project is associated with this download link. If you're seeing this, you probably need to get an updated API URL/resource path from the Dewey web app that includes the Project ID (prj_...) in the link as well."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+check,status
+Document has HTML doctype,PASS
+Has document title,PASS
+Male outcome 606 present,PASS
+Female outcome 276 present,PASS
+Unknown outcome 213 present,PASS
+"Total outcome 1,095 present",PASS
+Ratio 2.20:1 present,PASS
+Signal status present,PASS
+Prediction boundary present,PASS
+Feedback status present,PASS
+Greenhouse non-causality caveat present,PASS
+Unknown retained caveat present,PASS
+Publication hold present,PASS
+D3 CDN declared,PASS
+D3 chart initialization present,PASS

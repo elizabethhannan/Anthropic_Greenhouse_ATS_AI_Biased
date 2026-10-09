@@ -1,0 +1,16 @@
+{
+  "field": "outcome_sex_category",
+  "inference_prohibited": true,
+  "mapping": {
+    "raw SEX == female": "FEMALE",
+    "raw SEX == male": "MALE",
+    "raw SEX null or blank": "UNKNOWN"
+  },
+  "original_sex_field_mutated": false,
+  "values": [
+    "MALE",
+    "FEMALE",
+    "UNKNOWN"
+  ],
+  "version": "C"
+}

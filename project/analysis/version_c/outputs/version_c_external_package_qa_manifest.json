@@ -1,0 +1,13 @@
+{
+  "phase": 13,
+  "created_at_utc": "2026-09-30T22:31:22.497989+00:00",
+  "qa_status": "PASS",
+  "publication_status": "HOLD_REVIEW_REQUIRED",
+  "total_checks": 19,
+  "critical_failures": 0,
+  "warnings": 0,
+  "package_fingerprint_sha256": "d002ac1056f5790eb594faf1091d15be3df0fdc8fbb9a5dd10af94076c62af2c",
+  "package_path": "outputs/external_release_candidate",
+  "qa_report_sha256": "f55843185bcb8b9b8d9399abdbd0421a4263d5c7b1333b4fafe2e7b5097ac7cb",
+  "qa_audit_sha256": "e9a903c465a58e26b7d560a56c3f48a09a4eea786105e17b53b118f9a7c4087b"
+}

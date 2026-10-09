@@ -1,0 +1,164 @@
+{
+  "build_script_sha256": "44b3865ad7a496c2dc0032ce7d2a34c314c10dc7869b1fc34cf7e6f78351be97",
+  "canonical_headline": {
+    "female": 276,
+    "female_percent_known_sex": 31.29,
+    "known_sex_denominator": 882,
+    "male": 606,
+    "male_percent_known_sex": 68.71,
+    "male_to_female_ratio": 2.2,
+    "population": "Distinct observed Anthropic people with a source SEX field in the current Dewey/PDL snapshot",
+    "research_subgroup": {
+      "female": 8,
+      "female_percent_known_sex": 29.63,
+      "known_sex_denominator": 27,
+      "male": 19,
+      "male_percent_known_sex": 70.37,
+      "total": 40,
+      "unknown": 13
+    },
+    "rounding_note": "213/1,095 = 19.4521%; report 19.45% or 19.5% to one decimal. 19.4% truncates rather than rounds.",
+    "scope_warning": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April–July 2026); not complete April–September hiring.",
+    "total_people": 1095,
+    "unknown_percent_all_people": 19.45,
+    "unknown_percent_one_decimal_standard_rounding": 19.5,
+    "unknown_source_blank": 213
+  },
+  "created_at_utc": "2026-09-30T02:18:10Z",
+  "current_greenhouse": {
+    "board_url": "https://job-boards.greenhouse.io/anthropic",
+    "job_count": 629,
+    "normalized_sha256": "4e0b64ed485371fd9e11daaf86003d4e18e4ae1608d6535b2ca251516af48408",
+    "r2_audit_key": "experience-anthropic-2026-04-to-09/greenhouse/current-snapshots/20260929T061625Z/greenhouse_anthropic_current_audit.json",
+    "r2_normalized_key": "experience-anthropic-2026-04-to-09/greenhouse/current-snapshots/20260929T061625Z/greenhouse_anthropic_current_records.json",
+    "r2_raw_key": "experience-anthropic-2026-04-to-09/greenhouse/current-snapshots/20260929T061625Z/greenhouse_anthropic_current_raw.json",
+    "retrieved_at": "2026-09-29T06:16:25Z",
+    "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+    "verified": true
+  },
+  "files_hashed": {
+    "dewey-anthropic-output/r2_exact_day_verification.json": "83dfba2c1004f327ec697ca22816efd186e9bc52dfc25126fd970ebafb534c86",
+    "dewey_person_catalog_metadata.json": "af40dfea87e3a1107cbb77bbb79f7ee264078c722b87c088f76f2eddb8f14e57",
+    "dewey_person_documentation.json": "761adef13355dfce81ba6ee0fabbd795fac5eabc1c575bcbb40e75743344c228",
+    "final_demographics_report.json": "2769478d35945a9115f5c72fa00fe97f8b1a64bfee4e27627c61d1be8d204b85",
+    "final_sex_role_crosstabs_report.json": "1157b836d8370144a3157b1b7c4cdb0ba8bdc5b227aa047853994f8f057e9810",
+    "finalize_hire_demographics.py": "cffc9dcba528f3673c2b3d1eefe2292d4cfe7745b294a0b17e0527773aee658b",
+    "job_postings/analyze_historical_greenhouse.py": "bace10778fd89cf451b8609cb1d5d347f5c2876ac721998d76045fcb649687cd",
+    "job_postings/analyze_job_posting_language.py": "da59ddb8b18ba71c158d8d5d7201e24aa57b10bd63aad687a003ab2486aba623",
+    "job_postings/historical_outputs/20260929T074631Z_historical_greenhouse_audit.json": "ad1c82b9e168d020e4dac696e29a2802dc31a5ab483d7fcb10a6a48dc3a06f3b",
+    "job_postings/pull_greenhouse_anthropic.py": "d1e5bffd781faa6751fee2d50be0870025d83e220617495039b9ab8a5a74c9e5",
+    "job_postings/recover_historical_greenhouse.py": "c15e80473c5b2406ac83298bcbd98a179d9fa09e22d21d8b3e494c5d5c00d772",
+    "job_postings/snapshots/20260929T061625Z_greenhouse_anthropic_current_audit.json": "0223dd41c56e1ad8803889a9cbbd63b7c4b85b1e98453ed847ae44a1b7cd0948"
+  },
+  "hiring_outcomes": {
+    "catalog_version_timestamp": "2026-08-20T16:27:42.145000+00:00",
+    "dataset": "Person",
+    "dataset_version": "1.1",
+    "date_coverage": {
+      "august_september_observed_starts": 0,
+      "limitation": "The current Dewey snapshot does not establish complete August/September start coverage; zero observed starts is not evidence of zero hiring.",
+      "observed_start_months": [
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07"
+      ],
+      "verification_r2_key": "dewey-anthropic-output/r2_exact_day_verification.json",
+      "verified_at": "2026-09-26T11:14:19.071127+00:00"
+    },
+    "demographics_report_local": "final_demographics_report.json",
+    "distinct_people": 1095,
+    "doi": "10.82551/wzkb-ts67",
+    "doi_as_of": "2026-08-28T07:57:35.532057Z",
+    "employment_rows": 1097,
+    "provider": "People Data Labs Person dataset accessed through Dewey Data",
+    "r2_demographics_audit": "audit/person-enrichment/final-demographics-report.json",
+    "r2_enriched_snapshot": "filtered/analysis/anthropic_hires_enriched_current_snapshot.parquet",
+    "r2_person_source": "filtered/person/anthropic_person_profiles_current_snapshot.parquet",
+    "sex_field": "SEX",
+    "sex_mapping": {
+      "female": "FEMALE",
+      "male": "MALE",
+      "null_or_blank": "UNKNOWN"
+    },
+    "sex_mapping_rule": "Preserve raw SEX unchanged; derive only the separate analysis category. Never infer sex from a person's name or any other proxy.",
+    "source_data_version_field": "DATASET_VERSION (source field retained in the Dewey person record)",
+    "source_sex_counts": {
+      "FEMALE": 276,
+      "MALE": 606,
+      "UNKNOWN_SOURCE_BLANK": 213
+    }
+  },
+  "historical_greenhouse": {
+    "archive_capture_only_candidates": 617,
+    "candidate_records": 1246,
+    "date_policy": "Archive capture date is kept distinct from posting date. updated_at is not treated as posting date.",
+    "fellowship_flag_true": 4,
+    "greenhouse_posting_dates_in_window": 514,
+    "historically_supported": 1237,
+    "r2_analytical_master_key": "experience-anthropic-2026-04-to-09/filtered/job-postings/analysis/20260929T091413Z/historical_greenhouse_analytical_master.json",
+    "r2_deduplicated_key": "filtered/job-postings/20260929T074631Z/historical_greenhouse_deduplicated.json",
+    "r2_raw_key": "raw/job-postings/historical-greenhouse/20260929T074631Z/historical_greenhouse_raw.json",
+    "r2_recovery_audit_key": "audit/job-postings/20260929T074631Z/historical_greenhouse_audit.json",
+    "research_classification_code": "job_postings/analyze_historical_greenhouse.py",
+    "research_flag_true": 92,
+    "retrieved_at": "2026-09-29T07:46:31Z",
+    "review_needed": 541
+  },
+  "phase": 0,
+  "posting_language_analysis": {
+    "r2_gender_audit": "experience-anthropic-2026-04-to-09/outputs/job-postings/language-analysis/20260929T092904Z/explicit_gender_evidence_audit.json",
+    "r2_metrics": "experience-anthropic-2026-04-to-09/outputs/job-postings/language-analysis/20260929T092904Z/posting_language_metrics.json",
+    "r2_person_review": "experience-anthropic-2026-04-to-09/outputs/job-postings/language-analysis/20260929T092904Z/person_example_mentions_review.json",
+    "r2_prefix": "experience-anthropic-2026-04-to-09/outputs/job-postings/language-analysis/20260929T092904Z/",
+    "r2_summary": "experience-anthropic-2026-04-to-09/outputs/job-postings/language-analysis/20260929T092904Z/language_analysis_summary.json",
+    "script": "job_postings/analyze_job_posting_language.py",
+    "status_note": "First-pass text matching; named-person candidates require manual verification. Zero detected explicit gender references does not establish their absence outside the recovered descriptions or matcher scope."
+  },
+  "research_questions": [
+    {
+      "id": "RQ1_SIGNAL",
+      "scope": "Describe observable recruiting, representation, language, and role signals.",
+      "status": "TESTABLE_NOW"
+    },
+    {
+      "id": "RQ2_PREDICTION",
+      "models": [
+        "Logistic Regression",
+        "Gradient Boosting"
+      ],
+      "scope": "Test predictive association with observed Male/Female outcomes; not a causal or workflow fairness test.",
+      "status": "TESTABLE_NOW"
+    },
+    {
+      "id": "RQ3_FEEDBACK",
+      "scope": "Temporal association between candidate-facing representation and later observed composition; no causal language.",
+      "status": "EXPLORATORY"
+    },
+    {
+      "id": "RQ4_INTERNAL_AI_DECISION_PATH",
+      "requirement": "Internal candidate-level Greenhouse Talent Matching data.",
+      "status": "PAUSED"
+    },
+    {
+      "id": "RQ5_FUNNEL_ATTRITION",
+      "requirement": "Candidate-level funnel stage data.",
+      "status": "PAUSED"
+    },
+    {
+      "id": "RQ6_HUMAN_AI_OVERRIDE",
+      "requirement": "AI recommendations and recruiter override logs.",
+      "status": "PAUSED"
+    }
+  ],
+  "rule": "This is an immutable analytical baseline. Any refreshed source, changed classification, or revised extraction starts a new manifest version and does not overwrite these inputs.",
+  "source_urls": [
+    "https://docs.deweydata.io/docs/people-and-resume-app",
+    "https://doi.org/10.82551/WZKB-TS67",
+    "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+    "https://job-boards.greenhouse.io/anthropic",
+    "https://web.archive.org/cdx/search/cdx"
+  ],
+  "status": "frozen_baseline",
+  "version": "C"
+}

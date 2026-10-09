@@ -1,0 +1,119 @@
+{
+  "audit": {
+    "path": "ml_models/audit/predictive_model_audit.csv",
+    "rows": 16,
+    "sha256": "e2f9b8d8f8fba73ccb99e72521111ab0302d2f3e084d2f9bc015af77422b1988"
+  },
+  "bridge_source": "in_memory_aggregate_from_frozen_hiring_rows",
+  "counts": {
+    "dated_postings": 514,
+    "eligible_binomial_cells": 3,
+    "female_present_cells": 0,
+    "frozen_bridge_cells_with_hires": 0,
+    "male_present_cells": 3,
+    "matched_known_sex_cells": 3,
+    "outcome_role_month_cells": 17,
+    "posting_role_month_cells": 32,
+    "unknown_outcomes": 0
+  },
+  "created_at_utc": "2026-10-01T04:11:03.159840+00:00",
+  "design_guards": {
+    "archive_capture_as_posting_date": false,
+    "candidate_level_linkage": false,
+    "causal_claim": false,
+    "phase2_phase3_inputs_modified": false,
+    "phase5_phase6_outputs_modified": false,
+    "unknown_in_binary_target": false
+  },
+  "inputs": {
+    "bridge": {
+      "path": "outputs/version_c_role_month_bridge.parquet",
+      "rows": 41,
+      "sha256": "48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108"
+    },
+    "hiring": {
+      "path": "outputs/version_c_hiring_outcomes.parquet",
+      "rows": 1095,
+      "sha256": "91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249"
+    },
+    "master": {
+      "path": "outputs/version_c_master.parquet",
+      "rows": 1246,
+      "sha256": "5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d"
+    },
+    "signals": {
+      "path": "outputs/signal_features.parquet",
+      "rows": 1246,
+      "sha256": "5d8f9fa3ddc2ab23c1718cd8f01e4f8f0f87b6dbcacbed56520c89134decb681"
+    }
+  },
+  "manifest_type": "version_c_phase_4_grouped_binomial_predictive_models",
+  "model_artifacts": {
+    "created": false,
+    "reason": "Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable."
+  },
+  "model_design": {
+    "grouped_cv": "GroupKFold by role/month; role/month units never split across train/test",
+    "primary": "grouped/binomial logistic regression",
+    "secondary": "scikit-learn Gradient Boosting classifier using weighted grouped-binomial pseudo-outcomes",
+    "sensitivity": "signal model excluding explicit gender-language family",
+    "signal_model": "baseline + Phase 3 signal families",
+    "structural_baseline": "role family + posting month"
+  },
+  "not_estimable_reason": "Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable.",
+  "outputs": {
+    "predictive_coefficients.csv": {
+      "path": "ml_models/outputs/predictive_coefficients.csv",
+      "readback_verified": true,
+      "rows": 0,
+      "sha256": "013c76ef383941642ecd4b2e64687a92c4597a8966d733fff6704732c6252fa6"
+    },
+    "predictive_feature_stability.csv": {
+      "path": "ml_models/outputs/predictive_feature_stability.csv",
+      "readback_verified": true,
+      "rows": 0,
+      "sha256": "200fe726cd05fae6fe87955b96efcaad07590915eba08debd0166fa48bae6ee4"
+    },
+    "predictive_findings.csv": {
+      "path": "ml_models/outputs/predictive_findings.csv",
+      "readback_verified": true,
+      "rows": 5,
+      "sha256": "30339ec8c1c232249eb1d1246ec1150c623db0b7d97bfbcab42c2ff879ccc898"
+    },
+    "predictive_model_agreement.csv": {
+      "path": "ml_models/outputs/predictive_model_agreement.csv",
+      "readback_verified": true,
+      "rows": 0,
+      "sha256": "94aa64254ff33cc9329251ad9a12f1509b0265e95b2ae7e6b9a1b035781e4df9"
+    },
+    "predictive_model_metrics.csv": {
+      "path": "ml_models/outputs/predictive_model_metrics.csv",
+      "readback_verified": true,
+      "rows": 6,
+      "sha256": "4c3d118f4b338447fb9ade3d49c9b3398263822cf5ff6e48edb96285247a97ab"
+    },
+    "predictive_oof_predictions.csv": {
+      "path": "ml_models/outputs/predictive_oof_predictions.csv",
+      "readback_verified": true,
+      "rows": 0,
+      "sha256": "c90bcf47f968d6fe49e519b278f4a6b160e1c1a2b0129c184d4af6d613d8a8e0"
+    },
+    "predictive_permutation_importance.csv": {
+      "path": "ml_models/outputs/predictive_permutation_importance.csv",
+      "readback_verified": true,
+      "rows": 0,
+      "sha256": "f721bb161bfb370df835290904b620e3e332e164357cd824b0e19b19bec1ca36"
+    },
+    "predictive_sensitivity.csv": {
+      "path": "ml_models/outputs/predictive_sensitivity.csv",
+      "readback_verified": true,
+      "rows": 0,
+      "sha256": "75188ddb5ee4f84c66515d30b2f3e56ff4070dadc5ebee7b53cd97d1f69c9537"
+    }
+  },
+  "status": "NOT_ESTIMABLE",
+  "study_window": {
+    "end": "2026-09-30",
+    "start": "2026-04-01"
+  }
+}

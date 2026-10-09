@@ -1,0 +1,17 @@
+check,status,rows,detail
+input:version_c_master.parquet,PASS,1246,Read-only; sha256=5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d
+input:version_c_hiring_outcomes.parquet,PASS,1095,Read-only; sha256=91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249
+input:version_c_role_month_bridge.parquet,PASS,41,Read-only; sha256=48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108
+input:signal_features.parquet,PASS,1246,Read-only; sha256=5d8f9fa3ddc2ab23c1718cd8f01e4f8f0f87b6dbcacbed56520c89134decb681
+frozen_bridge_reconciliation,RECONCILED_IN_MEMORY,0,bridge_source=in_memory_aggregate_from_frozen_hiring_rows; Phase 2 file unchanged.
+role_month_sample,NOT_ESTIMABLE,3,"Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable."
+candidate_level_linkage,PASS,0,No individual hire was linked to a Greenhouse posting.
+unknown_handling,PASS,0,Unknown remains separate and is excluded from the Male/Female binomial outcome.
+readback:predictive_model_metrics.csv,PASS,6,Output reopened; CSV row count verified.
+readback:predictive_oof_predictions.csv,PASS,0,Output reopened; CSV row count verified.
+readback:predictive_coefficients.csv,PASS,0,Output reopened; CSV row count verified.
+readback:predictive_permutation_importance.csv,PASS,0,Output reopened; CSV row count verified.
+readback:predictive_feature_stability.csv,PASS,0,Output reopened; CSV row count verified.
+readback:predictive_sensitivity.csv,PASS,0,Output reopened; CSV row count verified.
+readback:predictive_model_agreement.csv,PASS,0,Output reopened; CSV row count verified.
+readback:predictive_findings.csv,PASS,5,Output reopened; CSV row count verified.

@@ -1,0 +1,8 @@
+metric,required fields,current status
+selection rate,"y_true, y_pred, source-provided sex, stage",NOT RUN — candidate-level data absent
+demographic parity difference,"y_true, y_pred, source-provided sex, stage",NOT RUN — candidate-level data absent
+demographic parity ratio,"y_true, y_pred, source-provided sex, stage",NOT RUN — candidate-level data absent
+true positive rate,"y_true, y_pred, source-provided sex, stage",NOT RUN — candidate-level data absent
+false positive rate,"y_true, y_pred, source-provided sex, stage",NOT RUN — candidate-level data absent
+equalized odds comparison,"y_true, y_pred, source-provided sex, stage",NOT RUN — candidate-level data absent
+calibration,"y_true, y_pred, source-provided sex, stage",NOT RUN — candidate-level data absent

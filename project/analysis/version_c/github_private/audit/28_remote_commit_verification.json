@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "repository": "elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "local_commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "remote_commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "commit_match": true,
+  "repository_private": true,
+  "visibility": "PRIVATE",
+  "verified_at_utc": "2026-10-02T01:08:08.368211+00:00"
+}

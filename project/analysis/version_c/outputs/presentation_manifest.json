@@ -1,0 +1,133 @@
+{
+  "audit": {
+    "path": "audit/presentation_audit.csv",
+    "rows": 30,
+    "sha256": "c1d566cb30c41ebbb2da6d22072cff1e83a472246c60a1e589e9ae6001c28e55"
+  },
+  "created_at_utc": "2026-09-30T09:51:48.927520+00:00",
+  "design_guards": {
+    "archive_capture_as_posting_date": false,
+    "august_september_as_zero_hiring": false,
+    "candidate_level_linkage": false,
+    "causal_greenhouse_claim": false,
+    "new_statistical_analysis": false,
+    "prior_phases_modified": false,
+    "sex_inference": false,
+    "unknown_reassigned": false
+  },
+  "evidence_status": {
+    "FEEDBACK": "COMPLETE_WITH_COVERAGE_LIMITS",
+    "OUTCOME": "AVAILABLE",
+    "PREDICTION": "NOT_ESTIMABLE",
+    "SIGNAL": "AVAILABLE"
+  },
+  "inputs": {
+    "audit/executive_brief_audit.csv": {
+      "bytes": 3865,
+      "sha256": "313e27a53933a99bd0007e151b193c51840e411c7feec019d6f1832dc6510f05"
+    },
+    "audit/executive_dashboard_run_manifest.json": {
+      "bytes": 4999,
+      "sha256": "99b871225f7e0d36f08c46a826865af2d433f49c8c9466a1f0b5a88f7781da25"
+    },
+    "audit/executive_dashboard_validation.json": {
+      "bytes": 471,
+      "sha256": "d838babe5c63f95668179406b8df33e4a5a8b99237a56c2470fa4953d3177a56"
+    },
+    "audit/visualization_manifest.json": {
+      "bytes": 4276,
+      "sha256": "2c35299de156cb95e44cec1bed03d194402feecf1ed2501c43841947aff6e317"
+    },
+    "outputs/dashboard_evidence_map.csv": {
+      "bytes": 2075,
+      "sha256": "f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28"
+    },
+    "outputs/dashboard_feedback_findings.csv": {
+      "bytes": 89537,
+      "sha256": "f4dd75f199e912bede10bd6f16e209c3dae1139aceafebc3e366c079a65dfc02"
+    },
+    "outputs/dashboard_limitations.csv": {
+      "bytes": 1437,
+      "sha256": "bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d"
+    },
+    "outputs/dashboard_outcome_distribution.csv": {
+      "bytes": 407,
+      "sha256": "2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba"
+    },
+    "outputs/dashboard_predictive_findings.csv": {
+      "bytes": 2269,
+      "sha256": "383ed1c3da0367bf51eb87ac260c880b79229703a10793b67f42bdef5d9d9245"
+    },
+    "outputs/executive_brief.html": {
+      "bytes": 7447,
+      "sha256": "d38da7196e7c52245fc54883af3b2c2e5c54878e053716e1ff755ed37183816f"
+    },
+    "outputs/executive_brief.md": {
+      "bytes": 5202,
+      "sha256": "de3c692a6bc1f360a1a4e1fa9024b91118357307fe17a026a3c713fd518d84de"
+    },
+    "outputs/executive_brief_manifest.json": {
+      "bytes": 4314,
+      "sha256": "1b0aa0c3d4eea08d724103462eadfd568b35eb4142b6c8ffb542baafb2ebe888"
+    },
+    "outputs/executive_summary.json": {
+      "bytes": 3536,
+      "sha256": "5f0462196081804c93a2d3ebd0a73180357e75663d7730913746c240f6a3a0fe"
+    },
+    "outputs/executive_visuals/01_observed_outcomes.png": {
+      "bytes": 65149,
+      "sha256": "3a8917c5f9b0d3321b516d61c6a4202bda4029d21ad986e60898b5df82d05360"
+    },
+    "outputs/executive_visuals/02_known_sex_outcomes.png": {
+      "bytes": 61605,
+      "sha256": "d49f0db327737e36a2896f52c479198df2061539691498c218347e9e9924cce9"
+    },
+    "outputs/executive_visuals/03_research_outcomes.png": {
+      "bytes": 64873,
+      "sha256": "fe6d6ee281c4f979db5cc4edea3796312be5a3995c25bd65af972a8b190f2c20"
+    },
+    "outputs/executive_visuals/04_evidence_architecture.png": {
+      "bytes": 104466,
+      "sha256": "889f854d1edfa00a8b071196e29a0f9211670ed02f0d6fb93efd99705b9e1803"
+    },
+    "outputs/executive_visuals/05_data_gaps.png": {
+      "bytes": 97593,
+      "sha256": "d14dc0ada9c130f6189db5e8b948a85e02a900911edd66e967cb772404668619"
+    },
+    "outputs/executive_visuals/06_executive_evidence_map.png": {
+      "bytes": 134325,
+      "sha256": "fa8de38edecfdba9017bad87c91e010d6e2b39f140e2c75705dfa76ef3ecf3c3"
+    }
+  },
+  "manifest_type": "version_c_phase_10_executive_presentation",
+  "outcomes": {
+    "counts": {
+      "FEMALE": 276,
+      "MALE": 606,
+      "UNKNOWN": 213
+    },
+    "known_sex_denominator": 882,
+    "total": 1095
+  },
+  "outputs": {
+    "version_c_executive_deck.pptx": {
+      "bytes": 200661,
+      "path": "outputs/version_c_executive_deck.pptx",
+      "sha256": "dd3a1b9740355177bfa34ea9c2760d21e053a2bda4a6bd68cda170768f8791c2"
+    },
+    "version_c_executive_deck_outline.md": {
+      "bytes": 3128,
+      "path": "outputs/version_c_executive_deck_outline.md",
+      "sha256": "8c7f290bea4bf708c1363f24ea75d8b6b6b11efc2f09ea538eb769c1ee3a015e"
+    }
+  },
+  "presentation_only": true,
+  "slide_count": 12,
+  "source_validation": {
+    "checks": 23,
+    "path": "audit/executive_dashboard_validation.json",
+    "sha256": "d838babe5c63f95668179406b8df33e4a5a8b99237a56c2470fa4953d3177a56",
+    "status": "PASS"
+  },
+  "status": "PASS"
+}

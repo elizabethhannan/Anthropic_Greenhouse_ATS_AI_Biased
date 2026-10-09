@@ -1,0 +1,58 @@
+{
+  "status": "CONTROLLED_REVIEW_COPY_BUILT",
+  "source": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/final_evidence_package",
+  "destination": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/executive_review",
+  "frozen_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "files": [
+    {
+      "path": "08_human_ai_workflow_audit_status.json",
+      "sha256": "2bc7cd051abbc8bb696ea42a9182b5dc8adfbeef02232736df6a57bb94f3e1c0",
+      "size_bytes": 591
+    },
+    {
+      "path": "08_human_ai_workflow_evidence_map.csv",
+      "sha256": "dbcb0e655bab65c0e66a30011008a2a83798e653ac00dd2901caf354820e5d3e",
+      "size_bytes": 1113
+    },
+    {
+      "path": "README.md",
+      "sha256": "8386f458cc4022188dfe9dc53d7df3ffc1dff790fcb806a1011673290827f50d",
+      "size_bytes": 1678
+    },
+    {
+      "path": "REVIEW_STATUS.md",
+      "sha256": "a82903addb14c712d4ae858e80cb8d5a9f930a28e270189796e2f9f6c02fb485",
+      "size_bytes": 331
+    },
+    {
+      "path": "VERSION_C_3_0_EXECUTIVE_BRIEF.md",
+      "sha256": "eaadda7ef5ee23b3daf7b700434994789304efe90366077a1ae4797d314314ae",
+      "size_bytes": 2667
+    },
+    {
+      "path": "VERSION_C_3_0_EXECUTIVE_PRESENTATION.html",
+      "sha256": "7e792cd3b01f6db489c5c92d447feba24a26b99845b490fcbe3e57d192d90e6f",
+      "size_bytes": 3959
+    },
+    {
+      "path": "executive_evidence_metrics.csv",
+      "sha256": "0db97b7a97f5cf79fb4f4dc5f26f972596eb9bf3d15197e6eeb80babdb90968d",
+      "size_bytes": 2316
+    },
+    {
+      "path": "executive_evidence_v3.json",
+      "sha256": "4c438c2e475c8e88079ed2a2fb4b35fed43cff642c7d6f61b9deec0ec7f1ba4e",
+      "size_bytes": 2236
+    },
+    {
+      "path": "final_executive_dashboard_d3.html",
+      "sha256": "3d541748acb03478ac56fea472af0d212c7fb4d5c8944d49ea987370648fb8b6",
+      "size_bytes": 10395
+    }
+  ],
+  "file_count": 9,
+  "generated_at_utc": "2026-10-01T21:44:27.877913+00:00",
+  "github_publish_performed": false,
+  "source_package_modified": false,
+  "publication_status": "HOLD / REVIEW REQUIRED"
+}

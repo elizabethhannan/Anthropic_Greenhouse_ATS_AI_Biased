@@ -1,0 +1,18 @@
+{
+  "name": "Version C Phase 14 \u2014 Repository QA PASS \u2014 Frozen Save Point",
+  "created_at_utc": "2026-10-01T03:05:19.696623+00:00",
+  "phase14_status": "PASS",
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "phase13_fingerprint_sha256": "d002ac1056f5790eb594faf1091d15be3df0fdc8fbb9a5dd10af94076c62af2c",
+  "repository_package_path": "outputs/repository_ready_package",
+  "phase14_audit": {
+    "path": "audit/phase14_repository/phase14_repository_checks.csv",
+    "sha256": "be3f4c08a14e7d541dd3ec9a9598d4ec4647297a0721bdcd5ae3a3105d9de535"
+  },
+  "phase14_manifest": {
+    "path": "audit/phase14_repository/phase14_repository_manifest.json",
+    "sha256": "d6968e75ea4982ed17e62e1f56fcc51bae6d631090914d6734a81f14a9cf4319"
+  },
+  "repository_package_file_count": 51,
+  "publication_certified": false
+}

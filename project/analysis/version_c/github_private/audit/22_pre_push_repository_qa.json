@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "checks_total": 13,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Step 19 security scan passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 20 frozen integrity passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Staged file set matches Step 19 hash baseline",
+      "status": "PASS"
+    },
+    {
+      "check": "Staged content hashes match Step 19 baseline",
+      "status": "PASS"
+    },
+    {
+      "check": "No secret patterns detected",
+      "status": "PASS"
+    },
+    {
+      "check": "No dangerous file extensions",
+      "status": "PASS"
+    },
+    {
+      "check": "Canonical Male/Female/Unknown/total present",
+      "status": "PASS"
+    },
+    {
+      "check": "Known-sex ratio preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Signal status preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Prediction gate preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Feedback status preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Publication hold preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Security policy included",
+      "status": "PASS"
+    }
+  ],
+  "secret_findings": 0,
+  "dangerous_files": [],
+  "staged_file_count": 19,
+  "repository_visibility": "NOT_VERIFIED_EXTERNALLY",
+  "deployment_gate": "HOLD_UNTIL_PRIVATE_VISIBILITY_INDEPENDENTLY_CONFIRMED",
+  "frozen_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "github_publish_performed": false,
+  "generated_at_utc": "2026-10-01T22:16:53.129509+00:00"
+}

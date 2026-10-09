@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "total_checks": 17,
+  "failures": 0,
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "checks": [
+    {
+      "check": "Dashboard and manifest exist",
+      "status": "PASS"
+    },
+    {
+      "check": "Male 606 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Female 276 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Unknown 213 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Total 1095 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Ratio 2.20 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Signal observable",
+      "status": "PASS"
+    },
+    {
+      "check": "Prediction not estimable",
+      "status": "PASS"
+    },
+    {
+      "check": "Feedback exploratory",
+      "status": "PASS"
+    },
+    {
+      "check": "D3 CDN present",
+      "status": "PASS"
+    },
+    {
+      "check": "No sex inference control",
+      "status": "PASS"
+    },
+    {
+      "check": "No candidate linkage control",
+      "status": "PASS"
+    },
+    {
+      "check": "No Greenhouse causal claim",
+      "status": "PASS"
+    },
+    {
+      "check": "Publication hold intact",
+      "status": "PASS"
+    },
+    {
+      "check": "No model fit reflected",
+      "status": "PASS"
+    },
+    {
+      "check": "Manifest hash reconciles",
+      "status": "PASS"
+    },
+    {
+      "check": "Manifest says no publish",
+      "status": "PASS"
+    }
+  ]
+}

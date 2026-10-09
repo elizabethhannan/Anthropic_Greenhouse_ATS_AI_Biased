@@ -1,0 +1,80 @@
+{
+  "artifact": "Version C \u2014 Version 3.0 Executive Dashboard",
+  "generated_at_utc": "2026-10-01T17:31:39.497759+00:00",
+  "status": "PASS",
+  "audience": "HR / Hiring Executive Leadership",
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "controlled_executive_review": true,
+  "source_inputs": {
+    "outcomes": {
+      "path": "outputs/dashboard_outcome_distribution.csv",
+      "sha256": "2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba"
+    },
+    "signals": {
+      "path": "outputs/dashboard_signal_findings.csv",
+      "sha256": "9f665d872dff3bd82c0ec28b554e8e6510aa018edcb9bf73eb74c3276cbfcc32"
+    },
+    "prediction": {
+      "path": "outputs/dashboard_predictive_findings.csv",
+      "sha256": "383ed1c3da0367bf51eb87ac260c880b79229703a10793b67f42bdef5d9d9245"
+    },
+    "phase4_controls": {
+      "path": "outputs/predictive_findings.csv",
+      "sha256": "30339ec8c1c232249eb1d1246ec1150c623db0b7d97bfbcab42c2ff879ccc898"
+    },
+    "feedback": {
+      "path": "outputs/dashboard_feedback_findings.csv",
+      "sha256": "f4dd75f199e912bede10bd6f16e209c3dae1139aceafebc3e366c079a65dfc02"
+    },
+    "limitations": {
+      "path": "outputs/dashboard_limitations.csv",
+      "sha256": "bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d"
+    }
+  },
+  "visual_module": {
+    "path": "executive_dashboard/neumorphic_visualizations.py",
+    "sha256": "98031d9346bccff191fc6e04f185be1b306887153da49d0581597c0eaf1896a4",
+    "upstream_source_commit": "48ab175316e4ff88c81dcde36db9ab0fa788cfd4",
+    "upstream_source_independently_verified": false,
+    "upstream_repository": "https://github.com/elizabethhannan/AI4ALL_ClinicalMedicalDiabeties_EH-PRIVATE"
+  },
+  "outcomes": {
+    "MALE": 606,
+    "FEMALE": 276,
+    "UNKNOWN": 213,
+    "total": 1095,
+    "known_sex_male_pct": 68.7075,
+    "known_sex_female_pct": 31.2925,
+    "male_female_ratio": 2.1957
+  },
+  "analytical_layers": {
+    "SIGNAL": "OBSERVABLE",
+    "PREDICTION": "NOT ESTIMABLE FROM PUBLIC DATA",
+    "FEEDBACK": "EXPLORATORY"
+  },
+  "controls": {
+    "sex_inference": false,
+    "unknown_preserved": true,
+    "candidate_level_greenhouse_linkage": false,
+    "synthetic_candidates": false,
+    "greenhouse_causal_claim": false,
+    "plan_a_modified": false,
+    "external_assets": false
+  },
+  "outputs": {
+    "html": {
+      "path": "executive_dashboard/outputs/executive_dashboard_v3.html",
+      "sha256": "9748a01e188e0b33b3cf01bebe36b679f3ddc145994d1c09dde13fa6833e42fa"
+    },
+    "aggregate_visual": {
+      "path": "executive_dashboard/outputs/executive_dashboard_v3_outcomes.png",
+      "sha256": "d8e5bfb401ec723c1a401056a7effb6b44c1711450a789c3fd28ae936f771c15"
+    },
+    "audit": {
+      "path": "executive_dashboard/audit/executive_dashboard_v3_audit.csv",
+      "sha256": "5278214cbd28d03ff852f897e15f3338cf2664d2d7b97cf003c844ee710f1c36"
+    },
+    "audit_checks": 12,
+    "audit_failures": 0
+  }
+}

@@ -1,0 +1,13 @@
+check,status,rows,details
+readback:monthly_representation.csv,PASS,6,CSV reopened and row count recorded.
+readback:monthly_outcomes.csv,PASS,6,CSV reopened and row count recorded.
+readback:lagged_associations.csv,PASS,252,CSV reopened and row count recorded.
+readback:role_feedback_associations.csv,PASS,40,CSV reopened and row count recorded.
+readback:feedback_summary.csv,PASS,9,CSV reopened and row count recorded.
+input:version_c_master.parquet,PASS,1246,SHA-256=5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d; read-only frozen input.
+input:version_c_hiring_outcomes.parquet,PASS,1095,SHA-256=91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249; read-only frozen input.
+input:version_c_role_month_bridge.parquet,PASS,41,SHA-256=48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108; read-only frozen input.
+input:signal_features.parquet,PASS,1246,SHA-256=5d8f9fa3ddc2ab23c1718cd8f01e4f8f0f87b6dbcacbed56520c89134decb681; read-only frozen input.
+archive_capture_date_exclusion,PASS,514,Temporal representation uses established Greenhouse posting dates only.
+hiring_snapshot_missingness,PASS,2,"August and September marked NO_OBSERVED_START_COVERAGE, not zero."
+candidate_linkage_and_sex_inference,PASS,0,No person-posting link and no sex inference.

@@ -1,0 +1,21 @@
+{
+  "step": 2,
+  "gate": "NOT_ESTIMABLE_FROM_PUBLIC_DATA",
+  "audit_status": "PASS",
+  "input_manifest": "ml_models/audit/predictive_model_run_manifest.json",
+  "input_manifest_sha256": "7c7ad3f108889aa7ebdd62b7d0dc1a2f79eb42139a885dd5dfb7b95992e04658",
+  "outputs": {
+    "gate": {
+      "path": "ml_models/outputs/02_employment_selection_ml_gate.json",
+      "sha256": "ac22a7742cbdafe40372d41d0c0428ea8cc6e9a8879b925014a17643c695294e"
+    },
+    "audit": {
+      "path": "ml_models/audit/02_employment_selection_ml_gate_checks.csv",
+      "sha256": "7517e63fb88209d018887ae796f85cf36e9933b34a546ff0c30b7b784997ecdb"
+    }
+  },
+  "checks": 11,
+  "failures": 0,
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false
+}

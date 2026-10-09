@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "frozen_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "generated_at_utc": "2026-10-02T05:47:18.479726+00:00",
+  "artifacts": [
+    {
+      "path": "github_private/executive_review/README.md",
+      "sha256": "8386f458cc4022188dfe9dc53d7df3ffc1dff790fcb806a1011673290827f50d"
+    },
+    {
+      "path": "github_private/executive_review/final_executive_dashboard_d3.html",
+      "sha256": "3d541748acb03478ac56fea472af0d212c7fb4d5c8944d49ea987370648fb8b6"
+    },
+    {
+      "path": "github_private/executive_review/VERSION_C_3_0_EXECUTIVE_BRIEF.md",
+      "sha256": "eaadda7ef5ee23b3daf7b700434994789304efe90366077a1ae4797d314314ae"
+    },
+    {
+      "path": "github_private/executive_review/VERSION_C_3_0_EXECUTIVE_PRESENTATION.html",
+      "sha256": "7e792cd3b01f6db489c5c92d447feba24a26b99845b490fcbe3e57d192d90e6f"
+    },
+    {
+      "path": "github_private/executive_review/executive_evidence_v3.json",
+      "sha256": "4c438c2e475c8e88079ed2a2fb4b35fed43cff642c7d6f61b9deec0ec7f1ba4e"
+    },
+    {
+      "path": "github_private/executive_review/REVIEW_STATUS.md",
+      "sha256": "a82903addb14c712d4ae858e80cb8d5a9f930a28e270189796e2f9f6c02fb485"
+    },
+    {
+      "path": "github_private/PRIVATE_GITHUB_DEPLOYMENT_PLAN.md",
+      "sha256": "9a14e25d27750eaf3519ea938a543dc0a9532ec1de4518661291db94cc65e3bb"
+    },
+    {
+      "path": "github_private/REPOSITORY_INDEX.md",
+      "sha256": "98ab790d1d097ad2771d22edaed53ae908032b9404d68ada951de1e1d1cf7076"
+    },
+    {
+      "path": "github_private/closure/31_POST_DEPLOYMENT_SNAPSHOT.json",
+      "sha256": "637743728428d2202810552254c35f4b09ede1595d158900059fefbf23a44dc9"
+    },
+    {
+      "path": "github_private/closure/32_EXECUTIVE_REVIEW_QA.json",
+      "sha256": "72c043c59ab028a2df590747747e8f3b0c1e115002201018297517dcebf4717d"
+    },
+    {
+      "path": "github_private/closure/33_DASHBOARD_SMOKE_TEST.json",
+      "sha256": "3d74bbc37a9e6ae34094c4bf3319b112d38b4052a5da69af0afe5996c7616e9a"
+    },
+    {
+      "path": "github_private/closure/34_REPRODUCIBILITY_CHAIN.json",
+      "sha256": "d0c1382c2b59e48a1b40004fc861a0b5bb4f9fd79fb83b459c1171f2897e4c41"
+    },
+    {
+      "path": "github_private/audit/30_final_private_deployment_audit.json",
+      "sha256": "9594861d21e556a58fa7e00335edd7a25212717f4e7a9c1b60a78d54803b538e"
+    }
+  ],
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "public_release": false,
+  "github_push_performed": true,
+  "private_repository": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "tag": "version-c-v3.0-locked",
+  "handoff_document_sha256": "e157ac2b4aaa72cf7bf58b89f125887494c6e690b7d4f8e84e28dbba7b652db0"
+}

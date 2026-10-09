@@ -1,0 +1,98 @@
+check,status,expected,actual,detail
+file_exists:phase2_master,PASS,true,true,outputs/version_c_master.parquet
+row_count:phase2_master,PASS,1246,1246,
+file_exists:phase2_hiring,PASS,true,true,outputs/version_c_hiring_outcomes.parquet
+row_count:phase2_hiring,PASS,1095,1095,
+file_exists:phase2_bridge,PASS,true,true,outputs/version_c_role_month_bridge.parquet
+row_count:phase2_bridge,PASS,41,41,
+file_exists:phase2_manifest,PASS,true,true,audit/version_c_run_manifest.json
+file_exists:phase3_features,PASS,true,true,outputs/signal_features.parquet
+row_count:phase3_features,PASS,1246,1246,
+file_exists:phase3_summary,PASS,true,true,outputs/signal_summary.csv
+row_count:phase3_summary,PASS,7,7,
+file_exists:phase3_examples,PASS,true,true,outputs/signal_examples.csv
+row_count:phase3_examples,PASS,6502,6502,
+file_exists:phase3_manifest,PASS,true,true,audit/signal_run_manifest.json
+file_exists:phase4_metrics,PASS,true,true,outputs/predictive_model_metrics.csv
+row_count:phase4_metrics,PASS,6,6,
+file_exists:phase4_oof,PASS,true,true,outputs/predictive_oof_predictions.csv
+row_count:phase4_oof,PASS,0,0,
+file_exists:phase4_coefficients,PASS,true,true,outputs/predictive_coefficients.csv
+row_count:phase4_coefficients,PASS,0,0,
+file_exists:phase4_permutation,PASS,true,true,outputs/predictive_permutation_importance.csv
+row_count:phase4_permutation,PASS,0,0,
+file_exists:phase4_stability,PASS,true,true,outputs/predictive_feature_stability.csv
+row_count:phase4_stability,PASS,0,0,
+file_exists:phase4_sensitivity,PASS,true,true,outputs/predictive_sensitivity.csv
+row_count:phase4_sensitivity,PASS,0,0,
+file_exists:phase4_agreement,PASS,true,true,outputs/predictive_model_agreement.csv
+row_count:phase4_agreement,PASS,0,0,
+file_exists:phase4_findings,PASS,true,true,outputs/predictive_findings.csv
+row_count:phase4_findings,PASS,5,5,
+file_exists:phase4_audit,PASS,true,true,audit/predictive_model_audit.csv
+file_exists:phase4_manifest,PASS,true,true,audit/predictive_model_run_manifest.json
+file_exists:phase5_representation,PASS,true,true,outputs/monthly_representation.csv
+row_count:phase5_representation,PASS,6,6,
+file_exists:phase5_outcomes,PASS,true,true,outputs/monthly_outcomes.csv
+row_count:phase5_outcomes,PASS,6,6,
+file_exists:phase5_lags,PASS,true,true,outputs/lagged_associations.csv
+row_count:phase5_lags,PASS,252,252,
+file_exists:phase5_roles,PASS,true,true,outputs/role_feedback_associations.csv
+row_count:phase5_roles,PASS,40,40,
+file_exists:phase5_summary,PASS,true,true,outputs/feedback_summary.csv
+row_count:phase5_summary,PASS,9,9,
+file_exists:phase5_manifest,PASS,true,true,audit/feedback_run_manifest.json
+file_exists:phase6_distribution,PASS,true,true,outputs/outcome_distribution.csv
+row_count:phase6_distribution,PASS,3,3,
+file_exists:phase6_period,PASS,true,true,outputs/outcome_by_period.csv
+row_count:phase6_period,PASS,6,6,
+file_exists:phase6_research,PASS,true,true,outputs/research_outcome_distribution.csv
+row_count:phase6_research,PASS,3,3,
+file_exists:phase6_fellowship,PASS,true,true,outputs/fellowship_outcome_distribution.csv
+row_count:phase6_fellowship,PASS,3,3,
+file_exists:phase6_quality,PASS,true,true,outputs/outcome_quality_summary.csv
+file_exists:phase6_metrics,PASS,true,true,outputs/executive_outcome_metrics.json
+file_exists:phase6_manifest,PASS,true,true,audit/outcome_analysis_manifest.json
+file_exists:phase7_outcomes,PASS,true,true,outputs/dashboard_outcome_distribution.csv
+row_count:phase7_outcomes,PASS,3,3,
+file_exists:phase7_signals,PASS,true,true,outputs/dashboard_signal_findings.csv
+row_count:phase7_signals,PASS,8,8,
+file_exists:phase7_prediction,PASS,true,true,outputs/dashboard_predictive_findings.csv
+row_count:phase7_prediction,PASS,6,6,
+file_exists:phase7_feedback,PASS,true,true,outputs/dashboard_feedback_findings.csv
+row_count:phase7_feedback,PASS,292,292,
+file_exists:phase7_limitations,PASS,true,true,outputs/dashboard_limitations.csv
+row_count:phase7_limitations,PASS,8,8,
+file_exists:phase7_evidence,PASS,true,true,outputs/dashboard_evidence_map.csv
+row_count:phase7_evidence,PASS,8,8,
+file_exists:phase7_summary,PASS,true,true,outputs/executive_summary.json
+file_exists:phase7_manifest,PASS,true,true,audit/executive_dashboard_run_manifest.json
+file_exists:phase7_validation,PASS,true,true,audit/executive_dashboard_validation.csv
+row_count:phase7_validation,PASS,23,23,
+file_exists:phase7_validation_json,PASS,true,true,audit/executive_dashboard_validation.json
+outcome_counts_reconcile,PASS,"{""FEMALE"": 276, ""MALE"": 606, ""UNKNOWN"": 213}","{""FEMALE"": 276, ""MALE"": 606, ""UNKNOWN"": 213}",
+known_sex_denominator,PASS,882,882,
+unknown_retained,PASS,213,213,"Unknown is excluded from known-sex shares, not dropped."
+sex_inference_absent,PASS,0,0,Recomputed labels from source_SEX only; Phase 2 sex_inferred must remain false.
+duplicate_person_ids,PASS,0,0,
+executive_summary_outcomes,PASS,"{""FEMALE"": 276, ""MALE"": 606, ""UNKNOWN"": 213}","{""FEMALE"": 276, ""MALE"": 606, ""UNKNOWN"": 213}",Also checked Male/Female ratio.
+phase6_metrics_outcome_counts,PASS,"{""FEMALE"": 276, ""MALE"": 606, ""UNKNOWN"": 213}","{""FEMALE"": 276, ""MALE"": 606, ""UNKNOWN"": 213}",
+posting_date_evidence_counts,PASS,"{""ARCHIVE_CAPTURE_ONLY"": 617, ""GREENHOUSE_POSTING_DATE"": 514, ""POSTING_DATE_OUTSIDE_WINDOW"": 115}","{""ARCHIVE_CAPTURE_ONLY"": 617, ""GREENHOUSE_POSTING_DATE"": 514, ""POSTING_DATE_OUTSIDE_WINDOW"": 115}",
+archive_capture_not_posting_date,PASS,0,0,
+candidate_level_linkage_not_claimed,PASS,0,0,
+study_window_consistent,PASS,"{""end"": ""2026-09-30"", ""start"": ""2026-04-01""}","{""end"": ""2026-09-30"", ""start"": ""2026-04-01""}",
+phase4_status_reported,PASS,"""NOT_ESTIMABLE for current frozen data""","""NOT_ESTIMABLE""","Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable."
+phase5_status_reported,PASS,"{""observed"": [""2026-04"", ""2026-05"", ""2026-06"", ""2026-07""], ""unobserved"": [""2026-08"", ""2026-09""]}","{""observed"": [""2026-04"", ""2026-05"", ""2026-06"", ""2026-07""], ""unobserved"": [""2026-08"", ""2026-09""]}",
+phase7_status_consistency,PASS,"{""FEEDBACK"": ""COMPLETE_WITH_COVERAGE_LIMITS"", ""PREDICTION"": ""NOT_ESTIMABLE""}","{""FEEDBACK"": ""COMPLETE_WITH_COVERAGE_LIMITS"", ""OUTCOME"": ""AVAILABLE"", ""PREDICTION"": ""NOT_ESTIMABLE"", ""SIGNAL"": ""AVAILABLE""}",
+phase3_evidence_boundaries,PASS,"{""archive_capture_as_posting_date"": false, ""candidate_linkage"": false, ""causality"": false}","{""archive_capture_as_posting_date"": false, ""candidate_linkage"": false, ""causality"": false}",
+phase5_evidence_boundaries,PASS,"{""archive_capture_as_posting_date"": false, ""candidate_linkage"": false, ""causality"": false}","{""archive_capture_as_posting_date"": false, ""candidate_linkage"": false, ""causality"": false}",
+recorded_output_hashes,PASS,"""all available recorded hashes match""","{""checked"": 25, ""mismatches"": 0}",Different phases record output paths in different manifest formats; available matching paths were checked.
+executive_review_readiness,PASS_WITH_LIMITATIONS,"""structural integrity plus disclosed analytic limits""","""STRUCTURALLY_VALID — ANALYTICAL PIPELINE INCOMPLETE""",Phase 4 was run but not estimable; Phase 5 was run with sparse temporal/role coverage.
+code_file_exists:01_prepare_version_c.py,PASS,true,true,01_prepare_version_c.py
+code_file_exists:02_signal_diagnostic.py,PASS,true,true,02_signal_diagnostic.py
+code_file_exists:03_predictive_models.py,PASS,true,true,03_predictive_models.py
+code_file_exists:04_feedback_diagnostic.py,PASS,true,true,04_feedback_diagnostic.py
+code_file_exists:05_male_female_unknown_outcomes.py,PASS,true,true,05_male_female_unknown_outcomes.py
+code_file_exists:06_executive_dashboard_data.py,PASS,true,true,06_executive_dashboard_data.py
+code_file_exists:07_version_c_final_audit.py,PASS,true,true,07_version_c_final_audit.py
+code_file_exists:07_validate_executive_dashboard.py,PASS,true,true,07_validate_executive_dashboard.py

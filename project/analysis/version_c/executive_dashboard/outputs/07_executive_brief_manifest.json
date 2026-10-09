@@ -1,0 +1,9 @@
+{
+  "status": "BUILT_FROM_FROZEN_EVIDENCE",
+  "brief": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/executive_dashboard/outputs/VERSION_C_3_0_EXECUTIVE_BRIEF.md",
+  "sha256": "eaadda7ef5ee23b3daf7b700434994789304efe90366077a1ae4797d314314ae",
+  "evidence_source": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/executive_dashboard/outputs/executive_evidence_v3.json",
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false
+}

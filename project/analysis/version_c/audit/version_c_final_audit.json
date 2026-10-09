@@ -1,0 +1,788 @@
+{
+  "audit_type": "version_c_final_integrity_audit",
+  "causal_boundary": "No causal effect or individual Greenhouse-to-hire pathway is established.",
+  "checks": [
+    {
+      "actual": true,
+      "check": "file_exists:phase2_master",
+      "detail": "outputs/version_c_master.parquet",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 1246,
+      "check": "row_count:phase2_master",
+      "detail": "",
+      "expected": 1246,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase2_hiring",
+      "detail": "outputs/version_c_hiring_outcomes.parquet",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 1095,
+      "check": "row_count:phase2_hiring",
+      "detail": "",
+      "expected": 1095,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase2_bridge",
+      "detail": "outputs/version_c_role_month_bridge.parquet",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 41,
+      "check": "row_count:phase2_bridge",
+      "detail": "",
+      "expected": 41,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase2_manifest",
+      "detail": "audit/version_c_run_manifest.json",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase3_features",
+      "detail": "outputs/signal_features.parquet",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 1246,
+      "check": "row_count:phase3_features",
+      "detail": "",
+      "expected": 1246,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase3_summary",
+      "detail": "outputs/signal_summary.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 7,
+      "check": "row_count:phase3_summary",
+      "detail": "",
+      "expected": 7,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase3_examples",
+      "detail": "outputs/signal_examples.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 6502,
+      "check": "row_count:phase3_examples",
+      "detail": "",
+      "expected": 6502,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase3_manifest",
+      "detail": "audit/signal_run_manifest.json",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase4_metrics",
+      "detail": "outputs/predictive_model_metrics.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 6,
+      "check": "row_count:phase4_metrics",
+      "detail": "",
+      "expected": 6,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase4_oof",
+      "detail": "outputs/predictive_oof_predictions.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "check": "row_count:phase4_oof",
+      "detail": "",
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase4_coefficients",
+      "detail": "outputs/predictive_coefficients.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "check": "row_count:phase4_coefficients",
+      "detail": "",
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase4_permutation",
+      "detail": "outputs/predictive_permutation_importance.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "check": "row_count:phase4_permutation",
+      "detail": "",
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase4_stability",
+      "detail": "outputs/predictive_feature_stability.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "check": "row_count:phase4_stability",
+      "detail": "",
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase4_sensitivity",
+      "detail": "outputs/predictive_sensitivity.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "check": "row_count:phase4_sensitivity",
+      "detail": "",
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase4_agreement",
+      "detail": "outputs/predictive_model_agreement.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "check": "row_count:phase4_agreement",
+      "detail": "",
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase4_findings",
+      "detail": "outputs/predictive_findings.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 5,
+      "check": "row_count:phase4_findings",
+      "detail": "",
+      "expected": 5,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase4_audit",
+      "detail": "audit/predictive_model_audit.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase4_manifest",
+      "detail": "audit/predictive_model_run_manifest.json",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase5_representation",
+      "detail": "outputs/monthly_representation.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 6,
+      "check": "row_count:phase5_representation",
+      "detail": "",
+      "expected": 6,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase5_outcomes",
+      "detail": "outputs/monthly_outcomes.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 6,
+      "check": "row_count:phase5_outcomes",
+      "detail": "",
+      "expected": 6,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase5_lags",
+      "detail": "outputs/lagged_associations.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 252,
+      "check": "row_count:phase5_lags",
+      "detail": "",
+      "expected": 252,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase5_roles",
+      "detail": "outputs/role_feedback_associations.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 40,
+      "check": "row_count:phase5_roles",
+      "detail": "",
+      "expected": 40,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase5_summary",
+      "detail": "outputs/feedback_summary.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 9,
+      "check": "row_count:phase5_summary",
+      "detail": "",
+      "expected": 9,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase5_manifest",
+      "detail": "audit/feedback_run_manifest.json",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase6_distribution",
+      "detail": "outputs/outcome_distribution.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 3,
+      "check": "row_count:phase6_distribution",
+      "detail": "",
+      "expected": 3,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase6_period",
+      "detail": "outputs/outcome_by_period.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 6,
+      "check": "row_count:phase6_period",
+      "detail": "",
+      "expected": 6,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase6_research",
+      "detail": "outputs/research_outcome_distribution.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 3,
+      "check": "row_count:phase6_research",
+      "detail": "",
+      "expected": 3,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase6_fellowship",
+      "detail": "outputs/fellowship_outcome_distribution.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 3,
+      "check": "row_count:phase6_fellowship",
+      "detail": "",
+      "expected": 3,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase6_quality",
+      "detail": "outputs/outcome_quality_summary.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase6_metrics",
+      "detail": "outputs/executive_outcome_metrics.json",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase6_manifest",
+      "detail": "audit/outcome_analysis_manifest.json",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase7_outcomes",
+      "detail": "outputs/dashboard_outcome_distribution.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 3,
+      "check": "row_count:phase7_outcomes",
+      "detail": "",
+      "expected": 3,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase7_signals",
+      "detail": "outputs/dashboard_signal_findings.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 8,
+      "check": "row_count:phase7_signals",
+      "detail": "",
+      "expected": 8,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase7_prediction",
+      "detail": "outputs/dashboard_predictive_findings.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 6,
+      "check": "row_count:phase7_prediction",
+      "detail": "",
+      "expected": 6,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase7_feedback",
+      "detail": "outputs/dashboard_feedback_findings.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 292,
+      "check": "row_count:phase7_feedback",
+      "detail": "",
+      "expected": 292,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase7_limitations",
+      "detail": "outputs/dashboard_limitations.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 8,
+      "check": "row_count:phase7_limitations",
+      "detail": "",
+      "expected": 8,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase7_evidence",
+      "detail": "outputs/dashboard_evidence_map.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 8,
+      "check": "row_count:phase7_evidence",
+      "detail": "",
+      "expected": 8,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase7_summary",
+      "detail": "outputs/executive_summary.json",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase7_manifest",
+      "detail": "audit/executive_dashboard_run_manifest.json",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase7_validation",
+      "detail": "audit/executive_dashboard_validation.csv",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": 23,
+      "check": "row_count:phase7_validation",
+      "detail": "",
+      "expected": 23,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "file_exists:phase7_validation_json",
+      "detail": "audit/executive_dashboard_validation.json",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "FEMALE": 276,
+        "MALE": 606,
+        "UNKNOWN": 213
+      },
+      "check": "outcome_counts_reconcile",
+      "detail": "",
+      "expected": {
+        "FEMALE": 276,
+        "MALE": 606,
+        "UNKNOWN": 213
+      },
+      "status": "PASS"
+    },
+    {
+      "actual": 882,
+      "check": "known_sex_denominator",
+      "detail": "",
+      "expected": 882,
+      "status": "PASS"
+    },
+    {
+      "actual": 213,
+      "check": "unknown_retained",
+      "detail": "Unknown is excluded from known-sex shares, not dropped.",
+      "expected": 213,
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "check": "sex_inference_absent",
+      "detail": "Recomputed labels from source_SEX only; Phase 2 sex_inferred must remain false.",
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "check": "duplicate_person_ids",
+      "detail": "",
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "FEMALE": 276,
+        "MALE": 606,
+        "UNKNOWN": 213
+      },
+      "check": "executive_summary_outcomes",
+      "detail": "Also checked Male/Female ratio.",
+      "expected": {
+        "FEMALE": 276,
+        "MALE": 606,
+        "UNKNOWN": 213
+      },
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "FEMALE": 276,
+        "MALE": 606,
+        "UNKNOWN": 213
+      },
+      "check": "phase6_metrics_outcome_counts",
+      "detail": "",
+      "expected": {
+        "FEMALE": 276,
+        "MALE": 606,
+        "UNKNOWN": 213
+      },
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "ARCHIVE_CAPTURE_ONLY": 617,
+        "GREENHOUSE_POSTING_DATE": 514,
+        "POSTING_DATE_OUTSIDE_WINDOW": 115
+      },
+      "check": "posting_date_evidence_counts",
+      "detail": "",
+      "expected": {
+        "ARCHIVE_CAPTURE_ONLY": 617,
+        "GREENHOUSE_POSTING_DATE": 514,
+        "POSTING_DATE_OUTSIDE_WINDOW": 115
+      },
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "check": "archive_capture_not_posting_date",
+      "detail": "",
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "actual": 0,
+      "check": "candidate_level_linkage_not_claimed",
+      "detail": "",
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "end": "2026-09-30",
+        "start": "2026-04-01"
+      },
+      "check": "study_window_consistent",
+      "detail": "",
+      "expected": {
+        "end": "2026-09-30",
+        "start": "2026-04-01"
+      },
+      "status": "PASS"
+    },
+    {
+      "actual": "NOT_ESTIMABLE",
+      "check": "phase4_status_reported",
+      "detail": "Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable.",
+      "expected": "NOT_ESTIMABLE for current frozen data",
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "observed": [
+          "2026-04",
+          "2026-05",
+          "2026-06",
+          "2026-07"
+        ],
+        "unobserved": [
+          "2026-08",
+          "2026-09"
+        ]
+      },
+      "check": "phase5_status_reported",
+      "detail": "",
+      "expected": {
+        "observed": [
+          "2026-04",
+          "2026-05",
+          "2026-06",
+          "2026-07"
+        ],
+        "unobserved": [
+          "2026-08",
+          "2026-09"
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "FEEDBACK": "COMPLETE_WITH_COVERAGE_LIMITS",
+        "OUTCOME": "AVAILABLE",
+        "PREDICTION": "NOT_ESTIMABLE",
+        "SIGNAL": "AVAILABLE"
+      },
+      "check": "phase7_status_consistency",
+      "detail": "",
+      "expected": {
+        "FEEDBACK": "COMPLETE_WITH_COVERAGE_LIMITS",
+        "PREDICTION": "NOT_ESTIMABLE"
+      },
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "archive_capture_as_posting_date": false,
+        "candidate_linkage": false,
+        "causality": false
+      },
+      "check": "phase3_evidence_boundaries",
+      "detail": "",
+      "expected": {
+        "archive_capture_as_posting_date": false,
+        "candidate_linkage": false,
+        "causality": false
+      },
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "archive_capture_as_posting_date": false,
+        "candidate_linkage": false,
+        "causality": false
+      },
+      "check": "phase5_evidence_boundaries",
+      "detail": "",
+      "expected": {
+        "archive_capture_as_posting_date": false,
+        "candidate_linkage": false,
+        "causality": false
+      },
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "checked": 25,
+        "mismatches": 0
+      },
+      "check": "recorded_output_hashes",
+      "detail": "Different phases record output paths in different manifest formats; available matching paths were checked.",
+      "expected": "all available recorded hashes match",
+      "status": "PASS"
+    },
+    {
+      "actual": "STRUCTURALLY_VALID \u2014 ANALYTICAL PIPELINE INCOMPLETE",
+      "check": "executive_review_readiness",
+      "detail": "Phase 4 was run but not estimable; Phase 5 was run with sparse temporal/role coverage.",
+      "expected": "structural integrity plus disclosed analytic limits",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "actual": true,
+      "check": "code_file_exists:01_prepare_version_c.py",
+      "detail": "01_prepare_version_c.py",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "code_file_exists:02_signal_diagnostic.py",
+      "detail": "02_signal_diagnostic.py",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "code_file_exists:03_predictive_models.py",
+      "detail": "03_predictive_models.py",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "code_file_exists:04_feedback_diagnostic.py",
+      "detail": "04_feedback_diagnostic.py",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "code_file_exists:05_male_female_unknown_outcomes.py",
+      "detail": "05_male_female_unknown_outcomes.py",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "code_file_exists:06_executive_dashboard_data.py",
+      "detail": "06_executive_dashboard_data.py",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "code_file_exists:07_version_c_final_audit.py",
+      "detail": "07_version_c_final_audit.py",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check": "code_file_exists:07_validate_executive_dashboard.py",
+      "detail": "07_validate_executive_dashboard.py",
+      "expected": true,
+      "status": "PASS"
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 96,
+  "checks_review": 0,
+  "checks_total": 97,
+  "created_at_utc": "2026-09-30T08:12:05.688006+00:00",
+  "executive_review_readiness": "STRUCTURALLY_VALID \u2014 ANALYTICAL PIPELINE INCOMPLETE",
+  "overall_status": "PASS_WITH_LIMITATIONS",
+  "phase_status": {
+    "phase2": "COMPLETE",
+    "phase3": "COMPLETE",
+    "phase4": "NOT_ESTIMABLE",
+    "phase5": "COMPLETE_WITH_COVERAGE_LIMITS",
+    "phase6": "COMPLETE",
+    "phase7": "COMPLETE",
+    "phase8": "COMPLETE"
+  }
+}

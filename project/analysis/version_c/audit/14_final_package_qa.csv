@@ -1,0 +1,22 @@
+check,status
+Required artifact: final_executive_dashboard_d3.html,PASS
+Required artifact: final_executive_dashboard_d3_manifest.json,PASS
+Required artifact: VERSION_C_3_0_EXECUTIVE_BRIEF.md,PASS
+Required artifact: VERSION_C_3_0_EXECUTIVE_PRESENTATION.html,PASS
+Required artifact: executive_evidence_v3.json,PASS
+Required artifact: executive_evidence_metrics.csv,PASS
+Required artifact: 08_human_ai_workflow_evidence_map.csv,PASS
+Required artifact: PACKAGE_MANIFEST.json,PASS
+606 present,PASS
+276 present,PASS
+213 present,PASS
+1095 present,PASS
+2.20 ratio present,PASS
+Observable present,PASS
+Not estimable present,PASS
+Exploratory present,PASS
+Unknown not collapsed,PASS
+No causal claim,PASS
+Publication hold present,PASS
+Package manifest hashes reconcile,PASS
+README scheduled for following step,PASS

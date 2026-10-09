@@ -1,0 +1,9 @@
+stage,question,required_evidence,current_public_status
+AI_RECRUITING,What AI-generated or algorithmic signals enter recruiting?,Talent Matching outputs; ranking; recommendations; scores,DATA GAP
+CANDIDATE_EXPERIENCE,What candidate-facing language or recommendations are presented?,Candidate-facing prompts; generated text; recommendations,DATA GAP
+SCREENING,Which candidates progress through screening?,Applicant denominator; screening outcomes; timestamps,DATA GAP
+HUMAN_RECRUITING,Where do recruiters override or modify AI recommendations?,Recruiter criteria; overrides; decision logs,DATA GAP
+INTERVIEW,Do evaluation outcomes differ by demographic group?,Interview scorecards; interviewer identity; stage outcomes,DATA GAP
+HIRING,What demographic selection-rate differences occur?,Candidate-stage denominators and hiring outcomes,DATA GAP
+EMPLOYMENT,"Do opportunity, assignment, recognition, or evaluation differ?",Assignments; performance; compensation; opportunity data,DATA GAP
+ADVANCEMENT,Do promotion and advancement pathways differ?,Promotion; sponsorship; succession; advancement data,DATA GAP

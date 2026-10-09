@@ -1,0 +1,18 @@
+check,status
+Dashboard and manifest exist,PASS
+Male 606 present,PASS
+Female 276 present,PASS
+Unknown 213 present,PASS
+Total 1095 present,PASS
+Ratio 2.20 present,PASS
+Signal observable,PASS
+Prediction not estimable,PASS
+Feedback exploratory,PASS
+D3 CDN present,PASS
+No sex inference control,PASS
+No candidate linkage control,PASS
+No Greenhouse causal claim,PASS
+Publication hold intact,PASS
+No model fit reflected,PASS
+Manifest hash reconciles,PASS
+Manifest says no publish,PASS

@@ -1,0 +1,393 @@
+{
+  "phase": 14,
+  "phase_name": "Build Repository-Ready Package",
+  "generated_utc": "2026-09-30T22:54:06.633944+00:00",
+  "qa_status": "PASS",
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "phase13": {
+    "qa_status": "PASS",
+    "publication_status": "HOLD_REVIEW_REQUIRED",
+    "fingerprint_sha256": "d002ac1056f5790eb594faf1091d15be3df0fdc8fbb9a5dd10af94076c62af2c",
+    "total_checks": 19,
+    "critical_failures": 0,
+    "warnings": 0
+  },
+  "package": {
+    "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/outputs/repository_ready_package",
+    "repository_file_count": 51,
+    "source_file_count": 45,
+    "sha256_manifest": [
+      {
+        "path": ".gitignore",
+        "sha256": "ec8a1d6467813e461ecb4b6e98aca848fe8bc725549ced26b8a281e0cce0c75e",
+        "size_bytes": 286
+      },
+      {
+        "path": "LICENSE_AND_REVIEW_REQUIRED.md",
+        "sha256": "2e1f0c0e7df1ee64d5c163e72f096d96fd6196d2b5fd404ae99b95aa31c66e20",
+        "size_bytes": 383
+      },
+      {
+        "path": "PROVENANCE.md",
+        "sha256": "a3214aa2ecf03e0c3b7b1d73667a8a0d1ba68607b77ab5e11845f9f5fb049cf7",
+        "size_bytes": 425
+      },
+      {
+        "path": "PUBLICATION_HOLD.md",
+        "sha256": "48605ee9de8f9bd017057fbbe549476df3991ee02eec200cabeb21dbe15567b9",
+        "size_bytes": 335
+      },
+      {
+        "path": "README.md",
+        "sha256": "7b51b5effa3e4a231975891f82d6d522148f04a663a4d96fa5ebd7478187b3d0",
+        "size_bytes": 1033
+      },
+      {
+        "path": "RELEASE_STATUS.md",
+        "sha256": "fd857c720fc76085a2f0e3b606ee520de34e2b4fd498c47145e6b72488d44496",
+        "size_bytes": 634
+      },
+      {
+        "path": "REPRODUCIBILITY.md",
+        "sha256": "d6dedfd3c2e73b1a282288dcdcbfc1a6e544c4012ade3c0e11e6911b4c241515",
+        "size_bytes": 734
+      },
+      {
+        "path": "RESEARCH_BOUNDARIES.md",
+        "sha256": "4c54c2739a5d81d0b3e21e58fd46bd68aaeed7f81693d7d89e4787f9329c823a",
+        "size_bytes": 608
+      },
+      {
+        "path": "audit/phase11_claim_audit.csv",
+        "sha256": "7e314a1faeca2541d8c78bddaa60b3c55d043628567006ae8df9a34de9ee5ef9",
+        "size_bytes": 6812
+      },
+      {
+        "path": "audit/phase11_provenance_manifest.json",
+        "sha256": "376710ab93fe28b581f600ccc8611af10ac5dde7255df950ddf2f31ca730a8ee",
+        "size_bytes": 15736
+      },
+      {
+        "path": "audit/phase11_reproducibility_checks.csv",
+        "sha256": "9eb2c01ac05b5d90d967599a2e4e9c1b84db3971e0052eaa1ac9ab9239e9a9e5",
+        "size_bytes": 12868
+      },
+      {
+        "path": "audit/phase11_schema_audit.csv",
+        "sha256": "baccb83a5dce8101c271d781414f4a4a2aadb3312c5d5d0b933ed848830b6053",
+        "size_bytes": 519
+      },
+      {
+        "path": "audit/phase12_sensitive_content_scan.csv",
+        "sha256": "5ea3270b477c6e982e27e8ef9adc08484130dcaa14005fe71301cf46d4dc5cea",
+        "size_bytes": 1878
+      },
+      {
+        "path": "audit/version_c_reproducibility_report.md",
+        "sha256": "f1b43c1d3d261e060f91d638596be9f2ba542c442ffe83faeb0aadc200ce7778",
+        "size_bytes": 1469
+      },
+      {
+        "path": "code/01_prepare_version_c.py",
+        "sha256": "9ac9679867f2f51b7b097808467e2b9883d6a5e55f60f5647fac093ccf1d2d5d",
+        "size_bytes": 25054
+      },
+      {
+        "path": "code/02_signal_diagnostic.py",
+        "sha256": "b81f81b11a14b91247a1985737acf878bf954c46ec2e5f97ba36366a74c9819d",
+        "size_bytes": 26401
+      },
+      {
+        "path": "code/03_predictive_models.py",
+        "sha256": "fc7da476c61712315cd04301642eb017337725269e1368ffb82af66fe777b65c",
+        "size_bytes": 25690
+      },
+      {
+        "path": "code/04_feedback_diagnostic.py",
+        "sha256": "754ef4fb76029150b9751eed270e0a7c0ee31933eed538fb078cd3947e084756",
+        "size_bytes": 23548
+      },
+      {
+        "path": "code/05_male_female_unknown_outcomes.py",
+        "sha256": "81403ae4c8ff84cd3911fddec08e05075c58a6808092db71df486100ad4edef7",
+        "size_bytes": 21767
+      },
+      {
+        "path": "code/06_executive_dashboard_data.py",
+        "sha256": "ecae3ec9e464148f99821d5e1d396c1ab5f82a21105c55ae3a2ac6688332f222",
+        "size_bytes": 24773
+      },
+      {
+        "path": "code/07_validate_executive_dashboard.py",
+        "sha256": "0ee6fed34213885d19cb2dedfae76a126497d966eb7e63022e26cc55442b32ed",
+        "size_bytes": 15120
+      },
+      {
+        "path": "code/07_version_c_final_audit.py",
+        "sha256": "38144afdd4857da222129d4489904b3129b1d993979cb618c24fe544cdfbda12",
+        "size_bytes": 20039
+      },
+      {
+        "path": "code/08_executive_visualization_data.py",
+        "sha256": "b23b110ffc2b25d03ab834fa0001c6a053b6dcc6d1885d355ce1ef38d32f1b20",
+        "size_bytes": 20310
+      },
+      {
+        "path": "code/09_executive_brief.py",
+        "sha256": "c129eb3413e145ffbe11b8347c64b5a6e45e1496bdcb7a5cf3b4765fa2494e45",
+        "size_bytes": 21785
+      },
+      {
+        "path": "code/10_executive_presentation.py",
+        "sha256": "ae9c4f1a1249bea9f71e01e8457f5fb09a3c6b89bd9e54042d6f02fde0ed8d71",
+        "size_bytes": 32439
+      },
+      {
+        "path": "code/11_reproducibility_package_audit.py",
+        "sha256": "3275f6a7714113cb6819985fbab021b7e3e579041b0829fe81577d9f410c6aea",
+        "size_bytes": 35541
+      },
+      {
+        "path": "code/12_build_external_release_candidate.py",
+        "sha256": "c56e3dd0ed6dd68c24bfaf0577ff579f16d0e8dbb70f20d8df854317c916051c",
+        "size_bytes": 10360
+      },
+      {
+        "path": "docs/data_dictionary.md",
+        "sha256": "e1705491407ba09f0eedafb141f7cb3ccf848536d48ec75c7f0cd12c5df3b935",
+        "size_bytes": 433
+      },
+      {
+        "path": "docs/data_license_and_publication_boundary.md",
+        "sha256": "46a0ac9655f4fcb6bec453d18446570677767c1d535e50e4e960df1ef19cdc0a",
+        "size_bytes": 1186
+      },
+      {
+        "path": "docs/executive_brief.md",
+        "sha256": "de3c692a6bc1f360a1a4e1fa9024b91118357307fe17a026a3c713fd518d84de",
+        "size_bytes": 5202
+      },
+      {
+        "path": "docs/methodology.md",
+        "sha256": "de3c692a6bc1f360a1a4e1fa9024b91118357307fe17a026a3c713fd518d84de",
+        "size_bytes": 5202
+      },
+      {
+        "path": "docs/version_c_executive_deck_outline.md",
+        "sha256": "8c7f290bea4bf708c1363f24ea75d8b6b6b11efc2f09ea538eb769c1ee3a015e",
+        "size_bytes": 3128
+      },
+      {
+        "path": "release_candidate_manifest.json",
+        "sha256": "686de1d047639f3f0f3fbd953a3c1ca7c12207ade1e5094fddc1c39447396480",
+        "size_bytes": 8047
+      },
+      {
+        "path": "results/dashboard_evidence_map.csv",
+        "sha256": "f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28",
+        "size_bytes": 2075
+      },
+      {
+        "path": "results/dashboard_feedback_findings.csv",
+        "sha256": "f4dd75f199e912bede10bd6f16e209c3dae1139aceafebc3e366c079a65dfc02",
+        "size_bytes": 89537
+      },
+      {
+        "path": "results/dashboard_limitations.csv",
+        "sha256": "bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d",
+        "size_bytes": 1437
+      },
+      {
+        "path": "results/dashboard_outcome_distribution.csv",
+        "sha256": "2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba",
+        "size_bytes": 407
+      },
+      {
+        "path": "results/dashboard_predictive_findings.csv",
+        "sha256": "383ed1c3da0367bf51eb87ac260c880b79229703a10793b67f42bdef5d9d9245",
+        "size_bytes": 2269
+      },
+      {
+        "path": "results/dashboard_signal_findings.csv",
+        "sha256": "9f665d872dff3bd82c0ec28b554e8e6510aa018edcb9bf73eb74c3276cbfcc32",
+        "size_bytes": 1767
+      },
+      {
+        "path": "results/feedback_summary.csv",
+        "sha256": "4e8aefd13bca44cb40d41e52b73128c8ef13eadfd4a0baad926b8f70098d1011",
+        "size_bytes": 943
+      },
+      {
+        "path": "results/fellowship_outcome_distribution.csv",
+        "sha256": "04a501a2284968e289a6c4407ce7aae07b5bd8ac3dca69439cc63f06f657ebc8",
+        "size_bytes": 378
+      },
+      {
+        "path": "results/outcome_distribution.csv",
+        "sha256": "86c514434496129e59d01531e5a4ed460452f9477c2401ccff4597074d54b8c2",
+        "size_bytes": 412
+      },
+      {
+        "path": "results/predictive_findings.csv",
+        "sha256": "30339ec8c1c232249eb1d1246ec1150c623db0b7d97bfbcab42c2ff879ccc898",
+        "size_bytes": 625
+      },
+      {
+        "path": "results/research_outcome_distribution.csv",
+        "sha256": "8c20a998ad531a6314054a15b6e0e368f11f540ca8c245ef204e7a947d9d181b",
+        "size_bytes": 368
+      },
+      {
+        "path": "results/signal_summary.csv",
+        "sha256": "49f378aabd81681f731c44bd62a6ed142fbf720951404911fbd1b10c264b353b",
+        "size_bytes": 3043
+      },
+      {
+        "path": "visuals/01_observed_outcomes.png",
+        "sha256": "3a8917c5f9b0d3321b516d61c6a4202bda4029d21ad986e60898b5df82d05360",
+        "size_bytes": 65149
+      },
+      {
+        "path": "visuals/02_known_sex_outcomes.png",
+        "sha256": "d49f0db327737e36a2896f52c479198df2061539691498c218347e9e9924cce9",
+        "size_bytes": 61605
+      },
+      {
+        "path": "visuals/03_research_outcomes.png",
+        "sha256": "fe6d6ee281c4f979db5cc4edea3796312be5a3995c25bd65af972a8b190f2c20",
+        "size_bytes": 64873
+      },
+      {
+        "path": "visuals/04_evidence_architecture.png",
+        "sha256": "889f854d1edfa00a8b071196e29a0f9211670ed02f0d6fb93efd99705b9e1803",
+        "size_bytes": 104466
+      },
+      {
+        "path": "visuals/05_data_gaps.png",
+        "sha256": "d14dc0ada9c130f6189db5e8b948a85e02a900911edd66e967cb772404668619",
+        "size_bytes": 97593
+      },
+      {
+        "path": "visuals/06_executive_evidence_map.png",
+        "sha256": "fa8de38edecfdba9017bad87c91e010d6e2b39f140e2c75705dfa76ef3ecf3c3",
+        "size_bytes": 134325
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check_id": "P14-UP-01",
+      "description": "Required upstream artifact exists: version_c_external_package_qa_report.md",
+      "status": "PASS",
+      "details": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/outputs/version_c_external_package_qa_report.md"
+    },
+    {
+      "check_id": "P14-UP-02",
+      "description": "Required upstream artifact exists: version_c_external_package_qa_manifest.json",
+      "status": "PASS",
+      "details": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/outputs/version_c_external_package_qa_manifest.json"
+    },
+    {
+      "check_id": "P14-UP-03",
+      "description": "Required upstream artifact exists: phase13_external_package_qa.csv",
+      "status": "PASS",
+      "details": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/audit/phase13_external_package_qa.csv"
+    },
+    {
+      "check_id": "P14-UP-04",
+      "description": "Required upstream artifact exists: external_release_candidate",
+      "status": "PASS",
+      "details": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/outputs/external_release_candidate"
+    },
+    {
+      "check_id": "P14-006",
+      "description": "Phase 13 QA report, manifest, and audit pass",
+      "status": "PASS",
+      "details": "qa_status=PASS; audit_rows=19"
+    },
+    {
+      "check_id": "P14-006B",
+      "description": "Phase 13 fingerprint matches the audited candidate",
+      "status": "PASS",
+      "details": "computed=d002ac1056f5790eb594faf1091d15be3df0fdc8fbb9a5dd10af94076c62af2c; expected=d002ac1056f5790eb594faf1091d15be3df0fdc8fbb9a5dd10af94076c62af2c"
+    },
+    {
+      "check_id": "P14-006C",
+      "description": "Phase 12 publication hold remains active",
+      "status": "PASS",
+      "details": "status=HOLD_REVIEW_REQUIRED; certified=False"
+    },
+    {
+      "check_id": "P14-007",
+      "description": "Repository governance documents exist",
+      "status": "PASS",
+      "details": "All present"
+    },
+    {
+      "check_id": "P14-008",
+      "description": "No row-level/binary source data extensions",
+      "status": "PASS",
+      "details": "None; aggregate CSVs retained by design"
+    },
+    {
+      "check_id": "P14-009",
+      "description": "No obviously sensitive filenames",
+      "status": "PASS",
+      "details": "None"
+    },
+    {
+      "check_id": "P14-010",
+      "description": "No obvious credential patterns",
+      "status": "PASS",
+      "details": "None"
+    },
+    {
+      "check_id": "P14-011",
+      "description": "README preserves research boundaries",
+      "status": "PASS",
+      "details": "All phrases present"
+    },
+    {
+      "check_id": "P14-012",
+      "description": "Publication hold preserves licensing/privacy review",
+      "status": "PASS",
+      "details": "All phrases present"
+    },
+    {
+      "check_id": "P14-013",
+      "description": "README preserves canonical metrics",
+      "status": "PASS",
+      "details": "All metrics present"
+    },
+    {
+      "check_id": "P14-014",
+      "description": "Phase 13 fingerprint is preserved",
+      "status": "PASS",
+      "details": "d002ac1056f5790eb594faf1091d15be3df0fdc8fbb9a5dd10af94076c62af2c"
+    },
+    {
+      "check_id": "P14-015",
+      "description": "No automatic GitHub publish workflow",
+      "status": "PASS",
+      "details": "None"
+    },
+    {
+      "check_id": "P14-016",
+      "description": "Phase 12 candidate files copied",
+      "status": "PASS",
+      "details": "45 files copied"
+    }
+  ],
+  "summary": {
+    "total_checks": 17,
+    "failures": 0,
+    "warnings": 0
+  },
+  "publication_boundary": {
+    "github_publish_performed": false,
+    "network_publish_performed": false,
+    "licensing_certified": false,
+    "privacy_certified": false,
+    "publication_approved": false
+  }
+}

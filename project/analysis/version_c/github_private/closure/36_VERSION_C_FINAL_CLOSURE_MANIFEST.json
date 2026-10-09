@@ -1,0 +1,139 @@
+{
+  "status": "CLOSED",
+  "version": "Version C \u2014 Version 3.0",
+  "closed_at_utc": "2026-10-02T05:47:18.719092+00:00",
+  "frozen_analytical_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "frozen_package_recomputed_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "closure_document": "36_VERSION_C_FINAL_CLOSURE.md",
+  "closure_document_sha256": "d90c19c3d77aafef5ce78c1173e5cc9b2ce0aa1d311552b691c4f148131b2fb4",
+  "prerequisite_artifacts": {
+    "Step 30 final deployment audit": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/audit/30_final_private_deployment_audit.json",
+      "sha256": "9594861d21e556a58fa7e00335edd7a25212717f4e7a9c1b60a78d54803b538e"
+    },
+    "Step 31 post-deployment snapshot": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/closure/31_POST_DEPLOYMENT_SNAPSHOT.json",
+      "sha256": "637743728428d2202810552254c35f4b09ede1595d158900059fefbf23a44dc9"
+    },
+    "Step 32 executive-review QA": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/closure/32_EXECUTIVE_REVIEW_QA.json",
+      "sha256": "72c043c59ab028a2df590747747e8f3b0c1e115002201018297517dcebf4717d"
+    },
+    "Step 33 dashboard smoke test": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/closure/33_DASHBOARD_SMOKE_TEST.json",
+      "sha256": "3d74bbc37a9e6ae34094c4bf3319b112d38b4052a5da69af0afe5996c7616e9a"
+    },
+    "Step 34 reproducibility-chain audit": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/closure/34_REPRODUCIBILITY_CHAIN.json",
+      "sha256": "d0c1382c2b59e48a1b40004fc861a0b5bb4f9fd79fb83b459c1171f2897e4c41"
+    },
+    "Step 35 handoff document": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/closure/35_FINAL_CSUITE_HANDOFF.md",
+      "sha256": "e157ac2b4aaa72cf7bf58b89f125887494c6e690b7d4f8e84e28dbba7b652db0"
+    },
+    "Step 35 handoff manifest": {
+      "path": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/closure/35_FINAL_CSUITE_HANDOFF_MANIFEST.json",
+      "sha256": "32541dd7711828ea794a962d054554f386d16604090c00298679cedf4bea5675"
+    }
+  },
+  "canonical_outcomes": {
+    "male": 606,
+    "female": 276,
+    "unknown": 213,
+    "total": 1095,
+    "known_sex_male_share": 0.6870748299319728,
+    "known_sex_female_share": 0.3129251700680272,
+    "male_female_ratio": 2.1956521739130435
+  },
+  "analytical_status": {
+    "signal": "OBSERVABLE",
+    "prediction": "NOT ESTIMABLE FROM PUBLIC DATA",
+    "feedback": "EXPLORATORY"
+  },
+  "public_release": false,
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "checks": [
+    {
+      "check": "Step 30 final deployment audit",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 31 post-deployment snapshot",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 32 executive-review QA",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 33 dashboard smoke test",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 34 reproducibility-chain audit",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 35 handoff document",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 35 handoff manifest",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 30 final deployment audit passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 30 all five integrity checks passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 30 frozen fingerprint matches",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 30 publication hold preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 31 snapshot passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 32 executive-review QA passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 33 dashboard smoke test passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 34 reproducibility chain passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 35 handoff manifest passed",
+      "status": "PASS"
+    },
+    {
+      "check": "Step 35 frozen fingerprint matches",
+      "status": "PASS"
+    },
+    {
+      "check": "Frozen analytical package fingerprint unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "Canonical observed outcomes reconcile",
+      "status": "PASS"
+    },
+    {
+      "check": "Analytical statuses and public hold preserved",
+      "status": "PASS"
+    }
+  ],
+  "future_work_boundary": "Any additional research must use a new version/workstream and must not mutate the frozen Version C package.",
+  "closure_manifest_sha256": "7a460ae75a954d541a8d83599149ae5d5b62f0a4502f0e42f4b35e2bf362bc24"
+}

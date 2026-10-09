@@ -1,0 +1,20 @@
+check_id,status,severity,detail
+allowlisted_structure,PASS,INFO,"root_dirs=['audit', 'code', 'docs', 'results', 'visuals']; required_root_present=True"
+no_unexpected_or_missing_files,PASS,INFO,missing=[]; unexpected=[]
+phase12_manifest_hashes,PASS,INFO,mismatches=[]
+no_person_candidate_identifiers,PASS,INFO,hits=[]
+no_greenhouse_person_linkage,PASS,INFO,hits=[]
+no_secrets_credentials,PASS,INFO,hits=[]
+no_unsupported_causal_claims,PASS,INFO,hits=[]
+no_raw_row_level_source_artifacts,PASS,INFO,forbidden_extensions=[]
+canonical_outcome_counts,PASS,INFO,"counts={'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}; total=1095"
+known_sex_percentages,PASS,INFO,male=68.71%; female=31.29%
+male_female_ratio,PASS,INFO,ratio=2.1957:1
+unknown_retained_without_inference,PASS,INFO,UNKNOWN category retained as 213; no relabeling/inference applied in aggregate outcome table.
+phase4_not_estimable_preserved,PASS,INFO,NOT_ESTIMABLE present=True
+phase5_coverage_limits_preserved,PASS,INFO,Aug/Sep unavailability and coverage language present=True
+no_sex_inference_claims,PASS,INFO,inference claim found=False
+executive_visuals_present,PASS,INFO,"visuals=['01_observed_outcomes.png', '02_known_sex_outcomes.png', '03_research_outcomes.png', '04_evidence_architecture.png', '05_data_gaps.png', '06_executive_evidence_map.png']"
+licensing_privacy_hold_intact,PASS,INFO,manifest_status=HOLD_REVIEW_REQUIRED; publication_certified=False
+phase12_scan_clean,PASS,INFO,scan_rows=43; findings=0
+candidate_manifest_no_missing_inputs,PASS,INFO,missing=[]

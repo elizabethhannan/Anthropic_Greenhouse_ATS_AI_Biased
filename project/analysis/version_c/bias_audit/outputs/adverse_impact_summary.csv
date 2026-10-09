@@ -1,0 +1,2 @@
+status,adverse_impact_test_performed,selection_rate_test_performed,male_hires,female_hires,unknown,distinct_people,male_share_known,female_share_known,male_female_ratio,reason
+NOT_ESTIMABLE_FROM_CURRENT_PUBLIC_DATA,False,False,606,276,213,1095,0.6870748299319728,0.3129251700680272,2.1956521739130435,"No internal Greenhouse selection-stage dataset was provided. Public outcomes include hires only, not demographic applicant or stage denominators."

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "captured_at_utc": "2026-10-02T05:47:17.979301+00:00",
+  "frozen_fingerprint": "6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0",
+  "local_commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "remote_tracking_commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "locked_tag": "version-c-v3.0-locked",
+  "locked_tag_commit": "9925d30d492acefab0cda8ef587f4a9601686315",
+  "repository_private": true,
+  "public_release": false,
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "step30_audit_sha256": "9594861d21e556a58fa7e00335edd7a25212717f4e7a9c1b60a78d54803b538e"
+}

@@ -1,0 +1,7 @@
+item,value,interpretation
+status,NOT_ESTIMABLE,"Only 3 eligible exact role-month cells are available (minimum 20); class counts are {'male_majority': 3, 'female_majority': 0} (minimum 5 cells per class). Grouped binary validation and model fitting are not estimable."
+role_month_cells,3,Distinct eligible role/month cells after exact role-family matching and tie exclusion.
+male_majority_cells,3,Cell-level majority outcome among known-sex observed hires.
+female_majority_cells,0,Cell-level majority outcome among known-sex observed hires.
+unknown_outcomes,0,Retained in outcome audit and excluded from the binary target.
+candidate_level_linkage,False,No person-to-posting linkage was created.

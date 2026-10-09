@@ -1,0 +1,125 @@
+{
+  "audit": {
+    "path": "audit/visualization_audit.csv",
+    "rows": 24,
+    "sha256": "2b4baa2f4b253246e63cf78ba0e0058f1ed90b41aebb8b17492244fe13511d32"
+  },
+  "created_at_utc": "2026-09-30T09:38:30.815982+00:00",
+  "design_guards": {
+    "candidate_level_linkage": false,
+    "causal_claim": false,
+    "sex_inference": false,
+    "source_layers_modified": false,
+    "unknown_excluded_from_known_sex_denominator": true
+  },
+  "inputs": {
+    "audit/executive_dashboard_validation.csv": {
+      "bytes": 2950,
+      "sha256": "c1c9bee6be1fe56f6b6d8a533c00b34b84688d8b6853a83edf3cc58f846ef6d8"
+    },
+    "audit/executive_dashboard_validation.json": {
+      "bytes": 471,
+      "sha256": "d838babe5c63f95668179406b8df33e4a5a8b99237a56c2470fa4953d3177a56"
+    },
+    "outputs/dashboard_evidence_map.csv": {
+      "bytes": 2075,
+      "sha256": "f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28"
+    },
+    "outputs/dashboard_limitations.csv": {
+      "bytes": 1437,
+      "sha256": "bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d"
+    },
+    "outputs/dashboard_outcome_distribution.csv": {
+      "bytes": 407,
+      "sha256": "2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba"
+    },
+    "outputs/executive_summary.json": {
+      "bytes": 3536,
+      "sha256": "5f0462196081804c93a2d3ebd0a73180357e75663d7730913746c240f6a3a0fe"
+    },
+    "outputs/research_outcome_distribution.csv": {
+      "bytes": 368,
+      "sha256": "8c20a998ad531a6314054a15b6e0e368f11f540ca8c245ef204e7a947d9d181b"
+    }
+  },
+  "interpretation_boundary": "Charts describe observed outcomes, public-facing signals, and documented data gaps; they do not establish that Greenhouse caused an outcome.",
+  "manifest_type": "version_c_phase_8_executive_visualization",
+  "outcomes": {
+    "counts": {
+      "FEMALE": 276,
+      "MALE": 606,
+      "UNKNOWN": 213
+    },
+    "known_sex": 882,
+    "research_counts": {
+      "FEMALE": 8,
+      "MALE": 19,
+      "UNKNOWN": 13
+    },
+    "research_total": 40,
+    "total": 1095
+  },
+  "outputs": {
+    "outputs/executive_visuals/01_observed_outcomes.png": {
+      "bytes": 65149,
+      "readback_verified": true,
+      "rows": null,
+      "sha256": "3a8917c5f9b0d3321b516d61c6a4202bda4029d21ad986e60898b5df82d05360"
+    },
+    "outputs/executive_visuals/02_known_sex_outcomes.png": {
+      "bytes": 61605,
+      "readback_verified": true,
+      "rows": null,
+      "sha256": "d49f0db327737e36a2896f52c479198df2061539691498c218347e9e9924cce9"
+    },
+    "outputs/executive_visuals/03_research_outcomes.png": {
+      "bytes": 64873,
+      "readback_verified": true,
+      "rows": null,
+      "sha256": "fe6d6ee281c4f979db5cc4edea3796312be5a3995c25bd65af972a8b190f2c20"
+    },
+    "outputs/executive_visuals/04_evidence_architecture.png": {
+      "bytes": 104466,
+      "readback_verified": true,
+      "rows": null,
+      "sha256": "889f854d1edfa00a8b071196e29a0f9211670ed02f0d6fb93efd99705b9e1803"
+    },
+    "outputs/executive_visuals/05_data_gaps.png": {
+      "bytes": 97593,
+      "readback_verified": true,
+      "rows": null,
+      "sha256": "d14dc0ada9c130f6189db5e8b948a85e02a900911edd66e967cb772404668619"
+    },
+    "outputs/executive_visuals/06_executive_evidence_map.png": {
+      "bytes": 134325,
+      "readback_verified": true,
+      "rows": null,
+      "sha256": "fa8de38edecfdba9017bad87c91e010d6e2b39f140e2c75705dfa76ef3ecf3c3"
+    },
+    "outputs/visualization_data_gaps.csv": {
+      "bytes": 1437,
+      "readback_verified": true,
+      "rows": 8,
+      "sha256": "bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d"
+    },
+    "outputs/visualization_evidence_data.csv": {
+      "bytes": 2075,
+      "readback_verified": true,
+      "rows": 8,
+      "sha256": "f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28"
+    },
+    "outputs/visualization_outcome_data.csv": {
+      "bytes": 639,
+      "readback_verified": true,
+      "rows": 6,
+      "sha256": "5c2362b025b2846b1af98a2c80dba550b508d03aab38bab30e29671d6efe2470"
+    }
+  },
+  "source_validation": {
+    "checks": 23,
+    "path": "audit/executive_dashboard_validation.json",
+    "sha256": "d838babe5c63f95668179406b8df33e4a5a8b99237a56c2470fa4953d3177a56",
+    "status": "PASS"
+  },
+  "status": "PASS"
+}

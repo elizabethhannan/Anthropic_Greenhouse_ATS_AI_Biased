@@ -1,0 +1,17 @@
+{
+  "architecture_status": "PASS",
+  "model_status": "NOT_PERFORMED",
+  "public_aggregate_gate": "NOT_ESTIMABLE_FROM_PUBLIC_DATA",
+  "internal_candidate_stage_status": "ARCHITECTURE_READY_INTERNAL_DATA_NOT_PROVIDED",
+  "internal_gate_detail": "No authorized internal candidate-stage dataset was supplied.",
+  "executive_question": "Do observable recruiting signals contain predictive information about observed hiring composition?",
+  "public_data_conclusion": "NOT ESTIMABLE FROM PUBLIC DATA; 3 eligible cells, 3 Male-present cells, 0 Female-present cells.",
+  "internal_model_target": "Selected to advance at the screened stage, conditional on entering that stage.",
+  "internal_model_is_same_as_public_aggregate_question": false,
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false,
+  "candidate_level_predictions_written": false,
+  "candidate_identifiers_written": false,
+  "demographic_feature_used": false,
+  "generated_at_utc": "2026-10-01T17:31:52.008533+00:00"
+}

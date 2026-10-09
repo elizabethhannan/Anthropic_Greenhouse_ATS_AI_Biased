@@ -1,0 +1,24 @@
+check,status,detail
+required_files_present,PASS,All 13 required files exist.
+canonical_source_counts,PASS,"Recounted source_SEX: {'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}; total=1095; expected={'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213} / 1095."
+unique_people,PASS,Unique PERSON_IDs=1095; duplicates=0.
+known_sex_denominator,PASS,Known-sex denominator=882; expected=882.
+unknown_preserved,PASS,Unknown remains its own category: 213.
+executive_summary_reconciles,PASS,"Summary count/share fields checked against source_SEX; expected shares={'male_share_known_sex': 0.6870748299319728, 'female_share_known_sex': 0.3129251700680272, 'male_female_ratio': 2.1956521739130435, 'unknown_share_all_records': 0.19452054794520549}."
+dashboard_manifest_outcomes,PASS,"Dashboard manifest counts={'FEMALE': 276, 'MALE': 606, 'UNKNOWN': 213, 'known_sex': 882}; source counts={'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}, known=882."
+outcome_csv_reconciles,PASS,"Dashboard outcome CSV counts={'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}; expected={'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}."
+no_sex_inference,PASS,Every dashboard outcome row retains sex_inferred=false.
+signal_layer_present,PASS,Signal rows=8; summary status=AVAILABLE.
+prediction_status_matches_phase4,PASS,Dashboard status=NOT_ESTIMABLE; Phase 4 status=NOT_ESTIMABLE; rows=6.
+feedback_status_present,PASS,Dashboard feedback status=COMPLETE_WITH_COVERAGE_LIMITS; rows=292.
+phase5_estimated_vs_deferred,PASS,Forward +1 evidence present=True; +2-month summary explicitly deferred=True.
+phase4_not_estimable_not_overstated,PASS,Phase 4 is NOT_ESTIMABLE; reason present; every dashboard model row preserves status and has no ROC/PR-AUC.
+august_september_coverage_limit,PASS,"Phase 5 observed=['2026-04', '2026-05', '2026-06', '2026-07'], unavailable=['2026-08', '2026-09']; dashboard states missing months are unavailable, not zero."
+evidence_layers_separated,PASS,"Required evidence-map layers present: ['AI PATHWAY', 'FEEDBACK', 'HUMAN OVERRIDE', 'INTERVIEW', 'OUTCOME', 'PREDICTION', 'SIGNAL', 'WORKFLOW']; found=['AI PATHWAY', 'FEEDBACK', 'HUMAN OVERRIDE', 'INTERVIEW', 'OUTCOME', 'PREDICTION', 'SIGNAL', 'WORKFLOW']."
+evidence_map_status_consistency,PASS,Evidence-map SIGNAL/PREDICTION/FEEDBACK/OUTCOME statuses agree with the summary and source phase manifests.
+internal_data_gaps_explicit,PASS,"Dashboard explicitly documents missing application, recruiter/override, funnel, and interview evidence."
+no_candidate_linkage_claim,PASS,Dashboard states that candidate-level Greenhouse-to-hire linkage is absent.
+no_causal_greenhouse_claim,PASS,Dashboard does not attribute observed outcomes causally to Greenhouse.
+dashboard_hashes_and_readback,PASS,Dashboard object hash/row checks failures=[]; dashboard audit hash match=True.
+dashboard_manifest_readable,PASS,Executive dashboard manifest parsed as JSON.
+summary_json_readable,PASS,Executive summary parsed as JSON.

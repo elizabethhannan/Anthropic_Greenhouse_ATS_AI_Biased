@@ -1,0 +1,121 @@
+{
+  "counts": {
+    "class_counts": {
+      "female_majority": 0,
+      "male_majority": 3
+    },
+    "eligible_cells": 3,
+    "frozen_phase_2_bridge_cells_with_outcomes": 0,
+    "grouped_cv_min_cells": 20,
+    "grouped_cv_min_each_class": 5,
+    "unknown_outcomes_excluded_from_binary_target": 0
+  },
+  "created_at_utc": "2026-09-30T04:40:29.023343+00:00",
+  "design_guards": {
+    "archive_capture_used_as_posting_month": false,
+    "candidate_level_linkage": false,
+    "causal_claim": false,
+    "ecological_interpretation_only": true,
+    "phase_2_files_modified": false,
+    "phase_3_files_modified": false,
+    "sex_inferred": false,
+    "unknown_in_binary_target": false
+  },
+  "inputs": {
+    "signal_features.parquet": {
+      "rows": 1246,
+      "sha256": "5d8f9fa3ddc2ab23c1718cd8f01e4f8f0f87b6dbcacbed56520c89134decb681"
+    },
+    "version_c_hiring_outcomes.parquet": {
+      "rows": 1095,
+      "sha256": "91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249"
+    },
+    "version_c_master.parquet": {
+      "rows": 1246,
+      "sha256": "5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d"
+    },
+    "version_c_role_month_bridge.parquet": {
+      "rows": 41,
+      "sha256": "48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108"
+    }
+  },
+  "manifest_type": "version_c_phase_4_predictive_models",
+  "model_artifacts": {
+    "predictive_logistic_regression.joblib": {
+      "created": false,
+      "sha256": null
+    },
+    "predictive_xgboost_gradient_boosting.joblib": {
+      "created": false,
+      "sha256": null
+    }
+  },
+  "not_estimable_reason": "Only 3 eligible exact role-month cells are available (minimum 20); class counts are {'male_majority': 3, 'female_majority': 0} (minimum 5 cells per class). Grouped binary validation and model fitting are not estimable.",
+  "outputs": {
+    "predictive_audit.csv": {
+      "path": "audit/predictive_audit.csv",
+      "readback_verified": true,
+      "row_count": 7,
+      "sha256": "c2e3832deafb35872c54cd5b392bbe1122aeebef4dae10e7aa8b9af679086e00"
+    },
+    "predictive_calibration.csv": {
+      "path": "outputs/predictive_calibration.csv",
+      "readback_verified": true,
+      "row_count": 0,
+      "sha256": "3242a8c2a65bd7b98887c3386bacd3696bb3fc91151be42bf191d6cae035415b"
+    },
+    "predictive_feature_stability.csv": {
+      "path": "outputs/predictive_feature_stability.csv",
+      "readback_verified": true,
+      "row_count": 0,
+      "sha256": "9bbce79c8664552efa832809bb45860ebc87230603819fe411774262256f986e"
+    },
+    "predictive_logistic_coefficients.csv": {
+      "path": "outputs/predictive_logistic_coefficients.csv",
+      "readback_verified": true,
+      "row_count": 0,
+      "sha256": "0a9e45e96232a02e989fd2e3ca33312be57b652381f904ff5a505d3bc871ff56"
+    },
+    "predictive_model_agreement.csv": {
+      "path": "outputs/predictive_model_agreement.csv",
+      "readback_verified": true,
+      "row_count": 0,
+      "sha256": "f17ec42c7a0df78fc5aea2672ba5149c5359029780cd500ff43cc49c8a5b4cb6"
+    },
+    "predictive_model_performance.csv": {
+      "path": "outputs/predictive_model_performance.csv",
+      "readback_verified": true,
+      "row_count": 2,
+      "sha256": "66ea06c683bfbc91aa9e8581e162e87fe46608f26f6e76a004e03405f611e315"
+    },
+    "predictive_oof_predictions.csv": {
+      "path": "outputs/predictive_oof_predictions.csv",
+      "readback_verified": true,
+      "row_count": 0,
+      "sha256": "26c8bb63e46a7deda91bc1adc6e6464419fe96026759cc1bb4e3ed7bb015f2f0"
+    },
+    "predictive_permutation_importance.csv": {
+      "path": "outputs/predictive_permutation_importance.csv",
+      "readback_verified": true,
+      "row_count": 0,
+      "sha256": "f721bb161bfb370df835290904b620e3e332e164357cd824b0e19b19bec1ca36"
+    },
+    "predictive_summary.csv": {
+      "path": "outputs/predictive_summary.csv",
+      "readback_verified": true,
+      "row_count": 6,
+      "sha256": "4cb2f7212aec9f6b8ba0d8dd1bfedc32e2bba2297a5a1f648d58f412530d34a1"
+    }
+  },
+  "status": "NOT_ESTIMABLE",
+  "target": "Male-majority versus Female-majority cell among known-sex observed hires; tied cells excluded",
+  "unit": "role_family x established Greenhouse posting month",
+  "validation": {
+    "bootstrap_replicates": 500,
+    "composition_error": "known-hire-weighted absolute error between predicted male-majority probability and observed male share",
+    "method": "StratifiedGroupKFold by unique role-month key",
+    "pr_auc": "weighted OOF cell-level average precision",
+    "roc_auc": "weighted OOF cell-level metric",
+    "seed": 20260929
+  }
+}

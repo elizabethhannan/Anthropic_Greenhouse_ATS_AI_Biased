@@ -1,0 +1,10 @@
+check,status,detail
+canonical_counts_present,PASS,"{'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}"
+known_sex_metrics_present,PASS,Known-sex shares and ratio are stated.
+prediction_not_estimable,PASS,Public prediction boundary appears in dashboard.
+unknown_retained,PASS,Unknown category is explicitly retained.
+causal_boundary,PASS,No Greenhouse causal claim is presented.
+workflow_gap_present,PASS,Internal evidence need is represented.
+publication_hold,PASS,Publication hold is visible.
+standalone_no_external_assets,PASS,No remote JavaScript or stylesheet dependency.
+prior_audit_gaps_disclosed,PASS,"missing_prior_steps=['04_statistical_significance.py', '05_logistic_selection_model.py', '06_gradient_boosting_audit.py', '07_fairlearn_model_audit.py']"

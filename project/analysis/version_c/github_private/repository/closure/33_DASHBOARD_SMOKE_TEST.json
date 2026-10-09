@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "checks_total": 15,
+  "failures": [],
+  "dashboard": "/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/github_private/executive_review/final_executive_dashboard_d3.html",
+  "d3_requires_network": true,
+  "publication_status": "HOLD / REVIEW REQUIRED",
+  "checks": [
+    {
+      "check": "Document has HTML doctype",
+      "status": "PASS"
+    },
+    {
+      "check": "Has document title",
+      "status": "PASS"
+    },
+    {
+      "check": "Male outcome 606 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Female outcome 276 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Unknown outcome 213 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Total outcome 1,095 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Ratio 2.20:1 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Signal status present",
+      "status": "PASS"
+    },
+    {
+      "check": "Prediction boundary present",
+      "status": "PASS"
+    },
+    {
+      "check": "Feedback status present",
+      "status": "PASS"
+    },
+    {
+      "check": "Greenhouse non-causality caveat present",
+      "status": "PASS"
+    },
+    {
+      "check": "Unknown retained caveat present",
+      "status": "PASS"
+    },
+    {
+      "check": "Publication hold present",
+      "status": "PASS"
+    },
+    {
+      "check": "D3 CDN declared",
+      "status": "PASS"
+    },
+    {
+      "check": "D3 chart initialization present",
+      "status": "PASS"
+    }
+  ]
+}

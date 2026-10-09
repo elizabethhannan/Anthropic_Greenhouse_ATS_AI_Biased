@@ -1,0 +1,24 @@
+check,status,rows,details
+output_readback:dashboard_outcome_distribution.csv,PASS,3,Expected 3 rows; SHA-256 recorded.
+output_readback:dashboard_signal_findings.csv,PASS,8,Expected 8 rows; SHA-256 recorded.
+output_readback:dashboard_predictive_findings.csv,PASS,6,Expected 6 rows; SHA-256 recorded.
+output_readback:dashboard_feedback_findings.csv,PASS,292,Expected 292 rows; SHA-256 recorded.
+output_readback:dashboard_limitations.csv,PASS,8,Expected 8 rows; SHA-256 recorded.
+output_readback:dashboard_evidence_map.csv,PASS,8,Expected 8 rows; SHA-256 recorded.
+output_readback:executive_summary.json,PASS,1,SHA-256=5f0462196081804c93a2d3ebd0a73180357e75663d7730913746c240f6a3a0fe
+frozen_source_outcome_reconciliation,PASS,1095,"Recounted source_SEX only: {'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}; matches Phase 6."
+input:outcome_metrics,PASS,,"{""available"": true, ""bytes"": 1852, ""path"": ""outputs/executive_outcome_metrics.json"", ""sha256"": ""36172acad8923a38e1b79677f819072bfac1679a98c6feeefd9027250a768d91""}"
+input:outcome_distribution,PASS,,"{""available"": true, ""bytes"": 412, ""path"": ""outputs/outcome_distribution.csv"", ""sha256"": ""86c514434496129e59d01531e5a4ed460452f9477c2401ccff4597074d54b8c2""}"
+input:outcome_quality,PASS,,"{""available"": true, ""bytes"": 1283, ""path"": ""outputs/outcome_quality_summary.csv"", ""sha256"": ""d2a1fbfddbee575377d258995cf5f65f9af3ef02936e15bafc7b9d6a6cec4c4d""}"
+input:hiring_source,PASS,,"{""available"": true, ""bytes"": 151838, ""path"": ""outputs/version_c_hiring_outcomes.parquet"", ""sha256"": ""91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249""}"
+input:signal_summary,PASS,,"{""available"": true, ""bytes"": 3043, ""path"": ""outputs/signal_summary.csv"", ""sha256"": ""49f378aabd81681f731c44bd62a6ed142fbf720951404911fbd1b10c264b353b""}"
+input:signal_manifest,PASS,,"{""available"": true, ""bytes"": 5746, ""path"": ""audit/signal_run_manifest.json"", ""sha256"": ""c407c0e174f4125871758166b105396976c65763e590de46d2cf2572df6786fa""}"
+input:predictive_metrics,PASS,,"{""available"": true, ""bytes"": 1805, ""path"": ""outputs/predictive_model_metrics.csv"", ""sha256"": ""195d257811fa8925b582fd0ef58d768c6b0ad223a9b2b57c0f6226a2ca0722b8""}"
+input:predictive_manifest,PASS,,"{""available"": true, ""bytes"": 4648, ""path"": ""audit/predictive_model_run_manifest.json"", ""sha256"": ""b1ca10038e32dbf09506522bbd83410b3328fa1d8c6c26d28d1d71e5221175e3""}"
+input:feedback_summary,PASS,,"{""available"": true, ""bytes"": 943, ""path"": ""outputs/feedback_summary.csv"", ""sha256"": ""4e8aefd13bca44cb40d41e52b73128c8ef13eadfd4a0baad926b8f70098d1011""}"
+input:feedback_lags,PASS,,"{""available"": true, ""bytes"": 77415, ""path"": ""outputs/lagged_associations.csv"", ""sha256"": ""048e254beb1a86b0ab49c866ac936d29e9a51c5005977068adde47b2e4f48327""}"
+input:feedback_roles,PASS,,"{""available"": true, ""bytes"": 12647, ""path"": ""outputs/role_feedback_associations.csv"", ""sha256"": ""8c74c9095bdcff2c5115ac6e88c4db79177412711600ec2db04640444e63e056""}"
+input:feedback_manifest,PASS,,"{""available"": true, ""bytes"": 3402, ""path"": ""audit/feedback_run_manifest.json"", ""sha256"": ""60aff7428fd9346011b852d53cb8ad4cce7b3a3c834e1895f82c2482706967f2""}"
+duplicate_only_guard,PASS,0,"Only executive_summary.json, dashboard_* outputs, and Phase 7 audit/manifest files are written."
+phase4_not_estimable_preserved,PASS,3,Dashboard carries the Phase 4 status and reason without inventing model metrics.
+unknown_retained,PASS,213,Unknown remains separate from the known-sex denominator.

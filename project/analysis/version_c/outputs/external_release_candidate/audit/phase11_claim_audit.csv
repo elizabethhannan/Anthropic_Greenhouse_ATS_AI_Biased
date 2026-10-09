@@ -1,0 +1,50 @@
+claim_id,claim,status,supporting_artifacts,notes
+canonical_outcomes,606 MALE / 276 FEMALE / 213 UNKNOWN,PASS,outputs/executive_summary.json;outputs/dashboard_outcome_distribution.csv,Claim is limited to the cited frozen artifacts; not independently generalized.
+known_sex_shares,68.71% MALE / 31.29% FEMALE among known-sex records,PASS,outputs/executive_summary.json;outputs/dashboard_outcome_distribution.csv,Claim is limited to the cited frozen artifacts; not independently generalized.
+prediction_status,PREDICTION is NOT_ESTIMABLE,PASS,audit/predictive_model_run_manifest.json;outputs/dashboard_predictive_findings.csv,Claim is limited to the cited frozen artifacts; not independently generalized.
+feedback_coverage,"August and September 2026 are unavailable, not zero",PASS,audit/feedback_run_manifest.json;outputs/dashboard_limitations.csv,Claim is limited to the cited frozen artifacts; not independently generalized.
+no_individual_linkage,No candidate-level Greenhouse-to-hire link is claimed,PASS,audit/version_c_run_manifest.json;outputs/executive_brief.md,Claim is limited to the cited frozen artifacts; not independently generalized.
+slide_01," VERSION C · RESEARCH QUESTION Can public recruiting signals be connected to observed hiring outcomes?   EVIDENCE  Phase 7 executive summary · Phase 9 brief 01 / 12 A public-data study of candidate-facing recruiting signals, observed workforce composition, and the limits of auditing an internal AI-mediated workflow. WHAT IS OBSERVABLE?
+Public job p",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_02," GOVERNANCE FRAME Why model fairness is not enough   EVIDENCE  Phase 7/9 evidence map 02 / 12 MODEL FAIRNESS
+Does the model behave fairly? ≠ WORKFLOW FAIRNESS
+How do people and tools act together? ≠ OUTCOME FAIRNESS
+What composition is observed? •  A model-level evaluation cannot reveal how recommendations are used in a recruiting workflow.
+•  Obse",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_03," EVIDENCE DESIGN Research architecture: preserve provenance and keep layers separate   EVIDENCE  Phase 7/8 manifests · frozen Phase 7 summary 03 / 12 PUBLIC JOB POSTINGS
+Greenhouse snapshot + historical corpus SIGNAL MEASUREMENT
+Posting text + representation features AGGREGATE BRIDGE
+Role × month only; no person linkage OBSERVED OUTCOMES
+MALE / FEM",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_04," OBSERVED OUTCOME What the frozen observed-hire data show   EVIDENCE  Phase 7 dashboard · Phase 8 outcome chart 04 / 12 1,095
+distinct observed people 882
+known-sex denominator 213 UNKNOWN
+19.45% of all records Descriptive outcome pattern; not a complete hiring-funnel record.",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_05," SIGNAL · CANDIDATE-FACING ENVIRONMENT What a candidate can see   EVIDENCE  Phase 7 dashboard signal findings · executive evidence map 05 / 12 1,246
+posting records in analytical master 704
+descriptions recovered 13
+postings with named-person references •  Signal features describe candidate-facing text and representation.
+•  They do not establish i",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_06," PREDICTION · ECOLOGICAL DIAGNOSTIC The planned predictive model is not estimable   EVIDENCE  Phase 4 metrics and run manifest, carried through Phase 7 06 / 12 3
+matched exact role/month cells 3
+cells with Male outcomes 0
+cells with Female outcomes NO AUC
+no model fit Why stop? Only 3 exact role/month cells have both dated postings and known-sex ob",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_07," FEEDBACK · TEMPORAL/ECOLOGICAL Feedback is exploratory and coverage-limited   EVIDENCE  Phase 7 feedback findings · frozen executive brief 07 / 12 5
+exact role/month overlaps APR–JUL
+observed start-month coverage AUG–SEP
+unavailable, not zero •  Forward comparisons have very few month pairs; the +2 month analysis is deferred.
+•  The unit is an agg",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_08, OBSERVABILITY BOUNDARY What public data cannot see   EVIDENCE  Phase 8 data-gap visual · Phase 7 limitations 08 / 12,PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_09," INTERNAL AUDIT ARCHITECTURE What an internal workflow audit would need   EVIDENCE  Phase 7 evidence map · limitations 09 / 12 MODEL INPUTS
+criteria · weights · thresholds AI OUTPUTS
+rank · recommendation · match score HUMAN ACTIONS
+accept · override · rationale FUNNEL
+stage · transition · disposition INTERVIEW
+scorecards · evaluators AUDITABLE, PR",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_10," SUPPORTED CONCLUSIONS What Version C can responsibly conclude   EVIDENCE  Phase 7–9 frozen executive outputs 10 / 12 •  The observed outcome composition is measurable: 606 MALE, 276 FEMALE, 213 UNKNOWN.
+•  Candidate-facing public recruiting signals can be measured and traced to postings.
+•  The planned role/month predictive model is not estimable ",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_11," NEXT EVIDENCE What evidence would close the auditability gap?   EVIDENCE  Phase 7 data-gap table · Phase 8 data-gap visual 11 / 12 01 Talent Matching outputs Recommendations, rank, score, and model/version metadata 02 Criteria and weights Configured features, thresholds, and change history 03 Recruiter overrides Actions, timestamps, and documented",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.
+slide_12," PORTFOLIO CONTRIBUTION A reproducible ML / HXO research method   EVIDENCE  Phase 9 brief · Phase 7 validation · Phase 8 visualization manifest 12 / 12 Designed and implemented a provenance-first method for separating model-level questions, human-AI workflow questions, and observed outcome evidence. ML RIGOR
+grouped ecological unit · leakage bounda",PASS,Slide source references and presentation manifest,See 10_executive_presentation.py SLIDE_SPECS for slide-level artifact map.

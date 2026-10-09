@@ -1,0 +1,14 @@
+{
+  "url": "https://api.deweydata.io/api/v1/external/data/prj_37ga6vtz__dst_m4nxsxh8aggbim3d/metadata",
+  "status": 200,
+  "body": {
+    "total_files": 389,
+    "total_size": 92923583333,
+    "total_partitions": 0,
+    "partition_type": null,
+    "partition_column": null,
+    "partition_aggregation": null,
+    "min_partition_key": null,
+    "max_partition_key": null
+  }
+}

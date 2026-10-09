@@ -1,0 +1,4 @@
+check,status,detail
+canonical_outcomes,PASS,"{""FEMALE"": 276, ""MALE"": 606, ""UNKNOWN"": 213}"
+prediction_limit_preserved,PASS,Phase 4 status=NOT_ESTIMABLE
+no_internal_steps_misrepresented,PASS,Missing implementation artifacts are explicitly enumerated; not reported as completed.

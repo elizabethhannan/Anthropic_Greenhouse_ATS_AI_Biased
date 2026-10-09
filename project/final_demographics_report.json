@@ -1,0 +1,394 @@
+{
+  "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring.",
+  "employment_rows": 1097,
+  "distinct_people": 1095,
+  "unmatched_people": 0,
+  "raw_sex_counts": [
+    {
+      "value": "",
+      "people": 213
+    },
+    {
+      "value": "female",
+      "people": 276
+    },
+    {
+      "value": "male",
+      "people": 606
+    }
+  ],
+  "source_research_status_counts": {
+    "Non-Research": 545,
+    "Insufficient Evidence": 511,
+    "Research": 40
+  },
+  "methodology": [
+    "Research is the existing title-based classification, reported as Confirmed Research without upgrading its evidence.",
+    "No probable classifications exist in this source; unresolved roles remain Insufficient Evidence.",
+    "Distinct people counted within each group. Multiple employment records can put a person in multiple groups; totals across groups are not additive.",
+    "Raw SEX preserved. Unknown values were not inferred. Percentages for empty groups are null.",
+    "Person extract has unique IDs; duplicate search covered 388 of 389 source files before all targets were found."
+  ],
+  "summaries": [
+    {
+      "dimension": "all_hires",
+      "group_name": "All Anthropic hires",
+      "female": 276,
+      "male": 606,
+      "unknown": 213,
+      "total": 1095,
+      "female_pct_all": 25.205479452054796,
+      "female_pct_known": 31.292517006802722,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_status",
+      "group_name": "Confirmed Research",
+      "female": 8,
+      "male": 19,
+      "unknown": 13,
+      "total": 40,
+      "female_pct_all": 20.0,
+      "female_pct_known": 29.62962962962963,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_status",
+      "group_name": "Confirmed + Probable Research",
+      "female": 8,
+      "male": 19,
+      "unknown": 13,
+      "total": 40,
+      "female_pct_all": 20.0,
+      "female_pct_known": 29.62962962962963,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_status",
+      "group_name": "Insufficient Evidence",
+      "female": 88,
+      "male": 328,
+      "unknown": 95,
+      "total": 511,
+      "female_pct_all": 17.22113502935421,
+      "female_pct_known": 21.153846153846153,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_status",
+      "group_name": "Non-Research",
+      "female": 181,
+      "male": 259,
+      "unknown": 105,
+      "total": 545,
+      "female_pct_all": 33.211009174311926,
+      "female_pct_known": 41.13636363636363,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_status",
+      "group_name": "Probable Non-Research",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Research Scientist",
+      "female": 0,
+      "male": 5,
+      "unknown": 0,
+      "total": 5,
+      "female_pct_all": 0.0,
+      "female_pct_known": 0.0,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Research Engineer",
+      "female": 0,
+      "male": 0,
+      "unknown": 1,
+      "total": 1,
+      "female_pct_all": 0.0,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Research-oriented MTS",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Fellows Researcher",
+      "female": 8,
+      "male": 14,
+      "unknown": 10,
+      "total": 32,
+      "female_pct_all": 25.0,
+      "female_pct_known": 36.36363636363637,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Alignment / AI Safety",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Interpretability",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Pre-training",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Post-training",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Reinforcement Learning",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Evaluations",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "Model Behavior",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "research_category",
+      "group_name": "AI/ML Research - Other",
+      "female": 0,
+      "male": 0,
+      "unknown": 2,
+      "total": 2,
+      "female_pct_all": 0.0,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "functional_category",
+      "group_name": "Engineering - General / Unspecified",
+      "female": 51,
+      "male": 235,
+      "unknown": 72,
+      "total": 358,
+      "female_pct_all": 14.245810055865922,
+      "female_pct_known": 17.832167832167833,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "Individual Contributor",
+      "female": 90,
+      "male": 279,
+      "unknown": 91,
+      "total": 460,
+      "female_pct_all": 19.565217391304348,
+      "female_pct_known": 24.390243902439025,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "Manager",
+      "female": 17,
+      "male": 27,
+      "unknown": 11,
+      "total": 55,
+      "female_pct_all": 30.90909090909091,
+      "female_pct_known": 38.63636363636363,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "Senior Manager",
+      "female": 0,
+      "male": 1,
+      "unknown": 0,
+      "total": 1,
+      "female_pct_all": 0.0,
+      "female_pct_known": 0.0,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "Lead",
+      "female": 13,
+      "male": 10,
+      "unknown": 3,
+      "total": 26,
+      "female_pct_all": 50.0,
+      "female_pct_known": 56.52173913043478,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "Director",
+      "female": 3,
+      "male": 6,
+      "unknown": 0,
+      "total": 9,
+      "female_pct_all": 33.333333333333336,
+      "female_pct_known": 33.333333333333336,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "Senior Director",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "Head",
+      "female": 9,
+      "male": 30,
+      "unknown": 10,
+      "total": 49,
+      "female_pct_all": 18.367346938775512,
+      "female_pct_known": 23.076923076923077,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "VP / SVP / EVP",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "C-Suite / Executive",
+      "female": 0,
+      "male": 0,
+      "unknown": 0,
+      "total": 0,
+      "female_pct_all": null,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "Founder / Co-founder",
+      "female": 0,
+      "male": 0,
+      "unknown": 1,
+      "total": 1,
+      "female_pct_all": 0.0,
+      "female_pct_known": null,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    },
+    {
+      "dimension": "leadership_level",
+      "group_name": "Unclear Leadership Level",
+      "female": 144,
+      "male": 253,
+      "unknown": 97,
+      "total": 494,
+      "female_pct_all": 29.149797570850204,
+      "female_pct_known": 36.272040302267,
+      "snapshot_scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    }
+  ],
+  "verified_artifacts": [
+    {
+      "key": "filtered/analysis/anthropic_hires_enriched_current_snapshot.parquet",
+      "bytes": 80736
+    },
+    {
+      "key": "outputs/anthropic_all_hires_demographics_current_snapshot.csv",
+      "bytes": 319
+    },
+    {
+      "key": "outputs/anthropic_research_demographics_current_snapshot.csv",
+      "bytes": 1162
+    },
+    {
+      "key": "outputs/anthropic_research_category_demographics_current_snapshot.csv",
+      "bytes": 2363
+    },
+    {
+      "key": "outputs/anthropic_engineering_demographics_current_snapshot.csv",
+      "bytes": 342
+    },
+    {
+      "key": "outputs/anthropic_leadership_demographics_current_snapshot.csv",
+      "bytes": 2321
+    },
+    {
+      "key": "outputs/anthropic_gender_summary_current_snapshot.csv",
+      "bytes": 6131
+    }
+  ]
+}

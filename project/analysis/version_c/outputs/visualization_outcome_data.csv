@@ -1,0 +1,7 @@
+population,outcome_sex,person_count,share_all_people,share_known_sex,denominator_all_people,denominator_known_sex,source_field,sex_inferred
+all_observed_people,MALE,606,0.5534246575342465,0.6870748299319728,1095,882,source_SEX,False
+all_observed_people,FEMALE,276,0.25205479452054796,0.3129251700680272,1095,882,source_SEX,False
+all_observed_people,UNKNOWN,213,0.19452054794520549,,1095,882,source_SEX,False
+observed_research_hires,MALE,19,0.475,0.7037037037037037,40,27,source_SEX,False
+observed_research_hires,FEMALE,8,0.2,0.2962962962962963,40,27,source_SEX,False
+observed_research_hires,UNKNOWN,13,0.325,,40,27,source_SEX,False

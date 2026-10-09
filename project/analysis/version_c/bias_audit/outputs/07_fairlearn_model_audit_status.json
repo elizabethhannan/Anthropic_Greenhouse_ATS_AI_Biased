@@ -1,0 +1,26 @@
+{
+  "status": "AUDIT_ARCHITECTURE_READY_NOT_RUN",
+  "required_future_data": [
+    "candidate_id",
+    "stage",
+    "y_true",
+    "y_pred",
+    "sex",
+    "role_family"
+  ],
+  "candidate_id_use": "deduplication/cluster-aware split only; never included in exported analysis",
+  "metrics": [
+    "selection rate",
+    "demographic parity difference",
+    "demographic parity ratio",
+    "true positive rate",
+    "false positive rate",
+    "equalized odds comparison",
+    "calibration"
+  ],
+  "run_performed": false,
+  "reason": "No candidate-level labels, predictions, or source-provided demographic audit attribute are available in public data.",
+  "unknown_handling": "retain Unknown as its own reporting category; do not infer or collapse",
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased",
+  "github_publish_performed": false
+}

@@ -1,0 +1,18 @@
+check_id,description,status,details
+P14-UP-01,Required upstream artifact exists: version_c_external_package_qa_report.md,PASS,/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/outputs/version_c_external_package_qa_report.md
+P14-UP-02,Required upstream artifact exists: version_c_external_package_qa_manifest.json,PASS,/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/outputs/version_c_external_package_qa_manifest.json
+P14-UP-03,Required upstream artifact exists: phase13_external_package_qa.csv,PASS,/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/audit/phase13_external_package_qa.csv
+P14-UP-04,Required upstream artifact exists: external_release_candidate,PASS,/Users/elizabethhannan/Downloads/AnthropicBiasData/analysis/version_c/outputs/external_release_candidate
+P14-006,"Phase 13 QA report, manifest, and audit pass",PASS,qa_status=PASS; audit_rows=19
+P14-006B,Phase 13 fingerprint matches the audited candidate,PASS,computed=d002ac1056f5790eb594faf1091d15be3df0fdc8fbb9a5dd10af94076c62af2c; expected=d002ac1056f5790eb594faf1091d15be3df0fdc8fbb9a5dd10af94076c62af2c
+P14-006C,Phase 12 publication hold remains active,PASS,status=HOLD_REVIEW_REQUIRED; certified=False
+P14-007,Repository governance documents exist,PASS,All present
+P14-008,No row-level/binary source data extensions,PASS,None; aggregate CSVs retained by design
+P14-009,No obviously sensitive filenames,PASS,None
+P14-010,No obvious credential patterns,PASS,None
+P14-011,README preserves research boundaries,PASS,All phrases present
+P14-012,Publication hold preserves licensing/privacy review,PASS,All phrases present
+P14-013,README preserves canonical metrics,PASS,All metrics present
+P14-014,Phase 13 fingerprint is preserved,PASS,d002ac1056f5790eb594faf1091d15be3df0fdc8fbb9a5dd10af94076c62af2c
+P14-015,No automatic GitHub publish workflow,PASS,None
+P14-016,Phase 12 candidate files copied,PASS,45 files copied

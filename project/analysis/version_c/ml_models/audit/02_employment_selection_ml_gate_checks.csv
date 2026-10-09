@@ -1,0 +1,12 @@
+check_id,status,detail
+aggregate_input_inventory,PASS,"Inputs recorded=['bridge', 'hiring', 'master', 'signals']; expected at least=['bridge', 'hiring', 'master', 'signals']"
+phase4_reconciliation,PASS,Phase 4=NOT_ESTIMABLE; matched/male/female=3/3/0; workstream=3/3/0
+frozen_phase2_phase3_inputs,PASS,Recorded source hashes and frozen row counts reconcile.
+step01_output_hashes,PASS,Verified 8 ML workstream output hashes.
+design_guards,PASS,candidate_linkage=False; unknown_target=False; archive_date=False; causal_claim=False
+independent_aggregate_unit,PASS,Phase 2 aggregate bridge rows=41; eligible matched role/month cells=3; no row expansion used.
+role_month_cell_minimum,NOT_MET,Eligible cells=3; minimum=20
+male_class_variation_minimum,NOT_MET,Cells with Male outcomes=3; minimum=5
+female_class_variation_minimum,NOT_MET,Cells with Female outcomes=0; minimum=5
+model_execution_follows_gate,PASS,All recorded model rows are NOT_ESTIMABLE; no fitted result is present.
+github_destination_preserved,PASS,Destination metadata=https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased; no network/publish action performed.

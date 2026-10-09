@@ -1,0 +1,38 @@
+{
+  "status": "PUBLIC_DATA_NOT_ESTIMABLE_INTERNAL_DATA_NOT_PROVIDED",
+  "public_adverse_impact_calculable": false,
+  "future_internal_rates_present": false,
+  "future_male_female_impact_ratio_calculable_at_any_stage": false,
+  "current_public_outcomes": {
+    "Male": 606,
+    "Female": 276,
+    "Unknown": 213
+  },
+  "current_public_total": 1095,
+  "required_denominators_missing": [
+    "Male applicants",
+    "Female applicants",
+    "Male screened",
+    "Female screened",
+    "Male interviewed",
+    "Female interviewed",
+    "Male offered",
+    "Female offered",
+    "Candidate-stage demographic history"
+  ],
+  "four_fifths_threshold": 0.8,
+  "four_fifths_interpretation": "Screening indicator only; not a legal finding.",
+  "no_fabricated_denominators": true,
+  "sex_inference": false,
+  "unknown_collapsed": false,
+  "candidate_level_linkage_created": false,
+  "greenhouse_causal_claim": false,
+  "plan_a_modified": false,
+  "next_instrumentation": [
+    "stage",
+    "demographic_group",
+    "entered_count",
+    "selected_count"
+  ],
+  "run_timestamp_utc": "2026-10-01T06:57:53.244896+00:00"
+}

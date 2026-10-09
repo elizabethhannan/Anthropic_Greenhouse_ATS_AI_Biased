@@ -1,0 +1,11 @@
+check,status
+required:README.md,PASS
+required:final_executive_dashboard_d3.html,PASS
+required:VERSION_C_3_0_EXECUTIVE_BRIEF.md,PASS
+required:VERSION_C_3_0_EXECUTIVE_PRESENTATION.html,PASS
+required:executive_evidence_v3.json,PASS
+required:PACKAGE_MANIFEST.json,PASS
+README required content present,PASS
+package manifest hashes reconcile,PASS
+publication hold preserved,PASS
+no publish performed,PASS

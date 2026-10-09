@@ -1,0 +1,8 @@
+check,status,rows,sha256,details
+input:version_c_master.parquet,PASS,1246,5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d,Read-only frozen Phase 2/3 input.
+input:version_c_hiring_outcomes.parquet,PASS,1095,91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249,Read-only frozen Phase 2/3 input.
+input:version_c_role_month_bridge.parquet,PASS,41,48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108,Read-only frozen Phase 2/3 input.
+input:signal_features.parquet,PASS,1246,5d8f9fa3ddc2ab23c1718cd8f01e4f8f0f87b6dbcacbed56520c89134decb681,Read-only frozen Phase 2/3 input.
+frozen_bridge_hire_counts,RECONCILED_IN_MEMORY,41,,Cells with outcomes=0; Phase 2 files unchanged.
+model_sample_adequacy,NOT_ESTIMABLE,3,,"Only 3 eligible exact role-month cells are available (minimum 20); class counts are {'male_majority': 3, 'female_majority': 0} (minimum 5 cells per class). Grouped binary validation and model fitting are not estimable."
+candidate_level_linkage,PASS,0,,No person-to-posting linkage created.

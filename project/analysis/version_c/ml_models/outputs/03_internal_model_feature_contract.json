@@ -1,0 +1,49 @@
+{
+  "target_track": "Future internal candidate-stage selection model",
+  "target_column": "selected",
+  "target_stage": "screened",
+  "target_definition": "Whether a candidate entering the named stage was selected to advance from that stage.",
+  "predictive_features": {
+    "numeric": [
+      "signal_research",
+      "signal_technical",
+      "signal_leadership",
+      "signal_collaboration",
+      "signal_accomplishment",
+      "signal_candidate_expectations"
+    ],
+    "categorical": [
+      "role_family",
+      "application_month"
+    ]
+  },
+  "identifier_columns_never_used_as_features": [
+    "candidate_record_key",
+    "requisition_id"
+  ],
+  "audit_only_columns_never_used_as_features": [
+    "demographic_group",
+    "selection_stage"
+  ],
+  "forbidden_features": [
+    "sex",
+    "gender",
+    "name",
+    "pronouns",
+    "protected attributes",
+    "post-hire outcomes",
+    "future stage outcomes",
+    "candidate identifiers",
+    "Greenhouse person-linkage keys"
+  ],
+  "minimum_gate": {
+    "rows": 100,
+    "independent_requisitions": 20,
+    "requisitions_with_each_outcome": 5,
+    "grouped_cv_folds": 5
+  },
+  "validation": "GroupKFold by requisition; no requisition crosses train/test; class balancing, if needed, is via training weights only; no oversampling or synthetic rows.",
+  "output_policy": "Aggregate cross-validation metrics and feature summaries only; do not export candidate identifiers, row-level predictions, or training rows.",
+  "public_data_track": "Separate aggregate role/month target; current public gate result is not estimable and is never overridden by this internal model track.",
+  "github_repository_destination": "https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased"
+}

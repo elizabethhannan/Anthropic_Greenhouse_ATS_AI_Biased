@@ -1,0 +1,9 @@
+limitation,detail,applies_to,severity
+No candidate-level linkage,Public posting records cannot be linked to individual observed hires; all comparisons remain aggregate/ecological.,"SIGNAL, PREDICTION, FEEDBACK",STRUCTURAL_DATA_GAP
+Prediction not estimable,"Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable.",PREDICTION,BLOCKING_FOR_MODEL_CLAIMS
+Sparse temporal overlap,Phase 5 uses 5 exact role/month posting-hiring overlaps; +1 month has at most three observed pairs and +2 month is deferred.,FEEDBACK,LOW_POWER
+Incomplete observed start coverage,"Observed starts are available April-July 2026. August and September are unavailable, not zero.","OUTCOMES, FEEDBACK",TEMPORAL_COVERAGE
+Archive date distinction,Archive capture-only evidence is not treated as an established posting date in temporal comparisons.,"SIGNAL, FEEDBACK",METHOD_RULE
+Unknown source sex,213 records have blank/null source sex and remain UNKNOWN; they are excluded from known-sex shares.,OUTCOMES,MISSINGNESS
+No causal identification,No phase establishes that recruiting signals caused observed outcome composition.,ALL,CAUSAL_BOUNDARY
+Internal workflow unavailable,"No internal Greenhouse matching, recruiter override, applicant-stage, or funnel data are present.",GOVERNANCE,INTERNAL_DATA_GAP

@@ -1,0 +1,13 @@
+check_id,status,detail
+frozen_outcome_counts,PASS,MALE=606; FEMALE=276; UNKNOWN=213; total=1095
+known_sex_percentages,PASS,MALE=68.7075%; FEMALE=31.2925%
+known_sex_ratio,PASS,MALE/FEMALE=2.1957:1
+prediction_gate_preserved,PASS,"Phase 4 status=NOT_ESTIMABLE; Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable."
+no_sex_inference,PASS,Frozen outcome rows preserve source categories; no inference introduced.
+no_person_linkage_claim,PASS,Phase 4 control is present in frozen findings; dashboard reports aggregate evidence only.
+no_causal_claim,PASS,Causal attribution is explicitly disclaimed in dashboard copy.
+phase14_publication_hold,PASS,Controlled executive review only; publication remains HOLD / REVIEW REQUIRED.
+standalone_html,PASS,Inline CSS and embedded neumorphic visual; no remote assets.
+neumorphic_visual,PASS,Aggregate outcome image generated with the Version C visual module.
+required_thesis_in_html,PASS,Locked Version 3.0 question and proposed function are present.
+html_research_controls,PASS,"UNKNOWN, causal, and candidate-linkage boundaries are stated."

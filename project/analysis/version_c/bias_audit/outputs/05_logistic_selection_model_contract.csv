@@ -1,0 +1,15 @@
+field,role,required
+candidate_id,schema/audit field,yes
+application_id,schema/audit field,yes
+job_id,schema/audit field,yes
+application_timestamp,schema/audit field,yes
+stage,schema/audit field,yes
+stage_outcome,schema/audit field,yes
+selected,schema/audit field,yes
+sex,schema/audit field,yes
+job_family,candidate feature (future reviewed contract),no
+seniority,candidate feature (future reviewed contract),no
+location,candidate feature (future reviewed contract),no
+source_channel,candidate feature (future reviewed contract),no
+experience_band,candidate feature (future reviewed contract),no
+stage_elapsed_time,candidate feature (future reviewed contract),no

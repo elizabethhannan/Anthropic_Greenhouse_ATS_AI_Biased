@@ -1,0 +1,34 @@
+{
+  "step": 2,
+  "name": "Adverse Impact Audit Gate",
+  "status": "PASS",
+  "audit_result": "PUBLIC_DATA_NOT_ESTIMABLE_INTERNAL_DATA_NOT_PROVIDED",
+  "run_timestamp_utc": "2026-10-01T06:57:53.245788+00:00",
+  "step01_manifest_status": "NOT_ESTIMABLE_FROM_CURRENT_PUBLIC_DATA",
+  "inputs": {
+    "outputs/selection_audit_status.json": "f9dcdddafab5cad6352e6a517ec173b696f2cbe51a4b35a12a411e8b33ea49f2",
+    "outputs/adverse_impact_summary.csv": "46bb2a7ead0102dd6ca59e485104cda6fe9cdc6e629f856e9375dae69c650413",
+    "outputs/public_data_selection_requirements.csv": "39708b45f52265c1dbb9e434fa230803f0e22577840493b587b1d3caf319d0e4",
+    "outputs/future_internal_data_requirements.csv": "8597c7e745468c4fcfaa6d58315a5ef4cad878210c47e3995f2d19c576262da9",
+    "audit/selection_audit_audit.csv": "e97d9f1349f4082a66fc9b69e29ee58759a171381353d0f96719283d6d798d84",
+    "audit/selection_audit_manifest.json": "6fba19b3f8006af95a277969beacfc951ec3188b7eafbde30e696a4b4f7cc64b"
+  },
+  "internal_stage_rate_file_present": false,
+  "outputs": {
+    "readiness_by_stage": {
+      "path": "outputs/step02_adverse_impact_audit/adverse_impact_readiness_by_stage.csv",
+      "sha256": "ad0bad6656cc845088f666d399f135346d465e41cea9c5aea33465d5463da8e2"
+    },
+    "status": {
+      "path": "outputs/step02_adverse_impact_audit/adverse_impact_audit_status.json",
+      "sha256": "f3d3c77ae9e4df68ddb3ee35ee01d4a6b55462a9a14b1c46690bb74f7369a59f"
+    },
+    "checks": {
+      "path": "audit/step02_adverse_impact_audit/adverse_impact_audit_checks.csv",
+      "sha256": "f5cc82ae30d7ff136689c868c0711040f3a6b7e8d602e9b0e268bd6852b3185b"
+    }
+  },
+  "check_count": 9,
+  "failures": 0,
+  "legal_finding": false
+}

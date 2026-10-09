@@ -1,0 +1,120 @@
+{
+  "scope": "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring.",
+  "headlines": [
+    [
+      "headline",
+      "Confirmed Research",
+      8,
+      19,
+      13,
+      40,
+      20.0,
+      29.62962962962963,
+      "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    ],
+    [
+      "headline",
+      "Confirmed + Probable Research",
+      8,
+      19,
+      13,
+      40,
+      20.0,
+      29.62962962962963,
+      "Within the current Dewey/People Data Labs snapshot of observed Anthropic starts (April\u2013July 2026); not complete April\u2013September hiring."
+    ]
+  ],
+  "source_columns": {
+    "research_category": "ROLE_CATEGORY",
+    "research_uncertainty_reason": "research_reason_code"
+  },
+  "monthly_observed_starts": [
+    [
+      "2026-04",
+      342,
+      342
+    ],
+    [
+      "2026-05",
+      339,
+      339
+    ],
+    [
+      "2026-06",
+      318,
+      318
+    ],
+    [
+      "2026-07",
+      98,
+      98
+    ]
+  ],
+  "artifacts": [
+    {
+      "key": "outputs/anthropic_all_hires_demographics_current_snapshot.csv",
+      "bytes": 802
+    },
+    {
+      "key": "outputs/anthropic_all_hires_demographics_current_snapshot.parquet",
+      "bytes": 1641
+    },
+    {
+      "key": "outputs/anthropic_research_status_demographics_current_snapshot.csv",
+      "bytes": 1116
+    },
+    {
+      "key": "outputs/anthropic_research_status_demographics_current_snapshot.parquet",
+      "bytes": 2398
+    },
+    {
+      "key": "outputs/anthropic_research_category_demographics_current_snapshot.csv",
+      "bytes": 2363
+    },
+    {
+      "key": "outputs/anthropic_research_category_demographics_current_snapshot.parquet",
+      "bytes": 2791
+    },
+    {
+      "key": "outputs/anthropic_engineering_demographics_current_snapshot.csv",
+      "bytes": 1703
+    },
+    {
+      "key": "outputs/anthropic_engineering_demographics_current_snapshot.parquet",
+      "bytes": 2523
+    },
+    {
+      "key": "outputs/anthropic_leadership_demographics_current_snapshot.csv",
+      "bytes": 2255
+    },
+    {
+      "key": "outputs/anthropic_leadership_demographics_current_snapshot.parquet",
+      "bytes": 2581
+    },
+    {
+      "key": "outputs/anthropic_uncertainty_reason_demographics_current_snapshot.csv",
+      "bytes": 2272
+    },
+    {
+      "key": "outputs/anthropic_uncertainty_reason_demographics_current_snapshot.parquet",
+      "bytes": 2712
+    },
+    {
+      "key": "outputs/anthropic_gender_summary_current_snapshot.csv",
+      "bytes": 9982
+    },
+    {
+      "key": "outputs/anthropic_gender_summary_current_snapshot.parquet",
+      "bytes": 3606
+    }
+  ],
+  "methodology": [
+    "All counts are distinct people within each group; groups can overlap across employment records.",
+    "Research means the existing Research classification, not independent verification. No probable classifications currently exist.",
+    "Unknown is Source Blank throughout this snapshot. Raw SEX and reasons are unchanged.",
+    "Engineering reason breakdown intersects each reason with the engineering function; the full uncertainty table includes those reasons across all functions.",
+    "Zero-person groups retained; undefined percentages are null. Known-sex denominator is Female + Male.",
+    "August and September have zero observed starts; this does not establish zero hiring.",
+    "Enriched source ETag unchanged; every output was read back and verified."
+  ]
+}

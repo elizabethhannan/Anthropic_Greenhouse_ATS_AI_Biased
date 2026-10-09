@@ -1,0 +1,7 @@
+layer,status,finding,limitation
+OUTCOME,OBSERVED,606 MALE / 276 FEMALE / 213 UNKNOWN; N=1095,Descriptive observed outcome composition; not a complete hiring funnel.
+SIGNAL,OBSERVABLE,1246 public posting records summarized,Posting text is not individual treatment evidence.
+PREDICTION,NOT_ESTIMABLE,Prediction is NOT ESTIMABLE FROM PUBLIC DATA,Only 3 exact eligible role/month cells; 0 cells with female outcomes.
+FEEDBACK,EXPLORATORY,Exploratory aggregate role/month associations,"Coverage-limited; August and September observed starts unavailable, not zero."
+WORKFLOW,DATA GAP,8 internal workflow stages mapped,"Internal AI, recruiter, funnel, interview, employment, and advancement evidence is not public."
+ADVERSE IMPACT,NOT ESTIMABLE FROM PUBLIC DATA,Selection-rate denominators are absent,No applicant or stage-specific demographic denominators; no 4/5ths rate computed.

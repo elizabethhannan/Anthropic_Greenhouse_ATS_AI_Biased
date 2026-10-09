@@ -1,0 +1,35 @@
+{
+  "audit_type": "version_c_phase0_headline_denominator",
+  "checks": {
+    "employment_rows_exceed_people_due_to_multiple_jobs": true,
+    "name_based_inference_used": false,
+    "original_sex_preserved": true,
+    "person_profile_rows_match_distinct_people": true,
+    "research_counts_match_demographics_report": true,
+    "sex_counts_sum_to_distinct_people": true
+  },
+  "denominator_csv_sha256": "82b187de58f1e4ae7ea515d465436b0295296d3da5973ec32f2af1ca304fb2e9",
+  "distinct_people": 1095,
+  "employment_rows": 1097,
+  "female_percent_known_sex": 31.29,
+  "known_sex_denominator": 882,
+  "male_female_ratio": 2.2,
+  "male_percent_known_sex": 68.71,
+  "manifest_version": "C",
+  "raw_source_sex_counts": {
+    "": 213,
+    "female": 276,
+    "male": 606
+  },
+  "research_counts": {
+    "female": 8,
+    "female_percent_known_sex": 29.63,
+    "known_sex_denominator": 27,
+    "male": 19,
+    "male_percent_known_sex": 70.37,
+    "total": 40,
+    "unknown": 13
+  },
+  "supporting_report_sha256": "2769478d35945a9115f5c72fa00fe97f8b1a64bfee4e27627c61d1be8d204b85",
+  "unknown_percent_all": 19.45
+}

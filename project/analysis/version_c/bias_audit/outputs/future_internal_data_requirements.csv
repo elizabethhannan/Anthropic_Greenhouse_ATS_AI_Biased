@@ -1,0 +1,11 @@
+priority,required_data,male,female,unknown,purpose
+1,Applicant demographic counts,Required,Required,Retain separately,Applicant-pool denominator
+2,Screening-stage demographic counts,Required,Required,Retain separately,Screening selection rate
+3,Interview-stage demographic counts,Required,Required,Retain separately,Interview selection rate
+4,Offer-stage demographic counts,Required,Required,Retain separately,Offer selection rate
+5,Hire-stage demographic counts,Required,Required,Retain separately,Final selection rate
+6,Stage transition timestamps,Preferred,Preferred,Retain separately,Temporal/funnel analysis
+7,Job/requisition identifier,Preferred,Preferred,Retain separately,Role/requisition stratification
+8,Recruiting workflow / AI-assistance indicators,Preferred,Preferred,Retain separately,Human-AI workflow audit
+9,Recruiter / hiring-manager decision events,Preferred,Preferred,Retain separately,Human decision-path analysis
+10,AI recommendation and override logs,Preferred,Preferred,Retain separately,AI-vs-human contribution analysis

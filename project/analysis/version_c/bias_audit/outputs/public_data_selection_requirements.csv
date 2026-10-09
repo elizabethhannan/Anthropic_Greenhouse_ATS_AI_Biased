@@ -1,0 +1,14 @@
+data_element,available,value,required_for_adverse_impact,current_status
+Male hires,True,606.0,True,Available
+Female hires,True,276.0,True,Available
+Unknown outcomes,True,213.0,False,Available; retained separately
+Distinct people,True,1095.0,False,Available
+Male applicants,False,,True,Missing
+Female applicants,False,,True,Missing
+Male screened,False,,True,Missing
+Female screened,False,,True,Missing
+Male interviewed,False,,True,Missing
+Female interviewed,False,,True,Missing
+Male offered,False,,True,Missing
+Female offered,False,,True,Missing
+Candidate-stage demographic history,False,,True,Missing

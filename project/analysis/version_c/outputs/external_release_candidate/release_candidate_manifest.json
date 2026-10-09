@@ -1,0 +1,242 @@
+{
+  "phase": 12,
+  "created_at_utc": "2026-09-30T21:45:53.884081+00:00",
+  "status": "HOLD_REVIEW_REQUIRED",
+  "phase11_status": "PASS_WITH_WARNINGS",
+  "publication_certified": false,
+  "exclusions": [
+    "raw/row-level Dewey data",
+    "person-level data and person IDs",
+    "candidate-level linkage",
+    "resumes",
+    "recruiter records",
+    "interview scorecards",
+    "internal Greenhouse/Anthropic data",
+    "credentials/secrets"
+  ],
+  "missing_allowlisted_inputs": [],
+  "sensitive_scan_findings": [],
+  "artifact_inventory": [
+    {
+      "path": "README.md",
+      "bytes": 864,
+      "sha256": "324390b432cb95211734c4b46f7b752e2a788eaa4b0b9b5a456fd958065cc802"
+    },
+    {
+      "path": "RELEASE_STATUS.md",
+      "bytes": 634,
+      "sha256": "fd857c720fc76085a2f0e3b606ee520de34e2b4fd498c47145e6b72488d44496"
+    },
+    {
+      "path": "audit/phase11_claim_audit.csv",
+      "bytes": 6812,
+      "sha256": "7e314a1faeca2541d8c78bddaa60b3c55d043628567006ae8df9a34de9ee5ef9"
+    },
+    {
+      "path": "audit/phase11_provenance_manifest.json",
+      "bytes": 15736,
+      "sha256": "376710ab93fe28b581f600ccc8611af10ac5dde7255df950ddf2f31ca730a8ee"
+    },
+    {
+      "path": "audit/phase11_reproducibility_checks.csv",
+      "bytes": 12868,
+      "sha256": "9eb2c01ac05b5d90d967599a2e4e9c1b84db3971e0052eaa1ac9ab9239e9a9e5"
+    },
+    {
+      "path": "audit/phase11_schema_audit.csv",
+      "bytes": 519,
+      "sha256": "baccb83a5dce8101c271d781414f4a4a2aadb3312c5d5d0b933ed848830b6053"
+    },
+    {
+      "path": "audit/phase12_sensitive_content_scan.csv",
+      "bytes": 1878,
+      "sha256": "5ea3270b477c6e982e27e8ef9adc08484130dcaa14005fe71301cf46d4dc5cea"
+    },
+    {
+      "path": "audit/version_c_reproducibility_report.md",
+      "bytes": 1469,
+      "sha256": "f1b43c1d3d261e060f91d638596be9f2ba542c442ffe83faeb0aadc200ce7778"
+    },
+    {
+      "path": "code/01_prepare_version_c.py",
+      "bytes": 25054,
+      "sha256": "9ac9679867f2f51b7b097808467e2b9883d6a5e55f60f5647fac093ccf1d2d5d"
+    },
+    {
+      "path": "code/02_signal_diagnostic.py",
+      "bytes": 26401,
+      "sha256": "b81f81b11a14b91247a1985737acf878bf954c46ec2e5f97ba36366a74c9819d"
+    },
+    {
+      "path": "code/03_predictive_models.py",
+      "bytes": 25690,
+      "sha256": "fc7da476c61712315cd04301642eb017337725269e1368ffb82af66fe777b65c"
+    },
+    {
+      "path": "code/04_feedback_diagnostic.py",
+      "bytes": 23548,
+      "sha256": "754ef4fb76029150b9751eed270e0a7c0ee31933eed538fb078cd3947e084756"
+    },
+    {
+      "path": "code/05_male_female_unknown_outcomes.py",
+      "bytes": 21767,
+      "sha256": "81403ae4c8ff84cd3911fddec08e05075c58a6808092db71df486100ad4edef7"
+    },
+    {
+      "path": "code/06_executive_dashboard_data.py",
+      "bytes": 24773,
+      "sha256": "ecae3ec9e464148f99821d5e1d396c1ab5f82a21105c55ae3a2ac6688332f222"
+    },
+    {
+      "path": "code/07_validate_executive_dashboard.py",
+      "bytes": 15120,
+      "sha256": "0ee6fed34213885d19cb2dedfae76a126497d966eb7e63022e26cc55442b32ed"
+    },
+    {
+      "path": "code/07_version_c_final_audit.py",
+      "bytes": 20039,
+      "sha256": "38144afdd4857da222129d4489904b3129b1d993979cb618c24fe544cdfbda12"
+    },
+    {
+      "path": "code/08_executive_visualization_data.py",
+      "bytes": 20310,
+      "sha256": "b23b110ffc2b25d03ab834fa0001c6a053b6dcc6d1885d355ce1ef38d32f1b20"
+    },
+    {
+      "path": "code/09_executive_brief.py",
+      "bytes": 21785,
+      "sha256": "c129eb3413e145ffbe11b8347c64b5a6e45e1496bdcb7a5cf3b4765fa2494e45"
+    },
+    {
+      "path": "code/10_executive_presentation.py",
+      "bytes": 32439,
+      "sha256": "ae9c4f1a1249bea9f71e01e8457f5fb09a3c6b89bd9e54042d6f02fde0ed8d71"
+    },
+    {
+      "path": "code/11_reproducibility_package_audit.py",
+      "bytes": 35541,
+      "sha256": "3275f6a7714113cb6819985fbab021b7e3e579041b0829fe81577d9f410c6aea"
+    },
+    {
+      "path": "code/12_build_external_release_candidate.py",
+      "bytes": 10360,
+      "sha256": "c56e3dd0ed6dd68c24bfaf0577ff579f16d0e8dbb70f20d8df854317c916051c"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "bytes": 433,
+      "sha256": "e1705491407ba09f0eedafb141f7cb3ccf848536d48ec75c7f0cd12c5df3b935"
+    },
+    {
+      "path": "docs/data_license_and_publication_boundary.md",
+      "bytes": 1186,
+      "sha256": "46a0ac9655f4fcb6bec453d18446570677767c1d535e50e4e960df1ef19cdc0a"
+    },
+    {
+      "path": "docs/executive_brief.md",
+      "bytes": 5202,
+      "sha256": "de3c692a6bc1f360a1a4e1fa9024b91118357307fe17a026a3c713fd518d84de"
+    },
+    {
+      "path": "docs/methodology.md",
+      "bytes": 5202,
+      "sha256": "de3c692a6bc1f360a1a4e1fa9024b91118357307fe17a026a3c713fd518d84de"
+    },
+    {
+      "path": "docs/version_c_executive_deck_outline.md",
+      "bytes": 3128,
+      "sha256": "8c7f290bea4bf708c1363f24ea75d8b6b6b11efc2f09ea538eb769c1ee3a015e"
+    },
+    {
+      "path": "results/dashboard_evidence_map.csv",
+      "bytes": 2075,
+      "sha256": "f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28"
+    },
+    {
+      "path": "results/dashboard_feedback_findings.csv",
+      "bytes": 89537,
+      "sha256": "f4dd75f199e912bede10bd6f16e209c3dae1139aceafebc3e366c079a65dfc02"
+    },
+    {
+      "path": "results/dashboard_limitations.csv",
+      "bytes": 1437,
+      "sha256": "bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d"
+    },
+    {
+      "path": "results/dashboard_outcome_distribution.csv",
+      "bytes": 407,
+      "sha256": "2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba"
+    },
+    {
+      "path": "results/dashboard_predictive_findings.csv",
+      "bytes": 2269,
+      "sha256": "383ed1c3da0367bf51eb87ac260c880b79229703a10793b67f42bdef5d9d9245"
+    },
+    {
+      "path": "results/dashboard_signal_findings.csv",
+      "bytes": 1767,
+      "sha256": "9f665d872dff3bd82c0ec28b554e8e6510aa018edcb9bf73eb74c3276cbfcc32"
+    },
+    {
+      "path": "results/feedback_summary.csv",
+      "bytes": 943,
+      "sha256": "4e8aefd13bca44cb40d41e52b73128c8ef13eadfd4a0baad926b8f70098d1011"
+    },
+    {
+      "path": "results/fellowship_outcome_distribution.csv",
+      "bytes": 378,
+      "sha256": "04a501a2284968e289a6c4407ce7aae07b5bd8ac3dca69439cc63f06f657ebc8"
+    },
+    {
+      "path": "results/outcome_distribution.csv",
+      "bytes": 412,
+      "sha256": "86c514434496129e59d01531e5a4ed460452f9477c2401ccff4597074d54b8c2"
+    },
+    {
+      "path": "results/predictive_findings.csv",
+      "bytes": 625,
+      "sha256": "30339ec8c1c232249eb1d1246ec1150c623db0b7d97bfbcab42c2ff879ccc898"
+    },
+    {
+      "path": "results/research_outcome_distribution.csv",
+      "bytes": 368,
+      "sha256": "8c20a998ad531a6314054a15b6e0e368f11f540ca8c245ef204e7a947d9d181b"
+    },
+    {
+      "path": "results/signal_summary.csv",
+      "bytes": 3043,
+      "sha256": "49f378aabd81681f731c44bd62a6ed142fbf720951404911fbd1b10c264b353b"
+    },
+    {
+      "path": "visuals/01_observed_outcomes.png",
+      "bytes": 65149,
+      "sha256": "3a8917c5f9b0d3321b516d61c6a4202bda4029d21ad986e60898b5df82d05360"
+    },
+    {
+      "path": "visuals/02_known_sex_outcomes.png",
+      "bytes": 61605,
+      "sha256": "d49f0db327737e36a2896f52c479198df2061539691498c218347e9e9924cce9"
+    },
+    {
+      "path": "visuals/03_research_outcomes.png",
+      "bytes": 64873,
+      "sha256": "fe6d6ee281c4f979db5cc4edea3796312be5a3995c25bd65af972a8b190f2c20"
+    },
+    {
+      "path": "visuals/04_evidence_architecture.png",
+      "bytes": 104466,
+      "sha256": "889f854d1edfa00a8b071196e29a0f9211670ed02f0d6fb93efd99705b9e1803"
+    },
+    {
+      "path": "visuals/05_data_gaps.png",
+      "bytes": 97593,
+      "sha256": "d14dc0ada9c130f6189db5e8b948a85e02a900911edd66e967cb772404668619"
+    },
+    {
+      "path": "visuals/06_executive_evidence_map.png",
+      "bytes": 134325,
+      "sha256": "fa8de38edecfdba9017bad87c91e010d6e2b39f140e2c75705dfa76ef3ecf3c3"
+    }
+  ],
+  "gate_reason": "Licensing/privacy review is incomplete; Phase 11 warnings remain open."
+}

@@ -1,0 +1,7 @@
+period,coverage_status,distinct_people,male_count,female_count,unknown_count,known_sex_count,male_share_known_sex,female_share_known_sex,unknown_share_all,research_people,research_male,research_female,research_unknown,fellowship_people,fellowship_male,fellowship_female,fellowship_unknown
+2026-04,OBSERVED_STARTS,342,178,86,78,264,0.6742424242424242,0.32575757575757575,0.22807017543859648,4,2,0,2,2,2,0,0
+2026-05,OBSERVED_STARTS,339,190,82,67,272,0.6985294117647058,0.3014705882352941,0.1976401179941003,23,9,6,8,20,6,6,8
+2026-06,OBSERVED_STARTS,318,188,79,51,267,0.704119850187266,0.2958801498127341,0.16037735849056603,10,6,2,2,9,5,2,2
+2026-07,OBSERVED_STARTS,98,50,31,17,81,0.6172839506172839,0.38271604938271603,0.17346938775510204,3,2,0,1,1,1,0,0
+2026-08,NO_OBSERVED_START_COVERAGE,,,,,,,,,,,,,,,,
+2026-09,NO_OBSERVED_START_COVERAGE,,,,,,,,,,,,,,,,

@@ -1,0 +1,10 @@
+check_id,status,detail
+step01_canonical_outcomes,PASS,"outcomes={'Female': 276, 'Male': 606, 'Unknown': 213}; total=1095"
+public_data_gate_not_estimable,PASS,Public-only data remain non-estimable; Step 01 status=NOT_ESTIMABLE_FROM_CURRENT_PUBLIC_DATA; internal selection-rate test=False
+required_public_denominators_missing,PASS,Missing required denominators: Male applicants; Female applicants; Male screened; Female screened; Male interviewed; Female interviewed; Male offered; Female offered; Candidate-stage demographic history
+step01_summary_status_consistent,PASS,Step 01 summary status=NOT_ESTIMABLE_FROM_CURRENT_PUBLIC_DATA
+step01_audit_has_no_failures,PASS,Step 01 failed audit checks=0
+future_requirements_documented,PASS,Future internal data requirement rows=10
+unknown_retained_separately,PASS,UNKNOWN=213; it remains a separate reported category.
+internal_rate_table_schema,PASS,No Step 01 internal stage-rate table exists yet.
+step01_rates_reconcile,PASS,No rates supplied; nothing to reconcile.

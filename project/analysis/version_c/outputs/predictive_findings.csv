@@ -1,0 +1,6 @@
+finding,status,value,interpretation
+model_status,NOT_ESTIMABLE,"Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable.",No cross-validated model result is reported.
+unit,PASS,role_family x established posting month,Aggregate ecological unit only.
+unknown_outcomes,PASS,0,Unknown retained separately and excluded from Male/Female outcome.
+candidate_level_linkage,PASS,False,No individual hire was linked to a posting.
+causality,PASS,False,No causal claim is made.

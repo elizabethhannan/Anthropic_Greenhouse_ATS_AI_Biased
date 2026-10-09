@@ -1,0 +1,7 @@
+r2.env
+*.env
+*.parquet
+.venv*/
+.idea/
+__pycache__/
+.DS_Store

@@ -1,0 +1,25 @@
+check,status,rows,detail
+input:executive_summary.json,PASS,,Read-only input; sha256=5f0462196081804c93a2d3ebd0a73180357e75663d7730913746c240f6a3a0fe
+input:dashboard_outcome_distribution.csv,PASS,,Read-only input; sha256=2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba
+input:research_outcome_distribution.csv,PASS,,Read-only input; sha256=8c20a998ad531a6314054a15b6e0e368f11f540ca8c245ef204e7a947d9d181b
+input:dashboard_evidence_map.csv,PASS,,Read-only input; sha256=f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28
+input:dashboard_limitations.csv,PASS,,Read-only input; sha256=bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d
+input:executive_dashboard_validation.json,PASS,,Read-only input; sha256=d838babe5c63f95668179406b8df33e4a5a8b99237a56c2470fa4953d3177a56
+input:executive_dashboard_validation.csv,PASS,,Read-only input; sha256=c1c9bee6be1fe56f6b6d8a533c00b34b84688d8b6853a83edf3cc58f846ef6d8
+phase7_validation_status,PASS,23,Phase 7 validation says PASS with zero failures.
+outcome_count_reconciliation,PASS,1095,"Counts match summary: {'MALE': 606, 'FEMALE': 276, 'UNKNOWN': 213}."
+research_count_reconciliation,PASS,40,"Research subset counts: {'MALE': 19, 'FEMALE': 8, 'UNKNOWN': 13}."
+unknown_kept_separate,PASS,213,Unknown stays distinct and is excluded from known-sex chart denominator.
+no_causal_claim,PASS,0,Visual titles/captions describe observable outcomes and evidence gaps only.
+duplicate_only,PASS,0,"Only visualization outputs, chart-data copies, and Phase 8 audit/manifest were written."
+chart_files_created,PASS,6,Six PNG visual assets created.
+chart_data_readback,PASS,22,Three chart-data CSVs reopened and row counts matched.
+output_readback:visualization_outcome_data.csv,PASS,6,SHA-256=5c2362b025b2846b1af98a2c80dba550b508d03aab38bab30e29671d6efe2470
+output_readback:visualization_evidence_data.csv,PASS,8,SHA-256=f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28
+output_readback:visualization_data_gaps.csv,PASS,8,SHA-256=bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d
+output_readback:01_observed_outcomes.png,PASS,,SHA-256=3a8917c5f9b0d3321b516d61c6a4202bda4029d21ad986e60898b5df82d05360
+output_readback:02_known_sex_outcomes.png,PASS,,SHA-256=d49f0db327737e36a2896f52c479198df2061539691498c218347e9e9924cce9
+output_readback:03_research_outcomes.png,PASS,,SHA-256=fe6d6ee281c4f979db5cc4edea3796312be5a3995c25bd65af972a8b190f2c20
+output_readback:04_evidence_architecture.png,PASS,,SHA-256=889f854d1edfa00a8b071196e29a0f9211670ed02f0d6fb93efd99705b9e1803
+output_readback:05_data_gaps.png,PASS,,SHA-256=d14dc0ada9c130f6189db5e8b948a85e02a900911edd66e967cb772404668619
+output_readback:06_executive_evidence_map.png,PASS,,SHA-256=fa8de38edecfdba9017bad87c91e010d6e2b39f140e2c75705dfa76ef3ecf3c3

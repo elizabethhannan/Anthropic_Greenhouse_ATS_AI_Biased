@@ -1,0 +1,95 @@
+{
+  "causal_boundaries": [
+    "No causal effect is established.",
+    "No Greenhouse AI or recruiter workflow treatment is measured.",
+    "No individual hire is linked to any posting.",
+    "UNKNOWN is not reassigned to MALE or FEMALE."
+  ],
+  "created_at_utc": "2026-09-30T08:10:38.294078+00:00",
+  "executive_wording": "Observed demographic outcome composition is measurable. Candidate-facing recruiting signals are measurable. Current role/month data are insufficient for the planned binary predictive model, and the available temporal comparisons are exploratory. Internal Greenhouse decision pathways are not publicly observable.",
+  "feedback_snapshot": {
+    "exact_role_month_overlap_cells": 5,
+    "observed_start_months": [
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07"
+    ],
+    "unobserved_outcome_months": [
+      "2026-08",
+      "2026-09"
+    ]
+  },
+  "governance_distinction": "MODEL FAIRNESS \u2260 WORKFLOW FAIRNESS \u2260 OUTCOME FAIRNESS",
+  "outcome_layer": {
+    "FEMALE": 276,
+    "MALE": 606,
+    "UNKNOWN": 213,
+    "distinct_people": 1095,
+    "female_share_known_sex": 0.3129251700680272,
+    "known_sex_denominator": 882,
+    "male_female_ratio": 2.1956521739130435,
+    "male_share_known_sex": 0.6870748299319728,
+    "unknown_share_all_records": 0.19452054794520549
+  },
+  "outputs": {
+    "dashboard_evidence_map.csv": {
+      "path": "outputs/dashboard_evidence_map.csv",
+      "readback_verified": true,
+      "rows": 8,
+      "sha256": "f77a89f1f934e3bc6dd10ce02ff586d326487d1ce321734bf1c17aba44162b28"
+    },
+    "dashboard_feedback_findings.csv": {
+      "path": "outputs/dashboard_feedback_findings.csv",
+      "readback_verified": true,
+      "rows": 292,
+      "sha256": "f4dd75f199e912bede10bd6f16e209c3dae1139aceafebc3e366c079a65dfc02"
+    },
+    "dashboard_limitations.csv": {
+      "path": "outputs/dashboard_limitations.csv",
+      "readback_verified": true,
+      "rows": 8,
+      "sha256": "bb80161061b10ec07dfc9af3fed180a6bf4e3d51bc7976862c06f3ff7da6049d"
+    },
+    "dashboard_outcome_distribution.csv": {
+      "path": "outputs/dashboard_outcome_distribution.csv",
+      "readback_verified": true,
+      "rows": 3,
+      "sha256": "2df825e86005d4581e8485cd81971838116a86d7c0938d54e4af277319e4abba"
+    },
+    "dashboard_predictive_findings.csv": {
+      "path": "outputs/dashboard_predictive_findings.csv",
+      "readback_verified": true,
+      "rows": 6,
+      "sha256": "383ed1c3da0367bf51eb87ac260c880b79229703a10793b67f42bdef5d9d9245"
+    },
+    "dashboard_signal_findings.csv": {
+      "path": "outputs/dashboard_signal_findings.csv",
+      "readback_verified": true,
+      "rows": 8,
+      "sha256": "9f665d872dff3bd82c0ec28b554e8e6510aa018edcb9bf73eb74c3276cbfcc32"
+    }
+  },
+  "phase_status": {
+    "FEEDBACK": "COMPLETE_WITH_COVERAGE_LIMITS",
+    "OUTCOME": "AVAILABLE",
+    "PREDICTION": "NOT_ESTIMABLE",
+    "SIGNAL": "AVAILABLE"
+  },
+  "predictive_snapshot": {
+    "eligible_role_month_cells": 3,
+    "female_present_cells": 0,
+    "male_present_cells": 3,
+    "reason": "Only 3 exact role/month cells have both dated postings and known-sex observed hires (minimum 20); cells containing Male outcomes=3, Female outcomes=0 (minimum 5 each). Grouped cross-validation is not estimable."
+  },
+  "signal_snapshot": {
+    "descriptions_available": 704,
+    "named_person_reference_postings": 13,
+    "postings": 1246
+  },
+  "study_window": {
+    "end": "2026-09-30",
+    "start": "2026-04-01"
+  },
+  "title": "Version C \u2014 Executive Dashboard Data"
+}

@@ -1,0 +1,86 @@
+{
+  "counts": {
+    "distinct_hiring_people": 1095,
+    "greenhouse_posting_rows": 1246,
+    "hiring_outcome_sex": {
+      "FEMALE": 276,
+      "MALE": 606,
+      "UNKNOWN": 213
+    },
+    "posting_date_evidence": {
+      "ARCHIVE_CAPTURE_ONLY": 617,
+      "GREENHOUSE_POSTING_DATE": 514,
+      "POSTING_DATE_OUTSIDE_WINDOW": 115
+    },
+    "role_month_bridge_rows": 41
+  },
+  "coverage_limitations": [
+    "Hiring input represents the current Dewey/PDL observed snapshot, with observed starts in April-July 2026; absent August/September starts do not imply zero hiring.",
+    "The role-month bridge is ecological and does not identify which posting, if any, led to a particular hire.",
+    "Archive capture-only records provide archive availability evidence, not established posting dates."
+  ],
+  "created_at_utc": "2026-09-30T03:26:40Z",
+  "frozen_source_keys": {
+    "greenhouse_analytical_master": "experience-anthropic-2026-04-to-09/filtered/job-postings/analysis/20260929T091413Z/historical_greenhouse_analytical_master.json",
+    "hiring_enriched_snapshot": "filtered/analysis/anthropic_hires_enriched_current_snapshot.parquet",
+    "posting_language_metrics": "experience-anthropic-2026-04-to-09/outputs/job-postings/language-analysis/20260929T092904Z/posting_language_metrics.json"
+  },
+  "input_sources": {
+    "greenhouse_sha256": "936201bed3d7932e4e49daed5f2e08c7c3d4fb9ac2d1a124764d83c6dd5b2390",
+    "greenhouse_source": "experience-anthropic-2026-04-to-09/filtered/job-postings/analysis/20260929T091413Z/historical_greenhouse_analytical_master.json",
+    "hiring_rows": "1097",
+    "hiring_sha256": "9c2e6a87055f3bb14990c29d2c499f4403498eb362833c7f66c8fb32e4796225",
+    "hiring_source": "filtered/analysis/anthropic_hires_enriched_current_snapshot.parquet",
+    "language_metrics_sha256": "e9c4f449d47a8f12dbc320520dbe6c790d44dd3b75b5873cc567ddb85dd2ce3a",
+    "language_metrics_source": "experience-anthropic-2026-04-to-09/outputs/job-postings/language-analysis/20260929T092904Z/posting_language_metrics.json"
+  },
+  "manifest_type": "version_c_phase_2_master_build",
+  "methods": {
+    "archive_capture_date_is_posting_date": false,
+    "archive_capture_only_counts_kept_separate": true,
+    "bridge_is_aggregate_ecological_role_month_only": true,
+    "candidate_level_posting_to_hire_linkage": false,
+    "multiple_employment_rows": "Hiring output has one row per person and retains all source employment rows in employment_records; bridge counts distinct people per month-role cell.",
+    "sex_inferred_from_name": false,
+    "sex_mapping": {
+      "blank_or_null": "UNKNOWN",
+      "female": "FEMALE",
+      "male": "MALE"
+    },
+    "source_SEX_preserved": true
+  },
+  "outputs": [
+    {
+      "bytes": 1895163,
+      "file": "version_c_master.parquet",
+      "r2_key": "experience-anthropic-2026-04-to-09/outputs/version-c/20260929T_VERSIONC_PHASE2/version_c_master.parquet",
+      "readback_verified": true,
+      "row_count": 1246,
+      "sha256": "5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d"
+    },
+    {
+      "bytes": 151838,
+      "file": "version_c_hiring_outcomes.parquet",
+      "r2_key": "experience-anthropic-2026-04-to-09/outputs/version-c/20260929T_VERSIONC_PHASE2/version_c_hiring_outcomes.parquet",
+      "readback_verified": true,
+      "row_count": 1095,
+      "sha256": "91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249"
+    },
+    {
+      "bytes": 4091,
+      "file": "version_c_role_month_bridge.parquet",
+      "r2_key": "experience-anthropic-2026-04-to-09/outputs/version-c/20260929T_VERSIONC_PHASE2/version_c_role_month_bridge.parquet",
+      "readback_verified": true,
+      "row_count": 41,
+      "sha256": "48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108"
+    }
+  ],
+  "row_audit_csv": "audit/version_c_master_audit.csv",
+  "row_audit_csv_sha256": "927e4564e25c48ab8820df56b793a76ecd468f655a576e53843dedfddc4253b3",
+  "run_id": "20260929T_VERSIONC_PHASE2",
+  "study_window": {
+    "end": "2026-09-30",
+    "start": "2026-04-01"
+  },
+  "version": "C"
+}

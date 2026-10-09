@@ -1,0 +1,75 @@
+{
+  "audit": {
+    "path": "audit/outcome_analysis_audit.csv",
+    "rows": 13,
+    "sha256": "d10b6ff83041dabd21a120c5925a5708994c51be8ec7b68843acdce320ee43e0"
+  },
+  "counts": {
+    "FEMALE": 276,
+    "MALE": 606,
+    "UNKNOWN": 213,
+    "all_people": 1095,
+    "fellowship_people": 32,
+    "known_sex": 882,
+    "research_people": 40,
+    "source_employment_rows": 1097
+  },
+  "created_at_utc": "2026-09-30T07:11:51.723238+00:00",
+  "design_guards": {
+    "candidate_level_greenhouse_linkage": false,
+    "phase_2_modified": false,
+    "phase_3_modified": false,
+    "phase_4_modified": false,
+    "phase_5_modified": false,
+    "sex_inferred": false,
+    "unknown_retained": true
+  },
+  "manifest_type": "version_c_phase_6_outcome_analysis",
+  "metrics_json": {
+    "path": "outputs/executive_outcome_metrics.json",
+    "readback_verified": true,
+    "sha256": "36172acad8923a38e1b79677f819072bfac1679a98c6feeefd9027250a768d91"
+  },
+  "outputs": {
+    "fellowship_outcome_distribution.csv": {
+      "path": "outputs/fellowship_outcome_distribution.csv",
+      "readback_verified": true,
+      "row_count": 3,
+      "sha256": "04a501a2284968e289a6c4407ce7aae07b5bd8ac3dca69439cc63f06f657ebc8"
+    },
+    "outcome_by_period.csv": {
+      "path": "outputs/outcome_by_period.csv",
+      "readback_verified": true,
+      "row_count": 6,
+      "sha256": "bb56ce8bb217154261dce447e07a3c6c87a7eaf0339cd80073400a203d155cde"
+    },
+    "outcome_distribution.csv": {
+      "path": "outputs/outcome_distribution.csv",
+      "readback_verified": true,
+      "row_count": 3,
+      "sha256": "86c514434496129e59d01531e5a4ed460452f9477c2401ccff4597074d54b8c2"
+    },
+    "outcome_quality_summary.csv": {
+      "path": "outputs/outcome_quality_summary.csv",
+      "readback_verified": true,
+      "row_count": 16,
+      "sha256": "d2a1fbfddbee575377d258995cf5f65f9af3ef02936e15bafc7b9d6a6cec4c4d"
+    },
+    "research_outcome_distribution.csv": {
+      "path": "outputs/research_outcome_distribution.csv",
+      "readback_verified": true,
+      "row_count": 3,
+      "sha256": "8c20a998ad531a6314054a15b6e0e368f11f540ca8c245ef204e7a947d9d181b"
+    }
+  },
+  "phase5_crosscheck": {
+    "available": true,
+    "compared_months": 4,
+    "mismatches": []
+  },
+  "source": {
+    "path": "outputs/version_c_hiring_outcomes.parquet",
+    "rows": 1095,
+    "sha256": "91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249"
+  }
+}

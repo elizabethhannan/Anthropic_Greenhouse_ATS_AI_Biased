@@ -1,0 +1,33 @@
+{
+  "workstream": "ML Models v1",
+  "created_at_utc": "2026-10-01T03:05:19.561806+00:00",
+  "status": "NOT_ESTIMABLE",
+  "model_fitting_performed": false,
+  "question": "Do observable recruiting signals contain predictive information about aggregate observed Male/Female hiring composition?",
+  "unit": "role_family x established posting month (aggregate only)",
+  "gate": {
+    "matched_known_sex_cells": 3,
+    "minimum_cells": 20,
+    "cells_with_male_outcomes": 3,
+    "cells_with_female_outcomes": 0,
+    "minimum_cells_per_class": 5,
+    "passed": false
+  },
+  "phase4_frozen_statuses": [
+    "NOT_ESTIMABLE"
+  ],
+  "reason": "Frozen Phase 4 audit found only 3 eligible cells and 0 cells with female outcomes; grouped cross-validation and a defensible predictive comparison are not estimable.",
+  "guardrails": {
+    "sex_feature": false,
+    "name_based_inference": false,
+    "candidate_level_target": false,
+    "post_hire_leakage": false,
+    "future_information": false,
+    "greenhouse_person_linkage": false
+  },
+  "future_model_plan_if_gate_passes": [
+    "Logistic Regression with interpretable coefficients, confidence intervals, calibration, grouped cross-validation, and feature stability",
+    "Gradient Boosting with permutation importance and comparison against Logistic Regression"
+  ],
+  "source_metrics_file": "outputs/predictive_model_metrics.csv"
+}

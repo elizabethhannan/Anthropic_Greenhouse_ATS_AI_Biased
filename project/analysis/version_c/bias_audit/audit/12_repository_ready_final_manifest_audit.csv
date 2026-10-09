@@ -1,0 +1,5 @@
+check,status,detail
+all_expected_final_artifacts_present,PASS,Hashed 15 artifacts.
+dashboard_validation,PASS,PASS_WITH_GAPS
+publication_hold_preserved,PASS,HOLD / REVIEW REQUIRED; no publishing action.
+github_destination_metadata,PASS,https://github.com/elizabethhannan/Anthropic_Greenhouse_ATS_AI_Biased

@@ -1,0 +1,4 @@
+dataset,row_count,distinct_ids,r2_key,sha256,readback_verified
+version_c_master,1246,1246,experience-anthropic-2026-04-to-09/outputs/version-c/20260929T_VERSIONC_PHASE2/version_c_master.parquet,5eff0ceaae0b1d5b7a7051521e8e7f27952c587ce5eb1b89b873d5b5884e654d,True
+version_c_hiring_outcomes,1095,1095,experience-anthropic-2026-04-to-09/outputs/version-c/20260929T_VERSIONC_PHASE2/version_c_hiring_outcomes.parquet,91194c578524652879492a9cf2d3bc268259a4c5fd7cff62a244447ff210e249,True
+version_c_role_month_bridge,41,41,experience-anthropic-2026-04-to-09/outputs/version-c/20260929T_VERSIONC_PHASE2/version_c_role_month_bridge.parquet,48812b8d31798ec89561eaa2ed3c5f16151c9916929d56e354e839d279b96108,True
