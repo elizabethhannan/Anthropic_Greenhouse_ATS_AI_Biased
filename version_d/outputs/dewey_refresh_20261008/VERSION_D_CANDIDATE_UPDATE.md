@@ -40,4 +40,4 @@ Export metadata: {"person": {"file_count": 384, "earliest_modified_at": "2026-09
 
 Frozen Version C integrity: PASS. File set match: True. Content hash mismatches: 0. Fingerprint: `6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0`. Version C unchanged.
 
-Public release: HOLD / REVIEW REQUIRED.
+Repository visibility: PRIVATE.

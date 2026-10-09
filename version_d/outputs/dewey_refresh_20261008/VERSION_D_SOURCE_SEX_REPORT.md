@@ -15,6 +15,6 @@ Raw SEX values preserved; only recognized male/female source values mapped to co
 
 Provider-reported SEX is not independently verified. All dates have month precision; source lag and September coverage limitations remain. Version C is unchanged and integrity PASS; fingerprint `6a3ebd7f014fc75394570aa9c397e3a4cc3ca9be0ce6ac12e8dd1f22b0b618a0`.
 
-Public release: HOLD / REVIEW REQUIRED.
+Repository visibility: PRIVATE.
 
 Record-level DATASET_VERSION values: ["35.2"]; frozen Version C values: ["35.1"]. These are distinct from Dewey catalog/DOI version numbers.

@@ -85,7 +85,7 @@
     "Existing project Experience folder remains on the August snapshot; refreshed dataset-level path was queried instead.",
     "Version D candidate only; no causal, applicant-denominator, demographic, or finalized analytical claims."
   ],
-  "public_release": "HOLD / REVIEW REQUIRED",
+  "repository_visibility": "PRIVATE",
   "source_manifest_unchanged_after_scan": true,
   "version_c_overlap_start_date_changes": [
     {

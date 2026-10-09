@@ -57,7 +57,7 @@
     "Date precision is month-only; September coverage is incomplete.",
     "All counts refer only to the 143 additional candidate IDs and do not change frozen Version C."
   ],
-  "public_release": "HOLD / REVIEW REQUIRED",
+  "repository_visibility": "PRIVATE",
   "source_compressed_bytes_scanned_nominal": 92733163831,
   "transfer_measurement_note": "Nominal completed source-file bytes, not total physical network transfer; parser sampling, retries and interrupted attempts may add transfer.",
   "version_c_record_dataset_version_values": [
