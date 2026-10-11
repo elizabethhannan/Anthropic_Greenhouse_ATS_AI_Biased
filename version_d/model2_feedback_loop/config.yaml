@@ -1,0 +1,93 @@
+# Model 2 — Screening feedback-loop simulation
+# All parameters live here. Defaults were fixed on 2026-10-11 BEFORE any run,
+# exactly as specified in prompts/claude-build-model2-feedback-loop.md.
+# Do not change values after seeing outputs (integrity rule 2).
+
+label: "SIMULATION — synthetic applicants; not Anthropic data"
+base_seed: 20261011          # run j uses seed base_seed + j
+
+# Applicant pools and pipeline
+N: 10000                     # applicants per cycle (assumption)
+shortlist_rate: 0.10         # s: share of pool shortlisted by the screener (assumption)
+hire_rate: 0.02              # h: share of pool hired; 20% of the shortlist (assumption)
+T: 8                         # hiring cycles after the history cycle (assumption)
+sigma_x: 1.0                 # noise SD on job-relevant signals x1, x2 (assumption)
+sigma_i: 0.7                 # interview noise SD (assumption)
+rho: 0.5                     # proxy strength in main scenarios; standardized mean difference (assumption)
+h0_target: 0.178             # target women's share of cycle-0 hires = observed engineering share (Dewey & PDL, 2026)
+runs: 200                    # Monte Carlo runs per scenario
+logreg_C: 1.0                # inverse L2 strength (scikit-learn convention)
+features: [x1, x2, x3]       # screener inputs; sex is never a feature
+
+calibration:
+  n_seeds: 50                # calibration seeds (common random numbers)
+  seed_offset: 1000000       # calibration seed j = base_seed + seed_offset + j (kept apart from run seeds)
+  xtol: 0.002                # Brent tolerance on delta0
+  bracket: [-3.0, 3.0]
+
+calibrations:
+  - id: C1
+    name: "Benchmark pool"
+    pool_share_women: 0.203  # BLS (2026), CPS Table 11, software developers 2025
+    illustrative: false
+    basis: "U.S. Bureau of Labor Statistics (2026), software developers, 2025"
+  - id: C2
+    name: "Larger historical gap (illustrative)"
+    pool_share_women: 0.30
+    illustrative: true
+    basis: "Illustrative assumption"
+
+scenarios:
+  - id: S0
+    name: "Null check"
+    description: "Cycle-0 target equals the pool share (so delta0 is about 0); interviews even-handed. Expect impact ratios near 1."
+    h0: pool                 # 'pool' means h0 = pool share of women
+    delta_h: zero
+    rho: 0.5
+  - id: S1
+    name: "Historical gap, even-handed interviews"
+    description: "History carries a calibrated penalty delta0; later interviews apply no penalty (delta_h = 0)."
+    h0: target
+    delta_h: zero
+    rho: 0.5
+  - id: S2
+    name: "Historical gap continues at interview"
+    description: "History carries delta0 and every later interview applies the same penalty (delta_h = delta0)."
+    h0: target
+    delta_h: delta0
+    rho: 0.5
+  - id: S3
+    name: "No proxy"
+    description: "As S2, but the proxy carries no sex signal (rho = 0). Isolates whether the screen can carry a gap without a proxy."
+    h0: target
+    delta_h: delta0
+    rho: 0.0
+
+interventions:
+  - id: I1
+    name: "Remove the proxy"
+    description: "The screener is trained and scored on x1 and x2 only."
+    base_scenario: S2
+    features: [x1, x2]
+  - id: I2
+    name: "Reweighing"
+    description: "Each cycle's training data is reweighed so sex and label are independent (Kamiran & Calders, 2012). Sex sets weights only."
+    base_scenario: S2
+    reweigh: true
+  - id: I3
+    name: "Freeze the screener"
+    description: "The screener trained after cycle 0 is used in every later cycle (no retraining)."
+    base_scenario: S2
+    freeze_after: 1
+
+grid:
+  scenarios: [S1, S2]
+  pool_share: [0.178, 0.203, 0.25, 0.30, 0.35, 0.40]
+  proxy_strength: [0.0, 0.25, 0.5, 0.75, 1.0, 1.5]
+  h0: 0.178
+  runs: 100
+  cycles_recorded: [1, 5]
+
+summary_quantiles: [0.05, 0.50, 0.95]
+decimals: 4
+n_jobs: -1
