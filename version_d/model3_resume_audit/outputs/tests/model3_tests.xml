@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="7" time="4.985" timestamp="2026-10-11T20:43:12.330486-07:00" hostname="vm"><testcase classname="tests.test_model3" name="test_1_paired_construction" time="0.050" /><testcase classname="tests.test_model3" name="test_2_no_gendered_words" time="0.259" /><testcase classname="tests.test_model3" name="test_3_name_rule" time="0.000" /><testcase classname="tests.test_model3" name="test_4_exact_permutation" time="0.169" /><testcase classname="tests.test_model3" name="test_5_validity_metrics" time="0.032" /><testcase classname="tests.test_model3" name="test_6_tfidf_control_is_name_blind" time="0.436"><failure message="assert np.False_&#10; +  where np.False_ = &lt;function all at 0x7f905990f130&gt;(array([0.08433461, 0.10914613, 0.09115807, 0.11392128, 0.08271237,\n       0.05178335, 0.12905984, 0.05879369, 0.062426...51, 0.06544795, 0.11653173, 0.08998526, 0.09631533,\n       0.05825985, 0.05772739, 0.0364602 , 0.08780033, 0.09249402]) == 0.0)&#10; +    where &lt;function all at 0x7f905990f130&gt; = np.all">def test_6_tfidf_control_is_name_blind():
+        postings = run_model3.load_postings(CFG)
+        scr = TfidfScreener([p["text"] for p in postings])
+        sub = [r for r in BASE if r["family"] == "engineering"][:20]
+        P = scr.embed([p["text"] for p in postings if p["family"] == "engineering"][:30])
+        S = np.stack([cosine(scr.embed([render(r, n) for n in ALL + [None]]), P) for r in sub])
+        G = audit.posting_gaps(S, range(10), range(10, 20))
+&gt;       assert np.all(G == 0.0)
+E       assert np.False_
+E        +  where np.False_ = &lt;function all at 0x7f905990f130&gt;(array([0.08433461, 0.10914613, 0.09115807, 0.11392128, 0.08271237,\n       0.05178335, 0.12905984, 0.05879369, 0.062426...51, 0.06544795, 0.11653173, 0.08998526, 0.09631533,\n       0.05825985, 0.05772739, 0.0364602 , 0.08780033, 0.09249402]) == 0.0)
+E        +    where &lt;function all at 0x7f905990f130&gt; = np.all
+
+tests/test_model3.py:111: AssertionError</failure></testcase><testcase classname="tests.test_model3" name="test_7_reproducible" time="2.807" /></testsuite></testsuites>

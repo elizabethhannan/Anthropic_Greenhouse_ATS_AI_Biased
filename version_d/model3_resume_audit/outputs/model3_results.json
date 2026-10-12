@@ -1,0 +1,1056 @@
+{
+  "label": "AUDIT OF STAND-IN AI SCREENERS — synthetic résumés scored against Anthropic's public postings; not Greenhouse's or Anthropic's system",
+  "version": "1.0",
+  "run_date": "2026-10-11",
+  "config": {
+    "seed": 20261011,
+    "names": {
+      "women": [
+        "Jessica",
+        "Ashley",
+        "Amanda",
+        "Sarah",
+        "Emily",
+        "Samantha",
+        "Jennifer",
+        "Brittany",
+        "Elizabeth",
+        "Stephanie"
+      ],
+      "men": [
+        "Michael",
+        "Christopher",
+        "Matthew",
+        "Joshua",
+        "Daniel",
+        "Andrew",
+        "David",
+        "James",
+        "Joseph",
+        "Nicholas"
+      ]
+    },
+    "surnames_rotated": true,
+    "n_base_resumes": 300,
+    "base_resumes_by_family": {
+      "research": 100,
+      "engineering": 100,
+      "fellows": 100
+    },
+    "variants_per_resume": {
+      "named": 20,
+      "unnamed": 1,
+      "word_test": 9
+    },
+    "postings_by_family": {
+      "research": 101,
+      "engineering": 334,
+      "fellows": 7
+    },
+    "posting_family_map": {
+      "research": "Research-titled",
+      "engineering": "Engineering",
+      "fellows": "Fellows"
+    },
+    "metrics": {
+      "validity_flag_threshold": 0.1,
+      "selection_pools_per_posting": 100,
+      "selection_rate": 0.1,
+      "null_splits": 100,
+      "null_pools_per_posting": 20,
+      "signflip_permutations": 10000,
+      "link_permutations": 10000,
+      "four_fifths": 0.8
+    },
+    "word_test_items": [
+      "chess club",
+      "soccer team",
+      "debate team"
+    ],
+    "quick": false
+  },
+  "screeners": [
+    {
+      "id": "SC1",
+      "name": "WordLlama l2_supercat 256-d",
+      "kind": "wordllama",
+      "role": "primary",
+      "validity": {
+        "tier_spearman_mean": 0.427,
+        "tier_spearman_by_family": {
+          "research": 0.6222,
+          "engineering": 0.3755,
+          "fellows": 0.0663
+        },
+        "family_auc_mean": 0.7668,
+        "flag_not_meaningful": false
+      },
+      "name_gap": {
+        "G_std": -0.1295,
+        "p_exact": 0.0659897378163632,
+        "n_splits": 184756,
+        "null_p025": -0.1361,
+        "null_p975": 0.1361,
+        "by_family": {
+          "research": -0.0918,
+          "engineering": -0.1434,
+          "fellows": -0.0105
+        },
+        "raw_cosine_gap_mean": -0.00507,
+        "share_postings_favoring_men": 0.9932,
+        "n_postings": 442,
+        "p_holm": 0.1319794756327264
+      },
+      "per_name": [
+        {
+          "name": "Jessica",
+          "group": "women",
+          "effect_std": -0.2821,
+          "effect_std_research": -0.2004,
+          "effect_std_engineering": -0.3075,
+          "effect_std_fellows": -0.2479
+        },
+        {
+          "name": "Ashley",
+          "group": "women",
+          "effect_std": -0.3388,
+          "effect_std_research": -0.2281,
+          "effect_std_engineering": -0.3724,
+          "effect_std_fellows": -0.3335
+        },
+        {
+          "name": "Amanda",
+          "group": "women",
+          "effect_std": -0.4193,
+          "effect_std_research": -0.2954,
+          "effect_std_engineering": -0.4595,
+          "effect_std_fellows": -0.2898
+        },
+        {
+          "name": "Sarah",
+          "group": "women",
+          "effect_std": -0.4092,
+          "effect_std_research": -0.2748,
+          "effect_std_engineering": -0.4494,
+          "effect_std_fellows": -0.4342
+        },
+        {
+          "name": "Emily",
+          "group": "women",
+          "effect_std": -0.2592,
+          "effect_std_research": -0.1805,
+          "effect_std_engineering": -0.2823,
+          "effect_std_fellows": -0.2944
+        },
+        {
+          "name": "Samantha",
+          "group": "women",
+          "effect_std": -0.3746,
+          "effect_std_research": -0.2657,
+          "effect_std_engineering": -0.4065,
+          "effect_std_fellows": -0.42
+        },
+        {
+          "name": "Jennifer",
+          "group": "women",
+          "effect_std": -0.3865,
+          "effect_std_research": -0.2824,
+          "effect_std_engineering": -0.4208,
+          "effect_std_fellows": -0.2532
+        },
+        {
+          "name": "Brittany",
+          "group": "women",
+          "effect_std": -0.8126,
+          "effect_std_research": -0.6616,
+          "effect_std_engineering": -0.8619,
+          "effect_std_fellows": -0.6353
+        },
+        {
+          "name": "Elizabeth",
+          "group": "women",
+          "effect_std": -0.5021,
+          "effect_std_research": -0.3275,
+          "effect_std_engineering": -0.557,
+          "effect_std_fellows": -0.4019
+        },
+        {
+          "name": "Stephanie",
+          "group": "women",
+          "effect_std": -0.3898,
+          "effect_std_research": -0.2942,
+          "effect_std_engineering": -0.4184,
+          "effect_std_fellows": -0.4036
+        },
+        {
+          "name": "Michael",
+          "group": "men",
+          "effect_std": -0.3907,
+          "effect_std_research": -0.3074,
+          "effect_std_engineering": -0.4144,
+          "effect_std_fellows": -0.4651
+        },
+        {
+          "name": "Christopher",
+          "group": "men",
+          "effect_std": -0.1646,
+          "effect_std_research": -0.1157,
+          "effect_std_engineering": -0.1778,
+          "effect_std_fellows": -0.236
+        },
+        {
+          "name": "Matthew",
+          "group": "men",
+          "effect_std": -0.1736,
+          "effect_std_research": -0.1368,
+          "effect_std_engineering": -0.1832,
+          "effect_std_fellows": -0.2436
+        },
+        {
+          "name": "Joshua",
+          "group": "men",
+          "effect_std": -0.3485,
+          "effect_std_research": -0.2564,
+          "effect_std_engineering": -0.3725,
+          "effect_std_fellows": -0.5332
+        },
+        {
+          "name": "Daniel",
+          "group": "men",
+          "effect_std": -0.2081,
+          "effect_std_research": -0.1828,
+          "effect_std_engineering": -0.2136,
+          "effect_std_fellows": -0.3077
+        },
+        {
+          "name": "Andrew",
+          "group": "men",
+          "effect_std": -0.2367,
+          "effect_std_research": -0.1572,
+          "effect_std_engineering": -0.2606,
+          "effect_std_fellows": -0.2449
+        },
+        {
+          "name": "David",
+          "group": "men",
+          "effect_std": -0.1978,
+          "effect_std_research": -0.1281,
+          "effect_std_engineering": -0.2191,
+          "effect_std_fellows": -0.1862
+        },
+        {
+          "name": "James",
+          "group": "men",
+          "effect_std": -0.2367,
+          "effect_std_research": -0.1756,
+          "effect_std_engineering": -0.2525,
+          "effect_std_fellows": -0.3646
+        },
+        {
+          "name": "Joseph",
+          "group": "men",
+          "effect_std": -0.2769,
+          "effect_std_research": -0.1931,
+          "effect_std_engineering": -0.3004,
+          "effect_std_fellows": -0.3686
+        },
+        {
+          "name": "Nicholas",
+          "group": "men",
+          "effect_std": -0.6457,
+          "effect_std_research": -0.44,
+          "effect_std_engineering": -0.7076,
+          "effect_std_fellows": -0.6587
+        }
+      ],
+      "selection": {
+        "pooled_ir": 0.8238,
+        "posting_median_ir": 0.8298,
+        "share_postings_below_080": 0.3688,
+        "null_pooled_ir_p025": 0.8241,
+        "null_pooled_ir_p975": 1.2213,
+        "null_share_below_080_mean": 0.0955,
+        "pools_per_posting": 100,
+        "selection_rate": 0.1
+      },
+      "word_test": {
+        "gap_std_women_minus_men": -0.1311,
+        "by_item": {
+          "chess club": -0.1344,
+          "soccer team": -0.1272,
+          "debate team": -0.1318
+        },
+        "women_minus_plain": -0.0582,
+        "men_minus_plain": 0.073,
+        "p_signflip": 9.999000099990002e-05,
+        "share_resumes_favoring_men": 1.0,
+        "selection_pooled_ir": 0.7976
+      },
+      "posting_link_model1": {
+        "spearman": 0.0603,
+        "p_perm": 0.20177982201779823,
+        "n": 442
+      },
+      "model": {
+        "package": "wordllama",
+        "version": "0.4.0.post1",
+        "weights_sha256": "64b47a2dc493cb8e85944076601189739852d7b64e0e1eedcb1937a251cd9fd5"
+      }
+    },
+    {
+      "id": "SC2",
+      "name": "GloVe 300-d (Wikipedia 2014 + Gigaword 5)",
+      "kind": "static",
+      "role": "robustness",
+      "validity": {
+        "tier_spearman_mean": 0.3631,
+        "tier_spearman_by_family": {
+          "research": 0.3777,
+          "engineering": 0.3772,
+          "fellows": -0.5198
+        },
+        "family_auc_mean": 0.5921,
+        "flag_not_meaningful": false
+      },
+      "name_gap": {
+        "G_std": -0.0443,
+        "p_exact": 0.16195414492628116,
+        "n_splits": 184756,
+        "null_p025": -0.0605,
+        "null_p975": 0.0605,
+        "by_family": {
+          "research": -0.0613,
+          "engineering": -0.0382,
+          "fellows": -0.088
+        },
+        "raw_cosine_gap_mean": -0.000817,
+        "share_postings_favoring_men": 0.9457,
+        "n_postings": 442,
+        "p_holm": 0.16195414492628116
+      },
+      "per_name": [
+        {
+          "name": "Jessica",
+          "group": "women",
+          "effect_std": -0.185,
+          "effect_std_research": -0.1997,
+          "effect_std_engineering": -0.1797,
+          "effect_std_fellows": -0.2271
+        },
+        {
+          "name": "Ashley",
+          "group": "women",
+          "effect_std": -0.1582,
+          "effect_std_research": -0.1612,
+          "effect_std_engineering": -0.1562,
+          "effect_std_fellows": -0.2134
+        },
+        {
+          "name": "Amanda",
+          "group": "women",
+          "effect_std": -0.2319,
+          "effect_std_research": -0.1804,
+          "effect_std_engineering": -0.2487,
+          "effect_std_fellows": -0.1774
+        },
+        {
+          "name": "Sarah",
+          "group": "women",
+          "effect_std": -0.1468,
+          "effect_std_research": -0.1953,
+          "effect_std_engineering": -0.1324,
+          "effect_std_fellows": -0.1344
+        },
+        {
+          "name": "Emily",
+          "group": "women",
+          "effect_std": -0.1727,
+          "effect_std_research": -0.1868,
+          "effect_std_engineering": -0.1668,
+          "effect_std_fellows": -0.2518
+        },
+        {
+          "name": "Samantha",
+          "group": "women",
+          "effect_std": -0.2825,
+          "effect_std_research": -0.2572,
+          "effect_std_engineering": -0.2894,
+          "effect_std_fellows": -0.3205
+        },
+        {
+          "name": "Jennifer",
+          "group": "women",
+          "effect_std": -0.2084,
+          "effect_std_research": -0.1755,
+          "effect_std_engineering": -0.2185,
+          "effect_std_fellows": -0.202
+        },
+        {
+          "name": "Brittany",
+          "group": "women",
+          "effect_std": -0.1516,
+          "effect_std_research": -0.138,
+          "effect_std_engineering": -0.1539,
+          "effect_std_fellows": -0.2407
+        },
+        {
+          "name": "Elizabeth",
+          "group": "women",
+          "effect_std": -0.1778,
+          "effect_std_research": -0.1493,
+          "effect_std_engineering": -0.1885,
+          "effect_std_fellows": -0.0826
+        },
+        {
+          "name": "Stephanie",
+          "group": "women",
+          "effect_std": -0.2381,
+          "effect_std_research": -0.276,
+          "effect_std_engineering": -0.2261,
+          "effect_std_fellows": -0.2657
+        },
+        {
+          "name": "Michael",
+          "group": "men",
+          "effect_std": -0.0901,
+          "effect_std_research": -0.0008,
+          "effect_std_engineering": -0.1191,
+          "effect_std_fellows": 0.0038
+        },
+        {
+          "name": "Christopher",
+          "group": "men",
+          "effect_std": -0.099,
+          "effect_std_research": -0.0592,
+          "effect_std_engineering": -0.1117,
+          "effect_std_fellows": -0.0646
+        },
+        {
+          "name": "Matthew",
+          "group": "men",
+          "effect_std": -0.2273,
+          "effect_std_research": -0.1965,
+          "effect_std_engineering": -0.2363,
+          "effect_std_fellows": -0.2393
+        },
+        {
+          "name": "Joshua",
+          "group": "men",
+          "effect_std": -0.3053,
+          "effect_std_research": -0.2917,
+          "effect_std_engineering": -0.3101,
+          "effect_std_fellows": -0.2758
+        },
+        {
+          "name": "Daniel",
+          "group": "men",
+          "effect_std": -0.1426,
+          "effect_std_research": -0.1342,
+          "effect_std_engineering": -0.145,
+          "effect_std_fellows": -0.1515
+        },
+        {
+          "name": "Andrew",
+          "group": "men",
+          "effect_std": -0.1452,
+          "effect_std_research": -0.1435,
+          "effect_std_engineering": -0.1464,
+          "effect_std_fellows": -0.1097
+        },
+        {
+          "name": "David",
+          "group": "men",
+          "effect_std": -0.0263,
+          "effect_std_research": -0.0484,
+          "effect_std_engineering": -0.0203,
+          "effect_std_fellows": 0.0071
+        },
+        {
+          "name": "James",
+          "group": "men",
+          "effect_std": -0.0643,
+          "effect_std_research": -0.0649,
+          "effect_std_engineering": -0.0644,
+          "effect_std_fellows": -0.0533
+        },
+        {
+          "name": "Joseph",
+          "group": "men",
+          "effect_std": -0.1995,
+          "effect_std_research": -0.17,
+          "effect_std_engineering": -0.2091,
+          "effect_std_fellows": -0.1645
+        },
+        {
+          "name": "Nicholas",
+          "group": "men",
+          "effect_std": -0.2111,
+          "effect_std_research": -0.1971,
+          "effect_std_engineering": -0.2158,
+          "effect_std_fellows": -0.1874
+        }
+      ],
+      "selection": {
+        "pooled_ir": 0.9435,
+        "posting_median_ir": 0.9417,
+        "share_postings_below_080": 0.0385,
+        "null_pooled_ir_p025": 0.8938,
+        "null_pooled_ir_p975": 1.0991,
+        "null_share_below_080_mean": 0.0606,
+        "pools_per_posting": 100,
+        "selection_rate": 0.1
+      },
+      "word_test": {
+        "gap_std_women_minus_men": 0.062,
+        "by_item": {
+          "chess club": 0.0627,
+          "soccer team": 0.0625,
+          "debate team": 0.0606
+        },
+        "women_minus_plain": 0.2659,
+        "men_minus_plain": 0.204,
+        "p_signflip": 9.999000099990002e-05,
+        "share_resumes_favoring_men": 0.2867,
+        "selection_pooled_ir": 1.1181
+      },
+      "posting_link_model1": {
+        "spearman": 0.0016,
+        "p_perm": 0.974002599740026,
+        "n": 442
+      },
+      "vector_coverage": {
+        "names_with_vector": [
+          "Jessica",
+          "Ashley",
+          "Amanda",
+          "Sarah",
+          "Emily",
+          "Samantha",
+          "Jennifer",
+          "Brittany",
+          "Elizabeth",
+          "Stephanie",
+          "Michael",
+          "Christopher",
+          "Matthew",
+          "Joshua",
+          "Daniel",
+          "Andrew",
+          "David",
+          "James",
+          "Joseph",
+          "Nicholas"
+        ],
+        "names_without_vector": [],
+        "token_coverage_resumes": 0.9683,
+        "token_coverage_postings": 0.9893,
+        "checksum_verified": true
+      }
+    },
+    {
+      "id": "SC3",
+      "name": "fastText 300-d (wiki-news subword)",
+      "kind": "static",
+      "role": "robustness",
+      "validity": {
+        "tier_spearman_mean": 0.0997,
+        "tier_spearman_by_family": {
+          "research": 0.4031,
+          "engineering": 0.0074,
+          "fellows": 0.1276
+        },
+        "family_auc_mean": 0.3319,
+        "flag_not_meaningful": true
+      },
+      "name_gap": {
+        "G_std": 0.1505,
+        "p_exact": 0.036448072051787225,
+        "n_splits": 184756,
+        "null_p025": -0.1416,
+        "null_p975": 0.1416,
+        "by_family": {
+          "research": 0.116,
+          "engineering": 0.1618,
+          "fellows": 0.1081
+        },
+        "raw_cosine_gap_mean": 0.001177,
+        "share_postings_favoring_men": 0.0,
+        "n_postings": 442,
+        "p_holm": 0.10934421615536168
+      },
+      "per_name": [
+        {
+          "name": "Jessica",
+          "group": "women",
+          "effect_std": -0.9221,
+          "effect_std_research": -0.7762,
+          "effect_std_engineering": -0.968,
+          "effect_std_fellows": -0.838
+        },
+        {
+          "name": "Ashley",
+          "group": "women",
+          "effect_std": -0.7389,
+          "effect_std_research": -0.6451,
+          "effect_std_engineering": -0.7689,
+          "effect_std_fellows": -0.6608
+        },
+        {
+          "name": "Amanda",
+          "group": "women",
+          "effect_std": -0.6847,
+          "effect_std_research": -0.6028,
+          "effect_std_engineering": -0.7102,
+          "effect_std_fellows": -0.6542
+        },
+        {
+          "name": "Sarah",
+          "group": "women",
+          "effect_std": -0.9836,
+          "effect_std_research": -0.874,
+          "effect_std_engineering": -1.0173,
+          "effect_std_fellows": -0.951
+        },
+        {
+          "name": "Emily",
+          "group": "women",
+          "effect_std": -0.7169,
+          "effect_std_research": -0.6508,
+          "effect_std_engineering": -0.736,
+          "effect_std_fellows": -0.7601
+        },
+        {
+          "name": "Samantha",
+          "group": "women",
+          "effect_std": -0.6466,
+          "effect_std_research": -0.5859,
+          "effect_std_engineering": -0.6655,
+          "effect_std_fellows": -0.619
+        },
+        {
+          "name": "Jennifer",
+          "group": "women",
+          "effect_std": -0.8085,
+          "effect_std_research": -0.7059,
+          "effect_std_engineering": -0.8389,
+          "effect_std_fellows": -0.8375
+        },
+        {
+          "name": "Brittany",
+          "group": "women",
+          "effect_std": -0.6145,
+          "effect_std_research": -0.5591,
+          "effect_std_engineering": -0.6327,
+          "effect_std_fellows": -0.545
+        },
+        {
+          "name": "Elizabeth",
+          "group": "women",
+          "effect_std": -0.7163,
+          "effect_std_research": -0.6228,
+          "effect_std_engineering": -0.7457,
+          "effect_std_fellows": -0.6607
+        },
+        {
+          "name": "Stephanie",
+          "group": "women",
+          "effect_std": -0.5901,
+          "effect_std_research": -0.5676,
+          "effect_std_engineering": -0.5969,
+          "effect_std_fellows": -0.5912
+        },
+        {
+          "name": "Michael",
+          "group": "men",
+          "effect_std": -0.8953,
+          "effect_std_research": -0.7702,
+          "effect_std_engineering": -0.9353,
+          "effect_std_fellows": -0.794
+        },
+        {
+          "name": "Christopher",
+          "group": "men",
+          "effect_std": -0.7264,
+          "effect_std_research": -0.6461,
+          "effect_std_engineering": -0.7512,
+          "effect_std_fellows": -0.7029
+        },
+        {
+          "name": "Matthew",
+          "group": "men",
+          "effect_std": -0.7241,
+          "effect_std_research": -0.6327,
+          "effect_std_engineering": -0.7545,
+          "effect_std_fellows": -0.5911
+        },
+        {
+          "name": "Joshua",
+          "group": "men",
+          "effect_std": -0.9145,
+          "effect_std_research": -0.7827,
+          "effect_std_engineering": -0.9555,
+          "effect_std_fellows": -0.8575
+        },
+        {
+          "name": "Daniel",
+          "group": "men",
+          "effect_std": -0.8994,
+          "effect_std_research": -0.7691,
+          "effect_std_engineering": -0.941,
+          "effect_std_fellows": -0.7907
+        },
+        {
+          "name": "Andrew",
+          "group": "men",
+          "effect_std": -0.9449,
+          "effect_std_research": -0.7768,
+          "effect_std_engineering": -0.9996,
+          "effect_std_fellows": -0.7605
+        },
+        {
+          "name": "David",
+          "group": "men",
+          "effect_std": -1.1681,
+          "effect_std_research": -1.034,
+          "effect_std_engineering": -1.2086,
+          "effect_std_fellows": -1.1711
+        },
+        {
+          "name": "James",
+          "group": "men",
+          "effect_std": -1.052,
+          "effect_std_research": -0.9109,
+          "effect_std_engineering": -1.0958,
+          "effect_std_fellows": -1.0017
+        },
+        {
+          "name": "Joseph",
+          "group": "men",
+          "effect_std": -0.9853,
+          "effect_std_research": -0.8633,
+          "effect_std_engineering": -1.0229,
+          "effect_std_fellows": -0.9498
+        },
+        {
+          "name": "Nicholas",
+          "group": "men",
+          "effect_std": -0.6173,
+          "effect_std_research": -0.5649,
+          "effect_std_engineering": -0.6339,
+          "effect_std_fellows": -0.5788
+        }
+      ],
+      "selection": {
+        "pooled_ir": 1.3974,
+        "posting_median_ir": 1.4155,
+        "share_postings_below_080": 0.0,
+        "null_pooled_ir_p025": 0.7428,
+        "null_pooled_ir_p975": 1.4242,
+        "null_share_below_080_mean": 0.1521,
+        "pools_per_posting": 100,
+        "selection_rate": 0.1
+      },
+      "word_test": {
+        "gap_std_women_minus_men": -0.0034,
+        "by_item": {
+          "chess club": -0.0038,
+          "soccer team": -0.0029,
+          "debate team": -0.0035
+        },
+        "women_minus_plain": 0.1696,
+        "men_minus_plain": 0.1729,
+        "p_signflip": 9.999000099990002e-05,
+        "share_resumes_favoring_men": 0.75,
+        "selection_pooled_ir": 0.9883
+      },
+      "posting_link_model1": {
+        "spearman": -0.1421,
+        "p_perm": 0.0024997500249975004,
+        "n": 442
+      },
+      "vector_coverage": {
+        "names_with_vector": [
+          "Jessica",
+          "Ashley",
+          "Amanda",
+          "Sarah",
+          "Emily",
+          "Samantha",
+          "Jennifer",
+          "Brittany",
+          "Elizabeth",
+          "Stephanie",
+          "Michael",
+          "Christopher",
+          "Matthew",
+          "Joshua",
+          "Daniel",
+          "Andrew",
+          "David",
+          "James",
+          "Joseph",
+          "Nicholas"
+        ],
+        "names_without_vector": [],
+        "token_coverage_resumes": 0.9773,
+        "token_coverage_postings": 0.9904,
+        "checksum_verified": true
+      }
+    },
+    {
+      "id": "SC0",
+      "name": "TF-IDF keyword matcher (design control)",
+      "kind": "tfidf",
+      "role": "design control",
+      "validity": {
+        "tier_spearman_mean": 0.4183,
+        "tier_spearman_by_family": {
+          "research": 0.4489,
+          "engineering": 0.4101,
+          "fellows": 0.3659
+        },
+        "family_auc_mean": 0.7795,
+        "flag_not_meaningful": false
+      },
+      "name_gap": {
+        "G_std": 0.0594,
+        "p_exact": 0.21052631578947367,
+        "n_splits": 184756,
+        "null_p025": -0.0594,
+        "null_p975": 0.0594,
+        "by_family": {
+          "research": 0.0509,
+          "engineering": 0.065,
+          "fellows": -0.0848
+        },
+        "raw_cosine_gap_mean": 0.000821,
+        "share_postings_favoring_men": 0.0113,
+        "n_postings": 442
+      },
+      "per_name": [
+        {
+          "name": "Jessica",
+          "group": "women",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Ashley",
+          "group": "women",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Amanda",
+          "group": "women",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Sarah",
+          "group": "women",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Emily",
+          "group": "women",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Samantha",
+          "group": "women",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Jennifer",
+          "group": "women",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Brittany",
+          "group": "women",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Elizabeth",
+          "group": "women",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Stephanie",
+          "group": "women",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Michael",
+          "group": "men",
+          "effect_std": -0.002,
+          "effect_std_research": 0.0076,
+          "effect_std_engineering": -0.0113,
+          "effect_std_fellows": 0.3015
+        },
+        {
+          "name": "Christopher",
+          "group": "men",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Matthew",
+          "group": "men",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Joshua",
+          "group": "men",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Daniel",
+          "group": "men",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Andrew",
+          "group": "men",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "David",
+          "group": "men",
+          "effect_std": -0.0008,
+          "effect_std_research": 0.0076,
+          "effect_std_engineering": -0.0113,
+          "effect_std_fellows": 0.3772
+        },
+        {
+          "name": "James",
+          "group": "men",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Joseph",
+          "group": "men",
+          "effect_std": 0.2045,
+          "effect_std_research": 0.1823,
+          "effect_std_engineering": 0.2118,
+          "effect_std_fellows": 0.1764
+        },
+        {
+          "name": "Nicholas",
+          "group": "men",
+          "effect_std": 0.0224,
+          "effect_std_research": 0.023,
+          "effect_std_engineering": 0.0081,
+          "effect_std_fellows": 0.6985
+        }
+      ],
+      "selection": {
+        "pooled_ir": 1.1229,
+        "posting_median_ir": 1.1277,
+        "share_postings_below_080": 0.0068,
+        "null_pooled_ir_p025": 0.8837,
+        "null_pooled_ir_p975": 1.1288,
+        "null_share_below_080_mean": 0.0623,
+        "pools_per_posting": 100,
+        "selection_rate": 0.1
+      },
+      "word_test": {
+        "gap_std_women_minus_men": 0.0,
+        "by_item": {
+          "chess club": 0.0,
+          "soccer team": 0.0,
+          "debate team": 0.0
+        },
+        "women_minus_plain": 0.0,
+        "men_minus_plain": 0.0,
+        "p_signflip": 1.0,
+        "share_resumes_favoring_men": 0.0,
+        "selection_pooled_ir": 0.997
+      },
+      "posting_link_model1": {
+        "spearman": 0.0419,
+        "p_perm": 0.3798620137986201,
+        "n": 442
+      }
+    }
+  ],
+  "thesis_alignment": [
+    {
+      "question": "RQ2",
+      "text": "2. Algorithmic influence: Could AI-assisted screening, candidate matching, or historical hiring patterns reinforce existing demographic disparities?",
+      "contribution": "A direct test of candidate-matching models on Anthropic's own posting text. The most modern stand-in leaned toward men's names and the word \"men's\"; two older models did not agree. Model choice changed the answer.",
+      "status": "Tested on stand-in models only; not established for any system Anthropic uses"
+    },
+    {
+      "question": "RQ5",
+      "text": "5. Governance: What internal data, evaluation methods, and executive accountability are required to distinguish algorithmic bias from human, structural, and applicant-pool factors?",
+      "contribution": "A ready template for the evaluation method the thesis calls for: paired résumés, exact name-level tests and a selection impact ratio, run on the specific screening model in use.",
+      "status": "Method demonstrated; requires access to Anthropic's actual screening configuration"
+    }
+  ],
+  "findings": [
+    "(Validity) 3 of 4 screeners ranked stronger résumés higher (mean Spearman with designed tier: WordLlama 0.43, GloVe 0.36, TF-IDF 0.42); fastText failed (0.10; family AUC 0.33), so its results are reported but not interpreted.",
+    "(RQ2) With the primary screener (WordLlama), the same résumé scored higher with a men's name in 99% of the 442 technical postings, by 0.13 SD of résumé-to-résumé spread on average; but that is within the range arbitrary splits of the 20 names produce (exact p = 0.066; Holm-adjusted 0.13), so it is not statistically distinguishable from name-specific noise.",
+    "(RQ2) Picking the top 10% by that score, résumés with women's names were selected at 0.82 times the rate of men's (median posting 0.83; 37% of postings below 0.80 versus 10% under random name splits), at the lower edge of the random-split range (0.824–1.221; observed 0.824).",
+    "(RQ2) The other screeners did not agree: GloVe -0.04 SD (p = 0.16; selection ratio 0.94); fastText (failed validity) +0.15 SD (p = 0.04; selection ratio 1.40).",
+    "(RQ2) Changing one word, WordLlama scored \"Captain, men's …\" above \"Captain, women's …\" on 100% of the 300 résumés (-0.13 SD; selection ratio 0.80); the other screeners did not repeat it (GloVe +0.062, fastText -0.003 SD).",
+    "(RQ5) The keyword control was not exactly name-blind (test 6 failed): Fellows postings list mentors by name, and Michael, David, Nicholas appear in that text, so even a keyword matcher shifts scores for applicants who share those first names (overall +0.06 SD, p = 0.21; Fellows postings -0.08 SD).",
+    "(Exploratory) Masculine-coded posting language (Model 1) did not predict the size of the name gap (Spearman +0.06, p = 0.20, 442 postings)."
+  ],
+  "limitations": [
+    "Stand-in screeners only. Nothing here describes Greenhouse's or Anthropic's screening, which is not public.",
+    "Transformer sentence encoders like those in published audits (Wilson & Caliskan, 2024) could not be used: model hubs are blocked from this workspace. WordLlama is LLM-derived but bag-of-tokens.",
+    "Cosine similarity to a posting is a simplified screener; real systems may use other signals or none.",
+    "Synthetic résumés from one template family; results may differ for real résumés.",
+    "Names are the 10 most common per sex for U.S. births 1985–2000; they skew toward white-associated names, so race and its intersection with gender are not tested. Individual names carry other meanings (\"Brittany\" is also a region), which is why the test is at the name level.",
+    "The word test uses three items and one word pair; it probes those words only.",
+    "fastText vectors are case-sensitive; the pre-registered lowercase lookup may weaken them, and that screener failed the validity check.",
+    "Only 7 Fellows postings; family-level results for Fellows are imprecise."
+  ],
+  "executive_conclusion_model3": "The most consequential finding is not whether one AI screener is biased against women. It is that the answer depends on which model is used. On Anthropic's own technical postings, the most modern stand-in scored identical résumés lower with women's names in 99% of postings and penalized the word \"women's\" on every résumé, yet the name gap is not beyond what name choice alone can produce, and two older models did not agree. A gender audit of hiring technology cannot be done once, in general: it has to be run on the specific model in use, with paired résumés, before and after deployment. Anthropic's own screening has not been tested here, and nothing in this audit shows that it behaves this way."
+}

@@ -1,57 +1,45 @@
-# Model 2 — Screening feedback-loop simulation
+# Model 2 v1.1 — Human-AI reliance and robustness pack
 
-**SIMULATION — synthetic applicants; not Anthropic data.** Not a forecast.
+**SIMULATION — synthetic applicants; not Anthropic data.** Never a forecast.
 
-If a sex-blind screening model is trained on past hiring outcomes and retrained every hiring cycle on the outcomes it helped produce, does a historical gap in women's hiring persist, grow, or fade, and under which assumptions? This folder builds, tests and runs that simulation for Research Thesis Version C 3.0 (RQ2, RQ4, RQ5).
+v1.1 extends the v1.0 screening feedback-loop simulation (`../model2_feedback_loop/`, unchanged) with five reviewer challenges and a detection-power table. Everything was pre-registered in [`v1_1_plan.md`](v1_1_plan.md) before any v1.1 run.
 
-- Results: [`outputs/model2_results.json`](outputs/model2_results.json) (dashboard schema)
-- Model card: [`outputs/model_card.md`](outputs/model_card.md)
-- Methods appendix (equations, parameters, calibration, tests, runtime, references): [`outputs/methods_appendix.md`](outputs/methods_appendix.md)
-- Figures: [`outputs/figures/`](outputs/figures/) (SVG and 300-dpi PNG)
+| ID | Extension | Questions |
+|---|---|---|
+| X1 | Interviewer reliance on the AI screen score | RQ2, RQ3, RQ4 |
+| X2 | Exploration: interview a random share of screened-out applicants | RQ5 |
+| X3 | Gradient-boosted screener (`HistGradientBoostingClassifier`) vs. logistic regression | RQ2 |
+| X4 | Proxy that partly carries job signal; cost of each fix | RQ5 |
+| X5 | Training on all past cycles | RQ4 |
+| P1 | Applicants needed to detect a gap (minimum instrumentation) | RQ5 |
+
+- Results: [`outputs/model2_v1_1_results.json`](outputs/model2_v1_1_results.json), [`outputs/power_table.csv`](outputs/power_table.csv)
+- Model card addendum: [`outputs/model_card_v1_1.md`](outputs/model_card_v1_1.md)
+- Methods appendix: [`outputs/methods_appendix_v1_1.md`](outputs/methods_appendix_v1_1.md)
+- Figures g1–g6: [`outputs/figures/`](outputs/figures/)
+- Dashboard patch (written, **not applied**; Replit updates paused): [`outputs/dashboard_patch_v1_1.md`](outputs/dashboard_patch_v1_1.md)
 
 ## Files
 
 | File | Role |
 |---|---|
-| `config.yaml` | Every parameter; the only place parameters live. Fixed before any run. |
-| `simulate.py` | Applicant generation, history cycle, screener training, screening, interview, per-cycle metrics |
-| `calibrate.py` | Brent root-finding for the historical penalty δ₀ (common random numbers over 50 seeds) |
-| `metrics.py` | Selection rates, impact ratios, Monte Carlo summaries |
-| `run_experiments.py` | Calibrations, scenarios S0–S3, interventions I1–I3, sensitivity grid → `outputs/` |
-| `findings.py` | Findings, diagnostics, limitations, thesis alignment, generated from the numbers |
-| `make_figures.py` | Figures from `outputs/` only |
-| `write_docs.py` | Model card and methods appendix from `outputs/` and the test reports |
-| `tests/test_model2.py` | The seven pre-specified tests |
+| `config.yaml`, `simulate.py`, `calibrate.py`, `metrics.py`, `run_experiments.py`, `findings.py`, `make_figures.py`, `write_docs.py`, `tests/test_model2.py` | Unchanged copy of v1.0 (v1.0 tests pass on the copy) |
+| `config_v1_1.yaml` | v1.1 parameters, fixed in the plan |
+| `simulate_v11.py` | v1.1 core: reliance, exploration, boosted screener, proxy relevance, cumulative window |
+| `power.py` | P1 detection-power Monte Carlo (Fisher's exact test) |
+| `run_v11.py` | Timing pilot, regression check against v1.0, X1–X5, P1 → `outputs/` |
+| `findings_v11.py` | Findings, thesis alignment, limitations, executive conclusion from the numbers |
+| `make_figures_v11.py`, `write_docs_v11.py` | Figures and documents from `outputs/` only |
+| `tests/test_model2_v1_1.py` | Pre-registered tests 1–7 |
 
 ## Run it
 
 ```bash
-cd version_d/model2_feedback_loop
+cd version_d/model2_feedback_loop_v1_1
 python -m pip install numpy scipy scikit-learn pandas matplotlib joblib pyyaml pytest
-
-# tests 1-7 (test 7 uses a small smoke configuration by default)
-python -m pytest -q --junitxml=outputs/tests/pytest_default.xml
-
-# full experiment (about 5 minutes on 2 cores)
-python run_experiments.py
-
-# optional: test 7 against the full configuration (re-runs everything, compares byte for byte)
-MODEL2_FULL_REPRO=1 python -m pytest -q tests/test_model2.py -k test_7 --junitxml=outputs/tests/pytest_full_repro.xml
-
-python make_figures.py
-python write_docs.py
+python -m pytest -q tests/test_model2_v1_1.py   # about 6 minutes on 2 cores
+python run_v11.py                                 # timing pilot + full run, about 30 minutes on 2 cores
+python make_figures_v11.py && python write_docs_v11.py
 ```
 
-## Put the results in the Replit dashboard
-
-1. Copy `outputs/model2_results.json` into the root of the Replit project, next to `index.html` and `data.js`.
-2. Reload the page. Section 07 fetches `model2_results.json`; if it loads, charts E1–E3 and the findings render; if not, the pending panel shows.
-3. The dashboard ignores the extra keys (`config`, `interview_impact_ratio`, `screen_validity`, `diagnostics`, `checks`, `sensitivity_S1`, …).
-
-## Integrity rules followed
-
-- Synthetic only; every output carries the SIMULATION label.
-- Defaults were fixed before running and not changed after seeing outputs.
-- Sex is never a screener input (checked in every scenario and intervention, test 5).
-- Null and negative results are reported with the same prominence as effects.
-- Failing tests are reported, not edited.
+Run it in a cloud workspace or a machine with spare memory, not on a laptop that is short on memory.

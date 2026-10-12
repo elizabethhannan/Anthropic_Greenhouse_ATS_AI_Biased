@@ -43,3 +43,4 @@ version_d/model1_posting_signal/outputs/corpus/
 .pytest_cache/
 # Labeling samples contain posting text that names people; regenerate with prepare.py
 version_d/model1_posting_signal/labels/*_sample.csv
+version_d/model3_resume_audit/data/vectors/

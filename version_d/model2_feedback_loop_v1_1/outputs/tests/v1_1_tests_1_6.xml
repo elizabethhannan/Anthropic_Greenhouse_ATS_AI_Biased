@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="14" time="336.271" timestamp="2026-10-11T20:14:49.909173-07:00" hostname="vm"><testcase classname="tests.test_model2_v1_1" name="test_1_regression_to_v1_0" time="70.952" /><testcase classname="tests.test_model2_v1_1" name="test_2_x1_null_under_S0[C1]" time="19.455"><failure message="AssertionError: ('C1', 0.75, 'overall_impact_ratio', array([1.03145814, 1.03214389, 1.00064737, 0.92762071, 1.01427768,&#10;         0.99690582, 0.98927804, 0.99863026]))&#10;assert np.False_&#10; +  where np.False_ = &lt;function all at 0x7fca06e8b470&gt;((array([1.03145814, 1.03214389, 1.00064737, 0.92762071, 1.01427768,\n       0.99690582, 0.98927804, 0.99863026]) &gt;= 0.95 &amp; array([1.03145814, 1.03214389, 1.00064737, 0.92762071, 1.01427768,\n       0.99690582, 0.98927804, 0.99863026]) &lt;= 1.05))&#10; +    where &lt;function all at 0x7fca06e8b470&gt; = np.all">cal_id = 'C1'
+
+    @pytest.mark.parametrize("cal_id", ["C1", "C2"])
+    def test_2_x1_null_under_S0(cal_id):
+        for w in V11["x1"]["w"]:
+            res = _batch(_params("S0", cal_id, w=w), 100)
+            for metric in ("screen_impact_ratio", "overall_impact_ratio"):
+                med = np.nanmedian(run_v11.stack(res, metric), axis=0)
+&gt;               assert np.all((med &gt;= 0.95) &amp; (med &lt;= 1.05)), (cal_id, w, metric, med)
+E               AssertionError: ('C1', 0.75, 'overall_impact_ratio', array([1.03145814, 1.03214389, 1.00064737, 0.92762071, 1.01427768,
+E                        0.99690582, 0.98927804, 0.99863026]))
+E               assert np.False_
+E                +  where np.False_ = &lt;function all at 0x7fca06e8b470&gt;((array([1.03145814, 1.03214389, 1.00064737, 0.92762071, 1.01427768,\n       0.99690582, 0.98927804, 0.99863026]) &gt;= 0.95 &amp; array([1.03145814, 1.03214389, 1.00064737, 0.92762071, 1.01427768,\n       0.99690582, 0.98927804, 0.99863026]) &lt;= 1.05))
+E                +    where &lt;function all at 0x7fca06e8b470&gt; = np.all
+
+tests/test_model2_v1_1.py:76: AssertionError</failure></testcase><testcase classname="tests.test_model2_v1_1" name="test_2_x1_null_under_S0[C2]" time="19.862"><failure message="AssertionError: ('C2', 0.75, 'overall_impact_ratio', array([1.0005933 , 1.01659809, 1.0117696 , 0.93803006, 0.98227272,&#10;         1.00266439, 0.99549469, 1.03624558]))&#10;assert np.False_&#10; +  where np.False_ = &lt;function all at 0x7fca06e8b470&gt;((array([1.0005933 , 1.01659809, 1.0117696 , 0.93803006, 0.98227272,\n       1.00266439, 0.99549469, 1.03624558]) &gt;= 0.95 &amp; array([1.0005933 , 1.01659809, 1.0117696 , 0.93803006, 0.98227272,\n       1.00266439, 0.99549469, 1.03624558]) &lt;= 1.05))&#10; +    where &lt;function all at 0x7fca06e8b470&gt; = np.all">cal_id = 'C2'
+
+    @pytest.mark.parametrize("cal_id", ["C1", "C2"])
+    def test_2_x1_null_under_S0(cal_id):
+        for w in V11["x1"]["w"]:
+            res = _batch(_params("S0", cal_id, w=w), 100)
+            for metric in ("screen_impact_ratio", "overall_impact_ratio"):
+                med = np.nanmedian(run_v11.stack(res, metric), axis=0)
+&gt;               assert np.all((med &gt;= 0.95) &amp; (med &lt;= 1.05)), (cal_id, w, metric, med)
+E               AssertionError: ('C2', 0.75, 'overall_impact_ratio', array([1.0005933 , 1.01659809, 1.0117696 , 0.93803006, 0.98227272,
+E                        1.00266439, 0.99549469, 1.03624558]))
+E               assert np.False_
+E                +  where np.False_ = &lt;function all at 0x7fca06e8b470&gt;((array([1.0005933 , 1.01659809, 1.0117696 , 0.93803006, 0.98227272,\n       1.00266439, 0.99549469, 1.03624558]) &gt;= 0.95 &amp; array([1.0005933 , 1.01659809, 1.0117696 , 0.93803006, 0.98227272,\n       1.00266439, 0.99549469, 1.03624558]) &lt;= 1.05))
+E                +    where &lt;function all at 0x7fca06e8b470&gt; = np.all
+
+tests/test_model2_v1_1.py:76: AssertionError</failure></testcase><testcase classname="tests.test_model2_v1_1" name="test_3_x3_null[S0-C1]" time="52.352" /><testcase classname="tests.test_model2_v1_1" name="test_3_x3_null[S0-C2]" time="54.856" /><testcase classname="tests.test_model2_v1_1" name="test_3_x3_null[S3-C1]" time="52.677" /><testcase classname="tests.test_model2_v1_1" name="test_3_x3_null[S3-C2]" time="53.186" /><testcase classname="tests.test_model2_v1_1" name="test_4_x2_accounting[0.01]" time="0.540" /><testcase classname="tests.test_model2_v1_1" name="test_4_x2_accounting[0.05]" time="0.536" /><testcase classname="tests.test_model2_v1_1" name="test_5_p1_calibration[0.203-1000]" time="1.586" /><testcase classname="tests.test_model2_v1_1" name="test_5_p1_calibration[0.203-5000]" time="2.652"><failure message="AssertionError: 0.051&#10;assert 0.051 &lt;= 0.05">A = 5000, p = 0.203
+
+    @pytest.mark.parametrize("A", [1000, 5000])
+    @pytest.mark.parametrize("p", [0.203, 0.30])
+    def test_5_p1_calibration(A, p):
+        pc = V11["power"]
+        rate = null_rejection_rate(A, p, "screen", pc["screen_pass"], 2000, pc["seed"], pc["alpha"])
+&gt;       assert 0.02 &lt;= rate &lt;= 0.05, rate
+E       AssertionError: 0.051
+E       assert 0.051 &lt;= 0.05
+
+tests/test_model2_v1_1.py:108: AssertionError</failure></testcase><testcase classname="tests.test_model2_v1_1" name="test_5_p1_calibration[0.3-1000]" time="1.471" /><testcase classname="tests.test_model2_v1_1" name="test_5_p1_calibration[0.3-5000]" time="2.823" /><testcase classname="tests.test_model2_v1_1" name="test_6_sex_never_a_feature" time="2.233" /></testsuite></testsuites>

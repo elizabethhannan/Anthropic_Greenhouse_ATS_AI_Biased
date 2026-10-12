@@ -80,7 +80,10 @@ All on **matched pairs**: research résumés × Research-titled postings, engine
 
 | Date | Deviation | Reason |
 |---|---|---|
-| | | |
+| 2026-10-11 | Test 6 failed as written (keyword control not exactly name-blind). Test not edited; control kept and reported. | Fellows postings list mentors by first name; Michael, David and Nicholas are posting words. |
+| 2026-10-11 | Quick (test-only) subset now takes every 8th résumé instead of the first 12 per family | The first 12 were all strong-tier, so quick validity was undefined. Full-run analysis unaffected. |
+| 2026-10-11 | Findings text generator skips quick runs | It needs all four screeners; fixed a crash in test 7. Full-run numbers unaffected. |
+| 2026-10-11 | Engineering postings = 334, not 335 | One posting is excluded by Model 1's short-text rule. |
 
 ## References (APA 7)
 

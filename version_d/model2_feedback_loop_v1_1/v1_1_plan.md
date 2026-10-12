@@ -64,7 +64,9 @@ Target under 30 minutes on this workspace's 2 cores. Before the full run, a timi
 
 | Date | Deviation | Reason |
 |---|---|---|
-| | | |
+| 2026-10-11 | X1, X2, X4 and X5 ran at 100 runs per configuration, not 200 | Pre-registered runtime rule: the timing pilot projected 36.2 minutes, over the 30-minute target. Regression check kept 200 runs (needed to match v1.0); X3 stayed at 100. |
+| 2026-10-11 | Test 2 failed at w = 0.75, cycle 4 (C1 0.928, C2 0.938); test 5 failed in one of four cells (0.051). Tests not edited. | Reported as failures. A post-hoc 400-run diagnostic for test 2 (no parameter changed) gave 0.966 and 0.975; see the methods appendix. |
+| 2026-10-11 | "Status" line above: "go" was given ("lets do all three models suggested") | Run approved by Elizabeth. |
 
 ## References (APA 7)
 
