@@ -34,3 +34,12 @@ AnthropicBiasData_*.tar.gz
 
 # Retired nested clone (history is on GitHub)
 .git_pre_*/
+
+# --- Version D models ---
+# Person-level named-people gender codes (Model 1, T6) never leave the local machine
+**/outputs/private/
+# Posting text corpus built from R2 / local captures stays out of GitHub, like job_postings/historical_outputs/
+version_d/model1_posting_signal/outputs/corpus/
+.pytest_cache/
+# Labeling samples contain posting text that names people; regenerate with prepare.py
+version_d/model1_posting_signal/labels/*_sample.csv

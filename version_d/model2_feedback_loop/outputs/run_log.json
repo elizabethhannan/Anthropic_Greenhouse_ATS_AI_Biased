@@ -1,0 +1,14 @@
+{
+  "run_date": "2026-10-11",
+  "timings_seconds": {
+    "calibration_s": 0.7,
+    "scenarios_s": 77.1,
+    "interventions_s": 47.2,
+    "grid_s": 161.6,
+    "total_s": 286.6
+  },
+  "n_jobs": -1,
+  "cpu_count": 2,
+  "python": "3.13.16",
+  "numpy": "2.5.3"
+}

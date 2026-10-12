@@ -1,0 +1,88 @@
+# Model 1 — Posting-signal model (T7 linguistic bias, T6 visibility bias)
+# Thresholds, rules, seeds and the word-list commit. Fixed before any score is
+# computed (pre-registration; see analysis_plan.md). Log any later deviation there.
+
+label: "OBSERVED MEASUREMENT — posting text; describes wording, not intent"
+seed: 20261011
+
+wordlist:
+  source: "gender-decoder"
+  repo: "https://github.com/lovedaybrooke/gender-decoder"
+  commit: "7cb4a6d6a3b0a84a46eae8a6a312b5732cb363fd"
+  file: "third_party/gender_decoder/wordlists.py"
+  sha256: "bc020a2a965cb7c18a945ba059ee00f23a74537995014dca61315a1ccfa9bd08"
+  expected_counts: {masculine: 52, feminine: 50, hyphenated: 7}
+
+corpus:
+  # Inputs live outside GitHub (R2 / Elizabeth's PyCharm project). Paths are set at run time.
+  boilerplate_share: 0.50        # drop sentences appearing in >= 50% of records
+  min_words_after_removal: 150   # exclude shorter records
+  unit_primary: "latest captured version per posting ID"
+  unit_sensitivity: "all distinct versions"
+
+role_family:
+  # Applied in order to the title; first match wins.
+  rules:
+    - {family: "Fellows", pattern: "Fellow"}
+    - {family: "Research-titled", pattern: "Research"}
+    - {family: "Engineering", pattern: "Engineer|Developer|Software|Infrastructure|Reliability"}
+  default: "Other"
+  case_sensitive: false
+  sample_titles_per_family: 20
+
+lexicon:
+  token_pattern: "[a-z]+(?:-[a-z]+)*"   # letters; hyphenated forms kept for the hyphenated list
+  match: "stem matches at token start"
+  count_rule: "each token counts at most once per list"
+
+sense_audit:
+  sample_size: 200
+  max_per_stem: 10
+  drop_if_precision_below: 0.50
+  primary_variant: "raw"
+  robustness_variant: "sense_filtered"
+
+convergent_check:
+  sentences: 300
+  weak_validity_kappa: 0.40
+
+bias_tests:
+  permutations: 10000
+  bootstrap: 10000
+  ci: 0.95
+  reference_family: "Other"
+  multiplicity: "holm"
+
+visibility:
+  fellows_versions: 9
+  named_people: 50
+  mentor_listings: 63
+  credit_listings: 42
+  fellows_hires: {women: 8, known: 22}
+  parity: 0.50
+
+outcome_link:
+  gate:
+    min_cells: 10
+    min_known_per_cell: 10
+    min_cells_with_both_sexes: 5
+  # Hire cells (Dewey & People Data Labs, 2026), observed starts Apr-Jul 2026.
+  # Groups overlap: Fellows sit inside AI researchers and All hires.
+  source_groups:
+    all:         {male: 606, female: 276, unknown: 213}
+    researchers: {male: 19,  female: 8,   unknown: 13}
+    fellows:     {male: 14,  female: 8,   unknown: 10}
+    engineering: {male: 235, female: 51,  unknown: 72}
+
+model1b:
+  simulations: 200
+  coverage_target: 0.90
+  postings: 300
+  families: ["Fellows", "Research-titled", "Engineering", "Other"]
+  family_shares: [0.03, 0.17, 0.40, 0.40]
+  alpha_by_family: [-0.40, -0.80, -1.30, -0.60]   # logit baseline per family (assumption)
+  true_beta: -0.030      # per masculine-coded word per 1,000 (assumption, fixed before running)
+  true_gamma: 0.020      # per feminine-coded word per 1,000 (assumption)
+  true_delta: 0.50       # per unit share of named people who are women (assumption)
+  mean_applicants: 120
+  overdispersion_rho: 0.02   # beta-binomial intra-posting correlation (assumption)
