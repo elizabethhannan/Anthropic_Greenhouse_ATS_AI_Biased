@@ -190,7 +190,8 @@ def t6():
     a["fellows_versions"] = CFG["visibility"]["fellows_versions"]
     if a["versions_naming_people"] < a["fellows_versions"]:
         # the STEM Fellow version (Apr 18) names no one; keep it visible as a zero row
-        a["by_version"].append({"version": "STEM Fellow (Apr 18)", "named": 0, "women": 0, "men": 0, "unknown": 0})
+        a["by_version"].append({"version": "STEM Fellow (Apr 18)", "named": 0, "women": 0, "men": 0,
+                                "nonbinary": 0, "unknown": 0})
     a["mentor_listings"] = sum(r["role"] == "mentor" for r in rows)
     a["credit_listings"] = sum(r["role"] == "credit" for r in rows)
     a["safety_security_versions_named"] = None
@@ -215,7 +216,10 @@ def main(write=True, run_date=None):
     conv = convergent(drop)
     change = t7c(vraw)
     vis_res, vis_rows = t6()
-    gate = ol.run(CFG)
+    fam_means = {x["family"]: x for x in stats_raw}
+    covariates = {cell: {"masc_per_1k": fam_means[f]["masc_per_1k"]["mean"], "fem_per_1k": fam_means[f]["fem_per_1k"]["mean"]}
+                  for cell, f in ol.CELL_TO_POSTING_FAMILY.items() if f in fam_means}
+    gate = ol.run(CFG, covariates)
     est = m1b.validate(CFG)
     removed = list(csv.DictReader(open(OUT / "corpus" / "boilerplate_removed.csv", encoding="utf-8")))
 
@@ -273,7 +277,8 @@ def main(write=True, run_date=None):
                            "personal site or profile, or published interview); never inferred from names, photos or voice.",
             "source_types_for_known_codes": vis_res["source_types_for_known_codes"],
         },
-        "outcome_link": {k: gate[k] for k in ("estimable", "rule", "cells", "reason", "estimates", "notes")},
+        "outcome_link": {**{k: gate[k] for k in ("estimable", "fitted", "rule", "cells", "reason", "estimates", "notes")},
+                         "cell_to_posting_family": ol.CELL_TO_POSTING_FAMILY},
         "model1b": {"status": "estimator built; validated on simulated data; awaiting internal applicant data",
                     "coverage_in_simulation": r4(est["coverage_in_simulation"]),
                     "coverage_ci": r4(vis.wilson(round(est["coverage_in_simulation"] * est["simulations"]), est["simulations"])),

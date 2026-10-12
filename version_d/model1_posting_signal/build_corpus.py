@@ -112,8 +112,13 @@ def normalize_record(rec: dict, source_file: str) -> dict | None:
     if not text:
         return None
     text = normalize_ws(str(text))
+    pid = pick(rec, "posting_id")
+    sha = text_hash(text)
     return {
-        "posting_id": str(pick(rec, "posting_id")),
+        # A record with no recognized ID gets a stable, unique fallback from its text hash, so unrelated
+        # ID-less records are never merged as versions of one posting.
+        "posting_id": str(pid) if pid is not None else f"noid:{sha[:16]}",
+        "posting_id_fallback": pid is None,
         "title": _flat(pick(rec, "title")).strip(),
         "department": _flat(pick(rec, "department")),
         "location": _flat(pick(rec, "location")),
@@ -122,7 +127,7 @@ def normalize_record(rec: dict, source_file: str) -> dict | None:
         "version_c_classification": rec.get("posting_classification"),
         "source_file": source_file,
         "text": text,
-        "text_sha256": text_hash(text),
+        "text_sha256": sha,
     }
 
 
@@ -193,6 +198,7 @@ def build(inputs: list[Path], share: float = 0.50, min_words: int = 150) -> dict
         "counts": {
             "records_loaded": len(raw),
             "exact_duplicates_dropped": exact_dupes,
+            "records_without_posting_id": sum(r["posting_id_fallback"] for r in raw),
             "distinct_versions": len(versions),
             "postings_primary": len(primary),
             "excluded_short": sum(r["excluded_short"] for r in primary),

@@ -1212,6 +1212,7 @@
     "coded": {
       "women": 3,
       "men": 25,
+      "nonbinary": 0,
       "unknown": 22
     },
     "women_share_known": {
@@ -1229,6 +1230,7 @@
     "listings": {
       "women": 5,
       "men": 51,
+      "nonbinary": 0,
       "unknown": 49
     },
     "by_version": [
@@ -1237,6 +1239,7 @@
         "named": 30,
         "women": 1,
         "men": 19,
+        "nonbinary": 0,
         "unknown": 10
       },
       {
@@ -1244,6 +1247,7 @@
         "named": 25,
         "women": 1,
         "men": 19,
+        "nonbinary": 0,
         "unknown": 5
       },
       {
@@ -1251,6 +1255,7 @@
         "named": 11,
         "women": 0,
         "men": 3,
+        "nonbinary": 0,
         "unknown": 8
       },
       {
@@ -1258,6 +1263,7 @@
         "named": 12,
         "women": 2,
         "men": 5,
+        "nonbinary": 0,
         "unknown": 5
       },
       {
@@ -1265,6 +1271,7 @@
         "named": 9,
         "women": 1,
         "men": 3,
+        "nonbinary": 0,
         "unknown": 5
       },
       {
@@ -1272,6 +1279,7 @@
         "named": 2,
         "women": 0,
         "men": 0,
+        "nonbinary": 0,
         "unknown": 2
       },
       {
@@ -1279,6 +1287,7 @@
         "named": 9,
         "women": 0,
         "men": 1,
+        "nonbinary": 0,
         "unknown": 8
       },
       {
@@ -1286,6 +1295,7 @@
         "named": 7,
         "women": 0,
         "men": 1,
+        "nonbinary": 0,
         "unknown": 6
       },
       {
@@ -1293,6 +1303,7 @@
         "named": 0,
         "women": 0,
         "men": 0,
+        "nonbinary": 0,
         "unknown": 0
       }
     ],
@@ -1300,11 +1311,13 @@
       "mentors": {
         "women": 2,
         "men": 18,
+        "nonbinary": 0,
         "unknown": 13
       },
       "credits": {
         "women": 1,
         "men": 9,
+        "nonbinary": 0,
         "unknown": 10
       }
     },
@@ -1332,6 +1345,7 @@
   },
   "outcome_link": {
     "estimable": false,
+    "fitted": false,
     "rule": ">= 10 non-overlapping cells, each with >= 10 known-sex hires, and both sexes in >= 5 cells",
     "cells": [
       {
@@ -1369,7 +1383,13 @@
       "Fellows are a subset of AI researchers; non-Fellows researchers = researchers - Fellows.",
       "Engineering (general/unspecified) is treated as disjoint from the research cells; the source notes people can belong to several role groups through different employment records, so this overlap cannot be fully verified from aggregate counts.",
       "Ecological fallacy (Robinson, 1950): a family-level association would not show that a posting affected applicants."
-    ]
+    ],
+    "cell_to_posting_family": {
+      "Fellows": "Fellows",
+      "Non-Fellows researchers": "Research-titled",
+      "Engineering": "Engineering",
+      "Other": "Other"
+    }
   },
   "model1b": {
     "status": "estimator built; validated on simulated data; awaiting internal applicant data",

@@ -216,10 +216,14 @@ Binomial GLM, logit P(woman) = α_family + β·masc_per_1k + γ·fem_per_1k + δ
 | `test_3_boilerplate_removal` | passed | 0.0 |  |
 | `test_4_wilson_ci` | passed | 0.0 |  |
 | `test_5_estimability_gate_current_cells` | passed | 0.0 |  |
-| `test_6_model1b_recovery` | passed | 1.2 |  |
+| `test_6_model1b_recovery` | passed | 1.3 |  |
 | `test_7_privacy` | passed | 0.0 |  |
-| `test_8_reproducible` | passed | 31.0 |  |
+| `test_8_reproducible` | passed | 30.1 |  |
 | `test_holm_and_cliffs` | passed | 0.0 |  |
+| `test_corpus_records_without_id_stay_distinct` | passed | 0.0 |  |
+| `test_outcome_gate_fits_glm_when_gate_passes` | passed | 0.0 |  |
+| `test_outcome_gate_passing_without_covariates_is_flagged` | passed | 0.0 |  |
+| `test_visibility_nonbinary_totals_reconcile` | passed | 0.0 |  |
 
 ## 10. Thesis alignment
 

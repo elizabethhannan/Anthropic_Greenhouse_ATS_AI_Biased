@@ -34,9 +34,10 @@ def wilson(k: int, n: int, level: float = 0.95) -> tuple[float, float]:
     return (centre - half, centre + half)
 
 
-def unknown_bounds(women: int, men: int, unknown: int) -> tuple[float, float]:
-    """Share of women if every Unknown were a man (low) or a woman (high)."""
-    total = women + men + unknown
+def unknown_bounds(women: int, men: int, unknown: int, nonbinary: int = 0) -> tuple[float, float]:
+    """Share of women among ALL named people if every Unknown were not a woman (low) or a woman (high).
+    Nonbinary people count in the total and never as women."""
+    total = women + men + unknown + nonbinary
     if total == 0:
         return (float("nan"), float("nan"))
     return (women / total, (women + unknown) / total)
@@ -67,10 +68,18 @@ def person_codes(rows: list[dict]) -> dict:
     return codes
 
 
+def _counts(counter) -> dict:
+    """Every code, always present, so totals reconcile (women + men + nonbinary + unknown)."""
+    return {"women": counter.get("woman", 0), "men": counter.get("man", 0),
+            "nonbinary": counter.get("nonbinary", 0), "unknown": counter.get("unknown", 0)}
+
+
 def analyze(rows: list[dict], fellows_hires_women: int, fellows_hires_known: int, parity: float = 0.5) -> dict:
+    """Women's share 'among known' compares women with men (the binary sex categories of the hire data);
+    nonbinary people are reported separately and included in every total and in the bounds."""
     codes = person_codes(rows)
     c = Counter(codes.values())
-    w, m, u = c.get("woman", 0), c.get("man", 0), c.get("unknown", 0)
+    w, m, u, nb = c.get("woman", 0), c.get("man", 0), c.get("unknown", 0), c.get("nonbinary", 0)
     known = w + m
     share = w / known if known else float("nan")
     # T6b listing-weighted: each appearance counts
@@ -83,8 +92,7 @@ def analyze(rows: list[dict], fellows_hires_women: int, fellows_hires_known: int
     roles = {}
     for role in ("mentor", "credit"):
         people = {r["person"] for r in rows if r["role"] == role}
-        rc = Counter(codes[p] for p in people)
-        roles[role + "s"] = {"women": rc.get("woman", 0), "men": rc.get("man", 0), "unknown": rc.get("unknown", 0)}
+        roles[role + "s"] = _counts(Counter(codes[p] for p in people))
     comparisons = []
     if known:
         comparisons.append({"vs": "parity 50%", "test": "exact binomial",
@@ -94,13 +102,14 @@ def analyze(rows: list[dict], fellows_hires_women: int, fellows_hires_known: int
                             "test": "Fisher exact", "p": fisher_exact(table).pvalue})
     return {
         "named_people": len(codes),
-        "coded": {"women": w, "men": m, "unknown": u},
+        "coded": _counts(c),
         "women_share_known": {"value": share, "ci": list(wilson(w, known)) if known else [None, None],
-                              "bounds": list(unknown_bounds(w, m, u))},
+                              "bounds": list(unknown_bounds(w, m, u, nb))},
         "listing_weighted_women_share": (lw.get("woman", 0) / lw_known) if lw_known else None,
-        "listings": {"women": lw.get("woman", 0), "men": lw.get("man", 0), "unknown": lw.get("unknown", 0)},
-        "by_version": [{"version": v, "named": len(d["all"]), "women": len(d["woman"]),
-                        "men": len(d["man"]), "unknown": len(d["unknown"])} for v, d in sorted(by_version.items())],
+        "listings": _counts(lw),
+        "by_version": [{"version": v, "named": len(d["all"]), "women": len(d["woman"]), "men": len(d["man"]),
+                        "nonbinary": len(d["nonbinary"]), "unknown": len(d["unknown"])}
+                       for v, d in sorted(by_version.items())],
         "mentors_vs_credits": roles,
         "comparisons": comparisons,
     }

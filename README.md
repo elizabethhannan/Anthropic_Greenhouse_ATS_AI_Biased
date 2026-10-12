@@ -35,7 +35,7 @@ Neither model uses Anthropic applicant data, because none is available. Each sta
 | Folder | [`version_d/model1_posting_signal/`](version_d/model1_posting_signal/) | [`version_d/model2_feedback_loop/`](version_d/model2_feedback_loop/) |
 | Question | What do postings signal: gender-coded wording (T7) and who is named (T6)? | If a sex-blind screener is retrained on the outcomes it helped produce, does a historical gap persist, grow, or fade? |
 | Data | Observed posting text (Greenhouse captures, April–September 2026) | **Synthetic applicants only**, calibrated to the observed 17.8% engineering share and the 20.3% BLS benchmark |
-| Status | **Complete:** pre-registered, run on 1,226 postings, 10 of 10 tests passed, results file, model card, methods appendix, figures, dashboard strings | **Complete:** run, 11 of 11 tests passed, results file, model card, methods appendix, figures |
+| Status | **Complete:** pre-registered, run on 1,226 postings, 14 of 14 tests passed, results file, model card, methods appendix, figures, dashboard strings | **Complete:** run, 11 of 11 tests passed, results file, model card, methods appendix, figures |
 | Can claim | What postings signal, by role family | How the mechanism behaves under stated assumptions |
 | Cannot claim | That wording or named people changed who applied or was hired | Anything about Anthropic's actual screening system, applicants, or workforce |
 

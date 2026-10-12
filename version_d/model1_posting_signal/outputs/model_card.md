@@ -79,7 +79,7 @@ The most consequential Model 1 finding is not that Anthropic's job postings use 
 
 **Recommendation.** Applicant counts by sex per posting (template `templates/applicants_by_posting.csv`) are the only data that test whether postings change who applies; Model 1b is ready for them.
 
-**Tests:** 10 passed, 0 skipped, 0 failed.
+**Tests:** 14 passed, 0 skipped, 0 failed.
 
 ## References
 

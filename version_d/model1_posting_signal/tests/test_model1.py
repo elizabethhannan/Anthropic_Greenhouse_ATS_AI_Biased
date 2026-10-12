@@ -149,3 +149,51 @@ def test_holm_and_cliffs():
     assert bt.holm([0.01, 0.04, 0.03]) == pytest.approx([0.03, 0.06, 0.06])
     assert bt.cliffs_delta([2, 3], [1, 1]) == 1.0
     assert bt.cliffs_delta([1, 2], [1, 2]) == 0.0
+
+
+# Review follow-ups (Codex review on PR #1) ------------------------------------
+def test_corpus_records_without_id_stay_distinct(tmp_path):
+    words = " ".join(["word"] * 200)
+    recs = [{"exact_title": "Role A", "description_text": "Alpha posting. " + words},
+            {"exact_title": "Role B", "description_text": "Beta posting. " + words}]
+    f = tmp_path / "noid.json"
+    f.write_text(json.dumps({"records": recs}), encoding="utf-8")
+    res = bc.build([f], 0.99, 10)
+    ids = [r["posting_id"] for r in res["primary"]]
+    assert len(ids) == 2 and len(set(ids)) == 2
+    assert all(i.startswith("noid:") for i in ids)
+    assert res["counts"]["records_without_posting_id"] == 2
+
+
+def _cells(n):
+    return [{"cell": f"c{i}", "male": 20 + i, "female": 10 + (i % 4), "unknown": 3, "known": 30 + i + (i % 4)}
+            for i in range(n)]
+
+
+def test_outcome_gate_fits_glm_when_gate_passes():
+    cells = _cells(12)
+    cov = {c["cell"]: {"masc_per_1k": 5.0 + i, "fem_per_1k": 8.0 + (i % 3)} for i, c in enumerate(cells)}
+    out = ol.run(CFG, cov, cells=cells)
+    assert out["estimable"] is True and out["fitted"] is True
+    assert [t["term"] for t in out["estimates"]["terms"]] == ["intercept", "masc_per_1k", "fem_per_1k"]
+
+
+def test_outcome_gate_passing_without_covariates_is_flagged():
+    out = ol.run(CFG, None, cells=_cells(12))
+    assert out["estimable"] is True and out["fitted"] is False and out["estimates"] is None
+    assert "covariates are missing" in out["reason"]
+
+
+def test_visibility_nonbinary_totals_reconcile():
+    import visibility as vis
+    rows = [{"person": p, "version": "V1", "role": r, "code": c, "source_url": "u" if c != "unknown" else "",
+             "quote": "q" if c != "unknown" else "", "date_accessed": "d" if c != "unknown" else ""}
+            for p, r, c in (("A", "mentor", "woman"), ("B", "mentor", "man"), ("C", "credit", "nonbinary"),
+                            ("D", "credit", "unknown"))]
+    out = vis.analyze(rows, 8, 22)
+    assert sum(out["coded"].values()) == out["named_people"] == 4
+    assert out["coded"]["nonbinary"] == 1
+    assert sum(out["listings"].values()) == len(rows)
+    assert out["women_share_known"]["bounds"] == [0.25, 0.5]
+    v = out["by_version"][0]
+    assert v["women"] + v["men"] + v["nonbinary"] + v["unknown"] == v["named"]
