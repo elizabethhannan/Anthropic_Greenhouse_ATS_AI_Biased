@@ -200,7 +200,7 @@ def summarize_entry(c: dict, res: list[dict], d: int, cfg: dict, n=None) -> dict
     return e
 
 
-def regression_check(cfg, reg_raw, v1_path, d) -> dict:
+def regression_check(cfg, reg_raw, v1_path, d, v1_label=None) -> dict:
     v1 = json.loads(Path(v1_path).read_text(encoding="utf-8"))
     mismatches, compared = [], 0
     for s in v1["scenarios"]:
@@ -230,7 +230,7 @@ def regression_check(cfg, reg_raw, v1_path, d) -> dict:
             if rx.summarize_at(stack(res, m11), c5, d) != iv[k10]:
                 mismatches.append(f"{iv['calibration']}/{iv['id']}/{k10}")
     return {"matches_v1_0": (compared > 0 and not mismatches), "configs_compared": compared,
-            "mismatches": mismatches, "compared_against": str(v1_path)}
+            "mismatches": mismatches, "compared_against": v1_label or Path(v1_path).name}
 
 
 def write_power_csv(rows, path, label):
@@ -296,7 +296,7 @@ def main(outdir=None, quick=False, v11_path=None) -> dict:
         reg = {"matches_v1_0": None, "configs_compared": 0, "mismatches": [],
                "note": "quick configuration differs from v1.0; regression check runs only in the full configuration"}
     else:
-        reg = regression_check(cfg, reg_raw, v1_path, d)
+        reg = regression_check(cfg, reg_raw, v1_path, d, v["v1_0_results"])  # repository-relative label
 
     # ---- extension entries
     extensions = []

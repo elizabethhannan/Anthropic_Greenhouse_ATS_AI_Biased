@@ -48,7 +48,7 @@
     "matches_v1_0": true,
     "configs_compared": 14,
     "mismatches": [],
-    "compared_against": "/home/claude/anthropic_greenhouse_ats_ai_biased/version_d/model2_feedback_loop/outputs/model2_results.json"
+    "compared_against": "../model2_feedback_loop/outputs/model2_results.json"
   },
   "extensions": [
     {
