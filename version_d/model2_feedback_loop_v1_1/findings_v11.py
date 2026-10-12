@@ -58,16 +58,18 @@ def build_text(r: dict) -> dict:
           + f": the cycle-{T} screen impact ratio was {_t(s1_0['screen_ir'], T)} with no reliance and "
             f"{_t(s1_w['screen_ir'], T)} at w = {wmax}"
           + (" (a null result)" if null_s1 else "")
-          + f"; reliance did keep the model's learned proxy weight from fading ({_t(s1_w['proxy_signal'], T)} vs. "
-            f"{_t(s1_0['proxy_signal'], T)} without reliance), but too little to move the screen ratio.")
+          + f"; the screener's median proxy weight stayed further from zero ({_t(s1_w['proxy_signal'], T)} vs. "
+            f"{_t(s1_0['proxy_signal'], T)} without reliance), a range too wide to call it preserved and too small "
+            f"to move the screen ratio.")
 
     # X1 under S2
     s2_0 = _res(x1, calibration="C2", scenario="S2", value=0)
     s2_w = _res(x1, calibration="C2", scenario="S2", value=wmax)
-    f2 = (f"(RQ2, RQ3) With a continuing interview penalty (S2, C2), reliance moved the bias from people into the "
-          f"model: the cycle-{T} overall impact ratio rose from {_t(s2_0['overall_ir'], T)} at w = 0 to "
-          f"{_t(s2_w['overall_ir'], T)} at w = {wmax} because the interviewer's penalty was diluted, while the "
-          f"screener's proxy weight grew from {_t(s2_0['proxy_signal'], T)} to {_t(s2_w['proxy_signal'], T)}.")
+    f2 = (f"(RQ2, RQ3) With a continuing interview penalty (S2, C2), reliance diluted the interviewer's penalty: "
+          f"the cycle-{T} overall impact ratio rose from {_t(s2_0['overall_ir'], T)} at w = 0 to "
+          f"{_t(s2_w['overall_ir'], T)} at w = {wmax}; the screener's median proxy weight grew from "
+          f"{_t(s2_0['proxy_signal'], T)} to {_t(s2_w['proxy_signal'], T)}, but the screen ratio did not change "
+          f"({_at(s2_0['screen_ir'], T)[0]:.3f} at w = 0, {_at(s2_w['screen_ir'], T)[0]:.3f} at w = {wmax}).")
 
     # P1
     iv30 = _pw(r, "interview", 0.30, 0.62)
@@ -78,6 +80,7 @@ def build_text(r: dict) -> dict:
     Amin = str(min(r["power"]["applicants"]))
     small = [_pw(r, "screen", p, 0.97) for p in (0.203, 0.30)]
     fa = [x["p_observed_below_080_by_A"][Amin] for x in small]
+    fai = [_pw(r, "interview", p, 0.97)["p_observed_below_080_by_A"][Amin] for p in (0.203, 0.30)]
     def m80(x):
         v = x["min_applicants_80pct"]
         return f"{v:,}" if isinstance(v, int) else v
@@ -86,8 +89,9 @@ def build_text(r: dict) -> dict:
           f"{m80(iv30)} applicants per role family per reporting period when women were 30% of applicants (power "
           f"{iv30['power_by_A'][Amax]:.2f} at {int(Amax):,}) and {m80(iv20)} at 20.3% (power "
           f"{iv20['power_by_A'][Amax]:.2f} at {int(Amax):,}); the same gap at the screen needed {m80(sc30)}–{m80(sc20)}, "
-          f"and at {int(Amin):,} applicants an observed ratio fell below 0.80 in {min(fa):.0%}–{max(fa):.0%} of "
-          f"periods even when the true ratio was 0.97"
+          f"and at {int(Amin):,} applicants the observed ratio fell below 0.80 even when the true ratio was 0.97 in "
+          f"{min(fa):.0%}–{max(fa):.0%} of periods at the screen stage and {min(fai):.0%}–{max(fai):.0%} at the "
+          f"interview stage"
           + ("; interview-stage audits therefore need pooling across periods or role families." if pooling else "."))
 
     # X3
@@ -126,7 +130,7 @@ def build_text(r: dict) -> dict:
           f"with higher proxy scores (screen ratio {_t(s2l['screen_ir'], c5)}, validity "
           f"{_at(s2l['screen_validity'], c5)[0]:.3f}); removing the proxy restored {_t(i1l['screen_ir'], c5)} at a "
           f"validity cost of {cost:.3f}, reweighing kept validity but not parity ({_at(i2l['screen_ir'], c5)[0]:.2f}), "
-          f"and no fix moved women's hire share outside {min(hs):.2f}–{max(hs):.2f} while the interview penalty "
+          f"and no fix moved women's hire share outside {min(hs):.3f}–{max(hs):.3f} while the interview penalty "
           f"continued.")
 
     # X5
@@ -144,7 +148,8 @@ def build_text(r: dict) -> dict:
     thesis = [
         {"question": "RQ2", "text": THESIS_Q["RQ2"],
          "contribution": "The screen carried only a small part of the gap with a linear or a boosted screener; "
-                         "reliance on the screen score made the model learn more of the historical gap.",
+                         "reliance on the screen score raised the median proxy weight the model learned, without "
+                         "changing screen ratios.",
          "status": "Simulated only; algorithmic causation not established"},
         {"question": "RQ3", "text": THESIS_Q["RQ3"],
          "contribution": "The interview stage still decided whether the gap persisted; how much interviewers lean "
@@ -172,13 +177,15 @@ def build_text(r: dict) -> dict:
         f"minutes, over the 30-minute target), "
         f"X1, X2, X4 and X5 used {r['config']['runs']['default']} runs per configuration; X3 used "
         f"{r['config']['runs']['x3']}; the regression check used {r['config']['runs']['regression']}.",
-        "Tests 2 and 5 each failed in one cell by Monte Carlo margins (see the methods appendix); they were not edited.",
+        "Test 2 failed at one point (w = 0.75, cycle 4) in both calibrations and test 5 in one of four cells, by "
+        "Monte Carlo margins (see the methods appendix); they were not edited.",
     ]
     exec_c = ("The most consequential finding is not that the screening model carries the historical gap; in every "
               "variant it carried only a small part of it. It is that how people use the model decides where the gap "
               "lives. When interviewers lean on the AI score, a continuing human penalty is diluted in today's hires "
-              "but absorbed into the model's weights for tomorrow's, and a four-fifths check of one role family in one "
-              "reporting period is too small to see an interview-stage gap of this size. Responsible governance "
+              "while the model's median learned weight on the proxy grows, a shift that hire counts and screen ratios "
+              "do not show; and a four-fifths check of one role family in one reporting period is too small to see an "
+              "interview-stage gap of this size. Responsible governance "
               "therefore needs stage-level data pooled across periods, a record of how much decision-makers rely on "
               "model scores, and audits of the model's learned weights over time, not hire counts alone. None of this "
               "establishes algorithmic causation at Anthropic; the \"Historical feedback loops\" layer remains an "

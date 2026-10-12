@@ -27,17 +27,17 @@ G < 0 means men's names scored higher. Selection IR = women's selection rate ÷ 
 
 ## Findings
 
-- (Validity) 3 of 4 screeners ranked stronger résumés higher (mean Spearman with designed tier: WordLlama 0.43, GloVe 0.36, TF-IDF 0.42); fastText failed (0.10; family AUC 0.33), so its results are reported but not interpreted.
+- (Validity) 3 of 4 screeners ranked stronger résumés higher (mean Spearman with designed tier: WordLlama 0.43, GloVe 0.36, TF-IDF 0.42); fastText failed (0.10; family AUC 0.33), so its results are reported but not interpreted. Validity was weak or negative on the 7 Fellows postings (WordLlama +0.07, GloVe -0.52).
 - (RQ2) With the primary screener (WordLlama), the same résumé scored higher with a men's name in 99% of the 442 technical postings, by 0.13 SD of résumé-to-résumé spread on average; but that is within the range arbitrary splits of the 20 names produce (exact p = 0.066; Holm-adjusted 0.13), so it is not statistically distinguishable from name-specific noise.
 - (RQ2) Picking the top 10% by that score, résumés with women's names were selected at 0.82 times the rate of men's (median posting 0.83; 37% of postings below 0.80 versus 10% under random name splits), at the lower edge of the random-split range (0.824–1.221; observed 0.824).
-- (RQ2) The other screeners did not agree: GloVe -0.04 SD (p = 0.16; selection ratio 0.94); fastText (failed validity) +0.15 SD (p = 0.04; selection ratio 1.40).
+- (RQ2) The other screeners did not agree: GloVe -0.04 SD (p = 0.16, Holm 0.16; selection ratio 0.94); fastText (failed validity) +0.15 SD (p = 0.04, Holm 0.11; selection ratio 1.40).
 - (RQ2) Changing one word, WordLlama scored "Captain, men's …" above "Captain, women's …" on 100% of the 300 résumés (-0.13 SD; selection ratio 0.80); the other screeners did not repeat it (GloVe +0.062, fastText -0.003 SD).
-- (RQ5) The keyword control was not exactly name-blind (test 6 failed): Fellows postings list mentors by name, and Michael, David, Nicholas appear in that text, so even a keyword matcher shifts scores for applicants who share those first names (overall +0.06 SD, p = 0.21; Fellows postings -0.08 SD).
+- (RQ5) The keyword control was not exactly name-blind (test 6 failed): Fellows postings list mentors by name, so Michael, David, Nicholas are in the keyword vocabulary; résumés with those names scored slightly lower on postings that do not mention them (overall +0.06 SD toward women's names, p = 0.21) and higher on the Fellows postings that do (-0.08 SD toward men's names).
 - (Exploratory) Masculine-coded posting language (Model 1) did not predict the size of the name gap (Spearman +0.06, p = 0.20, 442 postings).
 
 ## Executive conclusion
 
-The most consequential finding is not whether one AI screener is biased against women. It is that the answer depends on which model is used. On Anthropic's own technical postings, the most modern stand-in scored identical résumés lower with women's names in 99% of postings and penalized the word "women's" on every résumé, yet the name gap is not beyond what name choice alone can produce, and two older models did not agree. A gender audit of hiring technology cannot be done once, in general: it has to be run on the specific model in use, with paired résumés, before and after deployment. Anthropic's own screening has not been tested here, and nothing in this audit shows that it behaves this way.
+The most consequential finding is not whether one AI screener is biased against women. It is that the answer depends on which model is used. On Anthropic's own technical postings, the most modern stand-in scored identical résumés lower with women's names in 99% of postings and scored "women's" below "men's" on every résumé, yet the name gap is not beyond what name choice alone can produce, and two older models did not agree. A gender audit of hiring technology cannot be done once, in general: it has to be run on the specific model in use, with paired résumés, before and after deployment. Anthropic's own screening has not been tested here, and nothing in this audit shows that it behaves this way.
 
 ## Thesis alignment
 

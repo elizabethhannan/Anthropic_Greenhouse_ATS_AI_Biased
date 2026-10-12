@@ -85,11 +85,13 @@ Interview-stage gaps of the simulated size need pooling across periods or role f
 | test_6_sex_never_a_feature | passed |  |
 | test_7_reproducible | passed |  |
 
-**Test 2 (X1 null) failed at one point, in both calibrations.** Under S0 at w = 0.75, the median overall impact ratio at cycle 4 was 0.928 (C1) and 0.938 (C2) against a band of 0.95–1.05; every other cycle and every other w passed. A post-hoc diagnostic with 400 runs (no parameter changed) gave cycle-4 medians of 0.966 (C1) and 0.975 (C2), and the mean log ratio was within −0.035 to 0 in all cycles: Monte Carlo noise widened by reliance (the run-to-run SD of the overall ratio was 0.17–0.20 at w = 0.75). The C1 and C2 failures share seeds, so they are not independent.
+**Test 2 (X1 null) failed at one point, in both calibrations.** Under S0 at w = 0.75, the median overall impact ratio at cycle 4 was 0.928 (C1) and 0.938 (C2) against a band of 0.95–1.05; every other cycle and every other w passed. A post-hoc diagnostic with 400 runs (`diagnostic_test2.py`, output `diagnostic_test2.json`; no parameter changed) gave cycle-4 medians of 0.966 (C1) and 0.975 (C2); all medians were within the band (True), the mean log ratio ranged from -0.035 to -0.001, and the run-to-run SD of the overall ratio was 0.15–0.19. Reading: Monte Carlo noise, widened by reliance. The C1 and C2 failures share seeds, so they are not independent.
 
 **Test 5 (P1 calibration) failed in one of four cells.** With r = 1.0, the screen-stage rejection rate at A = 5,000, p = 0.203 was 0.051 against a cap of 0.05. The Monte Carlo standard error at 2,000 replicates is about 0.005, so this is within noise of the nominal rate; Fisher's exact test is close to nominal at large A.
 
 Neither test was edited.
+
+**Pre-registration scope.** `v1_1_plan.md` was committed (27a28e9) before any v1.1 code existed. `config_v1_1.yaml`, the v1.1 code and the test file were written after the plan and before the runs, and were committed together with the results; their values match the plan.
 
 ## 6. Runtime
 

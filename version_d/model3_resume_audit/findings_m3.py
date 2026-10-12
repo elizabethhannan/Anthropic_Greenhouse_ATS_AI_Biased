@@ -40,8 +40,12 @@ def build_text(r: dict) -> dict:
     ftxt = "; ".join(f"{e['name'].split(' ')[0]} failed ({e['validity']['tier_spearman_mean']:.2f}; family "
                      f"AUC {e['validity']['family_auc_mean']:.2f}), so its results are reported but not interpreted"
                      for e in failed)
+    fel = [e for e in valid if e["validity"]["tier_spearman_by_family"]["fellows"] < 0.10]
+    feltxt = (" Validity was weak or negative on the 7 Fellows postings (" +
+              ", ".join(f"{e['name'].split(' ')[0]} {e['validity']['tier_spearman_by_family']['fellows']:+.2f}" for e in fel)
+              + ")." if fel else "")
     f_valid = (f"(Validity) {len(valid)} of {len(r['screeners'])} screeners ranked stronger résumés higher "
-               f"(mean Spearman with designed tier: {vtxt})" + (f"; {ftxt}." if failed else "."))
+               f"(mean Spearman with designed tier: {vtxt})" + (f"; {ftxt}." if failed else ".") + feltxt)
 
     g = prim["name_gap"]
     sig = _sig(g["p_holm"])
@@ -69,8 +73,8 @@ def build_text(r: dict) -> dict:
     same = [e for e in (glove, ft) if (e["name_gap"]["G_std"] < 0) == (g["G_std"] < 0)]
     def gtxt(e):
         tag = " (failed validity)" if e["validity"]["flag_not_meaningful"] else ""
-        return (f"{e['name'].split(' ')[0]}{tag} {e['name_gap']['G_std']:+.2f} SD (p = {e['name_gap']['p_exact']:.2f}; "
-                f"selection ratio {e['selection']['pooled_ir']:.2f})")
+        return (f"{e['name'].split(' ')[0]}{tag} {e['name_gap']['G_std']:+.2f} SD (p = {e['name_gap']['p_exact']:.2f}, "
+                f"Holm {e['name_gap']['p_holm']:.2f}; selection ratio {e['selection']['pooled_ir']:.2f})")
     f_rob = ("(RQ2) The other screeners " + ("agreed in direction: " if len(same) == 2 else "did not agree: ")
              + f"{gtxt(glove)}; {gtxt(ft)}.")
 
@@ -86,10 +90,10 @@ def build_text(r: dict) -> dict:
     nonzero = [x["name"] for x in tf["per_name"]
                if abs(x["effect_std"] - max(y["effect_std"] for y in tf["per_name"])) > 1e-3]
     f_tf = ("(RQ5) The keyword control was " + ("exactly name-blind." if tf_g["G_std"] == 0 else
-            f"not exactly name-blind (test 6 failed): Fellows postings list mentors by name, and "
-            f"{', '.join(nonzero)} appear in that text, so even a keyword matcher shifts scores for applicants who "
-            f"share those first names (overall {tf_g['G_std']:+.2f} SD, p = {tf_g['p_exact']:.2f}; "
-            f"Fellows postings {tf_g['by_family']['fellows']:+.2f} SD)."))
+            f"not exactly name-blind (test 6 failed): Fellows postings list mentors by name, so {', '.join(nonzero)} "
+            f"are in the keyword vocabulary; résumés with those names scored slightly lower on postings that do not "
+            f"mention them (overall {tf_g['G_std']:+.2f} SD toward women's names, p = {tf_g['p_exact']:.2f}) and "
+            f"higher on the Fellows postings that do ({tf_g['by_family']['fellows']:+.2f} SD toward men's names)."))
 
     lk = prim["posting_link_model1"]
     f_link = (f"(Exploratory) Masculine-coded posting language (Model 1) "
@@ -128,7 +132,7 @@ def build_text(r: dict) -> dict:
     exec_c = (f"The most consequential finding is not whether one AI screener is biased against women. It is that "
               f"the answer depends on which model is used. On Anthropic's own technical postings, the most modern "
               f"stand-in scored identical résumés lower with women's names in {favor_share:.0%} of postings and "
-              f"penalized the word \"women's\" on every résumé, yet the name gap {v} beyond what name choice alone "
+              f"scored \"women's\" below \"men's\" on every résumé, yet the name gap {v} beyond what name choice alone "
               f"can produce, and two older models did not agree. A gender audit of hiring technology cannot be done "
               f"once, in general: it has to be run on the specific model in use, with paired résumés, before and "
               f"after deployment. Anthropic's own screening has not been tested here, and nothing in this audit "

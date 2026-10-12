@@ -69,8 +69,8 @@ Full results: [`model2_results.json`](version_d/model2_feedback_loop/outputs/mod
 
 Pre-registered in [`v1_1_plan.md`](version_d/model2_feedback_loop_v1_1/v1_1_plan.md). With every extension off, v1.1 reproduces v1.0 exactly (14 of 14 configurations). Median with 5th–95th percentile; C2 illustrative pool.
 
-- **Reliance on the AI score (X1).** With even-handed interviewers, reliance did not keep the screen gap alive (cycle-8 screen ratio 1.00 with no reliance, 0.98 at w = 0.75), a null result. With a continuing interview penalty, reliance moved the bias from people into the model: the overall ratio rose from 0.57 (0.42–0.84) to 0.90 (0.67–1.17) as the interviewer's penalty was diluted, while the screener's proxy weight grew from −0.10 to −0.38.
-- **Minimum instrumentation (P1).** Detecting an interview-stage gap of 0.62 with 80% power took 10,000 applicants per role family per period (30% women) and more than 10,000 at 20.3%. At 250 applicants, the observed ratio fell below 0.80 in 34–36% of periods even when the true ratio was 0.97. Interview-stage audits need pooling across periods or role families.
+- **Reliance on the AI score (X1).** With even-handed interviewers, reliance did not keep the screen gap alive (cycle-8 screen ratio 1.00 with no reliance, 0.98 at w = 0.75), a null result. With a continuing interview penalty, reliance diluted the interviewer's penalty: the overall ratio rose from 0.57 (0.42–0.84) to 0.90 (0.67–1.17). The screener's median proxy weight grew from −0.10 to −0.38 (5th–95th −0.74 to 0.20), but the screen ratio did not change (0.96).
+- **Minimum instrumentation (P1).** Detecting an interview-stage gap of 0.62 with 80% power took 10,000 applicants per role family per period (30% women) and more than 10,000 at 20.3%. At 250 applicants, the observed ratio fell below 0.80 even when the true ratio was 0.97 in 34–36% of periods at the screen stage and 43–50% at the interview stage. Interview-stage audits need pooling across periods or role families.
 - **Gradient boosting (X3)** carried the same small screen gap as logistic regression (0.98 vs. 0.97) and the same overall gap (0.61 vs. 0.60), with lower validity (0.58 vs. 0.80): the v1.0 result does not depend on the screener being linear.
 - **Exploration (X2)** at 1–5% left the proxy weight unchanged (null). **Job-relevant proxy (X4):** removing the proxy restored screen parity at a validity cost of 0.020; reweighing did not. **All-history training (X5)** slowed the fading modestly.
 
@@ -85,9 +85,9 @@ Full results: [`model2_v1_1_results.json`](version_d/model2_feedback_loop_v1_1/o
 Pre-registered in [`model3_plan.md`](version_d/model3_resume_audit/model3_plan.md) before any scoring. 300 synthetic résumés × 20 names (10 women's, 10 men's; most common U.S. names for 1985–2000 births) × 442 public technical postings.
 
 - **Primary screener (WordLlama):** men's names scored higher in 99% of postings, by 0.13 SD on average, but that is within what arbitrary splits of the 20 names produce (exact p = 0.066; Holm 0.13). At a top-10% cut, women's names were selected at 0.82 times men's rate, at the lower edge of the random-split range.
-- **One word ("Captain, women's …" vs. "Captain, men's …"):** WordLlama preferred "men's" on all 300 résumés (selection ratio 0.80). GloVe reversed it; fastText showed none.
-- **Model choice changed the answer:** GloVe leaned the same way but smaller (−0.04 SD, p = 0.16); fastText leaned the other way but failed the validity check.
-- **Keyword control:** not exactly name-blind, because Fellows postings list mentors by first name (Michael, David, Nicholas).
+- **One word ("Captain, women's …" vs. "Captain, men's …"):** WordLlama preferred "men's" on all 300 résumés (selection ratio 0.80). GloVe reversed it; fastText's gap was negligible (−0.003 SD).
+- **Model choice changed the answer:** GloVe leaned the same way but smaller (−0.04 SD, p = 0.16); fastText leaned the other way (+0.15 SD, p = 0.04, Holm 0.11) but failed the validity check.
+- **Keyword control:** not exactly name-blind. Fellows postings list mentors by first name, so Michael, David and Nicholas are keyword-vocabulary words: résumés with those names scored slightly lower on other postings and higher on the Fellows postings that name them.
 
 <p>
 <img src="version_d/model3_resume_audit/outputs/figures/h1_name_gap_by_screener.png" alt="AUDIT: score gap between women's and men's names on identical résumés, by screener, against the range from random name splits; WordLlama -0.13, GloVe -0.04, fastText +0.15, keyword control +0.06" width="100%">

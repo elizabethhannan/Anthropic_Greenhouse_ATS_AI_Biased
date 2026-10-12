@@ -46,12 +46,16 @@ For posting j with matched résumés r = 1…R, names k (women W, men M) and unn
 | test_6_tfidf_control_is_name_blind | FAILED |
 | test_7_reproducible | passed |
 
-**Test 6 failed.** The TF-IDF control was meant to be exactly name-blind because names are not posting words. Three of the men's names (Michael, David, Nicholas) do appear in Fellows postings, which list mentors by name, so résumés carrying those names gain a matching term and their scores shift. The test was not edited; the control was kept as pre-registered, and its results are reported as a finding: posting text that names people can make even a keyword matcher sensitive to applicants' first names.
+**Test 6 failed.** The TF-IDF control was meant to be exactly name-blind because names are not posting words. Three of the men's names (Michael, David, Nicholas) do appear in Fellows postings, which list mentors by name, so they are in the keyword vocabulary (fit on all postings). A résumé carrying one of those names gets an extra term: on postings that do not mention the name, the extra term only lengthens the résumé vector and lowers the score (every other name's effect is identical); on the Fellows postings that do mention it, the score rises. Net: overall +0.06 SD toward women's names, Fellows postings −0.08 SD toward men's names. The test was not edited; the control was kept as pre-registered, and the result is reported as a finding: posting text that names people can make even a keyword matcher sensitive to applicants' first names.
+
+**Pre-registration scope.** The plan, configuration, name rule, résumé generator and résumé data were committed (788634a) before any scoring. The scoring code (`screeners.py`, `audit.py`, `run_model3.py`) and the test file were written after that commit and before scoring, and were committed together with the results; their parameters match the plan.
 
 ## 5. Deviation log
 
 | Date | Deviation | Reason |
 |---|---|---|
+| 2026-10-11 | Test 6 failed as written (keyword control not exactly name-blind). Test not edited; control kept and reported. | Fellows postings list mentors by first name; Michael, David and Nicholas are posting words. |
+| 2026-10-11 | Engineering postings = 334, not 335 | One posting is excluded by Model 1's short-text rule. |
 | 2026-10-11 | Quick (test-only) subset changed from the first 12 résumés per family to every 8th résumé | The first 12 were all strong-tier, which made the quick validity metric undefined. Full-run analysis unaffected. |
 | 2026-10-11 | Findings text skips quick runs | Text generator needs all four screeners; fixed a crash in test 7. Full-run numbers unaffected. |
 
