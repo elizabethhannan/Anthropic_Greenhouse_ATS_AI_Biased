@@ -1,0 +1,1227 @@
+posting_id,title,family,captured,n_words,masc_per_1k,fem_per_1k,net_per_1k,decoder_label,variant
+4017331008,"Research Engineer, Knowledge Team",Research-titled,2026-09-29,268,0.0,3.7313432835820897,-3.7313432835820897,feminine-coded,sense_filtered
+4017544008,"Staff+ Research Scientist, Multi-Agent",Research-titled,2026-09-29,301,0.0,0.0,0.0,empty,sense_filtered
+4020350008,Performance Engineer,Engineering,2026-09-29,236,0.0,0.0,0.0,empty,sense_filtered
+4423394008,"Growth Account Executive, AI Native",Other,2026-09-29,399,0.0,2.506265664160401,-2.506265664160401,feminine-coded,sense_filtered
+4461444008,"Applied AI Architect, Industries",Other,2026-09-29,509,0.0,5.893909626719057,-5.893909626719057,feminine-coded,sense_filtered
+4461450008,"Account Executive, AI Native",Other,2026-09-29,498,0.0,8.032128514056225,-8.032128514056225,strongly feminine-coded,sense_filtered
+4493035008,"Enterprise Account Executive, Industries",Other,2026-05-14,601,3.327787021630616,1.663893510815308,1.663893510815308,masculine-coded,sense_filtered
+4502508008,Staff+ Application Security Engineer,Engineering,2026-09-29,624,0.0,0.0,0.0,empty,sense_filtered
+4532887008,"[Expression of Interest] Research Scientist / Engineer, Honesty",Research-titled,2026-05-13,468,0.0,0.0,0.0,empty,sense_filtered
+4572744008,"Staff Software Engineer, iOS",Engineering,2026-09-29,250,0.0,4.0,-4.0,feminine-coded,sense_filtered
+4593216008,"Staff Research Engineer, Discovery Team",Research-titled,2026-09-29,406,0.0,4.926108374384237,-4.926108374384237,feminine-coded,sense_filtered
+4595463008,"Security Software Engineer, Detection & Response Platform",Engineering,2026-09-29,410,0.0,0.0,0.0,empty,sense_filtered
+4610158008,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",Research-titled,2026-09-29,471,0.0,4.246284501061571,-4.246284501061571,feminine-coded,sense_filtered
+4613568008,"Research Engineer, Machine Learning (Reinforcement Learning)",Research-titled,2026-09-29,513,0.0,5.847953216374269,-5.847953216374269,feminine-coded,sense_filtered
+4613592008,"Research Engineer, Production Model Post-Training",Research-titled,2026-09-29,357,0.0,5.602240896358543,-5.602240896358543,feminine-coded,sense_filtered
+4616971008,"Research Engineer/Research Scientist, Pre-training",Research-titled,2026-09-29,542,1.845018450184502,7.380073800738008,-5.535055350553506,feminine-coded,sense_filtered
+4631822008,"Research Engineer / Scientist, Alignment",Research-titled,2026-09-29,544,0.0,3.676470588235294,-3.676470588235294,feminine-coded,sense_filtered
+4641822008,"Senior Software Engineer, Inference",Engineering,2026-04-09,338,0.0,0.0,0.0,empty,sense_filtered
+4669581008,"Research Engineer, Discovery",Research-titled,2026-09-29,429,0.0,6.993006993006993,-6.993006993006993,feminine-coded,sense_filtered
+4673416008,"Software Engineer, UI Platform",Engineering,2026-04-09,511,0.0,1.9569471624266144,-1.9569471624266144,feminine-coded,sense_filtered
+4677205008,"Enterprise Account Executive, Life Sciences",Other,2026-04-14,414,0.0,7.246376811594203,-7.246376811594203,feminine-coded,sense_filtered
+4720576008,TPU Kernel Engineer,Engineering,2026-09-29,217,0.0,0.0,0.0,empty,sense_filtered
+4741102008,"Engineering Manager, Inference",Engineering,2026-04-09,314,0.0,0.0,0.0,empty,sense_filtered
+4741104008,"Engineering Manager, GPU (ML Accelerator)",Engineering,2026-09-29,315,0.0,0.0,0.0,empty,sense_filtered
+4778843008,"ML Infrastructure Engineer, Safeguards",Engineering,2026-04-20,449,0.0,4.4543429844097995,-4.4543429844097995,feminine-coded,sense_filtered
+4802076008,IT Support Engineer,Engineering,2026-04-24,671,1.4903129657228018,0.0,1.4903129657228018,masculine-coded,sense_filtered
+4880880008,"Manager, Account Executive (Startups)",Other,2026-05-07,402,0.0,4.975124378109452,-4.975124378109452,feminine-coded,sense_filtered
+4887952008,"IT Systems Engineer, Corporate Systems & Infrastructure",Engineering,2026-04-15,580,0.0,0.0,0.0,empty,sense_filtered
+4887959008,Senior Software Security Engineer,Engineering,2026-09-29,482,0.0,6.224066390041494,-6.224066390041494,feminine-coded,sense_filtered
+4889396008,"Engineering Manager, Auth & Identity",Engineering,2026-04-18,577,0.0,1.733102253032929,-1.733102253032929,feminine-coded,sense_filtered
+4899511008,"Staff Software Engineer, Android",Engineering,2026-09-29,252,0.0,3.9682539682539684,-3.9682539682539684,feminine-coded,sense_filtered
+4915842008,"Senior Software Engineer, Systems",Engineering,2026-04-15,364,2.7472527472527473,0.0,2.7472527472527473,masculine-coded,sense_filtered
+4926227008,"Performance Engineer, GPU",Engineering,2026-09-29,410,0.0,2.4390243902439024,-2.4390243902439024,feminine-coded,sense_filtered
+4926242008,"Software Engineer, ML Networking",Engineering,2026-09-29,305,0.0,0.0,0.0,empty,sense_filtered
+4929689008,Platform Hardware Security,Other,2026-04-09,398,0.0,5.025125628140704,-5.025125628140704,feminine-coded,sense_filtered
+4931772008,"Mid-Market Account Executive, Industries",Other,2026-09-29,497,0.0,8.048289738430583,-8.048289738430583,strongly feminine-coded,sense_filtered
+4931782008,"SMB Account Executive, Industries",Other,2026-04-14,547,0.0,3.656307129798903,-3.656307129798903,feminine-coded,sense_filtered
+4935314008,"Recruiter, AI Research",Research-titled,2026-09-29,426,0.0,4.694835680751174,-4.694835680751174,feminine-coded,sense_filtered
+4938432008,"Research Engineer, Pretraining Scaling",Research-titled,2026-09-29,674,0.0,2.9673590504451037,-2.9673590504451037,feminine-coded,sense_filtered
+4938436008,"Research Engineer, Pretraining Scaling - London",Research-titled,2026-09-29,673,0.0,2.971768202080238,-2.971768202080238,feminine-coded,sense_filtered
+4939288008,Real Estate Project Manager,Other,2026-06-16,505,1.9801980198019802,0.0,1.9801980198019802,masculine-coded,sense_filtered
+4942024008,"Software Engineer, Beneficial Deployments",Engineering,2026-09-29,384,0.0,5.208333333333333,-5.208333333333333,feminine-coded,sense_filtered
+4946308008,"Research Engineer, Virtual Collaborator (Cowork)",Research-titled,2026-04-21,357,0.0,11.204481792717086,-11.204481792717086,strongly feminine-coded,sense_filtered
+4947500008,"Enterprise Account Executive, Industries",Other,2026-05-06,1097,0.9115770282588879,2.7347310847766635,-1.8231540565177755,feminine-coded,sense_filtered
+4948535008,"Account Executive, Mid Market - UKI",Other,2026-04-14,551,0.0,1.8148820326678765,-1.8148820326678765,feminine-coded,sense_filtered
+4949108008,"Privacy Research Engineer, Safeguards",Research-titled,2026-04-09,318,0.0,0.0,0.0,empty,sense_filtered
+4949336008,"ML/Research Engineer, Safeguards",Research-titled,2026-09-29,304,0.0,0.0,0.0,empty,sense_filtered
+4950664008,"Partner Solutions Architect, Applied AI",Other,2026-04-15,426,0.0,4.694835680751174,-4.694835680751174,feminine-coded,sense_filtered
+4951064008,"Research Engineer, Environment Scaling",Research-titled,2026-04-20,347,0.0,5.763688760806916,-5.763688760806916,feminine-coded,sense_filtered
+4951696008,"Staff + Sr. Software Engineer, Inference",Engineering,2026-05-10,357,0.0,0.0,0.0,empty,sense_filtered
+4951814008,"Research Engineer / Research Scientist, Tokens",Research-titled,2026-09-29,357,0.0,0.0,0.0,empty,sense_filtered
+4951844008,"Staff+ Software Engineer, Safeguards",Engineering,2026-09-29,648,0.0,1.5432098765432098,-1.5432098765432098,feminine-coded,sense_filtered
+4952051008,"Research Engineer, RL Engineering",Research-titled,2026-09-29,378,0.0,0.0,0.0,empty,sense_filtered
+4952079008,"Machine Learning Systems Engineer, Research Tools",Research-titled,2026-04-14,414,2.4154589371980677,4.830917874396135,-2.4154589371980677,feminine-coded,sense_filtered
+4956672008,Data Engineer,Engineering,2026-09-29,388,0.0,2.577319587628866,-2.577319587628866,feminine-coded,sense_filtered
+4964610008,"Manager of Solutions Architecture, Applied AI (Industries)",Other,2026-05-08,563,0.0,3.552397868561279,-3.552397868561279,feminine-coded,sense_filtered
+4965218008,"Director, Accounting Operations",Other,2026-04-09,738,0.0,1.3550135501355014,-1.3550135501355014,feminine-coded,sense_filtered
+4968059008,"Solutions Architect, Applied AI (Startups)",Other,2026-04-15,458,0.0,0.0,0.0,empty,sense_filtered
+4969427008,Business Development Representative - EMEA,Other,2026-05-06,325,0.0,6.153846153846154,-6.153846153846154,feminine-coded,sense_filtered
+4970314008,"Staff+ Software Engineer, Infrastructure (Distributed Systems)",Engineering,2026-09-29,418,7.177033492822966,0.0,7.177033492822966,masculine-coded,sense_filtered
+4973067008,Pre-training Data Infrastructure Engineer,Engineering,2026-09-29,339,2.949852507374631,5.899705014749262,-2.949852507374631,feminine-coded,sense_filtered
+4976328008,Manager– Growth Sales (AI-Native),Other,2026-09-29,341,0.0,5.865102639296188,-5.865102639296188,feminine-coded,sense_filtered
+4977624008,"Solutions Architect, Applied AI (Industries)",Other,2026-04-14,515,0.0,5.825242718446602,-5.825242718446602,feminine-coded,sense_filtered
+4977626008,"Applied AI Architect, Industries",Other,2026-05-26,1186,0.0,5.059021922428331,-5.059021922428331,strongly feminine-coded,sense_filtered
+4979585008,Product Support Specialist,Other,2026-09-29,678,1.4749262536873156,4.424778761061947,-2.949852507374631,feminine-coded,sense_filtered
+4980335008,"Engineering Manager, GRC Platform",Engineering,2026-09-29,936,1.0683760683760684,0.0,1.0683760683760684,masculine-coded,sense_filtered
+4980420008,"Software Engineer, Desktop",Engineering,2026-04-09,641,0.0,1.5600624024960998,-1.5600624024960998,feminine-coded,sense_filtered
+4980427008,"Research Scientist, Interpretability",Research-titled,2026-09-29,686,0.0,4.373177842565598,-4.373177842565598,feminine-coded,sense_filtered
+4980430008,"Research Engineer, Interpretability",Research-titled,2026-09-29,697,0.0,4.30416068866571,-4.30416068866571,feminine-coded,sense_filtered
+4980436008,"[Expression of Interest] Research Manager, Interpretability",Research-titled,2026-09-29,893,0.0,3.3594624860022395,-3.3594624860022395,feminine-coded,sense_filtered
+4981828008,"Software Engineer, Research Tools",Research-titled,2026-09-29,619,3.231017770597738,1.615508885298869,1.615508885298869,masculine-coded,sense_filtered
+4982193008,"Security Engineer, Detection & Response",Engineering,2026-09-29,339,0.0,2.949852507374631,-2.949852507374631,feminine-coded,sense_filtered
+4982198008,"Software Engineer, Business Technology",Engineering,2026-04-09,324,6.172839506172839,0.0,6.172839506172839,masculine-coded,sense_filtered
+4983646008,"Enterprise Account Executive, Tech",Other,2026-06-24,453,0.0,8.830022075055188,-8.830022075055188,strongly feminine-coded,sense_filtered
+4985877008,"Forward Deployed Engineer, Applied AI",Engineering,2026-05-08,506,0.0,7.905138339920948,-7.905138339920948,strongly feminine-coded,sense_filtered
+4985920008,"Product Manager, Claude Code",Other,2026-04-09,302,0.0,0.0,0.0,empty,sense_filtered
+4986159008,"Customer Success Manager, GSI",Other,2026-09-29,680,0.0,2.9411764705882355,-2.9411764705882355,feminine-coded,sense_filtered
+4986288008,"Strategic Account Executive, Insurance",Other,2026-09-29,573,0.0,0.0,0.0,empty,sense_filtered
+4987662008,Contracts Manager,Other,2026-04-09,536,0.0,11.194029850746269,-11.194029850746269,strongly feminine-coded,sense_filtered
+4989155008,"Senior Manager, Technical Accounting - M&A and Investments",Other,2026-09-29,867,0.0,0.0,0.0,empty,sense_filtered
+4989788008,"Technical Program Manager, Security",Other,2026-09-29,423,0.0,4.7281323877068555,-4.7281323877068555,feminine-coded,sense_filtered
+4991194008,"Senior Business Systems Analyst, Finance Systems",Other,2026-06-24,700,0.0,4.285714285714286,-4.285714285714286,feminine-coded,sense_filtered
+5005519008,GTM Strategy & Operations (Enterprise) - EMEA,Other,2026-04-03,715,0.0,1.3986013986013985,-1.3986013986013985,feminine-coded,sense_filtered
+5012991008,Forward Deployed Engineer,Engineering,2026-05-08,485,0.0,8.24742268041237,-8.24742268041237,strongly feminine-coded,sense_filtered
+5013366008,"Engineering Manager, Safeguards Review Tooling",Engineering,2026-09-29,546,0.0,0.0,0.0,empty,sense_filtered
+5013743008,"Technical Program Manager, Data Center Infrastructure",Engineering,2026-09-29,358,0.0,0.0,0.0,empty,sense_filtered
+5014500008,Applied AI Engineer,Engineering,2026-05-07,454,2.202643171806167,6.607929515418502,-4.405286343612335,feminine-coded,sense_filtered
+5016171008,"Revenue Strategy & Operations Lead, Japan",Other,2026-04-15,389,0.0,5.141388174807198,-5.141388174807198,feminine-coded,sense_filtered
+5017202008,"Software Engineer, Labs",Engineering,2026-09-29,648,1.5432098765432098,3.0864197530864197,-1.5432098765432098,feminine-coded,sense_filtered
+5017903008,Technical Deployment Lead,Other,2026-09-29,602,0.0,1.6611295681063123,-1.6611295681063123,feminine-coded,sense_filtered
+5018472008,"Research Economist, Economic Research",Research-titled,2026-09-29,603,0.0,0.0,0.0,empty,sense_filtered
+5021015008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",Engineering,2026-08-25,441,0.0,0.0,0.0,empty,sense_filtered
+5022845008,Staff Software Security Engineer,Engineering,2026-09-29,512,0.0,1.953125,-1.953125,feminine-coded,sense_filtered
+5023394008,Anthropic AI Safety Fellow,Fellows,2026-04-03,929,1.0764262648008611,1.0764262648008611,0.0,neutral,sense_filtered
+5024831008,"Research Engineer, Reward Models Platform",Research-titled,2026-04-09,644,0.0,1.5527950310559007,-1.5527950310559007,feminine-coded,sense_filtered
+5024835008,"Senior Research Scientist, Reward Models",Research-titled,2026-04-09,470,0.0,6.382978723404255,-6.382978723404255,feminine-coded,sense_filtered
+5025591008,"Software Engineer, Sandboxing (Systems)",Engineering,2026-04-09,462,0.0,2.1645021645021645,-2.1645021645021645,feminine-coded,sense_filtered
+5025624008,"Research Engineer, Cybersecurity RL (Reinforcement Learning)",Research-titled,2026-09-29,285,0.0,3.508771929824561,-3.508771929824561,feminine-coded,sense_filtered
+5026097008,"Staff Software Engineer, Product",Engineering,2026-09-29,484,0.0,10.330578512396695,-10.330578512396695,strongly feminine-coded,sense_filtered
+5026187008,"Field Marketing Lead, Industries - EMEA",Other,2026-05-25,780,0.0,2.5641025641025643,-2.5641025641025643,feminine-coded,sense_filtered
+5026678008,Cloud Service Provider Accounting Manager,Other,2026-04-09,547,0.0,1.8281535648994516,-1.8281535648994516,feminine-coded,sense_filtered
+5030244008,Anthropic AI Security Fellow,Fellows,2026-04-02,849,1.1778563015312131,1.1778563015312131,0.0,neutral,sense_filtered
+5030680008,"Infrastructure Engineer, Sandboxing",Engineering,2026-04-15,375,0.0,2.6666666666666665,-2.6666666666666665,feminine-coded,sense_filtered
+5031670008,"Applied AI Architect, Industries",Other,2026-06-02,509,0.0,5.893909626719057,-5.893909626719057,feminine-coded,sense_filtered
+5041290008,"Strategic Account Executive, Investment Banking & Capital Markets",Other,2026-09-29,607,0.0,0.0,0.0,empty,sense_filtered
+5041299008,"Strategic Account Executive, Retail & Commercial Banking",Other,2026-09-29,592,0.0,0.0,0.0,empty,sense_filtered
+5042447008,"Manager, Account Executive (Growth Startup Sales)",Other,2026-04-03,355,0.0,5.633802816901408,-5.633802816901408,feminine-coded,sense_filtered
+5044994008,"Commercial Counsel, Datacenters & Construction",Other,2026-05-08,629,0.0,3.179650238473768,-3.179650238473768,feminine-coded,sense_filtered
+5045003008,"Commercial Counsel, Colocation & Networks",Other,2026-04-03,566,0.0,0.0,0.0,empty,sense_filtered
+5055446008,"Strategic Account Executive, Industries",Other,2026-04-09,652,0.0,6.134969325153374,-6.134969325153374,strongly feminine-coded,sense_filtered
+5055488008,Applied AI Engineer,Engineering,2026-04-13,460,2.1739130434782608,6.521739130434782,-4.3478260869565215,feminine-coded,sense_filtered
+5056173008,"(London) Enterprise Account Executive, Digital Native Business",Other,2026-04-08,458,0.0,8.733624454148472,-8.733624454148472,strongly feminine-coded,sense_filtered
+5056499008,"Technical Solutions Specialist, Data Operations",Other,2026-04-09,624,0.0,0.0,0.0,empty,sense_filtered
+5057258008,"Applied AI Architect, Startups",Other,2026-06-13,440,0.0,0.0,0.0,empty,sense_filtered
+5057647008,"Applied AI Engineer, Enterprise Tech",Engineering,2026-09-29,451,2.2172949002217295,6.651884700665189,-4.43458980044346,feminine-coded,sense_filtered
+5058191008,"Strategic Account Executive, Asset & Wealth Management",Other,2026-09-29,618,0.0,0.0,0.0,empty,sense_filtered
+5061517008,"Research Engineer, Universes",Research-titled,2026-09-29,339,0.0,5.899705014749262,-5.899705014749262,feminine-coded,sense_filtered
+5061691008,Head of IT SOX,Other,2026-04-15,631,0.0,1.5847860538827259,-1.5847860538827259,feminine-coded,sense_filtered
+5062733008,"Customer Success Manager, Digital Native Business",Other,2026-05-13,707,0.0,2.828854314002829,-2.828854314002829,feminine-coded,sense_filtered
+5062968008,"Technical Program Manager, Consumer Engineering",Engineering,2026-04-09,369,0.0,0.0,0.0,empty,sense_filtered
+5063007008,"Staff+ Software Engineer, Cybersecurity Products",Engineering,2026-09-29,381,0.0,5.2493438320209975,-5.2493438320209975,feminine-coded,sense_filtered
+5064817008,"Head of Solutions Architects, Applied AI (Korea)",Other,2026-05-10,706,0.0,4.2492917847025495,-4.2492917847025495,feminine-coded,sense_filtered
+5065835008,"Applied AI Architect, Enterprise Tech",Other,2026-07-10,521,0.0,5.758157389635317,-5.758157389635317,feminine-coded,sense_filtered
+5065894008,"Staff+ Software Engineer, Claude App Infrastructure",Engineering,2026-09-29,365,0.0,2.73972602739726,-2.73972602739726,feminine-coded,sense_filtered
+5066977008,"Research Scientist/Engineer, Biological Safety",Research-titled,2026-09-29,610,1.639344262295082,1.639344262295082,0.0,neutral,sense_filtered
+5066981008,"Technical Policy Manager, Cyber Harms",Other,2026-04-08,751,0.0,1.3315579227696406,-1.3315579227696406,feminine-coded,sense_filtered
+5066995008,Technical Cyber Threat Investigator,Other,2026-09-29,459,0.0,2.178649237472767,-2.178649237472767,feminine-coded,sense_filtered
+5066997008,Technical CBRN-E Threat Investigator,Other,2026-04-14,550,0.0,1.8181818181818181,-1.8181818181818181,feminine-coded,sense_filtered
+5067100008,"Research Engineer, Frontier Red Team (Autonomy)",Research-titled,2026-04-20,586,0.0,5.1194539249146755,-5.1194539249146755,feminine-coded,sense_filtered
+5068226008,"Applied AI Engineer, Beneficial Deployments",Engineering,2026-06-09,358,0.0,0.0,0.0,empty,sense_filtered
+5068288008,"Senior Security Engineer, Detection & Response",Engineering,2026-04-09,353,0.0,2.8328611898016995,-2.8328611898016995,feminine-coded,sense_filtered
+5068296008,"Engineering Manager, Detection and Response",Engineering,2026-04-07,383,0.0,13.054830287206267,-13.054830287206267,strongly feminine-coded,sense_filtered
+5068570008,"Customer Success Manager, Industries",Other,2026-09-29,693,0.0,2.886002886002886,-2.886002886002886,feminine-coded,sense_filtered
+5071132008,"Research Engineer, Economic Research",Research-titled,2026-04-09,675,0.0,1.4814814814814814,-1.4814814814814814,feminine-coded,sense_filtered
+5072140008,"EMEA AE Lead, Beneficial Deployments",Other,2026-04-24,907,0.0,0.0,0.0,empty,sense_filtered
+5073277008,"Applied AI Engineer, Startups",Engineering,2026-05-07,402,0.0,2.487562189054726,-2.487562189054726,feminine-coded,sense_filtered
+5073998008,"Staff Software Engineer, Continuous Integration",Engineering,2026-09-29,331,0.0,0.0,0.0,empty,sense_filtered
+5074052008,"Commercial Counsel, GTM",Other,2026-09-29,394,0.0,10.152284263959391,-10.152284263959391,strongly feminine-coded,sense_filtered
+5074217008,"Research Engineer, Visual Knowledge Work",Research-titled,2026-09-29,387,0.0,2.5839793281653747,-2.5839793281653747,feminine-coded,sense_filtered
+5074815008,"Research Engineer/Research Scientist, Audio",Research-titled,2026-04-20,452,0.0,6.6371681415929205,-6.6371681415929205,feminine-coded,sense_filtered
+5074908008,"Staff+ Software Engineer, Safeguards Infrastructure",Engineering,2026-09-29,280,0.0,0.0,0.0,empty,sense_filtered
+5074937008,Threat Intelligence Engineer,Engineering,2026-09-29,396,0.0,0.0,0.0,empty,sense_filtered
+5074995008,"Strategic Account Executive, Life Sciences",Other,2026-09-29,594,0.0,0.0,0.0,empty,sense_filtered
+5074997008,"Strategic Account Executive, Healthcare",Other,2026-09-29,546,0.0,3.663003663003663,-3.663003663003663,feminine-coded,sense_filtered
+5075070008,Salesforce Administrator,Other,2026-06-24,341,0.0,2.932551319648094,-2.932551319648094,feminine-coded,sense_filtered
+5075093008,"Strategic Account Executive, Digital Native Business & Cybersecurity",Other,2026-04-09,700,0.0,4.285714285714286,-4.285714285714286,feminine-coded,sense_filtered
+5076109008,Applied AI Architect,Other,2026-09-29,511,0.0,5.870841487279844,-5.870841487279844,feminine-coded,sense_filtered
+5076477008,"Research Engineer / Scientist, Frontier Red Team (Cyber)",Research-titled,2026-04-08,671,0.0,2.9806259314456036,-2.9806259314456036,feminine-coded,sense_filtered
+5076606008,"Research Engineer / Scientist, Societal Impacts",Research-titled,2026-04-20,688,0.0,1.4534883720930232,-1.4534883720930232,feminine-coded,sense_filtered
+5076616008,"Research Scientist, Societal Impacts",Research-titled,2026-04-24,577,0.0,3.466204506065858,-3.466204506065858,feminine-coded,sense_filtered
+5076754008,"Director, Revenue Accounting",Other,2026-09-29,486,4.11522633744856,4.11522633744856,0.0,neutral,sense_filtered
+5076929008,Senior International Payroll Specialist,Other,2026-04-15,433,0.0,2.3094688221709005,-2.3094688221709005,feminine-coded,sense_filtered
+5077106008,Technical Revenue Accounting,Other,2026-04-09,427,0.0,2.34192037470726,-2.34192037470726,feminine-coded,sense_filtered
+5077996008,"Mid-Market Account Executive, Tech",Other,2026-09-29,403,0.0,4.962779156327543,-4.962779156327543,feminine-coded,sense_filtered
+5079133008,"Finance & Strategy, GTM - Korea",Other,2026-09-29,436,0.0,4.587155963302752,-4.587155963302752,feminine-coded,sense_filtered
+5079188008,"Sales Director, Enterprise",Other,2026-04-15,460,0.0,0.0,0.0,empty,sense_filtered
+5079358008,"Sales Manager, Enterprise Digital Native Business",Other,2026-04-15,622,0.0,1.607717041800643,-1.607717041800643,feminine-coded,sense_filtered
+5079511008,"Solutions Architect, Applied AI (National Security)",Other,2026-04-03,534,0.0,5.617977528089888,-5.617977528089888,feminine-coded,sense_filtered
+5079540008,"Solutions Architect, Applied AI (Federal Civilian)",Other,2026-04-15,530,0.0,5.660377358490566,-5.660377358490566,feminine-coded,sense_filtered
+5079562008,"Forward Deployed Engineer, Federal Civilian",Engineering,2026-05-11,502,0.0,7.968127490039841,-7.968127490039841,strongly feminine-coded,sense_filtered
+5079916008,"Growth Account Executive, Startups",Other,2026-09-29,358,2.793296089385475,5.58659217877095,-2.793296089385475,feminine-coded,sense_filtered
+5080931008,Support Operations Analyst,Other,2026-04-14,600,0.0,1.6666666666666667,-1.6666666666666667,feminine-coded,sense_filtered
+5082312008,Senior Accounts Receivable Specialist,Other,2026-04-09,795,1.2578616352201257,2.5157232704402515,-1.2578616352201257,feminine-coded,sense_filtered
+5082402008,Senior Partner Account Manager –Global Systems Integrator Alliances,Other,2026-09-29,781,0.0,2.560819462227913,-2.560819462227913,feminine-coded,sense_filtered
+5082455008,"Customer Success Manager, Tech (Strategics)",Other,2026-09-29,690,0.0,2.898550724637681,-2.898550724637681,feminine-coded,sense_filtered
+5083039008,"Software Engineer, Sandboxing",Engineering,2026-04-09,598,0.0,5.016722408026756,-5.016722408026756,feminine-coded,sense_filtered
+5093547008,"Customer Marketing Lead, Startups - EMEA",Other,2026-04-17,817,0.0,1.2239902080783354,-1.2239902080783354,feminine-coded,sense_filtered
+5095484008,"Manager, Sales Development (Enterprise)",Other,2026-04-15,401,0.0,0.0,0.0,empty,sense_filtered
+5096041008,"Enterprise Account Executive, Telecommunications",Other,2026-09-29,344,0.0,5.813953488372093,-5.813953488372093,feminine-coded,sense_filtered
+5096878008,"Research Product Manager, Labs",Research-titled,2026-09-29,323,0.0,0.0,0.0,empty,sense_filtered
+5097046008,"Manager, Enterprise Account Executive, Tech",Other,2026-04-13,473,0.0,2.1141649048625792,-2.1141649048625792,feminine-coded,sense_filtered
+5097186008,"Full Stack Engineer, Education Labs",Engineering,2026-09-29,750,1.3333333333333333,4.0,-2.666666666666667,feminine-coded,sense_filtered
+5097348008,Certification Development Lead,Other,2026-04-15,748,0.0,5.347593582887701,-5.347593582887701,strongly feminine-coded,sense_filtered
+5097490008,"Product Manager, Safeguards (Cyber)",Other,2026-09-29,540,0.0,1.8518518518518519,-1.8518518518518519,feminine-coded,sense_filtered
+5097742008,"Staff Software Engineer, Inference",Engineering,2026-09-29,445,0.0,0.0,0.0,empty,sense_filtered
+5098025008,"Model Performance Software Engineer, Claude Code",Engineering,2026-09-29,546,0.0,0.0,0.0,empty,sense_filtered
+5098092008,"Software Engineering Manager, Network Security",Engineering,2026-09-29,663,0.0,1.5082956259426847,-1.5082956259426847,feminine-coded,sense_filtered
+5098565008,"Senior Full Stack Engineer, Education",Engineering,2026-04-02,787,0.0,1.2706480304955527,-1.2706480304955527,feminine-coded,sense_filtered
+5099080008,Transaction Manager,Other,2026-04-09,538,0.0,1.858736059479554,-1.858736059479554,feminine-coded,sense_filtered
+5099163008,"Manager, Sales Development (Startups & Commercial)",Other,2026-06-24,376,0.0,0.0,0.0,empty,sense_filtered
+5099202008,Campus Security Manager,Other,2026-05-10,550,0.0,1.8181818181818181,-1.8181818181818181,feminine-coded,sense_filtered
+5099753008,"Manager, Forward Deployed Engineering",Engineering,2026-09-29,688,0.0,1.4534883720930232,-1.4534883720930232,feminine-coded,sense_filtered
+5100274008,"Marketing Events Lead, Enterprise",Other,2026-04-12,618,0.0,4.854368932038835,-4.854368932038835,feminine-coded,sense_filtered
+5100613008,Marketing Events Content Manager,Other,2026-06-02,881,0.0,3.4052213393870603,-3.4052213393870603,feminine-coded,sense_filtered
+5100626008,"Senior Marketing Events Manager, Partners",Other,2026-04-15,669,0.0,2.9895366218236172,-2.9895366218236172,feminine-coded,sense_filtered
+5101169008,"Staff Software Engineer, AI Reliability Engineering",Engineering,2026-09-29,425,0.0,7.0588235294117645,-7.0588235294117645,feminine-coded,sense_filtered
+5101173008,"Staff Software Engineer, AI Reliability Engineering",Engineering,2026-09-29,425,0.0,7.0588235294117645,-7.0588235294117645,feminine-coded,sense_filtered
+5101378008,"Account Executive, Public Sector",Other,2026-04-08,445,2.247191011235955,8.98876404494382,-6.741573033707866,feminine-coded,sense_filtered
+5101433008,"Security Architect, Applied AI",Other,2026-04-15,651,0.0,3.0721966205837172,-3.0721966205837172,feminine-coded,sense_filtered
+5101923008,Integrations Developer,Engineering,2026-04-15,412,0.0,4.854368932038835,-4.854368932038835,feminine-coded,sense_filtered
+5102171008,"Program Manager, Student Outreach",Other,2026-04-15,423,0.0,2.3640661938534278,-2.3640661938534278,feminine-coded,sense_filtered
+5102291008,SEO Lead,Other,2026-06-23,829,1.2062726176115801,1.2062726176115801,0.0,neutral,sense_filtered
+5102440008,"Staff+ Software Engineer, Observability",Engineering,2026-04-15,511,1.9569471624266144,0.0,1.9569471624266144,masculine-coded,sense_filtered
+5102665008,"Enterprise Account Executive, State & Local Sales",Other,2026-05-10,452,0.0,4.424778761061947,-4.424778761061947,feminine-coded,sense_filtered
+5103078008,"Engineering Manager, Safeguards Data Infrastructure",Engineering,2026-05-13,509,1.9646365422396856,1.9646365422396856,0.0,neutral,sense_filtered
+5103788008,"Research Scientist, Frontier Red Team (Emerging Risks)",Research-titled,2026-04-15,509,1.9646365422396856,3.9292730844793713,-1.9646365422396856,feminine-coded,sense_filtered
+5104689008,"Product Designer, Claude Code",Other,2026-04-07,751,0.0,9.320905459387482,-9.320905459387482,strongly feminine-coded,sense_filtered
+5104753008,"Enterprise Account Executive, Financial Services & Insurance",Other,2026-09-29,381,0.0,5.2493438320209975,-5.2493438320209975,feminine-coded,sense_filtered
+5104754008,"Enterprise Account Executive, Retail",Other,2026-06-22,403,0.0,4.962779156327543,-4.962779156327543,feminine-coded,sense_filtered
+5104755008,"Enterprise Account Executive, Transportation & Utilities",Other,2026-06-24,403,0.0,4.962779156327543,-4.962779156327543,feminine-coded,sense_filtered
+5104756008,"Enterprise Account Executive, System Integrators",Other,2026-09-29,463,0.0,4.319654427645788,-4.319654427645788,feminine-coded,sense_filtered
+5104760008,"Enterprise Account Executive, Gaming",Other,2026-04-18,546,0.0,3.663003663003663,-3.663003663003663,feminine-coded,sense_filtered
+5105509008,"Security Engineer, Offensive Security",Engineering,2026-04-14,317,0.0,6.309148264984227,-6.309148264984227,feminine-coded,sense_filtered
+5106199008,Real Estate Portfolio Manager,Other,2026-09-29,634,0.0,1.5772870662460567,-1.5772870662460567,feminine-coded,sense_filtered
+5106935008,Head of Enterprise Sales - India,Other,2026-04-03,546,1.8315018315018314,3.663003663003663,-1.8315018315018314,feminine-coded,sense_filtered
+5107121008,"Prompt Engineer, Agent Prompts & Evals",Engineering,2026-04-24,543,0.0,3.6832412523020257,-3.6832412523020257,feminine-coded,sense_filtered
+5107466008,"Staff / Senior Software Engineer, Cloud Inference",Engineering,2026-04-09,603,0.0,3.316749585406302,-3.316749585406302,feminine-coded,sense_filtered
+5107763008,"Technical Program Manager, Inference Performance",Other,2026-04-15,427,0.0,0.0,0.0,empty,sense_filtered
+5107890008,Data Center Controls Engineer,Engineering,2026-09-29,563,0.0,1.7761989342806395,-1.7761989342806395,feminine-coded,sense_filtered
+5108111008,"Strategic Account Executive, Tech",Other,2026-09-29,453,0.0,8.830022075055188,-8.830022075055188,strongly feminine-coded,sense_filtered
+5108347008,"Enterprise Account Executive, State & Local Sales - State of California",Other,2026-05-06,456,0.0,4.385964912280702,-4.385964912280702,feminine-coded,sense_filtered
+5108695008,"Technical Program Manager, Safeguards (Infrastructure & Evals)",Engineering,2026-09-29,902,0.0,0.0,0.0,empty,sense_filtered
+5108854008,"Technical Program Manager, Marketing Technology",Other,2026-05-08,642,0.0,0.0,0.0,empty,sense_filtered
+5108982008,"Software Engineer, Compute Efficiency",Engineering,2026-04-09,540,3.7037037037037037,3.7037037037037037,0.0,neutral,sense_filtered
+5109135008,"Strategic Account Executive, Tech",Other,2026-04-09,469,0.0,8.528784648187633,-8.528784648187633,strongly feminine-coded,sense_filtered
+5109273008,"Software Engineer, Human Data Interface",Engineering,2026-04-03,415,0.0,2.4096385542168677,-2.4096385542168677,feminine-coded,sense_filtered
+5110511008,"Staff+ Software Engineer, Developer Productivity",Engineering,2026-09-29,448,2.232142857142857,0.0,2.232142857142857,masculine-coded,sense_filtered
+5110558008,Trade Compliance Counsel,Other,2026-05-01,625,0.0,1.6,-1.6,feminine-coded,sense_filtered
+5111745008,"Software Engineer, Inference Deployment",Engineering,2026-04-15,543,0.0,0.0,0.0,empty,sense_filtered
+5111783008,"Technical Program Manager, Infrastructure",Engineering,2026-09-29,544,0.0,0.0,0.0,empty,sense_filtered
+5111942008,"Applied AI Engineer, Life Sciences (Beneficial Deployments)",Engineering,2026-05-06,489,0.0,0.0,0.0,empty,sense_filtered
+5112018008,"Research Engineer, Production Model Post-Training",Research-titled,2026-09-29,356,0.0,5.617977528089888,-5.617977528089888,feminine-coded,sense_filtered
+5112090008,"Account Executive, Public Sector - India",Other,2026-04-21,631,1.5847860538827259,6.3391442155309035,-4.754358161648177,feminine-coded,sense_filtered
+5112486008,"Partner Solutions Architect, Applied AI",Other,2026-04-15,1061,0.0,3.770028275212064,-3.770028275212064,strongly feminine-coded,sense_filtered
+5113224008,"Staff Software Engineer, AI Reliability",Engineering,2026-09-29,406,0.0,7.389162561576355,-7.389162561576355,feminine-coded,sense_filtered
+5113368008,Developer Community Lead - EMEA,Engineering,2026-05-12,859,0.0,3.492433061699651,-3.492433061699651,feminine-coded,sense_filtered
+5114768008,"Staff+ Software Engineer, Data Infrastructure",Engineering,2026-09-29,512,0.0,1.953125,-1.953125,feminine-coded,sense_filtered
+5114845008,"Video Director, Product Launches",Other,2026-04-14,653,0.0,4.594180704441041,-4.594180704441041,feminine-coded,sense_filtered
+5115145008,Frontier Counsel,Other,2026-04-15,674,0.0,1.4836795252225519,-1.4836795252225519,feminine-coded,sense_filtered
+5115935008,"Research Engineer, Machine Learning (Reinforcement Learning)",Research-titled,2026-09-29,513,0.0,5.847953216374269,-5.847953216374269,feminine-coded,sense_filtered
+5116167008,Capital Markets & Investor Relations,Other,2026-04-08,565,1.7699115044247788,1.7699115044247788,0.0,neutral,sense_filtered
+5116274008,Applied AI Engineer,Engineering,2026-05-26,399,0.0,2.506265664160401,-2.506265664160401,feminine-coded,sense_filtered
+5116525008,"Design Engineer, Web",Engineering,2026-04-18,520,0.0,3.8461538461538463,-3.8461538461538463,feminine-coded,sense_filtered
+5116756008,Head of Experiential Creative,Other,2026-04-06,497,0.0,4.0241448692152915,-4.0241448692152915,feminine-coded,sense_filtered
+5116758008,"Copy & Content Lead, Launches",Other,2026-04-10,399,0.0,5.012531328320802,-5.012531328320802,feminine-coded,sense_filtered
+5116820008,"Lead Data Scientist, Platform Product",Other,2026-09-29,427,0.0,0.0,0.0,empty,sense_filtered
+5116927008,"Applied AI Claude Evangelist, Startups",Other,2026-05-12,666,0.0,3.003003003003003,-3.003003003003003,feminine-coded,sense_filtered
+5117581008,"Solutions Architect, Applied AI",Other,2026-04-14,566,0.0,7.067137809187279,-7.067137809187279,strongly feminine-coded,sense_filtered
+5117589008,Applied AI Architect,Other,2026-09-29,504,0.0,5.9523809523809526,-5.9523809523809526,feminine-coded,sense_filtered
+5117652008,"Manager of Solutions Architecture, Applied AI (Industries)",Other,2026-04-09,897,0.0,3.3444816053511706,-3.3444816053511706,feminine-coded,sense_filtered
+5118172008,"Head of Copy & Content, Creative Studio",Other,2026-06-04,630,0.0,4.761904761904762,-4.761904761904762,feminine-coded,sense_filtered
+5118189008,"Enterprise Account Executive, DoW/IC",Other,2026-09-29,469,0.0,4.264392324093817,-4.264392324093817,feminine-coded,sense_filtered
+5118191008,Partner Marketing Lead - EMEA,Other,2026-04-16,734,0.0,4.087193460490464,-4.087193460490464,feminine-coded,sense_filtered
+5119468008,"Staff Software Engineer, People Products",Engineering,2026-09-29,500,6.0,2.0,4.0,masculine-coded,sense_filtered
+5119478008,"Engineering Manager, People Products",Engineering,2026-04-15,502,5.9760956175298805,1.9920318725099602,3.9840637450199203,masculine-coded,sense_filtered
+5119713008,"Research Engineer, Pretraining",Research-titled,2026-09-29,541,1.8484288354898337,7.393715341959335,-5.545286506469501,feminine-coded,sense_filtered
+5120512008,Staff+ Software Security Engineer,Engineering,2026-09-29,701,1.4265335235378032,2.8530670470756063,-1.4265335235378032,feminine-coded,sense_filtered
+5121561008,"Forward Deployed Engineer, Applied AI",Engineering,2026-04-13,494,0.0,8.097165991902834,-8.097165991902834,strongly feminine-coded,sense_filtered
+5121563008,"Forward Deployed Engineer, Applied AI",Engineering,2026-04-13,1128,0.0,7.9787234042553195,-7.9787234042553195,strongly feminine-coded,sense_filtered
+5121572008,"GTM Strategy & Operations (Industries), DACH",Other,2026-04-07,715,0.0,1.3986013986013985,-1.3986013986013985,feminine-coded,sense_filtered
+5121912008,"Manager, Sales Development - EMEA",Other,2026-04-13,440,0.0,0.0,0.0,empty,sense_filtered
+5121918008,International GTM Onboarding Lead,Other,2026-04-13,511,0.0,0.0,0.0,empty,sense_filtered
+5123011008,"Offensive Security Research Engineer, Safeguards",Research-titled,2026-04-08,342,0.0,0.0,0.0,empty,sense_filtered
+5123039008,"Staff+ Software Engineer, Account Abuse",Engineering,2026-09-29,310,0.0,0.0,0.0,empty,sense_filtered
+5123082008,"Product Management, Research",Research-titled,2026-09-29,399,5.012531328320802,2.506265664160401,2.506265664160401,masculine-coded,sense_filtered
+5123587008,Security Technology Deployment Specialist,Other,2026-04-09,708,2.824858757062147,0.0,2.824858757062147,masculine-coded,sense_filtered
+5123742008,"Analyst, The Anthropic Institute",Other,2026-04-18,692,0.0,0.0,0.0,empty,sense_filtered
+5123769008,"Technical Program Manager, Security (Coordinated Vulnerability Disclosure)",Other,2026-04-15,879,0.0,3.4129692832764507,-3.4129692832764507,feminine-coded,sense_filtered
+5123819008,"Finance & Strategy, Deal Desk - Americas",Other,2026-04-13,450,0.0,4.444444444444445,-4.444444444444445,feminine-coded,sense_filtered
+5123821008,"Finance & Strategy, Deal Desk - EMEA",Other,2026-04-13,450,0.0,4.444444444444445,-4.444444444444445,feminine-coded,sense_filtered
+5123832008,"Finance & Strategy, Deal Desk - APAC",Other,2026-04-13,449,0.0,4.4543429844097995,-4.4543429844097995,feminine-coded,sense_filtered
+5123851008,Infrastructure Tax Lead,Engineering,2026-04-13,660,0.0,1.5151515151515151,-1.5151515151515151,feminine-coded,sense_filtered
+5125083008,"Research Engineer, AI Observability",Research-titled,2026-04-13,375,0.0,2.6666666666666665,-2.6666666666666665,feminine-coded,sense_filtered
+5125290008,Revenue Accounting — Order Management & Billing,Other,2026-04-09,514,3.8910505836575875,7.782101167315175,-3.8910505836575875,feminine-coded,sense_filtered
+5125387008,"Analytics Data Engineering Manager, Product",Engineering,2026-05-10,521,0.0,0.0,0.0,empty,sense_filtered
+5125425008,"Manager, Enterprise Sales - DACH & CEE",Other,2026-04-13,625,0.0,1.6,-1.6,feminine-coded,sense_filtered
+5125881008,"Data Science Engineer, Capacity & Efficiency",Engineering,2026-04-09,512,0.0,0.0,0.0,empty,sense_filtered
+5125912008,"Supply Chain Lead, Data Center Infrastructure",Engineering,2026-04-03,579,0.0,1.7271157167530224,-1.7271157167530224,feminine-coded,sense_filtered
+5126008008,"Strategic Account Executive, Tech",Other,2026-09-29,578,0.0,6.920415224913495,-6.920415224913495,strongly feminine-coded,sense_filtered
+5126080008,"Solutions Architect, National Security",Other,2026-04-20,572,0.0,8.741258741258742,-8.741258741258742,strongly feminine-coded,sense_filtered
+5126127008,"Research Engineer, Science of Scaling",Research-titled,2026-04-09,370,2.7027027027027026,5.405405405405405,-2.7027027027027026,feminine-coded,sense_filtered
+5126702008,"Staff / Senior Software Engineer, Compute Capacity",Engineering,2026-04-13,1087,0.0,2.7598896044158234,-2.7598896044158234,feminine-coded,sense_filtered
+5126762008,Developer Education Lead,Engineering,2026-04-13,707,1.4144271570014144,1.4144271570014144,0.0,neutral,sense_filtered
+5127050008,International GTM Onboarding Lead,Other,2026-04-13,511,0.0,0.0,0.0,empty,sense_filtered
+5127289008,"Business Systems Analyst, Data Enrichment",Other,2026-04-13,818,0.0,2.444987775061125,-2.444987775061125,feminine-coded,sense_filtered
+5127559008,"Product Manager, Consumer",Other,2026-04-13,338,0.0,0.0,0.0,empty,sense_filtered
+5127645008,Private Equity Partnerships Manager,Other,2026-04-03,548,0.0,0.0,0.0,empty,sense_filtered
+5128198008,Compute Cost of Revenue Accountant,Other,2026-04-09,534,0.0,1.8726591760299625,-1.8726591760299625,feminine-coded,sense_filtered
+5128936008,Senior Data Center Capacity Delivery Manager,Other,2026-04-13,852,0.0,1.1737089201877935,-1.1737089201877935,feminine-coded,sense_filtered
+5130251008,"Corporate Accountant, Accounting Operations",Other,2026-04-09,518,0.0,3.861003861003861,-3.861003861003861,feminine-coded,sense_filtered
+5131038008,"Senior Engineer, Datacenter Server Lifecycle",Engineering,2026-04-09,542,1.845018450184502,0.0,1.845018450184502,masculine-coded,sense_filtered
+5131095008,Startup Partnerships - France & Southern Europe,Other,2026-09-29,1831,0.0,3.2768978700163847,-3.2768978700163847,strongly feminine-coded,sense_filtered
+5132995008,Technical Productivity Manager,Other,2026-04-13,369,0.0,0.0,0.0,empty,sense_filtered
+5133070008,"Industry Principal, Insurance",Other,2026-04-13,657,0.0,0.0,0.0,empty,sense_filtered
+5133331008,Strategic Growth Account Executive,Other,2026-09-29,351,0.0,0.0,0.0,empty,sense_filtered
+5133449008,"Finance Systems, Program Manager - Quote-to-cash",Other,2026-04-07,634,0.0,1.5772870662460567,-1.5772870662460567,feminine-coded,sense_filtered
+5134895008,"Senior Staff Software Engineer, API",Engineering,2026-09-29,502,0.0,1.9920318725099602,-1.9920318725099602,feminine-coded,sense_filtered
+5135028008,Crisis Management Specialist,Other,2026-04-09,581,0.0,1.721170395869191,-1.721170395869191,feminine-coded,sense_filtered
+5135098008,"Security Engineer Lead, Corporate Security",Engineering,2026-04-09,855,1.1695906432748537,1.1695906432748537,0.0,neutral,sense_filtered
+5135168008,"Research Engineer / Research Scientist, Pre-training",Research-titled,2026-06-01,469,2.1321961620469083,8.528784648187633,-6.396588486140725,feminine-coded,sense_filtered
+5135964008,"Finance & Strategy, GTM - India",Other,2026-05-21,436,0.0,4.587155963302752,-4.587155963302752,feminine-coded,sense_filtered
+5137183008,"Safeguards Enforcement Analyst, Safety Evaluations",Other,2026-09-29,587,0.0,0.0,0.0,empty,sense_filtered
+5137185008,Enforcement Operations Lead,Other,2026-04-13,711,0.0,2.8129395218002813,-2.8129395218002813,feminine-coded,sense_filtered
+5138042008,Product Support Specialist,Other,2026-09-29,538,1.858736059479554,3.717472118959108,-1.858736059479554,feminine-coded,sense_filtered
+5138044008,"Technical Program Manager, Compute",Other,2026-09-29,515,0.0,0.0,0.0,empty,sense_filtered
+5138099008,Engineering Editorial Lead,Engineering,2026-05-17,487,0.0,2.0533880903490758,-2.0533880903490758,feminine-coded,sense_filtered
+5138232008,Head of Travel & Expense,Other,2026-04-07,503,0.0,1.9880715705765408,-1.9880715705765408,feminine-coded,sense_filtered
+5138289008,"Manager, Healthcare Enterprise Sales",Other,2026-05-05,627,0.0,0.0,0.0,empty,sense_filtered
+5138618008,"Enterprise Account Executive, Industries Generalist",Other,2026-04-13,577,0.0,5.1993067590987865,-5.1993067590987865,feminine-coded,sense_filtered
+5139038008,"Staff Engineer, Datacenter Server Lifecycle",Engineering,2026-09-29,530,0.0,0.0,0.0,empty,sense_filtered
+5139423008,"Strategy & Operations, Enterprise Business Partner",Other,2026-04-07,872,1.146788990825688,2.293577981651376,-1.146788990825688,feminine-coded,sense_filtered
+5139628008,"Product Manager, Safeguards Rare Harms",Other,2026-09-29,540,0.0,1.8518518518518519,-1.8518518518518519,feminine-coded,sense_filtered
+5139654008,"Research Lead, Training Insights",Research-titled,2026-04-10,665,0.0,0.0,0.0,empty,sense_filtered
+5140226008,"Policy Manager, Chemical Weapons and High Yield Explosives",Other,2026-04-20,437,2.288329519450801,6.864988558352403,-4.576659038901601,feminine-coded,sense_filtered
+5140239008,Technical Influence Operations Threat Investigator,Other,2026-04-13,604,0.0,1.6556291390728477,-1.6556291390728477,feminine-coded,sense_filtered
+5140329008,Data Center Mechanical Engineer,Engineering,2026-04-09,488,0.0,0.0,0.0,empty,sense_filtered
+5140403008,"Solutions Architect, Applied AI (State and Local Government, West)",Other,2026-04-13,541,0.0,5.545286506469501,-5.545286506469501,feminine-coded,sense_filtered
+5140405008,"Solutions Architect, Applied AI (Government Technology)",Other,2026-04-13,538,0.0,5.5762081784386615,-5.5762081784386615,feminine-coded,sense_filtered
+5140492008,"Engineering Manager, Vertical AI Products",Engineering,2026-04-13,672,0.0,1.4880952380952381,-1.4880952380952381,feminine-coded,sense_filtered
+5141377008,"Engineering Manager, Cloud Inference AWS",Engineering,2026-04-13,443,0.0,2.2573363431151243,-2.2573363431151243,feminine-coded,sense_filtered
+5141849008,Incentive Compensation System Engineer,Engineering,2026-04-13,493,0.0,0.0,0.0,empty,sense_filtered
+5141856008,"Product Support Specialist, Weekend Coverage",Other,2026-04-13,554,1.8050541516245486,3.6101083032490973,-1.8050541516245486,feminine-coded,sense_filtered
+5142005008,"Finance & Strategy, Deal Operations - Americas",Other,2026-04-13,467,0.0,4.282655246252677,-4.282655246252677,feminine-coded,sense_filtered
+5142110008,"Manager, Applied AI (Startups)",Other,2026-04-13,463,0.0,2.159827213822894,-2.159827213822894,feminine-coded,sense_filtered
+5142966008,"Commercial Counsel, EMEA",Other,2026-04-09,387,0.0,2.5839793281653747,-2.5839793281653747,feminine-coded,sense_filtered
+5142971008,"Commercial Counsel, EMEA",Other,2026-05-21,370,0.0,2.7027027027027026,-2.7027027027027026,feminine-coded,sense_filtered
+5142996008,"Finance & Strategy, EMEA GTM (Dublin or London location)",Other,2026-06-02,378,0.0,5.291005291005291,-5.291005291005291,feminine-coded,sense_filtered
+5146028008,"Solutions Architect, Applied AI (Beneficial Deployments)",Other,2026-04-07,562,0.0,5.338078291814947,-5.338078291814947,feminine-coded,sense_filtered
+5146261008,"Software Engineer, Billing Platform",Engineering,2026-04-03,658,0.0,0.0,0.0,empty,sense_filtered
+5146298008,"Staff Software Engineer, Billing Platform",Engineering,2026-09-29,648,0.0,0.0,0.0,empty,sense_filtered
+5146363008,"Engineering Manager, Product Monetization (Billing Platform)",Engineering,2026-04-15,525,0.0,0.0,0.0,empty,sense_filtered
+5146999008,"Manager of Solutions Architecture, Applied AI (Partnerships)",Other,2026-04-14,913,0.0,5.47645125958379,-5.47645125958379,strongly feminine-coded,sense_filtered
+5147350008,"Internal Communications Manager, Policy",Other,2026-04-07,427,0.0,2.34192037470726,-2.34192037470726,feminine-coded,sense_filtered
+5149112008,"External Affairs, Australia",Other,2026-04-10,618,0.0,4.854368932038835,-4.854368932038835,feminine-coded,sense_filtered
+5149725008,Corporate Communication Lead,Other,2026-06-10,321,0.0,0.0,0.0,empty,sense_filtered
+5149802008,"Transformative AI Research Economist, Economic Research",Research-titled,2026-09-29,591,0.0,0.0,0.0,empty,sense_filtered
+5149911008,"Manager, Data Science, GTM",Other,2026-04-07,480,0.0,0.0,0.0,empty,sense_filtered
+5150472008,"Staff Software Engineer, Inference",Engineering,2026-09-29,408,0.0,0.0,0.0,empty,sense_filtered
+5151066008,"Senior Software Engineer, Databases",Engineering,2026-04-15,419,0.0,2.386634844868735,-2.386634844868735,feminine-coded,sense_filtered
+5151069008,"Staff+ Software Engineer, Databases",Engineering,2026-04-09,425,0.0,2.3529411764705883,-2.3529411764705883,feminine-coded,sense_filtered
+5151551008,Community Marketing Lead,Other,2026-04-09,589,0.0,0.0,0.0,empty,sense_filtered
+5151916008,Executive Engagement Lead - International,Other,2026-04-07,659,0.0,0.0,0.0,empty,sense_filtered
+5151922008,International Expansions Lead,Other,2026-04-08,410,0.0,2.4390243902439024,-2.4390243902439024,feminine-coded,sense_filtered
+5151939008,International Readiness Lead,Other,2026-04-08,509,0.0,0.0,0.0,empty,sense_filtered
+5152348008,"Sr. Software Engineer, Inference",Engineering,2026-04-15,355,0.0,0.0,0.0,empty,sense_filtered
+5152817008,Product Designer,Other,2026-04-07,751,0.0,9.320905459387482,-9.320905459387482,strongly feminine-coded,sense_filtered
+5153377008,"Manager, Strategic Sales",Other,2026-05-12,382,0.0,5.2356020942408374,-5.2356020942408374,feminine-coded,sense_filtered
+5153390008,"Finance & Strategy, Deal Operations - APAC",Other,2026-04-07,491,0.0,4.0733197556008145,-4.0733197556008145,feminine-coded,sense_filtered
+5153392008,"Finance & Strategy, Deal Operations - EMEA",Other,2026-04-03,495,0.0,4.040404040404041,-4.040404040404041,feminine-coded,sense_filtered
+5153511008,"Customer Success Manager, Beneficial Deployments, EMEA",Other,2026-04-07,710,0.0,2.816901408450704,-2.816901408450704,feminine-coded,sense_filtered
+5153564008,Security Labs Engineer,Engineering,2026-04-09,959,0.0,0.0,0.0,empty,sense_filtered
+5153586008,"Communications Lead, Claude Code",Other,2026-04-09,459,0.0,0.0,0.0,empty,sense_filtered
+5153588008,Head of Programmatic Outcomes — Partners,Other,2026-04-07,627,1.594896331738437,1.594896331738437,0.0,neutral,sense_filtered
+5153680008,"Communications Manager, Research",Research-titled,2026-05-10,541,0.0,1.8484288354898337,-1.8484288354898337,feminine-coded,sense_filtered
+5153690008,Support Vendor Operations Manager,Other,2026-04-07,579,0.0,5.181347150259067,-5.181347150259067,feminine-coded,sense_filtered
+5153752008,"GTM Enablement, Sales Productivity",Other,2026-04-07,410,0.0,4.878048780487805,-4.878048780487805,feminine-coded,sense_filtered
+5153754008,"Technical Deployment Lead, Applied AI",Other,2026-04-07,674,0.0,1.4836795252225519,-1.4836795252225519,feminine-coded,sense_filtered
+5153756008,"Technical Lead Manager, Model Quality - Claude Code",Other,2026-04-07,392,0.0,0.0,0.0,empty,sense_filtered
+5153761008,"Technical Deployment Lead, Applied AI",Other,2026-04-07,1648,0.0,1.8203883495145632,-1.8203883495145632,feminine-coded,sense_filtered
+5153773008,"Product Manager, Claude Growth (Monetization)",Other,2026-04-08,281,0.0,3.5587188612099645,-3.5587188612099645,feminine-coded,sense_filtered
+5153924008,"Product Manager, Multi-Cloud Growth - Google",Other,2026-09-29,490,0.0,2.0408163265306123,-2.0408163265306123,feminine-coded,sense_filtered
+5154005008,Privacy Program Manager,Other,2026-04-07,571,0.0,3.502626970227671,-3.502626970227671,feminine-coded,sense_filtered
+5154112008,"Research Operations, Economic Research",Research-titled,2026-05-11,666,0.0,1.5015015015015014,-1.5015015015015014,feminine-coded,sense_filtered
+5154345008,Transaction Principal,Other,2026-04-07,620,0.0,0.0,0.0,empty,sense_filtered
+5155195008,Finance Systems Integration Engineer,Engineering,2026-04-07,816,0.0,6.127450980392157,-6.127450980392157,strongly feminine-coded,sense_filtered
+5155269008,"Communications Lead, The Anthropic Institute",Other,2026-04-09,973,2.055498458376156,0.0,2.055498458376156,masculine-coded,sense_filtered
+5155391008,"Engineering Manager, Inference Routing and Performance",Engineering,2026-04-07,1036,1.9305019305019304,0.9652509652509652,0.9652509652509652,masculine-coded,sense_filtered
+5156057008,"Data Engineer, Safeguards",Engineering,2026-04-07,551,1.8148820326678765,3.629764065335753,-1.8148820326678765,feminine-coded,sense_filtered
+5156326008,"Policy Design Manager, Age-Appropriate Design",Other,2026-04-07,566,0.0,1.7667844522968197,-1.7667844522968197,feminine-coded,sense_filtered
+5156333008,"Safeguards Analyst, Human Exploitation & Abuse",Other,2026-04-07,630,0.0,1.5873015873015872,-1.5873015873015872,feminine-coded,sense_filtered
+5156596008,"Vendor and Contract Manager, Safeguards",Other,2026-04-07,569,0.0,7.0298769771529,-7.0298769771529,strongly feminine-coded,sense_filtered
+5157003008,"Technical Program Manager, Platform",Other,2026-04-07,488,0.0,0.0,0.0,empty,sense_filtered
+5157023008,Data Center Design Execution Lead,Other,2026-04-07,613,0.0,0.0,0.0,empty,sense_filtered
+5157844008,"Software Engineer, Platform",Engineering,2026-04-09,892,1.1210762331838564,0.0,1.1210762331838564,masculine-coded,sense_filtered
+5157847008,"Staff+ Software Engineer, Platform",Engineering,2026-09-29,1038,1.9267822736030829,0.0,1.9267822736030829,masculine-coded,sense_filtered
+5159146008,"Staff+ Software Engineer, Privacy",Engineering,2026-05-12,484,0.0,2.0661157024793386,-2.0661157024793386,feminine-coded,sense_filtered
+5159608008,"Engineering Manager, Agent Prompts & Evals",Engineering,2026-04-07,705,0.0,1.4184397163120568,-1.4184397163120568,feminine-coded,sense_filtered
+5159642008,"Data Center Engineer, Resource Efficiency – Compute Supply",Engineering,2026-04-08,489,0.0,2.044989775051125,-2.044989775051125,feminine-coded,sense_filtered
+5159669008,"Prompt Engineer, Claude Code",Engineering,2026-04-07,441,4.535147392290249,11.337868480725623,-6.802721088435374,feminine-coded,sense_filtered
+5159740008,"Global Indirect, Sales Tax & VAT",Other,2026-04-07,473,0.0,2.1141649048625792,-2.1141649048625792,feminine-coded,sense_filtered
+5159877008,Technical Deployment Lead,Other,2026-04-07,681,0.0,1.4684287812041117,-1.4684287812041117,feminine-coded,sense_filtered
+5160128008,"Sales Strategy and Ops, EMEA",Other,2026-05-04,715,0.0,1.3986013986013985,-1.3986013986013985,feminine-coded,sense_filtered
+5160141008,"Manager, Sales Development - EMEA",Other,2026-06-24,423,0.0,0.0,0.0,empty,sense_filtered
+5160180008,"Enterprise Account Executive, Federal Partners Sales",Other,2026-09-29,395,2.5316455696202533,0.0,2.5316455696202533,masculine-coded,sense_filtered
+5160330008,"Research Engineer, Performance RL",Research-titled,2026-04-03,328,0.0,6.097560975609756,-6.097560975609756,feminine-coded,sense_filtered
+5160459008,"IP Counsel, Copyright",Other,2026-06-10,455,0.0,6.593406593406593,-6.593406593406593,feminine-coded,sense_filtered
+5160757008,"Security Risk & Compliance, HIPAA",Other,2026-04-07,549,0.0,0.0,0.0,empty,sense_filtered
+5161113008,Real Estate Occupancy Planner,Other,2026-04-23,595,0.0,5.042016806722689,-5.042016806722689,feminine-coded,sense_filtered
+5161402008,"Data Scientist, Marketing",Other,2026-09-29,431,0.0,0.0,0.0,empty,sense_filtered
+5161728008,"Applied AI Architect, Partnerships",Other,2026-06-10,1044,0.0,3.8314176245210727,-3.8314176245210727,strongly feminine-coded,sense_filtered
+5161882008,"IT Systems Engineer, Enterprise SaaS",Engineering,2026-04-08,553,0.0,12.658227848101266,-12.658227848101266,strongly feminine-coded,sense_filtered
+5161973008,"Director, Global Accounts Payable",Other,2026-04-07,494,0.0,6.0728744939271255,-6.0728744939271255,feminine-coded,sense_filtered
+5161975008,"Account Executive, Beneficial Deployments - EMEA",Other,2026-04-07,726,0.0,0.0,0.0,empty,sense_filtered
+5161980008,"Account Executive, Beneficial Deployments (French Speaking)",Other,2026-04-07,752,0.0,0.0,0.0,empty,sense_filtered
+5161986008,"Account Executive, Beneficial Deployments (Spanish Speaking)",Other,2026-04-07,749,0.0,0.0,0.0,empty,sense_filtered
+5161988008,"Account Executive, Beneficial Deployments (Portuguese Speaking)",Other,2026-04-07,773,0.0,0.0,0.0,empty,sense_filtered
+5162211008,"Safeguards Enforcement Lead, Frontier Abuse Enforcement",Other,2026-04-07,584,0.0,1.7123287671232876,-1.7123287671232876,feminine-coded,sense_filtered
+5162711008,Global Senior Equity Program Manager,Other,2026-09-29,413,0.0,0.0,0.0,empty,sense_filtered
+5162846008,"Customer Marketing, Strategic Programs",Other,2026-04-07,703,0.0,0.0,0.0,empty,sense_filtered
+5163060008,"Finance & Strategy, GTM - Post Sales",Other,2026-08-25,363,0.0,5.509641873278237,-5.509641873278237,feminine-coded,sense_filtered
+5163273008,"[Munich] Enterprise Account Executive, Industries",Other,2026-04-07,575,0.0,5.217391304347826,-5.217391304347826,feminine-coded,sense_filtered
+5163907008,"Enterprise Account Executive, Manufacturing",Other,2026-04-08,525,0.0,5.714285714285714,-5.714285714285714,feminine-coded,sense_filtered
+5163917008,"Enterprise Account Executive, Retail",Other,2026-04-07,527,0.0,5.692599620493358,-5.692599620493358,feminine-coded,sense_filtered
+5163925008,"Enterprise Account Executive, CPG",Other,2026-04-07,531,0.0,5.649717514124294,-5.649717514124294,feminine-coded,sense_filtered
+5164551008,"Communications Lead, Enterprise",Other,2026-06-16,529,0.0,0.0,0.0,empty,sense_filtered
+5164597008,"Partner Operations Manager, Recruitment & Activation",Other,2026-04-07,468,0.0,2.1367521367521367,-2.1367521367521367,feminine-coded,sense_filtered
+5164820008,"Product Manager, Safeguards (Child Safety)",Other,2026-07-24,540,0.0,1.8518518518518519,-1.8518518518518519,feminine-coded,sense_filtered
+5165641008,"Account Executive, Beneficial Deployments (French Speaking)",Other,2026-04-07,752,0.0,0.0,0.0,empty,sense_filtered
+5165651008,"Account Executive, Beneficial Deployments (Portuguese Speaking)",Other,2026-04-07,773,0.0,0.0,0.0,empty,sense_filtered
+5165670008,"Account Executive, Beneficial Deployments (Spanish Speaking)",Other,2026-04-07,749,0.0,0.0,0.0,empty,sense_filtered
+5165673008,"EMEA AE Lead, Beneficial Deployments",Other,2026-04-15,907,0.0,0.0,0.0,empty,sense_filtered
+5166178008,Director of Payroll,Other,2026-09-29,624,0.0,0.0,0.0,empty,sense_filtered
+5166398008,Startup Partnerships - India,Other,2026-04-07,675,0.0,1.4814814814814814,-1.4814814814814814,feminine-coded,sense_filtered
+5166519008,Business Development Representative,Other,2026-04-07,264,0.0,7.575757575757576,-7.575757575757576,feminine-coded,sense_filtered
+5168144008,Order Management,Other,2026-04-07,528,3.787878787878788,7.575757575757576,-3.787878787878788,feminine-coded,sense_filtered
+5168482008,"Strategic Account Executive, Canada Financial Services - FSI",Other,2026-04-07,559,0.0,5.366726296958855,-5.366726296958855,feminine-coded,sense_filtered
+5168829008,"Software Engineer, Cloud Inference Safeguards",Engineering,2026-04-07,812,1.2315270935960592,1.2315270935960592,0.0,neutral,sense_filtered
+5169103008,People Legal Specialist,Other,2026-04-07,542,0.0,0.0,0.0,empty,sense_filtered
+5169167008,Field Marketing Manager,Other,2026-05-09,668,1.4970059880239521,2.9940119760479043,-1.4970059880239521,feminine-coded,sense_filtered
+5169670008,"Strategic Deals Lead, Compute & Infrastructure",Engineering,2026-04-07,516,0.0,1.937984496124031,-1.937984496124031,feminine-coded,sense_filtered
+5170073008,Staff Network Engineer,Engineering,2026-05-16,431,0.0,2.320185614849188,-2.320185614849188,feminine-coded,sense_filtered
+5170084008,Transaction Principal,Other,2026-04-07,726,0.0,0.0,0.0,empty,sense_filtered
+5170235008,People Operations Lead,Other,2026-04-08,482,0.0,2.074688796680498,-2.074688796680498,feminine-coded,sense_filtered
+5171124008,Customer Success Manager,Other,2026-04-07,764,0.0,2.6178010471204187,-2.6178010471204187,feminine-coded,sense_filtered
+5171187008,Head of GovTech Sales,Other,2026-09-29,638,0.0,0.0,0.0,empty,sense_filtered
+5171200008,Partner Commercial Programs Lead,Other,2026-04-15,603,1.658374792703151,0.0,1.658374792703151,masculine-coded,sense_filtered
+5171624008,"Head of Integrated Marketing, Claude",Other,2026-04-07,669,0.0,2.9895366218236172,-2.9895366218236172,feminine-coded,sense_filtered
+5171710008,"Contracts Manager, Public Sector",Other,2026-04-03,587,0.0,10.221465076660989,-10.221465076660989,strongly feminine-coded,sense_filtered
+5171946008,"Senior Manager, Revenue Accounting - New Product Introduction",Other,2026-04-15,444,0.0,4.504504504504505,-4.504504504504505,feminine-coded,sense_filtered
+5171950008,"Partner Sales Manager, Systems Integrators",Other,2026-09-29,656,0.0,3.048780487804878,-3.048780487804878,feminine-coded,sense_filtered
+5172245008,"Senior / Staff+ Software Engineer, Voice Platform",Engineering,2026-04-01,633,0.0,3.1595576619273302,-3.1595576619273302,feminine-coded,sense_filtered
+5172396008,"Strategy & Operations, Public Policy & Public Benefit",Other,2026-04-02,408,0.0,0.0,0.0,empty,sense_filtered
+5172499008,"Customer Success Manager, DACH",Other,2026-04-15,767,0.0,2.607561929595828,-2.607561929595828,feminine-coded,sense_filtered
+5172501008,"Customer Success Manager, Southern Europe",Other,2026-04-09,1823,0.0,2.7427317608337907,-2.7427317608337907,strongly feminine-coded,sense_filtered
+5173031008,"Manager, Applied AI Solutions Architecture - Partnerships",Other,2026-04-07,496,0.0,2.0161290322580645,-2.0161290322580645,feminine-coded,sense_filtered
+5174556008,User Experience Researcher,Research-titled,2026-05-06,718,0.0,0.0,0.0,empty,sense_filtered
+5174700008,"Customer Success Manager, Scaled",Other,2026-04-07,772,0.0,2.5906735751295336,-2.5906735751295336,feminine-coded,sense_filtered
+5174743008,"Senior Software Engineer, Full-stack",Engineering,2026-09-29,996,0.0,0.0,0.0,empty,sense_filtered
+5174747008,"Staff+ Software Engineer, Full-stack",Engineering,2026-09-29,991,0.0,0.0,0.0,empty,sense_filtered
+5174755008,"Staff+ Software Engineer, Backend",Engineering,2026-04-09,969,1.0319917440660475,1.0319917440660475,0.0,neutral,sense_filtered
+5174757008,"Software Engineer, Backend",Engineering,2026-04-09,941,1.0626992561105206,1.0626992561105206,0.0,neutral,sense_filtered
+5174759008,"Policy Programs & Partnerships, Global Impact",Other,2026-04-07,526,1.9011406844106464,1.9011406844106464,0.0,neutral,sense_filtered
+5174844008,"Influencer Marketing Manager, Brand",Other,2026-04-07,708,0.0,1.4124293785310735,-1.4124293785310735,feminine-coded,sense_filtered
+5174857008,"Safeguards Policy Analyst, Fraud & Scams",Other,2026-04-07,705,0.0,4.25531914893617,-4.25531914893617,feminine-coded,sense_filtered
+5175013008,"Strategic Operations Manager, Claude Marketplace",Other,2026-04-07,720,0.0,2.7777777777777777,-2.7777777777777777,feminine-coded,sense_filtered
+5175017008,"Ecosystem Lead, Claude Marketplace",Other,2026-04-07,594,0.0,5.05050505050505,-5.05050505050505,feminine-coded,sense_filtered
+5175538008,"Senior Manager, Corporate Accounting Operations",Other,2026-04-09,833,0.0,1.2004801920768307,-1.2004801920768307,feminine-coded,sense_filtered
+5175782008,"Manager, Account Executive - Enterprise Sales",Other,2026-04-09,385,0.0,5.194805194805195,-5.194805194805195,feminine-coded,sense_filtered
+5175891008,"Director, Technical Accounting – M&A and Investments",Other,2026-05-18,1071,0.9337068160597572,0.0,0.9337068160597572,masculine-coded,sense_filtered
+5175932008,"Customer Success Manager, Higher Education",Other,2026-04-07,619,0.0,3.231017770597738,-3.231017770597738,feminine-coded,sense_filtered
+5176036008,"Strategic Account Executive, GSI",Other,2026-09-29,640,4.6875,0.0,4.6875,masculine-coded,sense_filtered
+5176201008,"Brand Marketing Lead, Enterprise",Other,2026-08-25,506,1.976284584980237,0.0,1.976284584980237,masculine-coded,sense_filtered
+5176481008,Incident Manager - Detection & Response,Other,2026-04-15,608,0.0,0.0,0.0,empty,sense_filtered
+5176570008,Incident Manager - Detection & Response,Other,2026-04-15,613,0.0,0.0,0.0,empty,sense_filtered
+5177143008,"Network Engineer, Capacity and Efficiency",Engineering,2026-04-07,1206,0.0,0.0,0.0,empty,sense_filtered
+5178467008,Senior Treasury Analyst,Other,2026-04-08,688,0.0,0.0,0.0,empty,sense_filtered
+5179769008,Community Operations & Executive Escalations Manager,Other,2026-04-15,532,0.0,0.0,0.0,empty,sense_filtered
+5179882008,"Product Operations Manager, Feedback Loops",Other,2026-04-15,958,0.0,0.0,0.0,empty,sense_filtered
+5179891008,"Product Operations Manager, Embedded",Other,2026-09-29,741,0.0,0.0,0.0,empty,sense_filtered
+5181219008,"Enterprise Account Executive, State & Local Sales - North East",Other,2026-06-06,452,0.0,4.424778761061947,-4.424778761061947,feminine-coded,sense_filtered
+5181364008,Policy Counsel,Other,2026-04-09,335,0.0,2.985074626865672,-2.985074626865672,feminine-coded,sense_filtered
+5181763008,"Manager, Customer Productivity",Other,2026-04-15,465,0.0,2.150537634408602,-2.150537634408602,feminine-coded,sense_filtered
+5181852008,"Product Manager, API Growth",Other,2026-04-16,253,0.0,3.952569169960474,-3.952569169960474,feminine-coded,sense_filtered
+5182430008,Insider Risk Investigator - Technical & Human Intelligence,Other,2026-04-15,517,3.8684719535783367,3.8684719535783367,0.0,neutral,sense_filtered
+5182605008,"Data Scientist, Product",Other,2026-09-29,350,0.0,0.0,0.0,empty,sense_filtered
+5182705008,"Policy Planning & Operations, US Federal",Other,2026-04-15,721,0.0,0.0,0.0,empty,sense_filtered
+5182866008,Head of Partner Success,Other,2026-04-15,1105,0.0,0.0,0.0,empty,sense_filtered
+5182887008,"Scaled Enterprise Account Executive, Industries",Other,2026-09-29,523,0.0,0.0,0.0,empty,sense_filtered
+5183006008,"Senior Product Manager, Education Labs",Other,2026-04-15,1060,0.0,1.8867924528301887,-1.8867924528301887,feminine-coded,sense_filtered
+5183021008,"Finance Systems, Head of AI & Innovation",Other,2026-04-15,1177,0.0,1.699235344095157,-1.699235344095157,feminine-coded,sense_filtered
+5183044008,"Anthropic Fellows Program, AI Safety & Security",Fellows,2026-09-29,1123,0.8904719501335708,0.8904719501335708,0.0,neutral,sense_filtered
+5183051008,"Anthropic Fellows Program, ML Systems & Reinforcement Learning",Fellows,2026-09-29,886,1.1286681715575622,3.386004514672686,-2.257336343115124,feminine-coded,sense_filtered
+5183052008,"Anthropic Fellows Program, Reinforcement Learning",Fellows,2026-06-10,1007,0.9930486593843099,1.9860973187686197,-0.9930486593843099,feminine-coded,sense_filtered
+5183053008,"Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",Fellows,2026-09-29,724,1.3812154696132597,2.7624309392265194,-1.3812154696132597,feminine-coded,sense_filtered
+5183983008,"Manager of Forward Deployed Engineering, Applied AI",Engineering,2026-04-15,645,0.0,0.0,0.0,empty,sense_filtered
+5184077008,"Head of ANZ, Applied AI",Other,2026-06-13,740,0.0,4.054054054054054,-4.054054054054054,feminine-coded,sense_filtered
+5184585008,"Analytics, Finance & Strategy",Other,2026-04-15,569,0.0,0.0,0.0,empty,sense_filtered
+5184594008,"Data Scientist, Finance Forecasting",Other,2026-04-15,657,0.0,1.5220700152207,-1.5220700152207,feminine-coded,sense_filtered
+5185501008,"Technical Enablement Lead, Claude Code",Other,2026-04-15,296,0.0,0.0,0.0,empty,sense_filtered
+5185574008,"Policy Analyst, LATAM",Other,2026-04-15,514,0.0,3.8910505836575875,-3.8910505836575875,feminine-coded,sense_filtered
+5186067008,"Full-Stack Software Engineer, Reinforcement Learning",Engineering,2026-09-29,927,0.0,0.0,0.0,empty,sense_filtered
+5186199008,Business Development Representative,Other,2026-04-15,246,0.0,8.130081300813009,-8.130081300813009,feminine-coded,sense_filtered
+5186518008,"Commercial Counsel, Compute & Infrastructure",Engineering,2026-04-15,615,0.0,3.252032520325203,-3.252032520325203,feminine-coded,sense_filtered
+5186669008,"Finance Systems Engineer, Revenue",Engineering,2026-04-15,727,0.0,0.0,0.0,empty,sense_filtered
+5186811008,Product Support Manager,Other,2026-04-15,535,0.0,5.607476635514018,-5.607476635514018,feminine-coded,sense_filtered
+5186852008,Product Support Specialist (Singapore),Other,2026-04-27,489,2.044989775051125,4.08997955010225,-2.044989775051125,feminine-coded,sense_filtered
+5186965008,Product Support Specialist (Singapore - Weekend Coverage),Other,2026-04-14,515,1.941747572815534,3.883495145631068,-1.941747572815534,feminine-coded,sense_filtered
+5187208008,"Technical Program Management, Alignment",Other,2026-04-15,390,0.0,2.5641025641025643,-2.5641025641025643,feminine-coded,sense_filtered
+5187334008,Political Programs Manager,Other,2026-04-15,857,1.1668611435239207,0.0,1.1668611435239207,masculine-coded,sense_filtered
+5187486008,Data Center Electrical Engineer,Engineering,2026-04-15,691,0.0,0.0,0.0,empty,sense_filtered
+5188193008,Geopolitical Intelligence Analyst,Other,2026-04-15,391,5.115089514066496,0.0,5.115089514066496,masculine-coded,sense_filtered
+5188237008,"Research Operations, Discovery",Research-titled,2026-04-15,659,0.0,0.0,0.0,empty,sense_filtered
+5188391008,"Partner Enablement Lead, System Integrators",Other,2026-09-29,600,0.0,0.0,0.0,empty,sense_filtered
+5188428008,"Art Director, Enterprise",Other,2026-04-21,686,0.0,4.373177842565598,-4.373177842565598,feminine-coded,sense_filtered
+5188431008,"Copy Lead, Enterprise",Other,2026-04-21,664,0.0,1.5060240963855422,-1.5060240963855422,feminine-coded,sense_filtered
+5188606008,"Manager, Mid-Market Industries Sales, West",Other,2026-04-15,682,0.0,2.932551319648094,-2.932551319648094,feminine-coded,sense_filtered
+5188745008,Head of Insurance & Business Risk,Other,2026-04-21,380,0.0,0.0,0.0,empty,sense_filtered
+5188939008,Data Center Portfolio Planning & Execution Lead,Other,2026-04-21,497,0.0,0.0,0.0,empty,sense_filtered
+5189008008,Real Estate Program Coordinator,Other,2026-08-09,690,0.0,0.0,0.0,empty,sense_filtered
+5189011008,Product Support Manager (Dublin),Other,2026-04-21,531,0.0,5.649717514124294,-5.649717514124294,feminine-coded,sense_filtered
+5189045008,Head of Customer Programs,Other,2026-04-21,698,0.0,0.0,0.0,empty,sense_filtered
+5189047008,"Customer Programs Manager, Customer Advisory Boards",Other,2026-04-21,698,0.0,0.0,0.0,empty,sense_filtered
+5189196008,Revenue Strategy & Operations Lead,Other,2026-04-21,586,0.0,3.4129692832764507,-3.4129692832764507,feminine-coded,sense_filtered
+5189205008,Revenue Strategy & Operations,Other,2026-05-04,475,0.0,0.0,0.0,empty,sense_filtered
+5189848008,Anthropic STEM Fellow,Fellows,2026-04-18,502,0.0,3.9840637450199203,-3.9840637450199203,feminine-coded,sense_filtered
+5190234008,"Manager, Partner Account Managers",Other,2026-04-21,748,2.6737967914438503,1.3368983957219251,1.3368983957219251,masculine-coded,sense_filtered
+5191226008,"Software Engineer, Research Data Platform",Research-titled,2026-09-29,413,0.0,2.4213075060532687,-2.4213075060532687,feminine-coded,sense_filtered
+5191332008,Sales Strategy & Operational Excellence Lead,Other,2026-04-21,915,0.0,1.092896174863388,-1.092896174863388,feminine-coded,sense_filtered
+5191433008,"Software Engineer, Safeguards Foundations (Internal Tooling)",Engineering,2026-04-21,734,0.0,0.0,0.0,empty,sense_filtered
+5191437008,Partner Business Systems & AI Operations Lead,Other,2026-04-21,727,0.0,0.0,0.0,empty,sense_filtered
+5191621008,"Senior Manager, Workforce Accounting",Other,2026-09-29,859,0.0,0.0,0.0,empty,sense_filtered
+5191636008,Head of APAC Accounting,Other,2026-06-24,854,0.0,1.17096018735363,-1.17096018735363,feminine-coded,sense_filtered
+5191638008,Cluster Deployment Engineer,Engineering,2026-04-21,854,0.0,0.0,0.0,empty,sense_filtered
+5191775008,"Product Counsel, Claude Platform",Other,2026-04-20,573,0.0,3.4904013961605584,-3.4904013961605584,feminine-coded,sense_filtered
+5191785008,"Research Engineer, Safeguards Labs",Research-titled,2026-04-18,511,1.9569471624266144,0.0,1.9569471624266144,masculine-coded,sense_filtered
+5191833008,"Field Marketing Manager, Startups",Other,2026-04-21,604,0.0,0.0,0.0,empty,sense_filtered
+5191911008,Head of EMEA Partner Success,Other,2026-04-22,1554,0.0,0.0,0.0,empty,sense_filtered
+5192104008,"Global Leader, Applied AI Architects, Beneficial Deployments",Other,2026-04-21,775,0.0,3.870967741935484,-3.870967741935484,feminine-coded,sense_filtered
+5192805008,"Applied AI Architect, Commercial",Other,2026-09-29,591,0.0,1.6920473773265652,-1.6920473773265652,feminine-coded,sense_filtered
+5193066008,"GTM Strategy & Operations, Activations Business Partner",Other,2026-04-21,604,0.0,1.6556291390728477,-1.6556291390728477,feminine-coded,sense_filtered
+5193428008,Accounts Receivable Specialist,Other,2026-05-04,596,0.0,0.0,0.0,empty,sense_filtered
+5193973008,Applied AI Architect (Startups),Other,2026-04-22,458,0.0,0.0,0.0,empty,sense_filtered
+5193986008,"Lead, Data Center Physical Security Operations (North America)",Other,2026-04-21,629,0.0,0.0,0.0,empty,sense_filtered
+5194007008,"Applied AI Architect, Public Sector",Other,2026-04-27,699,0.0,2.8612303290414878,-2.8612303290414878,feminine-coded,sense_filtered
+5194021008,"Senior Manager, Infrastructure Accounting",Engineering,2026-04-27,638,0.0,3.134796238244514,-3.134796238244514,feminine-coded,sense_filtered
+5194302008,"Program Operations Manager, Human Data",Other,2026-04-22,545,1.834862385321101,1.834862385321101,0.0,neutral,sense_filtered
+5194529008,"Events Lead, Brand",Other,2026-04-21,725,0.0,1.3793103448275863,-1.3793103448275863,feminine-coded,sense_filtered
+5194670008,"Enterprise Account Executive, Federal Civilian Sales",Other,2026-09-29,399,0.0,5.012531328320802,-5.012531328320802,feminine-coded,sense_filtered
+5194769008,Head of Portfolio Marketing,Other,2026-04-22,708,0.0,2.824858757062147,-2.824858757062147,feminine-coded,sense_filtered
+5194810008,"Workday Business Systems Analyst, HCM",Other,2026-04-22,650,1.5384615384615385,3.076923076923077,-1.5384615384615385,feminine-coded,sense_filtered
+5194827008,Field Services Engineer,Engineering,2026-04-22,355,2.816901408450704,0.0,2.816901408450704,masculine-coded,sense_filtered
+5194829008,"Finance & Strategy, Datacenter Finance",Other,2026-04-22,447,0.0,0.0,0.0,empty,sense_filtered
+5194835008,"Finance & Strategy, Compute - Central Compute",Other,2026-04-22,418,0.0,0.0,0.0,empty,sense_filtered
+5194894008,"Finance & Strategy, GTM Public Sector",Other,2026-04-22,454,0.0,4.405286343612334,-4.405286343612334,feminine-coded,sense_filtered
+5194899008,Corporate Legal Specialist,Other,2026-04-22,667,1.4992503748125936,0.0,1.4992503748125936,masculine-coded,sense_filtered
+5195705008,Security Engineer - Threat Intel,Engineering,2026-09-29,552,0.0,0.0,0.0,empty,sense_filtered
+5195866008,"Product Management, Human Data Platform",Other,2026-09-29,525,3.8095238095238093,0.0,3.8095238095238093,masculine-coded,sense_filtered
+5196014008,"Enterprise Account Executive, Federal Civilian Sales - Transport & Land",Other,2026-09-29,419,0.0,4.77326968973747,-4.77326968973747,feminine-coded,sense_filtered
+5196015008,"Enterprise Account Executive, Federal Civilian Sales - State & International",Other,2026-04-22,438,0.0,4.566210045662101,-4.566210045662101,feminine-coded,sense_filtered
+5196023008,"Enterprise Account Executive, Federal Civilian Sales - Commerce & Interior",Other,2026-09-29,418,0.0,4.784688995215311,-4.784688995215311,feminine-coded,sense_filtered
+5196029008,"Enterprise Account Executive, Federal Civilian Sales - Education & Workforce",Other,2026-04-22,440,0.0,4.545454545454546,-4.545454545454546,feminine-coded,sense_filtered
+5196100008,"Senior Manager, Finance Strategic Projects",Other,2026-04-22,520,0.0,5.769230769230769,-5.769230769230769,feminine-coded,sense_filtered
+5196219008,"Director, Infrastructure & Energy Accounting",Engineering,2026-04-27,653,0.0,0.0,0.0,empty,sense_filtered
+5196221008,"Director, Infrastructure Capex Accounting",Engineering,2026-04-24,664,0.0,1.5060240963855422,-1.5060240963855422,feminine-coded,sense_filtered
+5196230008,"Senior Manager, Infrastructure Capex Accounting",Engineering,2026-04-27,611,0.0,3.2733224222585924,-3.2733224222585924,feminine-coded,sense_filtered
+5196852008,"Data Scientist, GTM",Other,2026-09-29,385,0.0,0.0,0.0,empty,sense_filtered
+5196986008,"Partnership Strategy & Operations Lead, International",Other,2026-09-29,571,0.0,0.0,0.0,empty,sense_filtered
+5197337008,"Research Engineer, RL Infrastructure and Reliability (Knowledge Work)",Research-titled,2026-04-27,576,0.0,0.0,0.0,empty,sense_filtered
+5197432008,"Director, Revenue Accounting Operations - Program Management",Other,2026-04-27,657,0.0,0.0,0.0,empty,sense_filtered
+5197529008,"Data Scientist, Developer Productivity",Engineering,2026-05-06,489,0.0,0.0,0.0,empty,sense_filtered
+5197538008,"Manager of Applied AI Architecture, Enterprise Tech (Cyber)",Other,2026-04-27,789,0.0,3.802281368821293,-3.802281368821293,feminine-coded,sense_filtered
+5197549008,"Senior Manager, Accounts Receivable, Credit & Collections",Other,2026-05-04,842,0.0,1.187648456057007,-1.187648456057007,feminine-coded,sense_filtered
+5197551008,"Senior Manager, Accounts Receivable, Credit & Collections",Other,2026-06-16,881,0.0,1.1350737797956867,-1.1350737797956867,feminine-coded,sense_filtered
+5197562008,"Finance & Strategy Manager, Machines",Other,2026-09-12,268,0.0,0.0,0.0,empty,sense_filtered
+5197597008,"Technical Specialist, Claude Code",Other,2026-05-04,1040,0.0,0.9615384615384616,-0.9615384615384616,feminine-coded,sense_filtered
+5197714008,"Senior Security Software Engineer, Linux Kernel Security - Nodes & Sensors",Engineering,2026-04-29,414,0.0,0.0,0.0,empty,sense_filtered
+5198074008,"Research Engineer, Machine Learning (RL Velocity)",Research-titled,2026-09-29,296,0.0,0.0,0.0,empty,sense_filtered
+5198108008,"Research Engineer, Machine Learning (RL Velocity)",Research-titled,2026-09-29,296,0.0,0.0,0.0,empty,sense_filtered
+5198255008,"Research Engineer, Post-Training Model Evaluations",Research-titled,2026-09-29,414,0.0,0.0,0.0,empty,sense_filtered
+5198991008,"Product Marketing Lead, Claude Platform - Cloud",Other,2026-04-28,607,0.0,1.6474464579901154,-1.6474464579901154,feminine-coded,sense_filtered
+5198995008,"Convening Operations Lead, The Anthropic Institute",Other,2026-04-27,274,0.0,0.0,0.0,empty,sense_filtered
+5199629008,Revenue Strategy & Operations Lead,Other,2026-04-27,584,0.0,3.4246575342465753,-3.4246575342465753,feminine-coded,sense_filtered
+5199633008,Revenue Strategy & Operations,Other,2026-09-29,728,0.0,0.0,0.0,empty,sense_filtered
+5199976008,Recruiting Coordinator [contract],Other,2026-05-11,368,0.0,8.152173913043478,-8.152173913043478,feminine-coded,sense_filtered
+5199978008,ANZ Communications Lead,Other,2026-05-04,340,0.0,0.0,0.0,empty,sense_filtered
+5200670008,"Head of Resilience Operations, Global Safety, Intelligence & Security",Other,2026-04-27,977,1.0235414534288638,0.0,1.0235414534288638,masculine-coded,sense_filtered
+5200856008,"Workplace Experience, Operations Manager",Other,2026-05-04,1328,0.0,11.295180722891565,-11.295180722891565,strongly feminine-coded,sense_filtered
+5201264008,"Technical Program Manager, Cloud Inference",Other,2026-09-29,472,0.0,6.3559322033898304,-6.3559322033898304,feminine-coded,sense_filtered
+5201506008,"Regulatory Counsel, Content & Frontier AI Regulation",Other,2026-04-29,746,0.0,1.3404825737265416,-1.3404825737265416,feminine-coded,sense_filtered
+5201715008,"Applied AI Architect Lead, EMEA Commercial",Other,2026-06-16,870,0.0,3.4482758620689653,-3.4482758620689653,feminine-coded,sense_filtered
+5202386008,"Finance & Strategy, GTM (ASEAN)",Other,2026-05-04,452,0.0,4.424778761061947,-4.424778761061947,feminine-coded,sense_filtered
+5202462008,"Workforce Planning Lead, People Analytics",Other,2026-05-11,664,0.0,0.0,0.0,empty,sense_filtered
+5203545008,"Technical Program Manager, Research",Research-titled,2026-09-29,535,0.0,0.0,0.0,empty,sense_filtered
+5203868008,"Staff+ Software Engineer, Node Infra",Engineering,2026-09-29,449,0.0,0.0,0.0,empty,sense_filtered
+5204086008,"[P] [Zurich] Solutions Architect, Applied AI",Other,2026-05-18,535,0.0,5.607476635514018,-5.607476635514018,feminine-coded,sense_filtered
+5204401008,Senior Staff Software Engineer,Engineering,2026-05-14,513,0.0,9.746588693957115,-9.746588693957115,strongly feminine-coded,sense_filtered
+5205495008,Incident Response Manager - Product & Engineering,Engineering,2026-09-29,543,1.8416206261510129,1.8416206261510129,0.0,neutral,sense_filtered
+5205505008,"Lead, Government Incentives & Economic Development",Other,2026-06-24,591,0.0,0.0,0.0,empty,sense_filtered
+5205541008,"Director, Technical Revenue Accounting",Other,2026-09-29,564,0.0,0.0,0.0,empty,sense_filtered
+5205545008,"Accounting, Revenue Internal Controls",Other,2026-09-29,839,0.0,0.0,0.0,empty,sense_filtered
+5205626008,Data Center Strategic Sourcing - Network,Other,2026-05-04,442,0.0,0.0,0.0,empty,sense_filtered
+5205704008,"Staff+ Software Engineer, Public Sector",Engineering,2026-09-29,416,0.0,2.4038461538461537,-2.4038461538461537,feminine-coded,sense_filtered
+5205735008,"Director, Global Order-to-Cash Transformation",Other,2026-09-29,784,0.0,0.0,0.0,empty,sense_filtered
+5205738008,"Senior Manager, Order Management – Partnership NPI & Automation",Other,2026-06-16,658,0.0,3.0395136778115504,-3.0395136778115504,feminine-coded,sense_filtered
+5205884008,"Commercial Counsel, Networking & Datacenter Operations",Other,2026-05-05,858,0.0,2.331002331002331,-2.331002331002331,feminine-coded,sense_filtered
+5205894008,"Commercial Counsel, Infrastructure Security",Engineering,2026-05-11,954,0.0,1.0482180293501049,-1.0482180293501049,feminine-coded,sense_filtered
+5206456008,"Research Engineer, Search and Knowledge Post-Training",Research-titled,2026-05-05,641,1.5600624024960998,3.1201248049921997,-1.5600624024960998,feminine-coded,sense_filtered
+5206492008,"Engineering Manager, Platform Foundations",Engineering,2026-06-08,660,0.0,0.0,0.0,empty,sense_filtered
+5206978008,"Staff+ Infrastructure Engineer, Cluster Infrastructure",Engineering,2026-09-29,494,0.0,2.0242914979757085,-2.0242914979757085,feminine-coded,sense_filtered
+5207302008,"Contracts Manager, Research & Operations",Research-titled,2026-05-04,475,0.0,12.631578947368421,-12.631578947368421,strongly feminine-coded,sense_filtered
+5207565008,Community & Executive Escalations Program Manager,Other,2026-05-05,436,0.0,0.0,0.0,empty,sense_filtered
+5207760008,Compliance Governance & Oversight Lead,Other,2026-05-05,814,0.0,0.0,0.0,empty,sense_filtered
+5207835008,Corporate Compliance Officer,Other,2026-05-04,752,2.6595744680851063,0.0,2.6595744680851063,masculine-coded,sense_filtered
+5207861008,"Lead, Talent Development & Enablement",Other,2026-05-11,548,0.0,0.0,0.0,empty,sense_filtered
+5208130008,Sanctions & Export Controls Compliance Officer,Other,2026-05-04,789,1.267427122940431,0.0,1.267427122940431,masculine-coded,sense_filtered
+5208136008,Privacy Governance Lead,Other,2026-05-04,740,0.0,0.0,0.0,empty,sense_filtered
+5208193008,"Technical Program Manager, Launches",Other,2026-09-29,404,0.0,0.0,0.0,empty,sense_filtered
+5208205008,Content Moderation Specialist,Other,2026-05-04,749,1.335113484646195,0.0,1.335113484646195,masculine-coded,sense_filtered
+5208218008,AI Compliance Officer,Other,2026-05-05,595,0.0,0.0,0.0,empty,sense_filtered
+5208278008,"Research Operations, External Artifacts",Research-titled,2026-05-07,713,0.0,0.0,0.0,empty,sense_filtered
+5208284008,IT Support Engineer,Engineering,2026-05-08,644,1.5527950310559007,0.0,1.5527950310559007,masculine-coded,sense_filtered
+5208289008,"Commercial Counsel, Platform & Marketplace",Other,2026-06-10,631,6.3391442155309035,1.5847860538827259,4.754358161648177,masculine-coded,sense_filtered
+5209196008,"Data Scientist, Safeguards",Other,2026-09-29,368,0.0,0.0,0.0,empty,sense_filtered
+5209661008,"Manager, Commercial Counsel, GTM",Other,2026-09-29,409,0.0,4.88997555012225,-4.88997555012225,feminine-coded,sense_filtered
+5209776008,"Security Software Engineer, Platform Integration",Engineering,2026-05-06,514,0.0,0.0,0.0,empty,sense_filtered
+5209865008,"Policy Counsel, EMEA",Other,2026-05-06,381,0.0,2.6246719160104988,-2.6246719160104988,feminine-coded,sense_filtered
+5209896008,"Corporate Finance & Strategy, R&D Opex",Other,2026-05-06,691,0.0,1.447178002894356,-1.447178002894356,feminine-coded,sense_filtered
+5210242008,Privacy Governance Lead,Other,2026-05-06,748,0.0,0.0,0.0,empty,sense_filtered
+5210629008,"Engineering Manager, Passport",Engineering,2026-05-14,571,0.0,0.0,0.0,empty,sense_filtered
+5210631008,"Engineering Manager, Marketplace",Engineering,2026-05-06,492,0.0,0.0,0.0,empty,sense_filtered
+5211184008,"Incident Response Manager, Enforcement",Other,2026-05-14,538,0.0,0.0,0.0,empty,sense_filtered
+5211222008,GTM Engineer,Engineering,2026-05-06,450,0.0,0.0,0.0,empty,sense_filtered
+5211241008,"Staff+ Software Engineer, Kubernetes Platform",Engineering,2026-09-29,484,0.0,2.0661157024793386,-2.0661157024793386,feminine-coded,sense_filtered
+5211297008,"Staff Infrastructure Engineer, Cluster Infrastructure",Engineering,2026-09-29,494,0.0,2.0242914979757085,-2.0242914979757085,feminine-coded,sense_filtered
+5211305008,"Staff Software Engineer, Kubernetes Platform",Engineering,2026-09-29,484,0.0,2.0661157024793386,-2.0661157024793386,feminine-coded,sense_filtered
+5211498008,"Staff Software Engineer, Node Infra",Engineering,2026-09-29,449,0.0,0.0,0.0,empty,sense_filtered
+5212119008,"Data Scientist, Supply",Other,2026-05-08,498,0.0,0.0,0.0,empty,sense_filtered
+5215028008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",Engineering,2026-05-08,582,0.0,1.7182130584192439,-1.7182130584192439,feminine-coded,sense_filtered
+5215052008,"Amazon GTM Partnership, Startups",Other,2026-05-18,365,0.0,0.0,0.0,empty,sense_filtered
+5215116008,Senior Benefits Partner,Other,2026-05-11,776,0.0,0.0,0.0,empty,sense_filtered
+5215121008,Data Center OFE Strategic Sourcing Lead,Other,2026-05-18,421,0.0,0.0,0.0,empty,sense_filtered
+5215124008,"Technical Program Manager, Discovery",Other,2026-05-16,499,0.0,2.004008016032064,-2.004008016032064,feminine-coded,sense_filtered
+5215130008,"Senior Data Center Capacity Delivery Manager, AUS",Other,2026-09-29,721,0.0,1.3869625520110958,-1.3869625520110958,feminine-coded,sense_filtered
+5215141008,Data Center OFE Strategic Sourcing Manager,Other,2026-09-29,417,0.0,0.0,0.0,empty,sense_filtered
+5216208008,"Operations Sourcing Manager, Data Center",Other,2026-05-17,532,0.0,0.0,0.0,empty,sense_filtered
+5218047008,"GTM Strategy & Operations, Frontier",Other,2026-05-18,695,0.0,1.4388489208633093,-1.4388489208633093,feminine-coded,sense_filtered
+5218181008,Data Center Facility Operations Lead,Other,2026-05-17,390,0.0,0.0,0.0,empty,sense_filtered
+5218186008,Data Center Hardware Operations Lead,Other,2026-05-17,404,0.0,0.0,0.0,empty,sense_filtered
+5218395008,"Software Engineer, Systems - Claude Code",Engineering,2026-05-13,403,0.0,2.4813895781637716,-2.4813895781637716,feminine-coded,sense_filtered
+5218458008,Head of International Customer Success,Other,2026-05-18,539,0.0,0.0,0.0,empty,sense_filtered
+5218552008,Enterprise Account Executive - CPG,Other,2026-06-02,663,0.0,7.541478129713424,-7.541478129713424,strongly feminine-coded,sense_filtered
+5218573008,Enterprise Account Executive - Retail,Other,2026-09-29,511,0.0,5.870841487279844,-5.870841487279844,feminine-coded,sense_filtered
+5219454008,Staff Fiber Network Engineer,Engineering,2026-05-18,606,0.0,0.0,0.0,empty,sense_filtered
+5219486008,"[Pipeline] Software Engineer, Safeguards Labs",Engineering,2026-05-18,333,0.0,3.003003003003003,-3.003003003003003,feminine-coded,sense_filtered
+5219829008,Employment Counsel,Other,2026-05-18,379,0.0,5.277044854881266,-5.277044854881266,feminine-coded,sense_filtered
+5219967008,Enterprise Account Executive - Retail / CPG / Trading,Other,2026-09-29,441,0.0,4.535147392290249,-4.535147392290249,feminine-coded,sense_filtered
+5219971008,"Enterprise Account Executive, Manufacturing & Automotive",Other,2026-05-18,585,0.0,3.4188034188034186,-3.4188034188034186,feminine-coded,sense_filtered
+5220336008,"Account Executive, SMB - EMEA",Other,2026-05-18,613,0.0,3.2626427406199023,-3.2626427406199023,feminine-coded,sense_filtered
+5221910008,"Account Executive, Beneficial Deployments (French Speaking)",Other,2026-06-16,735,0.0,0.0,0.0,empty,sense_filtered
+5221914008,"Account Executive, Beneficial Deployments (Spanish Speaking)",Other,2026-06-16,734,0.0,0.0,0.0,empty,sense_filtered
+5221916008,"Sales Manager, Nonprofit, EMEA",Other,2026-09-29,856,0.0,0.0,0.0,empty,sense_filtered
+5221932008,"Head of Enterprise Sales - Industries, ANZ",Other,2026-05-18,594,1.6835016835016836,3.367003367003367,-1.6835016835016836,feminine-coded,sense_filtered
+5222180008,Account Executive - ASEAN,Other,2026-06-16,484,0.0,2.0661157024793386,-2.0661157024793386,feminine-coded,sense_filtered
+5222235008,Enterprise Account Executive - Industries Generalist,Other,2026-05-18,723,0.0,6.915629322268327,-6.915629322268327,strongly feminine-coded,sense_filtered
+5222289008,"Manager of Solutions Architecture, Applied AI (Enterprise Tech)",Other,2026-06-02,529,0.0,3.780718336483932,-3.780718336483932,feminine-coded,sense_filtered
+5222908008,"Partner Solutions Architect, Applied AI",Other,2026-06-16,431,0.0,4.640371229698376,-4.640371229698376,feminine-coded,sense_filtered
+5222914008,Enterprise Account Executive,Other,2026-05-18,466,0.0,4.291845493562231,-4.291845493562231,feminine-coded,sense_filtered
+5223093008,"Engineering Manager, Research Productivity",Research-titled,2026-09-29,386,0.0,2.5906735751295336,-2.5906735751295336,feminine-coded,sense_filtered
+5223738008,"Enterprise Account Executive, Industries Generalist",Other,2026-06-21,559,0.0,5.366726296958855,-5.366726296958855,feminine-coded,sense_filtered
+5223741008,"Enterprise Account Executive, Industries Generalist",Other,2026-07-08,559,0.0,5.366726296958855,-5.366726296958855,feminine-coded,sense_filtered
+5223750008,"Account Executive Lead, Beneficial Deployments - EMEA",Other,2026-06-02,871,0.0,0.0,0.0,empty,sense_filtered
+5223916008,"Design Engineer, Web",Engineering,2026-07-11,758,0.0,0.0,0.0,empty,sense_filtered
+5224507008,Head of Partner Programs,Other,2026-05-20,413,0.0,0.0,0.0,empty,sense_filtered
+5224564008,"Performance Engineer, Inference Systems",Engineering,2026-09-29,663,0.0,0.0,0.0,empty,sense_filtered
+5225003008,Enterprise Account Executive - Energy & Utilities,Other,2026-09-29,663,0.0,7.541478129713424,-7.541478129713424,strongly feminine-coded,sense_filtered
+5226540008,"Strategic Partner Development, Product Partnerships - Cybersecurity",Other,2026-09-29,422,2.3696682464454977,7.109004739336493,-4.739336492890995,feminine-coded,sense_filtered
+5226862008,"Applied AI Architect, Digital Natives Business",Other,2026-09-29,515,0.0,5.825242718446602,-5.825242718446602,feminine-coded,sense_filtered
+5226954008,Customer Success Programs Manager,Other,2026-06-24,884,0.0,0.0,0.0,empty,sense_filtered
+5227411008,Data Center Electrical Engineer,Engineering,2026-06-16,1185,0.0,0.0,0.0,empty,sense_filtered
+5227413008,Data Center Mechanical Engineer,Engineering,2026-05-27,872,0.0,0.0,0.0,empty,sense_filtered
+5227415008,Data Center Electrical Engineer,Engineering,2026-06-16,1048,0.0,0.0,0.0,empty,sense_filtered
+5227641008,Applied AI Security Architect,Other,2026-06-16,680,1.4705882352941178,2.9411764705882355,-1.4705882352941178,feminine-coded,sense_filtered
+5227643008,"Applied AI Architect, Public Sector",Other,2026-06-10,739,0.0,2.706359945872801,-2.706359945872801,feminine-coded,sense_filtered
+5227672008,Applied AI Architect,Other,2026-09-11,502,0.0,3.9840637450199203,-3.9840637450199203,feminine-coded,sense_filtered
+5227845008,"Data Center Energy Lead, Australia",Other,2026-06-16,651,0.0,0.0,0.0,empty,sense_filtered
+5228463008,Support Engineer,Engineering,2026-09-29,607,1.6474464579901154,3.2948929159802307,-1.6474464579901154,feminine-coded,sense_filtered
+5228931008,Applied AI Architect (Startups),Other,2026-06-16,441,0.0,0.0,0.0,empty,sense_filtered
+5229345008,"Staff Software Engineer, Claude Design",Engineering,2026-09-29,772,1.2953367875647668,10.362694300518134,-9.067357512953368,strongly feminine-coded,sense_filtered
+5229558008,"Manager, Startup Partnerships",Other,2026-06-16,446,0.0,2.242152466367713,-2.242152466367713,feminine-coded,sense_filtered
+5230755008,"Manager of Applied AI Architecture, Startups",Other,2026-06-07,764,0.0,0.0,0.0,empty,sense_filtered
+5231200008,"Regional Research Economist, Economic Research",Research-titled,2026-09-29,612,0.0,6.5359477124183005,-6.5359477124183005,strongly feminine-coded,sense_filtered
+5231205008,"Regional Research Economist, Economic Research",Research-titled,2026-09-29,611,0.0,6.546644844517185,-6.546644844517185,strongly feminine-coded,sense_filtered
+5231496008,"Staff + Sr. Software Engineer, Cloud Inference",Engineering,2026-06-10,519,0.0,1.9267822736030829,-1.9267822736030829,feminine-coded,sense_filtered
+5231612008,"Research Engineer, Chip Design RL (Reinforcement Learning)",Research-titled,2026-09-29,403,0.0,4.962779156327543,-4.962779156327543,feminine-coded,sense_filtered
+5231904008,"National Security Policy Lead, Cyber",Other,2026-06-10,660,1.5151515151515151,3.0303030303030303,-1.5151515151515151,feminine-coded,sense_filtered
+5232055008,"Data Scientist, Policy",Other,2026-09-29,403,0.0,0.0,0.0,empty,sense_filtered
+5232392008,"Member of Staff, AI & Rule of Law",Other,2026-06-01,531,0.0,0.0,0.0,empty,sense_filtered
+5233507008,Transaction Principal,Other,2026-06-10,862,0.0,0.0,0.0,empty,sense_filtered
+5233643008,"Policy Counsel, EMEA",Other,2026-06-21,321,0.0,3.115264797507788,-3.115264797507788,feminine-coded,sense_filtered
+5233645008,"Policy Counsel, EMEA",Other,2026-06-16,319,0.0,3.134796238244514,-3.134796238244514,feminine-coded,sense_filtered
+5234538008,"Director, Compute Infrastructure Procurement Operations",Engineering,2026-06-24,845,0.0,0.0,0.0,empty,sense_filtered
+5235682008,"Head of Enterprise Sales, Industries",Other,2026-06-02,596,0.0,0.0,0.0,empty,sense_filtered
+5235692008,VC Partnerships Lead,Other,2026-09-29,430,0.0,0.0,0.0,empty,sense_filtered
+5236531008,"Engineering Manager, Cybersecurity Products",Engineering,2026-09-29,412,0.0,0.0,0.0,empty,sense_filtered
+5236940008,IT Support Engineer,Engineering,2026-06-10,635,1.5748031496062993,0.0,1.5748031496062993,masculine-coded,sense_filtered
+5237030008,"Partner Account Manager, Systems Integrators",Other,2026-09-29,676,0.0,2.9585798816568047,-2.9585798816568047,feminine-coded,sense_filtered
+5237718008,Head of Logistics,Other,2026-07-06,560,0.0,0.0,0.0,empty,sense_filtered
+5237762008,"Staff Software Engineer, Infrastructure Asset Systems",Engineering,2026-06-11,688,0.0,0.0,0.0,empty,sense_filtered
+5237923008,Head of Global Renewals,Other,2026-09-29,559,0.0,1.7889087656529516,-1.7889087656529516,feminine-coded,sense_filtered
+5237973008,"Enterprise Account Executive, Manufacturing",Other,2026-09-29,509,0.0,5.893909626719057,-5.893909626719057,feminine-coded,sense_filtered
+5238296008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",Engineering,2026-08-09,552,0.0,1.8115942028985508,-1.8115942028985508,feminine-coded,sense_filtered
+5238460008,"Data Operations Manager, Human Data",Other,2026-09-29,455,0.0,0.0,0.0,empty,sense_filtered
+5238606008,"Software Engineer, RL Data",Engineering,2026-06-05,663,0.0,0.0,0.0,empty,sense_filtered
+5238637008,"Product Engineer, Computer Use",Engineering,2026-09-29,411,0.0,0.0,0.0,empty,sense_filtered
+5239391008,"Communications Lead, Infrastructure and Engineering",Engineering,2026-06-09,442,0.0,2.262443438914027,-2.262443438914027,feminine-coded,sense_filtered
+5239403008,"Communications Specialist, Product",Other,2026-06-16,437,0.0,4.576659038901602,-4.576659038901602,feminine-coded,sense_filtered
+5239733008,"Research Scientist, Life Sciences",Research-titled,2026-09-29,571,1.7513134851138354,1.7513134851138354,0.0,neutral,sense_filtered
+5239772008,"Recruiter, Mergers & Acquisitions",Other,2026-09-29,412,0.0,2.4271844660194173,-2.4271844660194173,feminine-coded,sense_filtered
+5239794008,"People Programs, M&A Lead",Other,2026-06-16,894,0.0,0.0,0.0,empty,sense_filtered
+5240422008,"Data Engineer, Safeguards",Engineering,2026-09-29,455,2.197802197802198,2.197802197802198,0.0,neutral,sense_filtered
+5240487008,"Communications Lead, Platform",Other,2026-06-16,382,0.0,0.0,0.0,empty,sense_filtered
+5245851008,"Staff + Senior Software Engineer, Inference Infrastructure",Engineering,2026-09-29,448,0.0,0.0,0.0,empty,sense_filtered
+5248494008,Financial Reporting Accountant,Other,2026-06-24,480,0.0,2.0833333333333335,-2.0833333333333335,feminine-coded,sense_filtered
+5248895008,"Enterprise Account Executive, Digital Native Business",Other,2026-09-29,454,2.202643171806167,4.405286343612334,-2.202643171806167,feminine-coded,sense_filtered
+5248983008,Applied AI Engineer,Engineering,2026-06-16,429,2.331002331002331,6.993006993006993,-4.662004662004662,feminine-coded,sense_filtered
+5250052008,"Staff Security Engineer, Risk Engineering",Engineering,2026-09-29,849,1.1778563015312131,1.1778563015312131,0.0,neutral,sense_filtered
+5250063008,Security Controls Assurance Lead,Other,2026-06-10,706,1.4164305949008498,4.2492917847025495,-2.8328611898017,feminine-coded,sense_filtered
+5250091008,"Staff+ Software Engineer, GRC Platform",Engineering,2026-09-29,617,1.6207455429497568,3.2414910858995136,-1.6207455429497568,feminine-coded,sense_filtered
+5250426008,Head of Investments & Liquidity,Other,2026-06-10,343,0.0,0.0,0.0,empty,sense_filtered
+5250433008,Head of FX & Risk,Other,2026-06-16,355,0.0,0.0,0.0,empty,sense_filtered
+5251609008,"Technical Program Manager, Apps Platform",Other,2026-09-29,398,0.0,0.0,0.0,empty,sense_filtered
+5251612008,"Technical Program Manager, Databases",Other,2026-09-29,357,0.0,0.0,0.0,empty,sense_filtered
+5251671008,"Software Engineer, Safeguards Evals",Engineering,2026-06-20,447,0.0,0.0,0.0,empty,sense_filtered
+5251832008,Marketing Events Producer,Other,2026-07-06,666,3.003003003003003,4.504504504504505,-1.5015015015015019,feminine-coded,sense_filtered
+5251866008,"Product Manager, Claude Tag",Other,2026-09-29,315,0.0,12.698412698412698,-12.698412698412698,strongly feminine-coded,sense_filtered
+5252342008,"Senior/Staff Security Engineer, Threat Intelligence",Engineering,2026-06-16,533,0.0,0.0,0.0,empty,sense_filtered
+5252781008,"Program Manager, Communications",Other,2026-09-29,540,0.0,0.0,0.0,empty,sense_filtered
+5253257008,Field Reporting Insights Manager,Other,2026-06-16,771,0.0,0.0,0.0,empty,sense_filtered
+5253339008,"Product Manager, Enterprise",Other,2026-06-16,471,0.0,4.246284501061571,-4.246284501061571,feminine-coded,sense_filtered
+5253835008,"Senior Manager, Infrastructure Procurement Operations - Lease Administration",Engineering,2026-06-16,436,0.0,0.0,0.0,empty,sense_filtered
+5254364008,"Research Engineer, Code RL (Reinforcement Learning)",Research-titled,2026-09-29,511,0.0,1.9569471624266144,-1.9569471624266144,feminine-coded,sense_filtered
+5254582008,Policy Communications Manager,Other,2026-06-16,706,2.8328611898016995,0.0,2.8328611898016995,masculine-coded,sense_filtered
+5254623008,"Product Manager, GTM Experiences",Other,2026-06-16,185,0.0,0.0,0.0,empty,sense_filtered
+5254803008,"Staff+ Software Engineer, Developer Productivity",Engineering,2026-06-16,448,2.232142857142857,0.0,2.232142857142857,masculine-coded,sense_filtered
+5254908008,"Industry Principal, Life Sciences",Other,2026-07-14,775,0.0,0.0,0.0,empty,sense_filtered
+5255752008,"Strategic Account Executive, Tech",Other,2026-06-16,453,0.0,8.830022075055188,-8.830022075055188,strongly feminine-coded,sense_filtered
+5255853008,"IT Systems Engineer, Client Platform Engineer",Engineering,2026-06-16,726,0.0,0.0,0.0,empty,sense_filtered
+5255912008,"Engineering Manager, Enterprise",Engineering,2026-09-29,457,0.0,0.0,0.0,empty,sense_filtered
+5256303008,"Technical Program Manager, API Platform",Other,2026-09-29,375,0.0,0.0,0.0,empty,sense_filtered
+5257650008,"Staff+ Software Engineer, Inference Velocity",Engineering,2026-09-29,641,0.0,1.5600624024960998,-1.5600624024960998,feminine-coded,sense_filtered
+5257669008,"Web Producer, CMS Publishing",Other,2026-06-16,503,3.9761431411530817,1.9880715705765408,1.9880715705765408,masculine-coded,sense_filtered
+5257689008,Platform Hardware Security,Other,2026-09-29,381,0.0,5.2493438320209975,-5.2493438320209975,feminine-coded,sense_filtered
+5257763008,"People Research Scientist, Recruiting",Research-titled,2026-07-14,541,1.8484288354898337,1.8484288354898337,0.0,neutral,sense_filtered
+5258583008,"Copy Lead, Claude",Other,2026-08-01,637,3.1397174254317113,3.1397174254317113,0.0,neutral,sense_filtered
+5262369008,"Customer Success Manager, Public Sector",Other,2026-07-10,642,0.0,3.115264797507788,-3.115264797507788,feminine-coded,sense_filtered
+5262637008,"Customer Success Manager, Beneficial Deployments - Global Development",Other,2026-06-24,674,0.0,2.9673590504451037,-2.9673590504451037,feminine-coded,sense_filtered
+5264619008,"Research Engineer, RL Scaling Science",Research-titled,2026-09-29,369,0.0,0.0,0.0,empty,sense_filtered
+5264820008,"Contracts Manager, EMEA",Other,2026-09-29,590,1.694915254237288,8.474576271186441,-6.779661016949153,strongly feminine-coded,sense_filtered
+5265365008,"Research Engineer, Life Sciences",Research-titled,2026-09-29,306,3.2679738562091503,6.5359477124183005,-3.2679738562091503,feminine-coded,sense_filtered
+5267707008,Global Real Estate Construction Manager,Other,2026-09-29,1107,0.0,0.0,0.0,empty,sense_filtered
+5269583008,"Manager, Account Executive - GSIs",Other,2026-07-06,618,0.0,1.6181229773462784,-1.6181229773462784,feminine-coded,sense_filtered
+5270065008,"Commercial Counsel, APAC",Other,2026-06-28,442,0.0,2.262443438914027,-2.262443438914027,feminine-coded,sense_filtered
+5270072008,"Commercial Counsel, APAC",Other,2026-06-28,438,0.0,2.2831050228310503,-2.2831050228310503,feminine-coded,sense_filtered
+5270268008,"Recruiter, G&A - Singapore",Other,2026-07-06,540,1.8518518518518519,1.8518518518518519,0.0,neutral,sense_filtered
+5270442008,"Staff+ Software Engineer, Identity & Access Controls",Engineering,2026-07-06,341,0.0,0.0,0.0,empty,sense_filtered
+5271060008,"Contracts Manager, APAC",Other,2026-06-28,648,1.5432098765432098,6.172839506172839,-4.62962962962963,feminine-coded,sense_filtered
+5271063008,"Contracts Manager, APAC",Other,2026-06-28,648,1.5432098765432098,6.172839506172839,-4.62962962962963,feminine-coded,sense_filtered
+5271303008,Field Marketing Manager,Other,2026-07-10,605,1.6528925619834711,3.3057851239669422,-1.6528925619834711,feminine-coded,sense_filtered
+5271346008,"Platform Security Engineer, OpenBMC",Engineering,2026-09-29,413,0.0,0.0,0.0,empty,sense_filtered
+5271380008,"Research Engineer, Domain Scaling",Research-titled,2026-06-24,314,0.0,6.369426751592357,-6.369426751592357,feminine-coded,sense_filtered
+5272637008,"People Partner, Tokyo",Other,2026-08-01,430,0.0,0.0,0.0,empty,sense_filtered
+5274117008,"Legal Program Manager, Compute & Infrastructure",Engineering,2026-09-29,708,0.0,5.649717514124294,-5.649717514124294,strongly feminine-coded,sense_filtered
+5274711008,"Account Executive, Nonprofits & Higher Education - APAC",Other,2026-07-08,924,0.0,0.0,0.0,empty,sense_filtered
+5275497008,People Legal Counsel,Other,2026-06-28,501,1.996007984031936,5.9880239520958085,-3.9920159680638725,feminine-coded,sense_filtered
+5275765008,"Commercial Counsel, SPARC",Other,2026-09-29,392,0.0,10.204081632653061,-10.204081632653061,strongly feminine-coded,sense_filtered
+5277044008,Partnerships Lead Southern Europe,Other,2026-07-10,1152,0.0,1.7361111111111112,-1.7361111111111112,feminine-coded,sense_filtered
+5277834008,"Manager, Applied AI Engineering,  Beneficial Deployments (Life Sciences)",Engineering,2026-09-29,768,0.0,0.0,0.0,empty,sense_filtered
+5277850008,"Immigration Specialist, M&A",Other,2026-07-14,416,2.4038461538461537,0.0,2.4038461538461537,masculine-coded,sense_filtered
+5278065008,"Research Engineer, Rule of Law",Research-titled,2026-06-28,741,0.0,1.349527665317139,-1.349527665317139,feminine-coded,sense_filtered
+5278230008,"Applied AI Architect, Digital Natives Business",Other,2026-09-29,503,0.0,3.9761431411530817,-3.9761431411530817,feminine-coded,sense_filtered
+5278987008,G&A Compensation Partner,Other,2026-07-10,446,0.0,0.0,0.0,empty,sense_filtered
+5283063008,"Software Engineer, Research Infrastructure",Research-titled,2026-09-29,467,6.423982869379015,0.0,6.423982869379015,masculine-coded,sense_filtered
+5285244008,"Partnership Manager, Life Sciences",Other,2026-07-09,559,0.0,0.0,0.0,empty,sense_filtered
+5285246008,"Research Engineer, Computer Use",Research-titled,2026-09-29,263,0.0,7.604562737642586,-7.604562737642586,feminine-coded,sense_filtered
+5285248008,"Research Associate, Biology",Research-titled,2026-07-09,476,0.0,2.100840336134454,-2.100840336134454,feminine-coded,sense_filtered
+5285250008,"Research Scientist, Life Sciences (Experimental Biology)",Research-titled,2026-09-29,429,2.331002331002331,2.331002331002331,0.0,neutral,sense_filtered
+5285557008,"Staff + Senior Software Engineer, Inference Deployment",Engineering,2026-09-29,448,0.0,0.0,0.0,empty,sense_filtered
+5286008008,Life Sciences Counsel,Other,2026-09-29,528,1.893939393939394,7.575757575757576,-5.681818181818182,feminine-coded,sense_filtered
+5286348008,Silicon Engineer,Engineering,2026-09-29,695,0.0,0.0,0.0,empty,sense_filtered
+5286362008,Hardware Systems Architect,Other,2026-09-29,921,0.0,1.0857763300760044,-1.0857763300760044,feminine-coded,sense_filtered
+5286441008,"Researcher, Education Labs",Research-titled,2026-07-29,640,0.0,4.6875,-4.6875,feminine-coded,sense_filtered
+5287240008,"Business System Analyst Lead, Opportunity Acceleration",Other,2026-07-10,658,0.0,0.0,0.0,empty,sense_filtered
+5287249008,Enterprise Account Executive - Life Sciences,Other,2026-09-29,398,0.0,7.5376884422110555,-7.5376884422110555,feminine-coded,sense_filtered
+5287327008,"Salesforce Developer, Partnerships",Engineering,2026-07-03,450,2.2222222222222223,2.2222222222222223,0.0,neutral,sense_filtered
+5287926008,"Manager, Web Engineering",Engineering,2026-09-29,484,0.0,0.0,0.0,empty,sense_filtered
+5288241008,"Strategic Account Executive, Retail & Commercial Banking - FSI",Other,2026-07-25,592,0.0,0.0,0.0,empty,sense_filtered
+5288436008,"Strategic Account Executive, CANADA Financial Services - FSI",Other,2026-07-02,629,0.0,0.0,0.0,empty,sense_filtered
+5288446008,"Strategic Account Executive, Life Sciences",Other,2026-07-10,594,0.0,0.0,0.0,empty,sense_filtered
+5288742008,"Staff+ Software Engineer, Enterprise",Engineering,2026-09-29,390,0.0,0.0,0.0,empty,sense_filtered
+5288959008,"Head of Content & Curriculum, Education",Other,2026-07-09,1022,0.0,0.9784735812133072,-0.9784735812133072,feminine-coded,sense_filtered
+5289450008,"Staff+ Software Engineer, Enterprise Knowledge Work",Engineering,2026-09-29,423,0.0,2.3640661938534278,-2.3640661938534278,feminine-coded,sense_filtered
+5289760008,"Manager, Account Executives, Startups",Other,2026-07-09,339,0.0,5.899705014749262,-5.899705014749262,feminine-coded,sense_filtered
+5290360008,"Staff+ Software Engineer, Developer Acceleration",Engineering,2026-09-29,353,0.0,2.8328611898016995,-2.8328611898016995,feminine-coded,sense_filtered
+5290426008,"Platform Security Engineering, Operating Systems",Engineering,2026-09-29,394,0.0,0.0,0.0,empty,sense_filtered
+5290468008,"Staff+ Software Engineer, Experimentation",Engineering,2026-09-29,478,2.092050209205021,0.0,2.092050209205021,masculine-coded,sense_filtered
+5297059008,"Engineering Manager, Research Data Platform",Research-titled,2026-09-29,678,0.0,0.0,0.0,empty,sense_filtered
+5298359008,"Technical Program Manager, Recruiting Technology",Other,2026-09-29,630,0.0,0.0,0.0,empty,sense_filtered
+5300430008,"Applied AI Architect, Partnerships",Other,2026-09-29,430,0.0,4.651162790697675,-4.651162790697675,feminine-coded,sense_filtered
+5301737008,"Staff+ Software Engineer, Caching",Engineering,2026-09-29,473,0.0,2.1141649048625792,-2.1141649048625792,feminine-coded,sense_filtered
+5301750008,"Staff+ Software Engineer, Databases",Engineering,2026-09-29,500,0.0,2.0,-2.0,feminine-coded,sense_filtered
+5301883008,"Senior Business Systems Analyst, Finance Systems (Assets & Lease Management)",Other,2026-09-29,821,0.0,2.43605359317905,-2.43605359317905,feminine-coded,sense_filtered
+5301958008,"Technical Program Manager, Enterprise Commerce",Other,2026-09-29,360,0.0,0.0,0.0,empty,sense_filtered
+5302779008,"Threat Intel Manager, Influence Operations & Surveillance",Other,2026-09-11,502,0.0,0.0,0.0,empty,sense_filtered
+5302966008,Forward Deployed Engineer,Engineering,2026-09-29,490,0.0,8.16326530612245,-8.16326530612245,strongly feminine-coded,sense_filtered
+5304242008,"Research Operations Lead, Biology",Research-titled,2026-07-13,622,0.0,0.0,0.0,empty,sense_filtered
+5304425008,"Staff Software Engineer, Labs: Applied AI",Engineering,2026-08-25,748,1.3368983957219251,5.347593582887701,-4.010695187165775,feminine-coded,sense_filtered
+5305402008,"Staff Software Engineer, Web Platform",Engineering,2026-08-29,448,0.0,2.232142857142857,-2.232142857142857,feminine-coded,sense_filtered
+5305476008,"Threat Intel Manager, Model Exploitation & Fraud",Other,2026-09-29,668,1.4970059880239521,0.0,1.4970059880239521,masculine-coded,sense_filtered
+5305631008,"Threat Intel Manager, CBRN-E & Advanced Weapons",Other,2026-09-29,545,0.0,0.0,0.0,empty,sense_filtered
+5309805008,"Engineering Manager, Connectivity - London",Engineering,2026-09-29,528,0.0,1.893939393939394,-1.893939393939394,feminine-coded,sense_filtered
+5309917008,"Staff Engineer, Datacenter Server Lifecycle",Engineering,2026-09-29,519,0.0,0.0,0.0,empty,sense_filtered
+5310731008,"Staff+ Software Engineer, Capacity Engineering",Engineering,2026-09-29,975,0.0,1.0256410256410255,-1.0256410256410255,feminine-coded,sense_filtered
+5310996008,"Partner Manager, Global Health",Other,2026-09-29,675,0.0,1.4814814814814814,-1.4814814814814814,feminine-coded,sense_filtered
+5311149008,"Safeguards Enforcement Analyst, Integrity & Authenticity",Other,2026-09-29,577,0.0,0.0,0.0,empty,sense_filtered
+5311159008,"Safeguards Enforcement Analyst, Cyber Harm",Other,2026-09-29,424,0.0,0.0,0.0,empty,sense_filtered
+5311234008,"Safeguards Enforcement Analyst, Age-Appropriate Design",Other,2026-09-29,621,0.0,1.6103059581320451,-1.6103059581320451,feminine-coded,sense_filtered
+5311237008,"Safeguards Enforcement Analyst, Child Safety",Other,2026-09-29,695,0.0,0.0,0.0,empty,sense_filtered
+5311463008,Staff+ Application Security Engineer  - M&A,Engineering,2026-09-29,756,0.0,0.0,0.0,empty,sense_filtered
+5311465008,"Developer Education Lead, Claude Platform",Engineering,2026-09-29,518,0.0,1.9305019305019304,-1.9305019305019304,feminine-coded,sense_filtered
+5315789008,Finance Systems Integration Engineer,Engineering,2026-07-24,800,0.0,6.25,-6.25,strongly feminine-coded,sense_filtered
+5316565008,"Offensive Hardware Security Engineer, Platform Security",Engineering,2026-08-09,444,0.0,4.504504504504505,-4.504504504504505,feminine-coded,sense_filtered
+5316593008,"Tech Lead Manager, Agent Runtime Platform",Other,2026-09-29,336,0.0,2.9761904761904763,-2.9761904761904763,feminine-coded,sense_filtered
+5317734008,Standards Editor,Other,2026-07-14,403,0.0,0.0,0.0,empty,sense_filtered
+5318977008,"Director, Infrastructure Supply Chain Accounting",Engineering,2026-09-17,661,0.0,1.51285930408472,-1.51285930408472,feminine-coded,sense_filtered
+5319554008,"Safeguards Enforcement Analyst, Fraud & Scams",Other,2026-08-01,446,0.0,2.242152466367713,-2.242152466367713,feminine-coded,sense_filtered
+5319592008,"Safeguards Enforcement Analyst, Ban Evasion & Recidivism",Other,2026-07-14,433,0.0,4.618937644341801,-4.618937644341801,feminine-coded,sense_filtered
+5319624008,"Safeguards Enforcement Analyst, Account Takeover & Credential Abuse",Other,2026-09-29,500,2.0,2.0,0.0,neutral,sense_filtered
+5319626008,"Safeguards Enforcement Analyst, Access Controls & Identity",Other,2026-09-29,451,0.0,0.0,0.0,empty,sense_filtered
+5319696008,"Safeguards Enforcement Analyst, Bio Harms",Other,2026-09-29,618,0.0,0.0,0.0,empty,sense_filtered
+5319700008,"Safeguards Enforcement Analyst, Chem & Explosives Harms",Other,2026-09-29,641,1.5600624024960998,0.0,1.5600624024960998,masculine-coded,sense_filtered
+5319702008,"Safeguards Enforcement Analyst, Radiological & Nuclear Harms",Other,2026-07-17,633,1.5797788309636651,0.0,1.5797788309636651,masculine-coded,sense_filtered
+5320469008,"Red Team Engineer, Safeguards",Engineering,2026-09-29,422,0.0,2.3696682464454977,-2.3696682464454977,feminine-coded,sense_filtered
+5322723008,"Engineering Manager, Safeguards Interventions",Engineering,2026-07-14,357,0.0,0.0,0.0,empty,sense_filtered
+5324349008,"Product Manager, Research (Code)",Research-titled,2026-09-29,391,5.115089514066496,2.557544757033248,2.557544757033248,masculine-coded,sense_filtered
+5324753008,"National Security Policy Lead, Biotech",Other,2026-07-25,713,1.402524544179523,2.805049088359046,-1.402524544179523,feminine-coded,sense_filtered
+5324758008,"Software Security Engineering Manager, Secure Frameworks",Engineering,2026-07-24,321,0.0,9.345794392523365,-9.345794392523365,feminine-coded,sense_filtered
+5324841008,Senior Media Manager,Other,2026-07-27,739,2.706359945872801,1.3531799729364005,1.3531799729364005,masculine-coded,sense_filtered
+5325909008,"Staff+ Software Engineer, Payment Fraud",Engineering,2026-09-29,430,0.0,2.3255813953488373,-2.3255813953488373,feminine-coded,sense_filtered
+5326358008,"Lead, Frontier Red Team (Cyber)",Other,2026-07-15,648,0.0,0.0,0.0,empty,sense_filtered
+5339199008,"Data Center Architect, CSA",Other,2026-09-29,739,0.0,0.0,0.0,empty,sense_filtered
+5341664008,Enterprise Account Executive - FSI,Other,2026-09-29,317,0.0,0.0,0.0,empty,sense_filtered
+5342935008,"Staff+ Software Engineer, Safeguards Human Review Tooling",Engineering,2026-09-29,523,0.0,0.0,0.0,empty,sense_filtered
+5343907008,"Safeguards Enforcement Analyst, Violence & Extremism",Other,2026-08-05,561,0.0,0.0,0.0,empty,sense_filtered
+5344577008,"Field Marketing Lead, Public Sector",Other,2026-09-29,632,0.0,0.0,0.0,empty,sense_filtered
+5345466008,"Director, Investor Relations",Other,2026-09-29,539,0.0,1.8552875695732838,-1.8552875695732838,feminine-coded,sense_filtered
+5345583008,"Strategic Projects Lead, Recruiting",Other,2026-09-29,657,0.0,1.5220700152207,-1.5220700152207,feminine-coded,sense_filtered
+5350448008,Technical Recruiter,Other,2026-09-29,446,4.484304932735426,0.0,4.484304932735426,masculine-coded,sense_filtered
+5354765008,"Applied AI Engineer, Enterprise",Engineering,2026-09-29,594,0.0,0.0,0.0,empty,sense_filtered
+5355526008,"Finance Systems Engineer, Revenue",Engineering,2026-07-24,708,0.0,0.0,0.0,empty,sense_filtered
+5357739008,"Research Scientist, Life Sciences (Computational)",Research-titled,2026-09-29,609,0.0,0.0,0.0,empty,sense_filtered
+5357746008,"Life Sciences Operator, Lead",Other,2026-09-29,446,2.242152466367713,0.0,2.242152466367713,masculine-coded,sense_filtered
+5357933008,"Procurement Operations Business Partner, R&D Operations",Other,2026-09-29,1140,0.0,0.8771929824561403,-0.8771929824561403,feminine-coded,sense_filtered
+5357943008,Head of Business Controls,Other,2026-09-29,685,0.0,1.4598540145985401,-1.4598540145985401,feminine-coded,sense_filtered
+5357945008,Head of Accounting Policy,Other,2026-09-29,721,0.0,0.0,0.0,empty,sense_filtered
+5357947008,"Finance Systems Engineer, Tax",Engineering,2026-09-29,648,1.5432098765432098,0.0,1.5432098765432098,masculine-coded,sense_filtered
+5357949008,"Senior Manager, Infrastructure Asset Accounting",Engineering,2026-09-29,786,0.0,2.544529262086514,-2.544529262086514,feminine-coded,sense_filtered
+5357951008,"Senior Manager, Infrastructure Lease Accounting",Engineering,2026-09-29,557,0.0,3.5906642728904847,-3.5906642728904847,feminine-coded,sense_filtered
+5357955008,"Director of Payroll, APAC",Other,2026-09-29,475,0.0,2.1052631578947367,-2.1052631578947367,feminine-coded,sense_filtered
+5357961008,"Manager, Infrastructure Capex Accounting",Engineering,2026-09-29,596,0.0,3.3557046979865772,-3.3557046979865772,feminine-coded,sense_filtered
+5358088008,"Finance & Strategy, Machines",Other,2026-08-25,298,0.0,0.0,0.0,empty,sense_filtered
+5358090008,"Finance & Strategy, Deal Strategy",Other,2026-09-29,436,0.0,4.587155963302752,-4.587155963302752,feminine-coded,sense_filtered
+5358096008,"Finance & Strategy Lead, Claude Platform (API)",Other,2026-09-23,720,0.0,0.0,0.0,empty,sense_filtered
+5358104008,"Strategic Deals Lead, Cloud Compute",Other,2026-09-29,540,1.8518518518518519,0.0,1.8518518518518519,masculine-coded,sense_filtered
+5358106008,"Strategic Deals Lead, Compute Partnerships",Other,2026-09-29,697,1.4347202295552368,0.0,1.4347202295552368,masculine-coded,sense_filtered
+5358108008,"Strategic Deals Lead, Compute Infrastructure",Engineering,2026-09-29,789,0.0,0.0,0.0,empty,sense_filtered
+5358110008,"Corporate Development Lead, Life Sciences",Other,2026-09-29,662,0.0,0.0,0.0,empty,sense_filtered
+5358112008,"Cash Manager, Treasury",Other,2026-08-30,794,0.0,0.0,0.0,empty,sense_filtered
+5358114008,"Treasury Director, Investments & Liquidity",Other,2026-09-29,376,0.0,0.0,0.0,empty,sense_filtered
+5358116008,"Senior Manager, Infrastructure Tax",Engineering,2026-09-29,574,0.0,0.0,0.0,empty,sense_filtered
+5358118008,"International Indirect Tax, VAT/GST",Other,2026-09-29,536,1.8656716417910448,5.597014925373134,-3.731343283582089,feminine-coded,sense_filtered
+5358120008,"Director, US International Tax",Other,2026-09-29,618,0.0,0.0,0.0,empty,sense_filtered
+5358122008,"Tax Director, Provision & Compliance",Other,2026-09-29,733,0.0,0.0,0.0,empty,sense_filtered
+5358130008,"Corporate Finance & Strategy, Cash Flow Forecasting",Other,2026-09-29,497,0.0,2.0120724346076457,-2.0120724346076457,feminine-coded,sense_filtered
+5358138008,"Operations Lead, Investor Relations",Other,2026-09-29,533,0.0,0.0,0.0,empty,sense_filtered
+5358146008,Corporate Development Integration Lead,Other,2026-09-29,817,0.0,0.0,0.0,empty,sense_filtered
+5358148008,APAC Tax Lead,Other,2026-09-29,413,0.0,0.0,0.0,empty,sense_filtered
+5361472008,"Engineering Manager, Growth",Engineering,2026-09-29,301,0.0,3.3222591362126246,-3.3222591362126246,feminine-coded,sense_filtered
+5362838008,"People Research Scientist, Recruiting",Research-titled,2026-09-29,541,1.8484288354898337,1.8484288354898337,0.0,neutral,sense_filtered
+5363210008,"Senior Engineering Manager, Capacity Engineering",Engineering,2026-09-16,873,0.0,1.145475372279496,-1.145475372279496,feminine-coded,sense_filtered
+5363469008,"Staff Software Engineer, Growth",Engineering,2026-09-29,303,0.0,6.600660066006601,-6.600660066006601,feminine-coded,sense_filtered
+5364336008,Capital Markets - Infrastructure Financing,Engineering,2026-09-29,384,5.208333333333333,0.0,5.208333333333333,masculine-coded,sense_filtered
+5364804008,"Machine Learning Infrastructure Engineer, Safeguards Research",Research-titled,2026-09-29,461,0.0,2.1691973969631237,-2.1691973969631237,feminine-coded,sense_filtered
+5365524008,Head of Revenue Accounting - Deal Desk & Technical Accounting,Other,2026-09-29,766,0.0,0.0,0.0,empty,sense_filtered
+5365762008,"Senior Manager, Finance Systems - Treasury",Other,2026-09-29,825,0.0,0.0,0.0,empty,sense_filtered
+5366138008,IT Support Engineer,Engineering,2026-07-28,630,1.5873015873015872,0.0,1.5873015873015872,masculine-coded,sense_filtered
+5367026008,"Technical Recruiter, Infrastructure",Engineering,2026-09-29,455,4.395604395604396,0.0,4.395604395604396,masculine-coded,sense_filtered
+5367417008,Pre-training Distributed Systems Tech Lead / Manager,Other,2026-09-29,455,0.0,0.0,0.0,empty,sense_filtered
+5367436008,"Staff Software Engineer, Environments Infrastructure",Engineering,2026-09-29,778,0.0,1.2853470437017995,-1.2853470437017995,feminine-coded,sense_filtered
+5367585008,"Software Engineer, Desktop",Engineering,2026-09-14,625,0.0,1.6,-1.6,feminine-coded,sense_filtered
+5368023008,"Technical Program Manager, GTM Systems",Other,2026-09-29,389,0.0,0.0,0.0,empty,sense_filtered
+5368034008,"Staff+ Software Engineer, Enterprise AI Products",Engineering,2026-09-29,433,0.0,0.0,0.0,empty,sense_filtered
+5368166008,"Staff Software Engineer, GTM Systems",Engineering,2026-09-29,525,0.0,0.0,0.0,empty,sense_filtered
+5368476008,Global Mobility Coordinator,Other,2026-08-25,567,0.0,1.763668430335097,-1.763668430335097,feminine-coded,sense_filtered
+5368642008,"Staff+ Software Engineer, Account Compromise",Engineering,2026-07-31,819,2.442002442002442,0.0,2.442002442002442,masculine-coded,sense_filtered
+5369181008,Cloud Partner Enablement Lead,Other,2026-09-29,850,0.0,0.0,0.0,empty,sense_filtered
+5370555008,"IT Support Engineer, Executive Support",Engineering,2026-09-29,649,0.0,0.0,0.0,empty,sense_filtered
+5370615008,"Technical Documentation and Content Engineer, Claude Docs",Engineering,2026-09-29,418,0.0,0.0,0.0,empty,sense_filtered
+5370669008,"Research Scientist, Takeoff Intel",Research-titled,2026-08-08,394,0.0,2.5380710659898478,-2.5380710659898478,feminine-coded,sense_filtered
+5370690008,"Staff Software Engineer, Code RL",Engineering,2026-09-29,758,0.0,1.3192612137203166,-1.3192612137203166,feminine-coded,sense_filtered
+5371065008,"Engineering Manager, Search",Engineering,2026-09-29,505,0.0,1.9801980198019802,-1.9801980198019802,feminine-coded,sense_filtered
+5374778008,"Safeguards Enforcement Analyst, User Well-being",Other,2026-09-29,546,0.0,0.0,0.0,empty,sense_filtered
+5375371008,Data Center Electrical Engineer,Engineering,2026-09-29,1209,0.0,0.0,0.0,empty,sense_filtered
+5375376008,Data Center Mechanical Engineer,Engineering,2026-09-29,873,0.0,0.0,0.0,empty,sense_filtered
+5378092008,Hardware Lab Manager,Other,2026-09-29,754,1.3262599469496021,1.3262599469496021,0.0,neutral,sense_filtered
+5379593008,AV Production Specialist,Other,2026-09-29,714,0.0,1.4005602240896358,-1.4005602240896358,feminine-coded,sense_filtered
+5379806008,"Strategic Account Executive, Industries",Other,2026-09-29,636,0.0,6.289308176100629,-6.289308176100629,strongly feminine-coded,sense_filtered
+5380261008,Incident & Crisis Management Lead,Other,2026-08-06,680,0.0,0.0,0.0,empty,sense_filtered
+5380327008,"Technical Program Manager, RL Research",Research-titled,2026-09-29,477,0.0,2.0964360587002098,-2.0964360587002098,feminine-coded,sense_filtered
+5380377008,"Technical Program Manager, Silicon",Other,2026-09-29,637,0.0,1.5698587127158556,-1.5698587127158556,feminine-coded,sense_filtered
+5380379008,"Technical Program Manager, Hardware Systems",Other,2026-09-29,645,0.0,0.0,0.0,empty,sense_filtered
+5380744008,Insider Risk Investigator,Other,2026-08-06,559,3.5778175313059033,3.5778175313059033,0.0,neutral,sense_filtered
+5382033008,GSOC Response & Policy Program Specialist,Other,2026-09-29,777,0.0,1.287001287001287,-1.287001287001287,feminine-coded,sense_filtered
+5382518008,"Applied AI Architect, Public Sector",Other,2026-09-29,376,0.0,0.0,0.0,empty,sense_filtered
+5382617008,"Program Specialist, M&A",Other,2026-09-29,439,0.0,2.277904328018223,-2.277904328018223,feminine-coded,sense_filtered
+5382744008,"Infrastructure Capacity Planner, Demand Planning",Engineering,2026-09-29,460,0.0,0.0,0.0,empty,sense_filtered
+5382750008,"AI Infrastructure Operations, Demand Planning",Engineering,2026-09-29,649,0.0,0.0,0.0,empty,sense_filtered
+5382792008,"Customer Success Manager, DACH",Other,2026-09-29,752,0.0,2.6595744680851063,-2.6595744680851063,feminine-coded,sense_filtered
+5383114008,"Staff+ Software Engineer, Privacy",Engineering,2026-09-29,565,0.0,0.0,0.0,empty,sense_filtered
+5383335008,"Applied AI Architect, Enterprise Tech",Other,2026-09-29,522,0.0,5.747126436781609,-5.747126436781609,feminine-coded,sense_filtered
+5383388008,"Internal Communications Manager, Tech",Other,2026-09-29,725,0.0,0.0,0.0,empty,sense_filtered
+5383596008,Developer Relations,Engineering,2026-09-29,629,1.589825119236884,4.769475357710652,-3.1796502384737684,feminine-coded,sense_filtered
+5383610008,"Staff Software Engineer, Claude Code",Engineering,2026-09-29,370,0.0,2.7027027027027026,-2.7027027027027026,feminine-coded,sense_filtered
+5383706008,"Environment, Health and Safety Specialist",Other,2026-08-25,842,0.0,2.375296912114014,-2.375296912114014,feminine-coded,sense_filtered
+5383710008,AV Operations Specialist,Other,2026-09-29,866,1.1547344110854503,3.464203233256351,-2.309468822170901,feminine-coded,sense_filtered
+5385217008,"Staff+ Researcher, Cybersecurity Products",Research-titled,2026-09-29,467,0.0,0.0,0.0,empty,sense_filtered
+5385256008,M&A Tax Director,Other,2026-09-29,634,0.0,0.0,0.0,empty,sense_filtered
+5385546008,"Compute Country Lead, Canada",Other,2026-09-29,441,0.0,0.0,0.0,empty,sense_filtered
+5385557008,"Compute Country Lead, Korea",Other,2026-09-29,441,0.0,0.0,0.0,empty,sense_filtered
+5385559008,"Compute Country Lead, Japan",Other,2026-09-29,441,0.0,0.0,0.0,empty,sense_filtered
+5385586008,"Solutions Marketing Lead, Public Sector",Other,2026-09-29,672,0.0,1.4880952380952381,-1.4880952380952381,feminine-coded,sense_filtered
+5385588008,AV Engineer,Engineering,2026-09-29,615,0.0,8.130081300813009,-8.130081300813009,strongly feminine-coded,sense_filtered
+5385590008,AV Engineer,Engineering,2026-09-29,614,0.0,8.143322475570033,-8.143322475570033,strongly feminine-coded,sense_filtered
+5385602008,"Product Marketing Lead, GTM Strategy - Claude for Knowledge Work",Other,2026-09-29,787,0.0,5.082592121982211,-5.082592121982211,strongly feminine-coded,sense_filtered
+5385626008,Executive Services Program Manager,Other,2026-09-23,541,1.8484288354898337,0.0,1.8484288354898337,masculine-coded,sense_filtered
+5385634008,"Manager, Forward Deployed Engineering",Engineering,2026-09-29,688,0.0,1.4534883720930232,-1.4534883720930232,feminine-coded,sense_filtered
+5385651008,"Product Marketing Manager, Knowledge Work - Core Products",Other,2026-09-29,930,0.0,4.301075268817204,-4.301075268817204,strongly feminine-coded,sense_filtered
+5385764008,IT Support Engineer,Engineering,2026-08-25,450,2.2222222222222223,0.0,2.2222222222222223,masculine-coded,sense_filtered
+5385998008,"Staff + Senior Software Engineer, Inference",Engineering,2026-09-29,447,0.0,0.0,0.0,empty,sense_filtered
+5386182008,"Product Manager, New Markets and Monetization",Other,2026-09-29,761,0.0,0.0,0.0,empty,sense_filtered
+5386793008,"Finance & Strategy, Deal Velocity",Other,2026-09-29,443,0.0,4.514672686230249,-4.514672686230249,feminine-coded,sense_filtered
+5386949008,IT Support Engineer,Engineering,2026-09-29,636,1.5723270440251573,0.0,1.5723270440251573,masculine-coded,sense_filtered
+5386971008,"Front End Engineer, Marketing",Engineering,2026-09-29,418,0.0,4.784688995215311,-4.784688995215311,feminine-coded,sense_filtered
+5387009008,"Director, US International Tax Planning",Other,2026-09-29,1046,0.0,0.0,0.0,empty,sense_filtered
+5387027008,Customer Success Manager,Other,2026-09-29,770,0.0,2.5974025974025974,-2.5974025974025974,feminine-coded,sense_filtered
+5387083008,"Staff Software Engineer, Infrastructure (Distributed Systems)",Engineering,2026-09-29,390,5.128205128205129,0.0,5.128205128205129,masculine-coded,sense_filtered
+5387564008,"Research Scientist, Life Sciences (Chemistry)",Research-titled,2026-09-29,370,2.7027027027027026,2.7027027027027026,0.0,neutral,sense_filtered
+5387733008,"Applied AI Architect, Cyber",Other,2026-09-29,894,0.0,1.1185682326621924,-1.1185682326621924,feminine-coded,sense_filtered
+5387829008,"IP Counsel, Patents",Other,2026-09-29,432,0.0,2.314814814814815,-2.314814814814815,feminine-coded,sense_filtered
+5388612008,"Staff+ Software Engineer, Infrastructure, Interpretability",Engineering,2026-09-29,697,0.0,0.0,0.0,empty,sense_filtered
+5388667008,"Partner Marketing Manager, Launches",Other,2026-09-29,1063,0.940733772342427,0.0,0.940733772342427,masculine-coded,sense_filtered
+5388719008,"Head of Community, Enterprise Marketing",Other,2026-09-29,722,0.0,0.0,0.0,empty,sense_filtered
+5388726008,"Customer Programs Manager, Co-Marketing & Measurement",Other,2026-09-29,677,0.0,0.0,0.0,empty,sense_filtered
+5389305008,"Software Engineer, Education",Engineering,2026-09-29,718,0.0,1.392757660167131,-1.392757660167131,feminine-coded,sense_filtered
+5389773008,"Lead, Data Center Security Delivery (Construction to Operations)",Other,2026-09-29,714,0.0,0.0,0.0,empty,sense_filtered
+5389945008,"Strategy & Operations Lead, Enterprise Marketing",Other,2026-08-29,890,1.1235955056179776,0.0,1.1235955056179776,masculine-coded,sense_filtered
+5390019008,"IT Support Engineer, Application Administrator",Engineering,2026-09-29,735,0.0,0.0,0.0,empty,sense_filtered
+5390022008,"Strategic Partner Development, Data & Product Partnerships – Beneficial Deployments",Other,2026-08-30,526,0.0,1.9011406844106464,-1.9011406844106464,feminine-coded,sense_filtered
+5390155008,"Customer Marketing Manager, Industries",Other,2026-09-29,614,0.0,1.6286644951140066,-1.6286644951140066,feminine-coded,sense_filtered
+5390728008,"Finance Systems Engineer, Finance and Strategy",Engineering,2026-09-29,601,0.0,0.0,0.0,empty,sense_filtered
+5390735008,Applied AI Architect,Other,2026-09-29,527,0.0,5.692599620493358,-5.692599620493358,feminine-coded,sense_filtered
+5390742008,Applied AI Architect,Other,2026-09-18,504,0.0,5.9523809523809526,-5.9523809523809526,feminine-coded,sense_filtered
+5390746008,Applied AI Architect,Other,2026-09-29,548,0.0,7.299270072992701,-7.299270072992701,strongly feminine-coded,sense_filtered
+5390750008,"Applied AI Architect, Partnerships",Other,2026-09-29,419,0.0,4.77326968973747,-4.77326968973747,feminine-coded,sense_filtered
+5390754008,"Applied AI Engineer, Enterprise",Engineering,2026-09-29,1957,0.0,1.021972406745018,-1.021972406745018,feminine-coded,sense_filtered
+5390765008,"Applied AI Architect, Industries",Other,2026-09-29,509,0.0,5.893909626719057,-5.893909626719057,feminine-coded,sense_filtered
+5390770008,"Applied AI Architect, Industries",Other,2026-09-29,502,0.0,3.9840637450199203,-3.9840637450199203,feminine-coded,sense_filtered
+5390778008,"Applied AI Architect, Industries",Other,2026-09-29,517,0.0,5.802707930367505,-5.802707930367505,feminine-coded,sense_filtered
+5390787008,"Applied AI Architect, Partnerships",Other,2026-09-29,1044,0.0,3.8314176245210727,-3.8314176245210727,strongly feminine-coded,sense_filtered
+5390791008,"Applied AI Strategist, EMEA",Other,2026-09-29,570,0.0,1.7543859649122806,-1.7543859649122806,feminine-coded,sense_filtered
+5390795008,"Applied AI Engineer, Enterprise",Engineering,2026-09-29,818,0.0,0.0,0.0,empty,sense_filtered
+5390799008,Applied AI Engineer,Engineering,2026-09-29,476,0.0,6.302521008403361,-6.302521008403361,feminine-coded,sense_filtered
+5390811008,"Applied AI, Research Engineer",Research-titled,2026-09-29,699,0.0,5.7224606580829755,-5.7224606580829755,strongly feminine-coded,sense_filtered
+5390865008,"Manager of Applied AI Architecture, Commercial",Other,2026-09-29,890,0.0,0.0,0.0,empty,sense_filtered
+5390877008,"Applied AI Architect, Public Sector (National Security)",Other,2026-08-25,534,0.0,5.617977528089888,-5.617977528089888,feminine-coded,sense_filtered
+5390890008,"Manager Applied AI Architecture, Healthcare & Life Sciences",Other,2026-09-29,533,0.0,3.75234521575985,-3.75234521575985,feminine-coded,sense_filtered
+5390894008,"Manager Applied AI Architecture, Financial Services",Other,2026-09-29,523,0.0,3.8240917782026767,-3.8240917782026767,feminine-coded,sense_filtered
+5390902008,"Applied AI Architect, Partnerships",Other,2026-09-29,419,0.0,4.77326968973747,-4.77326968973747,feminine-coded,sense_filtered
+5390935008,"Strategic Pursuits Lead, RevOps",Other,2026-09-29,455,0.0,0.0,0.0,empty,sense_filtered
+5390939008,Head of Central Sales Strategy,Other,2026-09-29,1148,0.0,0.0,0.0,empty,sense_filtered
+5390952008,"GTM Strategy & Operations, Frontier",Other,2026-09-29,703,0.0,1.422475106685633,-1.422475106685633,feminine-coded,sense_filtered
+5390956008,GTM Strategy & Operations - AMER Enterprise Tech,Other,2026-09-29,813,1.2300123001230012,2.4600246002460024,-1.2300123001230012,feminine-coded,sense_filtered
+5390960008,Sales Leader Enablement,Other,2026-09-29,481,0.0,2.079002079002079,-2.079002079002079,feminine-coded,sense_filtered
+5390966008,"Staff Software Engineer, GTM AI Engineering",Engineering,2026-09-29,665,0.0,0.0,0.0,empty,sense_filtered
+5390972008,"Sales Enablement Lead, GTM Onboarding",Other,2026-09-29,688,0.0,1.4534883720930232,-1.4534883720930232,feminine-coded,sense_filtered
+5390980008,"GTM Programs Manager, AMER",Other,2026-09-29,816,0.0,0.0,0.0,empty,sense_filtered
+5390984008,BDR Enablement Lead,Other,2026-09-29,501,0.0,1.996007984031936,-1.996007984031936,feminine-coded,sense_filtered
+5391004008,"Manager, Technical Deployment (Financial Services)",Other,2026-09-29,796,0.0,0.0,0.0,empty,sense_filtered
+5391012008,"Pre-Sales Program Lead, Forward Deployed Engineering",Engineering,2026-09-29,753,0.0,0.0,0.0,empty,sense_filtered
+5391016008,Forward Deployed Engineer,Engineering,2026-09-29,475,0.0,8.421052631578947,-8.421052631578947,strongly feminine-coded,sense_filtered
+5391021008,Forward Deployed Engineer,Engineering,2026-09-29,1111,0.0,8.1008100810081,-8.1008100810081,strongly feminine-coded,sense_filtered
+5391062008,"Customer Success Manager, Financial Services",Other,2026-09-29,702,0.0,2.849002849002849,-2.849002849002849,feminine-coded,sense_filtered
+5391102008,Customer Success Manager,Other,2026-09-29,754,0.0,2.6525198938992043,-2.6525198938992043,feminine-coded,sense_filtered
+5391108008,Technical Deployment Lead,Other,2026-09-29,666,0.0,1.5015015015015014,-1.5015015015015014,feminine-coded,sense_filtered
+5391112008,Customer Success Manager,Other,2026-09-29,718,0.0,2.785515320334262,-2.785515320334262,feminine-coded,sense_filtered
+5391146008,Scaled Enablement Programs Lead,Other,2026-09-29,592,0.0,0.0,0.0,empty,sense_filtered
+5391151008,"AI Operations Engineer, Partnerships",Engineering,2026-09-29,539,0.0,0.0,0.0,empty,sense_filtered
+5391155008,Global Technology Partner Manager,Other,2026-09-29,403,0.0,2.4813895781637716,-2.4813895781637716,feminine-coded,sense_filtered
+5391180008,"AWS GTM Partnership Lead, Enterprise",Other,2026-09-29,318,0.0,0.0,0.0,empty,sense_filtered
+5391184008,"AWS GTM Partnership Lead, Global System Integrators",Other,2026-09-29,594,0.0,0.0,0.0,empty,sense_filtered
+5391195008,Head of Partner Account Management & Ecosystem BD,Other,2026-09-29,1162,0.0,0.8605851979345955,-0.8605851979345955,feminine-coded,sense_filtered
+5391199008,"Reseller Operations Manager, Japan & Korea",Other,2026-09-29,828,0.0,0.0,0.0,empty,sense_filtered
+5391207008,"Head of Partnerships, Japan",Other,2026-09-29,985,0.0,0.0,0.0,empty,sense_filtered
+5391215008,Partner Success Lead,Other,2026-09-29,1223,0.0,0.0,0.0,empty,sense_filtered
+5391227008,"AWS GTM Partnership Lead, Public Sector & Nonprofits",Other,2026-09-17,736,0.0,0.0,0.0,empty,sense_filtered
+5391233008,"Senior Partner Sales Manager, Systems Integrators - EMEA & North",Other,2026-09-29,580,0.0,1.7241379310344827,-1.7241379310344827,feminine-coded,sense_filtered
+5391253008,"Partner Manager, Microsoft Co-sell",Other,2026-09-29,429,0.0,0.0,0.0,empty,sense_filtered
+5391257008,Channel Partner Manager,Other,2026-09-29,817,0.0,0.0,0.0,empty,sense_filtered
+5391269008,Reseller Enablement Lead,Other,2026-09-29,803,0.0,0.0,0.0,empty,sense_filtered
+5391289008,"Enterprise Account Executive, Insurance",Other,2026-09-29,539,0.0,5.565862708719852,-5.565862708719852,feminine-coded,sense_filtered
+5391293008,"Enterprise Account Executive, Automotive",Other,2026-09-29,1322,0.0,3.7821482602118004,-3.7821482602118004,strongly feminine-coded,sense_filtered
+5391297008,"Enterprise Account Executive, Financial Services",Other,2026-09-29,558,0.0,5.376344086021505,-5.376344086021505,feminine-coded,sense_filtered
+5391301008,"Enterprise Account Executive, Industries",Other,2026-09-29,561,0.0,5.347593582887701,-5.347593582887701,feminine-coded,sense_filtered
+5391309008,"Growth Account Executive, Startups",Other,2026-09-29,555,0.0,0.0,0.0,empty,sense_filtered
+5391313008,"Account Executive, Startups",Other,2026-09-29,522,0.0,7.662835249042145,-7.662835249042145,strongly feminine-coded,sense_filtered
+5391322008,Enterprise Account Executive - Industries Generalist,Other,2026-09-29,674,0.0,7.4183976261127595,-7.4183976261127595,strongly feminine-coded,sense_filtered
+5391336008,Enterprise Account Executive - Retail/CPG,Other,2026-09-29,397,0.0,5.037783375314861,-5.037783375314861,feminine-coded,sense_filtered
+5391340008,Enterprise Account Executive - DNB,Other,2026-09-29,421,2.375296912114014,4.750593824228028,-2.375296912114014,feminine-coded,sense_filtered
+5391344008,"Sales Director, Enterprise",Other,2026-09-29,452,0.0,0.0,0.0,empty,sense_filtered
+5391372008,Enterprise Account Executive - Industries Generalist (ASEAN),Other,2026-09-29,533,0.0,0.0,0.0,empty,sense_filtered
+5391376008,Account Executive - DNB,Other,2026-09-29,538,0.0,1.858736059479554,-1.858736059479554,feminine-coded,sense_filtered
+5391381008,Account Executive - Public Sector (ASEAN),Other,2026-09-29,597,1.6750418760469012,6.700167504187605,-5.025125628140704,feminine-coded,sense_filtered
+5391488008,Head of State and Local Government Sales,Other,2026-09-29,618,0.0,3.236245954692557,-3.236245954692557,feminine-coded,sense_filtered
+5391499008,Canada Public Sector Account Executive,Other,2026-09-29,667,0.0,2.998500749625187,-2.998500749625187,feminine-coded,sense_filtered
+5391504008,Head of National Security Sales (DoW/IC),Other,2026-09-29,667,0.0,0.0,0.0,empty,sense_filtered
+5391782008,"Manager, Corporate Network Engineering",Engineering,2026-09-29,918,0.0,0.0,0.0,empty,sense_filtered
+5391787008,"Executive Support Senior Program Manager, Tech Advisor",Other,2026-09-12,601,0.0,0.0,0.0,empty,sense_filtered
+5391974008,"Community Engagement Manager, Data Centres (Canada)",Other,2026-09-29,724,1.3812154696132597,0.0,1.3812154696132597,masculine-coded,sense_filtered
+5391983008,"Community Engagement Manager, Data Centers (Texas)",Other,2026-09-29,717,1.394700139470014,0.0,1.394700139470014,masculine-coded,sense_filtered
+5391995008,Enterprise Integrated Campaign Manager,Other,2026-09-29,757,0.0,2.642007926023778,-2.642007926023778,feminine-coded,sense_filtered
+5391999008,"Community Engagement Manager, Data Centres (Australia)",Other,2026-09-29,724,1.3812154696132597,0.0,1.3812154696132597,masculine-coded,sense_filtered
+5392007008,"User Experience Researcher, Platform",Research-titled,2026-09-29,669,1.4947683109118086,0.0,1.4947683109118086,masculine-coded,sense_filtered
+5392054008,"Product Designer, Core Apps",Other,2026-08-29,682,0.0,10.263929618768328,-10.263929618768328,strongly feminine-coded,sense_filtered
+5392184008,"Policy Design Manager, Conventional Weapons",Other,2026-09-29,520,0.0,0.0,0.0,empty,sense_filtered
+5392335008,"Staff+ Software Engineer, Platform Ecosystem",Engineering,2026-09-29,508,1.968503937007874,0.0,1.968503937007874,masculine-coded,sense_filtered
+5392856008,"DevOps / AgentOps Engineer, GTM Systems",Engineering,2026-09-29,725,0.0,0.0,0.0,empty,sense_filtered
+5392957008,"Customer Success Manager, Top Accounts",Other,2026-09-29,631,0.0,1.5847860538827259,-1.5847860538827259,feminine-coded,sense_filtered
+5392986008,Head of Enterprise Risk,Other,2026-08-19,541,0.0,0.0,0.0,empty,sense_filtered
+5393006008,Enterprise Intelligence Specialist,Other,2026-08-19,749,0.0,0.0,0.0,empty,sense_filtered
+5393039008,Physical Security Design Lead and Contract Document Specialist,Other,2026-09-29,672,0.0,1.4880952380952381,-1.4880952380952381,feminine-coded,sense_filtered
+5393268008,"Finance & Strategy GTM, EMEA",Other,2026-09-29,339,0.0,5.899705014749262,-5.899705014749262,feminine-coded,sense_filtered
+5393452008,"Product Manager, Public Sector",Other,2026-09-29,618,0.0,0.0,0.0,empty,sense_filtered
+5393526008,"Product Manager, Cybersecurity",Other,2026-09-29,403,0.0,0.0,0.0,empty,sense_filtered
+5393720008,"Field Marketing Manager, APAC",Other,2026-09-29,919,1.088139281828074,2.176278563656148,-1.088139281828074,feminine-coded,sense_filtered
+5394887008,"Product Manager, Claude Science",Other,2026-09-29,986,0.0,1.0141987829614605,-1.0141987829614605,feminine-coded,sense_filtered
+5394943008,"Staff+ Software Engineer, Product Sandboxing",Engineering,2026-09-29,370,5.405405405405405,0.0,5.405405405405405,masculine-coded,sense_filtered
+5394948008,"Staff+ Software Engineer, Platform Connectivity",Engineering,2026-09-29,508,3.937007874015748,0.0,3.937007874015748,masculine-coded,sense_filtered
+5394993008,"Strategic Sourcing Business Partner, R&D Operations",Other,2026-09-29,1117,0.0,0.0,0.0,empty,sense_filtered
+5395767008,"Staff+ Software Engineer, Claude Managed Agents",Engineering,2026-09-29,862,1.160092807424594,0.0,1.160092807424594,masculine-coded,sense_filtered
+5396186008,Business Development Representative,Other,2026-09-29,255,0.0,7.8431372549019605,-7.8431372549019605,feminine-coded,sense_filtered
+5396384008,"IT Systems Engineer, Mobile Client Platform Engineer",Engineering,2026-09-29,610,0.0,0.0,0.0,empty,sense_filtered
+5396397008,IT Support Engineer,Engineering,2026-09-29,626,1.597444089456869,0.0,1.597444089456869,masculine-coded,sense_filtered
+5397005008,"Staff+ Software Engineer, Platform Distribution",Engineering,2026-09-29,458,2.183406113537118,4.366812227074236,-2.183406113537118,feminine-coded,sense_filtered
+5397131008,"Staff+ Software Engineer, Platform Portability",Engineering,2026-09-29,588,0.0,0.0,0.0,empty,sense_filtered
+5397319008,"Security Engineer, Corporate Security",Engineering,2026-09-29,729,0.0,1.3717421124828533,-1.3717421124828533,feminine-coded,sense_filtered
+5397445008,Data Center Supply Planning Lead,Other,2026-09-29,529,0.0,0.0,0.0,empty,sense_filtered
+5397596008,"Manufacturing Quality Engineer, Data Center Power & Cooling",Engineering,2026-09-29,767,0.0,0.0,0.0,empty,sense_filtered
+5397654008,"Product Designer, Claude Developer Platform",Engineering,2026-09-29,465,0.0,12.903225806451612,-12.903225806451612,strongly feminine-coded,sense_filtered
+5397699008,Head of Vulnerability Disclosure & Security Community,Other,2026-09-29,344,0.0,2.9069767441860463,-2.9069767441860463,feminine-coded,sense_filtered
+5397708008,"Senior Safeguards Policy Lead, Cyber Harms",Other,2026-09-29,357,0.0,0.0,0.0,empty,sense_filtered
+5397711008,"Safeguards Policy Analyst, Cyber Harms",Other,2026-09-29,508,0.0,0.0,0.0,empty,sense_filtered
+5397737008,"Product Manager, Business Technology",Other,2026-09-29,949,0.0,10.53740779768177,-10.53740779768177,strongly feminine-coded,sense_filtered
+5397749008,Incident Manager - Detection & Response,Other,2026-09-29,604,0.0,0.0,0.0,empty,sense_filtered
+5398218008,"Staff+ Software Engineer, Developer Experience",Engineering,2026-09-29,428,0.0,0.0,0.0,empty,sense_filtered
+5398227008,"Staff+ Software Engineer, Auth & Identity",Engineering,2026-09-29,671,1.4903129657228018,0.0,1.4903129657228018,masculine-coded,sense_filtered
+5398280008,Data Center Operations Lead - Partner Site Operations,Other,2026-09-29,559,3.5778175313059033,0.0,3.5778175313059033,masculine-coded,sense_filtered
+5398360008,"IP Counsel, Trademarks & Domains",Other,2026-09-29,458,0.0,2.183406113537118,-2.183406113537118,feminine-coded,sense_filtered
+5398438008,"AI Deployment Specialist, Beneficial Deployments",Other,2026-09-29,1015,0.0,0.9852216748768473,-0.9852216748768473,feminine-coded,sense_filtered
+5398753008,Business Systems Analyst,Other,2026-08-25,558,0.0,1.7921146953405018,-1.7921146953405018,feminine-coded,sense_filtered
+5398827008,Transaction Manager,Other,2026-09-29,510,0.0,1.9607843137254901,-1.9607843137254901,feminine-coded,sense_filtered
+5398829008,"Transaction Principal, EU",Other,2026-09-29,710,0.0,0.0,0.0,empty,sense_filtered
+5399158008,Manufacturing Engineer - Data Center Hardware,Engineering,2026-09-29,612,0.0,0.0,0.0,empty,sense_filtered
+5399162008,Product Engineer - Manufacturing Operations,Engineering,2026-09-29,509,0.0,0.0,0.0,empty,sense_filtered
+5399223008,Energy Scheduling & Portfolio Lead,Other,2026-09-29,1241,0.0,0.8058017727639001,-0.8058017727639001,feminine-coded,sense_filtered
+5399225008,"Supply Chain Delivery Manager, Data Center Power & Cooling OFE",Other,2026-09-29,911,0.0,0.0,0.0,empty,sense_filtered
+5399379008,"Reporting and Controls Lead, Data Center Capacity Delivery",Other,2026-09-29,480,0.0,0.0,0.0,empty,sense_filtered
+5400010008,"Product Policy Manager, Product Risk",Other,2026-09-29,437,0.0,6.864988558352403,-6.864988558352403,feminine-coded,sense_filtered
+5400138008,"Account Executive, Startups",Other,2026-09-29,497,0.0,8.048289738430583,-8.048289738430583,strongly feminine-coded,sense_filtered
+5400153008,"Software Engineer, Business Technology",Engineering,2026-09-29,310,6.451612903225806,0.0,6.451612903225806,masculine-coded,sense_filtered
+5400160008,"Software Engineer, Business Technology",Engineering,2026-09-29,310,6.451612903225806,0.0,6.451612903225806,masculine-coded,sense_filtered
+5400362008,"Discovery Operations Lead, Litigation & Regulatory",Other,2026-09-12,990,0.0,1.0101010101010102,-1.0101010101010102,feminine-coded,sense_filtered
+5400720008,"Product Manager, Safeguards (Generalist)",Other,2026-09-29,540,0.0,1.8518518518518519,-1.8518518518518519,feminine-coded,sense_filtered
+5403775008,"Safeguards Enforcement Lead, Cyber Harms",Other,2026-09-29,416,0.0,4.8076923076923075,-4.8076923076923075,feminine-coded,sense_filtered
+5404725008,"Staff+ Research Engineer, RL Data Platform",Research-titled,2026-09-29,608,0.0,0.0,0.0,empty,sense_filtered
+5404730008,"Staff+ Software Engineer, RL Data Platform",Engineering,2026-09-29,608,0.0,0.0,0.0,empty,sense_filtered
+5405548008,"Engineering Manager, Hardware Platform Security",Engineering,2026-09-29,690,0.0,0.0,0.0,empty,sense_filtered
+5405710008,"Data Center Energy Lead, EMEA",Other,2026-09-29,673,0.0,0.0,0.0,empty,sense_filtered
+5405898008,"Regional Manager APAC, Data Center Capacity Delivery",Other,2026-09-29,705,0.0,0.0,0.0,empty,sense_filtered
+5406106008,"Product Manager, Growth",Other,2026-08-29,261,0.0,3.8314176245210727,-3.8314176245210727,feminine-coded,sense_filtered
+5406113008,"Partner Marketing Lead, Cloud",Other,2026-08-29,708,0.0,1.4124293785310735,-1.4124293785310735,feminine-coded,sense_filtered
+5406367008,Cyber Evaluations Engineer,Engineering,2026-09-29,330,0.0,3.0303030303030303,-3.0303030303030303,feminine-coded,sense_filtered
+5406817008,"Technical Program Manager, Billing",Other,2026-09-29,348,0.0,0.0,0.0,empty,sense_filtered
+5406982008,"Applied AI Architect, Startups",Other,2026-09-29,441,0.0,0.0,0.0,empty,sense_filtered
+5407184008,"Corporate Counsel, M&A",Other,2026-09-29,488,2.0491803278688523,2.0491803278688523,0.0,neutral,sense_filtered
+5407418008,"Head of Policy Design, Societal Harms",Other,2026-09-29,766,0.0,1.3054830287206267,-1.3054830287206267,feminine-coded,sense_filtered
+5407938008,"Partnership Manager, AI for Science",Other,2026-09-29,683,0.0,0.0,0.0,empty,sense_filtered
+5409008008,"Applied AI Architect, Strategic Enterprise Tech",Other,2026-09-29,657,0.0,4.566210045662101,-4.566210045662101,feminine-coded,sense_filtered
+5409055008,"Director, Finance Systems - Revenue Systems Engineering",Engineering,2026-09-29,708,0.0,1.4124293785310735,-1.4124293785310735,feminine-coded,sense_filtered
+5409108008,"Finance & Strategy GTM, EMEA",Other,2026-09-29,339,0.0,5.899705014749262,-5.899705014749262,feminine-coded,sense_filtered
+5409191008,"Legal Specialist, Law Enforcement",Other,2026-09-29,612,0.0,1.6339869281045751,-1.6339869281045751,feminine-coded,sense_filtered
+5409299008,"Regulatory Counsel, AI Regulation, US",Other,2026-09-23,703,0.0,1.422475106685633,-1.422475106685633,feminine-coded,sense_filtered
+5409569008,"New Product Introduction (NPI) Sourcing Manager, Data Center Power & Cooling",Other,2026-09-29,843,0.0,0.0,0.0,empty,sense_filtered
+5409934008,"Product Manager, Multi-Cloud Trust & Safety",Other,2026-09-29,510,1.9607843137254901,0.0,1.9607843137254901,masculine-coded,sense_filtered
+5410004008,"Safeguards Enforcement Lead, User Well-Being",Other,2026-09-29,587,0.0,0.0,0.0,empty,sense_filtered
+5410006008,"Safeguards Enforcement Analyst, Conventional Weapons",Other,2026-09-29,550,0.0,0.0,0.0,empty,sense_filtered
+5410610008,"Engineering Manager, Safeguards",Engineering,2026-09-29,546,0.0,0.0,0.0,empty,sense_filtered
+5411267008,"Engineering Manager, Scheduler and Fleet Efficiency",Engineering,2026-09-29,580,0.0,1.7241379310344827,-1.7241379310344827,feminine-coded,sense_filtered
+5411318008,"Product Designer, Evals & Prompts",Other,2026-09-23,547,0.0,0.0,0.0,empty,sense_filtered
+5411560008,"Engineering Manager, Inference Infrastructure",Engineering,2026-09-29,749,0.0,0.0,0.0,empty,sense_filtered
+5411707008,"Recruiter, G&A",Other,2026-09-23,446,0.0,0.0,0.0,empty,sense_filtered
+5412272008,"Staff Software Engineer, Observability & Profiling",Engineering,2026-09-29,525,1.9047619047619047,0.0,1.9047619047619047,masculine-coded,sense_filtered
+5412334008,"Research Engineer, Cybersecurity RL (Reinforcement Learning)",Research-titled,2026-09-29,318,0.0,3.1446540880503147,-3.1446540880503147,feminine-coded,sense_filtered
+5412584008,"Manager, Sales Development - EMEA",Other,2026-09-29,422,0.0,0.0,0.0,empty,sense_filtered
+5412734008,"Staff+ Software Engineer, Claude Science",Engineering,2026-09-29,411,0.0,0.0,0.0,empty,sense_filtered
+5412944008,"Research Manager, Biological Safety",Research-titled,2026-09-29,760,0.0,0.0,0.0,empty,sense_filtered
+5413314008,"Technical Program Manager, Enterprise Readiness",Other,2026-09-29,626,0.0,0.0,0.0,empty,sense_filtered
+5413374008,Salesforce Developer,Engineering,2026-09-29,838,1.1933174224343674,1.1933174224343674,0.0,neutral,sense_filtered
+5413418008,Research Counsel,Research-titled,2026-09-29,684,0.0,4.385964912280702,-4.385964912280702,feminine-coded,sense_filtered
+5413576008,"Product Manager, Safeguards (Account Integrity & Abuse)",Other,2026-09-29,540,0.0,1.8518518518518519,-1.8518518518518519,feminine-coded,sense_filtered
+5413642008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",Engineering,2026-09-29,436,0.0,0.0,0.0,empty,sense_filtered
+5414608008,Sanctions Compliance Lead,Other,2026-09-29,1014,0.9861932938856016,0.0,0.9861932938856016,masculine-coded,sense_filtered
+5414793008,"Sales Strategy, Operational Excellence",Other,2026-09-29,869,0.0,1.1507479861910241,-1.1507479861910241,feminine-coded,sense_filtered
+5415287008,Executive Communications Writer,Other,2026-09-29,404,0.0,7.425742574257426,-7.425742574257426,feminine-coded,sense_filtered
+5415461008,"Scaled Growth Account Executive, AI Native",Other,2026-09-29,584,0.0,1.7123287671232876,-1.7123287671232876,feminine-coded,sense_filtered
+5415529008,Head of Technical Training,Other,2026-09-29,662,0.0,1.5105740181268883,-1.5105740181268883,feminine-coded,sense_filtered
+5415537008,Lead Technical Instructor,Other,2026-09-29,724,0.0,1.3812154696132597,-1.3812154696132597,feminine-coded,sense_filtered
+5415864008,"Lead, Security Controls Assurance - SOX",Other,2026-09-29,865,1.1560693641618498,1.1560693641618498,0.0,neutral,sense_filtered
+5415930008,"Research & Education Sales Lead, Beneficial Deployments",Research-titled,2026-09-29,929,0.0,0.0,0.0,empty,sense_filtered
+5416016008,Head of Compute Supply Chain,Other,2026-09-29,371,0.0,0.0,0.0,empty,sense_filtered
+5416020008,"Head of Regulated Industries, Customer Success",Other,2026-09-29,873,1.145475372279496,2.290950744558992,-1.145475372279496,feminine-coded,sense_filtered
+5416026008,"Customer Success Manager, Beneficial Deployments - Life Sciences",Other,2026-09-29,850,0.0,1.1764705882352942,-1.1764705882352942,feminine-coded,sense_filtered
+5416059008,"TPM Manager, Infrastructure",Engineering,2026-09-29,609,0.0,0.0,0.0,empty,sense_filtered
+5416696008,Warehouse and Logistics Capability Manager,Other,2026-09-29,556,0.0,1.7985611510791366,-1.7985611510791366,feminine-coded,sense_filtered
+5416709008,"Staff+ Site Reliability Engineer, Safeguards ML Infra",Engineering,2026-09-29,674,0.0,0.0,0.0,empty,sense_filtered
+5416829008,"Business Systems Analyst, New Product Introduction",Other,2026-09-29,800,0.0,0.0,0.0,empty,sense_filtered
+5416882008,"Research Engineer, Takeoff Intel",Research-titled,2026-09-29,551,0.0,5.44464609800363,-5.44464609800363,feminine-coded,sense_filtered
+5416979008,Warehouse and Logistics Manager - International,Other,2026-09-29,716,0.0,0.0,0.0,empty,sense_filtered
+5416985008,Warehouse and Logistics Manager - North America,Other,2026-09-29,719,0.0,0.0,0.0,empty,sense_filtered
+5417758008,"Enforcement Operations Lead, Cloud Partners",Other,2026-09-29,536,0.0,0.0,0.0,empty,sense_filtered
+5417967008,"External Affairs, South Korea",Other,2026-09-29,577,0.0,5.1993067590987865,-5.1993067590987865,feminine-coded,sense_filtered
+5418323008,"Performance Engineer, Inference Engine",Engineering,2026-09-29,453,0.0,0.0,0.0,empty,sense_filtered
+5418402008,"Engineering Manager, Business Technology",Engineering,2026-09-29,396,0.0,7.575757575757576,-7.575757575757576,feminine-coded,sense_filtered
+5418421008,"Transaction Manager, Canada",Other,2026-09-29,517,0.0,1.9342359767891684,-1.9342359767891684,feminine-coded,sense_filtered
+5418610008,"Data Engineer, GTM",Engineering,2026-09-29,419,0.0,0.0,0.0,empty,sense_filtered
+5418743008,Executive Escalations Manager,Other,2026-09-29,368,0.0,0.0,0.0,empty,sense_filtered
+5418748008,"Partnerships Manager, US Public Health",Other,2026-09-29,600,0.0,1.6666666666666667,-1.6666666666666667,feminine-coded,sense_filtered
+5418858008,Social Escalations Manager,Other,2026-09-29,434,0.0,0.0,0.0,empty,sense_filtered
+5418977008,"Security Engineer, Offensive Security",Engineering,2026-09-29,301,0.0,6.644518272425249,-6.644518272425249,feminine-coded,sense_filtered
+5418991008,Customer Trust Specialist,Other,2026-09-29,793,2.5220680958385877,0.0,2.5220680958385877,masculine-coded,sense_filtered
+5419210008,Head of Strategic Startups,Other,2026-09-29,737,0.0,0.0,0.0,empty,sense_filtered
+5419868008,"Staff+ Software Engineer, ML Sampling Path",Engineering,2026-09-29,349,0.0,0.0,0.0,empty,sense_filtered
+5419869008,"Staff+ Software Engineer, ML Inference Path",Engineering,2026-09-29,455,2.197802197802198,6.593406593406593,-4.395604395604395,feminine-coded,sense_filtered
+5420232008,"Solutions Marketing Manager, Healthcare & Science",Other,2026-09-29,740,0.0,1.3513513513513513,-1.3513513513513513,feminine-coded,sense_filtered
+5420245008,"Solutions Marketing Manager, Cybersecurity",Other,2026-09-29,662,0.0,1.5105740181268883,-1.5105740181268883,feminine-coded,sense_filtered
+5420994008,"Salesforce Developer, Partnerships",Engineering,2026-09-16,443,2.2573363431151243,2.2573363431151243,0.0,neutral,sense_filtered
+5421031008,Accommodations Partner,Other,2026-09-23,630,1.5873015873015872,1.5873015873015872,0.0,neutral,sense_filtered
+5421058008,Senior Recruiting Coordinator [fixed-term contract],Other,2026-09-13,464,4.310344827586207,4.310344827586207,0.0,neutral,sense_filtered
+5421066008,Senior Recruiting Coordinator [fixed-term contract],Other,2026-09-13,462,4.329004329004329,4.329004329004329,0.0,neutral,sense_filtered
+5421263008,"Software Engineer, Tokens and Prompt Structures",Engineering,2026-09-29,437,0.0,2.288329519450801,-2.288329519450801,feminine-coded,sense_filtered
+5421539008,"Manager, Customer Success – Strategic Consumer Tech",Other,2026-09-29,560,0.0,1.7857142857142858,-1.7857142857142858,feminine-coded,sense_filtered
+5421541008,"Manager, Customer Success – Cyber",Other,2026-09-29,680,0.0,1.4705882352941178,-1.4705882352941178,feminine-coded,sense_filtered
+5421558008,"Customer Success Manager, Commercial",Other,2026-09-29,675,0.0,2.962962962962963,-2.962962962962963,feminine-coded,sense_filtered
+5421566008,Technical Architect,Other,2026-09-29,676,0.0,1.4792899408284024,-1.4792899408284024,feminine-coded,sense_filtered
+5422117008,"Research Operations, Reinforcement Learning",Research-titled,2026-09-29,664,0.0,3.0120481927710845,-3.0120481927710845,feminine-coded,sense_filtered
+5422436008,"Manager, Customer Success - Commercial",Other,2026-09-29,643,0.0,1.5552099533437014,-1.5552099533437014,feminine-coded,sense_filtered
+5422950008,Security Technology Deployment Specialist,Other,2026-09-29,692,2.8901734104046244,0.0,2.8901734104046244,masculine-coded,sense_filtered
+5422952008,Protective Intelligence Analyst,Other,2026-09-29,613,0.0,1.6313213703099512,-1.6313213703099512,feminine-coded,sense_filtered
+5423029008,Forward Deployed Engineer,Engineering,2026-09-29,471,0.0,8.492569002123142,-8.492569002123142,strongly feminine-coded,sense_filtered
+5423737008,"IT Operations Engineer, Asset Management",Engineering,2026-09-29,768,0.0,0.0,0.0,empty,sense_filtered
+5423931008,"Copywriter, Developer",Engineering,2026-09-29,717,0.0,1.394700139470014,-1.394700139470014,feminine-coded,sense_filtered
+5424078008,"Product Marketing Manager, Platform",Other,2026-09-29,436,0.0,2.293577981651376,-2.293577981651376,feminine-coded,sense_filtered
+5424080008,"Product Marketing Manager, Special Projects",Other,2026-09-29,614,1.6286644951140066,1.6286644951140066,0.0,neutral,sense_filtered
+5424111008,Recruiting Analytics Data Engineer,Engineering,2026-09-29,439,0.0,0.0,0.0,empty,sense_filtered
+5424288008,"Marketing Events Manager, International",Other,2026-09-29,630,0.0,3.1746031746031744,-3.1746031746031744,feminine-coded,sense_filtered
+5424310008,Applied AI Architect,Other,2026-09-29,548,0.0,7.299270072992701,-7.299270072992701,strongly feminine-coded,sense_filtered
+5424388008,"Customer Success Manager, Enterprise Tech",Other,2026-09-29,690,0.0,2.898550724637681,-2.898550724637681,feminine-coded,sense_filtered
+5424402008,Customer Success,Other,2026-09-29,723,0.0,2.7662517289073305,-2.7662517289073305,feminine-coded,sense_filtered
+5424404008,"Staff+ Software Engineer, Distributed Systems",Engineering,2026-09-29,403,2.4813895781637716,0.0,2.4813895781637716,masculine-coded,sense_filtered
+5424443008,"Head of Customer Success, APAC",Other,2026-09-29,655,0.0,0.0,0.0,empty,sense_filtered
+5425432008,"Senior Manager, Regulatory Accounting & Disclosures",Other,2026-09-29,381,0.0,0.0,0.0,empty,sense_filtered
+5425724008,"Associate Applied AI, Rotational Program, London",Other,2026-09-29,445,0.0,4.49438202247191,-4.49438202247191,feminine-coded,sense_filtered
+5426135008,"Engineering Manager, Data Infrastructure",Engineering,2026-09-29,653,0.0,3.0627871362940278,-3.0627871362940278,feminine-coded,sense_filtered
+5426617008,Public Sector Sales Lead,Other,2026-09-29,1674,0.0,1.1947431302270013,-1.1947431302270013,feminine-coded,sense_filtered
+5426621008,"Enterprise Account Executive, Public Sector, DACH",Other,2026-09-29,558,0.0,5.376344086021505,-5.376344086021505,feminine-coded,sense_filtered
+5426627008,Head of APAC GTM Enablement,Other,2026-09-29,697,0.0,0.0,0.0,empty,sense_filtered
+5426631008,"[London] Manager, Technical Deployment",Other,2026-09-29,796,0.0,0.0,0.0,empty,sense_filtered
+5426651008,"Enterprise Account Executive, Industries - BFSI",Other,2026-09-29,720,1.3888888888888888,2.7777777777777777,-1.3888888888888888,feminine-coded,sense_filtered
+5426933008,"Applied AI Architect, Partnerships",Other,2026-09-29,425,0.0,4.705882352941177,-4.705882352941177,feminine-coded,sense_filtered
+5427025008,Partner Success Lead,Other,2026-09-29,1222,0.0,0.0,0.0,empty,sense_filtered
+5427236008,"National Security Partnerships Lead, Intelligence and International Security",Other,2026-09-29,529,0.0,0.0,0.0,empty,sense_filtered
+5427309008,APAC Recruiting Coordinator,Other,2026-09-29,487,4.1067761806981515,4.1067761806981515,0.0,neutral,sense_filtered
+5427479008,"Customer Success Manager, Public Sector (National Security)",Other,2026-09-29,1126,0.0,1.7761989342806395,-1.7761989342806395,feminine-coded,sense_filtered
+5427834008,"Technical Program Manager, Public Sector",Other,2026-09-29,496,0.0,0.0,0.0,empty,sense_filtered
+5427893008,"Supplier Security & Assurance, Security GRC",Other,2026-09-29,652,0.0,0.0,0.0,empty,sense_filtered
+5427969008,"Compute & Infrastructure Counsel, Real Estate",Engineering,2026-09-29,594,0.0,3.367003367003367,-3.367003367003367,feminine-coded,sense_filtered
+5428014008,"Product Designer, Safeguards",Other,2026-09-29,419,0.0,11.933174224343675,-11.933174224343675,strongly feminine-coded,sense_filtered
+5428030008,"Enterprise Account Executive, Pharmaceuticals & Life Sciences",Other,2026-09-29,552,0.0,5.434782608695652,-5.434782608695652,feminine-coded,sense_filtered
+5428032008,"Enterprise Account Executive, Banking",Other,2026-09-29,556,0.0,5.39568345323741,-5.39568345323741,feminine-coded,sense_filtered
+5428124008,"Product Designer, Design Systems",Other,2026-09-29,485,0.0,6.185567010309279,-6.185567010309279,feminine-coded,sense_filtered
+5428790008,"GTM Enablement Trainer, Claude Products",Other,2026-09-29,560,0.0,0.0,0.0,empty,sense_filtered
+5428898008,"Product Manager, Safe Access",Other,2026-09-29,519,0.0,0.0,0.0,empty,sense_filtered
+5428950008,"Staff+ Software Engineer, Storage + Transfer",Engineering,2026-09-29,540,0.0,3.7037037037037037,-3.7037037037037037,feminine-coded,sense_filtered
+5429202008,"[DH] Engineering Manager, AI Observability",Engineering,2026-09-29,486,0.0,2.05761316872428,-2.05761316872428,feminine-coded,sense_filtered
+5430205008,"Security Risk & Compliance, Data Centers & Compute",Other,2026-09-29,438,2.2831050228310503,0.0,2.2831050228310503,masculine-coded,sense_filtered
+5430222008,"Senior Manager, IT SOX",Other,2026-09-29,689,1.4513788098693758,2.9027576197387517,-1.4513788098693758,feminine-coded,sense_filtered
+5430263008,"Corporate Finance & Strategy, Strategic Transactions",Other,2026-09-23,455,0.0,2.197802197802198,-2.197802197802198,feminine-coded,sense_filtered
+5430422008,"External Affairs, Brussels",Other,2026-09-29,419,0.0,2.386634844868735,-2.386634844868735,feminine-coded,sense_filtered
+5430592008,Litigation Counsel,Other,2026-09-29,625,4.8,1.6,3.1999999999999997,masculine-coded,sense_filtered
+5430695008,Privacy Counsel,Other,2026-09-29,427,0.0,2.34192037470726,-2.34192037470726,feminine-coded,sense_filtered
+5430743008,"IP Counsel, Transactions",Other,2026-09-29,397,0.0,2.5188916876574305,-2.5188916876574305,feminine-coded,sense_filtered
+5430869008,"Manager, Applied AI Architect",Other,2026-09-29,493,0.0,4.056795131845842,-4.056795131845842,feminine-coded,sense_filtered
+5430939008,"Treasury, Liquidity & Capital Planning",Other,2026-09-29,611,0.0,0.0,0.0,empty,sense_filtered
+5431235008,"Policy Research, Strategic Advisory",Research-titled,2026-09-29,741,1.349527665317139,1.349527665317139,0.0,neutral,sense_filtered
+5431285008,"Program Manager, Safeguards Workforce Operations",Other,2026-09-29,517,0.0,0.0,0.0,empty,sense_filtered
+5431374008,Head of Business Technology Engineering,Engineering,2026-09-29,719,0.0,1.3908205841446453,-1.3908205841446453,feminine-coded,sense_filtered
+5431578008,"Finance & Strategy, Deal Desk - APAC",Other,2026-09-29,429,0.0,4.662004662004662,-4.662004662004662,feminine-coded,sense_filtered
+5432000008,"Commercial Legal Specialist, Technical AI Implementation",Other,2026-09-29,403,0.0,9.925558312655086,-9.925558312655086,strongly feminine-coded,sense_filtered
+5432020008,Capacity Deployment Lead - Data Center Operations,Other,2026-09-29,773,1.2936610608020698,0.0,1.2936610608020698,masculine-coded,sense_filtered
+5432528008,Incident Response Manager - Privacy,Other,2026-09-29,733,0.0,0.0,0.0,empty,sense_filtered
+5432558008,Staff Software Engineer: Compute,Engineering,2026-09-29,623,0.0,0.0,0.0,empty,sense_filtered
+5432573008,"Applied AI Architect, Startups",Other,2026-09-29,442,0.0,0.0,0.0,empty,sense_filtered
+5432575008,"Applied AI Engineer, Startups",Engineering,2026-09-29,399,0.0,2.506265664160401,-2.506265664160401,feminine-coded,sense_filtered
+5432583008,"[London] Applied AI Architect, Partnerships",Other,2026-09-29,423,0.0,4.7281323877068555,-4.7281323877068555,feminine-coded,sense_filtered
+5432626008,"Staff Security Engineer, Detection & Response",Engineering,2026-09-29,281,0.0,3.5587188612099645,-3.5587188612099645,feminine-coded,sense_filtered
+5432995008,"Strategy & Operations, Office of the CCO",Other,2026-09-29,568,0.0,0.0,0.0,empty,sense_filtered
+5433813008,"Staff+ Software Engineer, Account Creation",Engineering,2026-09-29,253,0.0,0.0,0.0,empty,sense_filtered
+5433814008,"Staff+ Software Engineer, Access Programs",Engineering,2026-09-29,448,0.0,0.0,0.0,empty,sense_filtered
+5433843008,"Finance & Strategy, Deal Strategy",Other,2026-09-29,436,0.0,4.587155963302752,-4.587155963302752,feminine-coded,sense_filtered
+5433869008,"People Legal Counsel, APAC",Other,2026-09-29,459,0.0,2.178649237472767,-2.178649237472767,feminine-coded,sense_filtered
+5433878008,Customer Success,Other,2026-09-29,722,0.0,2.770083102493075,-2.770083102493075,feminine-coded,sense_filtered
+5433950008,"Recruiter, Go-To-Market (GTM)",Other,2026-09-29,306,0.0,0.0,0.0,empty,sense_filtered
+5433952008,"Senior Compliance Program Manager, Political Law",Other,2026-09-29,900,0.0,0.0,0.0,empty,sense_filtered
+5434116008,"Partner Marketing Manger, GSI & SI",Other,2026-09-29,871,0.0,0.0,0.0,empty,sense_filtered
+5434145008,"Marketing Analytics Lead, Enterprise Marketing",Other,2026-09-29,564,0.0,0.0,0.0,empty,sense_filtered
+5434795008,"Commercial Counsel, Hardware",Other,2026-09-29,591,0.0,0.0,0.0,empty,sense_filtered
+5435282008,"Applied AI Engineer, DNB",Engineering,2026-09-29,449,0.0,2.2271714922048997,-2.2271714922048997,feminine-coded,sense_filtered
+5435343008,"State and Local Affairs Lead, Midwest",Other,2026-09-29,750,1.3333333333333333,0.0,1.3333333333333333,masculine-coded,sense_filtered
+5435468008,"Recruiter, Communications",Other,2026-09-29,278,0.0,0.0,0.0,empty,sense_filtered
+5435665008,"Senior+ Software Engineer, Legal Tech",Engineering,2026-09-29,548,0.0,1.8248175182481752,-1.8248175182481752,feminine-coded,sense_filtered
+5435710008,"Product Finance & Strategy, Monetization",Other,2026-09-29,604,1.6556291390728477,1.6556291390728477,0.0,neutral,sense_filtered
+5436293008,"Staff+ Software Engineer, Account Abuse (Machine Learning)",Engineering,2026-09-29,489,0.0,0.0,0.0,empty,sense_filtered
+5436615008,"State and Local Affairs Lead, West",Other,2026-09-29,750,1.3333333333333333,0.0,1.3333333333333333,masculine-coded,sense_filtered
+5436684008,"Staff + Sr. Software Engineer, Cloud Inference",Engineering,2026-09-29,520,0.0,1.9230769230769231,-1.9230769230769231,feminine-coded,sense_filtered
+5436697008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",Engineering,2026-09-29,553,0.0,1.8083182640144666,-1.8083182640144666,feminine-coded,sense_filtered
+5436703008,"Staff + Sr. Software Engineer, Scaling",Engineering,2026-09-29,447,0.0,0.0,0.0,empty,sense_filtered
+5437172008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",Engineering,2026-09-29,473,0.0,0.0,0.0,empty,sense_filtered
+https://job-boards.greenhouse.io/anthropic/jobs/4610158008%5C,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",Research-titled,2026-07-25,453,0.0,4.415011037527594,-4.415011037527594,feminine-coded,sense_filtered

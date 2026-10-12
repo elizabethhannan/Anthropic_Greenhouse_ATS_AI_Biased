@@ -4,44 +4,54 @@
 
 Model 1 measures what Anthropic's job postings signal, by role family: gender-coded wording (T7; Gaucher, Friesen, & Kay, 2011) and who postings make visible (T6; only Fellows postings name people). It may claim what postings signal. It may never claim that wording or named people changed who applied or who was hired, or anything about intent.
 
-## Status (2026-10-11)
+- Results: [`outputs/model1_results.json`](outputs/model1_results.json)
+- Model card: [`outputs/model_card.md`](outputs/model_card.md) · Methods appendix: [`outputs/methods_appendix.md`](outputs/methods_appendix.md)
+- Dashboard strings and Replit prompt: [`outputs/dashboard_updates.md`](outputs/dashboard_updates.md)
+- Pre-registration and deviation log: [`analysis_plan.md`](analysis_plan.md)
+- Figures: [`outputs/figures/`](outputs/figures/)
 
-| Component | Status |
+## Results (2026-10-11)
+
+| Question | Result |
 |---|---|
-| Pre-registration (`analysis_plan.md`) | **Draft written before any score.** Awaiting family counts, sample titles, and Elizabeth's "go" |
-| Word lists | Pinned: gender-decoder @ `7cb4a6d` (52 masculine, 50 feminine, 7 hyphenated stems), vendored verbatim with its MIT license |
-| Corpus builder, role families, lexicon, bias tests, visibility, outcome gate | Built and unit-tested |
-| Posting corpus (input 1) and named-people list (input 3) | **Not in this repository.** They live in R2 and Elizabeth's PyCharm project; not rebuilt from scraping or memory |
-| T7 wording scores, sense audit, convergent check | Not run (waiting for corpus and "go") |
-| T6 named-people gender coding | Not run (public self-identification only; person-level codes stay in git-ignored `outputs/private/`) |
-| H3 estimability gate | **Run: `estimable: false`** — 4 non-overlapping hire cells (< 10 required); 1 cell with < 10 known-sex hires; both sexes in 3 cells (< 5) |
-| Model 1b estimator (applicant-level mechanism test) | **Built and validated on simulated data:** 95% CI coverage of the true β = 0.96 across 200 data sets (target ≥ 0.90). An estimator test, not a result. Template: `templates/applicants_by_posting.csv` |
-| Tests | 8 passed, 2 skipped (privacy and full-pipeline reproducibility wait for outputs) |
+| **H1** Fellows / research postings use more masculine-coded words? | **Not supported.** Raw lexicon: Fellows 2.83 vs. Other 12.59 per 1,000 (diff −9.77, 95% CI −10.60 to −8.91, Holm p = .025); research-titled −3.30 (Holm p = .001), i.e., *fewer*. Sense-filtered: differences under 1 word per 1,000. |
+| Lexicon validity | **Weak in this technical text:** 21% of 200 audited matches were trait sense (95% CI 16–27%); 50 of 62 stems below 0.50; κ = 0.24 (0.12–0.35) vs. blind sentence ratings. |
+| **H2** Gender of people named in Fellows postings | 50 people: **3 women, 25 men, 22 Unknown** (public self-identification only). Women 10.7% of known (Wilson 95% CI 3.7–27.2%); vs. parity p < .001; vs. Fellows hires 8/22 Fisher p = .042. Unknown bounds 6–50%. |
+| **H3** Posting signals ↔ women's share of hires | **Not estimable:** 4 non-overlapping hire cells (10 required). |
+| **Model 1b** applicant-level estimator | Validated on simulated data: 95% CI coverage 96% (200 data sets). Ready for internal applicant counts. Not a result. |
+| Tests | 10 of 10 passed (incl. privacy and full-pipeline reproducibility). |
 
 ## Files
 
 | File | Role |
 |---|---|
-| `analysis_plan.md` | Pre-registration: thesis alignment, hypotheses H1–H3, unit, family rules, exclusions, tests, thresholds, deviation log |
+| `analysis_plan.md` | Pre-registration: thesis alignment, hypotheses, unit, family rules, exclusions, tests, thresholds, deviation log |
 | `config.yaml` | Thresholds, rules, seed 20261011, word-list commit and hash |
-| `third_party/gender_decoder/` | Word lists at the pinned commit, license, provenance |
-| `build_corpus.py` | HTML stripping, normalization, exact-duplicate removal, latest version per posting, ≥ 50% boilerplate removal, < 150-word exclusion |
-| `role_family.py` | Fellows → Research-titled → Engineering → Other, applied in order to titles; Version C mapping for comparison |
+| `third_party/gender_decoder/` | Word lists at the pinned commit `7cb4a6d`, MIT license, provenance |
+| `build_corpus.py` | HTML stripping, normalization, duplicate removal, latest version per posting, ≥ 50% boilerplate removal, < 150-word exclusion |
+| `role_family.py` | Fellows → Research-titled → Engineering → Other (titles) |
 | `lexicon.py` | Tokenizer, word-start stem matching, per-1,000 scores, gender-decoder label, keyword-in-context |
-| `bias_tests.py` | Permutation tests, bootstrap CIs, Cliff's delta, Holm correction |
-| `visibility.py` | Wilson CIs, Unknown bounds, exact binomial and Fisher tests; aggregates only |
-| `outcome_link.py` | Non-overlapping hire cells and the H3 estimability gate |
-| `model1b_estimator.py` | Binomial GLM with posting-clustered SEs; simulation validation |
-| `tests/test_model1.py` | Tests 1–8 from the build prompt |
+| `prepare.py` | Raw scores and the two labeling samples (drawn before any label) |
+| `build_named_people_private.py` | Assembles the private person-level file from git-ignored inputs |
+| `analyze.py` | Sense audit, convergent check, T7a–c, T6a–d, H3 gate, Model 1b, results JSON |
+| `m1_text.py` | Findings, thesis alignment, research layers, limitations, generated from the numbers |
+| `make_figures.py` · `write_docs.py` | Figures F1–F4; model card, methods appendix, dashboard updates |
+| `bias_tests.py` · `visibility.py` · `outcome_link.py` · `model1b_estimator.py` | Statistics |
+| `labels/sense_audit_labels.csv` · `labels/convergent_labels.csv` | Rater labels (item IDs only; samples with posting text are regenerated by `prepare.py`) |
+| `tests/test_model1.py` | Tests 1–8 |
 
-## Run what exists
+**Not in GitHub (git-ignored):** the posting text corpus (`outputs/corpus/`), labeling samples that contain posting text, and `outputs/private/` (person-level codes and the name-bearing inputs).
+
+## Reproduce
 
 ```bash
 cd version_d/model1_posting_signal
-python -m pip install numpy scipy pandas statsmodels pyyaml pytest
-python -m pytest -q
-python model1b_estimator.py            # estimator test on simulated data
-python build_corpus.py --input PATH    # once the corpus file is available
+python -m pip install numpy scipy pandas statsmodels scikit-learn matplotlib pyyaml pytest
+python build_corpus.py --input <current_records.json> --input <historical_deduplicated.json> --input <archive_recovered.json>
+python prepare.py                       # raw scores + labeling samples
+python build_named_people_private.py    # needs the private inputs
+python analyze.py && python make_figures.py
+python -m pytest -q --junitxml=outputs/tests/pytest_model1.xml && python write_docs.py
 ```
 
 ## References

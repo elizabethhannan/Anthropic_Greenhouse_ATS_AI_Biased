@@ -59,9 +59,12 @@ def _flat(v) -> str:
     return str(v)
 
 
+MISSING = (None, "", "None", "none", "null", "NULL")
+
+
 def pick(rec: dict, key: str):
     for a in FIELD_ALIASES[key]:
-        if a in rec and rec[a] not in (None, ""):
+        if a in rec and not (isinstance(rec[a], str) and rec[a].strip() in MISSING) and rec[a] is not None:
             return rec[a]
     return None
 

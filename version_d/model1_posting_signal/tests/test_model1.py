@@ -123,18 +123,26 @@ def test_7_privacy():
 
 
 # 8 -----------------------------------------------------------------------------
-def test_8_reproducible_components():
-    """Deterministic components give identical results for the same seed.
-    The full-pipeline check runs once the corpus exists (see run_model1.py)."""
+def test_8_reproducible():
+    """Same inputs and seed give identical results, apart from run_date.
+    Runs the full analysis twice when the (private, local) corpus and labels exist."""
     a = np.array([3.0, 5.0, 7.0, 9.0, 4.0])
     b = np.array([1.0, 2.0, 2.5, 3.0, 4.0, 2.0])
     scores = {"raw": {"masc_per_1k": {"X": a, "Other": b}}}
     r1 = bt.family_comparisons(scores, ["X", "Other"], "Other", ["masc_per_1k"], ["raw"], 500, 500, CFG["seed"])
     r2 = bt.family_comparisons(scores, ["X", "Other"], "Other", ["masc_per_1k"], ["raw"], 500, 500, CFG["seed"])
     assert json.dumps(r1) == json.dumps(r2)
-    full = OUT / "model1_results.json"
-    if not full.exists():
-        pytest.skip("component check passed; full-pipeline reproducibility pending corpus")
+    needed = [OUT / "corpus" / "corpus_primary.jsonl", HERE / "labels" / "sense_audit_labels.csv",
+              HERE / "labels" / "convergent_labels.csv", PRIVATE]
+    if not all(p.exists() for p in needed):
+        pytest.skip("component check passed; full pipeline needs the local corpus, labels and private file")
+    import analyze
+    x = analyze.main(write=False, run_date="X")
+    y = analyze.main(write=False, run_date="X")
+    assert json.dumps(x, sort_keys=True) == json.dumps(y, sort_keys=True)
+    saved = json.loads((OUT / "model1_results.json").read_text(encoding="utf-8"))
+    saved["run_date"] = "X"
+    assert json.dumps(saved, sort_keys=True) == json.dumps(x, sort_keys=True)
 
 
 def test_holm_and_cliffs():

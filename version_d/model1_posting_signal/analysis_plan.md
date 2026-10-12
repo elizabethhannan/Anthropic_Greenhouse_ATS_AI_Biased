@@ -1,6 +1,6 @@
 # Model 1 analysis plan (pre-registration)
 
-**Status:** DRAFT, written 2026-10-11 before any posting score was computed. Awaiting (1) the posting corpus and named-people list from Elizabeth's PyCharm project, (2) family counts and sample titles for review, and (3) Elizabeth's **"go"**. No wording score, sense-audit label, or named-person gender code exists yet.
+**Status:** Written 2026-10-11 before any posting score was computed. Elizabeth approved it ("go") on 2026-10-11 at 16:16 MST. The corpus, family counts and sample titles were added afterward without changing any rule; every later deviation is logged in section 10. Results: `outputs/model1_results.json`.
 
 **Label on every output:** OBSERVED MEASUREMENT — posting text; describes wording, not intent.
 
@@ -27,9 +27,9 @@ Model 1 serves Research Thesis Version C 3.0 (Human-AI Employment Intelligence &
 
 | # | Input | Location | Status |
 |---|---|---|---|
-| 1 | Posting text corpus, every captured version | Version C master (`historical_greenhouse_analytical_master.json`, R2 run `20260929T091413Z`) and Version D version files, in Elizabeth's PyCharm project / R2 | **Not in the GitHub repo.** Requested from the linked Mac on 2026-10-11; no response yet |
-| 2 | April 26 captures (Economics 5183053008; RL 5183052008) | Project evidence doc gives a summary only; full OCR text is with the PDFs | Needs the OCR text files |
-| 3 | Named-people list (person, version, role) | `version_d/outputs/` from `01_fellows_named_people.py` | **Not in the GitHub repo**; requested |
+| 1 | Posting text corpus, every captured version | The three sources `version_d/01_fellows_named_people.py` reads: `job_postings/snapshots/20260929T061625Z_greenhouse_anthropic_current_records.json` (629), `job_postings/historical_outputs/20260929T074631Z_historical_greenhouse_deduplicated.json` (1,246; the Version C source run), `job_postings/missing_archive_outputs/20260930T024433000000Z_missing_archived_pages_recovered.json` (932) | Received 2026-10-11 as `job_postings.zip` from the Desktop copy `AnthropicBiasData-copy-2026-10-11_15-40-17`; originals untouched; not committed to GitHub |
+| 2 | April 26 captures (Economics 5183053008; RL 5183052008) | Project evidence doc gives a summary only; full OCR text is with the PDFs | **Not provided.** Named people from the evidence note are included in T6; the Economics April 26 wording is not scored |
+| 3 | Named-people list (person, version, role) | `version_d/outputs/fellows_named_people.csv` and `fellows_posting_versions.csv` from `01_fellows_named_people.py` | Read from the Desktop copy; kept in git-ignored `outputs/private/inputs/` |
 | 4 | Hire outcomes | Findings doc; `config.yaml → outcome_link.source_groups` | Available |
 | 5 | Word lists | gender-decoder @ `7cb4a6d6a3b0a84a46eae8a6a312b5732cb363fd`, `app/wordlists.py`, vendored verbatim (MIT) | Available: 52 masculine, 50 feminine, 7 hyphenated stems |
 
@@ -53,7 +53,23 @@ Applied in order to the title; the first match wins (case-insensitive):
 
 Version C carries a `posting_classification` field (title + department rules, plus a description-based research signal). **Proposed decision for review:** use the title rules above as primary, because they match the pre-registered definition and are reproducible from titles alone; report agreement with Version C's field (`role_family.py → family_report`) as a robustness table. Elizabeth can choose Version C's field instead at the "go" step.
 
-Family counts and 20 sample titles per family: *pending corpus.* Posting families are not the same as hire families (hire groups are title-based from People Data Labs); mismatches will be listed.
+**Decision applied:** the three source files do not carry Version C's `posting_classification` field (it was added in the R2 analytical master), so the title rules are primary, as proposed.
+
+| Family | Postings (latest version) |
+|---|---|
+| Fellows | 7 |
+| Research-titled | 101 |
+| Engineering | 334 |
+| Other | 784 |
+
+Sample titles (20 per family, seed 20261011; Fellows has only 7):
+
+- **Fellows:** Anthropic AI Safety Fellow; Anthropic AI Security Fellow; Anthropic Fellows Program, AI Safety & Security; Anthropic Fellows Program, ML Systems & Reinforcement Learning; Anthropic Fellows Program, Reinforcement Learning; Anthropic Fellows Program, The Anthropic Institute (Economics & Policy); Anthropic STEM Fellow
+- **Research-titled:** Applied AI, Research Engineer; Communications Manager, Research; Engineering Manager, Research Data Platform; Engineering Manager, Research Productivity; Research & Education Sales Lead, Beneficial Deployments; Research Economist, Economic Research; Research Engineer / Scientist, Societal Impacts; Research Engineer, Code RL (Reinforcement Learning); Research Engineer, Cybersecurity RL (Reinforcement Learning); Research Engineer, Discovery; Research Engineer, Pretraining Scaling - London; Research Engineer, Production Model Post-Training; Research Lead, Training Insights; Research Manager, Biological Safety; Research Product Manager, Labs; Researcher, Education Labs; Staff+ Research Scientist, Multi-Agent; Staff+ Researcher, Cybersecurity Products; Transformative AI Research Economist, Economic Research; User Experience Researcher, Platform
+- **Engineering:** Applied AI Engineer, Enterprise; Director, Compute Infrastructure Procurement Operations; Engineering Manager, Inference Infrastructure; Finance Systems Engineer, Revenue; IT Support Engineer; Manager, Web Engineering; Platform Security Engineer, OpenBMC; Security Labs Engineer; Senior Software Engineer, Systems; Silicon Engineer; Software Engineer, Systems - Claude Code; Software Engineer, Tokens and Prompt Structures; Sr. Software Engineer, Inference; Staff + Senior Software Engineer, Inference Infrastructure; Staff Engineer, Datacenter Server Lifecycle; Staff Software Engineer, Observability & Profiling; Staff+ Software Engineer, Backend; Staff+ Software Engineer, Capacity Engineering; Staff+ Software Engineer, Distributed Systems; Staff+ Software Engineer, Platform Connectivity
+- **Other:** Analytics, Finance & Strategy; Art Director, Enterprise; Customer Success Manager, Beneficial Deployments - Global Development; Enterprise Account Executive - Industries Generalist; Executive Communications Writer; Executive Escalations Manager; Field Marketing Manager, APAC; Finance & Strategy, Deal Velocity; GTM Strategy & Operations, Frontier; Head of Compute Supply Chain; Head of EMEA Partner Success; Head of Logistics; IP Counsel, Copyright; Manager Applied AI Architecture, Healthcare & Life Sciences; Manager, Applied AI (Startups); Partner Enablement Lead, System Integrators; Product Manager, New Markets and Monetization; Regional Manager APAC, Data Center Capacity Delivery; Sales Strategy, Operational Excellence; Supplier Security & Assurance, Security GRC
+
+**Mismatches with function (kept, per the pre-registered rule):** "Research" in a title puts non-research roles in Research-titled (for example "Communications Manager, Research", "Research & Education Sales Lead", "User Experience Researcher", "Research Product Manager"); "Infrastructure" and "Engineer" put "Director, Compute Infrastructure Procurement Operations" and "IT Support Engineer" in Engineering. Hire groups (People Data Labs titles) are a different classification: the 32 Fellows hires map to the Fellows posting family, but "AI researchers" and "Engineering (general/unspecified)" do not correspond one-to-one to these posting families.
 
 ## 6. Wording score (T7)
 
@@ -89,7 +105,7 @@ Precision per stem = trait-sense labels ÷ labels. **Fixed rule:** the sense-fil
 
 **Gender of named people (T6):** public self-identification only (pronouns or explicit self-description in an official bio, faculty page, personal site, or published interview), with URL, exact quote and date accessed. Never inferred from names, photos or voice. If nothing is found, Unknown. Person-level codes are written only to `outputs/private/named_people_gender.csv`, which is git-ignored; every public output carries aggregates only.
 
-## 9. Already run (no posting scores involved)
+## 9. Run before the corpus arrived (no posting scores involved)
 
 - **Estimability gate (H3), 2026-10-11:** `estimable: false`. Four non-overlapping cells (Fellows 14 M / 8 F / 10 U; non-Fellows researchers 5 / 0 / 3; Engineering 235 / 51 / 72; Other 352 / 217 / 128) < 10 required; one cell has < 10 known-sex hires; both sexes appear in 3 cells < 5. The Engineering/research overlap cannot be verified from aggregate counts.
 - **Model 1b estimator test on simulated data, 2026-10-11:** 95% CI coverage of the true β = 0.96 across 200 simulated data sets (target ≥ 0.90); mean estimate −0.0295 vs. true −0.030. An estimator test, not a result.
@@ -99,6 +115,15 @@ Precision per stem = trait-sense labels ÷ labels. **Fixed rule:** the sense-fil
 | Date | Deviation | Reason |
 |---|---|---|
 | 2026-10-11 | Test 1's first draft asserted the fixture sentence had 7 words; it has 6. The test fixture was corrected; the scoring code was not changed. | Miscount in the test itself, caught on first run |
+| 2026-10-11 | "Go" was given on the 10-line summary before family counts and sample titles were shown; they were computed afterward and are recorded in section 5. No rule changed. | Elizabeth approved early to keep work moving |
+| 2026-10-11 | Version C's `posting_classification` field is not in the source files, so the title rules are primary (the plan's proposed default). | Field exists only in the R2 master |
+| 2026-10-11 | The April 26 OCR text was not provided: T7c's Economics comparison is not scored; its named people are taken from the project evidence note. | Input not available |
+| 2026-10-11 | Sense-audit rubric clarified before any label: task verbs, job levels, technical terms, proper nouns and headings = other sense; person qualities, including desired candidate qualities phrased as skills, = trait sense. | The pre-registered rubric did not say how to treat task verbs such as "lead the design of" |
+| 2026-10-11 | With 62 matched stems, stratifying 200 matches gave 1–4 per stem (not up to 10). The 0.50 drop rule was applied unchanged, so stem-level precision rests on very few labels. | Arithmetic of the pre-registered sample size |
+| 2026-10-11 | Convergent-check sentences: at least 4 tokens, leading bullet characters stripped, deduplicated within family; 75 per family. Fixed before labeling. | Headings such as "Responsibilities" are not sentences |
+| 2026-10-11 | Both label sets were produced by Claude subagents with the written rubrics (one rater each; the convergent rater was blind to lexicon labels). | No second human rater available; single-rater limitation reported |
+| 2026-10-11 | Gender coding by Claude subagents using web search under the public self-identification rule; three known codes were re-verified by direct fetch; two personal pages could not be fetched, so those people stay Unknown. Code "nonbinary" was allowed (none found). | Scale (50 people) |
+| 2026-10-11 | Added a bootstrap 95% CI for κ and Wilson CIs for audit precision and Model 1b coverage. | Reporting only; every finding needs an interval |
 
 ## References (APA 7)
 

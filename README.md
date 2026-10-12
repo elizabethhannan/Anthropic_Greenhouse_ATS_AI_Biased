@@ -35,7 +35,7 @@ Neither model uses Anthropic applicant data, because none is available. Each sta
 | Folder | [`version_d/model1_posting_signal/`](version_d/model1_posting_signal/) | [`version_d/model2_feedback_loop/`](version_d/model2_feedback_loop/) |
 | Question | What do postings signal: gender-coded wording (T7) and who is named (T6)? | If a sex-blind screener is retrained on the outcomes it helped produce, does a historical gap persist, grow, or fade? |
 | Data | Observed posting text (Greenhouse captures, April–September 2026) | **Synthetic applicants only**, calibrated to the observed 17.8% engineering share and the 20.3% BLS benchmark |
-| Status | Built and unit-tested; pre-registration drafted. **Waiting for the posting corpus and named-people list** (kept in R2 / local, not GitHub) and approval of the plan | **Complete:** run, 10 of 10 tests passed, results file, model card, methods appendix, figures |
+| Status | **Complete:** pre-registered, run on 1,226 postings, 10 of 10 tests passed, results file, model card, methods appendix, figures, dashboard strings | **Complete:** run, 11 of 11 tests passed, results file, model card, methods appendix, figures |
 | Can claim | What postings signal, by role family | How the mechanism behaves under stated assumptions |
 | Cannot claim | That wording or named people changed who applied or was hired | Anything about Anthropic's actual screening system, applicants, or workforce |
 
@@ -64,19 +64,25 @@ Median of 200 runs with the 5th–95th percentile range. Screen impact ratio = w
 
 Full results: [`model2_results.json`](version_d/model2_feedback_loop/outputs/model2_results.json) · [model card](version_d/model2_feedback_loop/outputs/model_card.md) · [methods appendix](version_d/model2_feedback_loop/outputs/methods_appendix.md).
 
-### Model 1 status
+### Model 1 headline results (OBSERVED MEASUREMENT — posting text; describes wording, not intent)
 
-- **Word lists pinned:** gender-decoder @ `7cb4a6d` (52 masculine, 50 feminine, 7 hyphenated stems), vendored verbatim.
-- **H3 outcome link: not estimable.** 4 non-overlapping hire cells against 10 required; both sexes appear in only 3 cells.
-- **Model 1b, the applicant-level mechanism test:** built and validated on simulated data (95% CI coverage 0.96 against a 0.90 target), ready for internal applicant counts by posting. This is an estimator test, not a result.
-- **H1** (research and Fellows postings use more masculine-coded wording) and **H2** (gender of the 50 people named in Fellows postings) run after the plan in [`analysis_plan.md`](version_d/model1_posting_signal/analysis_plan.md) is approved.
+- **Visibility (H2).** Fellows postings are the only postings that name people. Of the 50 people they name, 28 have public self-identification: **3 women and 25 men** (women 10.7%, Wilson 95% CI 3.7–27.2%). That is below parity (exact binomial p < .001) and below women's 36.4% share of known-sex Fellows hires (Fisher's exact p = .042). With 22 people Unknown, the share of all named people could be anywhere from 6% to 50%.
+- **Wording (H1): not supported.** On the raw lexicon, Fellows postings use *fewer* masculine-coded words than other postings (2.83 vs. 12.59 per 1,000; Holm p = .025), as do research-titled postings (Holm p = .001). After low-precision stems are removed, the differences are under 1 word per 1,000.
+- **The lexicon is weakly valid in this technical text.** Only 21% of audited matches use a word in a trait sense ("lead", "analysis", "support" and "responsibilities" are mostly technical or task words), and agreement with blind sentence ratings is κ = 0.24, below the pre-set 0.40.
+- **Outcome link (H3): not estimable** from public data (4 hire cells; 10 required). **Model 1b**, the applicant-level test, is validated on simulated data (96% CI coverage) and ready for internal applicant counts by posting.
+
+<p>
+<img src="version_d/model1_posting_signal/outputs/figures/f2_named_people_by_version.png" alt="Stacked bars of people named in each Fellows posting version: mostly men among those with public self-identification, many Unknown; counts only, no names" width="100%">
+</p>
+
+Full results: [`model1_results.json`](version_d/model1_posting_signal/outputs/model1_results.json) · [model card](version_d/model1_posting_signal/outputs/model_card.md) · [methods appendix](version_d/model1_posting_signal/outputs/methods_appendix.md) · [pre-registration](version_d/model1_posting_signal/analysis_plan.md).
 
 ## Analytical status
 
 | Layer | Status |
 |---|---|
 | Observed disparity | OBSERVABLE |
-| Posting signals (Model 1) | PARTIAL: named-person audit done; wording scores pending |
+| Posting signals (Model 1) | OBSERVABLE: named people mostly men among known self-ID; wording lexicon weakly valid |
 | Algorithmic causation | NOT ESTABLISHED |
 | Prediction | NOT ESTIMABLE FROM PUBLIC DATA |
 | Historical feedback loops | EXPLORATORY HYPOTHESIS (simulated in Model 2; not confirmed) |

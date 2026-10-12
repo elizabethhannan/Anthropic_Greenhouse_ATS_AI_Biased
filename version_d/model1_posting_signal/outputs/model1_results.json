@@ -1,0 +1,1490 @@
+{
+  "label": "OBSERVED MEASUREMENT — posting text; describes wording, not intent",
+  "run_date": "2026-10-11",
+  "corpus": {
+    "records_total": 2263,
+    "distinct_versions": 1610,
+    "exact_duplicates_dropped": 653,
+    "postings_primary": 1227,
+    "records_scored": 1226,
+    "excluded_short": 1,
+    "boilerplate_word_share_removed": 0.511,
+    "boilerplate_sentences_removed": 41,
+    "wordlist_source": "gender-decoder@7cb4a6d6a3b0a84a46eae8a6a312b5732cb363fd",
+    "sources": [
+      "Greenhouse current snapshot 2026-09-29 (629 records)",
+      "Historical Greenhouse deduplicated 20260929T074631Z (1,246 records; 704 with text)",
+      "Recovered archive pages 20260930T024433Z (932 records; 930 with text)"
+    ],
+    "families": [
+      {
+        "family": "Fellows",
+        "n": 7
+      },
+      {
+        "family": "Research-titled",
+        "n": 101
+      },
+      {
+        "family": "Engineering",
+        "n": 334
+      },
+      {
+        "family": "Other",
+        "n": 784
+      }
+    ],
+    "role_family_rule": "Title rules in order: Fellow → Research → Engineer|Developer|Software|Infrastructure|Reliability → Other"
+  },
+  "wording": {
+    "by_family": [
+      {
+        "family": "Fellows",
+        "n": 7,
+        "masc_per_1k": {
+          "mean": 2.827,
+          "ci": [
+            2.1818,
+            3.5054
+          ]
+        },
+        "fem_per_1k": {
+          "mean": 8.9941,
+          "ci": [
+            7.2195,
+            10.6784
+          ]
+        },
+        "net_per_1k": {
+          "mean": -6.1671,
+          "ci": [
+            -8.2717,
+            -3.9612
+          ]
+        },
+        "decoder_labels": {
+          "feminine-coded": 3,
+          "strongly feminine-coded": 4
+        }
+      },
+      {
+        "family": "Research-titled",
+        "n": 101,
+        "masc_per_1k": {
+          "mean": 9.2956,
+          "ci": [
+            7.8054,
+            10.9001
+          ]
+        },
+        "fem_per_1k": {
+          "mean": 13.1128,
+          "ci": [
+            12.016,
+            14.2425
+          ]
+        },
+        "net_per_1k": {
+          "mean": -3.8172,
+          "ci": [
+            -5.7073,
+            -1.8842
+          ]
+        },
+        "decoder_labels": {
+          "feminine-coded": 33,
+          "masculine-coded": 12,
+          "neutral": 8,
+          "strongly feminine-coded": 35,
+          "strongly masculine-coded": 13
+        }
+      },
+      {
+        "family": "Engineering",
+        "n": 334,
+        "masc_per_1k": {
+          "mean": 9.3152,
+          "ci": [
+            8.6322,
+            10.0422
+          ]
+        },
+        "fem_per_1k": {
+          "mean": 13.19,
+          "ci": [
+            12.4424,
+            13.9514
+          ]
+        },
+        "net_per_1k": {
+          "mean": -3.8748,
+          "ci": [
+            -4.9036,
+            -2.8574
+          ]
+        },
+        "decoder_labels": {
+          "feminine-coded": 88,
+          "masculine-coded": 54,
+          "neutral": 34,
+          "strongly feminine-coded": 114,
+          "strongly masculine-coded": 44
+        }
+      },
+      {
+        "family": "Other",
+        "n": 784,
+        "masc_per_1k": {
+          "mean": 12.5922,
+          "ci": [
+            12.0882,
+            13.0921
+          ]
+        },
+        "fem_per_1k": {
+          "mean": 14.426,
+          "ci": [
+            13.9458,
+            14.9234
+          ]
+        },
+        "net_per_1k": {
+          "mean": -1.8338,
+          "ci": [
+            -2.5485,
+            -1.1033
+          ]
+        },
+        "decoder_labels": {
+          "feminine-coded": 176,
+          "masculine-coded": 118,
+          "neutral": 65,
+          "strongly feminine-coded": 258,
+          "strongly masculine-coded": 167
+        }
+      }
+    ],
+    "by_family_sense_filtered": [
+      {
+        "family": "Fellows",
+        "n": 7,
+        "masc_per_1k": {
+          "mean": 0.9497,
+          "ci": [
+            0.6035,
+            1.1955
+          ]
+        },
+        "fem_per_1k": {
+          "mean": 2.1805,
+          "ci": [
+            1.3798,
+            3.027
+          ]
+        },
+        "net_per_1k": {
+          "mean": -1.2308,
+          "ci": [
+            -2.3137,
+            -0.3225
+          ]
+        },
+        "decoder_labels": {
+          "feminine-coded": 4,
+          "neutral": 3
+        }
+      },
+      {
+        "family": "Research-titled",
+        "n": 101,
+        "masc_per_1k": {
+          "mean": 0.539,
+          "ci": [
+            0.3219,
+            0.7969
+          ]
+        },
+        "fem_per_1k": {
+          "mean": 2.9631,
+          "ci": [
+            2.4463,
+            3.5133
+          ]
+        },
+        "net_per_1k": {
+          "mean": -2.424,
+          "ci": [
+            -3.0005,
+            -1.8413
+          ]
+        },
+        "decoder_labels": {
+          "empty": 27,
+          "feminine-coded": 56,
+          "masculine-coded": 6,
+          "neutral": 7,
+          "strongly feminine-coded": 5
+        }
+      },
+      {
+        "family": "Engineering",
+        "n": 334,
+        "masc_per_1k": {
+          "mean": 0.4962,
+          "ci": [
+            0.3712,
+            0.6328
+          ]
+        },
+        "fem_per_1k": {
+          "mean": 1.8435,
+          "ci": [
+            1.5649,
+            2.1269
+          ]
+        },
+        "net_per_1k": {
+          "mean": -1.3473,
+          "ci": [
+            -1.6577,
+            -1.0326
+          ]
+        },
+        "decoder_labels": {
+          "empty": 133,
+          "feminine-coded": 132,
+          "masculine-coded": 36,
+          "neutral": 13,
+          "strongly feminine-coded": 20
+        }
+      },
+      {
+        "family": "Other",
+        "n": 784,
+        "masc_per_1k": {
+          "mean": 0.291,
+          "ci": [
+            0.2346,
+            0.3497
+          ]
+        },
+        "fem_per_1k": {
+          "mean": 2.2587,
+          "ci": [
+            2.0837,
+            2.4363
+          ]
+        },
+        "net_per_1k": {
+          "mean": -1.9677,
+          "ci": [
+            -2.1551,
+            -1.7893
+          ]
+        },
+        "decoder_labels": {
+          "empty": 273,
+          "feminine-coded": 400,
+          "masculine-coded": 46,
+          "neutral": 20,
+          "strongly feminine-coded": 45
+        }
+      }
+    ],
+    "tests": [
+      {
+        "comparison": "Fellows vs Other",
+        "metric": "masc_per_1k",
+        "variant": "raw",
+        "n": 7,
+        "n_ref": 784,
+        "diff": -9.7652,
+        "ci": [
+          -10.5979,
+          -8.9121
+        ],
+        "p_perm": 0.0028,
+        "cliffs_delta": -0.9191,
+        "p_holm": 0.0252
+      },
+      {
+        "comparison": "Research-titled vs Other",
+        "metric": "masc_per_1k",
+        "variant": "raw",
+        "n": 101,
+        "n_ref": 784,
+        "diff": -3.2966,
+        "ci": [
+          -4.8619,
+          -1.6309
+        ],
+        "p_perm": 0.0001,
+        "cliffs_delta": -0.3101,
+        "p_holm": 0.0012
+      },
+      {
+        "comparison": "Engineering vs Other",
+        "metric": "masc_per_1k",
+        "variant": "raw",
+        "n": 334,
+        "n_ref": 784,
+        "diff": -3.277,
+        "ci": [
+          -4.1477,
+          -2.3892
+        ],
+        "p_perm": 0.0001,
+        "cliffs_delta": -0.2916,
+        "p_holm": 0.0012
+      },
+      {
+        "comparison": "Fellows vs Other",
+        "metric": "fem_per_1k",
+        "variant": "raw",
+        "n": 7,
+        "n_ref": 784,
+        "diff": -5.4319,
+        "ci": [
+          -7.3108,
+          -3.6729
+        ],
+        "p_perm": 0.043,
+        "cliffs_delta": -0.5113,
+        "p_holm": 0.1576
+      },
+      {
+        "comparison": "Research-titled vs Other",
+        "metric": "fem_per_1k",
+        "variant": "raw",
+        "n": 101,
+        "n_ref": 784,
+        "diff": -1.3133,
+        "ci": [
+          -2.4994,
+          -0.0804
+        ],
+        "p_perm": 0.0646,
+        "cliffs_delta": -0.1059,
+        "p_holm": 0.1576
+      },
+      {
+        "comparison": "Engineering vs Other",
+        "metric": "fem_per_1k",
+        "variant": "raw",
+        "n": 334,
+        "n_ref": 784,
+        "diff": -1.236,
+        "ci": [
+          -2.1298,
+          -0.3123
+        ],
+        "p_perm": 0.0061,
+        "cliffs_delta": -0.123,
+        "p_holm": 0.0488
+      },
+      {
+        "comparison": "Fellows vs Other",
+        "metric": "masc_per_1k",
+        "variant": "sense_filtered",
+        "n": 7,
+        "n_ref": 784,
+        "diff": 0.6587,
+        "ci": [
+          0.3038,
+          0.9143
+        ],
+        "p_perm": 0.0394,
+        "cliffs_delta": 0.6243,
+        "p_holm": 0.1576
+      },
+      {
+        "comparison": "Research-titled vs Other",
+        "metric": "masc_per_1k",
+        "variant": "sense_filtered",
+        "n": 101,
+        "n_ref": 784,
+        "diff": 0.248,
+        "ci": [
+          0.018,
+          0.5102
+        ],
+        "p_perm": 0.0085,
+        "cliffs_delta": 0.0801,
+        "p_holm": 0.0581
+      },
+      {
+        "comparison": "Engineering vs Other",
+        "metric": "masc_per_1k",
+        "variant": "sense_filtered",
+        "n": 334,
+        "n_ref": 784,
+        "diff": 0.2052,
+        "ci": [
+          0.0645,
+          0.3497
+        ],
+        "p_perm": 0.0015,
+        "cliffs_delta": 0.0652,
+        "p_holm": 0.015
+      },
+      {
+        "comparison": "Fellows vs Other",
+        "metric": "fem_per_1k",
+        "variant": "sense_filtered",
+        "n": 7,
+        "n_ref": 784,
+        "diff": -0.0782,
+        "ci": [
+          -0.9244,
+          0.7773
+        ],
+        "p_perm": 0.936,
+        "cliffs_delta": 0.113,
+        "p_holm": 0.936
+      },
+      {
+        "comparison": "Research-titled vs Other",
+        "metric": "fem_per_1k",
+        "variant": "sense_filtered",
+        "n": 101,
+        "n_ref": 784,
+        "diff": 0.7044,
+        "ci": [
+          0.1508,
+          1.2695
+        ],
+        "p_perm": 0.0083,
+        "cliffs_delta": 0.1594,
+        "p_holm": 0.0581
+      },
+      {
+        "comparison": "Engineering vs Other",
+        "metric": "fem_per_1k",
+        "variant": "sense_filtered",
+        "n": 334,
+        "n_ref": 784,
+        "diff": -0.4152,
+        "ci": [
+          -0.7477,
+          -0.0847
+        ],
+        "p_perm": 0.014,
+        "cliffs_delta": -0.1232,
+        "p_holm": 0.07
+      }
+    ],
+    "sense_audit": {
+      "sampled": 200,
+      "overall_precision": 0.21,
+      "dropped_stems": [
+        "active",
+        "aggress",
+        "agree",
+        "ambitio",
+        "analy",
+        "assert",
+        "autonom",
+        "battle",
+        "challeng",
+        "champion",
+        "child",
+        "commit",
+        "compet",
+        "confident",
+        "connect",
+        "decid",
+        "decision",
+        "defend",
+        "depend",
+        "determin",
+        "dominant",
+        "driven",
+        "emotiona",
+        "fight",
+        "force",
+        "hierarch",
+        "honest",
+        "inclusive",
+        "individual",
+        "interdependen",
+        "kind",
+        "lead",
+        "logic",
+        "loyal",
+        "nurtur",
+        "objective",
+        "opinion",
+        "principle",
+        "quiet",
+        "respon",
+        "sensitiv",
+        "share",
+        "sharin",
+        "support",
+        "tender",
+        "together",
+        "trust",
+        "understand",
+        "warm",
+        "yield"
+      ],
+      "precision_by_stem": [
+        {
+          "stem": "agree",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "child",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "collab",
+          "list": "feminine",
+          "n": 3,
+          "trait": 3,
+          "precision": 1.0
+        },
+        {
+          "stem": "commit",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "connect",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "cooperat",
+          "list": "feminine",
+          "n": 3,
+          "trait": 2,
+          "precision": 0.6667
+        },
+        {
+          "stem": "depend",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "emotiona",
+          "list": "feminine",
+          "n": 3,
+          "trait": 1,
+          "precision": 0.3333
+        },
+        {
+          "stem": "empath",
+          "list": "feminine",
+          "n": 3,
+          "trait": 3,
+          "precision": 1.0
+        },
+        {
+          "stem": "enthusias",
+          "list": "feminine",
+          "n": 3,
+          "trait": 3,
+          "precision": 1.0
+        },
+        {
+          "stem": "feel",
+          "list": "feminine",
+          "n": 3,
+          "trait": 2,
+          "precision": 0.6667
+        },
+        {
+          "stem": "honest",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "inclusive",
+          "list": "feminine",
+          "n": 3,
+          "trait": 1,
+          "precision": 0.3333
+        },
+        {
+          "stem": "interdependen",
+          "list": "feminine",
+          "n": 2,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "interpersonal",
+          "list": "feminine",
+          "n": 3,
+          "trait": 3,
+          "precision": 1.0
+        },
+        {
+          "stem": "kind",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "loyal",
+          "list": "feminine",
+          "n": 1,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "nurtur",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "quiet",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "respon",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "sensitiv",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "share",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "sharin",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "support",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "tender",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "together",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "trust",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "understand",
+          "list": "feminine",
+          "n": 3,
+          "trait": 1,
+          "precision": 0.3333
+        },
+        {
+          "stem": "warm",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "yield",
+          "list": "feminine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "active",
+          "list": "masculine",
+          "n": 3,
+          "trait": 1,
+          "precision": 0.3333
+        },
+        {
+          "stem": "aggress",
+          "list": "masculine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "ambitio",
+          "list": "masculine",
+          "n": 3,
+          "trait": 1,
+          "precision": 0.3333
+        },
+        {
+          "stem": "analy",
+          "list": "masculine",
+          "n": 3,
+          "trait": 1,
+          "precision": 0.3333
+        },
+        {
+          "stem": "assert",
+          "list": "masculine",
+          "n": 3,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "autonom",
+          "list": "masculine",
+          "n": 4,
+          "trait": 1,
+          "precision": 0.25
+        },
+        {
+          "stem": "battle",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "challeng",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "champion",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "compet",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "confident",
+          "list": "masculine",
+          "n": 4,
+          "trait": 1,
+          "precision": 0.25
+        },
+        {
+          "stem": "decid",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "decision",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "decisive",
+          "list": "masculine",
+          "n": 4,
+          "trait": 3,
+          "precision": 0.75
+        },
+        {
+          "stem": "defend",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "determin",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "dominant",
+          "list": "masculine",
+          "n": 1,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "driven",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "fight",
+          "list": "masculine",
+          "n": 2,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "force",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "hierarch",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "independen",
+          "list": "masculine",
+          "n": 4,
+          "trait": 3,
+          "precision": 0.75
+        },
+        {
+          "stem": "individual",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "intellect",
+          "list": "masculine",
+          "n": 4,
+          "trait": 4,
+          "precision": 1.0
+        },
+        {
+          "stem": "lead",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "logic",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "objective",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "opinion",
+          "list": "masculine",
+          "n": 4,
+          "trait": 1,
+          "precision": 0.25
+        },
+        {
+          "stem": "persist",
+          "list": "masculine",
+          "n": 4,
+          "trait": 4,
+          "precision": 1.0
+        },
+        {
+          "stem": "principle",
+          "list": "masculine",
+          "n": 4,
+          "trait": 0,
+          "precision": 0.0
+        },
+        {
+          "stem": "self-sufficien",
+          "list": "masculine",
+          "n": 2,
+          "trait": 2,
+          "precision": 1.0
+        },
+        {
+          "stem": "superior",
+          "list": "masculine",
+          "n": 1,
+          "trait": 1,
+          "precision": 1.0
+        }
+      ],
+      "by_family": {
+        "Engineering": 0.254,
+        "Fellows": 0.1333,
+        "Other": 0.2083,
+        "Research-titled": 0.18
+      },
+      "overall_precision_ci": [
+        0.1593,
+        0.2716
+      ],
+      "stems_audited": 62
+    },
+    "convergent_check": {
+      "sentences": 300,
+      "kappa": 0.2352,
+      "weakly_valid_flag": true,
+      "threshold": 0.4,
+      "variants": {
+        "raw": {
+          "kappa": 0.2352,
+          "agreement": 0.7333,
+          "confusion_matrix": {
+            "rows_rater": [
+              "agentic",
+              "communal",
+              "neutral"
+            ],
+            "cols_lexicon": [
+              "agentic",
+              "communal",
+              "neutral"
+            ],
+            "counts": [
+              [
+                6,
+                1,
+                17
+              ],
+              [
+                1,
+                14,
+                7
+              ],
+              [
+                19,
+                35,
+                200
+              ]
+            ]
+          },
+          "rater_counts": {
+            "agentic": 24,
+            "communal": 22,
+            "neutral": 254
+          },
+          "lexicon_counts": {
+            "agentic": 26,
+            "communal": 50,
+            "neutral": 224
+          },
+          "kappa_ci": [
+            0.1166,
+            0.3496
+          ]
+        },
+        "sense_filtered": {
+          "kappa": 0.2608,
+          "agreement": 0.86,
+          "confusion_matrix": {
+            "rows_rater": [
+              "agentic",
+              "communal",
+              "neutral"
+            ],
+            "cols_lexicon": [
+              "agentic",
+              "communal",
+              "neutral"
+            ],
+            "counts": [
+              [
+                0,
+                0,
+                24
+              ],
+              [
+                0,
+                9,
+                13
+              ],
+              [
+                1,
+                4,
+                249
+              ]
+            ]
+          },
+          "rater_counts": {
+            "agentic": 24,
+            "communal": 22,
+            "neutral": 254
+          },
+          "lexicon_counts": {
+            "agentic": 1,
+            "communal": 13,
+            "neutral": 286
+          }
+        }
+      },
+      "rater": "Claude subagent, blind to lexicon labels, rubric v1",
+      "kappa_ci": [
+        0.1166,
+        0.3496
+      ]
+    },
+    "change_over_time": {
+      "pairs": [
+        {
+          "change": "AI Safety Fellow (Apr 3) → AI Safety & Security, combined (Sep 29)",
+          "computed": true,
+          "from": {
+            "captured": "2026-04-03",
+            "masc_per_1k": 2.1529,
+            "fem_per_1k": 9.6878
+          },
+          "to": {
+            "captured": "2026-09-29",
+            "masc_per_1k": 1.7809,
+            "fem_per_1k": 10.6857
+          },
+          "delta_masc_per_1k": -0.3719,
+          "delta_fem_per_1k": 0.9978
+        },
+        {
+          "change": "AI Security Fellow (Apr 2) → AI Safety & Security, combined (Sep 29)",
+          "computed": true,
+          "from": {
+            "captured": "2026-04-02",
+            "masc_per_1k": 2.3557,
+            "fem_per_1k": 5.8893
+          },
+          "to": {
+            "captured": "2026-09-29",
+            "masc_per_1k": 1.7809,
+            "fem_per_1k": 10.6857
+          },
+          "delta_masc_per_1k": -0.5748,
+          "delta_fem_per_1k": 4.7964
+        },
+        {
+          "change": "ML Systems & Performance (Apr 15) → ML Systems & RL, combined (Sep 29)",
+          "computed": true,
+          "from": {
+            "captured": "2026-04-15",
+            "masc_per_1k": 2.0182,
+            "fem_per_1k": 8.0727
+          },
+          "to": {
+            "captured": "2026-09-29",
+            "masc_per_1k": 3.386,
+            "fem_per_1k": 11.2867
+          },
+          "delta_masc_per_1k": 1.3678,
+          "delta_fem_per_1k": 3.214
+        },
+        {
+          "change": "Economics (Apr 26 capture) → Economics & Policy, Anthropic Institute (Jun 7 / Sep 29)",
+          "computed": false,
+          "reason": "The April 26 capture is an image-only PDF; its OCR text was not provided, so wording was not scored. Named-people change (2 → 5 listed mentors) is reported under T6."
+        }
+      ],
+      "fellows_versions_scored": [
+        {
+          "posting_id": "5030244008",
+          "title": "Anthropic AI Security Fellow",
+          "captured": "2026-04-02",
+          "n_words": 849,
+          "masc_per_1k": 2.3557,
+          "fem_per_1k": 5.8893
+        },
+        {
+          "posting_id": "5023394008",
+          "title": "Anthropic AI Safety Fellow",
+          "captured": "2026-04-03",
+          "n_words": 929,
+          "masc_per_1k": 2.1529,
+          "fem_per_1k": 9.6878
+        },
+        {
+          "posting_id": "5183051008",
+          "title": "Anthropic Fellows Program — ML Systems & Performance",
+          "captured": "2026-04-15",
+          "n_words": 991,
+          "masc_per_1k": 2.0182,
+          "fem_per_1k": 8.0727
+        },
+        {
+          "posting_id": "5189848008",
+          "title": "Anthropic STEM Fellow",
+          "captured": "2026-04-18",
+          "n_words": 502,
+          "masc_per_1k": 3.9841,
+          "fem_per_1k": 7.9681
+        },
+        {
+          "posting_id": "5183052008",
+          "title": "Anthropic Fellows Program, Reinforcement Learning",
+          "captured": "2026-06-10",
+          "n_words": 1007,
+          "masc_per_1k": 1.9861,
+          "fem_per_1k": 11.9166
+        },
+        {
+          "posting_id": "5183044008",
+          "title": "Anthropic Fellows Program, AI Safety & Security",
+          "captured": "2026-09-29",
+          "n_words": 1123,
+          "masc_per_1k": 1.7809,
+          "fem_per_1k": 10.6857
+        },
+        {
+          "posting_id": "5183051008",
+          "title": "Anthropic Fellows Program, ML Systems & Reinforcement Learning",
+          "captured": "2026-09-29",
+          "n_words": 886,
+          "masc_per_1k": 3.386,
+          "fem_per_1k": 11.2867
+        },
+        {
+          "posting_id": "5183053008",
+          "title": "Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",
+          "captured": "2026-09-29",
+          "n_words": 724,
+          "masc_per_1k": 4.1436,
+          "fem_per_1k": 5.5249
+        }
+      ]
+    }
+  },
+  "visibility": {
+    "fellows_versions": 9,
+    "versions_naming_people": 8,
+    "named_people": 50,
+    "mentor_listings": 63,
+    "credit_listings": 42,
+    "coded": {
+      "women": 3,
+      "men": 25,
+      "unknown": 22
+    },
+    "women_share_known": {
+      "value": 0.1071,
+      "ci": [
+        0.0371,
+        0.272
+      ],
+      "bounds": [
+        0.06,
+        0.5
+      ]
+    },
+    "listing_weighted_women_share": 0.0893,
+    "listings": {
+      "women": 5,
+      "men": 51,
+      "unknown": 49
+    },
+    "by_version": [
+      {
+        "version": "AI Safety & Security, combined (Sep 29)",
+        "named": 30,
+        "women": 1,
+        "men": 19,
+        "unknown": 10
+      },
+      {
+        "version": "AI Safety Fellow (Apr 3)",
+        "named": 25,
+        "women": 1,
+        "men": 19,
+        "unknown": 5
+      },
+      {
+        "version": "AI Security Fellow (Apr 2)",
+        "named": 11,
+        "women": 0,
+        "men": 3,
+        "unknown": 8
+      },
+      {
+        "version": "Economics & Policy, Anthropic Institute (Sep 29)",
+        "named": 12,
+        "women": 2,
+        "men": 5,
+        "unknown": 5
+      },
+      {
+        "version": "Economics (Apr 26 capture)",
+        "named": 9,
+        "women": 1,
+        "men": 3,
+        "unknown": 5
+      },
+      {
+        "version": "ML Systems & Performance (Apr 15)",
+        "named": 2,
+        "women": 0,
+        "men": 0,
+        "unknown": 2
+      },
+      {
+        "version": "ML Systems & RL, combined (Sep 29)",
+        "named": 9,
+        "women": 0,
+        "men": 1,
+        "unknown": 8
+      },
+      {
+        "version": "Reinforcement Learning (Jun 10)",
+        "named": 7,
+        "women": 0,
+        "men": 1,
+        "unknown": 6
+      },
+      {
+        "version": "STEM Fellow (Apr 18)",
+        "named": 0,
+        "women": 0,
+        "men": 0,
+        "unknown": 0
+      }
+    ],
+    "mentors_vs_credits": {
+      "mentors": {
+        "women": 2,
+        "men": 18,
+        "unknown": 13
+      },
+      "credits": {
+        "women": 1,
+        "men": 9,
+        "unknown": 10
+      }
+    },
+    "comparisons": [
+      {
+        "vs": "parity 50%",
+        "test": "exact binomial",
+        "p": 2.74e-05
+      },
+      {
+        "vs": "Fellows hires 8/22",
+        "test": "Fisher exact",
+        "p": 0.0419
+      }
+    ],
+    "listing_weighted_ci_descriptive": [
+      0.0387,
+      0.1926
+    ],
+    "coding_rule": "Public self-identification only (pronouns or explicit self-description in an official bio, personal site or profile, or published interview); never inferred from names, photos or voice.",
+    "source_types_for_known_codes": {
+      "interview": 8,
+      "official_bio": 20
+    }
+  },
+  "outcome_link": {
+    "estimable": false,
+    "rule": ">= 10 non-overlapping cells, each with >= 10 known-sex hires, and both sexes in >= 5 cells",
+    "cells": [
+      {
+        "cell": "Fellows",
+        "male": 14,
+        "female": 8,
+        "unknown": 10,
+        "known": 22
+      },
+      {
+        "cell": "Non-Fellows researchers",
+        "male": 5,
+        "female": 0,
+        "unknown": 3,
+        "known": 5
+      },
+      {
+        "cell": "Engineering",
+        "male": 235,
+        "female": 51,
+        "unknown": 72,
+        "known": 286
+      },
+      {
+        "cell": "Other",
+        "male": 352,
+        "female": 217,
+        "unknown": 128,
+        "known": 569
+      }
+    ],
+    "reason": "4 cells < 10 required; 1 cell(s) with < 10 known-sex hires; both sexes appear in 3 cell(s) < 5 required",
+    "estimates": null,
+    "notes": [
+      "Fellows are a subset of AI researchers; non-Fellows researchers = researchers - Fellows.",
+      "Engineering (general/unspecified) is treated as disjoint from the research cells; the source notes people can belong to several role groups through different employment records, so this overlap cannot be fully verified from aggregate counts.",
+      "Ecological fallacy (Robinson, 1950): a family-level association would not show that a posting affected applicants."
+    ]
+  },
+  "model1b": {
+    "status": "estimator built; validated on simulated data; awaiting internal applicant data",
+    "coverage_in_simulation": 0.96,
+    "coverage_ci": [
+      0.9231,
+      0.9796
+    ],
+    "simulations": 200,
+    "true_beta": -0.03,
+    "mean_estimate": -0.0295,
+    "label": "ESTIMATOR TEST ON SIMULATED DATA — not a result",
+    "template": "templates/applicants_by_posting.csv"
+  },
+  "thesis_alignment": [
+    {
+      "question": "Primary",
+      "question_text": "What is driving the observed gender disparity in Anthropic’s 2026 hiring environment, where might AI-assisted recruiting and human decision-making contribute to that disparity, and who should be responsible for identifying, measuring, and correcting potential systemic bias?",
+      "contribution": "Measured two recruiting-stage signals. Wording: no reliable masculine-coded excess in Fellows or research postings, and the lexicon is weakly valid here (κ = 0.24). Visibility: of named people with public self-identification, 3 of 28 are women (10.7%).",
+      "status": "Partial"
+    },
+    {
+      "question": "RQ1 Representation",
+      "question_text": "1. Representation: Why do men account for 68.7% of observed hires with known sex, compared with 31.3% women?",
+      "contribution": "H1 not supported (raw scores run opposite; filtered differences under 1 word per 1,000). H2: women are 10.7% of named people with known self-identification, below parity and below Fellows hires, with Unknown bounds 6.0%–50.0%. Explaining \"why\" needs applicant data.",
+      "status": "Partial"
+    },
+    {
+      "question": "RQ2 Algorithmic influence",
+      "question_text": "2. Algorithmic influence: Could AI-assisted screening, candidate matching, or historical hiring patterns reinforce existing demographic disparities?",
+      "contribution": "Measured the posting text any matching system would receive. The standard gendered-wording lexicon mostly matches technical terms in this text (21.0% trait sense), so it is a weak instrument for what a system would 'see'. Whether any system uses the text is not observable.",
+      "status": "Partial"
+    },
+    {
+      "question": "RQ3 Human decision-making",
+      "question_text": "3. Human decision-making: At which stages—recruiting, screening, interviewing, hiring, or advancement—might disparities emerge or compound?",
+      "contribution": "Observed the recruiting stage directly: Fellows postings are the only postings that name people, and among those with known self-identification 89.3% are men. The link to hires (H3) is not estimable from public data.",
+      "status": "Partial"
+    },
+    {
+      "question": "RQ4 Long-term AI risk",
+      "question_text": "4. Long-term AI risk: Could repeated employment outcomes become feedback signals that lead future AI systems to reproduce historical hiring preferences?",
+      "contribution": "Tracked Fellows postings across versions: wording changed little between the April and September versions, and women stayed a small share of named people in every version with known codes. Feedback into AI systems is Model 2's question.",
+      "status": "Partial"
+    },
+    {
+      "question": "RQ5 Governance",
+      "question_text": "5. Governance: What internal data, evaluation methods, and executive accountability are required to distinguish algorithmic bias from human, structural, and applicant-pool factors?",
+      "contribution": "Delivered a repeatable posting audit (wording with a sense audit, visibility with public self-identification) and the Model 1b estimator, validated at 96.0% CI coverage, ready for internal applicant counts by posting.",
+      "status": "Partial — method built; needs internal data"
+    }
+  ],
+  "research_layers": [
+    {
+      "layer": "Observed disparity",
+      "conclusion": "Observable",
+      "changed_by_model1": false
+    },
+    {
+      "layer": "Posting signals (new)",
+      "conclusion": "Observable: visibility measured (women 10.7% of named people with known self-identification, 22 Unknown); gendered wording measured but the lexicon is weakly valid in this text",
+      "changed_by_model1": true
+    },
+    {
+      "layer": "Algorithmic causation",
+      "conclusion": "Not established",
+      "changed_by_model1": false
+    },
+    {
+      "layer": "Predictive ML analysis",
+      "conclusion": "Not estimable from public data",
+      "changed_by_model1": false
+    },
+    {
+      "layer": "Historical feedback loops",
+      "conclusion": "Exploratory hypothesis",
+      "changed_by_model1": false
+    },
+    {
+      "layer": "Internal governance need",
+      "conclusion": "Evidence supports further investigation",
+      "changed_by_model1": false
+    }
+  ],
+  "executive_conclusion_model1": "The most consequential Model 1 finding is not that Anthropic's job postings use masculine-coded language: on a standard lexicon, Fellows and research postings show no reliable excess, and the lexicon itself proved weakly valid in technical text. It is that the only postings that show candidates who they would work with, the Fellows postings, show mostly men: among named people with public self-identification, 3 of 28 are women (10.7%), below parity and below women's share of Fellows hires, with 22 people still Unknown. This measures what postings make visible, not whether visibility changed who applied or who was hired; that question needs applicant counts by posting, which the Model 1b estimator is ready to analyze.",
+  "findings": [
+    "Contrary to H1, Fellows postings used fewer masculine-coded words per 1,000 than Other postings on the raw lexicon (2.83 vs. 12.59; difference -9.77, 95% CI -10.60 to -8.91; Holm-adjusted p = .025; Cliff's δ = -0.92), and so did research-titled postings (-3.30, CI -4.86 to -1.63; Holm p = .001) (RQ1).",
+    "The lexicon proved weakly valid in this technical text: only 21.0% of 200 audited matches used a word in a trait sense (95% CI 15.9%–27.2%), 50 of 62 audited stems fell below the 0.50 precision rule, and agreement with blind sentence ratings was κ = 0.24 (95% CI 0.12–0.35), below the pre-set 0.40 threshold (RQ2).",
+    "After the low-precision stems were removed, the direction reversed but the differences were under one word per 1,000: Fellows 0.95 vs. Other 0.29 (difference 0.66, CI 0.30 to 0.91; Holm p = .158), research-titled 0.25 (CI 0.02 to 0.51; Holm p = .058) and Engineering 0.21 (CI 0.06 to 0.35; Holm p = .015); with 7 Fellows postings and 3–4 audit labels per stem, this robustness check has low power and is not evidence either way (RQ1).",
+    "Among the 50 people named in Fellows postings, 28 had public self-identification: 3 women and 25 men, a women's share of 10.7% (Wilson 95% CI 3.7%–27.2%), below parity (exact binomial p < .001) and below women's 36.4% share of known-sex Fellows hires (Fisher's exact p = .042); because 22 people (44.0%) are Unknown, the share of all named people could lie anywhere from 6.0% to 50.0% (RQ1, RQ3).",
+    "Listed mentors were 2 women, 18 men and 13 Unknown, and past-project credits 1, 9 and 10; counting every appearance across the 9 versions, women were 8.9% of known-gender listings (5 of 56; descriptive Wilson CI 3.9%–19.3%, listings are not independent) (RQ3, RQ4).",
+    "The outcome link (H3) was not estimable: 4 non-overlapping hire cells against 10 required, with both sexes in only 3, so the \"Predictive ML analysis\" layer stays \"Not estimable from public data\"; the applicant-level estimator built for internal data (Model 1b) covered the known simulated effect in 96.0% of 200 simulated data sets (95% CI 92.3%–98.0%) (RQ5)."
+  ],
+  "limitations": [
+    "Lexicon validity in technical text: 21.0% of audited matches were trait sense and κ = 0.24 against blind sentence ratings; terms like 'lead', 'analysis', 'support' and 'responsibilities' dominate the raw scores.",
+    "The gender-decoder word lists include additions to Gaucher et al. (2011); the original appendix was not obtained, so an original-stems-only score was not run.",
+    "Small Fellows n: 7 Fellows postings in the primary corpus (8 of 9 versions; the April 26 Economics capture was not provided as text).",
+    "Role families are title-based; some titles land in a family they do not belong to by function (for example, 'Communications Manager, Research' is research-titled and 'IT Support Engineer' is Engineering).",
+    "Posting families are not hire families: hire groups come from People Data Labs titles and overlap.",
+    "Gender coding is limited to public self-identification: 22 of 50 people are Unknown, 8 of the known codes rest on interview or podcast pages written by hosts, and two personal pages could not be opened in this session.",
+    "Nothing here observes applicants; no statement about who applied or why is possible.",
+    "The sense audit and convergent check were labeled by a single rater (a Claude subagent with a written rubric), so no inter-rater reliability is available; the stem-level precision rests on 3–4 labels per stem.",
+    "542 of 1,246 historical records had no posting text; 1 record was excluded as under 150 words after boilerplate removal, which removed 51.1% of words."
+  ],
+  "references": [
+    "Anthropic. (2026). Job postings, April–September 2026 [Greenhouse job board captures]. Greenhouse. https://job-boards.greenhouse.io/anthropic",
+    "Cliff, N. (1993). Dominance statistics: Ordinal analyses to answer ordinal questions. Psychological Bulletin, 114(3), 494–509.",
+    "Cohen, J. (1960). A coefficient of agreement for nominal scales. Educational and Psychological Measurement, 20(1), 37–46.",
+    "Dewey & People Data Labs. (2026). Observed Anthropic starts, April–July 2026 [Unpublished data set extract].",
+    "Gaucher, D., Friesen, J., & Kay, A. C. (2011). Evidence that gendered wording in job advertisements exists and sustains gender inequality. Journal of Personality and Social Psychology, 101(1), 109–128.",
+    "Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics, 6(2), 65–70.",
+    "Matfield, K. (n.d.). Gender decoder for job ads [Computer software]. GitHub. https://github.com/lovedaybrooke/gender-decoder",
+    "Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I. D., & Gebru, T. (2019). Model cards for model reporting. In Proceedings of the Conference on Fairness, Accountability, and Transparency (pp. 220–229).",
+    "Nosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2018). The preregistration revolution. Proceedings of the National Academy of Sciences, 115(11), 2600–2606.",
+    "Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. American Sociological Review, 15(3), 351–357.",
+    "Wilson, E. B. (1927). Probable inference, the law of succession, and statistical inference. Journal of the American Statistical Association, 22(158), 209–212."
+  ]
+}

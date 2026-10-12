@@ -18,7 +18,7 @@ from pathlib import Path
 
 from scipy.stats import binomtest, fisher_exact, norm
 
-CODES = ("woman", "man", "unknown")
+CODES = ("woman", "man", "nonbinary", "unknown")
 PRIVATE_COLUMNS = ["person", "version", "role", "code", "source_url", "quote", "date_accessed"]
 
 
