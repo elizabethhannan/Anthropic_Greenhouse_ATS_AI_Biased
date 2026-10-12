@@ -1,0 +1,48 @@
+# Model 3 — paired-résumé audit of stand-in AI screeners.
+# Fixed on 2026-10-11 in model3_plan.md BEFORE any résumé was scored.
+
+label: "AUDIT OF STAND-IN AI SCREENERS — synthetic résumés scored against Anthropic's public postings; not Greenhouse's or Anthropic's system"
+version: "1.0"
+seed: 20261011
+
+postings:
+  corpus: "../model1_posting_signal/outputs/corpus/corpus_primary.jsonl"   # Model 1 primary corpus (git-ignored; rebuild with Model 1)
+  model1_scores: "../model1_posting_signal/outputs/scores_primary_sense_filtered.csv"
+  families:                    # résumé family -> Model 1 posting family
+    research: Research-titled
+    engineering: Engineering
+    fellows: Fellows
+
+screeners:
+  primary: SC1
+  list:
+    - id: SC1
+      name: "WordLlama l2_supercat 256-d"
+      kind: wordllama
+      dim: 256
+    - id: SC2
+      name: "GloVe 300-d (Wikipedia 2014 + Gigaword 5)"
+      kind: static
+      file: "glove-wiki-gigaword-300.gz"
+      checksum_md5: "29e9329ac2241937d55b852e8284e89b"
+    - id: SC3
+      name: "fastText 300-d (wiki-news subword)"
+      kind: static
+      file: "fasttext-wiki-news-subwords-300.gz"
+      checksum_md5: "de2bb3a20c46ce65c9c131e1ad9a77af"
+    - id: SC0
+      name: "TF-IDF keyword matcher (design control)"
+      kind: tfidf
+  vectors_dir_env: "MODEL3_VECTORS_DIR"      # folder holding the two .gz vector files
+
+metrics:
+  validity_flag_threshold: 0.10
+  selection_pools_per_posting: 100
+  selection_rate: 0.10
+  null_splits: 100
+  null_pools_per_posting: 20
+  signflip_permutations: 10000
+  link_permutations: 10000
+  four_fifths: 0.80
+
+decimals: 4

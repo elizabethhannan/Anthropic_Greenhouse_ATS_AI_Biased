@@ -1,0 +1,1769 @@
+screener,posting_id,title,family,d_name,d_word,masc_per_1k
+SC1,4017331008,"Research Engineer, Knowledge Team",research,-0.0787,-0.0758,0.0
+SC1,4017544008,"Staff+ Research Scientist, Multi-Agent",research,-0.101,-0.1235,0.0
+SC1,4532887008,"[Expression of Interest] Research Scientist / Engineer, Honesty",research,-0.0854,-0.0665,0.0
+SC1,4593216008,"Staff Research Engineer, Discovery Team",research,-0.0767,-0.0807,0.0
+SC1,4610158008,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",research,-0.0778,-0.0812,0.0
+SC1,4613568008,"Research Engineer, Machine Learning (Reinforcement Learning)",research,-0.0843,-0.1109,0.0
+SC1,4613592008,"Research Engineer, Production Model Post-Training",research,-0.0987,-0.0615,0.0
+SC1,4616971008,"Research Engineer/Research Scientist, Pre-training",research,-0.0786,-0.0464,1.845
+SC1,4631822008,"Research Engineer / Scientist, Alignment",research,-0.0964,-0.0747,0.0
+SC1,4669581008,"Research Engineer, Discovery",research,-0.0775,-0.0968,0.0
+SC1,4935314008,"Recruiter, AI Research",research,-0.0495,-0.0978,0.0
+SC1,4938432008,"Research Engineer, Pretraining Scaling",research,-0.1014,-0.0829,0.0
+SC1,4938436008,"Research Engineer, Pretraining Scaling - London",research,-0.0965,-0.0837,0.0
+SC1,4946308008,"Research Engineer, Virtual Collaborator (Cowork)",research,-0.0724,-0.0916,0.0
+SC1,4949108008,"Privacy Research Engineer, Safeguards",research,-0.0708,-0.1144,0.0
+SC1,4949336008,"ML/Research Engineer, Safeguards",research,-0.1101,-0.1253,0.0
+SC1,4951064008,"Research Engineer, Environment Scaling",research,-0.0752,-0.1155,0.0
+SC1,4951814008,"Research Engineer / Research Scientist, Tokens",research,-0.038,-0.0717,0.0
+SC1,4952051008,"Research Engineer, RL Engineering",research,-0.0786,-0.078,0.0
+SC1,4952079008,"Machine Learning Systems Engineer, Research Tools",research,-0.045,-0.1259,2.4155
+SC1,4980427008,"Research Scientist, Interpretability",research,-0.1367,-0.0563,0.0
+SC1,4980430008,"Research Engineer, Interpretability",research,-0.1043,-0.0759,0.0
+SC1,4980436008,"[Expression of Interest] Research Manager, Interpretability",research,-0.1563,-0.1086,0.0
+SC1,4981828008,"Software Engineer, Research Tools",research,-0.1122,-0.1023,3.231
+SC1,5018472008,"Research Economist, Economic Research",research,-0.076,-0.0251,0.0
+SC1,5024831008,"Research Engineer, Reward Models Platform",research,-0.0578,-0.107,0.0
+SC1,5024835008,"Senior Research Scientist, Reward Models",research,-0.0633,-0.036,0.0
+SC1,5025624008,"Research Engineer, Cybersecurity RL (Reinforcement Learning)",research,-0.0796,-0.0891,0.0
+SC1,5061517008,"Research Engineer, Universes",research,-0.0998,-0.1082,0.0
+SC1,5066977008,"Research Scientist/Engineer, Biological Safety",research,-0.1199,-0.124,1.6393
+SC1,5067100008,"Research Engineer, Frontier Red Team (Autonomy)",research,-0.1354,-0.087,0.0
+SC1,5071132008,"Research Engineer, Economic Research",research,-0.0666,-0.0928,0.0
+SC1,5074217008,"Research Engineer, Visual Knowledge Work",research,-0.0759,-0.0938,0.0
+SC1,5074815008,"Research Engineer/Research Scientist, Audio",research,-0.1327,-0.0143,0.0
+SC1,5076477008,"Research Engineer / Scientist, Frontier Red Team (Cyber)",research,-0.0956,-0.0602,0.0
+SC1,5076606008,"Research Engineer / Scientist, Societal Impacts",research,-0.1014,-0.0515,0.0
+SC1,5076616008,"Research Scientist, Societal Impacts",research,-0.0865,-0.0861,0.0
+SC1,5096878008,"Research Product Manager, Labs",research,-0.1032,-0.061,0.0
+SC1,5103788008,"Research Scientist, Frontier Red Team (Emerging Risks)",research,-0.0571,-0.027,1.9646
+SC1,5112018008,"Research Engineer, Production Model Post-Training",research,-0.1031,-0.0606,0.0
+SC1,5115935008,"Research Engineer, Machine Learning (Reinforcement Learning)",research,-0.0805,-0.1117,0.0
+SC1,5119713008,"Research Engineer, Pretraining",research,-0.0677,-0.0445,1.8484
+SC1,5123011008,"Offensive Security Research Engineer, Safeguards",research,-0.0567,-0.0809,0.0
+SC1,5123082008,"Product Management, Research",research,-0.0954,-0.0459,5.0125
+SC1,5125083008,"Research Engineer, AI Observability",research,-0.1103,-0.0957,0.0
+SC1,5126127008,"Research Engineer, Science of Scaling",research,-0.0885,-0.0654,2.7027
+SC1,5135168008,"Research Engineer / Research Scientist, Pre-training",research,-0.1001,-0.023,2.1322
+SC1,5139654008,"Research Lead, Training Insights",research,-0.0769,-0.0558,0.0
+SC1,5149802008,"Transformative AI Research Economist, Economic Research",research,-0.0909,0.0104,0.0
+SC1,5153680008,"Communications Manager, Research",research,-0.0885,-0.0251,0.0
+SC1,5154112008,"Research Operations, Economic Research",research,-0.0411,-0.0707,0.0
+SC1,5160330008,"Research Engineer, Performance RL",research,-0.1078,-0.0605,0.0
+SC1,5174556008,User Experience Researcher,research,-0.0734,-0.0686,0.0
+SC1,5188237008,"Research Operations, Discovery",research,-0.0715,-0.0695,0.0
+SC1,5191226008,"Software Engineer, Research Data Platform",research,-0.0584,-0.1304,0.0
+SC1,5191785008,"Research Engineer, Safeguards Labs",research,-0.0831,-0.1225,1.9569
+SC1,5197337008,"Research Engineer, RL Infrastructure and Reliability (Knowledge Work)",research,-0.1191,-0.1703,0.0
+SC1,5198074008,"Research Engineer, Machine Learning (RL Velocity)",research,-0.0459,-0.0759,0.0
+SC1,5198108008,"Research Engineer, Machine Learning (RL Velocity)",research,-0.0488,-0.0749,0.0
+SC1,5198255008,"Research Engineer, Post-Training Model Evaluations",research,-0.0906,-0.0697,0.0
+SC1,5203545008,"Technical Program Manager, Research",research,-0.0937,-0.1075,0.0
+SC1,5206456008,"Research Engineer, Search and Knowledge Post-Training",research,-0.1051,-0.0676,1.5601
+SC1,5207302008,"Contracts Manager, Research & Operations",research,-0.1182,-0.1298,0.0
+SC1,5208278008,"Research Operations, External Artifacts",research,-0.0974,-0.1095,0.0
+SC1,5223093008,"Engineering Manager, Research Productivity",research,-0.0851,-0.0961,0.0
+SC1,5231200008,"Regional Research Economist, Economic Research",research,-0.0691,-0.0216,0.0
+SC1,5231205008,"Regional Research Economist, Economic Research",research,-0.0734,-0.0204,0.0
+SC1,5231612008,"Research Engineer, Chip Design RL (Reinforcement Learning)",research,-0.1218,-0.0892,0.0
+SC1,5239733008,"Research Scientist, Life Sciences",research,-0.1281,-0.1272,1.7513
+SC1,5254364008,"Research Engineer, Code RL (Reinforcement Learning)",research,-0.0857,-0.1051,0.0
+SC1,5257763008,"People Research Scientist, Recruiting",research,-0.0867,-0.1029,1.8484
+SC1,5264619008,"Research Engineer, RL Scaling Science",research,-0.0552,-0.0583,0.0
+SC1,5265365008,"Research Engineer, Life Sciences",research,-0.09,-0.0983,3.268
+SC1,5271380008,"Research Engineer, Domain Scaling",research,-0.077,-0.0969,0.0
+SC1,5278065008,"Research Engineer, Rule of Law",research,-0.1219,-0.0444,0.0
+SC1,5283063008,"Software Engineer, Research Infrastructure",research,-0.1498,-0.1496,6.424
+SC1,5285246008,"Research Engineer, Computer Use",research,-0.1421,-0.1392,0.0
+SC1,5285248008,"Research Associate, Biology",research,-0.1121,-0.1108,0.0
+SC1,5285250008,"Research Scientist, Life Sciences (Experimental Biology)",research,-0.0916,-0.0615,2.331
+SC1,5286441008,"Researcher, Education Labs",research,-0.1184,-0.0874,0.0
+SC1,5297059008,"Engineering Manager, Research Data Platform",research,-0.076,-0.1496,0.0
+SC1,5304242008,"Research Operations Lead, Biology",research,-0.1485,-0.1682,0.0
+SC1,5324349008,"Product Manager, Research (Code)",research,-0.0986,-0.0464,5.1151
+SC1,5357739008,"Research Scientist, Life Sciences (Computational)",research,-0.0987,-0.0813,0.0
+SC1,5362838008,"People Research Scientist, Recruiting",research,-0.0873,-0.1033,1.8484
+SC1,5364804008,"Machine Learning Infrastructure Engineer, Safeguards Research",research,-0.1062,-0.1717,0.0
+SC1,5370669008,"Research Scientist, Takeoff Intel",research,-0.1303,-0.1038,0.0
+SC1,5380327008,"Technical Program Manager, RL Research",research,-0.0794,-0.0771,0.0
+SC1,5385217008,"Staff+ Researcher, Cybersecurity Products",research,-0.0691,-0.0997,0.0
+SC1,5387564008,"Research Scientist, Life Sciences (Chemistry)",research,-0.1135,-0.0898,2.7027
+SC1,5390811008,"Applied AI, Research Engineer",research,-0.1362,-0.0746,0.0
+SC1,5392007008,"User Experience Researcher, Platform",research,-0.09,-0.103,1.4948
+SC1,5404725008,"Staff+ Research Engineer, RL Data Platform",research,-0.0747,-0.1749,0.0
+SC1,5412334008,"Research Engineer, Cybersecurity RL (Reinforcement Learning)",research,-0.0893,-0.08,0.0
+SC1,5412944008,"Research Manager, Biological Safety",research,-0.1421,-0.1911,0.0
+SC1,5413418008,Research Counsel,research,-0.0927,-0.0687,0.0
+SC1,5415930008,"Research & Education Sales Lead, Beneficial Deployments",research,-0.1002,-0.0667,0.0
+SC1,5416882008,"Research Engineer, Takeoff Intel",research,-0.1122,-0.0866,0.0
+SC1,5422117008,"Research Operations, Reinforcement Learning",research,-0.0859,-0.1586,0.0
+SC1,5431235008,"Policy Research, Strategic Advisory",research,-0.0712,-0.0569,1.3495
+SC1,https://job-boards.greenhouse.io/anthropic/jobs/4610158008%5C,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",research,-0.091,-0.0753,0.0
+SC1,4020350008,Performance Engineer,engineering,-0.1024,-0.0999,0.0
+SC1,4502508008,Staff+ Application Security Engineer,engineering,-0.163,-0.2098,0.0
+SC1,4572744008,"Staff Software Engineer, iOS",engineering,-0.1126,-0.0555,0.0
+SC1,4595463008,"Security Software Engineer, Detection & Response Platform",engineering,-0.1952,-0.2301,0.0
+SC1,4641822008,"Senior Software Engineer, Inference",engineering,-0.0291,-0.0181,0.0
+SC1,4673416008,"Software Engineer, UI Platform",engineering,-0.1753,-0.0853,0.0
+SC1,4720576008,TPU Kernel Engineer,engineering,-0.111,-0.0833,0.0
+SC1,4741102008,"Engineering Manager, Inference",engineering,-0.203,-0.1963,0.0
+SC1,4741104008,"Engineering Manager, GPU (ML Accelerator)",engineering,-0.1685,-0.1801,0.0
+SC1,4778843008,"ML Infrastructure Engineer, Safeguards",engineering,-0.176,-0.1031,0.0
+SC1,4802076008,IT Support Engineer,engineering,-0.1433,-0.1487,1.4903
+SC1,4887952008,"IT Systems Engineer, Corporate Systems & Infrastructure",engineering,-0.1607,-0.1282,0.0
+SC1,4887959008,Senior Software Security Engineer,engineering,-0.0994,-0.1442,0.0
+SC1,4889396008,"Engineering Manager, Auth & Identity",engineering,-0.0903,-0.1247,0.0
+SC1,4899511008,"Staff Software Engineer, Android",engineering,-0.0998,-0.0662,0.0
+SC1,4915842008,"Senior Software Engineer, Systems",engineering,-0.1786,-0.109,2.7473
+SC1,4926227008,"Performance Engineer, GPU",engineering,-0.1246,-0.0825,0.0
+SC1,4926242008,"Software Engineer, ML Networking",engineering,-0.119,-0.0942,0.0
+SC1,4942024008,"Software Engineer, Beneficial Deployments",engineering,-0.0807,-0.0699,0.0
+SC1,4951696008,"Staff + Sr. Software Engineer, Inference",engineering,-0.0583,-0.0804,0.0
+SC1,4951844008,"Staff+ Software Engineer, Safeguards",engineering,-0.2303,-0.2073,0.0
+SC1,4956672008,Data Engineer,engineering,-0.1452,-0.209,0.0
+SC1,4970314008,"Staff+ Software Engineer, Infrastructure (Distributed Systems)",engineering,-0.1839,-0.1986,7.177
+SC1,4973067008,Pre-training Data Infrastructure Engineer,engineering,-0.1409,-0.1087,2.9499
+SC1,4980335008,"Engineering Manager, GRC Platform",engineering,-0.1929,-0.1721,1.0684
+SC1,4980420008,"Software Engineer, Desktop",engineering,-0.195,-0.0946,0.0
+SC1,4982193008,"Security Engineer, Detection & Response",engineering,-0.1762,-0.2631,0.0
+SC1,4982198008,"Software Engineer, Business Technology",engineering,-0.1153,-0.1035,6.1728
+SC1,4985877008,"Forward Deployed Engineer, Applied AI",engineering,-0.1249,-0.1143,0.0
+SC1,5012991008,Forward Deployed Engineer,engineering,-0.1251,-0.1044,0.0
+SC1,5013366008,"Engineering Manager, Safeguards Review Tooling",engineering,-0.1705,-0.1921,0.0
+SC1,5013743008,"Technical Program Manager, Data Center Infrastructure",engineering,-0.1743,-0.1521,0.0
+SC1,5014500008,Applied AI Engineer,engineering,-0.1392,-0.0952,2.2026
+SC1,5017202008,"Software Engineer, Labs",engineering,-0.1419,-0.1415,1.5432
+SC1,5021015008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,-0.1604,-0.2092,0.0
+SC1,5022845008,Staff Software Security Engineer,engineering,-0.0755,-0.1665,0.0
+SC1,5025591008,"Software Engineer, Sandboxing (Systems)",engineering,-0.1394,-0.0894,0.0
+SC1,5026097008,"Staff Software Engineer, Product",engineering,-0.1799,-0.1458,0.0
+SC1,5030680008,"Infrastructure Engineer, Sandboxing",engineering,-0.1079,-0.1241,0.0
+SC1,5055488008,Applied AI Engineer,engineering,-0.1448,-0.0845,2.1739
+SC1,5057647008,"Applied AI Engineer, Enterprise Tech",engineering,-0.1511,-0.1084,2.2173
+SC1,5062968008,"Technical Program Manager, Consumer Engineering",engineering,-0.1253,-0.079,0.0
+SC1,5063007008,"Staff+ Software Engineer, Cybersecurity Products",engineering,-0.1988,-0.1791,0.0
+SC1,5065894008,"Staff+ Software Engineer, Claude App Infrastructure",engineering,-0.1418,-0.2217,0.0
+SC1,5068226008,"Applied AI Engineer, Beneficial Deployments",engineering,-0.0662,-0.1402,0.0
+SC1,5068288008,"Senior Security Engineer, Detection & Response",engineering,-0.176,-0.2616,0.0
+SC1,5068296008,"Engineering Manager, Detection and Response",engineering,-0.2154,-0.2085,0.0
+SC1,5073277008,"Applied AI Engineer, Startups",engineering,-0.1853,-0.15,0.0
+SC1,5073998008,"Staff Software Engineer, Continuous Integration",engineering,-0.1595,-0.171,0.0
+SC1,5074908008,"Staff+ Software Engineer, Safeguards Infrastructure",engineering,-0.2115,-0.1356,0.0
+SC1,5074937008,Threat Intelligence Engineer,engineering,-0.193,-0.296,0.0
+SC1,5079562008,"Forward Deployed Engineer, Federal Civilian",engineering,-0.1354,-0.1223,0.0
+SC1,5083039008,"Software Engineer, Sandboxing",engineering,-0.1614,-0.1482,0.0
+SC1,5097186008,"Full Stack Engineer, Education Labs",engineering,-0.1982,-0.1952,1.3333
+SC1,5097742008,"Staff Software Engineer, Inference",engineering,-0.0777,-0.0842,0.0
+SC1,5098025008,"Model Performance Software Engineer, Claude Code",engineering,-0.2403,-0.2091,0.0
+SC1,5098092008,"Software Engineering Manager, Network Security",engineering,-0.0749,-0.182,0.0
+SC1,5098565008,"Senior Full Stack Engineer, Education",engineering,-0.2473,-0.1625,0.0
+SC1,5099753008,"Manager, Forward Deployed Engineering",engineering,-0.1624,-0.1452,0.0
+SC1,5101169008,"Staff Software Engineer, AI Reliability Engineering",engineering,-0.1735,-0.0702,0.0
+SC1,5101173008,"Staff Software Engineer, AI Reliability Engineering",engineering,-0.1681,-0.0734,0.0
+SC1,5101923008,Integrations Developer,engineering,-0.193,-0.075,0.0
+SC1,5102440008,"Staff+ Software Engineer, Observability",engineering,-0.1537,-0.1601,1.9569
+SC1,5103078008,"Engineering Manager, Safeguards Data Infrastructure",engineering,-0.1653,-0.2195,1.9646
+SC1,5105509008,"Security Engineer, Offensive Security",engineering,-0.131,-0.1825,0.0
+SC1,5107121008,"Prompt Engineer, Agent Prompts & Evals",engineering,-0.1436,-0.1578,0.0
+SC1,5107466008,"Staff / Senior Software Engineer, Cloud Inference",engineering,-0.0936,-0.0552,0.0
+SC1,5107890008,Data Center Controls Engineer,engineering,-0.2002,-0.1154,0.0
+SC1,5108695008,"Technical Program Manager, Safeguards (Infrastructure & Evals)",engineering,-0.1694,-0.1905,0.0
+SC1,5108982008,"Software Engineer, Compute Efficiency",engineering,-0.1042,-0.1435,3.7037
+SC1,5109273008,"Software Engineer, Human Data Interface",engineering,-0.1491,-0.1593,0.0
+SC1,5110511008,"Staff+ Software Engineer, Developer Productivity",engineering,-0.162,-0.1652,2.2321
+SC1,5111745008,"Software Engineer, Inference Deployment",engineering,-0.0431,-0.1127,0.0
+SC1,5111783008,"Technical Program Manager, Infrastructure",engineering,-0.1858,-0.1562,0.0
+SC1,5111942008,"Applied AI Engineer, Life Sciences (Beneficial Deployments)",engineering,-0.1607,-0.2125,0.0
+SC1,5113224008,"Staff Software Engineer, AI Reliability",engineering,-0.1626,-0.0671,0.0
+SC1,5113368008,Developer Community Lead - EMEA,engineering,-0.0544,-0.0698,0.0
+SC1,5114768008,"Staff+ Software Engineer, Data Infrastructure",engineering,-0.0825,-0.1306,0.0
+SC1,5116274008,Applied AI Engineer,engineering,-0.1796,-0.1379,0.0
+SC1,5116525008,"Design Engineer, Web",engineering,-0.1492,-0.1462,0.0
+SC1,5119468008,"Staff Software Engineer, People Products",engineering,-0.1513,-0.1424,6.0
+SC1,5119478008,"Engineering Manager, People Products",engineering,-0.1461,-0.1523,5.9761
+SC1,5120512008,Staff+ Software Security Engineer,engineering,-0.1077,-0.1304,1.4265
+SC1,5121561008,"Forward Deployed Engineer, Applied AI",engineering,-0.1294,-0.1074,0.0
+SC1,5121563008,"Forward Deployed Engineer, Applied AI",engineering,-0.0915,-0.1462,0.0
+SC1,5123039008,"Staff+ Software Engineer, Account Abuse",engineering,-0.1615,-0.1688,0.0
+SC1,5123851008,Infrastructure Tax Lead,engineering,-0.1348,-0.1938,0.0
+SC1,5125387008,"Analytics Data Engineering Manager, Product",engineering,-0.1545,-0.2114,0.0
+SC1,5125881008,"Data Science Engineer, Capacity & Efficiency",engineering,-0.1096,-0.2155,0.0
+SC1,5125912008,"Supply Chain Lead, Data Center Infrastructure",engineering,-0.1665,-0.1872,0.0
+SC1,5126702008,"Staff / Senior Software Engineer, Compute Capacity",engineering,-0.0818,-0.1414,0.0
+SC1,5126762008,Developer Education Lead,engineering,-0.1551,-0.1279,1.4144
+SC1,5131038008,"Senior Engineer, Datacenter Server Lifecycle",engineering,-0.0787,-0.1556,1.845
+SC1,5134895008,"Senior Staff Software Engineer, API",engineering,-0.1824,-0.1208,0.0
+SC1,5135098008,"Security Engineer Lead, Corporate Security",engineering,-0.1279,-0.1964,1.1696
+SC1,5138099008,Engineering Editorial Lead,engineering,-0.1923,-0.0506,0.0
+SC1,5139038008,"Staff Engineer, Datacenter Server Lifecycle",engineering,-0.0861,-0.1385,0.0
+SC1,5140329008,Data Center Mechanical Engineer,engineering,-0.2557,-0.1865,0.0
+SC1,5140492008,"Engineering Manager, Vertical AI Products",engineering,-0.1218,-0.1859,0.0
+SC1,5141377008,"Engineering Manager, Cloud Inference AWS",engineering,-0.1103,-0.1167,0.0
+SC1,5141849008,Incentive Compensation System Engineer,engineering,-0.2041,-0.1099,0.0
+SC1,5146261008,"Software Engineer, Billing Platform",engineering,-0.1225,-0.1306,0.0
+SC1,5146298008,"Staff Software Engineer, Billing Platform",engineering,-0.1355,-0.1337,0.0
+SC1,5146363008,"Engineering Manager, Product Monetization (Billing Platform)",engineering,-0.1159,-0.0701,0.0
+SC1,5150472008,"Staff Software Engineer, Inference",engineering,-0.0561,-0.062,0.0
+SC1,5151066008,"Senior Software Engineer, Databases",engineering,-0.0984,-0.1368,0.0
+SC1,5151069008,"Staff+ Software Engineer, Databases",engineering,-0.1073,-0.1371,0.0
+SC1,5152348008,"Sr. Software Engineer, Inference",engineering,-0.0711,-0.0788,0.0
+SC1,5153564008,Security Labs Engineer,engineering,-0.1614,-0.207,0.0
+SC1,5155195008,Finance Systems Integration Engineer,engineering,-0.1637,-0.1046,0.0
+SC1,5155391008,"Engineering Manager, Inference Routing and Performance",engineering,-0.0668,-0.0498,1.9305
+SC1,5156057008,"Data Engineer, Safeguards",engineering,-0.1493,-0.1739,1.8149
+SC1,5157844008,"Software Engineer, Platform",engineering,-0.0707,-0.0588,1.1211
+SC1,5157847008,"Staff+ Software Engineer, Platform",engineering,-0.0879,-0.0752,1.9268
+SC1,5159146008,"Staff+ Software Engineer, Privacy",engineering,-0.163,-0.1937,0.0
+SC1,5159608008,"Engineering Manager, Agent Prompts & Evals",engineering,-0.1414,-0.2124,0.0
+SC1,5159642008,"Data Center Engineer, Resource Efficiency – Compute Supply",engineering,-0.1614,-0.0946,0.0
+SC1,5159669008,"Prompt Engineer, Claude Code",engineering,-0.1441,-0.0889,4.5351
+SC1,5161882008,"IT Systems Engineer, Enterprise SaaS",engineering,-0.0528,-0.024,0.0
+SC1,5168829008,"Software Engineer, Cloud Inference Safeguards",engineering,-0.0957,-0.0984,1.2315
+SC1,5169670008,"Strategic Deals Lead, Compute & Infrastructure",engineering,-0.1534,-0.1886,0.0
+SC1,5170073008,Staff Network Engineer,engineering,-0.1526,-0.1434,0.0
+SC1,5172245008,"Senior / Staff+ Software Engineer, Voice Platform",engineering,-0.0891,-0.1138,0.0
+SC1,5174743008,"Senior Software Engineer, Full-stack",engineering,-0.192,-0.1517,0.0
+SC1,5174747008,"Staff+ Software Engineer, Full-stack",engineering,-0.2065,-0.1502,0.0
+SC1,5174755008,"Staff+ Software Engineer, Backend",engineering,-0.1849,-0.1159,1.032
+SC1,5174757008,"Software Engineer, Backend",engineering,-0.1644,-0.143,1.0627
+SC1,5177143008,"Network Engineer, Capacity and Efficiency",engineering,-0.0314,-0.0786,0.0
+SC1,5183983008,"Manager of Forward Deployed Engineering, Applied AI",engineering,-0.1133,-0.0638,0.0
+SC1,5186067008,"Full-Stack Software Engineer, Reinforcement Learning",engineering,-0.1688,-0.1885,0.0
+SC1,5186518008,"Commercial Counsel, Compute & Infrastructure",engineering,-0.1709,-0.1918,0.0
+SC1,5186669008,"Finance Systems Engineer, Revenue",engineering,-0.153,-0.1292,0.0
+SC1,5187486008,Data Center Electrical Engineer,engineering,-0.2003,-0.0506,0.0
+SC1,5191433008,"Software Engineer, Safeguards Foundations (Internal Tooling)",engineering,-0.1917,-0.1581,0.0
+SC1,5191638008,Cluster Deployment Engineer,engineering,-0.1139,-0.0579,0.0
+SC1,5194021008,"Senior Manager, Infrastructure Accounting",engineering,-0.1208,-0.2394,0.0
+SC1,5194827008,Field Services Engineer,engineering,-0.1742,-0.1558,2.8169
+SC1,5195705008,Security Engineer - Threat Intel,engineering,-0.2147,-0.4409,0.0
+SC1,5196219008,"Director, Infrastructure & Energy Accounting",engineering,-0.1675,-0.1987,0.0
+SC1,5196221008,"Director, Infrastructure Capex Accounting",engineering,-0.1169,-0.2326,0.0
+SC1,5196230008,"Senior Manager, Infrastructure Capex Accounting",engineering,-0.1022,-0.2325,0.0
+SC1,5197529008,"Data Scientist, Developer Productivity",engineering,-0.1727,-0.1635,0.0
+SC1,5197714008,"Senior Security Software Engineer, Linux Kernel Security - Nodes & Sensors",engineering,-0.204,-0.2443,0.0
+SC1,5203868008,"Staff+ Software Engineer, Node Infra",engineering,-0.1168,-0.0985,0.0
+SC1,5204401008,Senior Staff Software Engineer,engineering,-0.111,-0.0487,0.0
+SC1,5205495008,Incident Response Manager - Product & Engineering,engineering,-0.274,-0.239,1.8416
+SC1,5205704008,"Staff+ Software Engineer, Public Sector",engineering,-0.1838,-0.1489,0.0
+SC1,5205894008,"Commercial Counsel, Infrastructure Security",engineering,-0.1568,-0.1144,0.0
+SC1,5206492008,"Engineering Manager, Platform Foundations",engineering,-0.1257,-0.1996,0.0
+SC1,5206978008,"Staff+ Infrastructure Engineer, Cluster Infrastructure",engineering,-0.1,-0.1115,0.0
+SC1,5208284008,IT Support Engineer,engineering,-0.1426,-0.1396,1.5528
+SC1,5209776008,"Security Software Engineer, Platform Integration",engineering,-0.1253,-0.1126,0.0
+SC1,5210629008,"Engineering Manager, Passport",engineering,-0.1478,-0.1212,0.0
+SC1,5210631008,"Engineering Manager, Marketplace",engineering,-0.0869,-0.0756,0.0
+SC1,5211222008,GTM Engineer,engineering,-0.2344,-0.1602,0.0
+SC1,5211241008,"Staff+ Software Engineer, Kubernetes Platform",engineering,-0.1087,-0.0748,0.0
+SC1,5211297008,"Staff Infrastructure Engineer, Cluster Infrastructure",engineering,-0.098,-0.1098,0.0
+SC1,5211305008,"Staff Software Engineer, Kubernetes Platform",engineering,-0.1062,-0.0731,0.0
+SC1,5211498008,"Staff Software Engineer, Node Infra",engineering,-0.115,-0.0965,0.0
+SC1,5215028008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,-0.0336,-0.0615,0.0
+SC1,5218395008,"Software Engineer, Systems - Claude Code",engineering,-0.1448,-0.2215,0.0
+SC1,5219454008,Staff Fiber Network Engineer,engineering,-0.2419,-0.0735,0.0
+SC1,5219486008,"[Pipeline] Software Engineer, Safeguards Labs",engineering,-0.131,-0.1935,0.0
+SC1,5223916008,"Design Engineer, Web",engineering,-0.2033,-0.1456,0.0
+SC1,5224564008,"Performance Engineer, Inference Systems",engineering,-0.1391,-0.1672,0.0
+SC1,5227411008,Data Center Electrical Engineer,engineering,-0.187,-0.0502,0.0
+SC1,5227413008,Data Center Mechanical Engineer,engineering,-0.2706,-0.1412,0.0
+SC1,5227415008,Data Center Electrical Engineer,engineering,-0.2031,-0.085,0.0
+SC1,5228463008,Support Engineer,engineering,-0.0911,-0.0689,1.6474
+SC1,5229345008,"Staff Software Engineer, Claude Design",engineering,-0.1785,-0.1183,1.2953
+SC1,5231496008,"Staff + Sr. Software Engineer, Cloud Inference",engineering,-0.0726,-0.0071,0.0
+SC1,5234538008,"Director, Compute Infrastructure Procurement Operations",engineering,-0.1222,-0.1462,0.0
+SC1,5236531008,"Engineering Manager, Cybersecurity Products",engineering,-0.1391,-0.1263,0.0
+SC1,5236940008,IT Support Engineer,engineering,-0.1384,-0.1409,1.5748
+SC1,5237762008,"Staff Software Engineer, Infrastructure Asset Systems",engineering,-0.0811,-0.2032,0.0
+SC1,5238296008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,-0.0159,-0.0323,0.0
+SC1,5238606008,"Software Engineer, RL Data",engineering,-0.1414,-0.2486,0.0
+SC1,5238637008,"Product Engineer, Computer Use",engineering,-0.2373,-0.1643,0.0
+SC1,5239391008,"Communications Lead, Infrastructure and Engineering",engineering,-0.2619,-0.0893,0.0
+SC1,5240422008,"Data Engineer, Safeguards",engineering,-0.1281,-0.1558,2.1978
+SC1,5245851008,"Staff + Senior Software Engineer, Inference Infrastructure",engineering,-0.0901,-0.1022,0.0
+SC1,5248983008,Applied AI Engineer,engineering,-0.1417,-0.0916,2.331
+SC1,5250052008,"Staff Security Engineer, Risk Engineering",engineering,-0.1533,-0.1768,1.1779
+SC1,5250091008,"Staff+ Software Engineer, GRC Platform",engineering,-0.1604,-0.1415,1.6207
+SC1,5251671008,"Software Engineer, Safeguards Evals",engineering,-0.1721,-0.2909,0.0
+SC1,5252342008,"Senior/Staff Security Engineer, Threat Intelligence",engineering,-0.2107,-0.4408,0.0
+SC1,5253835008,"Senior Manager, Infrastructure Procurement Operations - Lease Administration",engineering,-0.1262,-0.2583,0.0
+SC1,5254803008,"Staff+ Software Engineer, Developer Productivity",engineering,-0.1604,-0.1644,2.2321
+SC1,5255853008,"IT Systems Engineer, Client Platform Engineer",engineering,-0.137,-0.1881,0.0
+SC1,5255912008,"Engineering Manager, Enterprise",engineering,-0.1306,-0.1067,0.0
+SC1,5257650008,"Staff+ Software Engineer, Inference Velocity",engineering,-0.1648,-0.1576,0.0
+SC1,5270442008,"Staff+ Software Engineer, Identity & Access Controls",engineering,-0.1242,-0.1663,0.0
+SC1,5271346008,"Platform Security Engineer, OpenBMC",engineering,-0.1387,-0.0646,0.0
+SC1,5274117008,"Legal Program Manager, Compute & Infrastructure",engineering,-0.232,-0.2405,0.0
+SC1,5277834008,"Manager, Applied AI Engineering,  Beneficial Deployments (Life Sciences)",engineering,-0.1629,-0.2129,0.0
+SC1,5285557008,"Staff + Senior Software Engineer, Inference Deployment",engineering,-0.0873,-0.1005,0.0
+SC1,5286348008,Silicon Engineer,engineering,-0.2369,-0.1771,0.0
+SC1,5287327008,"Salesforce Developer, Partnerships",engineering,-0.0983,-0.0373,2.2222
+SC1,5287926008,"Manager, Web Engineering",engineering,-0.1532,-0.1402,0.0
+SC1,5288742008,"Staff+ Software Engineer, Enterprise",engineering,-0.0889,-0.0394,0.0
+SC1,5289450008,"Staff+ Software Engineer, Enterprise Knowledge Work",engineering,-0.1338,-0.1299,0.0
+SC1,5290360008,"Staff+ Software Engineer, Developer Acceleration",engineering,-0.1413,-0.1792,0.0
+SC1,5290426008,"Platform Security Engineering, Operating Systems",engineering,-0.1471,-0.0971,0.0
+SC1,5290468008,"Staff+ Software Engineer, Experimentation",engineering,-0.1518,-0.1322,2.0921
+SC1,5301737008,"Staff+ Software Engineer, Caching",engineering,-0.1238,-0.1605,0.0
+SC1,5301750008,"Staff+ Software Engineer, Databases",engineering,-0.114,-0.1724,0.0
+SC1,5302966008,Forward Deployed Engineer,engineering,-0.1245,-0.115,0.0
+SC1,5304425008,"Staff Software Engineer, Labs: Applied AI",engineering,-0.1461,-0.1154,1.3369
+SC1,5305402008,"Staff Software Engineer, Web Platform",engineering,-0.1582,-0.1269,0.0
+SC1,5309805008,"Engineering Manager, Connectivity - London",engineering,-0.1262,-0.1629,0.0
+SC1,5309917008,"Staff Engineer, Datacenter Server Lifecycle",engineering,-0.0899,-0.1375,0.0
+SC1,5310731008,"Staff+ Software Engineer, Capacity Engineering",engineering,-0.0695,-0.1929,0.0
+SC1,5311463008,Staff+ Application Security Engineer  - M&A,engineering,-0.1281,-0.1763,0.0
+SC1,5311465008,"Developer Education Lead, Claude Platform",engineering,-0.1449,-0.176,0.0
+SC1,5315789008,Finance Systems Integration Engineer,engineering,-0.164,-0.1045,0.0
+SC1,5316565008,"Offensive Hardware Security Engineer, Platform Security",engineering,-0.1173,-0.0897,0.0
+SC1,5318977008,"Director, Infrastructure Supply Chain Accounting",engineering,-0.1602,-0.1938,0.0
+SC1,5320469008,"Red Team Engineer, Safeguards",engineering,-0.1225,-0.1358,0.0
+SC1,5322723008,"Engineering Manager, Safeguards Interventions",engineering,-0.2348,-0.1823,0.0
+SC1,5324758008,"Software Security Engineering Manager, Secure Frameworks",engineering,-0.1143,-0.1344,0.0
+SC1,5325909008,"Staff+ Software Engineer, Payment Fraud",engineering,-0.0528,-0.1711,0.0
+SC1,5342935008,"Staff+ Software Engineer, Safeguards Human Review Tooling",engineering,-0.1432,-0.1564,0.0
+SC1,5354765008,"Applied AI Engineer, Enterprise",engineering,-0.1775,-0.1208,0.0
+SC1,5355526008,"Finance Systems Engineer, Revenue",engineering,-0.1541,-0.1268,0.0
+SC1,5357947008,"Finance Systems Engineer, Tax",engineering,-0.1203,-0.1264,1.5432
+SC1,5357949008,"Senior Manager, Infrastructure Asset Accounting",engineering,-0.1357,-0.1939,0.0
+SC1,5357951008,"Senior Manager, Infrastructure Lease Accounting",engineering,-0.1674,-0.2685,0.0
+SC1,5357961008,"Manager, Infrastructure Capex Accounting",engineering,-0.1022,-0.2287,0.0
+SC1,5358108008,"Strategic Deals Lead, Compute Infrastructure",engineering,-0.1953,-0.1504,0.0
+SC1,5358116008,"Senior Manager, Infrastructure Tax",engineering,-0.1581,-0.2392,0.0
+SC1,5361472008,"Engineering Manager, Growth",engineering,-0.1265,-0.172,0.0
+SC1,5363210008,"Senior Engineering Manager, Capacity Engineering",engineering,-0.1267,-0.2365,0.0
+SC1,5363469008,"Staff Software Engineer, Growth",engineering,-0.1336,-0.1543,0.0
+SC1,5364336008,Capital Markets - Infrastructure Financing,engineering,-0.1303,-0.1938,5.2083
+SC1,5366138008,IT Support Engineer,engineering,-0.1368,-0.1435,1.5873
+SC1,5367026008,"Technical Recruiter, Infrastructure",engineering,-0.1579,-0.282,4.3956
+SC1,5367436008,"Staff Software Engineer, Environments Infrastructure",engineering,-0.1436,-0.2586,0.0
+SC1,5367585008,"Software Engineer, Desktop",engineering,-0.1953,-0.0947,0.0
+SC1,5368034008,"Staff+ Software Engineer, Enterprise AI Products",engineering,-0.1756,-0.1022,0.0
+SC1,5368166008,"Staff Software Engineer, GTM Systems",engineering,-0.1372,-0.1021,0.0
+SC1,5368642008,"Staff+ Software Engineer, Account Compromise",engineering,-0.1262,-0.1974,2.442
+SC1,5370555008,"IT Support Engineer, Executive Support",engineering,-0.138,-0.0963,0.0
+SC1,5370615008,"Technical Documentation and Content Engineer, Claude Docs",engineering,-0.222,-0.1743,0.0
+SC1,5370690008,"Staff Software Engineer, Code RL",engineering,-0.1379,-0.1818,0.0
+SC1,5371065008,"Engineering Manager, Search",engineering,-0.1756,-0.1967,0.0
+SC1,5375371008,Data Center Electrical Engineer,engineering,-0.1935,-0.0484,0.0
+SC1,5375376008,Data Center Mechanical Engineer,engineering,-0.268,-0.1292,0.0
+SC1,5382744008,"Infrastructure Capacity Planner, Demand Planning",engineering,-0.0742,-0.1388,0.0
+SC1,5382750008,"AI Infrastructure Operations, Demand Planning",engineering,-0.1277,-0.0701,0.0
+SC1,5383114008,"Staff+ Software Engineer, Privacy",engineering,-0.1663,-0.2295,0.0
+SC1,5383596008,Developer Relations,engineering,-0.1306,-0.082,1.5898
+SC1,5383610008,"Staff Software Engineer, Claude Code",engineering,-0.136,-0.1602,0.0
+SC1,5385588008,AV Engineer,engineering,-0.281,-0.1344,0.0
+SC1,5385590008,AV Engineer,engineering,-0.2638,-0.1257,0.0
+SC1,5385634008,"Manager, Forward Deployed Engineering",engineering,-0.1602,-0.144,0.0
+SC1,5385764008,IT Support Engineer,engineering,-0.1572,-0.197,2.2222
+SC1,5385998008,"Staff + Senior Software Engineer, Inference",engineering,-0.0906,-0.0966,0.0
+SC1,5386949008,IT Support Engineer,engineering,-0.142,-0.1494,1.5723
+SC1,5386971008,"Front End Engineer, Marketing",engineering,-0.1839,-0.1635,0.0
+SC1,5387083008,"Staff Software Engineer, Infrastructure (Distributed Systems)",engineering,-0.1809,-0.1979,5.1282
+SC1,5388612008,"Staff+ Software Engineer, Infrastructure, Interpretability",engineering,-0.1469,-0.1592,0.0
+SC1,5389305008,"Software Engineer, Education",engineering,-0.2314,-0.1589,0.0
+SC1,5390019008,"IT Support Engineer, Application Administrator",engineering,-0.0422,-0.0706,0.0
+SC1,5390728008,"Finance Systems Engineer, Finance and Strategy",engineering,-0.099,-0.1478,0.0
+SC1,5390754008,"Applied AI Engineer, Enterprise",engineering,-0.1117,-0.1367,0.0
+SC1,5390795008,"Applied AI Engineer, Enterprise",engineering,-0.1591,-0.1255,0.0
+SC1,5390799008,Applied AI Engineer,engineering,-0.2003,-0.1232,0.0
+SC1,5390966008,"Staff Software Engineer, GTM AI Engineering",engineering,-0.193,-0.2162,0.0
+SC1,5391012008,"Pre-Sales Program Lead, Forward Deployed Engineering",engineering,-0.1875,-0.1384,0.0
+SC1,5391016008,Forward Deployed Engineer,engineering,-0.1288,-0.1045,0.0
+SC1,5391021008,Forward Deployed Engineer,engineering,-0.0919,-0.1456,0.0
+SC1,5391151008,"AI Operations Engineer, Partnerships",engineering,-0.1708,-0.2344,0.0
+SC1,5391782008,"Manager, Corporate Network Engineering",engineering,-0.1899,-0.1335,0.0
+SC1,5392335008,"Staff+ Software Engineer, Platform Ecosystem",engineering,-0.1526,-0.0649,1.9685
+SC1,5392856008,"DevOps / AgentOps Engineer, GTM Systems",engineering,-0.1464,-0.154,0.0
+SC1,5394943008,"Staff+ Software Engineer, Product Sandboxing",engineering,-0.104,-0.1013,5.4054
+SC1,5394948008,"Staff+ Software Engineer, Platform Connectivity",engineering,-0.1082,-0.0998,3.937
+SC1,5395767008,"Staff+ Software Engineer, Claude Managed Agents",engineering,-0.1588,-0.2563,1.1601
+SC1,5396384008,"IT Systems Engineer, Mobile Client Platform Engineer",engineering,-0.1244,-0.1325,0.0
+SC1,5396397008,IT Support Engineer,engineering,-0.1423,-0.1411,1.5974
+SC1,5397005008,"Staff+ Software Engineer, Platform Distribution",engineering,-0.0452,-0.0453,2.1834
+SC1,5397131008,"Staff+ Software Engineer, Platform Portability",engineering,-0.0674,-0.0896,0.0
+SC1,5397319008,"Security Engineer, Corporate Security",engineering,-0.1477,-0.1898,0.0
+SC1,5397596008,"Manufacturing Quality Engineer, Data Center Power & Cooling",engineering,-0.1611,-0.1153,0.0
+SC1,5397654008,"Product Designer, Claude Developer Platform",engineering,-0.1465,-0.1248,0.0
+SC1,5398218008,"Staff+ Software Engineer, Developer Experience",engineering,-0.1133,-0.1074,0.0
+SC1,5398227008,"Staff+ Software Engineer, Auth & Identity",engineering,-0.0329,-0.1225,1.4903
+SC1,5399158008,Manufacturing Engineer - Data Center Hardware,engineering,-0.1582,-0.2155,0.0
+SC1,5399162008,Product Engineer - Manufacturing Operations,engineering,-0.1852,-0.1349,0.0
+SC1,5400153008,"Software Engineer, Business Technology",engineering,-0.1189,-0.1041,6.4516
+SC1,5400160008,"Software Engineer, Business Technology",engineering,-0.115,-0.102,6.4516
+SC1,5404730008,"Staff+ Software Engineer, RL Data Platform",engineering,-0.1281,-0.2859,0.0
+SC1,5405548008,"Engineering Manager, Hardware Platform Security",engineering,-0.0944,-0.058,0.0
+SC1,5406367008,Cyber Evaluations Engineer,engineering,-0.0851,-0.1462,0.0
+SC1,5409055008,"Director, Finance Systems - Revenue Systems Engineering",engineering,-0.1654,-0.0699,0.0
+SC1,5410610008,"Engineering Manager, Safeguards",engineering,-0.1662,-0.1899,0.0
+SC1,5411267008,"Engineering Manager, Scheduler and Fleet Efficiency",engineering,-0.0917,-0.1514,0.0
+SC1,5411560008,"Engineering Manager, Inference Infrastructure",engineering,-0.1143,-0.112,0.0
+SC1,5412272008,"Staff Software Engineer, Observability & Profiling",engineering,-0.1259,-0.2009,1.9048
+SC1,5412734008,"Staff+ Software Engineer, Claude Science",engineering,-0.1842,-0.1165,0.0
+SC1,5413374008,Salesforce Developer,engineering,-0.1813,-0.1276,1.1933
+SC1,5413642008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,-0.1617,-0.207,0.0
+SC1,5416059008,"TPM Manager, Infrastructure",engineering,-0.1478,-0.1947,0.0
+SC1,5416709008,"Staff+ Site Reliability Engineer, Safeguards ML Infra",engineering,-0.1503,-0.1518,0.0
+SC1,5418323008,"Performance Engineer, Inference Engine",engineering,-0.1093,-0.2061,0.0
+SC1,5418402008,"Engineering Manager, Business Technology",engineering,-0.1661,-0.1717,0.0
+SC1,5418610008,"Data Engineer, GTM",engineering,-0.1758,-0.1516,0.0
+SC1,5418977008,"Security Engineer, Offensive Security",engineering,-0.1322,-0.1839,0.0
+SC1,5419868008,"Staff+ Software Engineer, ML Sampling Path",engineering,-0.1244,-0.1281,0.0
+SC1,5419869008,"Staff+ Software Engineer, ML Inference Path",engineering,-0.1853,-0.1391,2.1978
+SC1,5420994008,"Salesforce Developer, Partnerships",engineering,-0.0952,-0.0393,2.2573
+SC1,5421263008,"Software Engineer, Tokens and Prompt Structures",engineering,-0.1206,-0.1271,0.0
+SC1,5423029008,Forward Deployed Engineer,engineering,-0.1288,-0.0992,0.0
+SC1,5423737008,"IT Operations Engineer, Asset Management",engineering,-0.1437,-0.1255,0.0
+SC1,5423931008,"Copywriter, Developer",engineering,-0.0794,-0.0915,0.0
+SC1,5424111008,Recruiting Analytics Data Engineer,engineering,-0.1041,-0.1342,0.0
+SC1,5424404008,"Staff+ Software Engineer, Distributed Systems",engineering,-0.1429,-0.1992,2.4814
+SC1,5426135008,"Engineering Manager, Data Infrastructure",engineering,-0.0433,-0.0785,0.0
+SC1,5427969008,"Compute & Infrastructure Counsel, Real Estate",engineering,-0.183,-0.204,0.0
+SC1,5428950008,"Staff+ Software Engineer, Storage + Transfer",engineering,-0.1542,-0.0753,0.0
+SC1,5429202008,"[DH] Engineering Manager, AI Observability",engineering,-0.1839,-0.1717,0.0
+SC1,5431374008,Head of Business Technology Engineering,engineering,-0.1628,-0.1802,0.0
+SC1,5432558008,Staff Software Engineer: Compute,engineering,-0.1972,-0.1504,0.0
+SC1,5432575008,"Applied AI Engineer, Startups",engineering,-0.1811,-0.1382,0.0
+SC1,5432626008,"Staff Security Engineer, Detection & Response",engineering,-0.1771,-0.2821,0.0
+SC1,5433813008,"Staff+ Software Engineer, Account Creation",engineering,-0.1752,-0.1206,0.0
+SC1,5433814008,"Staff+ Software Engineer, Access Programs",engineering,-0.1245,-0.148,0.0
+SC1,5435282008,"Applied AI Engineer, DNB",engineering,-0.1884,-0.1342,0.0
+SC1,5435665008,"Senior+ Software Engineer, Legal Tech",engineering,-0.1681,-0.1953,0.0
+SC1,5436293008,"Staff+ Software Engineer, Account Abuse (Machine Learning)",engineering,-0.1054,-0.2489,0.0
+SC1,5436684008,"Staff + Sr. Software Engineer, Cloud Inference",engineering,-0.0994,-0.0468,0.0
+SC1,5436697008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,-0.0414,-0.0685,0.0
+SC1,5436703008,"Staff + Sr. Software Engineer, Scaling",engineering,-0.0895,-0.0944,0.0
+SC1,5437172008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,-0.1585,-0.2122,0.0
+SC1,5023394008,Anthropic AI Safety Fellow,fellows,-0.0038,-0.1608,1.0764
+SC1,5030244008,Anthropic AI Security Fellow,fellows,0.0337,-0.1409,1.1779
+SC1,5183044008,"Anthropic Fellows Program, AI Safety & Security",fellows,-0.0081,-0.1462,0.8905
+SC1,5183051008,"Anthropic Fellows Program, ML Systems & Reinforcement Learning",fellows,-0.0291,-0.1605,1.1287
+SC1,5183052008,"Anthropic Fellows Program, Reinforcement Learning",fellows,0.0296,-0.1393,0.993
+SC1,5183053008,"Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",fellows,0.0189,-0.0962,1.3812
+SC1,5189848008,Anthropic STEM Fellow,fellows,-0.1148,-0.147,0.0
+SC2,4017331008,"Research Engineer, Knowledge Team",research,-0.0599,0.034,0.0
+SC2,4017544008,"Staff+ Research Scientist, Multi-Agent",research,-0.0658,0.0268,0.0
+SC2,4532887008,"[Expression of Interest] Research Scientist / Engineer, Honesty",research,0.0267,0.0468,0.0
+SC2,4593216008,"Staff Research Engineer, Discovery Team",research,-0.0662,0.0249,0.0
+SC2,4610158008,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",research,-0.0618,0.0408,0.0
+SC2,4613568008,"Research Engineer, Machine Learning (Reinforcement Learning)",research,-0.0479,0.0508,0.0
+SC2,4613592008,"Research Engineer, Production Model Post-Training",research,-0.0383,0.0368,0.0
+SC2,4616971008,"Research Engineer/Research Scientist, Pre-training",research,-0.0419,0.0556,1.845
+SC2,4631822008,"Research Engineer / Scientist, Alignment",research,-0.0495,0.0522,0.0
+SC2,4669581008,"Research Engineer, Discovery",research,-0.0522,0.0215,0.0
+SC2,4935314008,"Recruiter, AI Research",research,-0.0523,0.0596,0.0
+SC2,4938432008,"Research Engineer, Pretraining Scaling",research,-0.0463,0.0236,0.0
+SC2,4938436008,"Research Engineer, Pretraining Scaling - London",research,-0.0453,0.0226,0.0
+SC2,4946308008,"Research Engineer, Virtual Collaborator (Cowork)",research,-0.0636,0.0325,0.0
+SC2,4949108008,"Privacy Research Engineer, Safeguards",research,-0.0477,0.0503,0.0
+SC2,4949336008,"ML/Research Engineer, Safeguards",research,-0.0465,0.0391,0.0
+SC2,4951064008,"Research Engineer, Environment Scaling",research,-0.0574,0.0363,0.0
+SC2,4951814008,"Research Engineer / Research Scientist, Tokens",research,-0.0466,0.0444,0.0
+SC2,4952051008,"Research Engineer, RL Engineering",research,-0.0609,0.0304,0.0
+SC2,4952079008,"Machine Learning Systems Engineer, Research Tools",research,-0.0254,0.0527,2.4155
+SC2,4980427008,"Research Scientist, Interpretability",research,-0.0582,0.025,0.0
+SC2,4980430008,"Research Engineer, Interpretability",research,-0.0491,0.0361,0.0
+SC2,4980436008,"[Expression of Interest] Research Manager, Interpretability",research,-0.0931,0.0177,0.0
+SC2,4981828008,"Software Engineer, Research Tools",research,-0.0582,0.0395,3.231
+SC2,5018472008,"Research Economist, Economic Research",research,-0.0508,0.0601,0.0
+SC2,5024831008,"Research Engineer, Reward Models Platform",research,-0.0043,0.038,0.0
+SC2,5024835008,"Senior Research Scientist, Reward Models",research,-0.0429,0.0445,0.0
+SC2,5025624008,"Research Engineer, Cybersecurity RL (Reinforcement Learning)",research,-0.0596,0.0429,0.0
+SC2,5061517008,"Research Engineer, Universes",research,-0.0744,0.0367,0.0
+SC2,5066977008,"Research Scientist/Engineer, Biological Safety",research,-0.0435,0.0379,1.6393
+SC2,5067100008,"Research Engineer, Frontier Red Team (Autonomy)",research,-0.0668,0.0234,0.0
+SC2,5071132008,"Research Engineer, Economic Research",research,-0.0805,0.0447,0.0
+SC2,5074217008,"Research Engineer, Visual Knowledge Work",research,-0.0622,0.0306,0.0
+SC2,5074815008,"Research Engineer/Research Scientist, Audio",research,-0.0062,0.0453,0.0
+SC2,5076477008,"Research Engineer / Scientist, Frontier Red Team (Cyber)",research,-0.0747,0.0276,0.0
+SC2,5076606008,"Research Engineer / Scientist, Societal Impacts",research,-0.0579,0.053,0.0
+SC2,5076616008,"Research Scientist, Societal Impacts",research,-0.0626,0.0577,0.0
+SC2,5096878008,"Research Product Manager, Labs",research,-0.0756,0.0453,0.0
+SC2,5103788008,"Research Scientist, Frontier Red Team (Emerging Risks)",research,-0.0706,0.0455,1.9646
+SC2,5112018008,"Research Engineer, Production Model Post-Training",research,-0.0343,0.0406,0.0
+SC2,5115935008,"Research Engineer, Machine Learning (Reinforcement Learning)",research,-0.0468,0.0514,0.0
+SC2,5119713008,"Research Engineer, Pretraining",research,-0.0397,0.0571,1.8484
+SC2,5123011008,"Offensive Security Research Engineer, Safeguards",research,-0.084,0.0242,0.0
+SC2,5123082008,"Product Management, Research",research,-0.0523,0.0398,5.0125
+SC2,5125083008,"Research Engineer, AI Observability",research,-0.0652,0.0257,0.0
+SC2,5126127008,"Research Engineer, Science of Scaling",research,-0.0759,0.0322,2.7027
+SC2,5135168008,"Research Engineer / Research Scientist, Pre-training",research,-0.0402,0.0169,2.1322
+SC2,5139654008,"Research Lead, Training Insights",research,-0.0494,0.0471,0.0
+SC2,5149802008,"Transformative AI Research Economist, Economic Research",research,-0.0444,0.0586,0.0
+SC2,5153680008,"Communications Manager, Research",research,-0.0918,0.0504,0.0
+SC2,5154112008,"Research Operations, Economic Research",research,-0.0925,0.0487,0.0
+SC2,5160330008,"Research Engineer, Performance RL",research,-0.0337,0.0119,0.0
+SC2,5174556008,User Experience Researcher,research,-0.077,0.023,0.0
+SC2,5188237008,"Research Operations, Discovery",research,-0.1058,0.0222,0.0
+SC2,5191226008,"Software Engineer, Research Data Platform",research,-0.0433,0.0259,0.0
+SC2,5191785008,"Research Engineer, Safeguards Labs",research,-0.064,0.0319,1.9569
+SC2,5197337008,"Research Engineer, RL Infrastructure and Reliability (Knowledge Work)",research,-0.0654,0.0114,0.0
+SC2,5198074008,"Research Engineer, Machine Learning (RL Velocity)",research,-0.0713,0.0289,0.0
+SC2,5198108008,"Research Engineer, Machine Learning (RL Velocity)",research,-0.0731,0.028,0.0
+SC2,5198255008,"Research Engineer, Post-Training Model Evaluations",research,-0.0488,0.0364,0.0
+SC2,5203545008,"Technical Program Manager, Research",research,-0.0698,0.0444,0.0
+SC2,5206456008,"Research Engineer, Search and Knowledge Post-Training",research,-0.0624,0.0112,1.5601
+SC2,5207302008,"Contracts Manager, Research & Operations",research,-0.09,0.0292,0.0
+SC2,5208278008,"Research Operations, External Artifacts",research,-0.0766,0.0283,0.0
+SC2,5223093008,"Engineering Manager, Research Productivity",research,-0.0771,0.0361,0.0
+SC2,5231200008,"Regional Research Economist, Economic Research",research,-0.0642,0.0649,0.0
+SC2,5231205008,"Regional Research Economist, Economic Research",research,-0.0638,0.0683,0.0
+SC2,5231612008,"Research Engineer, Chip Design RL (Reinforcement Learning)",research,-0.0571,0.0416,0.0
+SC2,5239733008,"Research Scientist, Life Sciences",research,-0.042,0.0511,1.7513
+SC2,5254364008,"Research Engineer, Code RL (Reinforcement Learning)",research,-0.0497,0.0341,0.0
+SC2,5257763008,"People Research Scientist, Recruiting",research,-0.0655,0.0428,1.8484
+SC2,5264619008,"Research Engineer, RL Scaling Science",research,-0.0608,0.0326,0.0
+SC2,5265365008,"Research Engineer, Life Sciences",research,-0.0752,0.0397,3.268
+SC2,5271380008,"Research Engineer, Domain Scaling",research,-0.0545,0.0398,0.0
+SC2,5278065008,"Research Engineer, Rule of Law",research,-0.0821,0.0631,0.0
+SC2,5283063008,"Software Engineer, Research Infrastructure",research,-0.0977,0.0257,6.424
+SC2,5285246008,"Research Engineer, Computer Use",research,-0.06,0.0306,0.0
+SC2,5285248008,"Research Associate, Biology",research,-0.0462,0.0441,0.0
+SC2,5285250008,"Research Scientist, Life Sciences (Experimental Biology)",research,-0.06,0.0437,2.331
+SC2,5286441008,"Researcher, Education Labs",research,-0.0565,0.0514,0.0
+SC2,5297059008,"Engineering Manager, Research Data Platform",research,-0.0717,0.0071,0.0
+SC2,5304242008,"Research Operations Lead, Biology",research,-0.0885,0.0016,0.0
+SC2,5324349008,"Product Manager, Research (Code)",research,-0.053,0.0405,5.1151
+SC2,5357739008,"Research Scientist, Life Sciences (Computational)",research,-0.0415,0.0299,0.0
+SC2,5362838008,"People Research Scientist, Recruiting",research,-0.0655,0.0428,1.8484
+SC2,5364804008,"Machine Learning Infrastructure Engineer, Safeguards Research",research,-0.0375,0.0213,0.0
+SC2,5370669008,"Research Scientist, Takeoff Intel",research,-0.0649,0.0357,0.0
+SC2,5380327008,"Technical Program Manager, RL Research",research,-0.0797,0.0324,0.0
+SC2,5385217008,"Staff+ Researcher, Cybersecurity Products",research,-0.0742,0.0191,0.0
+SC2,5387564008,"Research Scientist, Life Sciences (Chemistry)",research,-0.0695,0.0368,2.7027
+SC2,5390811008,"Applied AI, Research Engineer",research,-0.0422,0.0298,0.0
+SC2,5392007008,"User Experience Researcher, Platform",research,-0.103,0.0339,1.4948
+SC2,5404725008,"Staff+ Research Engineer, RL Data Platform",research,-0.0497,0.0247,0.0
+SC2,5412334008,"Research Engineer, Cybersecurity RL (Reinforcement Learning)",research,-0.07,0.0466,0.0
+SC2,5412944008,"Research Manager, Biological Safety",research,-0.0769,0.0255,0.0
+SC2,5413418008,Research Counsel,research,-0.073,0.0672,0.0
+SC2,5415930008,"Research & Education Sales Lead, Beneficial Deployments",research,-0.1337,0.041,0.0
+SC2,5416882008,"Research Engineer, Takeoff Intel",research,-0.0634,0.0229,0.0
+SC2,5422117008,"Research Operations, Reinforcement Learning",research,-0.1041,0.0198,0.0
+SC2,5431235008,"Policy Research, Strategic Advisory",research,-0.1267,0.0346,1.3495
+SC2,https://job-boards.greenhouse.io/anthropic/jobs/4610158008%5C,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",research,-0.0524,0.0256,0.0
+SC2,4020350008,Performance Engineer,engineering,-0.0219,0.0987,0.0
+SC2,4502508008,Staff+ Application Security Engineer,engineering,-0.058,0.041,0.0
+SC2,4572744008,"Staff Software Engineer, iOS",engineering,-0.0266,0.1023,0.0
+SC2,4595463008,"Security Software Engineer, Detection & Response Platform",engineering,-0.0482,0.0539,0.0
+SC2,4641822008,"Senior Software Engineer, Inference",engineering,-0.0057,0.0409,0.0
+SC2,4673416008,"Software Engineer, UI Platform",engineering,0.0385,0.0495,0.0
+SC2,4720576008,TPU Kernel Engineer,engineering,-0.0251,0.1091,0.0
+SC2,4741102008,"Engineering Manager, Inference",engineering,-0.06,0.0398,0.0
+SC2,4741104008,"Engineering Manager, GPU (ML Accelerator)",engineering,-0.0521,0.0752,0.0
+SC2,4778843008,"ML Infrastructure Engineer, Safeguards",engineering,-0.0148,0.0935,0.0
+SC2,4802076008,IT Support Engineer,engineering,-0.0248,0.0785,1.4903
+SC2,4887952008,"IT Systems Engineer, Corporate Systems & Infrastructure",engineering,-0.029,0.0545,0.0
+SC2,4887959008,Senior Software Security Engineer,engineering,-0.0322,0.0518,0.0
+SC2,4889396008,"Engineering Manager, Auth & Identity",engineering,-0.0376,0.0968,0.0
+SC2,4899511008,"Staff Software Engineer, Android",engineering,-0.0263,0.1036,0.0
+SC2,4915842008,"Senior Software Engineer, Systems",engineering,-0.0423,0.0638,2.7473
+SC2,4926227008,"Performance Engineer, GPU",engineering,-0.0045,0.1064,0.0
+SC2,4926242008,"Software Engineer, ML Networking",engineering,0.0024,0.1079,0.0
+SC2,4942024008,"Software Engineer, Beneficial Deployments",engineering,-0.0273,0.1303,0.0
+SC2,4951696008,"Staff + Sr. Software Engineer, Inference",engineering,-0.0267,0.082,0.0
+SC2,4951844008,"Staff+ Software Engineer, Safeguards",engineering,-0.0251,0.059,0.0
+SC2,4956672008,Data Engineer,engineering,-0.0532,0.0744,0.0
+SC2,4970314008,"Staff+ Software Engineer, Infrastructure (Distributed Systems)",engineering,-0.0572,0.0622,7.177
+SC2,4973067008,Pre-training Data Infrastructure Engineer,engineering,-0.0239,0.0931,2.9499
+SC2,4980335008,"Engineering Manager, GRC Platform",engineering,-0.013,0.0809,1.0684
+SC2,4980420008,"Software Engineer, Desktop",engineering,-0.019,0.1056,0.0
+SC2,4982193008,"Security Engineer, Detection & Response",engineering,-0.05,0.0552,0.0
+SC2,4982198008,"Software Engineer, Business Technology",engineering,-0.0279,0.0852,6.1728
+SC2,4985877008,"Forward Deployed Engineer, Applied AI",engineering,-0.0367,0.0748,0.0
+SC2,5012991008,Forward Deployed Engineer,engineering,-0.0364,0.075,0.0
+SC2,5013366008,"Engineering Manager, Safeguards Review Tooling",engineering,-0.0452,0.085,0.0
+SC2,5013743008,"Technical Program Manager, Data Center Infrastructure",engineering,-0.0424,0.0603,0.0
+SC2,5014500008,Applied AI Engineer,engineering,-0.0353,0.0859,2.2026
+SC2,5017202008,"Software Engineer, Labs",engineering,-0.0332,0.108,1.5432
+SC2,5021015008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,-0.0649,0.0904,0.0
+SC2,5022845008,Staff Software Security Engineer,engineering,-0.0423,0.0547,0.0
+SC2,5025591008,"Software Engineer, Sandboxing (Systems)",engineering,0.0347,0.1156,0.0
+SC2,5026097008,"Staff Software Engineer, Product",engineering,-0.0212,0.1078,0.0
+SC2,5030680008,"Infrastructure Engineer, Sandboxing",engineering,-0.0348,0.0794,0.0
+SC2,5055488008,Applied AI Engineer,engineering,-0.0363,0.0839,2.1739
+SC2,5057647008,"Applied AI Engineer, Enterprise Tech",engineering,-0.0478,0.0801,2.2173
+SC2,5062968008,"Technical Program Manager, Consumer Engineering",engineering,-0.068,0.0541,0.0
+SC2,5063007008,"Staff+ Software Engineer, Cybersecurity Products",engineering,-0.0639,0.0667,0.0
+SC2,5065894008,"Staff+ Software Engineer, Claude App Infrastructure",engineering,-0.0431,0.0731,0.0
+SC2,5068226008,"Applied AI Engineer, Beneficial Deployments",engineering,-0.0471,0.0855,0.0
+SC2,5068288008,"Senior Security Engineer, Detection & Response",engineering,-0.0503,0.0561,0.0
+SC2,5068296008,"Engineering Manager, Detection and Response",engineering,-0.0451,0.0549,0.0
+SC2,5073277008,"Applied AI Engineer, Startups",engineering,-0.0365,0.0874,0.0
+SC2,5073998008,"Staff Software Engineer, Continuous Integration",engineering,-0.0486,0.0738,0.0
+SC2,5074908008,"Staff+ Software Engineer, Safeguards Infrastructure",engineering,-0.0428,0.0803,0.0
+SC2,5074937008,Threat Intelligence Engineer,engineering,-0.0238,0.053,0.0
+SC2,5079562008,"Forward Deployed Engineer, Federal Civilian",engineering,-0.044,0.067,0.0
+SC2,5083039008,"Software Engineer, Sandboxing",engineering,-0.0531,0.0795,0.0
+SC2,5097186008,"Full Stack Engineer, Education Labs",engineering,-0.0502,0.1076,1.3333
+SC2,5097742008,"Staff Software Engineer, Inference",engineering,-0.0202,0.0717,0.0
+SC2,5098025008,"Model Performance Software Engineer, Claude Code",engineering,-0.0852,0.0771,0.0
+SC2,5098092008,"Software Engineering Manager, Network Security",engineering,-0.0615,0.0414,0.0
+SC2,5098565008,"Senior Full Stack Engineer, Education",engineering,-0.0103,0.1123,0.0
+SC2,5099753008,"Manager, Forward Deployed Engineering",engineering,-0.0624,0.0553,0.0
+SC2,5101169008,"Staff Software Engineer, AI Reliability Engineering",engineering,-0.0323,0.0723,0.0
+SC2,5101173008,"Staff Software Engineer, AI Reliability Engineering",engineering,-0.0317,0.0729,0.0
+SC2,5101923008,Integrations Developer,engineering,-0.0271,0.0812,0.0
+SC2,5102440008,"Staff+ Software Engineer, Observability",engineering,0.0082,0.069,1.9569
+SC2,5103078008,"Engineering Manager, Safeguards Data Infrastructure",engineering,-0.0234,0.0759,1.9646
+SC2,5105509008,"Security Engineer, Offensive Security",engineering,-0.0538,0.0524,0.0
+SC2,5107121008,"Prompt Engineer, Agent Prompts & Evals",engineering,-0.002,0.1192,0.0
+SC2,5107466008,"Staff / Senior Software Engineer, Cloud Inference",engineering,0.0081,0.0785,0.0
+SC2,5107890008,Data Center Controls Engineer,engineering,-0.0013,0.0583,0.0
+SC2,5108695008,"Technical Program Manager, Safeguards (Infrastructure & Evals)",engineering,-0.0398,0.0502,0.0
+SC2,5108982008,"Software Engineer, Compute Efficiency",engineering,-0.0207,0.0789,3.7037
+SC2,5109273008,"Software Engineer, Human Data Interface",engineering,-0.0426,0.0814,0.0
+SC2,5110511008,"Staff+ Software Engineer, Developer Productivity",engineering,-0.0586,0.0688,2.2321
+SC2,5111745008,"Software Engineer, Inference Deployment",engineering,0.0291,0.0574,0.0
+SC2,5111783008,"Technical Program Manager, Infrastructure",engineering,-0.0434,0.0752,0.0
+SC2,5111942008,"Applied AI Engineer, Life Sciences (Beneficial Deployments)",engineering,-0.0718,0.0829,0.0
+SC2,5113224008,"Staff Software Engineer, AI Reliability",engineering,-0.0272,0.0742,0.0
+SC2,5113368008,Developer Community Lead - EMEA,engineering,-0.0885,0.0932,0.0
+SC2,5114768008,"Staff+ Software Engineer, Data Infrastructure",engineering,-0.0221,0.0528,0.0
+SC2,5116274008,Applied AI Engineer,engineering,-0.0573,0.0767,0.0
+SC2,5116525008,"Design Engineer, Web",engineering,-0.0327,0.0796,0.0
+SC2,5119468008,"Staff Software Engineer, People Products",engineering,-0.0454,0.0769,6.0
+SC2,5119478008,"Engineering Manager, People Products",engineering,-0.0423,0.0804,5.9761
+SC2,5120512008,Staff+ Software Security Engineer,engineering,-0.0481,0.0358,1.4265
+SC2,5121561008,"Forward Deployed Engineer, Applied AI",engineering,-0.0375,0.075,0.0
+SC2,5121563008,"Forward Deployed Engineer, Applied AI",engineering,-0.0531,0.111,0.0
+SC2,5123039008,"Staff+ Software Engineer, Account Abuse",engineering,-0.0379,0.0734,0.0
+SC2,5123851008,Infrastructure Tax Lead,engineering,-0.0668,0.0499,0.0
+SC2,5125387008,"Analytics Data Engineering Manager, Product",engineering,-0.0652,0.077,0.0
+SC2,5125881008,"Data Science Engineer, Capacity & Efficiency",engineering,-0.0196,0.0744,0.0
+SC2,5125912008,"Supply Chain Lead, Data Center Infrastructure",engineering,-0.0714,0.0534,0.0
+SC2,5126702008,"Staff / Senior Software Engineer, Compute Capacity",engineering,0.0193,0.0572,0.0
+SC2,5126762008,Developer Education Lead,engineering,-0.0548,0.1039,1.4144
+SC2,5131038008,"Senior Engineer, Datacenter Server Lifecycle",engineering,-0.0317,0.0494,1.845
+SC2,5134895008,"Senior Staff Software Engineer, API",engineering,-0.0807,0.0781,0.0
+SC2,5135098008,"Security Engineer Lead, Corporate Security",engineering,-0.05,0.0395,1.1696
+SC2,5138099008,Engineering Editorial Lead,engineering,-0.1158,0.0594,0.0
+SC2,5139038008,"Staff Engineer, Datacenter Server Lifecycle",engineering,-0.0242,0.0556,0.0
+SC2,5140329008,Data Center Mechanical Engineer,engineering,-0.0603,0.0596,0.0
+SC2,5140492008,"Engineering Manager, Vertical AI Products",engineering,-0.0659,0.0822,0.0
+SC2,5141377008,"Engineering Manager, Cloud Inference AWS",engineering,-0.052,0.0776,0.0
+SC2,5141849008,Incentive Compensation System Engineer,engineering,-0.034,0.0955,0.0
+SC2,5146261008,"Software Engineer, Billing Platform",engineering,-0.0342,0.0564,0.0
+SC2,5146298008,"Staff Software Engineer, Billing Platform",engineering,-0.0391,0.0545,0.0
+SC2,5146363008,"Engineering Manager, Product Monetization (Billing Platform)",engineering,-0.039,0.0806,0.0
+SC2,5150472008,"Staff Software Engineer, Inference",engineering,-0.0295,0.0811,0.0
+SC2,5151066008,"Senior Software Engineer, Databases",engineering,-0.0272,0.0837,0.0
+SC2,5151069008,"Staff+ Software Engineer, Databases",engineering,-0.0266,0.0835,0.0
+SC2,5152348008,"Sr. Software Engineer, Inference",engineering,-0.026,0.0858,0.0
+SC2,5153564008,Security Labs Engineer,engineering,-0.0612,0.0573,0.0
+SC2,5155195008,Finance Systems Integration Engineer,engineering,-0.0237,0.0766,0.0
+SC2,5155391008,"Engineering Manager, Inference Routing and Performance",engineering,-0.0001,0.0302,1.9305
+SC2,5156057008,"Data Engineer, Safeguards",engineering,-0.0129,0.0888,1.8149
+SC2,5157844008,"Software Engineer, Platform",engineering,-0.0422,0.0311,1.1211
+SC2,5157847008,"Staff+ Software Engineer, Platform",engineering,-0.0471,0.0536,1.9268
+SC2,5159146008,"Staff+ Software Engineer, Privacy",engineering,0.0234,0.1083,0.0
+SC2,5159608008,"Engineering Manager, Agent Prompts & Evals",engineering,-0.025,0.0427,0.0
+SC2,5159642008,"Data Center Engineer, Resource Efficiency – Compute Supply",engineering,0.0203,0.0037,0.0
+SC2,5159669008,"Prompt Engineer, Claude Code",engineering,0.0041,0.1116,4.5351
+SC2,5161882008,"IT Systems Engineer, Enterprise SaaS",engineering,0.0041,0.0956,0.0
+SC2,5168829008,"Software Engineer, Cloud Inference Safeguards",engineering,-0.0153,0.0635,1.2315
+SC2,5169670008,"Strategic Deals Lead, Compute & Infrastructure",engineering,-0.0621,0.0769,0.0
+SC2,5170073008,Staff Network Engineer,engineering,0.0074,0.0776,0.0
+SC2,5172245008,"Senior / Staff+ Software Engineer, Voice Platform",engineering,0.0315,0.1042,0.0
+SC2,5174743008,"Senior Software Engineer, Full-stack",engineering,-0.0637,0.0877,0.0
+SC2,5174747008,"Staff+ Software Engineer, Full-stack",engineering,-0.0674,0.0865,0.0
+SC2,5174755008,"Staff+ Software Engineer, Backend",engineering,-0.0545,0.0717,1.032
+SC2,5174757008,"Software Engineer, Backend",engineering,-0.0615,0.0654,1.0627
+SC2,5177143008,"Network Engineer, Capacity and Efficiency",engineering,0.0383,0.0429,0.0
+SC2,5183983008,"Manager of Forward Deployed Engineering, Applied AI",engineering,-0.0814,0.0475,0.0
+SC2,5186067008,"Full-Stack Software Engineer, Reinforcement Learning",engineering,0.0004,0.0914,0.0
+SC2,5186518008,"Commercial Counsel, Compute & Infrastructure",engineering,-0.0932,0.0556,0.0
+SC2,5186669008,"Finance Systems Engineer, Revenue",engineering,-0.0315,0.0623,0.0
+SC2,5187486008,Data Center Electrical Engineer,engineering,-0.0546,0.0627,0.0
+SC2,5191433008,"Software Engineer, Safeguards Foundations (Internal Tooling)",engineering,-0.0277,0.0627,0.0
+SC2,5191638008,Cluster Deployment Engineer,engineering,-0.022,0.0544,0.0
+SC2,5194021008,"Senior Manager, Infrastructure Accounting",engineering,-0.0797,0.0579,0.0
+SC2,5194827008,Field Services Engineer,engineering,-0.0331,0.0522,2.8169
+SC2,5195705008,Security Engineer - Threat Intel,engineering,-0.0542,0.034,0.0
+SC2,5196219008,"Director, Infrastructure & Energy Accounting",engineering,-0.0821,0.0624,0.0
+SC2,5196221008,"Director, Infrastructure Capex Accounting",engineering,-0.076,0.0556,0.0
+SC2,5196230008,"Senior Manager, Infrastructure Capex Accounting",engineering,-0.0728,0.0605,0.0
+SC2,5197529008,"Data Scientist, Developer Productivity",engineering,-0.0294,0.1036,0.0
+SC2,5197714008,"Senior Security Software Engineer, Linux Kernel Security - Nodes & Sensors",engineering,-0.0472,0.052,0.0
+SC2,5203868008,"Staff+ Software Engineer, Node Infra",engineering,-0.0149,0.0737,0.0
+SC2,5204401008,Senior Staff Software Engineer,engineering,-0.0517,0.071,0.0
+SC2,5205495008,Incident Response Manager - Product & Engineering,engineering,-0.0652,0.0525,1.8416
+SC2,5205704008,"Staff+ Software Engineer, Public Sector",engineering,-0.0687,0.0719,0.0
+SC2,5205894008,"Commercial Counsel, Infrastructure Security",engineering,-0.0715,0.0355,0.0
+SC2,5206492008,"Engineering Manager, Platform Foundations",engineering,-0.0784,0.0697,0.0
+SC2,5206978008,"Staff+ Infrastructure Engineer, Cluster Infrastructure",engineering,-0.0297,0.0609,0.0
+SC2,5208284008,IT Support Engineer,engineering,-0.023,0.0786,1.5528
+SC2,5209776008,"Security Software Engineer, Platform Integration",engineering,-0.0013,0.0928,0.0
+SC2,5210629008,"Engineering Manager, Passport",engineering,-0.055,0.0673,0.0
+SC2,5210631008,"Engineering Manager, Marketplace",engineering,-0.0587,0.0659,0.0
+SC2,5211222008,GTM Engineer,engineering,-0.0344,0.0803,0.0
+SC2,5211241008,"Staff+ Software Engineer, Kubernetes Platform",engineering,-0.0239,0.0567,0.0
+SC2,5211297008,"Staff Infrastructure Engineer, Cluster Infrastructure",engineering,-0.0311,0.0608,0.0
+SC2,5211305008,"Staff Software Engineer, Kubernetes Platform",engineering,-0.0253,0.0565,0.0
+SC2,5211498008,"Staff Software Engineer, Node Infra",engineering,-0.0164,0.0735,0.0
+SC2,5215028008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,0.0118,0.0682,0.0
+SC2,5218395008,"Software Engineer, Systems - Claude Code",engineering,-0.0212,0.0864,0.0
+SC2,5219454008,Staff Fiber Network Engineer,engineering,-0.0389,0.0491,0.0
+SC2,5219486008,"[Pipeline] Software Engineer, Safeguards Labs",engineering,-0.0397,0.0794,0.0
+SC2,5223916008,"Design Engineer, Web",engineering,-0.044,0.0644,0.0
+SC2,5224564008,"Performance Engineer, Inference Systems",engineering,0.008,0.0741,0.0
+SC2,5227411008,Data Center Electrical Engineer,engineering,-0.0353,0.0524,0.0
+SC2,5227413008,Data Center Mechanical Engineer,engineering,-0.0409,0.0531,0.0
+SC2,5227415008,Data Center Electrical Engineer,engineering,-0.0558,0.0608,0.0
+SC2,5228463008,Support Engineer,engineering,-0.0538,0.0698,1.6474
+SC2,5229345008,"Staff Software Engineer, Claude Design",engineering,-0.0411,0.104,1.2953
+SC2,5231496008,"Staff + Sr. Software Engineer, Cloud Inference",engineering,0.0026,0.0362,0.0
+SC2,5234538008,"Director, Compute Infrastructure Procurement Operations",engineering,-0.0505,0.0305,0.0
+SC2,5236531008,"Engineering Manager, Cybersecurity Products",engineering,-0.0502,0.0662,0.0
+SC2,5236940008,IT Support Engineer,engineering,-0.0163,0.0821,1.5748
+SC2,5237762008,"Staff Software Engineer, Infrastructure Asset Systems",engineering,-0.0411,0.0608,0.0
+SC2,5238296008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,0.047,0.0217,0.0
+SC2,5238606008,"Software Engineer, RL Data",engineering,-0.0202,0.0244,0.0
+SC2,5238637008,"Product Engineer, Computer Use",engineering,-0.0329,0.0871,0.0
+SC2,5239391008,"Communications Lead, Infrastructure and Engineering",engineering,-0.0744,0.0551,0.0
+SC2,5240422008,"Data Engineer, Safeguards",engineering,-0.0118,0.0912,2.1978
+SC2,5245851008,"Staff + Senior Software Engineer, Inference Infrastructure",engineering,-0.0201,0.0768,0.0
+SC2,5248983008,Applied AI Engineer,engineering,-0.0333,0.0865,2.331
+SC2,5250052008,"Staff Security Engineer, Risk Engineering",engineering,-0.0587,0.0492,1.1779
+SC2,5250091008,"Staff+ Software Engineer, GRC Platform",engineering,-0.0244,0.07,1.6207
+SC2,5251671008,"Software Engineer, Safeguards Evals",engineering,-0.0304,0.0727,0.0
+SC2,5252342008,"Senior/Staff Security Engineer, Threat Intelligence",engineering,-0.0546,0.0378,0.0
+SC2,5253835008,"Senior Manager, Infrastructure Procurement Operations - Lease Administration",engineering,-0.0364,0.0625,0.0
+SC2,5254803008,"Staff+ Software Engineer, Developer Productivity",engineering,-0.0593,0.0686,2.2321
+SC2,5255853008,"IT Systems Engineer, Client Platform Engineer",engineering,-0.01,0.0466,0.0
+SC2,5255912008,"Engineering Manager, Enterprise",engineering,-0.0526,0.0803,0.0
+SC2,5257650008,"Staff+ Software Engineer, Inference Velocity",engineering,-0.0389,0.0768,0.0
+SC2,5270442008,"Staff+ Software Engineer, Identity & Access Controls",engineering,-0.0193,0.0744,0.0
+SC2,5271346008,"Platform Security Engineer, OpenBMC",engineering,-0.0305,0.0523,0.0
+SC2,5274117008,"Legal Program Manager, Compute & Infrastructure",engineering,-0.04,0.0689,0.0
+SC2,5277834008,"Manager, Applied AI Engineering,  Beneficial Deployments (Life Sciences)",engineering,-0.0698,0.0618,0.0
+SC2,5285557008,"Staff + Senior Software Engineer, Inference Deployment",engineering,-0.0196,0.0766,0.0
+SC2,5286348008,Silicon Engineer,engineering,-0.0438,0.0807,0.0
+SC2,5287327008,"Salesforce Developer, Partnerships",engineering,-0.0411,0.0918,2.2222
+SC2,5287926008,"Manager, Web Engineering",engineering,-0.0589,0.0763,0.0
+SC2,5288742008,"Staff+ Software Engineer, Enterprise",engineering,-0.0599,0.082,0.0
+SC2,5289450008,"Staff+ Software Engineer, Enterprise Knowledge Work",engineering,-0.0684,0.0672,0.0
+SC2,5290360008,"Staff+ Software Engineer, Developer Acceleration",engineering,-0.0674,0.0625,0.0
+SC2,5290426008,"Platform Security Engineering, Operating Systems",engineering,-0.034,0.0527,0.0
+SC2,5290468008,"Staff+ Software Engineer, Experimentation",engineering,-0.0271,0.0815,2.0921
+SC2,5301737008,"Staff+ Software Engineer, Caching",engineering,-0.0286,0.0596,0.0
+SC2,5301750008,"Staff+ Software Engineer, Databases",engineering,-0.0188,0.0588,0.0
+SC2,5302966008,Forward Deployed Engineer,engineering,-0.0366,0.0749,0.0
+SC2,5304425008,"Staff Software Engineer, Labs: Applied AI",engineering,-0.0297,0.0984,1.3369
+SC2,5305402008,"Staff Software Engineer, Web Platform",engineering,-0.0188,0.0836,0.0
+SC2,5309805008,"Engineering Manager, Connectivity - London",engineering,-0.0705,0.0615,0.0
+SC2,5309917008,"Staff Engineer, Datacenter Server Lifecycle",engineering,-0.0217,0.0579,0.0
+SC2,5310731008,"Staff+ Software Engineer, Capacity Engineering",engineering,0.0056,0.0553,0.0
+SC2,5311463008,Staff+ Application Security Engineer  - M&A,engineering,-0.0608,0.0367,0.0
+SC2,5311465008,"Developer Education Lead, Claude Platform",engineering,-0.0544,0.0727,0.0
+SC2,5315789008,Finance Systems Integration Engineer,engineering,-0.0238,0.0764,0.0
+SC2,5316565008,"Offensive Hardware Security Engineer, Platform Security",engineering,-0.0353,0.0515,0.0
+SC2,5318977008,"Director, Infrastructure Supply Chain Accounting",engineering,-0.0757,0.055,0.0
+SC2,5320469008,"Red Team Engineer, Safeguards",engineering,-0.0179,0.0805,0.0
+SC2,5322723008,"Engineering Manager, Safeguards Interventions",engineering,-0.0402,0.0782,0.0
+SC2,5324758008,"Software Security Engineering Manager, Secure Frameworks",engineering,-0.0416,0.0676,0.0
+SC2,5325909008,"Staff+ Software Engineer, Payment Fraud",engineering,-0.0377,0.067,0.0
+SC2,5342935008,"Staff+ Software Engineer, Safeguards Human Review Tooling",engineering,-0.0314,0.0717,0.0
+SC2,5354765008,"Applied AI Engineer, Enterprise",engineering,-0.0894,0.0605,0.0
+SC2,5355526008,"Finance Systems Engineer, Revenue",engineering,-0.0317,0.062,0.0
+SC2,5357947008,"Finance Systems Engineer, Tax",engineering,-0.0365,0.0485,1.5432
+SC2,5357949008,"Senior Manager, Infrastructure Asset Accounting",engineering,-0.0724,0.0505,0.0
+SC2,5357951008,"Senior Manager, Infrastructure Lease Accounting",engineering,-0.078,0.0614,0.0
+SC2,5357961008,"Manager, Infrastructure Capex Accounting",engineering,-0.0689,0.0609,0.0
+SC2,5358108008,"Strategic Deals Lead, Compute Infrastructure",engineering,-0.0867,0.0523,0.0
+SC2,5358116008,"Senior Manager, Infrastructure Tax",engineering,-0.0758,0.0441,0.0
+SC2,5361472008,"Engineering Manager, Growth",engineering,-0.0551,0.094,0.0
+SC2,5363210008,"Senior Engineering Manager, Capacity Engineering",engineering,-0.0559,0.0559,0.0
+SC2,5363469008,"Staff Software Engineer, Growth",engineering,-0.0413,0.0981,0.0
+SC2,5364336008,Capital Markets - Infrastructure Financing,engineering,-0.0798,0.0622,5.2083
+SC2,5366138008,IT Support Engineer,engineering,-0.0218,0.0793,1.5873
+SC2,5367026008,"Technical Recruiter, Infrastructure",engineering,-0.0303,0.0819,4.3956
+SC2,5367436008,"Staff Software Engineer, Environments Infrastructure",engineering,-0.013,0.0947,0.0
+SC2,5367585008,"Software Engineer, Desktop",engineering,-0.0188,0.1058,0.0
+SC2,5368034008,"Staff+ Software Engineer, Enterprise AI Products",engineering,-0.0542,0.0789,0.0
+SC2,5368166008,"Staff Software Engineer, GTM Systems",engineering,-0.0537,0.0584,0.0
+SC2,5368642008,"Staff+ Software Engineer, Account Compromise",engineering,-0.0678,0.0442,2.442
+SC2,5370555008,"IT Support Engineer, Executive Support",engineering,-0.0627,0.0645,0.0
+SC2,5370615008,"Technical Documentation and Content Engineer, Claude Docs",engineering,-0.0283,0.1098,0.0
+SC2,5370690008,"Staff Software Engineer, Code RL",engineering,-0.007,0.0903,0.0
+SC2,5371065008,"Engineering Manager, Search",engineering,-0.0492,0.0573,0.0
+SC2,5375371008,Data Center Electrical Engineer,engineering,-0.0383,0.0522,0.0
+SC2,5375376008,Data Center Mechanical Engineer,engineering,-0.0473,0.0536,0.0
+SC2,5382744008,"Infrastructure Capacity Planner, Demand Planning",engineering,-0.0285,0.0676,0.0
+SC2,5382750008,"AI Infrastructure Operations, Demand Planning",engineering,-0.0369,0.0531,0.0
+SC2,5383114008,"Staff+ Software Engineer, Privacy",engineering,-0.0207,0.1026,0.0
+SC2,5383596008,Developer Relations,engineering,-0.0741,0.1075,1.5898
+SC2,5383610008,"Staff Software Engineer, Claude Code",engineering,-0.0209,0.0961,0.0
+SC2,5385588008,AV Engineer,engineering,-0.0334,0.1002,0.0
+SC2,5385590008,AV Engineer,engineering,-0.0329,0.0977,0.0
+SC2,5385634008,"Manager, Forward Deployed Engineering",engineering,-0.0627,0.0552,0.0
+SC2,5385764008,IT Support Engineer,engineering,-0.0135,0.0845,2.2222
+SC2,5385998008,"Staff + Senior Software Engineer, Inference",engineering,-0.0171,0.0808,0.0
+SC2,5386949008,IT Support Engineer,engineering,-0.0254,0.0798,1.5723
+SC2,5386971008,"Front End Engineer, Marketing",engineering,-0.0303,0.0858,0.0
+SC2,5387083008,"Staff Software Engineer, Infrastructure (Distributed Systems)",engineering,-0.0602,0.0621,5.1282
+SC2,5388612008,"Staff+ Software Engineer, Infrastructure, Interpretability",engineering,-0.0477,0.0875,0.0
+SC2,5389305008,"Software Engineer, Education",engineering,-0.0051,0.1137,0.0
+SC2,5390019008,"IT Support Engineer, Application Administrator",engineering,-0.0192,0.0764,0.0
+SC2,5390728008,"Finance Systems Engineer, Finance and Strategy",engineering,-0.0388,0.0739,0.0
+SC2,5390754008,"Applied AI Engineer, Enterprise",engineering,-0.1214,0.0773,0.0
+SC2,5390795008,"Applied AI Engineer, Enterprise",engineering,-0.0981,0.0555,0.0
+SC2,5390799008,Applied AI Engineer,engineering,-0.0477,0.094,0.0
+SC2,5390966008,"Staff Software Engineer, GTM AI Engineering",engineering,-0.048,0.0541,0.0
+SC2,5391012008,"Pre-Sales Program Lead, Forward Deployed Engineering",engineering,-0.0735,0.0537,0.0
+SC2,5391016008,Forward Deployed Engineer,engineering,-0.0363,0.079,0.0
+SC2,5391021008,Forward Deployed Engineer,engineering,-0.0526,0.1169,0.0
+SC2,5391151008,"AI Operations Engineer, Partnerships",engineering,-0.027,0.068,0.0
+SC2,5391782008,"Manager, Corporate Network Engineering",engineering,-0.0536,0.0427,0.0
+SC2,5392335008,"Staff+ Software Engineer, Platform Ecosystem",engineering,-0.0696,0.0687,1.9685
+SC2,5392856008,"DevOps / AgentOps Engineer, GTM Systems",engineering,-0.0294,0.06,0.0
+SC2,5394943008,"Staff+ Software Engineer, Product Sandboxing",engineering,-0.0602,0.0675,5.4054
+SC2,5394948008,"Staff+ Software Engineer, Platform Connectivity",engineering,-0.0505,0.0673,3.937
+SC2,5395767008,"Staff+ Software Engineer, Claude Managed Agents",engineering,-0.0368,0.0344,1.1601
+SC2,5396384008,"IT Systems Engineer, Mobile Client Platform Engineer",engineering,-0.0332,0.0524,0.0
+SC2,5396397008,IT Support Engineer,engineering,-0.0172,0.0843,1.5974
+SC2,5397005008,"Staff+ Software Engineer, Platform Distribution",engineering,-0.0538,0.0686,2.1834
+SC2,5397131008,"Staff+ Software Engineer, Platform Portability",engineering,-0.024,0.0664,0.0
+SC2,5397319008,"Security Engineer, Corporate Security",engineering,-0.0326,0.0584,0.0
+SC2,5397596008,"Manufacturing Quality Engineer, Data Center Power & Cooling",engineering,-0.0173,0.0451,0.0
+SC2,5397654008,"Product Designer, Claude Developer Platform",engineering,-0.0252,0.1053,0.0
+SC2,5398218008,"Staff+ Software Engineer, Developer Experience",engineering,-0.0536,0.0885,0.0
+SC2,5398227008,"Staff+ Software Engineer, Auth & Identity",engineering,-0.0297,0.0797,1.4903
+SC2,5399158008,Manufacturing Engineer - Data Center Hardware,engineering,-0.065,0.0575,0.0
+SC2,5399162008,Product Engineer - Manufacturing Operations,engineering,-0.0736,0.0537,0.0
+SC2,5400153008,"Software Engineer, Business Technology",engineering,-0.0263,0.0852,6.4516
+SC2,5400160008,"Software Engineer, Business Technology",engineering,-0.0267,0.0851,6.4516
+SC2,5404730008,"Staff+ Software Engineer, RL Data Platform",engineering,-0.0228,0.0866,0.0
+SC2,5405548008,"Engineering Manager, Hardware Platform Security",engineering,-0.0588,0.0533,0.0
+SC2,5406367008,Cyber Evaluations Engineer,engineering,-0.0266,0.0924,0.0
+SC2,5409055008,"Director, Finance Systems - Revenue Systems Engineering",engineering,-0.0129,0.0778,0.0
+SC2,5410610008,"Engineering Manager, Safeguards",engineering,-0.0458,0.0847,0.0
+SC2,5411267008,"Engineering Manager, Scheduler and Fleet Efficiency",engineering,-0.0442,0.0611,0.0
+SC2,5411560008,"Engineering Manager, Inference Infrastructure",engineering,-0.0222,0.0471,0.0
+SC2,5412272008,"Staff Software Engineer, Observability & Profiling",engineering,-0.0033,0.0592,1.9048
+SC2,5412734008,"Staff+ Software Engineer, Claude Science",engineering,-0.0691,0.0873,0.0
+SC2,5413374008,Salesforce Developer,engineering,-0.0332,0.0848,1.1933
+SC2,5413642008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,-0.0633,0.0893,0.0
+SC2,5416059008,"TPM Manager, Infrastructure",engineering,-0.0595,0.0636,0.0
+SC2,5416709008,"Staff+ Site Reliability Engineer, Safeguards ML Infra",engineering,-0.0123,0.0529,0.0
+SC2,5418323008,"Performance Engineer, Inference Engine",engineering,0.0059,0.0893,0.0
+SC2,5418402008,"Engineering Manager, Business Technology",engineering,-0.0417,0.0773,0.0
+SC2,5418610008,"Data Engineer, GTM",engineering,-0.0529,0.0654,0.0
+SC2,5418977008,"Security Engineer, Offensive Security",engineering,-0.0538,0.0524,0.0
+SC2,5419868008,"Staff+ Software Engineer, ML Sampling Path",engineering,-0.0321,0.0737,0.0
+SC2,5419869008,"Staff+ Software Engineer, ML Inference Path",engineering,-0.0159,0.0916,2.1978
+SC2,5420994008,"Salesforce Developer, Partnerships",engineering,-0.0396,0.0917,2.2573
+SC2,5421263008,"Software Engineer, Tokens and Prompt Structures",engineering,-0.0417,0.0896,0.0
+SC2,5423029008,Forward Deployed Engineer,engineering,-0.0368,0.0742,0.0
+SC2,5423737008,"IT Operations Engineer, Asset Management",engineering,-0.034,0.0374,0.0
+SC2,5423931008,"Copywriter, Developer",engineering,-0.0922,0.084,0.0
+SC2,5424111008,Recruiting Analytics Data Engineer,engineering,0.0027,0.0858,0.0
+SC2,5424404008,"Staff+ Software Engineer, Distributed Systems",engineering,-0.0305,0.0659,2.4814
+SC2,5426135008,"Engineering Manager, Data Infrastructure",engineering,-0.0416,0.0544,0.0
+SC2,5427969008,"Compute & Infrastructure Counsel, Real Estate",engineering,-0.0888,0.0578,0.0
+SC2,5428950008,"Staff+ Software Engineer, Storage + Transfer",engineering,-0.0188,0.0554,0.0
+SC2,5429202008,"[DH] Engineering Manager, AI Observability",engineering,-0.0443,0.0717,0.0
+SC2,5431374008,Head of Business Technology Engineering,engineering,-0.0706,0.053,0.0
+SC2,5432558008,Staff Software Engineer: Compute,engineering,-0.0346,0.0619,0.0
+SC2,5432575008,"Applied AI Engineer, Startups",engineering,-0.0562,0.0772,0.0
+SC2,5432626008,"Staff Security Engineer, Detection & Response",engineering,-0.0423,0.0521,0.0
+SC2,5433813008,"Staff+ Software Engineer, Account Creation",engineering,-0.0316,0.0797,0.0
+SC2,5433814008,"Staff+ Software Engineer, Access Programs",engineering,-0.0287,0.0751,0.0
+SC2,5435282008,"Applied AI Engineer, DNB",engineering,-0.0581,0.0735,0.0
+SC2,5435665008,"Senior+ Software Engineer, Legal Tech",engineering,-0.0352,0.0694,0.0
+SC2,5436293008,"Staff+ Software Engineer, Account Abuse (Machine Learning)",engineering,-0.0098,0.0877,0.0
+SC2,5436684008,"Staff + Sr. Software Engineer, Cloud Inference",engineering,-0.0178,0.0751,0.0
+SC2,5436697008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,0.0118,0.0689,0.0
+SC2,5436703008,"Staff + Sr. Software Engineer, Scaling",engineering,-0.0128,0.0792,0.0
+SC2,5437172008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,-0.0718,0.0829,0.0
+SC2,5023394008,Anthropic AI Safety Fellow,fellows,-0.0781,-0.0085,1.0764
+SC2,5030244008,Anthropic AI Security Fellow,fellows,-0.0805,-0.0154,1.1779
+SC2,5183044008,"Anthropic Fellows Program, AI Safety & Security",fellows,-0.0852,-0.0163,0.8905
+SC2,5183051008,"Anthropic Fellows Program, ML Systems & Reinforcement Learning",fellows,-0.0865,-0.0211,1.1287
+SC2,5183052008,"Anthropic Fellows Program, Reinforcement Learning",fellows,-0.085,-0.0134,0.993
+SC2,5183053008,"Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",fellows,-0.0901,0.0024,1.3812
+SC2,5189848008,Anthropic STEM Fellow,fellows,-0.1108,-0.0265,0.0
+SC3,4017331008,"Research Engineer, Knowledge Team",research,0.1307,-0.0281,0.0
+SC3,4017544008,"Staff+ Research Scientist, Multi-Agent",research,0.1194,-0.0382,0.0
+SC3,4532887008,"[Expression of Interest] Research Scientist / Engineer, Honesty",research,0.123,0.0218,0.0
+SC3,4593216008,"Staff Research Engineer, Discovery Team",research,0.118,-0.0108,0.0
+SC3,4610158008,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",research,0.1164,-0.0302,0.0
+SC3,4613568008,"Research Engineer, Machine Learning (Reinforcement Learning)",research,0.1326,0.0062,0.0
+SC3,4613592008,"Research Engineer, Production Model Post-Training",research,0.1244,-0.0093,0.0
+SC3,4616971008,"Research Engineer/Research Scientist, Pre-training",research,0.1213,0.0056,1.845
+SC3,4631822008,"Research Engineer / Scientist, Alignment",research,0.1208,-0.006,0.0
+SC3,4669581008,"Research Engineer, Discovery",research,0.1211,-0.0151,0.0
+SC3,4935314008,"Recruiter, AI Research",research,0.112,-0.0233,0.0
+SC3,4938432008,"Research Engineer, Pretraining Scaling",research,0.1244,-0.0303,0.0
+SC3,4938436008,"Research Engineer, Pretraining Scaling - London",research,0.1232,-0.0301,0.0
+SC3,4946308008,"Research Engineer, Virtual Collaborator (Cowork)",research,0.1227,-0.0044,0.0
+SC3,4949108008,"Privacy Research Engineer, Safeguards",research,0.1382,0.0021,0.0
+SC3,4949336008,"ML/Research Engineer, Safeguards",research,0.1374,-0.029,0.0
+SC3,4951064008,"Research Engineer, Environment Scaling",research,0.1315,-0.017,0.0
+SC3,4951814008,"Research Engineer / Research Scientist, Tokens",research,0.1144,-0.0375,0.0
+SC3,4952051008,"Research Engineer, RL Engineering",research,0.1274,-0.0299,0.0
+SC3,4952079008,"Machine Learning Systems Engineer, Research Tools",research,0.1321,-0.0063,2.4155
+SC3,4980427008,"Research Scientist, Interpretability",research,0.1118,-0.0296,0.0
+SC3,4980430008,"Research Engineer, Interpretability",research,0.1159,-0.0094,0.0
+SC3,4980436008,"[Expression of Interest] Research Manager, Interpretability",research,0.105,-0.0349,0.0
+SC3,4981828008,"Software Engineer, Research Tools",research,0.1246,-0.0043,3.231
+SC3,5018472008,"Research Economist, Economic Research",research,0.1051,0.0349,0.0
+SC3,5024831008,"Research Engineer, Reward Models Platform",research,0.1139,-0.0086,0.0
+SC3,5024835008,"Senior Research Scientist, Reward Models",research,0.1028,-0.008,0.0
+SC3,5025624008,"Research Engineer, Cybersecurity RL (Reinforcement Learning)",research,0.1215,-0.0102,0.0
+SC3,5061517008,"Research Engineer, Universes",research,0.1303,-0.0171,0.0
+SC3,5066977008,"Research Scientist/Engineer, Biological Safety",research,0.126,-0.0059,1.6393
+SC3,5067100008,"Research Engineer, Frontier Red Team (Autonomy)",research,0.1285,-0.034,0.0
+SC3,5071132008,"Research Engineer, Economic Research",research,0.1094,0.0192,0.0
+SC3,5074217008,"Research Engineer, Visual Knowledge Work",research,0.112,-0.0061,0.0
+SC3,5074815008,"Research Engineer/Research Scientist, Audio",research,0.1412,-0.0047,0.0
+SC3,5076477008,"Research Engineer / Scientist, Frontier Red Team (Cyber)",research,0.1185,-0.0195,0.0
+SC3,5076606008,"Research Engineer / Scientist, Societal Impacts",research,0.1222,0.0029,0.0
+SC3,5076616008,"Research Scientist, Societal Impacts",research,0.1204,-0.0081,0.0
+SC3,5096878008,"Research Product Manager, Labs",research,0.1171,-0.0298,0.0
+SC3,5103788008,"Research Scientist, Frontier Red Team (Emerging Risks)",research,0.1235,-0.0201,1.9646
+SC3,5112018008,"Research Engineer, Production Model Post-Training",research,0.1194,-0.0086,0.0
+SC3,5115935008,"Research Engineer, Machine Learning (Reinforcement Learning)",research,0.1319,0.0067,0.0
+SC3,5119713008,"Research Engineer, Pretraining",research,0.1213,0.0042,1.8484
+SC3,5123011008,"Offensive Security Research Engineer, Safeguards",research,0.115,-0.027,0.0
+SC3,5123082008,"Product Management, Research",research,0.1164,-0.0245,5.0125
+SC3,5125083008,"Research Engineer, AI Observability",research,0.1166,-0.0379,0.0
+SC3,5126127008,"Research Engineer, Science of Scaling",research,0.1084,-0.0168,2.7027
+SC3,5135168008,"Research Engineer / Research Scientist, Pre-training",research,0.121,0.007,2.1322
+SC3,5139654008,"Research Lead, Training Insights",research,0.1096,0.0033,0.0
+SC3,5149802008,"Transformative AI Research Economist, Economic Research",research,0.1122,0.0317,0.0
+SC3,5153680008,"Communications Manager, Research",research,0.1061,-0.0102,0.0
+SC3,5154112008,"Research Operations, Economic Research",research,0.0893,0.0038,0.0
+SC3,5160330008,"Research Engineer, Performance RL",research,0.1565,-0.0074,0.0
+SC3,5174556008,User Experience Researcher,research,0.0824,-0.0424,0.0
+SC3,5188237008,"Research Operations, Discovery",research,0.1056,-0.0185,0.0
+SC3,5191226008,"Software Engineer, Research Data Platform",research,0.1228,-0.0242,0.0
+SC3,5191785008,"Research Engineer, Safeguards Labs",research,0.1288,-0.0181,1.9569
+SC3,5197337008,"Research Engineer, RL Infrastructure and Reliability (Knowledge Work)",research,0.1129,-0.0138,0.0
+SC3,5198074008,"Research Engineer, Machine Learning (RL Velocity)",research,0.1043,-0.0342,0.0
+SC3,5198108008,"Research Engineer, Machine Learning (RL Velocity)",research,0.1047,-0.0356,0.0
+SC3,5198255008,"Research Engineer, Post-Training Model Evaluations",research,0.1178,-0.0385,0.0
+SC3,5203545008,"Technical Program Manager, Research",research,0.098,-0.0066,0.0
+SC3,5206456008,"Research Engineer, Search and Knowledge Post-Training",research,0.0961,-0.04,1.5601
+SC3,5207302008,"Contracts Manager, Research & Operations",research,0.1098,-0.0248,0.0
+SC3,5208278008,"Research Operations, External Artifacts",research,0.0879,-0.027,0.0
+SC3,5223093008,"Engineering Manager, Research Productivity",research,0.1164,-0.0289,0.0
+SC3,5231200008,"Regional Research Economist, Economic Research",research,0.1065,0.0424,0.0
+SC3,5231205008,"Regional Research Economist, Economic Research",research,0.1034,0.0432,0.0
+SC3,5231612008,"Research Engineer, Chip Design RL (Reinforcement Learning)",research,0.134,-0.011,0.0
+SC3,5239733008,"Research Scientist, Life Sciences",research,0.13,0.0097,1.7513
+SC3,5254364008,"Research Engineer, Code RL (Reinforcement Learning)",research,0.1338,-0.0134,0.0
+SC3,5257763008,"People Research Scientist, Recruiting",research,0.0929,0.007,1.8484
+SC3,5264619008,"Research Engineer, RL Scaling Science",research,0.1115,-0.0205,0.0
+SC3,5265365008,"Research Engineer, Life Sciences",research,0.1185,-0.0085,3.268
+SC3,5271380008,"Research Engineer, Domain Scaling",research,0.1222,-0.0165,0.0
+SC3,5278065008,"Research Engineer, Rule of Law",research,0.121,0.019,0.0
+SC3,5283063008,"Software Engineer, Research Infrastructure",research,0.1007,-0.0154,6.424
+SC3,5285246008,"Research Engineer, Computer Use",research,0.1421,-0.0193,0.0
+SC3,5285248008,"Research Associate, Biology",research,0.1297,-0.0241,0.0
+SC3,5285250008,"Research Scientist, Life Sciences (Experimental Biology)",research,0.1102,-0.0007,2.331
+SC3,5286441008,"Researcher, Education Labs",research,0.1083,-0.0285,0.0
+SC3,5297059008,"Engineering Manager, Research Data Platform",research,0.1139,-0.0416,0.0
+SC3,5304242008,"Research Operations Lead, Biology",research,0.1271,-0.0276,0.0
+SC3,5324349008,"Product Manager, Research (Code)",research,0.1172,-0.0236,5.1151
+SC3,5357739008,"Research Scientist, Life Sciences (Computational)",research,0.1011,-0.0047,0.0
+SC3,5362838008,"People Research Scientist, Recruiting",research,0.0929,0.007,1.8484
+SC3,5364804008,"Machine Learning Infrastructure Engineer, Safeguards Research",research,0.1242,-0.0127,0.0
+SC3,5370669008,"Research Scientist, Takeoff Intel",research,0.1069,-0.0366,0.0
+SC3,5380327008,"Technical Program Manager, RL Research",research,0.0993,-0.0245,0.0
+SC3,5385217008,"Staff+ Researcher, Cybersecurity Products",research,0.1094,-0.0403,0.0
+SC3,5387564008,"Research Scientist, Life Sciences (Chemistry)",research,0.1212,-0.017,2.7027
+SC3,5390811008,"Applied AI, Research Engineer",research,0.1369,-0.0363,0.0
+SC3,5392007008,"User Experience Researcher, Platform",research,0.0963,-0.0519,1.4948
+SC3,5404725008,"Staff+ Research Engineer, RL Data Platform",research,0.1204,-0.032,0.0
+SC3,5412334008,"Research Engineer, Cybersecurity RL (Reinforcement Learning)",research,0.1148,-0.014,0.0
+SC3,5412944008,"Research Manager, Biological Safety",research,0.1199,-0.0105,0.0
+SC3,5413418008,Research Counsel,research,0.1215,0.0167,0.0
+SC3,5415930008,"Research & Education Sales Lead, Beneficial Deployments",research,0.1085,-0.0198,0.0
+SC3,5416882008,"Research Engineer, Takeoff Intel",research,0.1131,-0.0351,0.0
+SC3,5422117008,"Research Operations, Reinforcement Learning",research,0.0754,-0.0542,0.0
+SC3,5431235008,"Policy Research, Strategic Advisory",research,0.0781,-0.0121,1.3495
+SC3,https://job-boards.greenhouse.io/anthropic/jobs/4610158008%5C,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",research,0.106,-0.0322,0.0
+SC3,4020350008,Performance Engineer,engineering,0.1714,0.0012,0.0
+SC3,4502508008,Staff+ Application Security Engineer,engineering,0.1553,0.0013,0.0
+SC3,4572744008,"Staff Software Engineer, iOS",engineering,0.1805,-0.0072,0.0
+SC3,4595463008,"Security Software Engineer, Detection & Response Platform",engineering,0.161,0.0226,0.0
+SC3,4641822008,"Senior Software Engineer, Inference",engineering,0.1705,0.028,0.0
+SC3,4673416008,"Software Engineer, UI Platform",engineering,0.1662,0.009,0.0
+SC3,4720576008,TPU Kernel Engineer,engineering,0.176,0.0021,0.0
+SC3,4741102008,"Engineering Manager, Inference",engineering,0.1698,0.0012,0.0
+SC3,4741104008,"Engineering Manager, GPU (ML Accelerator)",engineering,0.1673,-0.0092,0.0
+SC3,4778843008,"ML Infrastructure Engineer, Safeguards",engineering,0.1885,0.0249,0.0
+SC3,4802076008,IT Support Engineer,engineering,0.1378,-0.0026,1.4903
+SC3,4887952008,"IT Systems Engineer, Corporate Systems & Infrastructure",engineering,0.183,-0.0068,0.0
+SC3,4887959008,Senior Software Security Engineer,engineering,0.1627,0.0275,0.0
+SC3,4889396008,"Engineering Manager, Auth & Identity",engineering,0.1559,0.0092,0.0
+SC3,4899511008,"Staff Software Engineer, Android",engineering,0.1856,-0.0075,0.0
+SC3,4915842008,"Senior Software Engineer, Systems",engineering,0.1572,-0.0132,2.7473
+SC3,4926227008,"Performance Engineer, GPU",engineering,0.1743,0.0317,0.0
+SC3,4926242008,"Software Engineer, ML Networking",engineering,0.1724,0.0312,0.0
+SC3,4942024008,"Software Engineer, Beneficial Deployments",engineering,0.1802,0.0259,0.0
+SC3,4951696008,"Staff + Sr. Software Engineer, Inference",engineering,0.171,0.0039,0.0
+SC3,4951844008,"Staff+ Software Engineer, Safeguards",engineering,0.1732,-0.0012,0.0
+SC3,4956672008,Data Engineer,engineering,0.1628,0.0002,0.0
+SC3,4970314008,"Staff+ Software Engineer, Infrastructure (Distributed Systems)",engineering,0.1571,-0.0056,7.177
+SC3,4973067008,Pre-training Data Infrastructure Engineer,engineering,0.173,0.0177,2.9499
+SC3,4980335008,"Engineering Manager, GRC Platform",engineering,0.154,0.0257,1.0684
+SC3,4980420008,"Software Engineer, Desktop",engineering,0.177,-0.0154,0.0
+SC3,4982193008,"Security Engineer, Detection & Response",engineering,0.1568,0.0006,0.0
+SC3,4982198008,"Software Engineer, Business Technology",engineering,0.1582,-0.0136,6.1728
+SC3,4985877008,"Forward Deployed Engineer, Applied AI",engineering,0.186,-0.0013,0.0
+SC3,5012991008,Forward Deployed Engineer,engineering,0.1862,-0.002,0.0
+SC3,5013366008,"Engineering Manager, Safeguards Review Tooling",engineering,0.1584,0.015,0.0
+SC3,5013743008,"Technical Program Manager, Data Center Infrastructure",engineering,0.1624,0.0092,0.0
+SC3,5014500008,Applied AI Engineer,engineering,0.162,0.0028,2.2026
+SC3,5017202008,"Software Engineer, Labs",engineering,0.159,0.0018,1.5432
+SC3,5021015008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,0.158,0.0064,0.0
+SC3,5022845008,Staff Software Security Engineer,engineering,0.1637,0.0237,0.0
+SC3,5025591008,"Software Engineer, Sandboxing (Systems)",engineering,0.1724,0.0477,0.0
+SC3,5026097008,"Staff Software Engineer, Product",engineering,0.161,-0.0055,0.0
+SC3,5030680008,"Infrastructure Engineer, Sandboxing",engineering,0.1685,0.0129,0.0
+SC3,5055488008,Applied AI Engineer,engineering,0.1613,0.0,2.1739
+SC3,5057647008,"Applied AI Engineer, Enterprise Tech",engineering,0.1669,0.0009,2.2173
+SC3,5062968008,"Technical Program Manager, Consumer Engineering",engineering,0.1553,0.0093,0.0
+SC3,5063007008,"Staff+ Software Engineer, Cybersecurity Products",engineering,0.1534,-0.0151,0.0
+SC3,5065894008,"Staff+ Software Engineer, Claude App Infrastructure",engineering,0.1619,-0.0077,0.0
+SC3,5068226008,"Applied AI Engineer, Beneficial Deployments",engineering,0.1677,-0.0073,0.0
+SC3,5068288008,"Senior Security Engineer, Detection & Response",engineering,0.1486,-0.0023,0.0
+SC3,5068296008,"Engineering Manager, Detection and Response",engineering,0.15,0.0055,0.0
+SC3,5073277008,"Applied AI Engineer, Startups",engineering,0.1662,-0.0021,0.0
+SC3,5073998008,"Staff Software Engineer, Continuous Integration",engineering,0.1752,0.0068,0.0
+SC3,5074908008,"Staff+ Software Engineer, Safeguards Infrastructure",engineering,0.1714,0.0061,0.0
+SC3,5074937008,Threat Intelligence Engineer,engineering,0.1573,0.0117,0.0
+SC3,5079562008,"Forward Deployed Engineer, Federal Civilian",engineering,0.1844,-0.0028,0.0
+SC3,5083039008,"Software Engineer, Sandboxing",engineering,0.1568,0.0113,0.0
+SC3,5097186008,"Full Stack Engineer, Education Labs",engineering,0.1523,0.0101,1.3333
+SC3,5097742008,"Staff Software Engineer, Inference",engineering,0.1713,0.0071,0.0
+SC3,5098025008,"Model Performance Software Engineer, Claude Code",engineering,0.1485,-0.0037,0.0
+SC3,5098092008,"Software Engineering Manager, Network Security",engineering,0.1534,-0.008,0.0
+SC3,5098565008,"Senior Full Stack Engineer, Education",engineering,0.1801,0.0056,0.0
+SC3,5099753008,"Manager, Forward Deployed Engineering",engineering,0.1597,-0.0212,0.0
+SC3,5101169008,"Staff Software Engineer, AI Reliability Engineering",engineering,0.176,-0.0199,0.0
+SC3,5101173008,"Staff Software Engineer, AI Reliability Engineering",engineering,0.1743,-0.0198,0.0
+SC3,5101923008,Integrations Developer,engineering,0.1599,0.0113,0.0
+SC3,5102440008,"Staff+ Software Engineer, Observability",engineering,0.1655,0.0055,1.9569
+SC3,5103078008,"Engineering Manager, Safeguards Data Infrastructure",engineering,0.1832,0.0186,1.9646
+SC3,5105509008,"Security Engineer, Offensive Security",engineering,0.1743,-0.0106,0.0
+SC3,5107121008,"Prompt Engineer, Agent Prompts & Evals",engineering,0.1916,0.0084,0.0
+SC3,5107466008,"Staff / Senior Software Engineer, Cloud Inference",engineering,0.1714,0.0141,0.0
+SC3,5107890008,Data Center Controls Engineer,engineering,0.1767,0.0402,0.0
+SC3,5108695008,"Technical Program Manager, Safeguards (Infrastructure & Evals)",engineering,0.1607,-0.0203,0.0
+SC3,5108982008,"Software Engineer, Compute Efficiency",engineering,0.1607,0.0243,3.7037
+SC3,5109273008,"Software Engineer, Human Data Interface",engineering,0.1634,0.0001,0.0
+SC3,5110511008,"Staff+ Software Engineer, Developer Productivity",engineering,0.1582,0.0012,2.2321
+SC3,5111745008,"Software Engineer, Inference Deployment",engineering,0.1956,0.018,0.0
+SC3,5111783008,"Technical Program Manager, Infrastructure",engineering,0.1699,0.0162,0.0
+SC3,5111942008,"Applied AI Engineer, Life Sciences (Beneficial Deployments)",engineering,0.1552,0.0034,0.0
+SC3,5113224008,"Staff Software Engineer, AI Reliability",engineering,0.1773,-0.0159,0.0
+SC3,5113368008,Developer Community Lead - EMEA,engineering,0.157,0.0106,0.0
+SC3,5114768008,"Staff+ Software Engineer, Data Infrastructure",engineering,0.1589,0.0282,0.0
+SC3,5116274008,Applied AI Engineer,engineering,0.1595,-0.0051,0.0
+SC3,5116525008,"Design Engineer, Web",engineering,0.1559,-0.0027,0.0
+SC3,5119468008,"Staff Software Engineer, People Products",engineering,0.1612,-0.0369,6.0
+SC3,5119478008,"Engineering Manager, People Products",engineering,0.162,-0.0348,5.9761
+SC3,5120512008,Staff+ Software Security Engineer,engineering,0.1595,0.0347,1.4265
+SC3,5121561008,"Forward Deployed Engineer, Applied AI",engineering,0.1902,-0.0023,0.0
+SC3,5121563008,"Forward Deployed Engineer, Applied AI",engineering,0.0555,-0.0954,0.0
+SC3,5123039008,"Staff+ Software Engineer, Account Abuse",engineering,0.1613,-0.0013,0.0
+SC3,5123851008,Infrastructure Tax Lead,engineering,0.1492,0.0186,0.0
+SC3,5125387008,"Analytics Data Engineering Manager, Product",engineering,0.1537,0.0146,0.0
+SC3,5125881008,"Data Science Engineer, Capacity & Efficiency",engineering,0.1676,0.0164,0.0
+SC3,5125912008,"Supply Chain Lead, Data Center Infrastructure",engineering,0.1623,-0.0009,0.0
+SC3,5126702008,"Staff / Senior Software Engineer, Compute Capacity",engineering,0.1693,0.0262,0.0
+SC3,5126762008,Developer Education Lead,engineering,0.1478,0.0211,1.4144
+SC3,5131038008,"Senior Engineer, Datacenter Server Lifecycle",engineering,0.1698,0.01,1.845
+SC3,5134895008,"Senior Staff Software Engineer, API",engineering,0.1533,-0.0007,0.0
+SC3,5135098008,"Security Engineer Lead, Corporate Security",engineering,0.1601,0.0155,1.1696
+SC3,5138099008,Engineering Editorial Lead,engineering,0.1074,0.0081,0.0
+SC3,5139038008,"Staff Engineer, Datacenter Server Lifecycle",engineering,0.1748,0.0152,0.0
+SC3,5140329008,Data Center Mechanical Engineer,engineering,0.1719,0.007,0.0
+SC3,5140492008,"Engineering Manager, Vertical AI Products",engineering,0.1629,0.0123,0.0
+SC3,5141377008,"Engineering Manager, Cloud Inference AWS",engineering,0.1607,-0.0009,0.0
+SC3,5141849008,Incentive Compensation System Engineer,engineering,0.1656,0.0369,0.0
+SC3,5146261008,"Software Engineer, Billing Platform",engineering,0.1511,-0.003,0.0
+SC3,5146298008,"Staff Software Engineer, Billing Platform",engineering,0.1501,-0.0053,0.0
+SC3,5146363008,"Engineering Manager, Product Monetization (Billing Platform)",engineering,0.1711,0.0029,0.0
+SC3,5150472008,"Staff Software Engineer, Inference",engineering,0.168,0.0048,0.0
+SC3,5151066008,"Senior Software Engineer, Databases",engineering,0.1662,0.0134,0.0
+SC3,5151069008,"Staff+ Software Engineer, Databases",engineering,0.1656,0.0131,0.0
+SC3,5152348008,"Sr. Software Engineer, Inference",engineering,0.1681,0.008,0.0
+SC3,5153564008,Security Labs Engineer,engineering,0.1456,-0.007,0.0
+SC3,5155195008,Finance Systems Integration Engineer,engineering,0.178,0.0555,0.0
+SC3,5155391008,"Engineering Manager, Inference Routing and Performance",engineering,0.165,-0.0314,1.9305
+SC3,5156057008,"Data Engineer, Safeguards",engineering,0.1792,0.0245,1.8149
+SC3,5157844008,"Software Engineer, Platform",engineering,0.1469,0.0196,1.1211
+SC3,5157847008,"Staff+ Software Engineer, Platform",engineering,0.1473,0.0024,1.9268
+SC3,5159146008,"Staff+ Software Engineer, Privacy",engineering,0.189,0.0954,0.0
+SC3,5159608008,"Engineering Manager, Agent Prompts & Evals",engineering,0.1731,-0.0314,0.0
+SC3,5159642008,"Data Center Engineer, Resource Efficiency – Compute Supply",engineering,0.1896,0.0468,0.0
+SC3,5159669008,"Prompt Engineer, Claude Code",engineering,0.1742,0.0062,4.5351
+SC3,5161882008,"IT Systems Engineer, Enterprise SaaS",engineering,0.1631,0.0137,0.0
+SC3,5168829008,"Software Engineer, Cloud Inference Safeguards",engineering,0.1631,0.0026,1.2315
+SC3,5169670008,"Strategic Deals Lead, Compute & Infrastructure",engineering,0.1679,0.0301,0.0
+SC3,5170073008,Staff Network Engineer,engineering,0.1826,0.0219,0.0
+SC3,5172245008,"Senior / Staff+ Software Engineer, Voice Platform",engineering,0.1842,0.0044,0.0
+SC3,5174743008,"Senior Software Engineer, Full-stack",engineering,0.1487,-0.0161,0.0
+SC3,5174747008,"Staff+ Software Engineer, Full-stack",engineering,0.1538,-0.0094,0.0
+SC3,5174755008,"Staff+ Software Engineer, Backend",engineering,0.1496,-0.0099,1.032
+SC3,5174757008,"Software Engineer, Backend",engineering,0.1476,-0.0131,1.0627
+SC3,5177143008,"Network Engineer, Capacity and Efficiency",engineering,0.1766,0.0099,0.0
+SC3,5183983008,"Manager of Forward Deployed Engineering, Applied AI",engineering,0.1539,-0.0097,0.0
+SC3,5186067008,"Full-Stack Software Engineer, Reinforcement Learning",engineering,0.1641,0.0149,0.0
+SC3,5186518008,"Commercial Counsel, Compute & Infrastructure",engineering,0.1576,0.0309,0.0
+SC3,5186669008,"Finance Systems Engineer, Revenue",engineering,0.1632,0.0088,0.0
+SC3,5187486008,Data Center Electrical Engineer,engineering,0.1809,0.0007,0.0
+SC3,5191433008,"Software Engineer, Safeguards Foundations (Internal Tooling)",engineering,0.1501,0.0041,0.0
+SC3,5191638008,Cluster Deployment Engineer,engineering,0.1807,0.0141,0.0
+SC3,5194021008,"Senior Manager, Infrastructure Accounting",engineering,0.1483,0.0046,0.0
+SC3,5194827008,Field Services Engineer,engineering,0.1713,-0.0158,2.8169
+SC3,5195705008,Security Engineer - Threat Intel,engineering,0.1467,-0.0179,0.0
+SC3,5196219008,"Director, Infrastructure & Energy Accounting",engineering,0.1538,0.0012,0.0
+SC3,5196221008,"Director, Infrastructure Capex Accounting",engineering,0.1503,0.0083,0.0
+SC3,5196230008,"Senior Manager, Infrastructure Capex Accounting",engineering,0.148,0.0083,0.0
+SC3,5197529008,"Data Scientist, Developer Productivity",engineering,0.16,0.0133,0.0
+SC3,5197714008,"Senior Security Software Engineer, Linux Kernel Security - Nodes & Sensors",engineering,0.1631,0.0307,0.0
+SC3,5203868008,"Staff+ Software Engineer, Node Infra",engineering,0.1779,0.0081,0.0
+SC3,5204401008,Senior Staff Software Engineer,engineering,0.1482,-0.0305,0.0
+SC3,5205495008,Incident Response Manager - Product & Engineering,engineering,0.1458,-0.0077,1.8416
+SC3,5205704008,"Staff+ Software Engineer, Public Sector",engineering,0.1557,-0.004,0.0
+SC3,5205894008,"Commercial Counsel, Infrastructure Security",engineering,0.1514,0.0205,0.0
+SC3,5206492008,"Engineering Manager, Platform Foundations",engineering,0.1385,-0.003,0.0
+SC3,5206978008,"Staff+ Infrastructure Engineer, Cluster Infrastructure",engineering,0.1633,0.005,0.0
+SC3,5208284008,IT Support Engineer,engineering,0.1392,-0.0011,1.5528
+SC3,5209776008,"Security Software Engineer, Platform Integration",engineering,0.1582,0.0026,0.0
+SC3,5210629008,"Engineering Manager, Passport",engineering,0.1623,-0.0025,0.0
+SC3,5210631008,"Engineering Manager, Marketplace",engineering,0.1614,-0.0045,0.0
+SC3,5211222008,GTM Engineer,engineering,0.1629,0.0157,0.0
+SC3,5211241008,"Staff+ Software Engineer, Kubernetes Platform",engineering,0.1672,-0.013,0.0
+SC3,5211297008,"Staff Infrastructure Engineer, Cluster Infrastructure",engineering,0.163,0.0048,0.0
+SC3,5211305008,"Staff Software Engineer, Kubernetes Platform",engineering,0.1667,-0.0131,0.0
+SC3,5211498008,"Staff Software Engineer, Node Infra",engineering,0.1774,0.0079,0.0
+SC3,5215028008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,0.1707,0.0025,0.0
+SC3,5218395008,"Software Engineer, Systems - Claude Code",engineering,0.1653,-0.0068,0.0
+SC3,5219454008,Staff Fiber Network Engineer,engineering,0.2015,-0.005,0.0
+SC3,5219486008,"[Pipeline] Software Engineer, Safeguards Labs",engineering,0.1756,0.0028,0.0
+SC3,5223916008,"Design Engineer, Web",engineering,0.1468,0.0252,0.0
+SC3,5224564008,"Performance Engineer, Inference Systems",engineering,0.1565,-0.0017,0.0
+SC3,5227411008,Data Center Electrical Engineer,engineering,0.183,0.0111,0.0
+SC3,5227413008,Data Center Mechanical Engineer,engineering,0.1727,0.0106,0.0
+SC3,5227415008,Data Center Electrical Engineer,engineering,0.1717,0.0086,0.0
+SC3,5228463008,Support Engineer,engineering,0.1494,-0.0229,1.6474
+SC3,5229345008,"Staff Software Engineer, Claude Design",engineering,0.1432,-0.0039,1.2953
+SC3,5231496008,"Staff + Sr. Software Engineer, Cloud Inference",engineering,0.1596,0.0224,0.0
+SC3,5234538008,"Director, Compute Infrastructure Procurement Operations",engineering,0.1623,0.0637,0.0
+SC3,5236531008,"Engineering Manager, Cybersecurity Products",engineering,0.1724,-0.009,0.0
+SC3,5236940008,IT Support Engineer,engineering,0.1303,-0.002,1.5748
+SC3,5237762008,"Staff Software Engineer, Infrastructure Asset Systems",engineering,0.1636,0.019,0.0
+SC3,5238296008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,0.1612,0.0153,0.0
+SC3,5238606008,"Software Engineer, RL Data",engineering,0.1452,-0.0265,0.0
+SC3,5238637008,"Product Engineer, Computer Use",engineering,0.1612,0.0101,0.0
+SC3,5239391008,"Communications Lead, Infrastructure and Engineering",engineering,0.1424,-0.018,0.0
+SC3,5240422008,"Data Engineer, Safeguards",engineering,0.1824,0.0308,2.1978
+SC3,5245851008,"Staff + Senior Software Engineer, Inference Infrastructure",engineering,0.1722,0.0059,0.0
+SC3,5248983008,Applied AI Engineer,engineering,0.1615,0.0019,2.331
+SC3,5250052008,"Staff Security Engineer, Risk Engineering",engineering,0.1453,0.0123,1.1779
+SC3,5250091008,"Staff+ Software Engineer, GRC Platform",engineering,0.1642,0.0128,1.6207
+SC3,5251671008,"Software Engineer, Safeguards Evals",engineering,0.1619,-0.0018,0.0
+SC3,5252342008,"Senior/Staff Security Engineer, Threat Intelligence",engineering,0.1392,-0.0167,0.0
+SC3,5253835008,"Senior Manager, Infrastructure Procurement Operations - Lease Administration",engineering,0.1662,0.0072,0.0
+SC3,5254803008,"Staff+ Software Engineer, Developer Productivity",engineering,0.1571,0.0014,2.2321
+SC3,5255853008,"IT Systems Engineer, Client Platform Engineer",engineering,0.1699,-0.0092,0.0
+SC3,5255912008,"Engineering Manager, Enterprise",engineering,0.1694,-0.0069,0.0
+SC3,5257650008,"Staff+ Software Engineer, Inference Velocity",engineering,0.1715,0.0038,0.0
+SC3,5270442008,"Staff+ Software Engineer, Identity & Access Controls",engineering,0.1585,0.0133,0.0
+SC3,5271346008,"Platform Security Engineer, OpenBMC",engineering,0.1852,0.0006,0.0
+SC3,5274117008,"Legal Program Manager, Compute & Infrastructure",engineering,0.1545,0.0161,0.0
+SC3,5277834008,"Manager, Applied AI Engineering,  Beneficial Deployments (Life Sciences)",engineering,0.1554,-0.0201,0.0
+SC3,5285557008,"Staff + Senior Software Engineer, Inference Deployment",engineering,0.1725,0.0059,0.0
+SC3,5286348008,Silicon Engineer,engineering,0.1698,0.0019,0.0
+SC3,5287327008,"Salesforce Developer, Partnerships",engineering,0.1704,0.0253,2.2222
+SC3,5287926008,"Manager, Web Engineering",engineering,0.161,0.0073,0.0
+SC3,5288742008,"Staff+ Software Engineer, Enterprise",engineering,0.1548,-0.0058,0.0
+SC3,5289450008,"Staff+ Software Engineer, Enterprise Knowledge Work",engineering,0.1545,-0.0206,0.0
+SC3,5290360008,"Staff+ Software Engineer, Developer Acceleration",engineering,0.1546,-0.0134,0.0
+SC3,5290426008,"Platform Security Engineering, Operating Systems",engineering,0.1637,0.0389,0.0
+SC3,5290468008,"Staff+ Software Engineer, Experimentation",engineering,0.1675,0.0029,2.0921
+SC3,5301737008,"Staff+ Software Engineer, Caching",engineering,0.1654,0.0018,0.0
+SC3,5301750008,"Staff+ Software Engineer, Databases",engineering,0.1629,0.0152,0.0
+SC3,5302966008,Forward Deployed Engineer,engineering,0.185,-0.0007,0.0
+SC3,5304425008,"Staff Software Engineer, Labs: Applied AI",engineering,0.1623,-0.0112,1.3369
+SC3,5305402008,"Staff Software Engineer, Web Platform",engineering,0.1735,0.0013,0.0
+SC3,5309805008,"Engineering Manager, Connectivity - London",engineering,0.1544,-0.0206,0.0
+SC3,5309917008,"Staff Engineer, Datacenter Server Lifecycle",engineering,0.1676,0.0139,0.0
+SC3,5310731008,"Staff+ Software Engineer, Capacity Engineering",engineering,0.1646,0.0183,0.0
+SC3,5311463008,Staff+ Application Security Engineer  - M&A,engineering,0.1435,0.0073,0.0
+SC3,5311465008,"Developer Education Lead, Claude Platform",engineering,0.1515,-0.0081,0.0
+SC3,5315789008,Finance Systems Integration Engineer,engineering,0.1781,0.0556,0.0
+SC3,5316565008,"Offensive Hardware Security Engineer, Platform Security",engineering,0.1598,0.02,0.0
+SC3,5318977008,"Director, Infrastructure Supply Chain Accounting",engineering,0.1512,-0.0007,0.0
+SC3,5320469008,"Red Team Engineer, Safeguards",engineering,0.1692,0.01,0.0
+SC3,5322723008,"Engineering Manager, Safeguards Interventions",engineering,0.1747,-0.0115,0.0
+SC3,5324758008,"Software Security Engineering Manager, Secure Frameworks",engineering,0.1597,0.0035,0.0
+SC3,5325909008,"Staff+ Software Engineer, Payment Fraud",engineering,0.1457,0.0169,0.0
+SC3,5342935008,"Staff+ Software Engineer, Safeguards Human Review Tooling",engineering,0.1597,0.0063,0.0
+SC3,5354765008,"Applied AI Engineer, Enterprise",engineering,0.1468,-0.0119,0.0
+SC3,5355526008,"Finance Systems Engineer, Revenue",engineering,0.1633,0.0089,0.0
+SC3,5357947008,"Finance Systems Engineer, Tax",engineering,0.1474,0.0299,1.5432
+SC3,5357949008,"Senior Manager, Infrastructure Asset Accounting",engineering,0.1552,0.0046,0.0
+SC3,5357951008,"Senior Manager, Infrastructure Lease Accounting",engineering,0.1452,0.0073,0.0
+SC3,5357961008,"Manager, Infrastructure Capex Accounting",engineering,0.1486,0.0079,0.0
+SC3,5358108008,"Strategic Deals Lead, Compute Infrastructure",engineering,0.1642,0.0333,0.0
+SC3,5358116008,"Senior Manager, Infrastructure Tax",engineering,0.1442,0.0103,0.0
+SC3,5361472008,"Engineering Manager, Growth",engineering,0.1497,0.0155,0.0
+SC3,5363210008,"Senior Engineering Manager, Capacity Engineering",engineering,0.1546,-0.0065,0.0
+SC3,5363469008,"Staff Software Engineer, Growth",engineering,0.1609,0.0083,0.0
+SC3,5364336008,Capital Markets - Infrastructure Financing,engineering,0.1517,0.0094,5.2083
+SC3,5366138008,IT Support Engineer,engineering,0.1391,-0.0024,1.5873
+SC3,5367026008,"Technical Recruiter, Infrastructure",engineering,0.1653,-0.006,4.3956
+SC3,5367436008,"Staff Software Engineer, Environments Infrastructure",engineering,0.1615,0.0011,0.0
+SC3,5367585008,"Software Engineer, Desktop",engineering,0.1771,-0.0156,0.0
+SC3,5368034008,"Staff+ Software Engineer, Enterprise AI Products",engineering,0.1609,-0.0087,0.0
+SC3,5368166008,"Staff Software Engineer, GTM Systems",engineering,0.1592,-0.0139,0.0
+SC3,5368642008,"Staff+ Software Engineer, Account Compromise",engineering,0.1359,-0.0072,2.442
+SC3,5370555008,"IT Support Engineer, Executive Support",engineering,0.1427,-0.0379,0.0
+SC3,5370615008,"Technical Documentation and Content Engineer, Claude Docs",engineering,0.1664,0.0131,0.0
+SC3,5370690008,"Staff Software Engineer, Code RL",engineering,0.1625,0.0042,0.0
+SC3,5371065008,"Engineering Manager, Search",engineering,0.1449,-0.017,0.0
+SC3,5375371008,Data Center Electrical Engineer,engineering,0.1918,0.0094,0.0
+SC3,5375376008,Data Center Mechanical Engineer,engineering,0.178,0.0121,0.0
+SC3,5382744008,"Infrastructure Capacity Planner, Demand Planning",engineering,0.1786,0.0163,0.0
+SC3,5382750008,"AI Infrastructure Operations, Demand Planning",engineering,0.1681,0.0035,0.0
+SC3,5383114008,"Staff+ Software Engineer, Privacy",engineering,0.1821,0.0554,0.0
+SC3,5383596008,Developer Relations,engineering,0.1476,0.0054,1.5898
+SC3,5383610008,"Staff Software Engineer, Claude Code",engineering,0.1613,-0.0057,0.0
+SC3,5385588008,AV Engineer,engineering,0.173,0.0074,0.0
+SC3,5385590008,AV Engineer,engineering,0.1756,0.0072,0.0
+SC3,5385634008,"Manager, Forward Deployed Engineering",engineering,0.159,-0.0209,0.0
+SC3,5385764008,IT Support Engineer,engineering,0.1434,0.0028,2.2222
+SC3,5385998008,"Staff + Senior Software Engineer, Inference",engineering,0.1654,0.0043,0.0
+SC3,5386949008,IT Support Engineer,engineering,0.1368,-0.0012,1.5723
+SC3,5386971008,"Front End Engineer, Marketing",engineering,0.1581,0.0066,0.0
+SC3,5387083008,"Staff Software Engineer, Infrastructure (Distributed Systems)",engineering,0.1572,-0.006,5.1282
+SC3,5388612008,"Staff+ Software Engineer, Infrastructure, Interpretability",engineering,0.1556,0.0163,0.0
+SC3,5389305008,"Software Engineer, Education",engineering,0.1747,0.006,0.0
+SC3,5390019008,"IT Support Engineer, Application Administrator",engineering,0.1603,0.0115,0.0
+SC3,5390728008,"Finance Systems Engineer, Finance and Strategy",engineering,0.1626,0.0389,0.0
+SC3,5390754008,"Applied AI Engineer, Enterprise",engineering,0.0034,-0.0975,0.0
+SC3,5390795008,"Applied AI Engineer, Enterprise",engineering,0.1366,-0.0166,0.0
+SC3,5390799008,Applied AI Engineer,engineering,0.1634,0.0017,0.0
+SC3,5390966008,"Staff Software Engineer, GTM AI Engineering",engineering,0.1615,-0.0178,0.0
+SC3,5391012008,"Pre-Sales Program Lead, Forward Deployed Engineering",engineering,0.1541,-0.0127,0.0
+SC3,5391016008,Forward Deployed Engineer,engineering,0.1773,-0.0042,0.0
+SC3,5391021008,Forward Deployed Engineer,engineering,0.0481,-0.0958,0.0
+SC3,5391151008,"AI Operations Engineer, Partnerships",engineering,0.1714,-0.0038,0.0
+SC3,5391782008,"Manager, Corporate Network Engineering",engineering,0.1746,-0.0103,0.0
+SC3,5392335008,"Staff+ Software Engineer, Platform Ecosystem",engineering,0.1592,-0.018,1.9685
+SC3,5392856008,"DevOps / AgentOps Engineer, GTM Systems",engineering,0.164,-0.0222,0.0
+SC3,5394943008,"Staff+ Software Engineer, Product Sandboxing",engineering,0.1557,-0.0114,5.4054
+SC3,5394948008,"Staff+ Software Engineer, Platform Connectivity",engineering,0.1629,-0.0209,3.937
+SC3,5395767008,"Staff+ Software Engineer, Claude Managed Agents",engineering,0.1601,-0.0257,1.1601
+SC3,5396384008,"IT Systems Engineer, Mobile Client Platform Engineer",engineering,0.1887,-0.0129,0.0
+SC3,5396397008,IT Support Engineer,engineering,0.1331,-0.0015,1.5974
+SC3,5397005008,"Staff+ Software Engineer, Platform Distribution",engineering,0.1589,-0.0056,2.1834
+SC3,5397131008,"Staff+ Software Engineer, Platform Portability",engineering,0.1576,-0.0206,0.0
+SC3,5397319008,"Security Engineer, Corporate Security",engineering,0.1535,-0.0018,0.0
+SC3,5397596008,"Manufacturing Quality Engineer, Data Center Power & Cooling",engineering,0.1757,-0.0067,0.0
+SC3,5397654008,"Product Designer, Claude Developer Platform",engineering,0.1655,-0.0094,0.0
+SC3,5398218008,"Staff+ Software Engineer, Developer Experience",engineering,0.1514,-0.0187,0.0
+SC3,5398227008,"Staff+ Software Engineer, Auth & Identity",engineering,0.1616,0.0272,1.4903
+SC3,5399158008,Manufacturing Engineer - Data Center Hardware,engineering,0.1768,0.0034,0.0
+SC3,5399162008,Product Engineer - Manufacturing Operations,engineering,0.1726,-0.015,0.0
+SC3,5400153008,"Software Engineer, Business Technology",engineering,0.1593,-0.0144,6.4516
+SC3,5400160008,"Software Engineer, Business Technology",engineering,0.1583,-0.014,6.4516
+SC3,5404730008,"Staff+ Software Engineer, RL Data Platform",engineering,0.1636,-0.0082,0.0
+SC3,5405548008,"Engineering Manager, Hardware Platform Security",engineering,0.1606,0.005,0.0
+SC3,5406367008,Cyber Evaluations Engineer,engineering,0.1733,0.0079,0.0
+SC3,5409055008,"Director, Finance Systems - Revenue Systems Engineering",engineering,0.1708,0.0527,0.0
+SC3,5410610008,"Engineering Manager, Safeguards",engineering,0.158,0.0146,0.0
+SC3,5411267008,"Engineering Manager, Scheduler and Fleet Efficiency",engineering,0.1589,-0.011,0.0
+SC3,5411560008,"Engineering Manager, Inference Infrastructure",engineering,0.166,-0.017,0.0
+SC3,5412272008,"Staff Software Engineer, Observability & Profiling",engineering,0.1585,0.014,1.9048
+SC3,5412734008,"Staff+ Software Engineer, Claude Science",engineering,0.1612,-0.0048,0.0
+SC3,5413374008,Salesforce Developer,engineering,0.1619,0.0264,1.1933
+SC3,5413642008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,0.1601,0.0048,0.0
+SC3,5416059008,"TPM Manager, Infrastructure",engineering,0.1453,-0.0056,0.0
+SC3,5416709008,"Staff+ Site Reliability Engineer, Safeguards ML Infra",engineering,0.172,-0.0123,0.0
+SC3,5418323008,"Performance Engineer, Inference Engine",engineering,0.1728,0.0015,0.0
+SC3,5418402008,"Engineering Manager, Business Technology",engineering,0.1547,-0.0001,0.0
+SC3,5418610008,"Data Engineer, GTM",engineering,0.1668,0.0059,0.0
+SC3,5418977008,"Security Engineer, Offensive Security",engineering,0.1743,-0.0106,0.0
+SC3,5419868008,"Staff+ Software Engineer, ML Sampling Path",engineering,0.162,-0.015,0.0
+SC3,5419869008,"Staff+ Software Engineer, ML Inference Path",engineering,0.1906,0.0182,2.1978
+SC3,5420994008,"Salesforce Developer, Partnerships",engineering,0.1702,0.0254,2.2573
+SC3,5421263008,"Software Engineer, Tokens and Prompt Structures",engineering,0.1572,-0.0203,0.0
+SC3,5423029008,Forward Deployed Engineer,engineering,0.188,-0.0043,0.0
+SC3,5423737008,"IT Operations Engineer, Asset Management",engineering,0.1741,-0.0016,0.0
+SC3,5423931008,"Copywriter, Developer",engineering,0.1266,-0.0226,0.0
+SC3,5424111008,Recruiting Analytics Data Engineer,engineering,0.1763,0.02,0.0
+SC3,5424404008,"Staff+ Software Engineer, Distributed Systems",engineering,0.1676,0.0037,2.4814
+SC3,5426135008,"Engineering Manager, Data Infrastructure",engineering,0.1539,0.0033,0.0
+SC3,5427969008,"Compute & Infrastructure Counsel, Real Estate",engineering,0.1598,0.0249,0.0
+SC3,5428950008,"Staff+ Software Engineer, Storage + Transfer",engineering,0.1564,0.0077,0.0
+SC3,5429202008,"[DH] Engineering Manager, AI Observability",engineering,0.1597,-0.0097,0.0
+SC3,5431374008,Head of Business Technology Engineering,engineering,0.1511,-0.0247,0.0
+SC3,5432558008,Staff Software Engineer: Compute,engineering,0.1641,-0.0156,0.0
+SC3,5432575008,"Applied AI Engineer, Startups",engineering,0.1596,-0.004,0.0
+SC3,5432626008,"Staff Security Engineer, Detection & Response",engineering,0.1482,-0.0133,0.0
+SC3,5433813008,"Staff+ Software Engineer, Account Creation",engineering,0.1762,0.0041,0.0
+SC3,5433814008,"Staff+ Software Engineer, Access Programs",engineering,0.1595,0.0114,0.0
+SC3,5435282008,"Applied AI Engineer, DNB",engineering,0.162,-0.0074,0.0
+SC3,5435665008,"Senior+ Software Engineer, Legal Tech",engineering,0.1542,-0.001,0.0
+SC3,5436293008,"Staff+ Software Engineer, Account Abuse (Machine Learning)",engineering,0.179,0.013,0.0
+SC3,5436684008,"Staff + Sr. Software Engineer, Cloud Inference",engineering,0.1667,0.0084,0.0
+SC3,5436697008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,0.1697,0.0042,0.0
+SC3,5436703008,"Staff + Sr. Software Engineer, Scaling",engineering,0.1705,0.0058,0.0
+SC3,5437172008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,0.1552,0.0034,0.0
+SC3,5023394008,Anthropic AI Safety Fellow,fellows,0.1041,-0.1594,1.0764
+SC3,5030244008,Anthropic AI Security Fellow,fellows,0.0998,-0.1593,1.1779
+SC3,5183044008,"Anthropic Fellows Program, AI Safety & Security",fellows,0.1001,-0.1628,0.8905
+SC3,5183051008,"Anthropic Fellows Program, ML Systems & Reinforcement Learning",fellows,0.1129,-0.1178,1.1287
+SC3,5183052008,"Anthropic Fellows Program, Reinforcement Learning",fellows,0.1075,-0.1381,0.993
+SC3,5183053008,"Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",fellows,0.1091,-0.1187,1.3812
+SC3,5189848008,Anthropic STEM Fellow,fellows,0.1227,-0.0991,0.0
+SC0,4017331008,"Research Engineer, Knowledge Team",research,0.0528,0.0,0.0
+SC0,4017544008,"Staff+ Research Scientist, Multi-Agent",research,0.0522,0.0,0.0
+SC0,4532887008,"[Expression of Interest] Research Scientist / Engineer, Honesty",research,0.0296,0.0,0.0
+SC0,4593216008,"Staff Research Engineer, Discovery Team",research,0.0439,0.0,0.0
+SC0,4610158008,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",research,0.0583,0.0,0.0
+SC0,4613568008,"Research Engineer, Machine Learning (Reinforcement Learning)",research,0.0734,0.0,0.0
+SC0,4613592008,"Research Engineer, Production Model Post-Training",research,0.0364,0.0,0.0
+SC0,4616971008,"Research Engineer/Research Scientist, Pre-training",research,0.068,0.0,1.845
+SC0,4631822008,"Research Engineer / Scientist, Alignment",research,0.0513,0.0,0.0
+SC0,4669581008,"Research Engineer, Discovery",research,0.0471,0.0,0.0
+SC0,4935314008,"Recruiter, AI Research",research,0.06,0.0,0.0
+SC0,4938432008,"Research Engineer, Pretraining Scaling",research,0.0495,0.0,0.0
+SC0,4938436008,"Research Engineer, Pretraining Scaling - London",research,0.0493,0.0,0.0
+SC0,4946308008,"Research Engineer, Virtual Collaborator (Cowork)",research,0.0302,0.0,0.0
+SC0,4949108008,"Privacy Research Engineer, Safeguards",research,0.0478,0.0,0.0
+SC0,4949336008,"ML/Research Engineer, Safeguards",research,0.0424,0.0,0.0
+SC0,4951064008,"Research Engineer, Environment Scaling",research,0.032,0.0,0.0
+SC0,4951814008,"Research Engineer / Research Scientist, Tokens",research,0.0542,0.0,0.0
+SC0,4952051008,"Research Engineer, RL Engineering",research,0.0585,0.0,0.0
+SC0,4952079008,"Machine Learning Systems Engineer, Research Tools",research,0.0803,0.0,2.4155
+SC0,4980427008,"Research Scientist, Interpretability",research,0.0416,0.0,0.0
+SC0,4980430008,"Research Engineer, Interpretability",research,0.0488,0.0,0.0
+SC0,4980436008,"[Expression of Interest] Research Manager, Interpretability",research,0.0424,0.0,0.0
+SC0,4981828008,"Software Engineer, Research Tools",research,0.0642,0.0,3.231
+SC0,5018472008,"Research Economist, Economic Research",research,0.0382,0.0,0.0
+SC0,5024831008,"Research Engineer, Reward Models Platform",research,0.029,0.0,0.0
+SC0,5024835008,"Senior Research Scientist, Reward Models",research,0.0277,0.0,0.0
+SC0,5025624008,"Research Engineer, Cybersecurity RL (Reinforcement Learning)",research,0.0826,0.0,0.0
+SC0,5061517008,"Research Engineer, Universes",research,0.0469,0.0,0.0
+SC0,5066977008,"Research Scientist/Engineer, Biological Safety",research,0.0402,0.0,1.6393
+SC0,5067100008,"Research Engineer, Frontier Red Team (Autonomy)",research,0.0387,0.0,0.0
+SC0,5071132008,"Research Engineer, Economic Research",research,0.0612,0.0,0.0
+SC0,5074217008,"Research Engineer, Visual Knowledge Work",research,0.0364,0.0,0.0
+SC0,5074815008,"Research Engineer/Research Scientist, Audio",research,0.0452,0.0,0.0
+SC0,5076477008,"Research Engineer / Scientist, Frontier Red Team (Cyber)",research,0.0444,0.0,0.0
+SC0,5076606008,"Research Engineer / Scientist, Societal Impacts",research,0.0478,0.0,0.0
+SC0,5076616008,"Research Scientist, Societal Impacts",research,0.0424,0.0,0.0
+SC0,5096878008,"Research Product Manager, Labs",research,0.034,0.0,0.0
+SC0,5103788008,"Research Scientist, Frontier Red Team (Emerging Risks)",research,0.0367,0.0,1.9646
+SC0,5112018008,"Research Engineer, Production Model Post-Training",research,0.0364,0.0,0.0
+SC0,5115935008,"Research Engineer, Machine Learning (Reinforcement Learning)",research,0.0734,0.0,0.0
+SC0,5119713008,"Research Engineer, Pretraining",research,0.0681,0.0,1.8484
+SC0,5123011008,"Offensive Security Research Engineer, Safeguards",research,0.0818,0.0,0.0
+SC0,5123082008,"Product Management, Research",research,0.0715,0.0,5.0125
+SC0,5125083008,"Research Engineer, AI Observability",research,0.0584,0.0,0.0
+SC0,5126127008,"Research Engineer, Science of Scaling",research,0.0689,0.0,2.7027
+SC0,5135168008,"Research Engineer / Research Scientist, Pre-training",research,0.0627,0.0,2.1322
+SC0,5139654008,"Research Lead, Training Insights",research,0.045,0.0,0.0
+SC0,5149802008,"Transformative AI Research Economist, Economic Research",research,0.041,0.0,0.0
+SC0,5153680008,"Communications Manager, Research",research,0.0317,0.0,0.0
+SC0,5154112008,"Research Operations, Economic Research",research,0.0434,0.0,0.0
+SC0,5160330008,"Research Engineer, Performance RL",research,0.0492,0.0,0.0
+SC0,5174556008,User Experience Researcher,research,0.0433,0.0,0.0
+SC0,5188237008,"Research Operations, Discovery",research,0.0535,0.0,0.0
+SC0,5191226008,"Software Engineer, Research Data Platform",research,0.0579,0.0,0.0
+SC0,5191785008,"Research Engineer, Safeguards Labs",research,0.04,0.0,1.9569
+SC0,5197337008,"Research Engineer, RL Infrastructure and Reliability (Knowledge Work)",research,0.0412,0.0,0.0
+SC0,5198074008,"Research Engineer, Machine Learning (RL Velocity)",research,0.0699,0.0,0.0
+SC0,5198108008,"Research Engineer, Machine Learning (RL Velocity)",research,0.0699,0.0,0.0
+SC0,5198255008,"Research Engineer, Post-Training Model Evaluations",research,0.0362,0.0,0.0
+SC0,5203545008,"Technical Program Manager, Research",research,0.0428,0.0,0.0
+SC0,5206456008,"Research Engineer, Search and Knowledge Post-Training",research,0.0383,0.0,1.5601
+SC0,5207302008,"Contracts Manager, Research & Operations",research,0.0441,0.0,0.0
+SC0,5208278008,"Research Operations, External Artifacts",research,0.035,0.0,0.0
+SC0,5223093008,"Engineering Manager, Research Productivity",research,0.0559,0.0,0.0
+SC0,5231200008,"Regional Research Economist, Economic Research",research,0.052,0.0,0.0
+SC0,5231205008,"Regional Research Economist, Economic Research",research,0.052,0.0,0.0
+SC0,5231612008,"Research Engineer, Chip Design RL (Reinforcement Learning)",research,0.0582,0.0,0.0
+SC0,5239733008,"Research Scientist, Life Sciences",research,0.0444,0.0,1.7513
+SC0,5254364008,"Research Engineer, Code RL (Reinforcement Learning)",research,0.061,0.0,0.0
+SC0,5257763008,"People Research Scientist, Recruiting",research,0.0361,0.0,1.8484
+SC0,5264619008,"Research Engineer, RL Scaling Science",research,0.0484,0.0,0.0
+SC0,5265365008,"Research Engineer, Life Sciences",research,0.0786,0.0,3.268
+SC0,5271380008,"Research Engineer, Domain Scaling",research,0.0329,0.0,0.0
+SC0,5278065008,"Research Engineer, Rule of Law",research,0.0336,0.0,0.0
+SC0,5283063008,"Software Engineer, Research Infrastructure",research,0.0654,0.0,6.424
+SC0,5285246008,"Research Engineer, Computer Use",research,0.0477,0.0,0.0
+SC0,5285248008,"Research Associate, Biology",research,0.049,0.0,0.0
+SC0,5285250008,"Research Scientist, Life Sciences (Experimental Biology)",research,0.0522,0.0,2.331
+SC0,5286441008,"Researcher, Education Labs",research,0.0452,0.0,0.0
+SC0,5297059008,"Engineering Manager, Research Data Platform",research,0.0715,0.0,0.0
+SC0,5304242008,"Research Operations Lead, Biology",research,0.041,0.0,0.0
+SC0,5324349008,"Product Manager, Research (Code)",research,0.0715,0.0,5.1151
+SC0,5357739008,"Research Scientist, Life Sciences (Computational)",research,0.051,0.0,0.0
+SC0,5362838008,"People Research Scientist, Recruiting",research,0.0361,0.0,1.8484
+SC0,5364804008,"Machine Learning Infrastructure Engineer, Safeguards Research",research,0.0797,0.0,0.0
+SC0,5370669008,"Research Scientist, Takeoff Intel",research,0.0343,0.0,0.0
+SC0,5380327008,"Technical Program Manager, RL Research",research,0.0468,0.0,0.0
+SC0,5385217008,"Staff+ Researcher, Cybersecurity Products",research,0.0515,0.0,0.0
+SC0,5387564008,"Research Scientist, Life Sciences (Chemistry)",research,0.0538,0.0,2.7027
+SC0,5390811008,"Applied AI, Research Engineer",research,0.0749,0.0,0.0
+SC0,5392007008,"User Experience Researcher, Platform",research,0.048,0.0,1.4948
+SC0,5404725008,"Staff+ Research Engineer, RL Data Platform",research,0.0455,0.0,0.0
+SC0,5412334008,"Research Engineer, Cybersecurity RL (Reinforcement Learning)",research,0.0865,0.0,0.0
+SC0,5412944008,"Research Manager, Biological Safety",research,0.0459,0.0,0.0
+SC0,5413418008,Research Counsel,research,0.0513,0.0,0.0
+SC0,5415930008,"Research & Education Sales Lead, Beneficial Deployments",research,0.0797,0.0,0.0
+SC0,5416882008,"Research Engineer, Takeoff Intel",research,0.0424,0.0,0.0
+SC0,5422117008,"Research Operations, Reinforcement Learning",research,0.0481,0.0,0.0
+SC0,5431235008,"Policy Research, Strategic Advisory",research,0.043,0.0,1.3495
+SC0,https://job-boards.greenhouse.io/anthropic/jobs/4610158008%5C,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",research,0.0517,0.0,0.0
+SC0,4020350008,Performance Engineer,engineering,0.0494,0.0,0.0
+SC0,4502508008,Staff+ Application Security Engineer,engineering,0.074,0.0,0.0
+SC0,4572744008,"Staff Software Engineer, iOS",engineering,0.0768,0.0,0.0
+SC0,4595463008,"Security Software Engineer, Detection & Response Platform",engineering,0.0774,0.0,0.0
+SC0,4641822008,"Senior Software Engineer, Inference",engineering,0.0486,0.0,0.0
+SC0,4673416008,"Software Engineer, UI Platform",engineering,0.0602,0.0,0.0
+SC0,4720576008,TPU Kernel Engineer,engineering,0.0589,0.0,0.0
+SC0,4741102008,"Engineering Manager, Inference",engineering,0.0391,0.0,0.0
+SC0,4741104008,"Engineering Manager, GPU (ML Accelerator)",engineering,0.0488,0.0,0.0
+SC0,4778843008,"ML Infrastructure Engineer, Safeguards",engineering,0.0526,0.0,0.0
+SC0,4802076008,IT Support Engineer,engineering,0.0568,0.0,1.4903
+SC0,4887952008,"IT Systems Engineer, Corporate Systems & Infrastructure",engineering,0.0608,0.0,0.0
+SC0,4887959008,Senior Software Security Engineer,engineering,0.0419,0.0,0.0
+SC0,4889396008,"Engineering Manager, Auth & Identity",engineering,0.0945,0.0,0.0
+SC0,4899511008,"Staff Software Engineer, Android",engineering,0.0758,0.0,0.0
+SC0,4915842008,"Senior Software Engineer, Systems",engineering,0.0744,0.0,2.7473
+SC0,4926227008,"Performance Engineer, GPU",engineering,0.0395,0.0,0.0
+SC0,4926242008,"Software Engineer, ML Networking",engineering,0.1022,0.0,0.0
+SC0,4942024008,"Software Engineer, Beneficial Deployments",engineering,0.0791,0.0,0.0
+SC0,4951696008,"Staff + Sr. Software Engineer, Inference",engineering,0.0581,0.0,0.0
+SC0,4951844008,"Staff+ Software Engineer, Safeguards",engineering,0.083,0.0,0.0
+SC0,4956672008,Data Engineer,engineering,0.0666,0.0,0.0
+SC0,4970314008,"Staff+ Software Engineer, Infrastructure (Distributed Systems)",engineering,0.0832,0.0,7.177
+SC0,4973067008,Pre-training Data Infrastructure Engineer,engineering,0.0664,0.0,2.9499
+SC0,4980335008,"Engineering Manager, GRC Platform",engineering,0.0573,0.0,1.0684
+SC0,4980420008,"Software Engineer, Desktop",engineering,0.0632,0.0,0.0
+SC0,4982193008,"Security Engineer, Detection & Response",engineering,0.0547,0.0,0.0
+SC0,4982198008,"Software Engineer, Business Technology",engineering,0.0433,0.0,6.1728
+SC0,4985877008,"Forward Deployed Engineer, Applied AI",engineering,0.0996,0.0,0.0
+SC0,5012991008,Forward Deployed Engineer,engineering,0.1,0.0,0.0
+SC0,5013366008,"Engineering Manager, Safeguards Review Tooling",engineering,0.0781,0.0,0.0
+SC0,5013743008,"Technical Program Manager, Data Center Infrastructure",engineering,0.0538,0.0,0.0
+SC0,5014500008,Applied AI Engineer,engineering,0.0829,0.0,2.2026
+SC0,5017202008,"Software Engineer, Labs",engineering,0.0628,0.0,1.5432
+SC0,5021015008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,0.0576,0.0,0.0
+SC0,5022845008,Staff Software Security Engineer,engineering,0.086,0.0,0.0
+SC0,5025591008,"Software Engineer, Sandboxing (Systems)",engineering,0.0605,0.0,0.0
+SC0,5026097008,"Staff Software Engineer, Product",engineering,0.0536,0.0,0.0
+SC0,5030680008,"Infrastructure Engineer, Sandboxing",engineering,0.0657,0.0,0.0
+SC0,5055488008,Applied AI Engineer,engineering,0.0821,0.0,2.1739
+SC0,5057647008,"Applied AI Engineer, Enterprise Tech",engineering,0.0836,0.0,2.2173
+SC0,5062968008,"Technical Program Manager, Consumer Engineering",engineering,0.0636,0.0,0.0
+SC0,5063007008,"Staff+ Software Engineer, Cybersecurity Products",engineering,0.0878,0.0,0.0
+SC0,5065894008,"Staff+ Software Engineer, Claude App Infrastructure",engineering,0.0728,0.0,0.0
+SC0,5068226008,"Applied AI Engineer, Beneficial Deployments",engineering,0.1063,0.0,0.0
+SC0,5068288008,"Senior Security Engineer, Detection & Response",engineering,0.0533,0.0,0.0
+SC0,5068296008,"Engineering Manager, Detection and Response",engineering,0.0461,0.0,0.0
+SC0,5073277008,"Applied AI Engineer, Startups",engineering,0.0768,0.0,0.0
+SC0,5073998008,"Staff Software Engineer, Continuous Integration",engineering,0.0569,0.0,0.0
+SC0,5074908008,"Staff+ Software Engineer, Safeguards Infrastructure",engineering,0.0718,0.0,0.0
+SC0,5074937008,Threat Intelligence Engineer,engineering,0.0747,0.0,0.0
+SC0,5079562008,"Forward Deployed Engineer, Federal Civilian",engineering,0.073,0.0,0.0
+SC0,5083039008,"Software Engineer, Sandboxing",engineering,0.0585,0.0,0.0
+SC0,5097186008,"Full Stack Engineer, Education Labs",engineering,0.0543,0.0,1.3333
+SC0,5097742008,"Staff Software Engineer, Inference",engineering,0.0575,0.0,0.0
+SC0,5098025008,"Model Performance Software Engineer, Claude Code",engineering,0.061,0.0,0.0
+SC0,5098092008,"Software Engineering Manager, Network Security",engineering,0.0537,0.0,0.0
+SC0,5098565008,"Senior Full Stack Engineer, Education",engineering,0.0675,0.0,0.0
+SC0,5099753008,"Manager, Forward Deployed Engineering",engineering,0.0863,0.0,0.0
+SC0,5101169008,"Staff Software Engineer, AI Reliability Engineering",engineering,0.0547,0.0,0.0
+SC0,5101173008,"Staff Software Engineer, AI Reliability Engineering",engineering,0.0547,0.0,0.0
+SC0,5101923008,Integrations Developer,engineering,0.0634,0.0,0.0
+SC0,5102440008,"Staff+ Software Engineer, Observability",engineering,0.0545,0.0,1.9569
+SC0,5103078008,"Engineering Manager, Safeguards Data Infrastructure",engineering,0.0626,0.0,1.9646
+SC0,5105509008,"Security Engineer, Offensive Security",engineering,0.0666,0.0,0.0
+SC0,5107121008,"Prompt Engineer, Agent Prompts & Evals",engineering,0.0659,0.0,0.0
+SC0,5107466008,"Staff / Senior Software Engineer, Cloud Inference",engineering,0.0656,0.0,0.0
+SC0,5107890008,Data Center Controls Engineer,engineering,0.0554,0.0,0.0
+SC0,5108695008,"Technical Program Manager, Safeguards (Infrastructure & Evals)",engineering,0.0456,0.0,0.0
+SC0,5108982008,"Software Engineer, Compute Efficiency",engineering,0.0846,0.0,3.7037
+SC0,5109273008,"Software Engineer, Human Data Interface",engineering,0.078,0.0,0.0
+SC0,5110511008,"Staff+ Software Engineer, Developer Productivity",engineering,0.0607,0.0,2.2321
+SC0,5111745008,"Software Engineer, Inference Deployment",engineering,0.0709,0.0,0.0
+SC0,5111783008,"Technical Program Manager, Infrastructure",engineering,0.055,0.0,0.0
+SC0,5111942008,"Applied AI Engineer, Life Sciences (Beneficial Deployments)",engineering,0.0614,0.0,0.0
+SC0,5113224008,"Staff Software Engineer, AI Reliability",engineering,0.0544,0.0,0.0
+SC0,5113368008,Developer Community Lead - EMEA,engineering,0.0595,0.0,0.0
+SC0,5114768008,"Staff+ Software Engineer, Data Infrastructure",engineering,0.0566,0.0,0.0
+SC0,5116274008,Applied AI Engineer,engineering,0.0712,0.0,0.0
+SC0,5116525008,"Design Engineer, Web",engineering,0.0624,0.0,0.0
+SC0,5119468008,"Staff Software Engineer, People Products",engineering,0.0947,0.0,6.0
+SC0,5119478008,"Engineering Manager, People Products",engineering,0.0772,0.0,5.9761
+SC0,5120512008,Staff+ Software Security Engineer,engineering,0.0433,0.0,1.4265
+SC0,5121561008,"Forward Deployed Engineer, Applied AI",engineering,0.1,0.0,0.0
+SC0,5121563008,"Forward Deployed Engineer, Applied AI",engineering,0.0872,0.0,0.0
+SC0,5123039008,"Staff+ Software Engineer, Account Abuse",engineering,0.0925,0.0,0.0
+SC0,5123851008,Infrastructure Tax Lead,engineering,0.0444,0.0,0.0
+SC0,5125387008,"Analytics Data Engineering Manager, Product",engineering,0.0561,0.0,0.0
+SC0,5125881008,"Data Science Engineer, Capacity & Efficiency",engineering,0.0327,0.0,0.0
+SC0,5125912008,"Supply Chain Lead, Data Center Infrastructure",engineering,0.0614,0.0,0.0
+SC0,5126702008,"Staff / Senior Software Engineer, Compute Capacity",engineering,0.0568,0.0,0.0
+SC0,5126762008,Developer Education Lead,engineering,0.0593,0.0,1.4144
+SC0,5131038008,"Senior Engineer, Datacenter Server Lifecycle",engineering,0.0502,0.0,1.845
+SC0,5134895008,"Senior Staff Software Engineer, API",engineering,0.0601,0.0,0.0
+SC0,5135098008,"Security Engineer Lead, Corporate Security",engineering,0.058,0.0,1.1696
+SC0,5138099008,Engineering Editorial Lead,engineering,0.0368,0.0,0.0
+SC0,5139038008,"Staff Engineer, Datacenter Server Lifecycle",engineering,0.0578,0.0,0.0
+SC0,5140329008,Data Center Mechanical Engineer,engineering,0.0624,0.0,0.0
+SC0,5140492008,"Engineering Manager, Vertical AI Products",engineering,0.0759,0.0,0.0
+SC0,5141377008,"Engineering Manager, Cloud Inference AWS",engineering,0.0606,0.0,0.0
+SC0,5141849008,Incentive Compensation System Engineer,engineering,0.0566,0.0,0.0
+SC0,5146261008,"Software Engineer, Billing Platform",engineering,0.0786,0.0,0.0
+SC0,5146298008,"Staff Software Engineer, Billing Platform",engineering,0.0774,0.0,0.0
+SC0,5146363008,"Engineering Manager, Product Monetization (Billing Platform)",engineering,0.0468,0.0,0.0
+SC0,5150472008,"Staff Software Engineer, Inference",engineering,0.0591,0.0,0.0
+SC0,5151066008,"Senior Software Engineer, Databases",engineering,0.0481,0.0,0.0
+SC0,5151069008,"Staff+ Software Engineer, Databases",engineering,0.0492,0.0,0.0
+SC0,5152348008,"Sr. Software Engineer, Inference",engineering,0.0582,0.0,0.0
+SC0,5153564008,Security Labs Engineer,engineering,0.0573,0.0,0.0
+SC0,5155195008,Finance Systems Integration Engineer,engineering,0.0665,0.0,0.0
+SC0,5155391008,"Engineering Manager, Inference Routing and Performance",engineering,0.0552,0.0,1.9305
+SC0,5156057008,"Data Engineer, Safeguards",engineering,0.0507,0.0,1.8149
+SC0,5157844008,"Software Engineer, Platform",engineering,0.0688,0.0,1.1211
+SC0,5157847008,"Staff+ Software Engineer, Platform",engineering,0.0699,0.0,1.9268
+SC0,5159146008,"Staff+ Software Engineer, Privacy",engineering,0.0889,0.0,0.0
+SC0,5159608008,"Engineering Manager, Agent Prompts & Evals",engineering,0.0395,0.0,0.0
+SC0,5159642008,"Data Center Engineer, Resource Efficiency – Compute Supply",engineering,0.0552,0.0,0.0
+SC0,5159669008,"Prompt Engineer, Claude Code",engineering,0.0461,0.0,4.5351
+SC0,5161882008,"IT Systems Engineer, Enterprise SaaS",engineering,0.0543,0.0,0.0
+SC0,5168829008,"Software Engineer, Cloud Inference Safeguards",engineering,0.0673,0.0,1.2315
+SC0,5169670008,"Strategic Deals Lead, Compute & Infrastructure",engineering,0.0525,0.0,0.0
+SC0,5170073008,Staff Network Engineer,engineering,0.087,0.0,0.0
+SC0,5172245008,"Senior / Staff+ Software Engineer, Voice Platform",engineering,0.0481,0.0,0.0
+SC0,5174743008,"Senior Software Engineer, Full-stack",engineering,0.0683,0.0,0.0
+SC0,5174747008,"Staff+ Software Engineer, Full-stack",engineering,0.0676,0.0,0.0
+SC0,5174755008,"Staff+ Software Engineer, Backend",engineering,0.0682,0.0,1.032
+SC0,5174757008,"Software Engineer, Backend",engineering,0.0601,0.0,1.0627
+SC0,5177143008,"Network Engineer, Capacity and Efficiency",engineering,0.0558,0.0,0.0
+SC0,5183983008,"Manager of Forward Deployed Engineering, Applied AI",engineering,0.0438,0.0,0.0
+SC0,5186067008,"Full-Stack Software Engineer, Reinforcement Learning",engineering,0.0967,0.0,0.0
+SC0,5186518008,"Commercial Counsel, Compute & Infrastructure",engineering,0.053,0.0,0.0
+SC0,5186669008,"Finance Systems Engineer, Revenue",engineering,0.071,0.0,0.0
+SC0,5187486008,Data Center Electrical Engineer,engineering,0.0616,0.0,0.0
+SC0,5191433008,"Software Engineer, Safeguards Foundations (Internal Tooling)",engineering,0.0732,0.0,0.0
+SC0,5191638008,Cluster Deployment Engineer,engineering,0.0549,0.0,0.0
+SC0,5194021008,"Senior Manager, Infrastructure Accounting",engineering,0.0642,0.0,0.0
+SC0,5194827008,Field Services Engineer,engineering,0.0609,0.0,2.8169
+SC0,5195705008,Security Engineer - Threat Intel,engineering,0.0605,0.0,0.0
+SC0,5196219008,"Director, Infrastructure & Energy Accounting",engineering,0.0418,0.0,0.0
+SC0,5196221008,"Director, Infrastructure Capex Accounting",engineering,0.0755,0.0,0.0
+SC0,5196230008,"Senior Manager, Infrastructure Capex Accounting",engineering,0.0635,0.0,0.0
+SC0,5197529008,"Data Scientist, Developer Productivity",engineering,0.0714,0.0,0.0
+SC0,5197714008,"Senior Security Software Engineer, Linux Kernel Security - Nodes & Sensors",engineering,0.0592,0.0,0.0
+SC0,5203868008,"Staff+ Software Engineer, Node Infra",engineering,0.0552,0.0,0.0
+SC0,5204401008,Senior Staff Software Engineer,engineering,0.0825,0.0,0.0
+SC0,5205495008,Incident Response Manager - Product & Engineering,engineering,0.0488,0.0,1.8416
+SC0,5205704008,"Staff+ Software Engineer, Public Sector",engineering,0.1015,0.0,0.0
+SC0,5205894008,"Commercial Counsel, Infrastructure Security",engineering,0.0548,0.0,0.0
+SC0,5206492008,"Engineering Manager, Platform Foundations",engineering,0.0623,0.0,0.0
+SC0,5206978008,"Staff+ Infrastructure Engineer, Cluster Infrastructure",engineering,0.0523,0.0,0.0
+SC0,5208284008,IT Support Engineer,engineering,0.0774,0.0,1.5528
+SC0,5209776008,"Security Software Engineer, Platform Integration",engineering,0.082,0.0,0.0
+SC0,5210629008,"Engineering Manager, Passport",engineering,0.0616,0.0,0.0
+SC0,5210631008,"Engineering Manager, Marketplace",engineering,0.0546,0.0,0.0
+SC0,5211222008,GTM Engineer,engineering,0.1159,0.0,0.0
+SC0,5211241008,"Staff+ Software Engineer, Kubernetes Platform",engineering,0.0677,0.0,0.0
+SC0,5211297008,"Staff Infrastructure Engineer, Cluster Infrastructure",engineering,0.0523,0.0,0.0
+SC0,5211305008,"Staff Software Engineer, Kubernetes Platform",engineering,0.0692,0.0,0.0
+SC0,5211498008,"Staff Software Engineer, Node Infra",engineering,0.0562,0.0,0.0
+SC0,5215028008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,0.0659,0.0,0.0
+SC0,5218395008,"Software Engineer, Systems - Claude Code",engineering,0.0532,0.0,0.0
+SC0,5219454008,Staff Fiber Network Engineer,engineering,0.062,0.0,0.0
+SC0,5219486008,"[Pipeline] Software Engineer, Safeguards Labs",engineering,0.074,0.0,0.0
+SC0,5223916008,"Design Engineer, Web",engineering,0.0685,0.0,0.0
+SC0,5224564008,"Performance Engineer, Inference Systems",engineering,0.0586,0.0,0.0
+SC0,5227411008,Data Center Electrical Engineer,engineering,0.0618,0.0,0.0
+SC0,5227413008,Data Center Mechanical Engineer,engineering,0.0529,0.0,0.0
+SC0,5227415008,Data Center Electrical Engineer,engineering,0.0644,0.0,0.0
+SC0,5228463008,Support Engineer,engineering,0.0722,0.0,1.6474
+SC0,5229345008,"Staff Software Engineer, Claude Design",engineering,0.0586,0.0,1.2953
+SC0,5231496008,"Staff + Sr. Software Engineer, Cloud Inference",engineering,0.0707,0.0,0.0
+SC0,5234538008,"Director, Compute Infrastructure Procurement Operations",engineering,0.0467,0.0,0.0
+SC0,5236531008,"Engineering Manager, Cybersecurity Products",engineering,0.0591,0.0,0.0
+SC0,5236940008,IT Support Engineer,engineering,0.0776,0.0,1.5748
+SC0,5237762008,"Staff Software Engineer, Infrastructure Asset Systems",engineering,0.0649,0.0,0.0
+SC0,5238296008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,0.0603,0.0,0.0
+SC0,5238606008,"Software Engineer, RL Data",engineering,0.0669,0.0,0.0
+SC0,5238637008,"Product Engineer, Computer Use",engineering,0.0602,0.0,0.0
+SC0,5239391008,"Communications Lead, Infrastructure and Engineering",engineering,0.0384,0.0,0.0
+SC0,5240422008,"Data Engineer, Safeguards",engineering,0.0532,0.0,2.1978
+SC0,5245851008,"Staff + Senior Software Engineer, Inference Infrastructure",engineering,0.0552,0.0,0.0
+SC0,5248983008,Applied AI Engineer,engineering,0.0829,0.0,2.331
+SC0,5250052008,"Staff Security Engineer, Risk Engineering",engineering,0.0627,0.0,1.1779
+SC0,5250091008,"Staff+ Software Engineer, GRC Platform",engineering,0.0701,0.0,1.6207
+SC0,5251671008,"Software Engineer, Safeguards Evals",engineering,0.059,0.0,0.0
+SC0,5252342008,"Senior/Staff Security Engineer, Threat Intelligence",engineering,0.0573,0.0,0.0
+SC0,5253835008,"Senior Manager, Infrastructure Procurement Operations - Lease Administration",engineering,0.0456,0.0,0.0
+SC0,5254803008,"Staff+ Software Engineer, Developer Productivity",engineering,0.0607,0.0,2.2321
+SC0,5255853008,"IT Systems Engineer, Client Platform Engineer",engineering,0.0703,0.0,0.0
+SC0,5255912008,"Engineering Manager, Enterprise",engineering,0.0845,0.0,0.0
+SC0,5257650008,"Staff+ Software Engineer, Inference Velocity",engineering,0.0448,0.0,0.0
+SC0,5270442008,"Staff+ Software Engineer, Identity & Access Controls",engineering,0.0603,0.0,0.0
+SC0,5271346008,"Platform Security Engineer, OpenBMC",engineering,0.0688,0.0,0.0
+SC0,5274117008,"Legal Program Manager, Compute & Infrastructure",engineering,0.0604,0.0,0.0
+SC0,5277834008,"Manager, Applied AI Engineering,  Beneficial Deployments (Life Sciences)",engineering,0.0589,0.0,0.0
+SC0,5285557008,"Staff + Senior Software Engineer, Inference Deployment",engineering,0.055,0.0,0.0
+SC0,5286348008,Silicon Engineer,engineering,0.1179,0.0,0.0
+SC0,5287327008,"Salesforce Developer, Partnerships",engineering,0.0589,0.0,2.2222
+SC0,5287926008,"Manager, Web Engineering",engineering,0.0666,0.0,0.0
+SC0,5288742008,"Staff+ Software Engineer, Enterprise",engineering,0.0684,0.0,0.0
+SC0,5289450008,"Staff+ Software Engineer, Enterprise Knowledge Work",engineering,0.073,0.0,0.0
+SC0,5290360008,"Staff+ Software Engineer, Developer Acceleration",engineering,0.0678,0.0,0.0
+SC0,5290426008,"Platform Security Engineering, Operating Systems",engineering,0.0558,0.0,0.0
+SC0,5290468008,"Staff+ Software Engineer, Experimentation",engineering,0.0574,0.0,2.0921
+SC0,5301737008,"Staff+ Software Engineer, Caching",engineering,0.0775,0.0,0.0
+SC0,5301750008,"Staff+ Software Engineer, Databases",engineering,0.051,0.0,0.0
+SC0,5302966008,Forward Deployed Engineer,engineering,0.0996,0.0,0.0
+SC0,5304425008,"Staff Software Engineer, Labs: Applied AI",engineering,0.0712,0.0,1.3369
+SC0,5305402008,"Staff Software Engineer, Web Platform",engineering,0.0658,0.0,0.0
+SC0,5309805008,"Engineering Manager, Connectivity - London",engineering,0.07,0.0,0.0
+SC0,5309917008,"Staff Engineer, Datacenter Server Lifecycle",engineering,0.0578,0.0,0.0
+SC0,5310731008,"Staff+ Software Engineer, Capacity Engineering",engineering,0.0617,0.0,0.0
+SC0,5311463008,Staff+ Application Security Engineer  - M&A,engineering,0.0854,0.0,0.0
+SC0,5311465008,"Developer Education Lead, Claude Platform",engineering,0.0509,0.0,0.0
+SC0,5315789008,Finance Systems Integration Engineer,engineering,0.0665,0.0,0.0
+SC0,5316565008,"Offensive Hardware Security Engineer, Platform Security",engineering,0.0633,0.0,0.0
+SC0,5318977008,"Director, Infrastructure Supply Chain Accounting",engineering,0.067,0.0,0.0
+SC0,5320469008,"Red Team Engineer, Safeguards",engineering,0.0704,0.0,0.0
+SC0,5322723008,"Engineering Manager, Safeguards Interventions",engineering,0.0312,0.0,0.0
+SC0,5324758008,"Software Security Engineering Manager, Secure Frameworks",engineering,0.0562,0.0,0.0
+SC0,5325909008,"Staff+ Software Engineer, Payment Fraud",engineering,0.0723,0.0,0.0
+SC0,5342935008,"Staff+ Software Engineer, Safeguards Human Review Tooling",engineering,0.0882,0.0,0.0
+SC0,5354765008,"Applied AI Engineer, Enterprise",engineering,0.083,0.0,0.0
+SC0,5355526008,"Finance Systems Engineer, Revenue",engineering,0.071,0.0,0.0
+SC0,5357947008,"Finance Systems Engineer, Tax",engineering,0.0764,0.0,1.5432
+SC0,5357949008,"Senior Manager, Infrastructure Asset Accounting",engineering,0.0568,0.0,0.0
+SC0,5357951008,"Senior Manager, Infrastructure Lease Accounting",engineering,0.0698,0.0,0.0
+SC0,5357961008,"Manager, Infrastructure Capex Accounting",engineering,0.0732,0.0,0.0
+SC0,5358108008,"Strategic Deals Lead, Compute Infrastructure",engineering,0.0491,0.0,0.0
+SC0,5358116008,"Senior Manager, Infrastructure Tax",engineering,0.0489,0.0,0.0
+SC0,5361472008,"Engineering Manager, Growth",engineering,0.0638,0.0,0.0
+SC0,5363210008,"Senior Engineering Manager, Capacity Engineering",engineering,0.0466,0.0,0.0
+SC0,5363469008,"Staff Software Engineer, Growth",engineering,0.0834,0.0,0.0
+SC0,5364336008,Capital Markets - Infrastructure Financing,engineering,0.0468,0.0,5.2083
+SC0,5366138008,IT Support Engineer,engineering,0.0788,0.0,1.5873
+SC0,5367026008,"Technical Recruiter, Infrastructure",engineering,0.0983,0.0,4.3956
+SC0,5367436008,"Staff Software Engineer, Environments Infrastructure",engineering,0.0587,0.0,0.0
+SC0,5367585008,"Software Engineer, Desktop",engineering,0.0632,0.0,0.0
+SC0,5368034008,"Staff+ Software Engineer, Enterprise AI Products",engineering,0.0623,0.0,0.0
+SC0,5368166008,"Staff Software Engineer, GTM Systems",engineering,0.0539,0.0,0.0
+SC0,5368642008,"Staff+ Software Engineer, Account Compromise",engineering,0.0646,0.0,2.442
+SC0,5370555008,"IT Support Engineer, Executive Support",engineering,0.0454,0.0,0.0
+SC0,5370615008,"Technical Documentation and Content Engineer, Claude Docs",engineering,0.056,0.0,0.0
+SC0,5370690008,"Staff Software Engineer, Code RL",engineering,0.0613,0.0,0.0
+SC0,5371065008,"Engineering Manager, Search",engineering,0.0673,0.0,0.0
+SC0,5375371008,Data Center Electrical Engineer,engineering,0.0639,0.0,0.0
+SC0,5375376008,Data Center Mechanical Engineer,engineering,0.0511,0.0,0.0
+SC0,5382744008,"Infrastructure Capacity Planner, Demand Planning",engineering,0.0441,0.0,0.0
+SC0,5382750008,"AI Infrastructure Operations, Demand Planning",engineering,0.0496,0.0,0.0
+SC0,5383114008,"Staff+ Software Engineer, Privacy",engineering,0.0632,0.0,0.0
+SC0,5383596008,Developer Relations,engineering,0.0542,0.0,1.5898
+SC0,5383610008,"Staff Software Engineer, Claude Code",engineering,0.0632,0.0,0.0
+SC0,5385588008,AV Engineer,engineering,0.0765,0.0,0.0
+SC0,5385590008,AV Engineer,engineering,0.074,0.0,0.0
+SC0,5385634008,"Manager, Forward Deployed Engineering",engineering,0.0863,0.0,0.0
+SC0,5385764008,IT Support Engineer,engineering,0.0768,0.0,2.2222
+SC0,5385998008,"Staff + Senior Software Engineer, Inference",engineering,0.0554,0.0,0.0
+SC0,5386949008,IT Support Engineer,engineering,0.0764,0.0,1.5723
+SC0,5386971008,"Front End Engineer, Marketing",engineering,0.0657,0.0,0.0
+SC0,5387083008,"Staff Software Engineer, Infrastructure (Distributed Systems)",engineering,0.0833,0.0,5.1282
+SC0,5388612008,"Staff+ Software Engineer, Infrastructure, Interpretability",engineering,0.0681,0.0,0.0
+SC0,5389305008,"Software Engineer, Education",engineering,0.0734,0.0,0.0
+SC0,5390019008,"IT Support Engineer, Application Administrator",engineering,0.0524,0.0,0.0
+SC0,5390728008,"Finance Systems Engineer, Finance and Strategy",engineering,0.0752,0.0,0.0
+SC0,5390754008,"Applied AI Engineer, Enterprise",engineering,0.0956,0.0,0.0
+SC0,5390795008,"Applied AI Engineer, Enterprise",engineering,0.1003,0.0,0.0
+SC0,5390799008,Applied AI Engineer,engineering,0.0668,0.0,0.0
+SC0,5390966008,"Staff Software Engineer, GTM AI Engineering",engineering,0.1019,0.0,0.0
+SC0,5391012008,"Pre-Sales Program Lead, Forward Deployed Engineering",engineering,0.0844,0.0,0.0
+SC0,5391016008,Forward Deployed Engineer,engineering,0.1,0.0,0.0
+SC0,5391021008,Forward Deployed Engineer,engineering,0.0872,0.0,0.0
+SC0,5391151008,"AI Operations Engineer, Partnerships",engineering,0.0755,0.0,0.0
+SC0,5391782008,"Manager, Corporate Network Engineering",engineering,0.0564,0.0,0.0
+SC0,5392335008,"Staff+ Software Engineer, Platform Ecosystem",engineering,0.067,0.0,1.9685
+SC0,5392856008,"DevOps / AgentOps Engineer, GTM Systems",engineering,0.0464,0.0,0.0
+SC0,5394943008,"Staff+ Software Engineer, Product Sandboxing",engineering,0.0762,0.0,5.4054
+SC0,5394948008,"Staff+ Software Engineer, Platform Connectivity",engineering,0.0763,0.0,3.937
+SC0,5395767008,"Staff+ Software Engineer, Claude Managed Agents",engineering,0.0647,0.0,1.1601
+SC0,5396384008,"IT Systems Engineer, Mobile Client Platform Engineer",engineering,0.0503,0.0,0.0
+SC0,5396397008,IT Support Engineer,engineering,0.0774,0.0,1.5974
+SC0,5397005008,"Staff+ Software Engineer, Platform Distribution",engineering,0.0619,0.0,2.1834
+SC0,5397131008,"Staff+ Software Engineer, Platform Portability",engineering,0.0743,0.0,0.0
+SC0,5397319008,"Security Engineer, Corporate Security",engineering,0.0438,0.0,0.0
+SC0,5397596008,"Manufacturing Quality Engineer, Data Center Power & Cooling",engineering,0.0529,0.0,0.0
+SC0,5397654008,"Product Designer, Claude Developer Platform",engineering,0.0608,0.0,0.0
+SC0,5398218008,"Staff+ Software Engineer, Developer Experience",engineering,0.0562,0.0,0.0
+SC0,5398227008,"Staff+ Software Engineer, Auth & Identity",engineering,0.0707,0.0,1.4903
+SC0,5399158008,Manufacturing Engineer - Data Center Hardware,engineering,0.0781,0.0,0.0
+SC0,5399162008,Product Engineer - Manufacturing Operations,engineering,0.064,0.0,0.0
+SC0,5400153008,"Software Engineer, Business Technology",engineering,0.0433,0.0,6.4516
+SC0,5400160008,"Software Engineer, Business Technology",engineering,0.0433,0.0,6.4516
+SC0,5404730008,"Staff+ Software Engineer, RL Data Platform",engineering,0.0664,0.0,0.0
+SC0,5405548008,"Engineering Manager, Hardware Platform Security",engineering,0.0581,0.0,0.0
+SC0,5406367008,Cyber Evaluations Engineer,engineering,0.0485,0.0,0.0
+SC0,5409055008,"Director, Finance Systems - Revenue Systems Engineering",engineering,0.051,0.0,0.0
+SC0,5410610008,"Engineering Manager, Safeguards",engineering,0.0781,0.0,0.0
+SC0,5411267008,"Engineering Manager, Scheduler and Fleet Efficiency",engineering,0.0747,0.0,0.0
+SC0,5411560008,"Engineering Manager, Inference Infrastructure",engineering,0.0513,0.0,0.0
+SC0,5412272008,"Staff Software Engineer, Observability & Profiling",engineering,0.0501,0.0,1.9048
+SC0,5412734008,"Staff+ Software Engineer, Claude Science",engineering,0.0752,0.0,0.0
+SC0,5413374008,Salesforce Developer,engineering,0.0455,0.0,1.1933
+SC0,5413642008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,0.0583,0.0,0.0
+SC0,5416059008,"TPM Manager, Infrastructure",engineering,0.0547,0.0,0.0
+SC0,5416709008,"Staff+ Site Reliability Engineer, Safeguards ML Infra",engineering,0.0558,0.0,0.0
+SC0,5418323008,"Performance Engineer, Inference Engine",engineering,0.0657,0.0,0.0
+SC0,5418402008,"Engineering Manager, Business Technology",engineering,0.073,0.0,0.0
+SC0,5418610008,"Data Engineer, GTM",engineering,0.0416,0.0,0.0
+SC0,5418977008,"Security Engineer, Offensive Security",engineering,0.0666,0.0,0.0
+SC0,5419868008,"Staff+ Software Engineer, ML Sampling Path",engineering,0.0701,0.0,0.0
+SC0,5419869008,"Staff+ Software Engineer, ML Inference Path",engineering,0.0582,0.0,2.1978
+SC0,5420994008,"Salesforce Developer, Partnerships",engineering,0.0585,0.0,2.2573
+SC0,5421263008,"Software Engineer, Tokens and Prompt Structures",engineering,0.0504,0.0,0.0
+SC0,5423029008,Forward Deployed Engineer,engineering,0.1007,0.0,0.0
+SC0,5423737008,"IT Operations Engineer, Asset Management",engineering,0.0449,0.0,0.0
+SC0,5423931008,"Copywriter, Developer",engineering,0.0417,0.0,0.0
+SC0,5424111008,Recruiting Analytics Data Engineer,engineering,0.0495,0.0,0.0
+SC0,5424404008,"Staff+ Software Engineer, Distributed Systems",engineering,0.0762,0.0,2.4814
+SC0,5426135008,"Engineering Manager, Data Infrastructure",engineering,0.0497,0.0,0.0
+SC0,5427969008,"Compute & Infrastructure Counsel, Real Estate",engineering,0.0608,0.0,0.0
+SC0,5428950008,"Staff+ Software Engineer, Storage + Transfer",engineering,0.0655,0.0,0.0
+SC0,5429202008,"[DH] Engineering Manager, AI Observability",engineering,0.0595,0.0,0.0
+SC0,5431374008,Head of Business Technology Engineering,engineering,0.0748,0.0,0.0
+SC0,5432558008,Staff Software Engineer: Compute,engineering,0.0944,0.0,0.0
+SC0,5432575008,"Applied AI Engineer, Startups",engineering,0.0712,0.0,0.0
+SC0,5432626008,"Staff Security Engineer, Detection & Response",engineering,0.0542,0.0,0.0
+SC0,5433813008,"Staff+ Software Engineer, Account Creation",engineering,0.0945,0.0,0.0
+SC0,5433814008,"Staff+ Software Engineer, Access Programs",engineering,0.0985,0.0,0.0
+SC0,5435282008,"Applied AI Engineer, DNB",engineering,0.079,0.0,0.0
+SC0,5435665008,"Senior+ Software Engineer, Legal Tech",engineering,0.0668,0.0,0.0
+SC0,5436293008,"Staff+ Software Engineer, Account Abuse (Machine Learning)",engineering,0.0526,0.0,0.0
+SC0,5436684008,"Staff + Sr. Software Engineer, Cloud Inference",engineering,0.0759,0.0,0.0
+SC0,5436697008,"Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",engineering,0.0658,0.0,0.0
+SC0,5436703008,"Staff + Sr. Software Engineer, Scaling",engineering,0.0577,0.0,0.0
+SC0,5437172008,"Applied AI Engineer, Beneficial Deployments (Life Sciences)",engineering,0.0614,0.0,0.0
+SC0,5023394008,Anthropic AI Safety Fellow,fellows,-0.2081,0.0,1.0764
+SC0,5030244008,Anthropic AI Security Fellow,fellows,-0.1323,0.0,1.1779
+SC0,5183044008,"Anthropic Fellows Program, AI Safety & Security",fellows,-0.1756,0.0,0.8905
+SC0,5183051008,"Anthropic Fellows Program, ML Systems & Reinforcement Learning",fellows,-0.0784,0.0,1.1287
+SC0,5183052008,"Anthropic Fellows Program, Reinforcement Learning",fellows,-0.0813,0.0,0.993
+SC0,5183053008,"Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",fellows,0.0334,0.0,1.3812
+SC0,5189848008,Anthropic STEM Fellow,fellows,0.0489,0.0,0.0

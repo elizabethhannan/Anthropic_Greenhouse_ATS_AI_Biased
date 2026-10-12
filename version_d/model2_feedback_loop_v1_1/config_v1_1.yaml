@@ -1,0 +1,47 @@
+# Model 2 v1.1 — extension parameters.
+# Fixed on 2026-10-11 in v1_1_plan.md BEFORE any v1.1 run. Every v1.0 default
+# (config.yaml, unchanged copy) is inherited. Do not change values after seeing outputs.
+
+label: "SIMULATION — synthetic applicants; not Anthropic data"
+version: "1.1"
+base_version: "1.0"
+v1_0_results: "../model2_feedback_loop/outputs/model2_results.json"
+
+runs_default: 200          # X1, X2, X4, X5 and the regression check
+runs_x3: 100               # boosted screener
+runs_reduced: 100          # X1, X2, X4, X5 drop to this if the pilot projects > target
+runtime_target_minutes: 30
+pilot_runs: 5
+
+x1:
+  w: [0, 0.25, 0.5, 0.75]
+  scenarios: [S1, S2]
+  calibrations: [C1, C2]
+x2:
+  eps: [0.01, 0.05]
+  scenarios: [S1, S2]
+  calibrations: [C2]
+x3:
+  scenarios: [S0, S1, S2]
+  interventions: [I1, I2]   # on S2
+  calibrations: [C1, C2]
+  perm_subsample: 2000
+  perm_repeats: 5
+x4:
+  lam: [0, 0.3, 0.6]
+  arms: [S2, I1, I2]
+  calibrations: [C2]
+x5:
+  scenarios: [S1, S2]
+  calibrations: [C1, C2]
+
+power:
+  applicants: [250, 500, 1000, 2000, 5000, 10000]
+  pool_share: [0.203, 0.30]
+  true_ir: [0.97, 0.86, 0.80, 0.62, 0.60]
+  screen_pass: 0.10
+  interview_pass: 0.20
+  replicates: 2000
+  alpha: 0.05
+  target_power: 0.80
+  seed: 20261011

@@ -1,0 +1,36 @@
+{
+  "run_date": "2026-10-11",
+  "pilot": {
+    "pilot_runs_per_config": 5,
+    "projected_minutes_full": 36.2,
+    "projected_minutes_reduced": 32.8,
+    "projected_minutes_by_part_full": {
+      "REG": 3.16,
+      "X1": 3.08,
+      "X2": 0.65,
+      "X3": 22.15,
+      "X4": 1.52,
+      "X5": 1.6,
+      "P1": 4.04
+    }
+  },
+  "runs_used": {
+    "regression": 200,
+    "default": 100,
+    "x3": 100
+  },
+  "timings_minutes": {
+    "REG": 1.84,
+    "X1": 1.19,
+    "X2": 0.28,
+    "X3": 20.26,
+    "X4": 0.68,
+    "X5": 0.69,
+    "P1": 2.6,
+    "total": 28.92
+  },
+  "cpu_count": 2,
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1"
+}
