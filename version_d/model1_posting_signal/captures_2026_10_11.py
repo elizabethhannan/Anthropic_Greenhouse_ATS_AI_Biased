@@ -136,9 +136,9 @@ def name_found(name: str, text_words: str) -> bool:
     return bool(toks) and (" " + " ".join(toks) + " ") in (" " + text_words + " ")
 
 
-def redact(chunks: list[dict], people: set) -> list[dict]:
-    """Never print a chunk that contains any token of a known person's name."""
-    tokens = {t for p in people for t in re.findall(r"[a-z]+", p.lower()) if len(t) > 2}
+def redact(chunks: list[dict], people: set, unreviewed: set = frozenset()) -> list[dict]:
+    """Never print a chunk that contains any token of a known person's name or of an unreviewed name-like phrase."""
+    tokens = {t for p in set(people) | set(unreviewed) for t in re.findall(r"[a-z]+", p.lower()) if len(t) > 2}
     safe = []
     for c in chunks:
         joined = f" {c['removed']} {c['added']} "
@@ -146,6 +146,29 @@ def redact(chunks: list[dict], people: set) -> list[dict]:
         safe.append({"op": c["op"], "removed": "[redacted]" if hit else c["removed"],
                      "added": "[redacted]" if hit else c["added"]})
     return safe
+
+
+NAME_LIKE = re.compile(r"\b([A-Z][a-z\u00e0-\u00ff]+(?:-[A-Z][a-z]+)?)\s+([A-Z][a-z\u00e0-\u00ff]+(?:-[A-Z][a-z]+)?"
+                       r"(?:\s+[A-Z][a-z\u00e0-\u00ff]+)?)\b")
+REVIEW = CAP / "names_review.json"
+
+
+def name_candidates(raw: str, known: set) -> set:
+    """Capitalized two- and three-word phrases left after every known person's full name is masked out.
+    Masking full names (not single tokens) means a new person who shares a first or last name with a
+    known person is still flagged. Anything left is a new person or a heading/product/place/title,
+    and must be reviewed."""
+    text = re.sub(r"\s+", " ", fix_pdf_glyphs(description(raw)))
+    for p in sorted(known, key=len, reverse=True):
+        toks = re.findall(r"[A-Za-z0-9À-ÿ]+", fix_pdf_glyphs(p))
+        if toks:
+            text = re.sub(r"(?<![A-Za-z])" + r"\W+".join(map(re.escape, toks)) + r"(?![A-Za-z])", " | ", text,
+                          flags=re.IGNORECASE)
+    return {m.group(0) for m in NAME_LIKE.finditer(text)}
+
+
+def reviewed_not_names() -> set:
+    return set(json.loads(REVIEW.read_text(encoding="utf-8"))["not_person_names"]) if REVIEW.exists() else set()
 
 
 def form_facts(raw: str) -> dict:
@@ -194,7 +217,11 @@ def main() -> dict:
             raise RuntimeError(f"checksum mismatch: {f['file']}")
     latest = load_latest_versions()
     people = private_people()
-    all_people = set().union(*people.values()) if people else set()
+    if not latest or not people:
+        raise SystemExit("captures_2026_10_11: the Model 1 corpus (outputs/corpus/) or the private named-people list "
+                         "(outputs/private/) is missing. Both are git-ignored; rebuild them first. Nothing was written.")
+    all_people = set().union(*people.values())
+    not_names = reviewed_not_names()
 
     postings, new_versions, new_postings = [], 0, 0
     for f in manifest["files"]:
@@ -204,6 +231,8 @@ def main() -> dict:
         raw = (CAP / f["text_file"]).read_text(encoding="utf-8")
         entry = {"title": title, "posting_id": f["posting_id"], "pdf_created": f["pdf_created"],
                  "fellows": "fellow" in title.lower(), **form_facts(raw)}
+        unreviewed = name_candidates(raw, all_people) - not_names
+        entry["unreviewed_name_candidates"] = len(unreviewed)
         prev = latest.get(f["posting_id"]) if f["posting_id"] else None
         if prev is None:
             entry["status"] = "new posting (not in the Sept 29 corpus)"
@@ -214,7 +243,7 @@ def main() -> dict:
             entry["compared_with"] = prev["captured"]
             entry["similarity"] = round(ratio, 3)
             entry["status"] = "changed (new version)" if ch else "unchanged"
-            entry["changes"] = redact(ch, all_people)
+            entry["changes"] = redact(ch, all_people, unreviewed)
             new_versions += bool(ch)
         if entry["fellows"]:
             tw = " ".join(words(description(raw)))
@@ -249,10 +278,13 @@ def main() -> dict:
             "fellows_posting_versions_before": KNOWN_FELLOWS_VERSIONS,
             "fellows_posting_versions_after": KNOWN_FELLOWS_VERSIONS + fellows_new_versions,
             "distinct_named_people_before": KNOWN_NAMED_PEOPLE,
-            "new_named_people": 0 if not any(c["added"] == "[redacted]" or c["removed"] == "[redacted]"
-                                             for p in postings for c in p["changes"]) else None,
-            "new_named_people_note": ("No changed text contains a name; the one new posting (Conceptual Reasoning "
-                                      "Fellow) was read in full and names no one."),
+            "unreviewed_name_candidates": sum(p["unreviewed_name_candidates"] for p in postings),
+            "new_named_people": (0 if sum(p["unreviewed_name_candidates"] for p in postings) == 0
+                                 else "needs review"),
+            "new_named_people_note": ("Every capitalized two- or three-word phrase on the captured postings is either a "
+                                      "known person or listed in captures/2026-10-11/names_review.json as reviewed and "
+                                      "not a person's name." if sum(p["unreviewed_name_candidates"] for p in postings) == 0
+                                      else "Some name-like phrases are not yet reviewed; see unreviewed_name_candidates."),
             "non_fellows_postings_naming_people": sum(1 for p in postings if not p["fellows"] and p["names_people"]),
             "forms_with_self_identification_survey": [p["title"] for p in postings if p["self_identification_survey"]],
             "forms_without_self_identification_survey": [p["title"] for p in postings
@@ -293,7 +325,7 @@ def write_md(r: dict) -> None:
 ## Summary
 
 - Postings compared: {s['postings_compared']} — unchanged {s['unchanged']}, changed (new version) {s['changed_new_version']}, new {s['new_postings']}.
-- Fellows posting versions: {s['fellows_posting_versions_before']} → {s['fellows_posting_versions_after']}. Distinct named people: {s['distinct_named_people_before']}, no new names (every Fellows page names the same people as its September 29 version).
+- Fellows posting versions: {s['fellows_posting_versions_before']} → {s['fellows_posting_versions_after']}. Distinct named people before: {s['distinct_named_people_before']}. New named people: {s['new_named_people']} ({s['new_named_people_note']})
 - Non-Fellows postings naming people: {s['non_fellows_postings_naming_people']}. The new Conceptual Reasoning Fellow page names no one.
 - Application route: {', '.join(s['constellation_route']) or 'none'} → Constellation partner form; all others → Greenhouse form.
 - Voluntary self-identification survey (gender, Hispanic/Latino, race and ethnicity, veteran status, "for government reporting purposes"): present on {len(s['forms_with_self_identification_survey'])} forms ({'; '.join(s['forms_with_self_identification_survey'])}); absent on {len(s['forms_without_self_identification_survey'])} ({'; '.join(s['forms_without_self_identification_survey'])}). The Constellation form itself was not captured. This describes the forms only, not how any data is stored or used.
@@ -306,7 +338,9 @@ def write_md(r: dict) -> None:
 ## Method
 
 - Word-level comparison after restoring dropped ligatures (for example "o#ers" → "offers"), removing the saved page's header and job-alert lines, and ignoring chunks that repeat text found elsewhere on the page (page-break duplicates). A chunk of three or more words that remains is a real change.
-- Named people are matched against the private list by full name; only counts leave the private folder, and any change chunk containing a name token is redacted.
+- Named people are matched against the private list by full name; only counts leave the private folder, and any change chunk containing a known-name token or an unreviewed name-like phrase is redacted.
+- New names: every capitalized two- or three-word phrase that is not a known person must appear in `captures/2026-10-11/names_review.json` (reviewed, not a person's name); otherwise the count reads "needs review", never zero.
+- The script refuses to run, and writes nothing, when the git-ignored corpus or private list is missing.
 
 ## APA 7
 

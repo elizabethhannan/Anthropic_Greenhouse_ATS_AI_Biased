@@ -5,7 +5,7 @@
 ## Summary
 
 - Postings compared: 6 — unchanged 2, changed (new version) 3, new 1.
-- Fellows posting versions: 9 → 13. Distinct named people: 50, no new names (every Fellows page names the same people as its September 29 version).
+- Fellows posting versions: 9 → 13. Distinct named people before: 50. New named people: 0 (Every capitalized two- or three-word phrase on the captured postings is either a known person or listed in captures/2026-10-11/names_review.json as reviewed and not a person's name.)
 - Non-Fellows postings naming people: 0. The new Conceptual Reasoning Fellow page names no one.
 - Application route: Anthropic Fellows Program, AI Safety & Security → Constellation partner form; all others → Greenhouse form.
 - Voluntary self-identification survey (gender, Hispanic/Latino, race and ethnicity, veteran status, "for government reporting purposes"): present on 3 forms (Head of Technical Training; Conceptual Reasoning Fellow; Head of Policy Design, Societal Harms); absent on 3 (Anthropic Fellows Program, ML Systems & Reinforcement Learning; Anthropic Fellows Program, AI Safety & Security; Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)). The Constellation form itself was not captured. This describes the forms only, not how any data is stored or used.
@@ -28,7 +28,9 @@ Conceptual Reasoning Fellow (1147 words after boilerplate removal): raw 5.23 mas
 ## Method
 
 - Word-level comparison after restoring dropped ligatures (for example "o#ers" → "offers"), removing the saved page's header and job-alert lines, and ignoring chunks that repeat text found elsewhere on the page (page-break duplicates). A chunk of three or more words that remains is a real change.
-- Named people are matched against the private list by full name; only counts leave the private folder, and any change chunk containing a name token is redacted.
+- Named people are matched against the private list by full name; only counts leave the private folder, and any change chunk containing a known-name token or an unreviewed name-like phrase is redacted.
+- New names: every capitalized two- or three-word phrase that is not a known person must appear in `captures/2026-10-11/names_review.json` (reviewed, not a person's name); otherwise the count reads "needs review", never zero.
+- The script refuses to run, and writes nothing, when the git-ignored corpus or private list is missing.
 
 ## APA 7
 
