@@ -59,3 +59,17 @@ python -m pytest -q --junitxml=outputs/tests/pytest_model1.xml && python write_d
 Gaucher, D., Friesen, J., & Kay, A. C. (2011). Evidence that gendered wording in job advertisements exists and sustains gender inequality. *Journal of Personality and Social Psychology, 101*(1), 109–128.
 
 Matfield, K. (n.d.). *Gender decoder for job ads* [Computer software]. GitHub. https://github.com/lovedaybrooke/gender-decoder
+
+## Data addendum: captures of October 11, 2026
+
+Elizabeth's October 11 captures (`captures/2026-10-11/`: PDFs, extracted text, SHA-256 manifest) are compared with the September 29 corpus by `captures_2026_10_11.py` → [`outputs/captures_2026-10-11_update.md`](outputs/captures_2026-10-11_update.md). This is an addendum; the pre-registered results are not re-run.
+
+- **Fellows posting versions** rose from 9 to 13: three pages changed (an October 18 deadline was added; the interview steps changed on two pages), and the Conceptual Reasoning Fellow is new.
+- **No new named people:** still 50, and no non-Fellows posting names anyone.
+- **Application routes:** AI Safety & Security fellowship applications go through the Constellation partner form.
+- **Self-identification survey:** the Conceptual Reasoning Fellow and both Head-of forms carry it (gender, race and ethnicity, veteran status); the three Fellows Program forms captured do not.
+
+```bash
+python captures_2026_10_11.py          # needs the local corpus and the private list (both git-ignored)
+python -m pytest -q tests/test_captures_2026_10_11.py
+```

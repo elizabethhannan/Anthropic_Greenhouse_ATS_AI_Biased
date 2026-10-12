@@ -1,0 +1,369 @@
+  Back to jobs
+
+
+
+Anthropic Fellows Program, ML
+Systems & Reinforcement Learning                                                    Apply
+
+   London, UK; Ontario, CAN; Remote-Friendly, United States; San
+   Francisco, CA
+
+
+
+About Anthropic
+
+Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want
+AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly
+growing group of committed researchers, engineers, policy experts, and business leaders
+working together to build beneficial AI systems.
+
+
+
+Anthropic Fellows Program overview
+The Anthropic Fellows Program is designed to foster AI research and engineering talent.
+We provide funding and mentorship to promising technical talent - regardless of previous
+experience.
+
+Fellows will primarily use external infrastructure (e.g. open-source models, public APIs) to
+work on an empirical project aligned with our research priorities, with the goal of
+producing a public output (e.g. a paper submission). In one of our earlier cohorts, over
+80% of fellows produced papers. We run multiple cohorts of Fellows each year and review
+applications on a rolling basis.
+
+Apply at the bottom of this page. We are accepting applications on a rolling basis for the
+next cohort expected to start in January 2027. In some circumstances, we can
+accommodate fellows starting outside the usual cohort timelines — please note in your
+application if the January 2027 start date doesn't work for you.
+What to expect
+
+     4 months of full-time research
+     Direct mentorship from Anthropic researchers
+     Access to a shared workspace
+     Connection to the broader AI safety and security research community
+     Weekly stipend of 3,850 USD / 2,310 GBP / 4,300 CAD + benefits (these vary by
+     country)
+     Funding for compute (~$15k/month) and other research expenses
+
+
+Interview process
+
+The interview process will include an initial application, assessments, and interviews. We
+may ask for references later in the process as well.
+
+We encourage you to apply even if you do not believe you meet every single
+qualification. Not all strong candidates will meet every single qualification as listed.
+Research shows that people who identify as being from underrepresented groups are more
+prone to experiencing imposter syndrome and doubting the strength of their candidacy,
+so we urge you not to exclude yourself prematurely and to submit an application if you're
+interested in this work. We think AI systems like the ones we're building have enormous
+social and ethical implications. We think this makes representation even more important,
+and we strive to include a range of diverse perspectives on our team.
+
+
+Compensation
+
+The expected base stipend for this role is 3,850 USD / 2,310 GBP / 4,300 CAD per week,
+with an expectation of 40 hours per week for 4 months (with possible extension).
+
+
+ML Systems & Performance Fellows
+Mentors, research areas, & past projects
+
+Fellows will undergo a project selection & mentor matching process. Potential mentors
+include:
+     Alwin Peng
+     Zygi Straznickas
+
+Note: You may research mentors' prior work, but all applications must go through the
+o!cial form, not the mentors.
+
+For a past example of an engineering-heavy project, see:
+
+     AI agents find $4.6M in blockchain smart contract exploits
+
+Projects in this workstream may include:
+
+     Building a CPU simulator for accelerator workloads
+     Adding backends for di#erent accelerators on an open source project
+     Building on demand infrastructure for other infrastructure heavy fellows projects
+     Building complex synthetic data or environment pipelines
+
+
+Unique candidate criteria
+
+You might be a particularly great fit for this workstream if you:
+
+     Have strong software engineering skills with experience building complex ML
+     systems
+     Can balance research exploration with engineering rigor and operational reliability
+     Enjoy collaborating across research and engineering disciplines
+     Are comfortable working with large-scale distributed systems and high-
+     performance computing (e.g. in trading)
+     Have experience with training, fine-tuning, or evaluating large language models
+     Are adept at analyzing and debugging model training processes
+
+
+You may be a good fit if you
+
+     Are motivated by making sure AI is safe and beneficial for society as a whole
+     Are excited to transition into empirical AI research and would be interested in a full-
+     time role at Anthropic
+     Have a strong technical background in computer science, mathematics, or physics
+     Thrive in fast-paced, collaborative environments
+     Can implement ideas quickly and communicate clearly
+Candidates must be
+
+     Fluent in Python programming
+     Available to work full-time on the Fellows program
+
+
+Reinforcement Learning Fellows
+Mentors, research areas, & past projects
+
+Fellows will undergo a project selection & mentor matching process. Potential research
+areas and mentors include:
+
+     Ruhua Jiang
+     Kaidi Cao
+     Sunny Duan
+     David Brandfonbrener
+     Colt Steele
+     Dino Distefano
+     Will Williams
+
+Projects in this workstream may include:
+
+     Building model-based tools to better understand AI training data and improve
+     training data quality
+     A research project to better understand generalization
+     Creating RL environments to improve Claude models at capabilities that are within
+     your domain of expertise
+     Building RL environments for safety-related tasks
+     Conducting research and implementing solutions in areas such as RL algorithms
+
+
+Unique candidate criteria
+
+You might be a particularly great fit for this workstream if you:
+
+     Have strong software engineering skills with experience building complex ML
+     systems
+     Can balance research exploration with engineering rigor and operational reliability
+     Enjoy collaborating across research and engineering disciplines
+     Are comfortable working with large-scale distributed systems and high-
+     performance computing
+     Have experience with training, fine-tuning, or evaluating large language models
+     Are adept at analyzing and debugging model training processes
+
+
+Logistics
+Logistics Requirements: To participate in the Fellows program, you must have work
+authorization in the US, UK, or Canada and be located in that country during the program.
+
+Workspace Locations: We have designated shared workspaces in SF. We are also open to
+remote fellows in the UK, US, or Canada
+                                 Canada.
+
+Visa Sponsorship: We are not currently able to sponsor visas for fellows. To participate in
+the Fellows program, you need to have or independently obtain full-time work
+authorization in the UK, the US, or Canada.
+
+Program Duration: The program runs for 4 months, full-time. If you can't commit to the
+full duration, please still apply and note your constraints in the application. We review
+these requests on a case-by-case basis.
+
+Please note: We do not guarantee that we will make any full-time o#ers to fellows.
+However, strong performance during the program may indicate that a Fellow would be a
+good fit for full-time roles at Anthropic. In previous cohorts, 25-50% of fellows received a
+full-time o#er, and we’ve supported many more to go on to do great work on AI safety and
+security at other organizations.
+
+The below are Anthropic's policies for full time roles. These do NOT apply to the Fellows
+Program.
+
+
+
+Logistics
+
+Minimum education: Bachelor’s degree or an equivalent combination of education,
+training, and/or experience
+
+Required field of study: A field relevant to the role as demonstrated through coursework,
+
+training, or professional experience
+Minimum years of experience: Years of experience required will correlate with the
+internal job level requirements for the position
+
+Location-based hybrid policy: Currently, we expect all sta# to be in one of our o$ces at
+least 25% of the time. However, some roles may require more time in our o$ces.
+
+Visa sponsorship: We do sponsor visas! However, we aren't able to successfully sponsor
+visas for every role and every candidate. But if we make you an o#er, we will make every
+reasonable e#ort to get you a visa, and we retain an immigration lawyer to help with this.
+
+We encourage you to apply even if you do not believe you meet every single
+qualification. Not all strong candidates will meet every single qualification as listed.
+Research shows that people who identify as being from underrepresented groups are more
+prone to experiencing imposter syndrome and doubting the strength of their candidacy,
+so we urge you not to exclude yourself prematurely and to submit an application if you're
+interested in this work. We think AI systems like the ones we're building have enormous
+social and ethical implications. We think this makes representation even more important,
+and we strive to include a range of diverse perspectives on our team.
+
+
+Your safety matters to us. To protect yourself from potential scams, remember that
+Anthropic recruiters only contact you from @anthropic.com email addresses. In some
+cases, we may partner with vetted recruiting agencies who will identify themselves as
+working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate
+Anthropic recruiters will never ask for money, fees, or banking information before your
+first day. If you're ever unsure about a communication, don't click any links—
+visit anthropic.com/careers directly for confirmed position openings.
+
+
+How we're di!erent
+
+We believe that the highest-impact AI research will be big science. At Anthropic we work
+as a single cohesive team on just a few large-scale research e#orts. And we value impact —
+advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller
+and more specific puzzles. We view AI research as an empirical science, which has as
+much in common with physics and biology as with traditional e#orts in computer science.
+We're an extremely collaborative group, and we host frequent research discussions to
+ensure that we are pursuing the highest-impact work at any given time. As such, we
+greatly value communication skills.
+The easiest way to understand our research directions is to read our recent research. This
+research continues many of the directions our team worked on prior to Anthropic,
+including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &
+Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.
+
+
+Come work with us!
+
+Anthropic is a public benefit corporation headquartered in San Francisco. We o#er
+competitive compensation and benefits, optional equity donation matching, generous
+vacation and parental leave, flexible working hours, and a lovely o$ce space in which to
+collaborate with colleagues. Guidance on Candidates' AI Usage: Learn about our policy
+for using AI in our application process.
+
+
+
+          Create a Job Alert
+          Interested in building your career at Anthropic? Get future opportunities sent
+          straight to your email.
+          Create alert
+
+
+
+
+Apply for this job
+* indicates a required field
+
+
+
+  First Name *
+
+
+
+
+  Last Name *
+
+
+
+
+  Email *
+
+
+
+
+  Country                  Phone
+
+
+
+
+Resume/CV *
+                     Attach
+
+
+                   Dropbox
+
+
+                Google Drive
+
+
+               Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+
+
+
+  Do you meet the requirements in the "Logistics - Fellows Program" section above? *
+  Select...
+
+
+  Have you applied to the Fellows program before? *
+  Select...
+
+
+  Have you ever interviewed at Anthropic before? *
+  Select...
+
+
+  LinkedIn
+
+
+
+
+  Website
+
+
+
+
+  Publications (e.g. Google Scholar) URL
+
+
+
+
+  GitHub URL
+
+
+
+
+  AI Policy for Application *
+  Select...
+   We believe that AI will have a transformative impact on the world, and we’re seeking
+   exceptional candidates who collaborate thoughtfully with Claude to realize this vision. At
+ the same time, we want to understand your unique skills, expertise, and perspective
+ through our hiring process. We invite you to review our AI partnership guidelines for
+ candidates and confirm your understanding by selecting “Yes.”
+
+
+
+
+Why Anthropic? *
+
+
+
+
+    Why do you want to participate in the Fellows program? (We value this response highly - great
+    answers are often 200-400 words.)
+
+
+
+
+Additional Information
+
+
+
+
+Add notable accomplishments or anything else you want to share here.
+
+
+
+
+                                                                            Submit application
+
+
+
+
+                                   Powered by
+

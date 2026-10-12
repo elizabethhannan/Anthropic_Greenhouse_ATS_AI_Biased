@@ -1,0 +1,87 @@
+{
+  "captured_by": "Elizabeth Hannan (Safari, Save as PDF)",
+  "capture_date": "2026-10-11",
+  "text_extraction": "pdftotext -layout (poppler)",
+  "files": [
+    {
+      "file": "job_board_listing_ai_research_engineering_p1.pdf",
+      "text_file": "job_board_listing_ai_research_engineering_p1.txt",
+      "original_upload_name": "Jobs_at_Anthropic_fellowships_1.pdf",
+      "title": "Job board listing, AI Research & Engineering, page 1",
+      "posting_id": null,
+      "pdf_created": "Sun Oct 11 21:15:26 2026 MST",
+      "sha256_pdf": "8ad7fe5b56c50deeb09f0b99710a26a41a2e17619f582c7a8783b51fe91b30a0",
+      "sha256_text": "04dce289adad5c62d7e4bf636a651085378c78fcef21a61ef0659e654f709933"
+    },
+    {
+      "file": "head_technical_training_5415529008.pdf",
+      "text_file": "head_technical_training_5415529008.txt",
+      "original_upload_name": "Job_anthropic_Application_for_Head_of_Technical_Training_at_Anthropic.pdf",
+      "title": "Head of Technical Training",
+      "posting_id": "5415529008",
+      "pdf_created": "Sun Oct 11 20:51:25 2026 MST",
+      "sha256_pdf": "e2a68e0ac6b2d51c1290c81f065caa77063fc98d032b1873dc9cfd0e2136e40a",
+      "sha256_text": "a627c476c817aa3f85cc0fe7c9914cbe85daaab8e9bf253ccfbf2ce97388dc92"
+    },
+    {
+      "file": "fellows_ml_systems_rl_5183051008.pdf",
+      "text_file": "fellows_ml_systems_rl_5183051008.txt",
+      "original_upload_name": "Job_Application_for_Anthropic_Fellows_Program_ML_Systems__Reinforcement_Learning_at_Anthropic_10_11_2026.pdf",
+      "title": "Anthropic Fellows Program, ML Systems & Reinforcement Learning",
+      "posting_id": "5183051008",
+      "pdf_created": "Sun Oct 11 21:29:01 2026 MST",
+      "sha256_pdf": "19df371642f56dbba1eaea23079821b7bc355d0f38839744a6181caef57e240c",
+      "sha256_text": "de6164dfa8d18ee80502021d1038401670aa71c2cd4c509f98306707a6947625"
+    },
+    {
+      "file": "anthropic_institute_announcement.pdf",
+      "text_file": "anthropic_institute_announcement.txt",
+      "original_upload_name": "anthropic_bias_Introducing_The_Anthropic_Institute__Anthropic.pdf",
+      "title": "Introducing The Anthropic Institute (announcement, Mar 11, 2026)",
+      "posting_id": null,
+      "pdf_created": "Sun Oct 11 21:09:56 2026 MST",
+      "sha256_pdf": "ed12fc5c03c7196666e40447011993917db94aecd59a4e67a572b7f1e416a62f",
+      "sha256_text": "272383699276386570de06bd9afb2aae54d125557eca59352aea936610731381"
+    },
+    {
+      "file": "conceptual_reasoning_fellow.pdf",
+      "text_file": "conceptual_reasoning_fellow.txt",
+      "original_upload_name": "Job_Application_for_Conceptual_Reasoning_Fellow_at_Anthropic_10_10_2026.pdf",
+      "title": "Conceptual Reasoning Fellow",
+      "posting_id": null,
+      "pdf_created": "Sun Oct 11 21:29:41 2026 MST",
+      "sha256_pdf": "cc8484ebcd31e18f516990ffcb2615361c6d571a5f1d16e3dcc54e5f8dae026f",
+      "sha256_text": "67cabc19ab95635855dda1da1d3f90ad80649989e6cb3de0cf753bd3818e489e"
+    },
+    {
+      "file": "fellows_ai_safety_security_5183044008.pdf",
+      "text_file": "fellows_ai_safety_security_5183044008.txt",
+      "original_upload_name": "Job_Application_for_Anthropic_Fellows_Program_AI_Safety__Security_at_Anthropic_10_10_26.pdf",
+      "title": "Anthropic Fellows Program, AI Safety & Security",
+      "posting_id": "5183044008",
+      "pdf_created": "Sun Oct 11 21:28:33 2026 MST",
+      "sha256_pdf": "66ba22bf9e18c3b09a7b184c9cbb4d97c7ee2fecb7d3aab4fd9de09ed0841b41",
+      "sha256_text": "078c9135c6180d73c872206ca8aca4553c1b71fa9b3b342de845bb28b19c5086"
+    },
+    {
+      "file": "fellows_institute_econ_policy_5183053008.pdf",
+      "text_file": "fellows_institute_econ_policy_5183053008.txt",
+      "original_upload_name": "Job_Application_for_Anthropic_Fellows_Program_The_Anthropic_Institute_Economics__Policy_at_Anthropic10_10_26_.pdf",
+      "title": "Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",
+      "posting_id": "5183053008",
+      "pdf_created": "Sun Oct 11 21:29:17 2026 MST",
+      "sha256_pdf": "975b1a0f100ad8d6b7cefa72854231b1aef992fae2d757de49e18cbf84909898",
+      "sha256_text": "14ad63d39b3faf60d6b2c1cc0b2159e9b32c0ae74e414140a02c70bff819b53d"
+    },
+    {
+      "file": "head_policy_design_societal_harms_5407418008.pdf",
+      "text_file": "head_policy_design_societal_harms_5407418008.txt",
+      "original_upload_name": "Job_Application_for_Head_of_Policy_Design_Societal_Harms_at_Anthropic_10_10_26.pdf",
+      "title": "Head of Policy Design, Societal Harms",
+      "posting_id": "5407418008",
+      "pdf_created": "Sun Oct 11 21:32:22 2026 MST",
+      "sha256_pdf": "e6a00e84b45c2f3d39cdf7e54f29f2b9d4a532422e5dd64a2dd94269e52dcb24",
+      "sha256_text": "33fd166c309ba844f5dbb7ee8e7cf99e192fed3cb73c6ec732d51b13dd992e3d"
+    }
+  ]
+}

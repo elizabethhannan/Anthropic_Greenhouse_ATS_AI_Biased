@@ -1,0 +1,235 @@
+{
+  "label": "OBSERVED MEASUREMENT — posting text and application forms; describes wording, not intent",
+  "addendum_to": "outputs/model1_results.json (pre-registered results are not re-run)",
+  "capture_date": "2026-10-11",
+  "files": [
+    {
+      "file": "job_board_listing_ai_research_engineering_p1.pdf",
+      "title": "Job board listing, AI Research & Engineering, page 1",
+      "pdf_created": "Sun Oct 11 21:15:26 2026 MST",
+      "sha256_pdf": "8ad7fe5b56c50deeb09f0b99710a26a41a2e17619f582c7a8783b51fe91b30a0"
+    },
+    {
+      "file": "head_technical_training_5415529008.pdf",
+      "title": "Head of Technical Training",
+      "pdf_created": "Sun Oct 11 20:51:25 2026 MST",
+      "sha256_pdf": "e2a68e0ac6b2d51c1290c81f065caa77063fc98d032b1873dc9cfd0e2136e40a"
+    },
+    {
+      "file": "fellows_ml_systems_rl_5183051008.pdf",
+      "title": "Anthropic Fellows Program, ML Systems & Reinforcement Learning",
+      "pdf_created": "Sun Oct 11 21:29:01 2026 MST",
+      "sha256_pdf": "19df371642f56dbba1eaea23079821b7bc355d0f38839744a6181caef57e240c"
+    },
+    {
+      "file": "anthropic_institute_announcement.pdf",
+      "title": "Introducing The Anthropic Institute (announcement, Mar 11, 2026)",
+      "pdf_created": "Sun Oct 11 21:09:56 2026 MST",
+      "sha256_pdf": "ed12fc5c03c7196666e40447011993917db94aecd59a4e67a572b7f1e416a62f"
+    },
+    {
+      "file": "conceptual_reasoning_fellow.pdf",
+      "title": "Conceptual Reasoning Fellow",
+      "pdf_created": "Sun Oct 11 21:29:41 2026 MST",
+      "sha256_pdf": "cc8484ebcd31e18f516990ffcb2615361c6d571a5f1d16e3dcc54e5f8dae026f"
+    },
+    {
+      "file": "fellows_ai_safety_security_5183044008.pdf",
+      "title": "Anthropic Fellows Program, AI Safety & Security",
+      "pdf_created": "Sun Oct 11 21:28:33 2026 MST",
+      "sha256_pdf": "66ba22bf9e18c3b09a7b184c9cbb4d97c7ee2fecb7d3aab4fd9de09ed0841b41"
+    },
+    {
+      "file": "fellows_institute_econ_policy_5183053008.pdf",
+      "title": "Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",
+      "pdf_created": "Sun Oct 11 21:29:17 2026 MST",
+      "sha256_pdf": "975b1a0f100ad8d6b7cefa72854231b1aef992fae2d757de49e18cbf84909898"
+    },
+    {
+      "file": "head_policy_design_societal_harms_5407418008.pdf",
+      "title": "Head of Policy Design, Societal Harms",
+      "pdf_created": "Sun Oct 11 21:32:22 2026 MST",
+      "sha256_pdf": "e6a00e84b45c2f3d39cdf7e54f29f2b9d4a532422e5dd64a2dd94269e52dcb24"
+    }
+  ],
+  "postings": [
+    {
+      "title": "Head of Technical Training",
+      "posting_id": "5415529008",
+      "pdf_created": "Sun Oct 11 20:51:25 2026 MST",
+      "fellows": false,
+      "application_route": "Greenhouse form",
+      "self_identification_survey": true,
+      "survey_fields": [
+        "Gender",
+        "Hispanic/Latino",
+        "Race & Ethnicity",
+        "Veteran Status"
+      ],
+      "ai_policy_question": true,
+      "names_people": false,
+      "compared_with": "2026-09-29",
+      "similarity": 0.995,
+      "status": "unchanged",
+      "changes": []
+    },
+    {
+      "title": "Anthropic Fellows Program, ML Systems & Reinforcement Learning",
+      "posting_id": "5183051008",
+      "pdf_created": "Sun Oct 11 21:29:01 2026 MST",
+      "fellows": true,
+      "application_route": "Greenhouse form",
+      "self_identification_survey": false,
+      "survey_fields": [],
+      "ai_policy_question": true,
+      "names_people": true,
+      "compared_with": "2026-09-29",
+      "similarity": 0.993,
+      "status": "changed (new version)",
+      "changes": [
+        {
+          "op": "delete",
+          "removed": "reference check technical",
+          "added": ""
+        },
+        {
+          "op": "replace",
+          "removed": "and a research discussion",
+          "added": "we may ask for references later in the process as well"
+        }
+      ],
+      "named_people_found": 9,
+      "named_people_in_sep29_version": 9
+    },
+    {
+      "title": "Conceptual Reasoning Fellow",
+      "posting_id": null,
+      "pdf_created": "Sun Oct 11 21:29:41 2026 MST",
+      "fellows": true,
+      "application_route": "Greenhouse form",
+      "self_identification_survey": true,
+      "survey_fields": [
+        "Gender",
+        "Hispanic/Latino",
+        "Race & Ethnicity",
+        "Veteran Status"
+      ],
+      "ai_policy_question": true,
+      "names_people": false,
+      "status": "new posting (not in the Sept 29 corpus)",
+      "changes": [],
+      "named_people_found": 0,
+      "lexicon": {
+        "n_words_clean": 1147,
+        "raw": {
+          "masc_per_1k": 5.23,
+          "fem_per_1k": 7.85,
+          "label": "feminine-coded"
+        },
+        "sense_filtered": {
+          "masc_per_1k": 0.87,
+          "fem_per_1k": 2.62,
+          "label": "feminine-coded"
+        }
+      }
+    },
+    {
+      "title": "Anthropic Fellows Program, AI Safety & Security",
+      "posting_id": "5183044008",
+      "pdf_created": "Sun Oct 11 21:28:33 2026 MST",
+      "fellows": true,
+      "application_route": "Constellation partner form",
+      "self_identification_survey": false,
+      "survey_fields": [],
+      "ai_policy_question": false,
+      "names_people": true,
+      "compared_with": "2026-09-29",
+      "similarity": 0.991,
+      "status": "changed (new version)",
+      "changes": [
+        {
+          "op": "insert",
+          "removed": "",
+          "added": "by october 18"
+        },
+        {
+          "op": "insert",
+          "removed": "",
+          "added": "by october 18"
+        }
+      ],
+      "named_people_found": 30,
+      "named_people_in_sep29_version": 30
+    },
+    {
+      "title": "Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",
+      "posting_id": "5183053008",
+      "pdf_created": "Sun Oct 11 21:29:17 2026 MST",
+      "fellows": true,
+      "application_route": "Greenhouse form",
+      "self_identification_survey": false,
+      "survey_fields": [],
+      "ai_policy_question": true,
+      "names_people": true,
+      "compared_with": "2026-09-29",
+      "similarity": 0.992,
+      "status": "changed (new version)",
+      "changes": [
+        {
+          "op": "replace",
+          "removed": "and a research discussion",
+          "added": "we may ask for references later in the process as well"
+        }
+      ],
+      "named_people_found": 12,
+      "named_people_in_sep29_version": 12
+    },
+    {
+      "title": "Head of Policy Design, Societal Harms",
+      "posting_id": "5407418008",
+      "pdf_created": "Sun Oct 11 21:32:22 2026 MST",
+      "fellows": false,
+      "application_route": "Greenhouse form",
+      "self_identification_survey": true,
+      "survey_fields": [
+        "Gender",
+        "Hispanic/Latino",
+        "Race & Ethnicity",
+        "Veteran Status"
+      ],
+      "ai_policy_question": true,
+      "names_people": false,
+      "compared_with": "2026-09-29",
+      "similarity": 0.993,
+      "status": "unchanged",
+      "changes": []
+    }
+  ],
+  "summary": {
+    "postings_compared": 6,
+    "unchanged": 2,
+    "changed_new_version": 3,
+    "new_postings": 1,
+    "fellows_posting_versions_before": 9,
+    "fellows_posting_versions_after": 13,
+    "distinct_named_people_before": 50,
+    "new_named_people": 0,
+    "new_named_people_note": "No changed text contains a name; the one new posting (Conceptual Reasoning Fellow) was read in full and names no one.",
+    "non_fellows_postings_naming_people": 0,
+    "forms_with_self_identification_survey": [
+      "Head of Technical Training",
+      "Conceptual Reasoning Fellow",
+      "Head of Policy Design, Societal Harms"
+    ],
+    "forms_without_self_identification_survey": [
+      "Anthropic Fellows Program, ML Systems & Reinforcement Learning",
+      "Anthropic Fellows Program, AI Safety & Security",
+      "Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)"
+    ],
+    "constellation_route": [
+      "Anthropic Fellows Program, AI Safety & Security"
+    ],
+    "corpus_available": true,
+    "private_list_available": true
+  }
+}
