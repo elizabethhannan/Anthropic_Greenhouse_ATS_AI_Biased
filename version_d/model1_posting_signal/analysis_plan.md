@@ -124,6 +124,7 @@ Precision per stem = trait-sense labels ÷ labels. **Fixed rule:** the sense-fil
 | 2026-10-11 | Both label sets were produced by Claude subagents with the written rubrics (one rater each; the convergent rater was blind to lexicon labels). | No second human rater available; single-rater limitation reported |
 | 2026-10-11 | Gender coding by Claude subagents using web search under the public self-identification rule; three known codes were re-verified by direct fetch; two personal pages could not be fetched, so those people stay Unknown. Code "nonbinary" was allowed (none found). | Scale (50 people) |
 | 2026-10-11 | Added a bootstrap 95% CI for κ and Wilson CIs for audit precision and Model 1b coverage. | Reporting only; every finding needs an interval |
+| 2026-10-11 | Data addendum after results: Elizabeth's October 11 captures compared with the September 29 corpus (`captures_2026_10_11.py`). Pre-registered tests not re-run; the new Conceptual Reasoning Fellow posting is scored for information only. | New public captures arrived after the analysis; keeping them separate preserves the pre-registered results |
 
 ## References (APA 7)
 

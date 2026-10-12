@@ -106,6 +106,8 @@ Full results: [`model3_results.json`](version_d/model3_resume_audit/outputs/mode
 <img src="version_d/model1_posting_signal/outputs/figures/f2_named_people_by_version.png" alt="Stacked bars of people named in each Fellows posting version: mostly men among those with public self-identification, many Unknown; counts only, no names" width="100%">
 </p>
 
+- **Data addendum (Elizabeth's October 11, 2026 captures):** Fellows posting versions rose from 9 to 13 with no new named people. AI Safety & Security fellowship applications go through an outside partner (Constellation). The application forms for two full-time roles and the new Conceptual Reasoning Fellow carry a voluntary self-identification survey (gender, race and ethnicity, veteran status); the three Fellows Program forms captured do not. [Addendum](version_d/model1_posting_signal/outputs/captures_2026-10-11_update.md).
+
 Full results: [`model1_results.json`](version_d/model1_posting_signal/outputs/model1_results.json) · [model card](version_d/model1_posting_signal/outputs/model_card.md) · [methods appendix](version_d/model1_posting_signal/outputs/methods_appendix.md) · [pre-registration](version_d/model1_posting_signal/analysis_plan.md).
 
 ## Analytical status
